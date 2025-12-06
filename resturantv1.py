@@ -24,6 +24,15 @@ import matplotlib.pyplot as plt
 
 pd.set_option("display.float_format", lambda x: f"{x:,.2f}")
 
+# Import adjustText for smart label positioning (prevents overlapping labels)
+try:
+    from adjustText import adjust_text
+    ADJUST_TEXT_AVAILABLE = True
+except ImportError:
+    ADJUST_TEXT_AVAILABLE = False
+    print("⚠️  WARNING: adjustText not installed. Menu engineering labels may overlap.")
+    print("   Install with: pip install adjustText")
+
 # Provide a safe `display()` for non-interactive runs (falls back to print)
 try:
     from IPython.display import display  # type: ignore
@@ -78,6 +87,9 @@ CONFIG = {
     "scenario_price_decrease_puzzles": -0.10,  # -10% puzzles
     "scenario_mains_price_increase": 0.05,     # +5% mains
     "scenario_cost_inflation": 0.05,           # +5% ingredient costs
+    
+    # Category matching keywords (flexible for different client data)
+    "mains_category_keywords": ["Main"],       # Matches "Mains", "Main Dishes", "Main Courses", etc.
 
     # Demo / report meta
     "period_label": "Jan–Dec 2024",
@@ -402,6 +414,7 @@ def generate_synthetic_waste(menu_df: pd.DataFrame) -> pd.DataFrame:
     - More waste on perishable mains/desserts.
     - Less on drinks.
     - Realistic annual waste: 4-6% of revenue
+    - Added variance to prevent identical waste amounts
     """
     df = menu_df[["item_id", "category", "cost_per_unit"]].copy()
     # Realistic waste rates targeting 4-5% of revenue (annual totals)
@@ -414,6 +427,11 @@ def generate_synthetic_waste(menu_df: pd.DataFrame) -> pd.DataFrame:
     }
     lam = df["category"].map(lam_map).fillna(100)
     df["waste_qty"] = np.random.poisson(lam=lam)
+    
+    # Add item-level variance (±15%) to prevent identical amounts
+    variance = np.random.uniform(0.85, 1.15, size=len(df))
+    df["waste_qty"] = (df["waste_qty"] * variance).round().astype(int)
+    
     df["waste_qty"] = df["waste_qty"].clip(lower=0)
     df["waste_cost"] = df["waste_qty"] * df["cost_per_unit"]
     return df[["item_id", "waste_qty", "waste_cost"]]
@@ -691,6 +709,170 @@ def load_client_waste(config: dict,
 # *** OLD MODULE-LEVEL DATA LOADING CODE REMOVED ***
 # Data loading now happens exclusively within run_full_analysis_v2(data_source=...)
 # This ensures that callers can choose "synthetic" vs "client" mode dynamically.
+
+# %% [markdown]
+# ## 4.5. Data Validation
+#
+# Validates client data quality before analysis to catch common issues early.
+
+
+# %%
+def validate_client_data(menu_df: pd.DataFrame, 
+                        orders_df: pd.DataFrame, 
+                        waste_df: pd.DataFrame = None,
+                        config: dict = None) -> dict:
+    """
+    Validates client data for common issues that would break analysis or produce incorrect results.
+    
+    Returns:
+        {
+            "valid": bool,
+            "errors": [list of critical issues that prevent analysis],
+            "warnings": [list of issues that may affect quality but won't break],
+            "summary": {dict of key metrics}
+        }
+    """
+    errors = []
+    warnings = []
+    summary = {}
+    
+    # --- MENU VALIDATION ---
+    if menu_df is None or menu_df.empty:
+        errors.append("CRITICAL: menu_df is empty or None")
+        return {"valid": False, "errors": errors, "warnings": warnings, "summary": summary}
+    
+    # Required columns
+    required_menu_cols = ["item_id", "item_name", "category", "sell_price"]
+    missing_cols = [col for col in required_menu_cols if col not in menu_df.columns]
+    if missing_cols:
+        errors.append(f"CRITICAL: Menu missing required columns: {missing_cols}")
+    
+    # Check for cost data
+    if "cost_per_unit" not in menu_df.columns and "cost_pct" not in menu_df.columns:
+        warnings.append("WARNING: No cost data (cost_per_unit or cost_pct) - GP calculations will be inaccurate")
+    
+    # Category validation
+    null_categories = menu_df["category"].isna().sum()
+    if null_categories > 0:
+        errors.append(f"CRITICAL: {null_categories} menu items have null/empty category")
+    
+    empty_categories = (menu_df["category"].astype(str).str.strip() == "").sum()
+    if empty_categories > 0:
+        errors.append(f"CRITICAL: {empty_categories} menu items have empty category")
+    
+    # Price validation
+    if "sell_price" in menu_df.columns:
+        zero_price = (menu_df["sell_price"] <= 0).sum()
+        if zero_price > 0:
+            warnings.append(f"WARNING: {zero_price} items have zero or negative price")
+        
+        summary["menu_items"] = len(menu_df)
+        summary["avg_price"] = menu_df["sell_price"].mean()
+        summary["price_range"] = f"{menu_df['sell_price'].min():.2f} - {menu_df['sell_price'].max():.2f}"
+    
+    # Cost validation (if present)
+    if "cost_per_unit" in menu_df.columns:
+        negative_gp = ((menu_df["cost_per_unit"] > menu_df["sell_price"]) & 
+                       (menu_df["sell_price"] > 0)).sum()
+        if negative_gp > 0:
+            warnings.append(f"WARNING: {negative_gp} items have cost > price (negative GP)")
+    
+    # Duplicate item names
+    duplicates = menu_df["item_name"].duplicated().sum()
+    if duplicates > 0:
+        warnings.append(f"WARNING: {duplicates} duplicate item names found")
+    
+    # --- ORDERS VALIDATION ---
+    if orders_df is None or orders_df.empty:
+        errors.append("CRITICAL: orders_df is empty or None")
+        return {"valid": False, "errors": errors, "warnings": warnings, "summary": summary}
+    
+    # Required columns
+    required_order_cols = ["order_datetime", "item_id", "qty"]
+    missing_order_cols = [col for col in required_order_cols if col not in orders_df.columns]
+    if missing_order_cols:
+        errors.append(f"CRITICAL: Orders missing required columns: {missing_order_cols}")
+    
+    # Order volume check
+    order_count = len(orders_df)
+    summary["total_orders"] = order_count
+    if order_count < 100:
+        warnings.append(f"WARNING: Only {order_count} orders - need 100+ for meaningful analysis")
+    elif order_count < 500:
+        warnings.append(f"INFO: {order_count} orders - recommend 500+ for robust insights")
+    
+    # Date validation
+    if "order_datetime" in orders_df.columns:
+        try:
+            orders_dt = pd.to_datetime(orders_df["order_datetime"], errors='coerce')
+            null_dates = orders_dt.isna().sum()
+            if null_dates > 0:
+                warnings.append(f"WARNING: {null_dates} orders have invalid dates")
+            
+            if null_dates < len(orders_df):
+                summary["date_range"] = f"{orders_dt.min()} to {orders_dt.max()}"
+                days_span = (orders_dt.max() - orders_dt.min()).days
+                summary["days_of_data"] = days_span
+                if days_span < 30:
+                    warnings.append(f"WARNING: Only {days_span} days of data - recommend 30+ days")
+        except Exception as e:
+            errors.append(f"CRITICAL: Cannot parse order_datetime: {e}")
+    
+    # Quantity validation
+    if "qty" in orders_df.columns:
+        negative_qty = (orders_df["qty"] < 0).sum()
+        if negative_qty > 0:
+            warnings.append(f"WARNING: {negative_qty} orders with negative quantity (returns?)")
+        
+        zero_qty = (orders_df["qty"] == 0).sum()
+        if zero_qty > 0:
+            warnings.append(f"WARNING: {zero_qty} orders with zero quantity")
+    
+    # Item_id matching
+    if "item_id" in orders_df.columns and "item_id" in menu_df.columns:
+        order_items = set(orders_df["item_id"].unique())
+        menu_items = set(menu_df["item_id"].unique())
+        orphan_orders = order_items - menu_items
+        if orphan_orders:
+            orphan_count = orders_df[orders_df["item_id"].isin(orphan_orders)].shape[0]
+            warnings.append(f"WARNING: {len(orphan_orders)} item_ids in orders not found in menu ({orphan_count} order lines)")
+    
+    # --- WASTE VALIDATION (if provided) ---
+    if waste_df is not None and not waste_df.empty:
+        summary["has_waste_data"] = True
+        if "waste_cost" in waste_df.columns:
+            total_waste = waste_df["waste_cost"].sum()
+            summary["total_waste"] = f"{total_waste:,.2f}"
+    else:
+        summary["has_waste_data"] = False
+        warnings.append("INFO: No waste data provided - analysis will use waste=0")
+    
+    # --- CATEGORY VALIDATION ---
+    if "category" in menu_df.columns:
+        categories = menu_df["category"].dropna().unique()
+        summary["categories"] = list(categories)
+        summary["category_count"] = len(categories)
+        
+        # Check for mains category match
+        if config:
+            mains_keywords = config.get("mains_category_keywords", ["Main"])
+            pattern = "|".join([k.strip() for k in mains_keywords if k.strip()])
+            mains_match = menu_df["category"].astype(str).str.contains(pattern, case=False, na=False).sum()
+            if mains_match == 0:
+                warnings.append(f"WARNING: No categories match mains keywords {mains_keywords} - Scenario C won't work")
+            else:
+                summary["mains_items_matched"] = mains_match
+    
+    # Final validation result
+    valid = len(errors) == 0
+    
+    return {
+        "valid": valid,
+        "errors": errors,
+        "warnings": warnings,
+        "summary": summary
+    }
+
 
 # %% [markdown]
 # ## 5. Core Menu Performance + Waste-Adjusted GP
@@ -1083,14 +1265,26 @@ def run_scenarios(perf_df: pd.DataFrame, config: dict) -> dict:
     )
     scenarios["B_puzzles_down_10"]["label"] = "Reduce price of Puzzle items by 10% to stimulate volume"
 
-    mains_filter = perf_df["category"] == "Mains"
+    # Scenario C: Use keyword matching for mains category (flexible for different datasets)
+    mains_keywords = config.get("mains_category_keywords", ["Main"])
+    pattern = "|".join([k.strip() for k in mains_keywords if k.strip()])
+    if pattern:
+        mains_filter = perf_df["category"].astype(str).str.contains(pattern, case=False, na=False)
+    else:
+        # Fallback if keywords list is empty
+        mains_filter = perf_df["category"].astype(str).str.contains("Main", case=False, na=False)
+    
     scenarios["C_mains_up_5"] = apply_price_change_scenario(
         perf_df,
         price_change_filter=mains_filter,
         price_change_pct=config["scenario_mains_price_increase"],
         elasticity=elasticity,
     )
-    scenarios["C_mains_up_5"]["label"] = "Increase all Mains prices by 5%"
+    
+    # Dynamic label showing what was actually matched
+    price_increase_pct = config["scenario_mains_price_increase"] * 100
+    keywords_text = ", ".join([f'"{k}"' for k in mains_keywords])
+    scenarios["C_mains_up_5"]["label"] = f"Increase prices by {price_increase_pct:.0f}% for mains categories matching: {keywords_text}"
 
     scenarios["D_cost_inflation_5"] = apply_cost_inflation_scenario(
         perf_df,
@@ -1421,61 +1615,90 @@ def save_all_charts(results: dict, output_dir: str, config: dict = CONFIG) -> No
 
     # Chart 2: Menu Engineering (Volume vs GP%)
     if not perf_df.empty:
-        fig, ax = plt.subplots(figsize=(10, 8))
+        fig, ax = plt.subplots(figsize=(12, 9))
         x = perf_df["units_sold"]
         y = perf_df["gp_pct"] * 100
         
-        # Color by quadrant
+        # Color by quadrant with refined palette
         colors = []
         for _, row in perf_df.iterrows():
             quad = row.get("menu_engineering_class", "")
             if quad == "Star":
-                colors.append("gold")
+                colors.append("#FFD700")  # Gold
             elif quad == "Plowhorse":
-                colors.append("green")
+                colors.append("#2E7D32")  # Dark green
             elif quad == "Puzzle":
-                colors.append("orange")
+                colors.append("#F57C00")  # Dark orange
             elif quad == "Dog":
-                colors.append("red")
+                colors.append("#C62828")  # Dark red
             else:
-                colors.append("gray")
+                colors.append("#757575")  # Gray
         
-        ax.scatter(x, y, c=colors, s=100, alpha=0.6, edgecolors="black")
+        # Scatter plot with refined styling
+        ax.scatter(x, y, c=colors, s=120, alpha=0.7, edgecolors="white", linewidths=1.5, zorder=3)
         
-        # Add item labels
+        # Add item labels using adjustText for automatic overlap prevention
+        texts = []
         for idx, row in perf_df.iterrows():
             item_name = row["item_name"]
-            # Truncate long names
-            if len(item_name) > 20:
-                item_name = item_name[:17] + "..."
-            ax.annotate(
+            # Smart truncation - preserve readability
+            if len(item_name) > 22:
+                item_name = item_name[:19] + "..."
+            
+            txt = ax.text(
+                row["units_sold"], 
+                row["gp_pct"] * 100,
                 item_name,
-                (row["units_sold"], row["gp_pct"] * 100),
-                fontsize=7,
-                alpha=0.8,
-                xytext=(5, 5),
-                textcoords="offset points",
+                fontsize=8,
+                fontweight="500",
+                alpha=0.9,
+                zorder=4
+            )
+            texts.append(txt)
+        
+        # Apply adjustText to prevent overlaps (if available)
+        if ADJUST_TEXT_AVAILABLE and len(texts) > 0:
+            adjust_text(
+                texts,
+                arrowprops=dict(arrowstyle="-", color="gray", lw=0.5, alpha=0.6),
+                expand_points=(1.2, 1.3),
+                expand_text=(1.1, 1.2),
+                force_points=(0.3, 0.5),
+                force_text=(0.3, 0.5),
+                ax=ax
             )
         
-        ax.set_xlabel("Units Sold", fontsize=11)
-        ax.set_ylabel("GP%", fontsize=11)
-        ax.set_title("Menu Engineering – Volume vs GP%", fontsize=13, fontweight="bold")
+        # Refined axis styling
+        ax.set_xlabel("Units Sold (Volume)", fontsize=12, fontweight="600")
+        ax.set_ylabel("Gross Profit %", fontsize=12, fontweight="600")
+        ax.set_title("Menu Engineering Matrix – Volume vs Profitability", 
+                    fontsize=14, fontweight="bold", pad=20)
         
-        # Quadrant lines
-        ax.axvline(perf_df["units_sold"].median(), linestyle="--", color="black", linewidth=1)
-        ax.axhline((perf_df["gp_pct"] * 100).median(), linestyle="--", color="black", linewidth=1)
+        # Quadrant lines with refined styling
+        x_med = perf_df["units_sold"].median()
+        y_med = (perf_df["gp_pct"] * 100).median()
+        ax.axvline(x_med, linestyle="--", color="#424242", linewidth=1.5, alpha=0.6, zorder=1)
+        ax.axhline(y_med, linestyle="--", color="#424242", linewidth=1.5, alpha=0.6, zorder=1)
         
-        # Add quadrant labels
+        # Add quadrant labels with refined positioning
         x_max, y_max = x.max(), y.max()
-        x_med, y_med = x.median(), y.median()
-        ax.text(x_med + (x_max - x_med) * 0.5, y_med + (y_max - y_med) * 0.5, 
-                "STARS", fontsize=10, fontweight="bold", ha="center", color="darkgoldenrod")
-        ax.text(x_med - (x_med - x.min()) * 0.5, y_med + (y_max - y_med) * 0.5, 
-                "PUZZLES", fontsize=10, fontweight="bold", ha="center", color="darkorange")
-        ax.text(x_med + (x_max - x_med) * 0.5, y_med - (y_med - y.min()) * 0.5, 
-                "PLOWHORSES", fontsize=10, fontweight="bold", ha="center", color="darkgreen")
-        ax.text(x_med - (x_med - x.min()) * 0.5, y_med - (y_med - y.min()) * 0.5, 
-                "DOGS", fontsize=10, fontweight="bold", ha="center", color="darkred")
+        x_min, y_min = x.min(), y.min()
+        ax.text(x_med + (x_max - x_med) * 0.5, y_med + (y_max - y_med) * 0.9, 
+                "STARS", fontsize=11, fontweight="bold", ha="center", 
+                color="#B8860B", alpha=0.8, zorder=2)
+        ax.text(x_med - (x_med - x_min) * 0.5, y_med + (y_max - y_med) * 0.9, 
+                "PUZZLES", fontsize=11, fontweight="bold", ha="center", 
+                color="#D84315", alpha=0.8, zorder=2)
+        ax.text(x_med + (x_max - x_med) * 0.5, y_med - (y_med - y_min) * 0.9, 
+                "PLOWHORSES", fontsize=11, fontweight="bold", ha="center", 
+                color="#1B5E20", alpha=0.8, zorder=2)
+        ax.text(x_med - (x_med - x_min) * 0.5, y_med - (y_med - y_min) * 0.9, 
+                "DOGS", fontsize=11, fontweight="bold", ha="center", 
+                color="#B71C1C", alpha=0.8, zorder=2)
+        
+        # Clean grid for professional look
+        ax.grid(True, alpha=0.2, linestyle="-", linewidth=0.5, zorder=0)
+        ax.set_axisbelow(True)
         
         plt.tight_layout()
         plt.savefig(
@@ -1489,29 +1712,45 @@ def save_all_charts(results: dict, output_dir: str, config: dict = CONFIG) -> No
     if not perf_df.empty:
         top_waste = perf_df.sort_values("waste_cost", ascending=False).head(10)
         if not top_waste.empty:
-            fig, ax = plt.subplots(figsize=(10, 6))
+            fig, ax = plt.subplots(figsize=(12, 7))
             
-            # Color gradient from dark red (highest) to light orange (lowest)
-            colors = plt.cm.Reds(np.linspace(0.7, 0.3, len(top_waste)))
+            # Color gradient from dark red (highest) to light coral (lowest)
+            colors = plt.cm.Reds(np.linspace(0.8, 0.4, len(top_waste)))
             
             bars = ax.barh(top_waste["item_name"], top_waste["waste_cost"], 
-                          color=colors, edgecolor='black', linewidth=0.5)
+                          color=colors, edgecolor='darkred', linewidth=0.8, alpha=0.85)
             ax.invert_yaxis()
             
-            # Add value labels
+            # Add value labels INSIDE bars (right-aligned) to prevent overlap
             for i, (idx, row) in enumerate(top_waste.iterrows()):
-                ax.text(row["waste_cost"], i, f' {config["currency"]}{row["waste_cost"]:.0f}',
-                       va='center', fontsize=9, fontweight='bold')
+                waste_val = row["waste_cost"]
+                # Place label inside bar at 95% of bar width
+                label_x = waste_val * 0.97
+                ax.text(label_x, i, f'{config["currency"]}{waste_val:,.0f} ',
+                       va='center', ha='right', fontsize=10, 
+                       fontweight='bold', color='white',
+                       bbox=dict(boxstyle='round,pad=0.3', 
+                                facecolor='darkred', alpha=0.7, edgecolor='none'))
             
-            ax.set_xlabel(f"Waste Cost ({config['currency']})", fontsize=11, fontweight='bold')
-            ax.set_title("Top 10 Waste Items by Cost", fontsize=13, fontweight='bold', pad=15)
-            ax.grid(axis='x', alpha=0.3, linestyle='--')
+            ax.set_xlabel(f"Annual Waste Cost ({config['currency']})", fontsize=12, fontweight='bold')
+            ax.set_title("Top 10 Waste Items by Cost", fontsize=14, fontweight='bold', pad=20)
+            ax.grid(axis='x', alpha=0.25, linestyle='--', linewidth=0.8)
+            ax.set_axisbelow(True)
             
-            # Add total waste annotation
+            # Add total waste annotation (positioned bottom-right to avoid overlap)
             total_waste = top_waste["waste_cost"].sum()
-            ax.text(0.98, 0.02, f'Top 10 Total: {config["currency"]}{total_waste:,.0f}',
-                   transform=ax.transAxes, ha='right', fontsize=10,
-                   bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+            overall_waste = perf_df["waste_cost"].sum()
+            pct_of_total = (total_waste / overall_waste * 100) if overall_waste > 0 else 0
+            
+            ax.text(0.98, 0.03, 
+                   f'Top 10: {config["currency"]}{total_waste:,.0f}\n({pct_of_total:.1f}% of total waste)',
+                   transform=ax.transAxes, ha='right', va='bottom', fontsize=10,
+                   fontweight='600',
+                   bbox=dict(boxstyle='round,pad=0.5', facecolor='#FFE4B5', 
+                            alpha=0.9, edgecolor='darkred', linewidth=1.5))
+            
+            # Add margin to prevent cutoff
+            ax.margins(x=0.15)
             
             plt.tight_layout()
             plt.savefig(
@@ -2192,6 +2431,40 @@ def run_full_analysis_v2(config: dict = CONFIG, data_source: str = "synthetic") 
         waste_df = load_client_waste(config, menu_df)
         staff_df = pd.DataFrame(columns=["staff_id", "staff_name", "role", "hourly_rate"])
         bookings_df = pd.DataFrame(columns=["booking_id", "booking_datetime", "covers", "source", "status"])
+    
+    # Validate data (especially important for client data)
+    validation_result = validate_client_data(menu_df, orders_df, waste_df, config)
+    
+    # Print validation summary
+    print("\n" + "="*60)
+    print("DATA VALIDATION RESULTS")
+    print("="*60)
+    
+    if not validation_result["valid"]:
+        print("\n❌ CRITICAL ERRORS FOUND - Analysis cannot proceed:\n")
+        for error in validation_result["errors"]:
+            print(f"  • {error}")
+        print("\nPlease fix these errors and try again.")
+        print("="*60 + "\n")
+        return {
+            "validation": validation_result,
+            "error": "Data validation failed - see validation results above"
+        }
+    
+    # Show warnings even if valid
+    if validation_result["warnings"]:
+        print("\n⚠️  WARNINGS (analysis will proceed but quality may be affected):\n")
+        for warning in validation_result["warnings"]:
+            print(f"  • {warning}")
+    
+    # Show summary
+    if validation_result["summary"]:
+        print("\n📊 DATA SUMMARY:")
+        for key, value in validation_result["summary"].items():
+            print(f"  • {key}: {value}")
+    
+    print("\n✅ Validation passed - proceeding with analysis")
+    print("="*60 + "\n")
 
     # Core analyses
     perf_df, summary_metrics, cat_summary_df = build_menu_performance(menu_df, orders_df, waste_df, config)
@@ -2237,6 +2510,7 @@ def run_full_analysis_v2(config: dict = CONFIG, data_source: str = "synthetic") 
         "gpt_export_block": gpt_export_block,
         "data_quality_diagnostics": data_quality_diagnostics,
         "data_quality_notes": data_quality_notes,
+        "validation_result": validation_result,  # Include validation for reference
     }
 
 
@@ -2274,5 +2548,10 @@ if __name__ == "__main__":
 
     with open(os.path.join(out_dir, "gpt_export_block.txt"), "w") as f:
         f.write(results["gpt_export_block"])
+    
+    # Save validation results
+    with open(os.path.join(out_dir, "validation_report.json"), "w") as f:
+        json.dump(results["validation_result"], f, indent=2, default=str)
 
     print(f"Wrote analysis outputs to '{out_dir}/'")
+    print(f"  - Validation report: {out_dir}/validation_report.json")

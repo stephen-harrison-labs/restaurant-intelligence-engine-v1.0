@@ -7,3 +7,4 @@ jupyterlab>=5.0
 # Optional (VS Code):
 # jupytext>=1.15   # if you want .py <-> .ipynb sync
 tabulate>=0.9
+adjustText>=1.0  # prevents overlapping labels in scatter plots

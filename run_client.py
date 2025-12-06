@@ -153,6 +153,13 @@ def main():
         with open(os.path.join(output_dir, "data_quality_notes.txt"), "w", encoding="utf-8") as f:
             for line in dq_notes:
                 f.write(line.rstrip() + "\n")
+    
+    # Save validation report
+    validation = results.get("validation_result")
+    if validation:
+        with open(os.path.join(output_dir, "validation_report.json"), "w", encoding="utf-8") as f:
+            json.dump(_to_py(validation), f, indent=2)
+    
     # Optionally save time notes (if present)
     time_notes = results.get("time_notes")
     if time_notes:
