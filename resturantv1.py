@@ -245,13 +245,21 @@ def generate_synthetic_menu(config: dict) -> pd.DataFrame:
     df_menu.loc[sea_bass_idx, "gp_per_unit"] = round(22.00 - df_menu.loc[sea_bass_idx, "cost_per_unit"], 2)
     df_menu.loc[sea_bass_idx, "gp_pct"] = df_menu.loc[sea_bass_idx, "gp_per_unit"] / 22.00
 
-    # 🚫 LOSS LEADER (low margin to drive traffic)
+    # 🚫 LOSS LEADER #1 (low margin to drive traffic)
     veg_bowl_idx = df_menu.index[df_menu["item_name"] == "Vegan Buddha Bowl"][0]
     df_menu.loc[veg_bowl_idx, "sell_price"] = 12.00
     df_menu.loc[veg_bowl_idx, "cost_pct"] = 0.65  # Loss leader - 35% GP
     df_menu.loc[veg_bowl_idx, "cost_per_unit"] = round(12.00 * 0.65, 2)
     df_menu.loc[veg_bowl_idx, "gp_per_unit"] = round(12.00 - df_menu.loc[veg_bowl_idx, "cost_per_unit"], 2)
     df_menu.loc[veg_bowl_idx, "gp_pct"] = df_menu.loc[veg_bowl_idx, "gp_per_unit"] / 12.00
+
+    # 🚫 ULTRA-LOSS LEADER #2 (kids menu strategy - drive family traffic)
+    margherita_idx = df_menu.index[df_menu["item_name"] == "Margherita Pizza"][0]
+    df_menu.loc[margherita_idx, "sell_price"] = 9.95
+    df_menu.loc[margherita_idx, "cost_pct"] = 0.78  # Ultra-loss leader - 22% GP
+    df_menu.loc[margherita_idx, "cost_per_unit"] = round(9.95 * 0.78, 2)
+    df_menu.loc[margherita_idx, "gp_per_unit"] = round(9.95 - df_menu.loc[margherita_idx, "cost_per_unit"], 2)
+    df_menu.loc[margherita_idx, "gp_pct"] = df_menu.loc[margherita_idx, "gp_per_unit"] / 9.95
 
     # 💰 SUPER HIGH MARGIN DRINK (realistic 92% GP)
     mojito_idx = df_menu.index[df_menu["item_name"] == "Mojito"][0]
@@ -277,20 +285,20 @@ def generate_synthetic_orders(config: dict, menu_df: pd.DataFrame) -> pd.DataFra
     n_orders = config["n_orders"]
     date_range = pd.date_range(config["start_date"], config["end_date"], freq="H")
 
-    # Popularity weights
+    # Popularity weights with HIGH variance (create mega-hits & slow-movers)
     base_weights = []
     for _, row in menu_df.iterrows():
         cat = row["category"]
         if cat == "Mains":
-            w = np.random.uniform(1.2, 2.0)
+            w = np.random.uniform(0.5, 3.5)  # Wider range for variety
         elif cat == "Drinks":
-            w = np.random.uniform(1.0, 1.8)
+            w = np.random.uniform(0.3, 3.0)  # Some very popular, some niche
         elif cat == "Starters":
-            w = np.random.uniform(0.7, 1.2)
+            w = np.random.uniform(0.3, 2.0)  # More variance
         elif cat == "Desserts":
-            w = np.random.uniform(0.5, 1.1)
+            w = np.random.uniform(0.2, 1.8)  # Some slow-movers
         else:  # Sides
-            w = np.random.uniform(0.4, 1.0)
+            w = np.random.uniform(0.2, 1.5)  # Wider range
         base_weights.append(w)
 
     weights = np.array(base_weights)
@@ -304,6 +312,17 @@ def generate_synthetic_orders(config: dict, menu_df: pd.DataFrame) -> pd.DataFra
         7: 0.90, 8: 0.85, 9: 1.05, 10: 1.10, 11: 1.20, 12: 1.45
     }
     
+    # Day-of-week multipliers: Weekend boost (Fri/Sat 1.4x busier)
+    dow_multipliers = {
+        0: 1.0,  # Monday
+        1: 1.0,  # Tuesday
+        2: 1.0,  # Wednesday
+        3: 1.05, # Thursday
+        4: 1.4,  # Friday (weekend starts)
+        5: 1.4,  # Saturday
+        6: 1.1,  # Sunday
+    }
+    
     # Allocate orders by month with seasonal variation
     orders_by_month = []
     for month in range(1, 13):
@@ -314,13 +333,47 @@ def generate_synthetic_orders(config: dict, menu_df: pd.DataFrame) -> pd.DataFra
         else:
             month_end = pd.Timestamp(f"2024-{month+1:02d}-01") - pd.Timedelta(seconds=1)
         
-        month_dates = pd.date_range(month_start, month_end, freq="H")
-        month_timestamps = np.random.choice(month_dates, size=month_orders)
+        # Generate all potential timestamps
+        month_dates_all = pd.date_range(month_start, month_end, freq="h")
+        
+        # Filter to service hours: 11-14 (lunch 4hrs) and 17-21 (dinner 5hrs) = 75% of orders
+        service_dates = month_dates_all[
+            ((month_dates_all.hour >= 11) & (month_dates_all.hour <= 14)) |  # Lunch
+            ((month_dates_all.hour >= 17) & (month_dates_all.hour <= 21))    # Dinner
+        ]
+        # Other hours for remaining 25%
+        other_dates = month_dates_all[
+            ((month_dates_all.hour >= 9) & (month_dates_all.hour < 11)) |
+            ((month_dates_all.hour > 14) & (month_dates_all.hour < 17)) |
+            ((month_dates_all.hour > 21) & (month_dates_all.hour <= 23))
+        ]
+        
+        # Allocate 75% to service periods, 25% to other
+        service_orders = int(month_orders * 0.75)
+        other_orders = month_orders - service_orders
+        
+        # Apply weekend boost to both service and other periods
+        if len(service_dates) > 0:
+            service_dow_weights = np.array([dow_multipliers[pd.Timestamp(ts).dayofweek] for ts in service_dates])
+            service_dow_weights = service_dow_weights / service_dow_weights.sum()
+            service_timestamps = np.random.choice(service_dates, size=service_orders, p=service_dow_weights, replace=True)
+        else:
+            service_timestamps = []
+            
+        if len(other_dates) > 0 and other_orders > 0:
+            other_dow_weights = np.array([dow_multipliers[pd.Timestamp(ts).dayofweek] for ts in other_dates])
+            other_dow_weights = other_dow_weights / other_dow_weights.sum()
+            other_timestamps = np.random.choice(other_dates, size=other_orders, p=other_dow_weights, replace=True)
+        else:
+            other_timestamps = []
+            
+        final_timestamps = np.concatenate([service_timestamps, other_timestamps])
+        
         month_item_ids = np.random.choice(menu_df["item_id"], size=month_orders, p=weights)
         month_qty = np.random.choice([1, 1, 1, 2, 2, 3], size=month_orders, p=[0.4, 0.25, 0.15, 0.1, 0.06, 0.04])
         
         orders_by_month.append(pd.DataFrame({
-            "order_datetime": month_timestamps,
+            "order_datetime": final_timestamps,
             "item_id": month_item_ids,
             "qty": month_qty,
         }))
