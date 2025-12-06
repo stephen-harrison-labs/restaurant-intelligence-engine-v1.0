@@ -60,7 +60,7 @@ CONFIG = {
     "category_cost_pct_ranges": {
         "Mains": (0.28, 0.36),
         "Starters": (0.25, 0.32),
-        "Desserts": (0.20, 0.30),
+        "Desserts": (0.18, 0.35),      # WIDER variance: simple puddings vs premium desserts
         "Sides": (0.25, 0.35),
         "Drinks": (0.15, 0.25),
     },
