@@ -1377,13 +1377,40 @@ def save_all_charts(results: dict, output_dir: str, config: dict = CONFIG) -> No
 
     # Chart 1: Category Revenue and GP%
     if not cat_summary_df.empty:
-        fig, ax1 = plt.subplots(figsize=(8, 5))
+        fig, ax1 = plt.subplots(figsize=(10, 6))
         x = np.arange(len(cat_summary_df))
-        ax1.bar(x, cat_summary_df["total_revenue"])
+        
+        # Color palette for categories
+        colors = ['#2E86AB', '#A23B72', '#F18F01', '#C73E1D', '#6A994E']
+        bar_colors = colors[:len(cat_summary_df)]
+        
+        # Revenue bars
+        bars = ax1.bar(x, cat_summary_df["total_revenue"], color=bar_colors, alpha=0.8, edgecolor='black')
         ax1.set_xticks(x)
-        ax1.set_xticklabels(cat_summary_df["category"], rotation=45, ha="right")
-        ax1.set_ylabel(f"Revenue ({config['currency']})")
-        ax1.set_title("Category Revenue")
+        ax1.set_xticklabels(cat_summary_df["category"], rotation=45, ha="right", fontsize=10)
+        ax1.set_ylabel(f"Revenue ({config['currency']})", fontsize=11, fontweight='bold')
+        ax1.set_title("Category Performance: Revenue & GP%", fontsize=13, fontweight='bold', pad=20)
+        
+        # Add value labels on bars
+        for bar in bars:
+            height = bar.get_height()
+            ax1.text(bar.get_x() + bar.get_width()/2., height,
+                    f'{config["currency"]}{height:,.0f}',
+                    ha='center', va='bottom', fontsize=9, fontweight='bold')
+        
+        # Add GP% line on secondary axis
+        ax2 = ax1.twinx()
+        line = ax2.plot(x, cat_summary_df["gp_pct"] * 100, 
+                        color='darkred', marker='o', linewidth=2.5, markersize=8, label='GP%')
+        ax2.set_ylabel("GP%", fontsize=11, fontweight='bold', color='darkred')
+        ax2.tick_params(axis='y', labelcolor='darkred')
+        
+        # Add GP% value labels
+        for i, (xi, gp) in enumerate(zip(x, cat_summary_df["gp_pct"] * 100)):
+            ax2.text(xi, gp + 2, f'{gp:.1f}%', ha='center', fontsize=9, 
+                    fontweight='bold', color='darkred')
+        
+        ax1.grid(axis='y', alpha=0.3, linestyle='--')
         plt.tight_layout()
         plt.savefig(
             os.path.join(output_dir, "category_revenue_and_gp.png"),
@@ -1462,11 +1489,30 @@ def save_all_charts(results: dict, output_dir: str, config: dict = CONFIG) -> No
     if not perf_df.empty:
         top_waste = perf_df.sort_values("waste_cost", ascending=False).head(10)
         if not top_waste.empty:
-            fig, ax = plt.subplots(figsize=(8, 5))
-            ax.barh(top_waste["item_name"], top_waste["waste_cost"])
+            fig, ax = plt.subplots(figsize=(10, 6))
+            
+            # Color gradient from dark red (highest) to light orange (lowest)
+            colors = plt.cm.Reds(np.linspace(0.7, 0.3, len(top_waste)))
+            
+            bars = ax.barh(top_waste["item_name"], top_waste["waste_cost"], 
+                          color=colors, edgecolor='black', linewidth=0.5)
             ax.invert_yaxis()
-            ax.set_xlabel(f"Waste Cost ({config['currency']})")
-            ax.set_title("Top Waste Items")
+            
+            # Add value labels
+            for i, (idx, row) in enumerate(top_waste.iterrows()):
+                ax.text(row["waste_cost"], i, f' {config["currency"]}{row["waste_cost"]:.0f}',
+                       va='center', fontsize=9, fontweight='bold')
+            
+            ax.set_xlabel(f"Waste Cost ({config['currency']})", fontsize=11, fontweight='bold')
+            ax.set_title("Top 10 Waste Items by Cost", fontsize=13, fontweight='bold', pad=15)
+            ax.grid(axis='x', alpha=0.3, linestyle='--')
+            
+            # Add total waste annotation
+            total_waste = top_waste["waste_cost"].sum()
+            ax.text(0.98, 0.02, f'Top 10 Total: {config["currency"]}{total_waste:,.0f}',
+                   transform=ax.transAxes, ha='right', fontsize=10,
+                   bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+            
             plt.tight_layout()
             plt.savefig(
                 os.path.join(output_dir, "top_waste_items.png"),
@@ -1477,13 +1523,37 @@ def save_all_charts(results: dict, output_dir: str, config: dict = CONFIG) -> No
 
     # Chart 4: Booking Covers by Day
     if not booking_summary_df.empty:
-        fig, ax = plt.subplots(figsize=(8, 5))
+        fig, ax = plt.subplots(figsize=(10, 6))
         x = np.arange(len(booking_summary_df))
-        ax.bar(x, booking_summary_df["total_covers"])
+        
+        # Color weekends differently (Friday, Saturday, Sunday)
+        weekend_days = ['Friday', 'Saturday', 'Sunday']
+        colors = ['#FF6B6B' if day in weekend_days else '#4ECDC4' 
+                 for day in booking_summary_df["day_of_week"]]
+        
+        bars = ax.bar(x, booking_summary_df["total_covers"], color=colors, 
+                     edgecolor='black', linewidth=1, alpha=0.8)
         ax.set_xticks(x)
-        ax.set_xticklabels(booking_summary_df["day_of_week"], rotation=45, ha="right")
-        ax.set_ylabel("Total Covers")
-        ax.set_title("Covers by Day of Week")
+        ax.set_xticklabels(booking_summary_df["day_of_week"], rotation=45, ha="right", fontsize=10)
+        ax.set_ylabel("Total Covers", fontsize=11, fontweight='bold')
+        ax.set_title("Booking Covers by Day of Week", fontsize=13, fontweight='bold', pad=15)
+        
+        # Add value labels on bars
+        for bar in bars:
+            height = bar.get_height()
+            ax.text(bar.get_x() + bar.get_width()/2., height,
+                   f'{int(height):,}',
+                   ha='center', va='bottom', fontsize=9, fontweight='bold')
+        
+        # Add legend
+        from matplotlib.patches import Patch
+        legend_elements = [
+            Patch(facecolor='#4ECDC4', edgecolor='black', label='Weekday'),
+            Patch(facecolor='#FF6B6B', edgecolor='black', label='Weekend')
+        ]
+        ax.legend(handles=legend_elements, loc='upper left', fontsize=10)
+        
+        ax.grid(axis='y', alpha=0.3, linestyle='--')
         plt.tight_layout()
         plt.savefig(
             os.path.join(output_dir, "booking_covers_by_day.png"),
@@ -1500,10 +1570,30 @@ def save_all_charts(results: dict, output_dir: str, config: dict = CONFIG) -> No
             labels.append(key)
             deltas.append(scen["delta_gp_after_waste"])
 
-        fig, ax = plt.subplots(figsize=(8, 5))
-        ax.bar(labels, deltas)
-        ax.set_ylabel(f"GP Change ({config['currency']})")
-        ax.set_title("Scenario GP Change (After Waste)")
+        fig, ax = plt.subplots(figsize=(10, 6))
+        
+        # Color bars: green for positive, red for negative
+        colors = ['#28a745' if d >= 0 else '#dc3545' for d in deltas]
+        
+        bars = ax.bar(labels, deltas, color=colors, edgecolor='black', linewidth=1, alpha=0.8)
+        
+        # Add value labels on bars
+        for bar, delta in zip(bars, deltas):
+            height = bar.get_height()
+            label_y = height if height >= 0 else height
+            va = 'bottom' if height >= 0 else 'top'
+            ax.text(bar.get_x() + bar.get_width()/2., label_y,
+                   f'{config["currency"]}{delta:,.0f}',
+                   ha='center', va=va, fontsize=9, fontweight='bold')
+        
+        ax.axhline(y=0, color='black', linestyle='-', linewidth=1)
+        ax.set_ylabel(f"GP Change ({config['currency']})", fontsize=11, fontweight='bold')
+        ax.set_title("Scenario Analysis: GP Impact (After Waste)", fontsize=13, fontweight='bold', pad=15)
+        ax.grid(axis='y', alpha=0.3, linestyle='--')
+        
+        # Rotate x-labels if needed
+        plt.xticks(rotation=45, ha='right', fontsize=10)
+        
         plt.tight_layout()
         plt.savefig(
             os.path.join(output_dir, "scenario_gp_changes.png"),
