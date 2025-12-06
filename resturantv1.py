@@ -245,13 +245,21 @@ def generate_synthetic_menu(config: dict) -> pd.DataFrame:
     df_menu.loc[sea_bass_idx, "gp_per_unit"] = round(22.00 - df_menu.loc[sea_bass_idx, "cost_per_unit"], 2)
     df_menu.loc[sea_bass_idx, "gp_pct"] = df_menu.loc[sea_bass_idx, "gp_per_unit"] / 22.00
 
-    # 🚫 DOG ITEM (bad margin, low volume)
+    # 🚫 LOSS LEADER (low margin to drive traffic)
     veg_bowl_idx = df_menu.index[df_menu["item_name"] == "Vegan Buddha Bowl"][0]
     df_menu.loc[veg_bowl_idx, "sell_price"] = 12.00
-    df_menu.loc[veg_bowl_idx, "cost_pct"] = 0.40
-    df_menu.loc[veg_bowl_idx, "cost_per_unit"] = round(12.00 * 0.40, 2)
+    df_menu.loc[veg_bowl_idx, "cost_pct"] = 0.65  # Loss leader - 35% GP
+    df_menu.loc[veg_bowl_idx, "cost_per_unit"] = round(12.00 * 0.65, 2)
     df_menu.loc[veg_bowl_idx, "gp_per_unit"] = round(12.00 - df_menu.loc[veg_bowl_idx, "cost_per_unit"], 2)
     df_menu.loc[veg_bowl_idx, "gp_pct"] = df_menu.loc[veg_bowl_idx, "gp_per_unit"] / 12.00
+
+    # 💰 SUPER HIGH MARGIN DRINK (realistic 92% GP)
+    mojito_idx = df_menu.index[df_menu["item_name"] == "Mojito"][0]
+    df_menu.loc[mojito_idx, "cost_pct"] = 0.08  # Drinks can be 90%+ GP
+    mojito_cost = round(df_menu.loc[mojito_idx, "sell_price"] * 0.08, 2)
+    df_menu.loc[mojito_idx, "cost_per_unit"] = mojito_cost
+    df_menu.loc[mojito_idx, "gp_per_unit"] = round(df_menu.loc[mojito_idx, "sell_price"] - mojito_cost, 2)
+    df_menu.loc[mojito_idx, "gp_pct"] = df_menu.loc[mojito_idx, "gp_per_unit"] / df_menu.loc[mojito_idx, "sell_price"]
 
     # 🍰 HIGH-WASTE DESSERT
     stp_idx = df_menu.index[df_menu["item_name"] == "Sticky Toffee Pudding"][0]
@@ -288,20 +296,40 @@ def generate_synthetic_orders(config: dict, menu_df: pd.DataFrame) -> pd.DataFra
     weights = np.array(base_weights)
     weights = weights / weights.sum()
 
-    item_ids = np.random.choice(menu_df["item_id"], size=n_orders, p=weights)
-    qty = np.random.choice(
-        [1, 1, 1, 2, 2, 3],
-        size=n_orders,
-        p=[0.4, 0.25, 0.15, 0.1, 0.06, 0.04]
-    )
-    timestamps = np.random.choice(date_range, size=n_orders)
-
-    df_orders = pd.DataFrame({
-        "order_line_id": range(1, n_orders + 1),
-        "order_datetime": timestamps,
-        "item_id": item_ids,
-        "qty": qty,
-    })
+    # Add realistic seasonality: Christmas peak, summer dip, spring/autumn moderate
+    # Month weights: Jan(0.85), Feb(0.80), Mar(0.95), Apr(1.00), May(1.10), Jun(1.15),
+    #                Jul(0.90), Aug(0.85), Sep(1.05), Oct(1.10), Nov(1.20), Dec(1.45)
+    month_multipliers = {
+        1: 0.85, 2: 0.80, 3: 0.95, 4: 1.00, 5: 1.10, 6: 1.15,
+        7: 0.90, 8: 0.85, 9: 1.05, 10: 1.10, 11: 1.20, 12: 1.45
+    }
+    
+    # Allocate orders by month with seasonal variation
+    orders_by_month = []
+    for month in range(1, 13):
+        month_orders = int(n_orders * month_multipliers[month] / sum(month_multipliers.values()))
+        month_start = pd.Timestamp(f"2024-{month:02d}-01")
+        if month == 12:
+            month_end = pd.Timestamp("2024-12-31 23:59:59")
+        else:
+            month_end = pd.Timestamp(f"2024-{month+1:02d}-01") - pd.Timedelta(seconds=1)
+        
+        month_dates = pd.date_range(month_start, month_end, freq="H")
+        month_timestamps = np.random.choice(month_dates, size=month_orders)
+        month_item_ids = np.random.choice(menu_df["item_id"], size=month_orders, p=weights)
+        month_qty = np.random.choice([1, 1, 1, 2, 2, 3], size=month_orders, p=[0.4, 0.25, 0.15, 0.1, 0.06, 0.04])
+        
+        orders_by_month.append(pd.DataFrame({
+            "order_datetime": month_timestamps,
+            "item_id": month_item_ids,
+            "qty": month_qty,
+        }))
+    
+    df_orders = pd.concat(orders_by_month, ignore_index=True)
+    df_orders["order_line_id"] = range(1, len(df_orders) + 1)
+    df_orders = df_orders[["order_line_id", "order_datetime", "item_id", "qty"]]
+    df_orders = df_orders.sort_values("order_datetime").reset_index(drop=True)
+    df_orders["order_line_id"] = range(1, len(df_orders) + 1)
 
     return df_orders
 
@@ -311,18 +339,18 @@ def generate_synthetic_waste(menu_df: pd.DataFrame) -> pd.DataFrame:
     Synthetic waste per item:
     - More waste on perishable mains/desserts.
     - Less on drinks.
-    - Realistic annual waste: 4-6% of cost base
+    - Realistic annual waste: 4-6% of revenue
     """
     df = menu_df[["item_id", "category", "cost_per_unit"]].copy()
-    # Much higher waste rates for realism (annual totals)
+    # Realistic waste rates targeting 4-5% of revenue (annual totals)
     lam_map = {
-        "Mains": 100,        # High waste on perishable proteins
-        "Starters": 60,      # Medium waste
-        "Desserts": 80,      # High waste (prep spoilage)
-        "Sides": 50,         # Medium waste
-        "Drinks": 15,        # Low waste (long shelf life)
+        "Mains": 350,        # Very high waste on perishable proteins
+        "Starters": 200,     # High waste on fresh ingredients
+        "Desserts": 280,     # High waste (prep spoilage, short shelf life)
+        "Sides": 150,        # Medium waste
+        "Drinks": 40,        # Low waste (long shelf life, spillage only)
     }
-    lam = df["category"].map(lam_map).fillna(30)
+    lam = df["category"].map(lam_map).fillna(100)
     df["waste_qty"] = np.random.poisson(lam=lam)
     df["waste_qty"] = df["waste_qty"].clip(lower=0)
     df["waste_cost"] = df["waste_qty"] * df["cost_per_unit"]
@@ -339,14 +367,20 @@ def generate_synthetic_staff(config: dict) -> pd.DataFrame:
     else:
         staff_roles = (roles * ((n_staff // len(roles)) + 1))[:n_staff]
 
+    # Expanded name pool to avoid duplicates
     names = [
-        "Oliver", "Amelia", "Jack", "Sophia",
-        "Liam", "Isla", "Noah", "Mia", "Ethan", "Ava"
+        "Oliver", "Amelia", "Jack", "Sophia", "Liam", "Isla", 
+        "Noah", "Mia", "Ethan", "Ava", "Charlotte", "James",
+        "Emily", "George", "Poppy", "Harry", "Freya", "Oscar"
     ]
+    # Ensure unique names
     if n_staff <= len(names):
         staff_names = names[:n_staff]
     else:
-        staff_names = (names * ((n_staff // len(names)) + 1))[:n_staff]
+        # If we need more names than available, add suffixes
+        staff_names = names[:n_staff]
+        for i in range(n_staff - len(names)):
+            staff_names.append(f"{names[i % len(names)]} {chr(65 + i // len(names))}")
 
     base_rates = []
     for r in staff_roles:
