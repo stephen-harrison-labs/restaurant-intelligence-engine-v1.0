@@ -584,34 +584,15 @@ def load_client_waste(config: dict,
 
 # %% [markdown]
 # ## 4. Load Data (Synthetic or Client)
+# NOTE: Data loading is now handled ONLY by run_full_analysis_v2() function below.
+# The module-level code that was here has been removed to avoid loading synthetic
+# data at import time.
 
 
-# %%
-if DATA_SOURCE == "synthetic":
-    print("Using synthetic demo data (menu, orders, waste, staff, bookings).")
-    menu_df, orders_df, waste_df, staff_df, bookings_df = generate_synthetic_restaurant(CONFIG)
-else:
-    print("Using client CSV/Excel data for menu & sales.")
-    menu_df, orders_df = load_client_menu_and_sales(CONFIG)
-    waste_df = load_client_waste(CONFIG, menu_df)
-    # Placeholders – you can later add client staff/bookings loaders
-    staff_df = pd.DataFrame(columns=["staff_id", "staff_name", "role", "hourly_rate"])
-    bookings_df = pd.DataFrame(columns=["booking_id", "booking_datetime", "covers", "source", "status"])
-
-print("Menu sample:")
-display(menu_df.head())
-
-print("\nOrders sample:")
-display(orders_df.head())
-
-print("\nWaste sample:")
-display(waste_df.head())
-
-print("\nStaff sample:")
-display(staff_df.head())
-
-print("\nBookings sample:")
-display(bookings_df.head())
+# %% [markdown]
+# *** OLD MODULE-LEVEL DATA LOADING CODE REMOVED ***
+# Data loading now happens exclusively within run_full_analysis_v2(data_source=...)
+# This ensures that callers can choose "synthetic" vs "client" mode dynamically.
 
 # %% [markdown]
 # ## 5. Core Menu Performance + Waste-Adjusted GP
@@ -781,20 +762,9 @@ def build_menu_performance(menu_df: pd.DataFrame,
     return df, summary, cat_summary
 
 
-perf_df, summary_metrics, cat_summary_df = build_menu_performance(menu_df, orders_df, waste_df, CONFIG)
-
-print("Summary metrics:")
-summary_metrics
-
-print("\nCategory summary:")
-display(cat_summary_df.head())
-
-print("\nTop 10 items by margin contribution:")
-display(
-    perf_df[["item_name", "category", "units_sold", "revenue", "gross_profit",
-             "gp_after_waste", "waste_cost", "gp_pct", "gp_pct_after_waste",
-             "menu_engineering_class", "consultant_tags"]].head(10)
-)
+# *** OLD MODULE-LEVEL ANALYSIS CODE REMOVED ***
+# All analysis now happens within run_full_analysis_v2() function.
+# This function-level code was run at module import time and caused issues.
 
 # %% [markdown]
 # ## 6. Staff Performance Analysis
@@ -865,10 +835,10 @@ def build_staff_performance(orders_df: pd.DataFrame,
     return staff_perf
 
 
-staff_perf_df = build_staff_performance(orders_df, staff_df, perf_df)
-
-print("Staff performance:")
-display(staff_perf_df)
+# NOTE: Module-level exploratory code removed to allow proper module import
+# All data loading and analysis now happens inside run_full_analysis_v2()
+# This section previously called: build_staff_performance(), build_booking_summary(), etc.
+# at module import time, preventing dynamic data_source switching.
 
 # %% [markdown]
 # ## 7. Booking / Day-of-Week Analysis
@@ -908,10 +878,11 @@ def build_booking_summary(bookings_df: pd.DataFrame) -> pd.DataFrame:
     return by_dow
 
 
-booking_summary_df = build_booking_summary(bookings_df)
+# NOTE: Module-level call removed. booking_summary_df is now computed inside run_full_analysis_v2()
+# booking_summary_df = build_booking_summary(bookings_df)
 
-print("Booking summary (by day of week):")
-display(booking_summary_df)
+# print("Booking summary (by day of week):")
+# display(booking_summary_df)
 
 # %% [markdown]
 # ## 8. Pricing & Cost Scenarios
@@ -1029,11 +1000,12 @@ def run_scenarios(perf_df: pd.DataFrame, config: dict) -> dict:
     return scenarios
 
 
-scenarios = run_scenarios(perf_df, CONFIG)
+# NOTE: Module-level call removed. scenarios is now computed inside run_full_analysis_v2()
+# scenarios = run_scenarios(perf_df, CONFIG)
 
-print("Scenario GP-after-waste deltas:")
-for key, scen in scenarios.items():
-    print(f"{key} ({scen['label']}): {CONFIG['currency']}{scen['delta_gp_after_waste']:,.2f}")
+# print("Scenario GP-after-waste deltas:")
+# for key, scen in scenarios.items():
+#     print(f"{key} ({scen['label']}): {CONFIG['currency']}{scen['delta_gp_after_waste']:,.2f}")
 
 # %% [markdown]
 # ## 9. Insight Generation (Opportunities & Risks)
@@ -1043,6 +1015,7 @@ for key, scen in scenarios.items():
 def generate_opportunities(perf_df: pd.DataFrame,
                            cat_summary_df: pd.DataFrame,
                            summary_metrics: dict,
+                           booking_summary_df: pd.DataFrame,
                            config: dict) -> list:
     opps = []
 
@@ -1124,6 +1097,7 @@ def generate_opportunities(perf_df: pd.DataFrame,
 def generate_risks(perf_df: pd.DataFrame,
                    cat_summary_df: pd.DataFrame,
                    summary_metrics: dict,
+                   booking_summary_df: pd.DataFrame,
                    config: dict) -> list:
     risks = []
 
@@ -1177,16 +1151,17 @@ def generate_risks(perf_df: pd.DataFrame,
     return unique_risks[:10]
 
 
-opportunities = generate_opportunities(perf_df, cat_summary_df, summary_metrics, CONFIG)
-risks = generate_risks(perf_df, cat_summary_df, summary_metrics, CONFIG)
+# NOTE: Module-level calls removed. opportunities and risks are now computed inside run_full_analysis_v2()
+# opportunities = generate_opportunities(perf_df, cat_summary_df, summary_metrics, CONFIG)
+# risks = generate_risks(perf_df, cat_summary_df, summary_metrics, CONFIG)
 
-print("Sample opportunities:")
-for o in opportunities[:3]:
-    print("-", o)
+# print("Sample opportunities:")
+# for o in opportunities[:3]:
+#     print("-", o)
 
-print("\nSample risks:")
-for r in risks[:3]:
-    print("-", r)
+# print("\nSample risks:")
+# for r in risks[:3]:
+#     print("-", r)
 
 # %% [markdown]
 # ## 10. Visual Charts (Demo-Grade)
@@ -1911,24 +1886,25 @@ ACTION_PLAN_SUMMARY:
     return block.strip()
 
 
-data_quality_diagnostics, data_quality_notes = build_data_quality_report(
-    menu_df, orders_df, waste_df, staff_df, bookings_df
-)
+# NOTE: Module-level calls removed. These are now computed inside run_full_analysis_v2()
+# data_quality_diagnostics, data_quality_notes = build_data_quality_report(
+#     menu_df, orders_df, waste_df, staff_df, bookings_df
+# )
 
-gpt_export_block = build_gpt_export_block(
-    perf_df=perf_df,
-    summary_metrics=summary_metrics,
-    cat_summary_df=cat_summary_df,
-    scenarios=scenarios,
-    opportunities=opportunities,
-    risks=risks,
-    staff_perf_df=staff_perf_df,
-    booking_summary_df=booking_summary_df,
-    config=CONFIG,
-    data_quality_notes=data_quality_notes,
-)
+# gpt_export_block = build_gpt_export_block(
+#     perf_df=perf_df,
+#     summary_metrics=summary_metrics,
+#     cat_summary_df=cat_summary_df,
+#     scenarios=scenarios,
+#     opportunities=opportunities,
+#     risks=risks,
+#     staff_perf_df=staff_perf_df,
+#     booking_summary_df=booking_summary_df,
+#     config=CONFIG,
+#     data_quality_notes=data_quality_notes,
+# )
 
-print(gpt_export_block)  # preview first part
+# print(gpt_export_block)  # preview first part
 
 # %% [markdown]
 # ## 12. How to Use for Your Example PDF
@@ -1984,8 +1960,8 @@ def run_full_analysis_v2(config: dict = CONFIG, data_source: str = "synthetic") 
     staff_perf_df = build_staff_performance(orders_df, staff_df, perf_df)
     booking_summary_df = build_booking_summary(bookings_df)
     scenarios = run_scenarios(perf_df, config)
-    opportunities = generate_opportunities(perf_df, cat_summary_df, summary_metrics, config)
-    risks = generate_risks(perf_df, cat_summary_df, summary_metrics, config)
+    opportunities = generate_opportunities(perf_df, cat_summary_df, summary_metrics, booking_summary_df, config)
+    risks = generate_risks(perf_df, cat_summary_df, summary_metrics, booking_summary_df, config)
 
     # Data quality diagnostics
     data_quality_diagnostics, data_quality_notes = build_data_quality_report(

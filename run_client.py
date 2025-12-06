@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import numpy as np
 import resturantv1 as engine
 
 
@@ -18,7 +19,8 @@ def configure_client_paths():
     # Edit these paths to point to your actual client data files
     config["client_menu_path"] = "data/client_menu.csv"
     config["client_sales_path"] = "data/client_sales.csv"
-    config["client_waste_path"] = "data/client_waste.csv"
+    # If you do not have a waste file, leave as None
+    config["client_waste_path"] = None
     
     print("Client configuration loaded.")
     print(f"  Menu path: {config['client_menu_path']}")
@@ -31,18 +33,31 @@ def configure_client_paths():
 
 def main():
     """Run the restaurant intelligence engine on client data and save outputs."""
-    
-    # Configure client paths
-    config = configure_client_paths()
+    # Client / Kaggle run entrypoint
+    # Build a fresh config based on the engine defaults and point it to the
+    # local client files produced by the Kaggle prep scripts.
+    # We do not modify the engine module here — we only set the config used
+    # for this client-mode execution.
+    config = engine.CONFIG.copy()
+    config["client_menu_path"] = "data/client_menu.csv"
+    config["client_sales_path"] = "data/client_sales.csv"
+    config["client_waste_path"] = None
+
+    # Override restaurant metadata for this Kaggle demo run
+    config["restaurant_name"] = "All Scientist Restaurant – Kaggle Dirty Data Demo"
+    config["period_label"] = "Jan 2022 – Dec 2023"
+
+    # Force the engine into client-mode for this run
+    engine.DATA_SOURCE = "client"
     
     # Set output directory
     output_dir = "output_client"
     os.makedirs(output_dir, exist_ok=True)
     
-    # Ensure client data files exist (strict client-mode only)
-    required_keys = ["client_menu_path", "client_sales_path", "client_waste_path"]
+    # Ensure required client data files exist (menu and sales are required; waste is optional)
+    required_paths = ["client_menu_path", "client_sales_path"]
     missing = []
-    for k in required_keys:
+    for k in required_paths:
         p = config.get(k)
         if not p or not os.path.exists(p):
             missing.append(p or f"<missing {k}>")
@@ -52,28 +67,74 @@ def main():
             ".\nPlease provide the files at the configured paths in run_client.py and retry."
         )
 
+    # Debug: print config before running
+    print(f"DEBUG: Config restaurant_name = {config['restaurant_name']}")
+    print(f"DEBUG: Config period_label = {config['period_label']}")
+    print(f"DEBUG: Config client_menu_path = {config['client_menu_path']}")
+    print(f"DEBUG: Config client_sales_path = {config['client_sales_path']}")
+    print(f"DEBUG: About to call run_full_analysis_v2 with data_source='client'")
+
     # Run analysis on client data
     results = engine.run_full_analysis_v2(
         config=config,
         data_source="client",
     )
     
+    # Debug: check what data was loaded
+    print(f"\nDEBUG: Loaded {len(results['menu_df'])} menu items")
+    print(f"DEBUG: Loaded {len(results['orders_df'])} orders")
+    print(f"DEBUG: Date range in orders: {results['orders_df']['order_datetime'].min()} to {results['orders_df']['order_datetime'].max()}")
+    print(f"DEBUG: Sample menu items: {results['menu_df']['item_name'].head(3).tolist()}\n")
+    
     # Print summary
     print("Client summary metrics:")
     print(results["summary_metrics"])
     print()
     
-    # Save DataFrames as CSV
-    results["menu_df"].to_csv(os.path.join(output_dir, "menu_df.csv"), index=False)
-    results["orders_df"].to_csv(os.path.join(output_dir, "orders_df.csv"), index=False)
-    results["perf_df"].to_csv(os.path.join(output_dir, "perf_df.csv"), index=False)
-    results["staff_df"].to_csv(os.path.join(output_dir, "staff_df.csv"), index=False)
-    results["bookings_df"].to_csv(os.path.join(output_dir, "bookings_df.csv"), index=False)
-    results["waste_df"].to_csv(os.path.join(output_dir, "waste_df.csv"), index=False)
+    # Save DataFrames as CSV (only if present in results)
+    save_map = {
+        "menu_df": "menu_df.csv",
+        "orders_df": "orders_df.csv",
+        "perf_df": "perf_df.csv",
+        "staff_df": "staff_df.csv",
+        "bookings_df": "bookings_df.csv",
+        "waste_df": "waste_df.csv",
+    }
+    for key, fname in save_map.items():
+        if key in results and results.get(key) is not None:
+            try:
+                results[key].to_csv(os.path.join(output_dir, fname), index=False)
+            except Exception:
+                # ignore individual save failures
+                pass
     
-    # Save summary metrics as JSON
+    # Save summary metrics as JSON (convert numpy/pandas scalars to native Python types)
+    def _to_py(o):
+        # recursive conversion for common numpy/pandas types
+        if isinstance(o, dict):
+            return {k: _to_py(v) for k, v in o.items()}
+        if isinstance(o, (list, tuple)):
+            return [_to_py(v) for v in o]
+        if isinstance(o, np.ndarray):
+            return _to_py(o.tolist())
+        if isinstance(o, (np.generic,)):
+            try:
+                return o.item()
+            except Exception:
+                return o.tolist()
+        # pandas Timestamp -> string
+        try:
+            import pandas as _pd
+
+            if isinstance(o, _pd.Timestamp):
+                return str(o)
+        except Exception:
+            pass
+        return o
+
+    serializable_summary = _to_py(results.get("summary_metrics", {}))
     with open(os.path.join(output_dir, "summary_metrics.json"), "w") as f:
-        json.dump(results["summary_metrics"], f, indent=2)
+        json.dump(serializable_summary, f, indent=2)
     
     # Save GPT export block as text
     with open(os.path.join(output_dir, "gpt_export_block.txt"), "w", encoding="utf-8") as f:
