@@ -52,7 +52,7 @@ CONFIG = {
 
     # Synthetic data sizes
     "n_menu_items": 40,
-    "n_orders": 8000,
+    "n_orders": 50000,              # Realistic annual volume for mid-sized restaurant
     "start_date": "2024-01-01",
     "end_date": "2024-12-31",
 
@@ -65,9 +65,9 @@ CONFIG = {
         "Drinks": (0.15, 0.25),
     },
 
-    # Menu engineering thresholds
-    "high_volume_quantile": 0.6,
-    "high_margin_quantile": 0.6,
+    # Menu engineering thresholds (median split for better quadrant distribution)
+    "high_volume_quantile": 0.5,
+    "high_margin_quantile": 0.5,
 
     # Price elasticity
     # elasticity = -1.0  => +10% price → -10% volume
@@ -81,11 +81,11 @@ CONFIG = {
 
     # Demo / report meta
     "period_label": "Jan–Dec 2024",
-    "restaurant_name": "Demo Bistro",
+    "restaurant_name": "The Heritage Kitchen",
 
     # Synthetic staff & bookings
-    "n_staff": 8,
-    "n_bookings": 1200,
+    "n_staff": 12,                  # More realistic staffing
+    "n_bookings": 6000,             # ~16 bookings per day average
 
     # Real data file paths (fill when using client mode)
     "client_menu_path": None,    # e.g. "data/client_menu.xlsx"
@@ -311,16 +311,18 @@ def generate_synthetic_waste(menu_df: pd.DataFrame) -> pd.DataFrame:
     Synthetic waste per item:
     - More waste on perishable mains/desserts.
     - Less on drinks.
+    - Realistic annual waste: 4-6% of cost base
     """
     df = menu_df[["item_id", "category", "cost_per_unit"]].copy()
+    # Much higher waste rates for realism (annual totals)
     lam_map = {
-        "Mains": 4,
-        "Starters": 3,
-        "Desserts": 5,
-        "Sides": 3,
-        "Drinks": 1,
+        "Mains": 100,        # High waste on perishable proteins
+        "Starters": 60,      # Medium waste
+        "Desserts": 80,      # High waste (prep spoilage)
+        "Sides": 50,         # Medium waste
+        "Drinks": 15,        # Low waste (long shelf life)
     }
-    lam = df["category"].map(lam_map).fillna(2)
+    lam = df["category"].map(lam_map).fillna(30)
     df["waste_qty"] = np.random.poisson(lam=lam)
     df["waste_qty"] = df["waste_qty"].clip(lower=0)
     df["waste_cost"] = df["waste_qty"] * df["cost_per_unit"]
@@ -807,9 +809,12 @@ def build_staff_performance(orders_df: pd.DataFrame,
 
     staff_perf = staff_agg.merge(staff_df, on="staff_id", how="left")
 
-    total_hours = 8 * 5 * 4  # ~160h in period (just for demo distribution)
+    # Realistic annual hours: 48 weeks * 40 hours = ~1920 hours per full-time staff
+    # Distribute proportionally based on orders handled
+    annual_hours_per_staff = 1920
+    total_staff_hours = len(staff_df) * annual_hours_per_staff
     if staff_perf["orders_handled"].sum() > 0:
-        staff_perf["est_hours_worked"] = total_hours * (
+        staff_perf["est_hours_worked"] = total_staff_hours * (
             staff_perf["orders_handled"] / staff_perf["orders_handled"].sum()
         )
     else:
