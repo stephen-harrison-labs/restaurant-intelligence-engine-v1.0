@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Project outputs
+output/
+output_client/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Byte-compiled / optimized
+*.pyc
+
+# Coverage
+htmlcov/
+.coverage
+
+# Others
+.env
+"

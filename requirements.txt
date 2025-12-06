@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.25
+matplotlib>=3.8
+openpyxl>=3.1
+ipython>=8.0
+jupyterlab>=5.0
+# Optional (VS Code):
+# jupytext>=1.15   # if you want .py <-> .ipynb sync
+tabulate>=0.9
