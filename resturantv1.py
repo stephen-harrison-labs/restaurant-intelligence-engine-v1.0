@@ -1394,15 +1394,62 @@ def save_all_charts(results: dict, output_dir: str, config: dict = CONFIG) -> No
 
     # Chart 2: Menu Engineering (Volume vs GP%)
     if not perf_df.empty:
-        fig, ax = plt.subplots(figsize=(7, 6))
+        fig, ax = plt.subplots(figsize=(10, 8))
         x = perf_df["units_sold"]
         y = perf_df["gp_pct"] * 100
-        ax.scatter(x, y)
-        ax.set_xlabel("Units Sold")
-        ax.set_ylabel("GP%")
-        ax.set_title("Menu Engineering – Volume vs GP%")
-        ax.axvline(perf_df["units_sold"].median(), linestyle="--")
-        ax.axhline((perf_df["gp_pct"] * 100).median(), linestyle="--")
+        
+        # Color by quadrant
+        colors = []
+        for _, row in perf_df.iterrows():
+            quad = row.get("menu_engineering_class", "")
+            if quad == "Star":
+                colors.append("gold")
+            elif quad == "Plowhorse":
+                colors.append("green")
+            elif quad == "Puzzle":
+                colors.append("orange")
+            elif quad == "Dog":
+                colors.append("red")
+            else:
+                colors.append("gray")
+        
+        ax.scatter(x, y, c=colors, s=100, alpha=0.6, edgecolors="black")
+        
+        # Add item labels
+        for idx, row in perf_df.iterrows():
+            item_name = row["item_name"]
+            # Truncate long names
+            if len(item_name) > 20:
+                item_name = item_name[:17] + "..."
+            ax.annotate(
+                item_name,
+                (row["units_sold"], row["gp_pct"] * 100),
+                fontsize=7,
+                alpha=0.8,
+                xytext=(5, 5),
+                textcoords="offset points",
+            )
+        
+        ax.set_xlabel("Units Sold", fontsize=11)
+        ax.set_ylabel("GP%", fontsize=11)
+        ax.set_title("Menu Engineering – Volume vs GP%", fontsize=13, fontweight="bold")
+        
+        # Quadrant lines
+        ax.axvline(perf_df["units_sold"].median(), linestyle="--", color="black", linewidth=1)
+        ax.axhline((perf_df["gp_pct"] * 100).median(), linestyle="--", color="black", linewidth=1)
+        
+        # Add quadrant labels
+        x_max, y_max = x.max(), y.max()
+        x_med, y_med = x.median(), y.median()
+        ax.text(x_med + (x_max - x_med) * 0.5, y_med + (y_max - y_med) * 0.5, 
+                "STARS", fontsize=10, fontweight="bold", ha="center", color="darkgoldenrod")
+        ax.text(x_med - (x_med - x.min()) * 0.5, y_med + (y_max - y_med) * 0.5, 
+                "PUZZLES", fontsize=10, fontweight="bold", ha="center", color="darkorange")
+        ax.text(x_med + (x_max - x_med) * 0.5, y_med - (y_med - y.min()) * 0.5, 
+                "PLOWHORSES", fontsize=10, fontweight="bold", ha="center", color="darkgreen")
+        ax.text(x_med - (x_med - x.min()) * 0.5, y_med - (y_med - y.min()) * 0.5, 
+                "DOGS", fontsize=10, fontweight="bold", ha="center", color="darkred")
+        
         plt.tight_layout()
         plt.savefig(
             os.path.join(output_dir, "menu_engineering.png"),
