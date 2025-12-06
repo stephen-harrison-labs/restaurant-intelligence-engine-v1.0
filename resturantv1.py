@@ -199,7 +199,7 @@ def generate_synthetic_menu(config: dict) -> pd.DataFrame:
     price_ranges = {
         "Starters": (5.50, 8.50),
         "Mains": (11.00, 24.00),
-        "Desserts": (5.00, 7.50),
+        "Desserts": (4.50, 8.50),  # Wider variance: simple puddings to premium desserts
         "Sides": (3.50, 6.00),
         "Drinks": (2.50, 9.50),
     }
@@ -286,13 +286,14 @@ def generate_synthetic_orders(config: dict, menu_df: pd.DataFrame) -> pd.DataFra
     date_range = pd.date_range(config["start_date"], config["end_date"], freq="H")
 
     # Popularity weights with HIGH variance (create mega-hits & slow-movers)
+    # Boost drinks to achieve 20-30% revenue share (higher popularity)
     base_weights = []
     for _, row in menu_df.iterrows():
         cat = row["category"]
         if cat == "Mains":
             w = np.random.uniform(0.5, 3.5)  # Wider range for variety
         elif cat == "Drinks":
-            w = np.random.uniform(0.3, 3.0)  # Some very popular, some niche
+            w = np.random.uniform(0.8, 4.0)  # BOOSTED - drinks should be 20-30% revenue
         elif cat == "Starters":
             w = np.random.uniform(0.3, 2.0)  # More variance
         elif cat == "Desserts":
@@ -352,9 +353,17 @@ def generate_synthetic_orders(config: dict, menu_df: pd.DataFrame) -> pd.DataFra
         service_orders = int(month_orders * 0.75)
         other_orders = month_orders - service_orders
         
-        # Apply weekend boost to both service and other periods
+        # Apply weekend boost AND peak hour weighting (12-1pm lunch, 7-8pm dinner)
         if len(service_dates) > 0:
-            service_dow_weights = np.array([dow_multipliers[pd.Timestamp(ts).dayofweek] for ts in service_dates])
+            # Combine day-of-week and hour-of-day multipliers
+            peak_hour_multipliers = {11: 0.9, 12: 1.3, 13: 1.3, 14: 0.8,  # Lunch peak 12-1pm
+                                     17: 0.9, 18: 1.0, 19: 1.4, 20: 1.3, 21: 0.8}  # Dinner peak 7-8pm
+            combined_weights = []
+            for ts in service_dates:
+                dow_mult = dow_multipliers[pd.Timestamp(ts).dayofweek]
+                hour_mult = peak_hour_multipliers.get(ts.hour, 1.0)
+                combined_weights.append(dow_mult * hour_mult)
+            service_dow_weights = np.array(combined_weights)
             service_dow_weights = service_dow_weights / service_dow_weights.sum()
             service_timestamps = np.random.choice(service_dates, size=service_orders, p=service_dow_weights, replace=True)
         else:
