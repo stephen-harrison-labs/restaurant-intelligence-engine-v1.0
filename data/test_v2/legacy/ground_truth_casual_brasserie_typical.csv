@@ -1,0 +1,35 @@
+item_id,item_name,tags,expected_quadrant,is_opportunity,is_risk,archetype_role
+1,Goat Cheese Salad,['starters'],,False,False,standard
+2,Niçoise Salad,['starters'],,False,False,standard
+3,Moules Marinières,"['starters', 'high_waste_risk']",,False,True,risk
+4,Pâté,['starters'],,False,False,standard
+5,French Onion Soup,['starters'],,False,False,standard
+6,Escargots,['starters'],,False,False,standard
+7,Caesar Salad,"['starters', 'underpriced_high_performer']",Star,True,False,opportunity
+8,Steak Frites,"['mains', 'overpriced_low_volume']",Dog,False,True,risk
+9,Duck Confit,['mains'],,False,False,standard
+10,Coq au Vin,['mains'],,False,False,standard
+11,Croque Monsieur,['mains'],,False,False,standard
+12,Ratatouille,['mains'],,False,False,standard
+13,Quiche Lorraine,"['mains', 'underpriced_high_performer']",Star,True,False,opportunity
+14,Croque Monsieur,['mains'],,False,False,standard
+15,Bouillabaisse,['mains'],,False,False,standard
+16,Quiche Lorraine,['mains'],,False,False,standard
+17,Bouillabaisse,['mains'],,False,False,standard
+18,Bouillabaisse,['mains'],,False,False,standard
+19,Quiche Lorraine,['mains'],,False,False,standard
+20,Haricots Verts,"['sides', 'underpriced_high_performer']",Star,True,False,opportunity
+21,Ratatouille,['sides'],,False,False,standard
+22,French Fries,['sides'],,False,False,standard
+23,Haricots Verts,"['sides', 'overpriced_low_volume']",Dog,False,True,risk
+24,Haricots Verts,['sides'],,False,False,standard
+25,Mousse au Chocolat,['desserts'],,False,False,standard
+26,Crêpes Suzette,"['desserts', 'underpriced_high_performer']",Star,True,False,opportunity
+27,Tarte Tatin,['desserts'],,False,False,standard
+28,Crème Brûlée,['desserts'],,False,False,standard
+29,Profiteroles,['desserts'],,False,False,standard
+30,Perrier,['drinks'],,False,False,standard
+31,Orangina,['drinks'],,False,False,standard
+32,Champagne,['drinks'],,False,False,standard
+33,House Wine (175ml),"['drinks', 'underpriced_high_performer']",Star,True,False,opportunity
+34,Café au Lait,['drinks'],,False,False,standard

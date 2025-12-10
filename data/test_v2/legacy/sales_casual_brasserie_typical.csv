@@ -1,0 +1,964 @@
+order_id,item_name,qty,order_datetime,staff_name
+1,Bouillabaisse,1,2024-01-01 12:19:00,Henry
+2,Quiche Lorraine,2,2024-01-01 19:06:00,Henry
+3,Quiche Lorraine,2,2024-01-01 10:34:00,Alice
+4,Quiche Lorraine,3,2024-01-01 11:57:00,Alice
+5,Quiche Lorraine,1,2024-01-01 17:29:00,Eve
+6,Niçoise Salad,3,2024-01-01 15:28:00,Henry
+7,Bouillabaisse,1,2024-01-01 19:26:00,Eve
+8,Quiche Lorraine,2,2024-01-01 17:08:00,Bob
+9,Profiteroles,1,2024-01-01 18:16:00,Charlie
+10,Quiche Lorraine,3,2024-01-01 10:06:00,Alice
+11,House Wine (175ml),1,2024-01-01 18:33:00,Henry
+12,Orangina,1,2024-01-01 15:19:00,Henry
+13,Café au Lait,3,2024-01-01 10:15:00,Alice
+14,Tarte Tatin,2,2024-01-01 18:26:00,Henry
+15,Quiche Lorraine,1,2024-01-01 13:53:00,Alice
+16,Ratatouille,3,2024-01-01 11:46:00,Henry
+17,Haricots Verts,1,2024-01-01 12:44:00,Alice
+18,Crêpes Suzette,1,2024-01-01 12:07:00,Frank
+19,House Wine (175ml),2,2024-01-01 13:35:00,Henry
+20,Ratatouille,1,2024-01-01 12:46:00,Henry
+21,Quiche Lorraine,2,2024-01-01 18:00:00,Henry
+22,Haricots Verts,2,2024-01-01 17:07:00,Diana
+23,Duck Confit,3,2024-01-01 18:11:00,Grace
+24,Quiche Lorraine,2,2024-01-01 14:07:00,Henry
+25,Perrier,1,2024-01-01 20:18:00,Eve
+26,Caesar Salad,1,2024-01-01 17:17:00,Bob
+27,Bouillabaisse,3,2024-01-01 14:38:00,Alice
+28,French Fries,1,2024-01-01 18:57:00,Diana
+29,Haricots Verts,1,2024-01-01 12:28:00,Alice
+30,Mousse au Chocolat,2,2024-01-01 16:49:00,Grace
+31,Bouillabaisse,2,2024-01-01 14:36:00,Alice
+32,Ratatouille,1,2024-01-01 19:22:00,Charlie
+33,Caesar Salad,1,2024-01-01 18:27:00,Henry
+34,Haricots Verts,1,2024-01-01 17:48:00,Diana
+35,Coq au Vin,1,2024-01-01 12:08:00,Henry
+36,Niçoise Salad,1,2024-01-01 12:55:00,Frank
+37,Bouillabaisse,2,2024-01-01 12:06:00,Henry
+38,Quiche Lorraine,3,2024-01-01 13:03:00,Henry
+39,Coq au Vin,1,2024-01-01 19:19:00,Eve
+40,Bouillabaisse,1,2024-01-01 13:02:00,Frank
+41,Caesar Salad,3,2024-01-01 13:34:00,Henry
+42,Caesar Salad,2,2024-01-01 11:31:00,Frank
+43,Haricots Verts,2,2024-01-01 19:55:00,Charlie
+44,Duck Confit,2,2024-01-01 17:58:00,Eve
+45,Quiche Lorraine,1,2024-01-01 15:46:00,Henry
+46,Duck Confit,2,2024-01-01 17:51:00,Charlie
+47,Quiche Lorraine,1,2024-01-01 14:15:00,Frank
+48,Quiche Lorraine,1,2024-01-01 13:13:00,Frank
+49,Quiche Lorraine,1,2024-01-01 20:22:00,Grace
+50,Quiche Lorraine,3,2024-01-01 16:54:00,Henry
+51,Quiche Lorraine,2,2024-01-01 16:50:00,Grace
+52,Haricots Verts,1,2024-01-01 12:37:00,Frank
+53,Quiche Lorraine,1,2024-01-01 17:41:00,Eve
+54,House Wine (175ml),2,2024-01-01 19:05:00,Grace
+55,Haricots Verts,3,2024-01-01 17:08:00,Diana
+56,Caesar Salad,2,2024-01-01 13:46:00,Henry
+57,Bouillabaisse,2,2024-01-01 12:35:00,Alice
+58,Haricots Verts,2,2024-01-01 15:33:00,Henry
+59,Steak Frites,1,2024-01-01 17:45:00,Bob
+60,Bouillabaisse,1,2024-01-01 11:55:00,Frank
+61,Tarte Tatin,2,2024-01-01 17:39:00,Grace
+62,Quiche Lorraine,1,2024-01-01 13:20:00,Henry
+63,Bouillabaisse,1,2024-01-01 12:21:00,Alice
+64,Orangina,2,2024-01-01 18:56:00,Charlie
+65,House Wine (175ml),2,2024-01-01 15:33:00,Alice
+66,Haricots Verts,2,2024-01-01 20:22:00,Diana
+67,Quiche Lorraine,1,2024-01-01 12:07:00,Frank
+68,Quiche Lorraine,2,2024-01-01 14:35:00,Henry
+69,Perrier,2,2024-01-01 14:49:00,Alice
+70,Crêpes Suzette,1,2024-01-01 12:18:00,Frank
+71,Café au Lait,2,2024-01-01 19:59:00,Bob
+72,Tarte Tatin,1,2024-01-01 17:06:00,Eve
+73,Ratatouille,1,2024-01-01 12:05:00,Frank
+74,Moules Marinières,1,2024-01-01 19:08:00,Charlie
+75,Haricots Verts,1,2024-01-01 11:39:00,Henry
+76,Haricots Verts,3,2024-01-01 19:36:00,Charlie
+77,Haricots Verts,1,2024-01-01 18:03:00,Henry
+78,Quiche Lorraine,2,2024-01-01 12:41:00,Alice
+79,Duck Confit,2,2024-01-01 17:07:00,Bob
+80,Quiche Lorraine,3,2024-01-01 12:51:00,Alice
+81,Bouillabaisse,1,2024-01-01 17:16:00,Eve
+82,Coq au Vin,1,2024-01-01 19:03:00,Diana
+83,Quiche Lorraine,1,2024-01-01 12:42:00,Frank
+84,Duck Confit,3,2024-01-01 17:58:00,Henry
+85,Quiche Lorraine,1,2024-01-01 13:34:00,Frank
+86,Quiche Lorraine,1,2024-01-01 20:34:00,Bob
+87,Duck Confit,1,2024-01-01 14:08:00,Alice
+88,Bouillabaisse,1,2024-01-01 13:07:00,Frank
+89,Croque Monsieur,2,2024-01-01 14:25:00,Alice
+90,Bouillabaisse,2,2024-01-01 13:24:00,Henry
+91,Bouillabaisse,2,2024-01-01 12:02:00,Alice
+92,Quiche Lorraine,2,2024-01-01 17:34:00,Eve
+93,Quiche Lorraine,1,2024-01-01 16:39:00,Charlie
+94,Crêpes Suzette,3,2024-01-01 15:25:00,Henry
+95,Haricots Verts,1,2024-01-01 15:44:00,Henry
+96,Steak Frites,1,2024-01-01 19:31:00,Diana
+97,Quiche Lorraine,1,2024-01-01 19:29:00,Grace
+98,Haricots Verts,1,2024-01-01 12:03:00,Henry
+99,Croque Monsieur,1,2024-01-01 19:18:00,Grace
+100,Quiche Lorraine,3,2024-01-01 17:51:00,Grace
+101,Quiche Lorraine,2,2024-01-01 22:07:00,Diana
+102,Quiche Lorraine,1,2024-01-01 18:46:00,Grace
+103,Coq au Vin,1,2024-01-01 12:23:00,Henry
+104,Bouillabaisse,3,2024-01-01 19:31:00,Henry
+105,Quiche Lorraine,1,2024-01-01 22:59:00,Eve
+106,Bouillabaisse,2,2024-01-01 11:08:00,Henry
+107,Crème Brûlée,1,2024-01-01 12:45:00,Alice
+108,Quiche Lorraine,2,2024-01-02 12:11:00,Alice
+109,Ratatouille,3,2024-01-02 15:00:00,Alice
+110,Quiche Lorraine,2,2024-01-02 17:33:00,Eve
+111,Quiche Lorraine,1,2024-01-02 11:43:00,Frank
+112,Ratatouille,3,2024-01-02 19:19:00,Diana
+113,Bouillabaisse,3,2024-01-02 15:25:00,Henry
+114,Quiche Lorraine,1,2024-01-02 13:34:00,Frank
+115,Quiche Lorraine,1,2024-01-02 14:59:00,Henry
+116,Moules Marinières,3,2024-01-02 13:18:00,Alice
+117,Bouillabaisse,1,2024-01-02 14:25:00,Alice
+118,Quiche Lorraine,3,2024-01-02 13:10:00,Henry
+119,Haricots Verts,3,2024-01-02 17:52:00,Diana
+120,French Fries,3,2024-01-02 18:17:00,Henry
+121,Bouillabaisse,2,2024-01-02 12:30:00,Henry
+122,House Wine (175ml),1,2024-01-02 17:25:00,Henry
+123,Quiche Lorraine,1,2024-01-02 18:58:00,Grace
+124,Quiche Lorraine,3,2024-01-02 10:30:00,Henry
+125,Bouillabaisse,2,2024-01-02 14:19:00,Henry
+126,Haricots Verts,2,2024-01-02 11:13:00,Frank
+127,Croque Monsieur,1,2024-01-02 19:14:00,Bob
+128,Quiche Lorraine,2,2024-01-02 12:55:00,Henry
+129,Haricots Verts,1,2024-01-02 19:44:00,Grace
+130,Haricots Verts,1,2024-01-02 12:06:00,Frank
+131,Moules Marinières,2,2024-01-02 15:15:00,Henry
+132,Ratatouille,3,2024-01-02 19:36:00,Grace
+133,Quiche Lorraine,2,2024-01-02 13:46:00,Henry
+134,Crêpes Suzette,1,2024-01-02 14:06:00,Alice
+135,Quiche Lorraine,2,2024-01-02 11:40:00,Frank
+136,Bouillabaisse,1,2024-01-02 22:38:00,Charlie
+137,Quiche Lorraine,2,2024-01-02 17:11:00,Henry
+138,Quiche Lorraine,1,2024-01-02 13:29:00,Henry
+139,Croque Monsieur,1,2024-01-02 13:04:00,Alice
+140,Quiche Lorraine,1,2024-01-02 14:57:00,Frank
+141,Quiche Lorraine,1,2024-01-02 20:57:00,Grace
+142,Quiche Lorraine,3,2024-01-02 19:23:00,Charlie
+143,Bouillabaisse,2,2024-01-02 16:59:00,Grace
+144,Quiche Lorraine,1,2024-01-02 13:51:00,Alice
+145,Bouillabaisse,2,2024-01-02 19:00:00,Charlie
+146,Quiche Lorraine,3,2024-01-02 18:38:00,Diana
+147,Crème Brûlée,2,2024-01-02 18:15:00,Grace
+148,Caesar Salad,1,2024-01-02 12:10:00,Frank
+149,Bouillabaisse,1,2024-01-02 20:46:00,Eve
+150,Moules Marinières,1,2024-01-02 20:44:00,Bob
+151,Quiche Lorraine,1,2024-01-02 11:59:00,Frank
+152,Croque Monsieur,1,2024-01-02 11:51:00,Alice
+153,Quiche Lorraine,1,2024-01-02 18:26:00,Charlie
+154,Caesar Salad,3,2024-01-02 14:09:00,Alice
+155,Quiche Lorraine,1,2024-01-02 09:06:00,Frank
+156,Haricots Verts,1,2024-01-02 14:33:00,Henry
+157,Quiche Lorraine,2,2024-01-02 13:35:00,Alice
+158,Orangina,1,2024-01-02 12:44:00,Alice
+159,Duck Confit,1,2024-01-02 14:51:00,Henry
+160,Goat Cheese Salad,1,2024-01-02 12:01:00,Henry
+161,Bouillabaisse,1,2024-01-02 10:09:00,Alice
+162,Haricots Verts,1,2024-01-02 17:13:00,Eve
+163,Coq au Vin,2,2024-01-02 19:31:00,Eve
+164,Perrier,2,2024-01-02 19:17:00,Charlie
+165,Quiche Lorraine,3,2024-01-02 17:54:00,Henry
+166,Bouillabaisse,1,2024-01-02 13:32:00,Henry
+167,Caesar Salad,1,2024-01-02 14:38:00,Alice
+168,Coq au Vin,2,2024-01-02 13:23:00,Alice
+169,Quiche Lorraine,3,2024-01-02 18:18:00,Grace
+170,Duck Confit,2,2024-01-02 17:14:00,Bob
+171,Café au Lait,1,2024-01-02 12:47:00,Frank
+172,Bouillabaisse,1,2024-01-02 09:33:00,Henry
+173,Quiche Lorraine,2,2024-01-02 19:05:00,Henry
+174,Bouillabaisse,1,2024-01-02 13:43:00,Alice
+175,Niçoise Salad,2,2024-01-02 17:58:00,Henry
+176,Ratatouille,2,2024-01-02 12:50:00,Henry
+177,Quiche Lorraine,2,2024-01-02 16:31:00,Diana
+178,House Wine (175ml),1,2024-01-02 17:16:00,Grace
+179,Haricots Verts,2,2024-01-02 15:56:00,Alice
+180,Crêpes Suzette,1,2024-01-02 14:56:00,Alice
+181,House Wine (175ml),1,2024-01-02 18:28:00,Bob
+182,Profiteroles,1,2024-01-02 12:55:00,Henry
+183,Crêpes Suzette,1,2024-01-02 14:52:00,Henry
+184,Haricots Verts,2,2024-01-02 15:05:00,Henry
+185,Crème Brûlée,3,2024-01-02 17:26:00,Bob
+186,Croque Monsieur,2,2024-01-02 18:30:00,Bob
+187,Croque Monsieur,2,2024-01-02 10:12:00,Henry
+188,Quiche Lorraine,2,2024-01-02 19:37:00,Diana
+189,Bouillabaisse,3,2024-01-02 17:23:00,Diana
+190,Croque Monsieur,1,2024-01-02 14:04:00,Alice
+191,Quiche Lorraine,1,2024-01-02 12:19:00,Alice
+192,Caesar Salad,2,2024-01-02 20:43:00,Charlie
+193,Croque Monsieur,1,2024-01-02 19:20:00,Charlie
+194,Ratatouille,1,2024-01-02 15:03:00,Frank
+195,Quiche Lorraine,2,2024-01-02 15:05:00,Henry
+196,Quiche Lorraine,2,2024-01-02 12:14:00,Alice
+197,House Wine (175ml),3,2024-01-02 19:46:00,Henry
+198,Duck Confit,1,2024-01-02 20:35:00,Bob
+199,Haricots Verts,2,2024-01-02 16:25:00,Bob
+200,Ratatouille,1,2024-01-02 16:31:00,Bob
+201,Haricots Verts,1,2024-01-02 19:22:00,Eve
+202,Haricots Verts,1,2024-01-02 13:50:00,Frank
+203,Duck Confit,3,2024-01-02 12:36:00,Henry
+204,Haricots Verts,1,2024-01-02 12:23:00,Alice
+205,Ratatouille,1,2024-01-02 14:03:00,Frank
+206,Quiche Lorraine,2,2024-01-02 19:34:00,Henry
+207,Coq au Vin,3,2024-01-02 13:19:00,Alice
+208,Quiche Lorraine,1,2024-01-02 19:00:00,Grace
+209,Bouillabaisse,1,2024-01-02 16:23:00,Eve
+210,Quiche Lorraine,3,2024-01-02 12:10:00,Henry
+211,Croque Monsieur,1,2024-01-02 12:22:00,Frank
+212,Perrier,1,2024-01-02 10:22:00,Alice
+213,Croque Monsieur,2,2024-01-02 17:04:00,Diana
+214,Haricots Verts,2,2024-01-02 12:50:00,Henry
+215,Quiche Lorraine,1,2024-01-03 12:28:00,Henry
+216,Quiche Lorraine,2,2024-01-03 13:55:00,Alice
+217,Perrier,1,2024-01-03 18:47:00,Grace
+218,Café au Lait,1,2024-01-03 17:12:00,Grace
+219,Duck Confit,1,2024-01-03 11:00:00,Frank
+220,Perrier,1,2024-01-03 17:27:00,Diana
+221,Quiche Lorraine,2,2024-01-03 18:23:00,Grace
+222,Quiche Lorraine,1,2024-01-03 14:27:00,Frank
+223,Moules Marinières,2,2024-01-03 18:57:00,Henry
+224,Café au Lait,2,2024-01-03 19:50:00,Grace
+225,Champagne,1,2024-01-03 17:44:00,Charlie
+226,Bouillabaisse,2,2024-01-03 18:18:00,Diana
+227,Bouillabaisse,2,2024-01-03 15:24:00,Henry
+228,Bouillabaisse,1,2024-01-03 13:54:00,Henry
+229,Quiche Lorraine,2,2024-01-03 11:24:00,Alice
+230,Croque Monsieur,2,2024-01-03 09:40:00,Henry
+231,Quiche Lorraine,1,2024-01-03 19:19:00,Grace
+232,Quiche Lorraine,2,2024-01-03 13:14:00,Henry
+233,Quiche Lorraine,2,2024-01-03 19:08:00,Grace
+234,Ratatouille,2,2024-01-03 20:12:00,Eve
+235,Croque Monsieur,2,2024-01-03 13:36:00,Henry
+236,Crêpes Suzette,1,2024-01-03 10:58:00,Frank
+237,Haricots Verts,1,2024-01-03 14:24:00,Alice
+238,Quiche Lorraine,1,2024-01-03 16:56:00,Grace
+239,Perrier,2,2024-01-03 12:29:00,Frank
+240,Haricots Verts,2,2024-01-03 21:54:00,Bob
+241,Ratatouille,1,2024-01-03 15:44:00,Frank
+242,Bouillabaisse,2,2024-01-03 13:27:00,Alice
+243,Haricots Verts,1,2024-01-03 12:15:00,Frank
+244,Haricots Verts,3,2024-01-03 09:48:00,Alice
+245,Steak Frites,1,2024-01-03 12:20:00,Henry
+246,Duck Confit,2,2024-01-03 22:46:00,Charlie
+247,House Wine (175ml),1,2024-01-03 17:11:00,Henry
+248,Quiche Lorraine,2,2024-01-03 12:55:00,Frank
+249,Haricots Verts,1,2024-01-03 17:47:00,Diana
+250,Quiche Lorraine,1,2024-01-03 14:06:00,Frank
+251,Café au Lait,2,2024-01-03 17:33:00,Bob
+252,House Wine (175ml),1,2024-01-03 11:59:00,Henry
+253,Pâté,2,2024-01-03 14:43:00,Alice
+254,Haricots Verts,3,2024-01-03 13:25:00,Alice
+255,Haricots Verts,2,2024-01-03 14:47:00,Frank
+256,Duck Confit,3,2024-01-03 15:19:00,Alice
+257,Quiche Lorraine,1,2024-01-03 11:53:00,Alice
+258,Bouillabaisse,2,2024-01-03 11:09:00,Alice
+259,Haricots Verts,1,2024-01-03 10:00:00,Frank
+260,Haricots Verts,2,2024-01-03 12:39:00,Alice
+261,Croque Monsieur,2,2024-01-03 18:51:00,Bob
+262,Quiche Lorraine,2,2024-01-03 13:05:00,Alice
+263,Croque Monsieur,1,2024-01-03 14:45:00,Alice
+264,Caesar Salad,1,2024-01-03 18:22:00,Henry
+265,Croque Monsieur,3,2024-01-03 12:07:00,Alice
+266,Quiche Lorraine,1,2024-01-03 12:49:00,Henry
+267,Crêpes Suzette,1,2024-01-03 19:39:00,Henry
+268,Quiche Lorraine,1,2024-01-03 12:58:00,Frank
+269,Haricots Verts,2,2024-01-03 17:39:00,Grace
+270,Bouillabaisse,1,2024-01-03 10:33:00,Frank
+271,Haricots Verts,3,2024-01-03 13:02:00,Alice
+272,Quiche Lorraine,2,2024-01-03 17:25:00,Bob
+273,Quiche Lorraine,1,2024-01-03 13:23:00,Frank
+274,Tarte Tatin,2,2024-01-03 09:33:00,Alice
+275,Quiche Lorraine,2,2024-01-03 12:12:00,Henry
+276,Croque Monsieur,2,2024-01-03 19:53:00,Diana
+277,Croque Monsieur,1,2024-01-03 12:03:00,Alice
+278,Coq au Vin,1,2024-01-03 12:40:00,Alice
+279,Quiche Lorraine,1,2024-01-03 19:25:00,Charlie
+280,Bouillabaisse,1,2024-01-03 13:19:00,Frank
+281,Caesar Salad,1,2024-01-03 19:15:00,Bob
+282,Duck Confit,2,2024-01-03 12:55:00,Frank
+283,Quiche Lorraine,3,2024-01-03 18:37:00,Bob
+284,Quiche Lorraine,3,2024-01-03 10:49:00,Alice
+285,Coq au Vin,3,2024-01-03 17:24:00,Henry
+286,House Wine (175ml),1,2024-01-03 15:48:00,Frank
+287,Duck Confit,1,2024-01-03 14:29:00,Henry
+288,Mousse au Chocolat,2,2024-01-03 12:35:00,Henry
+289,Bouillabaisse,2,2024-01-03 13:06:00,Henry
+290,Croque Monsieur,1,2024-01-03 19:24:00,Grace
+291,Quiche Lorraine,2,2024-01-03 14:55:00,Henry
+292,Quiche Lorraine,1,2024-01-03 16:34:00,Diana
+293,Quiche Lorraine,1,2024-01-03 11:19:00,Alice
+294,Haricots Verts,1,2024-01-03 12:09:00,Henry
+295,Bouillabaisse,2,2024-01-03 19:33:00,Henry
+296,Croque Monsieur,2,2024-01-03 11:55:00,Frank
+297,Moules Marinières,2,2024-01-03 17:56:00,Henry
+298,Haricots Verts,3,2024-01-03 17:00:00,Bob
+299,Goat Cheese Salad,2,2024-01-03 15:01:00,Alice
+300,Croque Monsieur,2,2024-01-03 13:27:00,Henry
+301,Ratatouille,2,2024-01-03 13:52:00,Henry
+302,House Wine (175ml),3,2024-01-03 16:09:00,Charlie
+303,Crêpes Suzette,1,2024-01-03 12:57:00,Henry
+304,Quiche Lorraine,1,2024-01-03 12:35:00,Frank
+305,Bouillabaisse,1,2024-01-03 21:48:00,Grace
+306,Haricots Verts,3,2024-01-03 14:36:00,Alice
+307,Crêpes Suzette,1,2024-01-03 13:07:00,Henry
+308,Quiche Lorraine,1,2024-01-03 15:18:00,Frank
+309,Bouillabaisse,1,2024-01-03 17:27:00,Bob
+310,Croque Monsieur,1,2024-01-03 14:22:00,Henry
+311,Caesar Salad,2,2024-01-03 12:31:00,Frank
+312,House Wine (175ml),1,2024-01-03 14:20:00,Alice
+313,Quiche Lorraine,2,2024-01-03 17:48:00,Henry
+314,Quiche Lorraine,2,2024-01-03 14:52:00,Frank
+315,Quiche Lorraine,1,2024-01-03 20:02:00,Eve
+316,Orangina,2,2024-01-03 19:02:00,Diana
+317,Haricots Verts,1,2024-01-03 12:02:00,Alice
+318,Bouillabaisse,1,2024-01-03 16:03:00,Bob
+319,House Wine (175ml),1,2024-01-03 14:54:00,Henry
+320,House Wine (175ml),1,2024-01-03 12:03:00,Frank
+321,Haricots Verts,3,2024-01-03 19:17:00,Bob
+322,Duck Confit,2,2024-01-03 19:42:00,Diana
+323,Tarte Tatin,3,2024-01-03 16:56:00,Diana
+324,Quiche Lorraine,1,2024-01-03 18:32:00,Grace
+325,Caesar Salad,1,2024-01-03 13:28:00,Alice
+326,Orangina,2,2024-01-03 18:23:00,Grace
+327,Croque Monsieur,3,2024-01-03 10:26:00,Alice
+328,Orangina,2,2024-01-03 12:09:00,Frank
+329,Duck Confit,1,2024-01-03 12:30:00,Frank
+330,Profiteroles,1,2024-01-04 12:08:00,Frank
+331,Haricots Verts,2,2024-01-04 17:47:00,Charlie
+332,Quiche Lorraine,1,2024-01-04 19:37:00,Henry
+333,Champagne,1,2024-01-04 12:24:00,Frank
+334,Coq au Vin,1,2024-01-04 18:07:00,Eve
+335,Bouillabaisse,1,2024-01-04 17:10:00,Grace
+336,Orangina,1,2024-01-04 18:54:00,Charlie
+337,Quiche Lorraine,1,2024-01-04 12:35:00,Frank
+338,Quiche Lorraine,2,2024-01-04 14:16:00,Henry
+339,Bouillabaisse,1,2024-01-04 14:58:00,Alice
+340,House Wine (175ml),1,2024-01-04 17:36:00,Bob
+341,French Onion Soup,2,2024-01-04 19:16:00,Diana
+342,Bouillabaisse,2,2024-01-04 17:44:00,Grace
+343,Quiche Lorraine,2,2024-01-04 19:46:00,Eve
+344,Quiche Lorraine,2,2024-01-04 17:55:00,Henry
+345,Haricots Verts,2,2024-01-04 18:22:00,Eve
+346,Duck Confit,1,2024-01-04 12:35:00,Henry
+347,Tarte Tatin,1,2024-01-04 17:06:00,Grace
+348,Duck Confit,1,2024-01-04 12:05:00,Henry
+349,Crêpes Suzette,1,2024-01-04 13:19:00,Frank
+350,Quiche Lorraine,2,2024-01-04 18:50:00,Charlie
+351,Quiche Lorraine,1,2024-01-04 12:23:00,Alice
+352,Escargots,1,2024-01-04 16:49:00,Grace
+353,Haricots Verts,1,2024-01-04 18:34:00,Grace
+354,Quiche Lorraine,1,2024-01-04 18:16:00,Charlie
+355,Ratatouille,1,2024-01-04 14:20:00,Frank
+356,Duck Confit,2,2024-01-04 13:11:00,Alice
+357,Ratatouille,1,2024-01-04 13:51:00,Frank
+358,Quiche Lorraine,3,2024-01-04 19:21:00,Diana
+359,Crêpes Suzette,3,2024-01-04 22:28:00,Eve
+360,Caesar Salad,1,2024-01-04 18:21:00,Diana
+361,Bouillabaisse,1,2024-01-04 15:28:00,Frank
+362,Caesar Salad,1,2024-01-04 16:38:00,Henry
+363,Café au Lait,3,2024-01-04 18:04:00,Henry
+364,Croque Monsieur,1,2024-01-04 19:09:00,Charlie
+365,Quiche Lorraine,2,2024-01-04 17:37:00,Henry
+366,Croque Monsieur,1,2024-01-04 13:12:00,Alice
+367,Haricots Verts,2,2024-01-04 20:45:00,Diana
+368,Haricots Verts,1,2024-01-04 12:44:00,Alice
+369,Quiche Lorraine,2,2024-01-04 19:46:00,Bob
+370,House Wine (175ml),1,2024-01-04 12:57:00,Alice
+371,Ratatouille,1,2024-01-04 14:59:00,Frank
+372,Haricots Verts,1,2024-01-04 18:34:00,Diana
+373,Café au Lait,1,2024-01-04 09:34:00,Frank
+374,Haricots Verts,1,2024-01-04 12:53:00,Frank
+375,Croque Monsieur,1,2024-01-04 13:20:00,Henry
+376,Quiche Lorraine,2,2024-01-04 12:33:00,Frank
+377,House Wine (175ml),1,2024-01-04 17:44:00,Grace
+378,Ratatouille,2,2024-01-04 14:14:00,Henry
+379,Quiche Lorraine,1,2024-01-04 18:58:00,Bob
+380,Quiche Lorraine,1,2024-01-04 12:24:00,Frank
+381,Quiche Lorraine,1,2024-01-04 19:32:00,Grace
+382,Champagne,2,2024-01-04 13:16:00,Alice
+383,Croque Monsieur,1,2024-01-04 12:24:00,Henry
+384,French Fries,1,2024-01-04 12:47:00,Frank
+385,Haricots Verts,1,2024-01-04 19:36:00,Henry
+386,Quiche Lorraine,2,2024-01-04 11:51:00,Henry
+387,French Fries,3,2024-01-04 18:36:00,Bob
+388,Crêpes Suzette,2,2024-01-04 18:58:00,Diana
+389,Haricots Verts,1,2024-01-04 18:02:00,Grace
+390,Quiche Lorraine,2,2024-01-04 12:59:00,Alice
+391,French Fries,3,2024-01-04 17:51:00,Diana
+392,Quiche Lorraine,2,2024-01-04 12:46:00,Henry
+393,House Wine (175ml),2,2024-01-04 12:20:00,Henry
+394,Quiche Lorraine,2,2024-01-04 19:09:00,Henry
+395,Caesar Salad,2,2024-01-04 14:04:00,Henry
+396,French Fries,1,2024-01-04 19:05:00,Charlie
+397,Quiche Lorraine,2,2024-01-04 21:28:00,Henry
+398,Quiche Lorraine,2,2024-01-04 13:14:00,Frank
+399,Quiche Lorraine,2,2024-01-04 10:27:00,Alice
+400,Quiche Lorraine,3,2024-01-04 15:28:00,Alice
+401,Champagne,1,2024-01-04 10:50:00,Frank
+402,Mousse au Chocolat,2,2024-01-04 18:32:00,Charlie
+403,Quiche Lorraine,2,2024-01-04 19:17:00,Charlie
+404,Moules Marinières,3,2024-01-04 12:47:00,Alice
+405,Haricots Verts,2,2024-01-04 18:06:00,Eve
+406,Quiche Lorraine,1,2024-01-04 15:07:00,Frank
+407,Quiche Lorraine,2,2024-01-04 19:50:00,Grace
+408,Crème Brûlée,3,2024-01-04 12:15:00,Henry
+409,Croque Monsieur,1,2024-01-04 13:49:00,Alice
+410,Café au Lait,1,2024-01-04 12:22:00,Alice
+411,Bouillabaisse,2,2024-01-04 12:31:00,Henry
+412,Quiche Lorraine,2,2024-01-04 17:24:00,Henry
+413,Quiche Lorraine,1,2024-01-04 18:24:00,Diana
+414,Ratatouille,1,2024-01-04 12:25:00,Henry
+415,Quiche Lorraine,2,2024-01-04 12:47:00,Henry
+416,Haricots Verts,1,2024-01-04 19:52:00,Bob
+417,Profiteroles,1,2024-01-04 12:27:00,Henry
+418,Bouillabaisse,2,2024-01-04 17:14:00,Charlie
+419,Duck Confit,2,2024-01-04 17:09:00,Eve
+420,Escargots,1,2024-01-04 18:33:00,Grace
+421,Croque Monsieur,2,2024-01-04 14:26:00,Alice
+422,Haricots Verts,2,2024-01-04 18:46:00,Charlie
+423,Quiche Lorraine,2,2024-01-04 18:57:00,Diana
+424,Quiche Lorraine,2,2024-01-04 19:55:00,Diana
+425,Quiche Lorraine,1,2024-01-04 18:07:00,Bob
+426,Quiche Lorraine,3,2024-01-04 19:20:00,Diana
+427,Croque Monsieur,1,2024-01-04 14:35:00,Alice
+428,Ratatouille,1,2024-01-04 09:38:00,Frank
+429,Duck Confit,2,2024-01-04 10:12:00,Frank
+430,Quiche Lorraine,1,2024-01-04 12:24:00,Frank
+431,Ratatouille,3,2024-01-04 14:17:00,Henry
+432,Café au Lait,1,2024-01-05 18:30:00,Diana
+433,Ratatouille,1,2024-01-05 13:50:00,Frank
+434,Quiche Lorraine,2,2024-01-05 22:15:00,Bob
+435,Croque Monsieur,2,2024-01-05 19:59:00,Diana
+436,Bouillabaisse,3,2024-01-05 19:55:00,Charlie
+437,Haricots Verts,1,2024-01-05 21:18:00,Henry
+438,Bouillabaisse,1,2024-01-05 13:54:00,Frank
+439,Haricots Verts,1,2024-01-05 17:32:00,Diana
+440,Coq au Vin,2,2024-01-05 13:24:00,Frank
+441,Haricots Verts,2,2024-01-05 14:07:00,Alice
+442,Coq au Vin,2,2024-01-05 10:13:00,Henry
+443,French Onion Soup,2,2024-01-05 13:18:00,Henry
+444,Duck Confit,2,2024-01-05 10:03:00,Alice
+445,Escargots,3,2024-01-05 14:50:00,Henry
+446,Coq au Vin,3,2024-01-05 19:26:00,Bob
+447,Croque Monsieur,2,2024-01-05 16:00:00,Grace
+448,House Wine (175ml),2,2024-01-05 18:09:00,Charlie
+449,Quiche Lorraine,1,2024-01-05 13:35:00,Henry
+450,Quiche Lorraine,1,2024-01-05 10:28:00,Alice
+451,Bouillabaisse,1,2024-01-05 14:21:00,Frank
+452,Caesar Salad,2,2024-01-05 18:38:00,Charlie
+453,Pâté,1,2024-01-05 17:42:00,Grace
+454,Coq au Vin,3,2024-01-05 14:14:00,Alice
+455,Orangina,1,2024-01-05 19:24:00,Diana
+456,Niçoise Salad,2,2024-01-05 19:12:00,Eve
+457,House Wine (175ml),2,2024-01-05 20:57:00,Charlie
+458,Bouillabaisse,2,2024-01-05 11:54:00,Alice
+459,Duck Confit,1,2024-01-05 14:50:00,Frank
+460,Haricots Verts,2,2024-01-05 11:34:00,Henry
+461,House Wine (175ml),1,2024-01-05 15:43:00,Frank
+462,Croque Monsieur,2,2024-01-05 13:18:00,Henry
+463,Croque Monsieur,3,2024-01-05 20:10:00,Eve
+464,Ratatouille,2,2024-01-05 13:44:00,Alice
+465,Quiche Lorraine,3,2024-01-05 19:51:00,Bob
+466,Quiche Lorraine,1,2024-01-05 12:15:00,Frank
+467,Haricots Verts,1,2024-01-05 11:05:00,Frank
+468,Quiche Lorraine,3,2024-01-05 13:28:00,Alice
+469,Quiche Lorraine,1,2024-01-05 14:50:00,Henry
+470,Duck Confit,1,2024-01-05 19:57:00,Grace
+471,Quiche Lorraine,1,2024-01-05 18:29:00,Bob
+472,Quiche Lorraine,1,2024-01-05 14:02:00,Henry
+473,Croque Monsieur,2,2024-01-05 10:24:00,Henry
+474,Ratatouille,1,2024-01-05 12:36:00,Frank
+475,Croque Monsieur,2,2024-01-05 13:00:00,Henry
+476,Quiche Lorraine,1,2024-01-05 17:48:00,Bob
+477,French Fries,3,2024-01-05 14:01:00,Henry
+478,Haricots Verts,1,2024-01-05 10:06:00,Henry
+479,Orangina,3,2024-01-05 18:36:00,Eve
+480,Quiche Lorraine,1,2024-01-05 10:37:00,Frank
+481,Niçoise Salad,2,2024-01-05 13:26:00,Alice
+482,Quiche Lorraine,3,2024-01-05 19:59:00,Eve
+483,Pâté,3,2024-01-05 14:19:00,Alice
+484,Caesar Salad,2,2024-01-05 13:07:00,Henry
+485,House Wine (175ml),1,2024-01-05 19:30:00,Grace
+486,Quiche Lorraine,1,2024-01-05 15:30:00,Henry
+487,Quiche Lorraine,3,2024-01-05 19:51:00,Henry
+488,Moules Marinières,1,2024-01-05 12:23:00,Henry
+489,Coq au Vin,2,2024-01-05 12:18:00,Henry
+490,Quiche Lorraine,1,2024-01-05 13:40:00,Frank
+491,Haricots Verts,1,2024-01-05 14:21:00,Frank
+492,Quiche Lorraine,1,2024-01-05 12:21:00,Alice
+493,Ratatouille,1,2024-01-05 15:54:00,Frank
+494,Orangina,2,2024-01-05 12:07:00,Alice
+495,Café au Lait,1,2024-01-05 18:48:00,Diana
+496,Quiche Lorraine,1,2024-01-05 12:42:00,Alice
+497,Perrier,1,2024-01-05 17:31:00,Diana
+498,Ratatouille,1,2024-01-05 10:00:00,Henry
+499,Croque Monsieur,1,2024-01-05 10:06:00,Frank
+500,Quiche Lorraine,1,2024-01-05 13:16:00,Henry
+501,Haricots Verts,3,2024-01-05 10:20:00,Alice
+502,Quiche Lorraine,1,2024-01-05 19:12:00,Bob
+503,Haricots Verts,3,2024-01-05 18:30:00,Bob
+504,Haricots Verts,1,2024-01-05 14:45:00,Alice
+505,Café au Lait,2,2024-01-05 19:46:00,Diana
+506,Moules Marinières,2,2024-01-05 11:05:00,Alice
+507,Haricots Verts,1,2024-01-05 18:39:00,Grace
+508,Pâté,2,2024-01-05 13:36:00,Henry
+509,Bouillabaisse,3,2024-01-05 13:24:00,Henry
+510,Bouillabaisse,1,2024-01-05 13:23:00,Henry
+511,Ratatouille,2,2024-01-05 15:53:00,Alice
+512,Bouillabaisse,2,2024-01-05 12:25:00,Henry
+513,House Wine (175ml),2,2024-01-05 19:21:00,Henry
+514,Duck Confit,2,2024-01-05 20:15:00,Eve
+515,Bouillabaisse,1,2024-01-05 12:50:00,Alice
+516,Bouillabaisse,2,2024-01-05 19:49:00,Henry
+517,Haricots Verts,1,2024-01-05 11:06:00,Frank
+518,Quiche Lorraine,1,2024-01-05 15:35:00,Alice
+519,Coq au Vin,1,2024-01-05 19:15:00,Charlie
+520,Bouillabaisse,1,2024-01-05 17:53:00,Diana
+521,Quiche Lorraine,3,2024-01-05 12:43:00,Henry
+522,Caesar Salad,1,2024-01-05 15:59:00,Henry
+523,Quiche Lorraine,1,2024-01-05 19:55:00,Eve
+524,Coq au Vin,3,2024-01-05 14:56:00,Henry
+525,Escargots,1,2024-01-05 13:24:00,Frank
+526,Quiche Lorraine,1,2024-01-05 17:42:00,Bob
+527,Crêpes Suzette,1,2024-01-05 20:20:00,Henry
+528,Quiche Lorraine,1,2024-01-05 13:44:00,Henry
+529,Ratatouille,1,2024-01-05 11:22:00,Frank
+530,Quiche Lorraine,1,2024-01-05 12:22:00,Henry
+531,Ratatouille,1,2024-01-05 13:15:00,Henry
+532,Quiche Lorraine,3,2024-01-05 17:32:00,Charlie
+533,Bouillabaisse,2,2024-01-05 18:57:00,Diana
+534,Caesar Salad,2,2024-01-05 21:03:00,Grace
+535,Quiche Lorraine,2,2024-01-05 12:27:00,Henry
+536,Bouillabaisse,2,2024-01-05 19:45:00,Eve
+537,Moules Marinières,2,2024-01-05 19:37:00,Eve
+538,Quiche Lorraine,2,2024-01-05 12:52:00,Alice
+539,Quiche Lorraine,1,2024-01-05 12:51:00,Henry
+540,Haricots Verts,1,2024-01-05 11:20:00,Frank
+541,Quiche Lorraine,2,2024-01-05 13:53:00,Alice
+542,Moules Marinières,1,2024-01-05 13:58:00,Frank
+543,Haricots Verts,3,2024-01-05 10:17:00,Henry
+544,Quiche Lorraine,2,2024-01-05 18:00:00,Charlie
+545,Bouillabaisse,2,2024-01-05 13:28:00,Henry
+546,Caesar Salad,1,2024-01-05 19:31:00,Eve
+547,Quiche Lorraine,1,2024-01-05 12:59:00,Henry
+548,Perrier,1,2024-01-05 18:21:00,Grace
+549,Caesar Salad,1,2024-01-05 11:29:00,Alice
+550,Croque Monsieur,2,2024-01-05 21:24:00,Charlie
+551,Croque Monsieur,3,2024-01-05 15:12:00,Henry
+552,Quiche Lorraine,3,2024-01-05 12:34:00,Henry
+553,Escargots,1,2024-01-05 13:25:00,Frank
+554,Quiche Lorraine,1,2024-01-05 11:34:00,Frank
+555,Haricots Verts,1,2024-01-05 11:43:00,Henry
+556,Haricots Verts,1,2024-01-05 10:51:00,Henry
+557,Haricots Verts,1,2024-01-05 16:03:00,Grace
+558,Duck Confit,3,2024-01-05 15:25:00,Henry
+559,Crêpes Suzette,2,2024-01-05 11:59:00,Alice
+560,Bouillabaisse,1,2024-01-05 18:28:00,Grace
+561,Quiche Lorraine,1,2024-01-05 15:15:00,Alice
+562,Duck Confit,3,2024-01-05 13:27:00,Henry
+563,Quiche Lorraine,3,2024-01-05 17:21:00,Eve
+564,Goat Cheese Salad,1,2024-01-05 12:08:00,Frank
+565,Pâté,2,2024-01-05 18:09:00,Charlie
+566,Haricots Verts,1,2024-01-05 11:59:00,Henry
+567,Café au Lait,1,2024-01-05 09:35:00,Alice
+568,Bouillabaisse,1,2024-01-05 12:35:00,Frank
+569,Crêpes Suzette,2,2024-01-05 18:07:00,Grace
+570,Quiche Lorraine,1,2024-01-05 12:45:00,Frank
+571,House Wine (175ml),2,2024-01-05 19:33:00,Eve
+572,Caesar Salad,1,2024-01-05 16:40:00,Henry
+573,Orangina,1,2024-01-05 16:29:00,Bob
+574,Caesar Salad,3,2024-01-05 12:04:00,Henry
+575,Quiche Lorraine,2,2024-01-05 18:45:00,Bob
+576,Quiche Lorraine,2,2024-01-05 18:04:00,Bob
+577,House Wine (175ml),2,2024-01-05 13:49:00,Henry
+578,Haricots Verts,3,2024-01-05 17:41:00,Diana
+579,Quiche Lorraine,2,2024-01-05 12:26:00,Alice
+580,Croque Monsieur,2,2024-01-05 17:12:00,Bob
+581,Quiche Lorraine,2,2024-01-05 17:02:00,Diana
+582,Quiche Lorraine,2,2024-01-05 18:39:00,Grace
+583,Quiche Lorraine,3,2024-01-05 12:37:00,Alice
+584,Bouillabaisse,1,2024-01-05 18:16:00,Charlie
+585,Bouillabaisse,2,2024-01-05 18:05:00,Henry
+586,Mousse au Chocolat,2,2024-01-05 13:49:00,Henry
+587,Pâté,1,2024-01-05 15:26:00,Alice
+588,Champagne,2,2024-01-05 12:22:00,Alice
+589,Quiche Lorraine,3,2024-01-05 12:22:00,Henry
+590,Haricots Verts,1,2024-01-05 13:06:00,Henry
+591,Croque Monsieur,1,2024-01-05 17:46:00,Henry
+592,Quiche Lorraine,2,2024-01-05 19:57:00,Henry
+593,Quiche Lorraine,1,2024-01-05 12:53:00,Henry
+594,Haricots Verts,1,2024-01-05 18:49:00,Grace
+595,Orangina,1,2024-01-05 11:57:00,Frank
+596,Bouillabaisse,1,2024-01-05 17:56:00,Henry
+597,Haricots Verts,1,2024-01-05 11:27:00,Henry
+598,Croque Monsieur,1,2024-01-05 12:13:00,Henry
+599,Quiche Lorraine,3,2024-01-05 17:32:00,Grace
+600,Crème Brûlée,3,2024-01-05 12:22:00,Henry
+601,Quiche Lorraine,2,2024-01-05 17:54:00,Eve
+602,Bouillabaisse,2,2024-01-05 09:37:00,Alice
+603,Quiche Lorraine,2,2024-01-05 13:57:00,Alice
+604,Ratatouille,1,2024-01-05 14:00:00,Frank
+605,Coq au Vin,1,2024-01-05 13:20:00,Alice
+606,Quiche Lorraine,1,2024-01-05 13:58:00,Frank
+607,Quiche Lorraine,1,2024-01-05 20:32:00,Charlie
+608,Moules Marinières,2,2024-01-05 13:17:00,Alice
+609,Quiche Lorraine,2,2024-01-05 18:27:00,Bob
+610,Caesar Salad,1,2024-01-05 14:44:00,Frank
+611,Bouillabaisse,2,2024-01-05 22:02:00,Diana
+612,Bouillabaisse,2,2024-01-05 19:00:00,Diana
+613,Perrier,1,2024-01-05 19:32:00,Henry
+614,Croque Monsieur,1,2024-01-05 19:07:00,Diana
+615,Coq au Vin,2,2024-01-05 14:04:00,Henry
+616,Tarte Tatin,2,2024-01-05 14:20:00,Henry
+617,Profiteroles,1,2024-01-05 12:46:00,Henry
+618,Champagne,2,2024-01-05 14:17:00,Henry
+619,Haricots Verts,1,2024-01-05 17:56:00,Eve
+620,Ratatouille,1,2024-01-05 12:27:00,Frank
+621,Haricots Verts,2,2024-01-05 13:36:00,Alice
+622,Quiche Lorraine,1,2024-01-05 18:53:00,Bob
+623,Crème Brûlée,3,2024-01-05 19:16:00,Eve
+624,Orangina,2,2024-01-05 20:49:00,Diana
+625,Quiche Lorraine,1,2024-01-05 14:13:00,Henry
+626,Quiche Lorraine,3,2024-01-05 12:33:00,Henry
+627,Bouillabaisse,1,2024-01-05 17:04:00,Grace
+628,Croque Monsieur,2,2024-01-05 12:31:00,Alice
+629,Mousse au Chocolat,1,2024-01-05 18:49:00,Henry
+630,Haricots Verts,2,2024-01-06 19:20:00,Grace
+631,Bouillabaisse,3,2024-01-06 19:04:00,Henry
+632,Perrier,1,2024-01-06 18:04:00,Diana
+633,Croque Monsieur,2,2024-01-06 17:32:00,Bob
+634,Ratatouille,1,2024-01-06 14:54:00,Frank
+635,Escargots,2,2024-01-06 18:23:00,Henry
+636,Quiche Lorraine,1,2024-01-06 14:18:00,Frank
+637,Quiche Lorraine,1,2024-01-06 14:18:00,Frank
+638,Quiche Lorraine,2,2024-01-06 18:41:00,Grace
+639,Bouillabaisse,1,2024-01-06 19:16:00,Bob
+640,Quiche Lorraine,1,2024-01-06 18:21:00,Charlie
+641,Croque Monsieur,3,2024-01-06 15:09:00,Henry
+642,Coq au Vin,3,2024-01-06 21:29:00,Henry
+643,Crêpes Suzette,1,2024-01-06 10:56:00,Frank
+644,Haricots Verts,2,2024-01-06 16:01:00,Diana
+645,Ratatouille,1,2024-01-06 14:30:00,Henry
+646,Ratatouille,1,2024-01-06 17:48:00,Henry
+647,Croque Monsieur,2,2024-01-06 12:01:00,Henry
+648,Bouillabaisse,2,2024-01-06 22:24:00,Bob
+649,Bouillabaisse,1,2024-01-06 18:15:00,Diana
+650,Duck Confit,1,2024-01-06 18:50:00,Grace
+651,Quiche Lorraine,2,2024-01-06 19:53:00,Bob
+652,Quiche Lorraine,1,2024-01-06 13:33:00,Alice
+653,Bouillabaisse,1,2024-01-06 16:15:00,Grace
+654,Haricots Verts,1,2024-01-06 19:32:00,Charlie
+655,Coq au Vin,2,2024-01-06 18:10:00,Charlie
+656,Quiche Lorraine,3,2024-01-06 10:56:00,Alice
+657,Haricots Verts,3,2024-01-06 11:34:00,Henry
+658,Quiche Lorraine,2,2024-01-06 18:31:00,Grace
+659,Quiche Lorraine,1,2024-01-06 19:36:00,Bob
+660,Quiche Lorraine,2,2024-01-06 20:30:00,Diana
+661,Haricots Verts,3,2024-01-06 22:17:00,Bob
+662,Quiche Lorraine,2,2024-01-06 10:13:00,Henry
+663,Duck Confit,1,2024-01-06 15:06:00,Alice
+664,Quiche Lorraine,1,2024-01-06 12:05:00,Frank
+665,Quiche Lorraine,3,2024-01-06 18:14:00,Grace
+666,Escargots,2,2024-01-06 13:32:00,Henry
+667,Bouillabaisse,2,2024-01-06 21:48:00,Henry
+668,Ratatouille,3,2024-01-06 13:32:00,Henry
+669,Bouillabaisse,1,2024-01-06 15:36:00,Alice
+670,Haricots Verts,1,2024-01-06 12:38:00,Alice
+671,Crêpes Suzette,2,2024-01-06 12:01:00,Alice
+672,Bouillabaisse,1,2024-01-06 10:26:00,Alice
+673,Perrier,1,2024-01-06 17:15:00,Diana
+674,House Wine (175ml),3,2024-01-06 18:36:00,Bob
+675,Croque Monsieur,2,2024-01-06 18:03:00,Diana
+676,Quiche Lorraine,2,2024-01-06 18:07:00,Charlie
+677,Quiche Lorraine,2,2024-01-06 19:45:00,Grace
+678,Pâté,1,2024-01-06 13:31:00,Frank
+679,Ratatouille,1,2024-01-06 14:32:00,Frank
+680,French Onion Soup,2,2024-01-06 17:53:00,Charlie
+681,Bouillabaisse,2,2024-01-06 13:37:00,Frank
+682,Orangina,2,2024-01-06 13:32:00,Henry
+683,Quiche Lorraine,2,2024-01-06 14:11:00,Henry
+684,Caesar Salad,2,2024-01-06 16:12:00,Charlie
+685,Bouillabaisse,2,2024-01-06 12:50:00,Frank
+686,Quiche Lorraine,1,2024-01-06 10:45:00,Frank
+687,Croque Monsieur,1,2024-01-06 13:55:00,Alice
+688,Goat Cheese Salad,1,2024-01-06 14:19:00,Frank
+689,Quiche Lorraine,1,2024-01-06 11:18:00,Frank
+690,Champagne,1,2024-01-06 12:24:00,Alice
+691,House Wine (175ml),2,2024-01-06 12:11:00,Alice
+692,Caesar Salad,3,2024-01-06 17:32:00,Henry
+693,Bouillabaisse,1,2024-01-06 12:52:00,Frank
+694,Café au Lait,1,2024-01-06 19:18:00,Bob
+695,French Onion Soup,3,2024-01-06 17:17:00,Henry
+696,Duck Confit,2,2024-01-06 17:36:00,Grace
+697,Duck Confit,1,2024-01-06 18:07:00,Diana
+698,Quiche Lorraine,3,2024-01-06 19:52:00,Bob
+699,Quiche Lorraine,1,2024-01-06 09:52:00,Alice
+700,Bouillabaisse,1,2024-01-06 17:15:00,Grace
+701,Croque Monsieur,2,2024-01-06 18:30:00,Eve
+702,Quiche Lorraine,1,2024-01-06 19:55:00,Grace
+703,Goat Cheese Salad,3,2024-01-06 11:54:00,Alice
+704,Coq au Vin,1,2024-01-06 12:07:00,Henry
+705,Haricots Verts,3,2024-01-06 14:07:00,Alice
+706,Ratatouille,1,2024-01-06 19:55:00,Bob
+707,Quiche Lorraine,1,2024-01-06 19:47:00,Eve
+708,Profiteroles,2,2024-01-06 09:19:00,Alice
+709,Bouillabaisse,1,2024-01-06 20:54:00,Bob
+710,Quiche Lorraine,2,2024-01-06 16:20:00,Charlie
+711,Quiche Lorraine,1,2024-01-06 12:15:00,Frank
+712,Haricots Verts,2,2024-01-06 19:56:00,Eve
+713,Crêpes Suzette,2,2024-01-06 18:13:00,Grace
+714,Bouillabaisse,1,2024-01-06 13:44:00,Alice
+715,Quiche Lorraine,1,2024-01-06 12:29:00,Alice
+716,Haricots Verts,1,2024-01-06 17:36:00,Grace
+717,Quiche Lorraine,2,2024-01-06 16:52:00,Eve
+718,Caesar Salad,3,2024-01-06 12:51:00,Henry
+719,Haricots Verts,1,2024-01-06 17:28:00,Charlie
+720,Caesar Salad,1,2024-01-06 18:39:00,Eve
+721,Crêpes Suzette,2,2024-01-06 18:15:00,Charlie
+722,Quiche Lorraine,3,2024-01-06 18:31:00,Charlie
+723,Ratatouille,1,2024-01-06 11:34:00,Alice
+724,Bouillabaisse,1,2024-01-06 18:35:00,Diana
+725,Haricots Verts,2,2024-01-06 12:23:00,Alice
+726,French Onion Soup,1,2024-01-06 13:28:00,Henry
+727,Quiche Lorraine,2,2024-01-06 12:08:00,Henry
+728,Quiche Lorraine,1,2024-01-06 09:18:00,Alice
+729,Quiche Lorraine,2,2024-01-06 19:40:00,Grace
+730,Quiche Lorraine,3,2024-01-06 21:10:00,Diana
+731,Caesar Salad,2,2024-01-06 13:12:00,Henry
+732,Quiche Lorraine,2,2024-01-06 18:36:00,Eve
+733,Quiche Lorraine,2,2024-01-06 12:50:00,Alice
+734,Crêpes Suzette,1,2024-01-06 14:08:00,Alice
+735,Coq au Vin,1,2024-01-06 14:54:00,Frank
+736,House Wine (175ml),3,2024-01-06 14:19:00,Alice
+737,Crème Brûlée,1,2024-01-06 18:05:00,Henry
+738,Quiche Lorraine,1,2024-01-06 17:05:00,Eve
+739,French Fries,1,2024-01-06 12:14:00,Frank
+740,Quiche Lorraine,2,2024-01-06 13:55:00,Alice
+741,Profiteroles,3,2024-01-06 19:23:00,Henry
+742,Pâté,1,2024-01-06 20:07:00,Diana
+743,Coq au Vin,3,2024-01-06 13:37:00,Alice
+744,Haricots Verts,2,2024-01-06 12:03:00,Henry
+745,Quiche Lorraine,1,2024-01-06 18:34:00,Charlie
+746,Ratatouille,2,2024-01-06 19:16:00,Charlie
+747,Quiche Lorraine,1,2024-01-06 17:00:00,Diana
+748,Quiche Lorraine,1,2024-01-06 18:48:00,Charlie
+749,Quiche Lorraine,1,2024-01-06 13:48:00,Alice
+750,Duck Confit,1,2024-01-06 12:16:00,Frank
+751,Crème Brûlée,1,2024-01-06 20:07:00,Diana
+752,Haricots Verts,3,2024-01-06 10:16:00,Henry
+753,Croque Monsieur,1,2024-01-06 11:04:00,Henry
+754,French Onion Soup,3,2024-01-06 12:27:00,Henry
+755,Quiche Lorraine,3,2024-01-06 17:02:00,Grace
+756,Bouillabaisse,1,2024-01-06 12:20:00,Alice
+757,Quiche Lorraine,1,2024-01-06 12:23:00,Alice
+758,Quiche Lorraine,3,2024-01-06 11:46:00,Henry
+759,Quiche Lorraine,2,2024-01-06 20:56:00,Bob
+760,Coq au Vin,1,2024-01-06 18:13:00,Bob
+761,Quiche Lorraine,2,2024-01-06 17:17:00,Henry
+762,Moules Marinières,3,2024-01-06 21:28:00,Grace
+763,Quiche Lorraine,3,2024-01-06 13:41:00,Alice
+764,Coq au Vin,1,2024-01-06 13:48:00,Frank
+765,Mousse au Chocolat,1,2024-01-06 11:56:00,Henry
+766,Moules Marinières,2,2024-01-06 13:17:00,Alice
+767,Croque Monsieur,2,2024-01-06 18:12:00,Eve
+768,Orangina,2,2024-01-06 11:33:00,Alice
+769,Quiche Lorraine,3,2024-01-06 19:48:00,Henry
+770,French Onion Soup,1,2024-01-06 14:05:00,Alice
+771,Quiche Lorraine,1,2024-01-06 11:37:00,Frank
+772,Haricots Verts,1,2024-01-06 17:40:00,Bob
+773,Quiche Lorraine,1,2024-01-06 09:49:00,Alice
+774,Quiche Lorraine,1,2024-01-06 18:02:00,Grace
+775,Croque Monsieur,2,2024-01-06 18:58:00,Grace
+776,Caesar Salad,1,2024-01-06 15:10:00,Frank
+777,Duck Confit,3,2024-01-06 12:30:00,Alice
+778,Quiche Lorraine,2,2024-01-06 13:14:00,Frank
+779,Quiche Lorraine,1,2024-01-06 17:42:00,Henry
+780,Haricots Verts,3,2024-01-06 17:17:00,Diana
+781,Bouillabaisse,1,2024-01-06 14:07:00,Henry
+782,Haricots Verts,1,2024-01-06 15:40:00,Alice
+783,Pâté,1,2024-01-06 13:16:00,Frank
+784,Quiche Lorraine,1,2024-01-06 18:17:00,Bob
+785,Haricots Verts,3,2024-01-06 12:29:00,Alice
+786,Bouillabaisse,2,2024-01-06 12:56:00,Henry
+787,Haricots Verts,1,2024-01-06 18:34:00,Grace
+788,Caesar Salad,2,2024-01-06 16:08:00,Charlie
+789,Caesar Salad,1,2024-01-06 10:02:00,Alice
+790,Bouillabaisse,1,2024-01-06 17:01:00,Eve
+791,Quiche Lorraine,1,2024-01-06 14:27:00,Frank
+792,House Wine (175ml),1,2024-01-06 15:14:00,Frank
+793,Moules Marinières,2,2024-01-06 15:51:00,Frank
+794,Café au Lait,2,2024-01-06 13:26:00,Alice
+795,Moules Marinières,2,2024-01-06 10:55:00,Alice
+796,Orangina,2,2024-01-06 11:06:00,Henry
+797,French Onion Soup,2,2024-01-06 17:26:00,Charlie
+798,Quiche Lorraine,1,2024-01-06 12:05:00,Alice
+799,Haricots Verts,2,2024-01-06 14:47:00,Henry
+800,Haricots Verts,2,2024-01-06 19:55:00,Diana
+801,Quiche Lorraine,1,2024-01-06 12:04:00,Henry
+802,Quiche Lorraine,1,2024-01-06 12:27:00,Frank
+803,Quiche Lorraine,1,2024-01-06 19:48:00,Charlie
+804,Caesar Salad,2,2024-01-06 18:22:00,Bob
+805,Bouillabaisse,2,2024-01-06 17:49:00,Grace
+806,Steak Frites,1,2024-01-06 13:53:00,Alice
+807,Quiche Lorraine,1,2024-01-06 13:12:00,Frank
+808,Quiche Lorraine,1,2024-01-06 15:33:00,Henry
+809,Bouillabaisse,1,2024-01-06 13:16:00,Frank
+810,Quiche Lorraine,1,2024-01-06 13:35:00,Henry
+811,Moules Marinières,3,2024-01-06 14:00:00,Henry
+812,Bouillabaisse,1,2024-01-06 12:21:00,Frank
+813,Quiche Lorraine,3,2024-01-07 14:54:00,Alice
+814,Croque Monsieur,2,2024-01-07 19:57:00,Eve
+815,Bouillabaisse,1,2024-01-07 16:33:00,Henry
+816,House Wine (175ml),1,2024-01-07 12:56:00,Frank
+817,Escargots,1,2024-01-07 18:41:00,Henry
+818,Escargots,2,2024-01-07 18:55:00,Diana
+819,Crêpes Suzette,2,2024-01-07 15:38:00,Frank
+820,Quiche Lorraine,1,2024-01-07 15:54:00,Frank
+821,Quiche Lorraine,1,2024-01-07 17:15:00,Henry
+822,Bouillabaisse,1,2024-01-07 13:08:00,Frank
+823,Mousse au Chocolat,1,2024-01-07 11:13:00,Alice
+824,Duck Confit,2,2024-01-07 17:51:00,Bob
+825,Perrier,3,2024-01-07 11:24:00,Henry
+826,House Wine (175ml),1,2024-01-07 17:52:00,Charlie
+827,Quiche Lorraine,1,2024-01-07 11:33:00,Alice
+828,Quiche Lorraine,1,2024-01-07 09:33:00,Frank
+829,Crêpes Suzette,1,2024-01-07 10:35:00,Henry
+830,Quiche Lorraine,2,2024-01-07 18:21:00,Grace
+831,Goat Cheese Salad,1,2024-01-07 18:45:00,Grace
+832,Orangina,3,2024-01-07 22:33:00,Eve
+833,Quiche Lorraine,2,2024-01-07 10:46:00,Alice
+834,Haricots Verts,1,2024-01-07 09:47:00,Frank
+835,Quiche Lorraine,3,2024-01-07 17:17:00,Diana
+836,Bouillabaisse,1,2024-01-07 14:18:00,Frank
+837,Haricots Verts,3,2024-01-07 16:26:00,Grace
+838,Bouillabaisse,2,2024-01-07 19:25:00,Charlie
+839,Quiche Lorraine,2,2024-01-07 19:33:00,Henry
+840,Croque Monsieur,2,2024-01-07 18:33:00,Charlie
+841,Haricots Verts,2,2024-01-07 17:44:00,Henry
+842,Quiche Lorraine,1,2024-01-07 12:00:00,Frank
+843,Bouillabaisse,1,2024-01-07 13:48:00,Frank
+844,Quiche Lorraine,1,2024-01-07 09:51:00,Frank
+845,Quiche Lorraine,1,2024-01-07 15:38:00,Frank
+846,House Wine (175ml),3,2024-01-07 20:48:00,Eve
+847,Bouillabaisse,1,2024-01-07 19:42:00,Henry
+848,Quiche Lorraine,3,2024-01-07 16:45:00,Grace
+849,Quiche Lorraine,1,2024-01-07 12:45:00,Frank
+850,Haricots Verts,2,2024-01-07 12:22:00,Henry
+851,Quiche Lorraine,1,2024-01-07 10:09:00,Henry
+852,Ratatouille,2,2024-01-07 18:00:00,Charlie
+853,Crêpes Suzette,2,2024-01-07 12:47:00,Alice
+854,Quiche Lorraine,1,2024-01-07 19:18:00,Diana
+855,Steak Frites,3,2024-01-07 15:13:00,Henry
+856,Quiche Lorraine,2,2024-01-07 19:59:00,Eve
+857,Quiche Lorraine,3,2024-01-07 13:33:00,Alice
+858,Quiche Lorraine,2,2024-01-07 17:47:00,Diana
+859,House Wine (175ml),3,2024-01-07 19:30:00,Henry
+860,Haricots Verts,1,2024-01-07 19:11:00,Bob
+861,Quiche Lorraine,2,2024-01-07 18:28:00,Henry
+862,Haricots Verts,1,2024-01-07 13:08:00,Frank
+863,Ratatouille,2,2024-01-07 18:23:00,Bob
+864,Profiteroles,2,2024-01-07 14:04:00,Frank
+865,French Fries,1,2024-01-07 13:43:00,Alice
+866,Haricots Verts,1,2024-01-07 18:29:00,Bob
+867,Crêpes Suzette,2,2024-01-07 10:19:00,Frank
+868,Quiche Lorraine,1,2024-01-07 20:59:00,Charlie
+869,Orangina,1,2024-01-07 15:26:00,Henry
+870,Croque Monsieur,1,2024-01-07 12:13:00,Alice
+871,Bouillabaisse,3,2024-01-07 17:14:00,Diana
+872,Quiche Lorraine,1,2024-01-07 17:19:00,Eve
+873,Bouillabaisse,1,2024-01-07 13:41:00,Alice
+874,Quiche Lorraine,2,2024-01-07 14:57:00,Alice
+875,Quiche Lorraine,1,2024-01-07 19:50:00,Charlie
+876,Bouillabaisse,2,2024-01-07 12:40:00,Henry
+877,Haricots Verts,1,2024-01-07 17:57:00,Charlie
+878,Quiche Lorraine,1,2024-01-07 18:03:00,Eve
+879,Pâté,2,2024-01-07 18:32:00,Eve
+880,Ratatouille,3,2024-01-07 13:10:00,Alice
+881,Quiche Lorraine,1,2024-01-07 13:23:00,Henry
+882,Coq au Vin,2,2024-01-07 13:12:00,Henry
+883,Croque Monsieur,3,2024-01-07 19:04:00,Eve
+884,Ratatouille,2,2024-01-07 19:03:00,Charlie
+885,Croque Monsieur,1,2024-01-07 12:40:00,Frank
+886,Quiche Lorraine,1,2024-01-07 13:07:00,Henry
+887,Quiche Lorraine,2,2024-01-07 18:36:00,Grace
+888,Haricots Verts,1,2024-01-07 13:52:00,Henry
+889,Coq au Vin,1,2024-01-07 14:03:00,Henry
+890,Bouillabaisse,1,2024-01-07 13:29:00,Frank
+891,Caesar Salad,2,2024-01-07 10:57:00,Alice
+892,Quiche Lorraine,1,2024-01-07 18:36:00,Henry
+893,Crêpes Suzette,1,2024-01-07 10:25:00,Alice
+894,French Onion Soup,1,2024-01-07 17:25:00,Henry
+895,Bouillabaisse,2,2024-01-07 13:41:00,Alice
+896,Café au Lait,2,2024-01-07 19:40:00,Charlie
+897,Haricots Verts,3,2024-01-07 19:45:00,Henry
+898,Quiche Lorraine,2,2024-01-07 19:49:00,Eve
+899,Haricots Verts,2,2024-01-07 19:28:00,Bob
+900,Quiche Lorraine,2,2024-01-07 20:25:00,Eve
+901,Bouillabaisse,2,2024-01-07 19:14:00,Charlie
+902,Ratatouille,2,2024-01-07 12:54:00,Henry
+903,Croque Monsieur,1,2024-01-07 18:58:00,Grace
+904,Caesar Salad,2,2024-01-07 19:26:00,Grace
+905,Quiche Lorraine,1,2024-01-07 13:30:00,Henry
+906,Quiche Lorraine,2,2024-01-07 11:52:00,Henry
+907,Ratatouille,1,2024-01-07 14:30:00,Frank
+908,Café au Lait,1,2024-01-07 19:20:00,Charlie
+909,French Onion Soup,2,2024-01-07 11:09:00,Alice
+910,Quiche Lorraine,2,2024-01-07 15:14:00,Alice
+911,Quiche Lorraine,2,2024-01-07 19:20:00,Diana
+912,Quiche Lorraine,1,2024-01-07 18:57:00,Diana
+913,Caesar Salad,2,2024-01-07 18:29:00,Bob
+914,Quiche Lorraine,3,2024-01-07 19:57:00,Diana
+915,Quiche Lorraine,2,2024-01-07 20:13:00,Eve
+916,Niçoise Salad,1,2024-01-07 12:07:00,Henry
+917,Quiche Lorraine,2,2024-01-07 17:19:00,Bob
+918,Niçoise Salad,1,2024-01-07 14:39:00,Alice
+919,Niçoise Salad,1,2024-01-07 13:16:00,Frank
+920,Orangina,2,2024-01-07 17:10:00,Grace
+921,Bouillabaisse,1,2024-01-07 17:37:00,Henry
+922,Bouillabaisse,1,2024-01-07 14:08:00,Alice
+923,Ratatouille,2,2024-01-07 18:23:00,Grace
+924,Quiche Lorraine,2,2024-01-07 16:50:00,Eve
+925,Orangina,2,2024-01-07 13:01:00,Alice
+926,Bouillabaisse,1,2024-01-07 15:19:00,Frank
+927,Quiche Lorraine,1,2024-01-07 13:37:00,Alice
+928,Quiche Lorraine,2,2024-01-07 18:26:00,Diana
+929,House Wine (175ml),2,2024-01-07 17:16:00,Bob
+930,Ratatouille,1,2024-01-07 18:36:00,Eve
+931,Quiche Lorraine,1,2024-01-07 14:42:00,Frank
+932,Haricots Verts,2,2024-01-07 17:16:00,Charlie
+933,Quiche Lorraine,1,2024-01-07 18:13:00,Diana
+934,Champagne,1,2024-01-07 18:04:00,Bob
+935,Bouillabaisse,1,2024-01-07 17:20:00,Bob
+936,Caesar Salad,1,2024-01-07 13:15:00,Henry
+937,Goat Cheese Salad,3,2024-01-07 22:12:00,Eve
+938,Quiche Lorraine,3,2024-01-07 10:24:00,Henry
+939,House Wine (175ml),1,2024-01-07 18:25:00,Henry
+940,Orangina,1,2024-01-07 21:27:00,Bob
+941,Quiche Lorraine,2,2024-01-07 12:50:00,Henry
+942,Quiche Lorraine,2,2024-01-07 19:39:00,Henry
+943,Duck Confit,2,2024-01-07 12:37:00,Frank
+944,Croque Monsieur,2,2024-01-07 18:11:00,Charlie
+945,Quiche Lorraine,2,2024-01-07 18:31:00,Diana
+946,Mousse au Chocolat,1,2024-01-07 15:52:00,Alice
+947,Quiche Lorraine,2,2024-01-07 13:28:00,Alice
+948,Croque Monsieur,3,2024-01-07 17:18:00,Grace
+949,Croque Monsieur,2,2024-01-07 13:25:00,Alice
+950,Duck Confit,3,2024-01-07 16:55:00,Grace
+951,Quiche Lorraine,1,2024-01-07 16:49:00,Grace
+952,Quiche Lorraine,2,2024-01-07 15:35:00,Alice
+953,Escargots,1,2024-01-07 15:15:00,Henry
+954,Coq au Vin,3,2024-01-07 12:05:00,Alice
+955,Crêpes Suzette,1,2024-01-07 12:36:00,Henry
+956,Champagne,1,2024-01-07 14:05:00,Frank
+957,Café au Lait,3,2024-01-07 11:57:00,Alice
+958,Quiche Lorraine,1,2024-01-07 12:35:00,Alice
+959,Quiche Lorraine,1,2024-01-07 18:23:00,Henry
+960,Bouillabaisse,1,2024-01-07 15:16:00,Frank
+961,Quiche Lorraine,1,2024-01-07 20:09:00,Eve
+962,French Onion Soup,1,2024-01-07 11:08:00,Frank
+963,Caesar Salad,2,2024-01-07 15:12:00,Henry

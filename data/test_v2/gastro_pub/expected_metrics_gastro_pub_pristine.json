@@ -1,0 +1,18 @@
+{
+  "total_star_items": 3,
+  "total_underpriced_items": 3,
+  "high_waste_items": [
+    "Chicken Liver P\u00e2t\u00e9",
+    "Sunday Roast"
+  ],
+  "anchor_items": [
+    "Sticky Toffee Pudding"
+  ],
+  "overpriced_low_volume_items": [
+    "Pork Pie",
+    "Lamb Shank",
+    "Bangers & Mash",
+    "Mash",
+    "Cider"
+  ]
+}

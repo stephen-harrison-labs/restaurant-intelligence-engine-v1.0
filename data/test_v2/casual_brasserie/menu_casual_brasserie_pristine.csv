@@ -1,0 +1,35 @@
+item_id,item_name,category,sell_price,cost_per_unit
+1,Goat Cheese Salad,Starters,10.61,4.04
+2,Niçoise Salad,Starters,7.91,2.06
+3,Moules Marinières,Starters,10.85,3.62
+4,Pâté,Starters,9.1,3.55
+5,French Onion Soup,Starters,9.61,2.75
+6,Escargots,Starters,11.81,3.14
+7,Caesar Salad,Starters,5.75,1.13
+8,Steak Frites,Mains,24.39,8.23
+9,Duck Confit,Mains,19.61,8.16
+10,Coq au Vin,Mains,18.99,6.17
+11,Croque Monsieur,Mains,17.0,5.53
+12,Ratatouille,Mains,18.2,7.4
+13,Quiche Lorraine,Mains,12.1,3.68
+14,Croque Monsieur,Mains,24.59,8.61
+15,Bouillabaisse,Mains,24.49,9.33
+16,Quiche Lorraine,Mains,14.24,6.16
+17,Bouillabaisse,Mains,19.54,7.14
+18,Bouillabaisse,Mains,22.16,8.13
+19,Quiche Lorraine,Mains,16.86,7.51
+20,Haricots Verts,Sides,5.15,0.61
+21,Ratatouille,Sides,4.34,1.11
+22,French Fries,Sides,5.17,0.94
+23,Haricots Verts,Sides,5.9,0.84
+24,Haricots Verts,Sides,3.57,1.02
+25,Mousse au Chocolat,Desserts,7.06,2.07
+26,Crêpes Suzette,Desserts,6.55,1.01
+27,Tarte Tatin,Desserts,5.91,1.22
+28,Crème Brûlée,Desserts,7.95,2.47
+29,Profiteroles,Desserts,8.23,2.0
+30,Perrier,Drinks,3.82,0.78
+31,Orangina,Drinks,3.65,0.44
+32,Champagne,Drinks,7.18,1.33
+33,House Wine (175ml),Drinks,5.35,-0.09
+34,Café au Lait,Drinks,5.2,1.27

@@ -1,0 +1,4228 @@
+order_id,item_name,qty,order_datetime,staff_name
+1,Pavlova,1,2024-01-01 11:16:00,Frank
+2,Carrot Cake,3,2024-01-01 13:54:00,Henry
+3,Pavlova,2,2024-01-01 18:34:00,Diana
+4,Panna Cotta,1,2024-01-01 17:43:00,Bob
+5,Triple Chocolate Cake,1,2024-01-01 10:38:00,Alice
+6,Carrot Cake,3,2024-01-01 12:29:00,Alice
+7,Carrot Cake,1,2024-01-01 17:35:00,Diana
+8,Carrot Cake,1,2024-01-01 20:20:00,Diana
+9,Tea,2,2024-01-01 15:28:00,Henry
+10,Carrot Cake,2,2024-01-01 14:29:00,Henry
+11,Carrot Cake,3,2024-01-01 14:16:00,Alice
+12,Carrot Cake,2,2024-01-01 12:01:00,Alice
+13,New York Cheesecake,2,2024-01-01 13:33:00,Alice
+14,Red Velvet Cake,1,2024-01-01 12:39:00,Frank
+15,Carrot Cake,3,2024-01-01 17:54:00,Eve
+16,Red Velvet Cake,2,2024-01-01 13:22:00,Alice
+17,Carrot Cake,1,2024-01-01 13:57:00,Henry
+18,Red Velvet Cake,2,2024-01-01 14:56:00,Henry
+19,New York Cheesecake,1,2024-01-01 19:59:00,Charlie
+20,Carrot Cake,1,2024-01-01 18:53:00,Diana
+21,Tea,1,2024-01-01 18:39:00,Diana
+22,Carrot Cake,1,2024-01-01 12:15:00,Alice
+23,Carrot Cake,1,2024-01-01 17:49:00,Grace
+24,New York Cheesecake,1,2024-01-01 18:52:00,Charlie
+25,Carrot Cake,2,2024-01-01 09:58:00,Alice
+26,New York Cheesecake,2,2024-01-01 12:13:00,Alice
+27,New York Cheesecake,2,2024-01-01 12:30:00,Henry
+28,Cappuccino,1,2024-01-01 12:48:00,Frank
+29,New York Cheesecake,3,2024-01-01 13:07:00,Alice
+30,Quiche,2,2024-01-01 13:29:00,Henry
+31,Carrot Cake,2,2024-01-01 17:55:00,Henry
+32,Cappuccino,2,2024-01-01 20:06:00,Bob
+33,Soup & Salad Combo,1,2024-01-01 14:35:00,Frank
+34,Red Velvet Cake,2,2024-01-01 19:47:00,Charlie
+35,Carrot Cake,2,2024-01-01 17:47:00,Henry
+36,New York Cheesecake,3,2024-01-01 13:52:00,Henry
+37,Red Velvet Cake,1,2024-01-01 14:25:00,Frank
+38,Tiramisu,2,2024-01-01 18:14:00,Henry
+39,Red Velvet Cake,1,2024-01-01 12:06:00,Alice
+40,Red Velvet Cake,1,2024-01-01 19:49:00,Eve
+41,Tiramisu,1,2024-01-01 12:09:00,Frank
+42,New York Cheesecake,1,2024-01-01 11:01:00,Frank
+43,Red Velvet Cake,3,2024-01-01 13:35:00,Henry
+44,Red Velvet Cake,1,2024-01-01 10:30:00,Frank
+45,Tiramisu,1,2024-01-01 17:10:00,Henry
+46,Carrot Cake,1,2024-01-01 15:24:00,Henry
+47,Carrot Cake,3,2024-01-01 19:06:00,Grace
+48,Carrot Cake,2,2024-01-01 21:05:00,Charlie
+49,New York Cheesecake,2,2024-01-01 18:48:00,Grace
+50,Carrot Cake,2,2024-01-01 19:08:00,Henry
+51,New York Cheesecake,2,2024-01-01 13:27:00,Alice
+52,Carrot Cake,1,2024-01-01 12:08:00,Frank
+53,Red Velvet Cake,3,2024-01-01 13:22:00,Alice
+54,Triple Chocolate Cake,2,2024-01-01 19:41:00,Henry
+55,Carrot Cake,2,2024-01-01 19:28:00,Diana
+56,New York Cheesecake,1,2024-01-01 17:39:00,Bob
+57,Carrot Cake,2,2024-01-01 18:17:00,Eve
+58,Panna Cotta,2,2024-01-01 11:51:00,Frank
+59,Carrot Cake,2,2024-01-01 12:43:00,Henry
+60,Tea,1,2024-01-01 18:57:00,Henry
+61,Carrot Cake,1,2024-01-01 17:47:00,Bob
+62,New York Cheesecake,2,2024-01-01 17:05:00,Bob
+63,New York Cheesecake,2,2024-01-01 18:34:00,Henry
+64,Carrot Cake,1,2024-01-01 19:47:00,Henry
+65,Carrot Cake,2,2024-01-01 17:07:00,Grace
+66,Banoffee Pie,1,2024-01-01 13:25:00,Henry
+67,Carrot Cake,1,2024-01-01 13:53:00,Frank
+68,Carrot Cake,2,2024-01-01 19:18:00,Eve
+69,Carrot Cake,2,2024-01-01 16:26:00,Henry
+70,New York Cheesecake,2,2024-01-01 13:56:00,Frank
+71,Carrot Cake,1,2024-01-01 12:59:00,Alice
+72,Club Sandwich,1,2024-01-01 17:51:00,Bob
+73,New York Cheesecake,1,2024-01-01 19:41:00,Diana
+74,Carrot Cake,1,2024-01-01 13:17:00,Frank
+75,Red Velvet Cake,2,2024-01-01 22:55:00,Bob
+76,New York Cheesecake,1,2024-01-01 12:52:00,Frank
+77,Quiche,1,2024-01-01 11:59:00,Henry
+78,Red Velvet Cake,3,2024-01-01 12:53:00,Henry
+79,Granola Bowl,1,2024-01-01 17:46:00,Henry
+80,Red Velvet Cake,3,2024-01-01 17:02:00,Henry
+81,Cappuccino,2,2024-01-01 11:48:00,Henry
+82,Tiramisu,1,2024-01-01 18:48:00,Grace
+83,Banoffee Pie,2,2024-01-01 12:50:00,Henry
+84,New York Cheesecake,1,2024-01-01 19:30:00,Diana
+85,Iced Coffee,2,2024-01-01 13:09:00,Alice
+86,Tiramisu,3,2024-01-01 11:42:00,Alice
+87,Panna Cotta,1,2024-01-01 18:36:00,Diana
+88,Carrot Cake,2,2024-01-01 21:10:00,Eve
+89,Tea,1,2024-01-01 17:27:00,Diana
+90,New York Cheesecake,3,2024-01-01 17:08:00,Eve
+91,Carrot Cake,1,2024-01-01 12:41:00,Frank
+92,Red Velvet Cake,1,2024-01-01 12:30:00,Henry
+93,Carrot Cake,2,2024-01-01 14:08:00,Henry
+94,Carrot Cake,1,2024-01-01 14:36:00,Henry
+95,New York Cheesecake,1,2024-01-01 10:13:00,Alice
+96,New York Cheesecake,2,2024-01-01 17:25:00,Diana
+97,Carrot Cake,2,2024-01-01 17:33:00,Eve
+98,Carrot Cake,1,2024-01-01 14:18:00,Frank
+99,Fresh Juice,2,2024-01-01 18:37:00,Eve
+100,Red Velvet Cake,3,2024-01-01 15:53:00,Alice
+101,Panna Cotta,3,2024-01-01 15:47:00,Alice
+102,Carrot Cake,1,2024-01-01 11:06:00,Alice
+103,Club Sandwich,3,2024-01-01 13:16:00,Alice
+104,Carrot Cake,2,2024-01-01 19:44:00,Diana
+105,Tea,2,2024-01-01 12:22:00,Frank
+106,New York Cheesecake,2,2024-01-01 18:21:00,Diana
+107,Bagel & Cream Cheese,1,2024-01-01 13:18:00,Henry
+108,Carrot Cake,2,2024-01-01 16:38:00,Diana
+109,Carrot Cake,3,2024-01-01 21:09:00,Henry
+110,Carrot Cake,1,2024-01-01 12:33:00,Frank
+111,New York Cheesecake,1,2024-01-01 18:26:00,Bob
+112,Tiramisu,1,2024-01-01 12:26:00,Alice
+113,Carrot Cake,2,2024-01-01 13:54:00,Alice
+114,Carrot Cake,2,2024-01-01 11:29:00,Alice
+115,Banoffee Pie,1,2024-01-01 17:14:00,Diana
+116,Carrot Cake,3,2024-01-01 13:40:00,Henry
+117,Carrot Cake,1,2024-01-01 15:32:00,Frank
+118,Carrot Cake,1,2024-01-01 19:46:00,Charlie
+119,Carrot Cake,1,2024-01-01 15:35:00,Henry
+120,Carrot Cake,1,2024-01-01 19:31:00,Eve
+121,Cappuccino,2,2024-01-01 12:37:00,Alice
+122,Bagel & Cream Cheese,1,2024-01-01 13:01:00,Alice
+123,Iced Coffee,2,2024-01-01 18:35:00,Eve
+124,Red Velvet Cake,2,2024-01-01 15:38:00,Henry
+125,Carrot Cake,1,2024-01-01 20:45:00,Eve
+126,Carrot Cake,2,2024-01-01 18:46:00,Grace
+127,Red Velvet Cake,2,2024-01-01 20:26:00,Bob
+128,Carrot Cake,1,2024-01-01 18:59:00,Eve
+129,Iced Coffee,2,2024-01-01 18:20:00,Henry
+130,Carrot Cake,1,2024-01-01 21:29:00,Charlie
+131,Fresh Juice,2,2024-01-02 17:32:00,Grace
+132,Tiramisu,1,2024-01-02 10:03:00,Frank
+133,Carrot Cake,3,2024-01-02 18:45:00,Grace
+134,Tiramisu,1,2024-01-02 18:23:00,Grace
+135,Granola Bowl,2,2024-01-02 17:14:00,Henry
+136,Carrot Cake,3,2024-01-02 18:31:00,Bob
+137,Carrot Cake,1,2024-01-02 17:15:00,Charlie
+138,Carrot Cake,1,2024-01-02 19:54:00,Charlie
+139,Carrot Cake,1,2024-01-02 13:32:00,Henry
+140,Carrot Cake,3,2024-01-02 13:26:00,Henry
+141,Carrot Cake,1,2024-01-02 13:46:00,Frank
+142,Carrot Cake,1,2024-01-02 22:51:00,Grace
+143,Carrot Cake,1,2024-01-02 19:13:00,Diana
+144,Soup & Salad Combo,2,2024-01-02 11:21:00,Alice
+145,Carrot Cake,3,2024-01-02 17:52:00,Diana
+146,Red Velvet Cake,3,2024-01-02 18:30:00,Eve
+147,Red Velvet Cake,2,2024-01-02 12:33:00,Alice
+148,New York Cheesecake,1,2024-01-02 18:12:00,Eve
+149,Carrot Cake,3,2024-01-02 12:17:00,Alice
+150,Carrot Cake,1,2024-01-02 13:03:00,Frank
+151,Smoothie,1,2024-01-02 14:51:00,Frank
+152,Carrot Cake,1,2024-01-02 18:40:00,Henry
+153,New York Cheesecake,3,2024-01-02 17:19:00,Bob
+154,Quiche,2,2024-01-02 15:56:00,Frank
+155,Panna Cotta,1,2024-01-02 12:17:00,Alice
+156,Red Velvet Cake,1,2024-01-02 14:15:00,Frank
+157,Tiramisu,1,2024-01-02 12:38:00,Frank
+158,Carrot Cake,2,2024-01-02 12:58:00,Alice
+159,Carrot Cake,1,2024-01-02 09:17:00,Alice
+160,Carrot Cake,1,2024-01-02 15:16:00,Frank
+161,Panna Cotta,1,2024-01-02 18:28:00,Henry
+162,New York Cheesecake,1,2024-01-02 12:54:00,Frank
+163,Tiramisu,2,2024-01-02 13:14:00,Henry
+164,Tiramisu,1,2024-01-02 18:11:00,Bob
+165,Carrot Cake,1,2024-01-02 19:05:00,Bob
+166,Red Velvet Cake,1,2024-01-02 12:42:00,Frank
+167,Granola Bowl,3,2024-01-02 17:41:00,Henry
+168,Banoffee Pie,3,2024-01-02 17:27:00,Bob
+169,Pavlova,2,2024-01-02 13:14:00,Henry
+170,Carrot Cake,1,2024-01-02 21:04:00,Diana
+171,Red Velvet Cake,2,2024-01-02 18:06:00,Eve
+172,Quiche,1,2024-01-02 13:49:00,Alice
+173,New York Cheesecake,2,2024-01-02 09:42:00,Alice
+174,Red Velvet Cake,2,2024-01-02 18:49:00,Charlie
+175,New York Cheesecake,1,2024-01-02 12:46:00,Alice
+176,Granola Bowl,1,2024-01-02 15:07:00,Henry
+177,Carrot Cake,3,2024-01-02 22:34:00,Eve
+178,Carrot Cake,1,2024-01-02 19:24:00,Eve
+179,Red Velvet Cake,1,2024-01-02 11:26:00,Frank
+180,Carrot Cake,1,2024-01-02 19:11:00,Bob
+181,Carrot Cake,2,2024-01-02 19:50:00,Charlie
+182,New York Cheesecake,2,2024-01-02 14:45:00,Henry
+183,Carrot Cake,2,2024-01-02 18:43:00,Henry
+184,New York Cheesecake,2,2024-01-02 09:02:00,Henry
+185,Carrot Cake,2,2024-01-02 11:46:00,Henry
+186,Carrot Cake,1,2024-01-02 12:21:00,Henry
+187,Red Velvet Cake,2,2024-01-02 19:59:00,Henry
+188,Carrot Cake,2,2024-01-02 18:38:00,Henry
+189,Carrot Cake,2,2024-01-02 18:39:00,Grace
+190,Carrot Cake,2,2024-01-02 12:46:00,Henry
+191,Banoffee Pie,1,2024-01-02 12:00:00,Alice
+192,New York Cheesecake,3,2024-01-02 21:59:00,Diana
+193,Carrot Cake,2,2024-01-02 13:37:00,Alice
+194,Cappuccino,1,2024-01-02 14:00:00,Frank
+195,Carrot Cake,1,2024-01-02 12:20:00,Frank
+196,Carrot Cake,3,2024-01-02 12:18:00,Henry
+197,Banoffee Pie,3,2024-01-02 12:11:00,Alice
+198,Carrot Cake,2,2024-01-02 13:28:00,Alice
+199,Tiramisu,2,2024-01-02 14:27:00,Alice
+200,New York Cheesecake,1,2024-01-02 20:14:00,Eve
+201,Banoffee Pie,3,2024-01-02 13:08:00,Alice
+202,Iced Coffee,3,2024-01-02 19:06:00,Henry
+203,Red Velvet Cake,2,2024-01-02 11:24:00,Alice
+204,Carrot Cake,2,2024-01-02 11:48:00,Henry
+205,Carrot Cake,3,2024-01-02 12:04:00,Alice
+206,Red Velvet Cake,1,2024-01-02 17:31:00,Grace
+207,Banoffee Pie,1,2024-01-02 14:06:00,Henry
+208,Red Velvet Cake,1,2024-01-02 20:24:00,Bob
+209,Carrot Cake,2,2024-01-02 13:10:00,Henry
+210,New York Cheesecake,3,2024-01-02 14:11:00,Alice
+211,New York Cheesecake,1,2024-01-02 19:44:00,Diana
+212,Tea,3,2024-01-02 12:17:00,Alice
+213,New York Cheesecake,2,2024-01-02 18:19:00,Eve
+214,Carrot Cake,1,2024-01-02 16:49:00,Diana
+215,Tea,1,2024-01-02 20:05:00,Diana
+216,Panna Cotta,1,2024-01-02 16:57:00,Charlie
+217,Red Velvet Cake,2,2024-01-02 12:09:00,Henry
+218,New York Cheesecake,1,2024-01-02 14:58:00,Frank
+219,New York Cheesecake,1,2024-01-02 21:08:00,Grace
+220,Carrot Cake,1,2024-01-02 12:49:00,Henry
+221,Carrot Cake,2,2024-01-02 13:03:00,Henry
+222,Fresh Juice,2,2024-01-02 18:49:00,Charlie
+223,Smoothie,1,2024-01-02 17:45:00,Bob
+224,Carrot Cake,1,2024-01-02 11:23:00,Frank
+225,Fresh Juice,1,2024-01-02 17:29:00,Diana
+226,New York Cheesecake,2,2024-01-02 18:43:00,Diana
+227,Carrot Cake,1,2024-01-02 14:36:00,Henry
+228,Tiramisu,2,2024-01-02 18:59:00,Henry
+229,Smoothie,2,2024-01-02 19:44:00,Grace
+230,Tea,1,2024-01-02 17:10:00,Charlie
+231,Carrot Cake,2,2024-01-02 18:23:00,Diana
+232,Carrot Cake,2,2024-01-02 15:43:00,Henry
+233,Pavlova,1,2024-01-02 13:41:00,Frank
+234,New York Cheesecake,2,2024-01-02 11:19:00,Henry
+235,Carrot Cake,2,2024-01-02 09:53:00,Alice
+236,New York Cheesecake,1,2024-01-02 19:45:00,Charlie
+237,Red Velvet Cake,2,2024-01-02 13:45:00,Alice
+238,New York Cheesecake,2,2024-01-02 19:44:00,Charlie
+239,Panna Cotta,2,2024-01-02 20:34:00,Eve
+240,Carrot Cake,2,2024-01-02 13:43:00,Henry
+241,Red Velvet Cake,1,2024-01-02 10:32:00,Frank
+242,Carrot Cake,1,2024-01-02 14:10:00,Henry
+243,Carrot Cake,1,2024-01-02 16:42:00,Diana
+244,Fresh Juice,3,2024-01-02 12:24:00,Henry
+245,Banoffee Pie,2,2024-01-02 21:01:00,Grace
+246,Red Velvet Cake,1,2024-01-02 15:37:00,Frank
+247,Carrot Cake,1,2024-01-03 13:17:00,Frank
+248,Carrot Cake,1,2024-01-03 18:35:00,Charlie
+249,Carrot Cake,1,2024-01-03 13:51:00,Frank
+250,Carrot Cake,3,2024-01-03 18:47:00,Eve
+251,Carrot Cake,2,2024-01-03 12:06:00,Henry
+252,Tiramisu,1,2024-01-03 19:09:00,Charlie
+253,Red Velvet Cake,2,2024-01-03 18:58:00,Charlie
+254,Carrot Cake,2,2024-01-03 12:16:00,Henry
+255,New York Cheesecake,2,2024-01-03 16:49:00,Charlie
+256,New York Cheesecake,1,2024-01-03 22:30:00,Bob
+257,Red Velvet Cake,1,2024-01-03 18:59:00,Bob
+258,New York Cheesecake,1,2024-01-03 14:58:00,Alice
+259,Carrot Cake,1,2024-01-03 18:03:00,Grace
+260,Carrot Cake,2,2024-01-03 13:49:00,Alice
+261,Red Velvet Cake,1,2024-01-03 19:44:00,Charlie
+262,Tiramisu,1,2024-01-03 12:08:00,Alice
+263,Carrot Cake,1,2024-01-03 09:32:00,Alice
+264,Carrot Cake,1,2024-01-03 17:26:00,Grace
+265,New York Cheesecake,3,2024-01-03 19:49:00,Charlie
+266,New York Cheesecake,1,2024-01-03 11:49:00,Frank
+267,Banoffee Pie,2,2024-01-03 18:23:00,Charlie
+268,Red Velvet Cake,1,2024-01-03 13:30:00,Frank
+269,Carrot Cake,1,2024-01-03 12:13:00,Henry
+270,Smoothie,1,2024-01-03 19:05:00,Bob
+271,Carrot Cake,3,2024-01-03 17:23:00,Charlie
+272,Carrot Cake,1,2024-01-03 21:26:00,Henry
+273,New York Cheesecake,2,2024-01-03 17:52:00,Henry
+274,New York Cheesecake,1,2024-01-03 16:17:00,Diana
+275,New York Cheesecake,1,2024-01-03 10:49:00,Henry
+276,Carrot Cake,2,2024-01-03 14:36:00,Alice
+277,New York Cheesecake,1,2024-01-03 13:45:00,Henry
+278,Tiramisu,1,2024-01-03 17:16:00,Eve
+279,Carrot Cake,1,2024-01-03 12:40:00,Frank
+280,New York Cheesecake,3,2024-01-03 19:53:00,Bob
+281,Carrot Cake,1,2024-01-03 11:28:00,Frank
+282,Panna Cotta,1,2024-01-03 18:12:00,Bob
+283,Carrot Cake,2,2024-01-03 14:12:00,Frank
+284,Tiramisu,1,2024-01-03 13:10:00,Frank
+285,Red Velvet Cake,3,2024-01-03 13:21:00,Henry
+286,Carrot Cake,1,2024-01-03 19:36:00,Grace
+287,Carrot Cake,2,2024-01-03 17:05:00,Diana
+288,Smoothie,1,2024-01-03 18:07:00,Grace
+289,Tea,2,2024-01-03 14:31:00,Alice
+290,Latte,2,2024-01-03 18:19:00,Henry
+291,Carrot Cake,1,2024-01-03 15:10:00,Alice
+292,Red Velvet Cake,1,2024-01-03 17:58:00,Diana
+293,Carrot Cake,1,2024-01-03 12:07:00,Henry
+294,Carrot Cake,2,2024-01-03 14:51:00,Frank
+295,Triple Chocolate Cake,1,2024-01-03 19:25:00,Grace
+296,New York Cheesecake,2,2024-01-03 17:23:00,Diana
+297,Carrot Cake,1,2024-01-03 13:27:00,Henry
+298,Carrot Cake,1,2024-01-03 12:20:00,Frank
+299,Panna Cotta,2,2024-01-03 17:43:00,Grace
+300,New York Cheesecake,1,2024-01-03 19:45:00,Charlie
+301,Fresh Juice,2,2024-01-03 20:35:00,Henry
+302,New York Cheesecake,1,2024-01-03 09:23:00,Frank
+303,Carrot Cake,1,2024-01-03 10:02:00,Frank
+304,Carrot Cake,1,2024-01-03 14:44:00,Frank
+305,Carrot Cake,1,2024-01-03 19:00:00,Henry
+306,New York Cheesecake,1,2024-01-03 12:22:00,Frank
+307,Carrot Cake,1,2024-01-03 20:46:00,Bob
+308,Carrot Cake,1,2024-01-03 17:57:00,Henry
+309,Carrot Cake,3,2024-01-03 18:52:00,Eve
+310,Carrot Cake,2,2024-01-03 17:28:00,Henry
+311,Carrot Cake,1,2024-01-03 12:25:00,Henry
+312,Quiche,2,2024-01-03 13:47:00,Henry
+313,Carrot Cake,1,2024-01-03 14:52:00,Frank
+314,Tiramisu,2,2024-01-03 13:41:00,Henry
+315,Carrot Cake,1,2024-01-03 15:37:00,Henry
+316,Tea,2,2024-01-03 13:12:00,Alice
+317,Panna Cotta,2,2024-01-03 18:05:00,Diana
+318,Pavlova,2,2024-01-03 19:58:00,Henry
+319,Smoothie,3,2024-01-03 10:38:00,Alice
+320,Red Velvet Cake,3,2024-01-03 10:32:00,Alice
+321,Carrot Cake,1,2024-01-03 10:42:00,Alice
+322,Carrot Cake,2,2024-01-03 11:56:00,Alice
+323,Carrot Cake,2,2024-01-03 19:50:00,Henry
+324,Red Velvet Cake,1,2024-01-03 11:34:00,Alice
+325,Panna Cotta,3,2024-01-03 13:58:00,Alice
+326,Latte,3,2024-01-03 18:57:00,Eve
+327,Carrot Cake,2,2024-01-03 20:49:00,Eve
+328,Latte,2,2024-01-03 16:07:00,Henry
+329,Carrot Cake,1,2024-01-03 15:53:00,Frank
+330,Panna Cotta,2,2024-01-03 13:27:00,Alice
+331,Carrot Cake,1,2024-01-03 14:05:00,Alice
+332,Latte,1,2024-01-03 12:55:00,Henry
+333,Latte,1,2024-01-03 15:12:00,Frank
+334,Tiramisu,1,2024-01-03 10:56:00,Frank
+335,New York Cheesecake,2,2024-01-03 17:09:00,Diana
+336,Carrot Cake,2,2024-01-03 12:54:00,Frank
+337,Panna Cotta,1,2024-01-03 20:48:00,Bob
+338,Carrot Cake,1,2024-01-03 14:20:00,Frank
+339,Red Velvet Cake,2,2024-01-03 16:56:00,Diana
+340,Red Velvet Cake,2,2024-01-03 17:10:00,Bob
+341,Carrot Cake,1,2024-01-03 12:26:00,Henry
+342,New York Cheesecake,1,2024-01-03 15:56:00,Frank
+343,New York Cheesecake,1,2024-01-03 22:31:00,Bob
+344,Red Velvet Cake,2,2024-01-03 11:29:00,Henry
+345,New York Cheesecake,2,2024-01-03 11:35:00,Frank
+346,Carrot Cake,2,2024-01-03 15:58:00,Henry
+347,Carrot Cake,3,2024-01-03 18:03:00,Henry
+348,New York Cheesecake,2,2024-01-03 17:25:00,Charlie
+349,Carrot Cake,2,2024-01-03 20:20:00,Grace
+350,New York Cheesecake,1,2024-01-03 15:22:00,Alice
+351,Red Velvet Cake,2,2024-01-03 18:44:00,Diana
+352,Panna Cotta,1,2024-01-03 18:07:00,Charlie
+353,Carrot Cake,1,2024-01-03 20:53:00,Grace
+354,Banoffee Pie,2,2024-01-03 16:09:00,Charlie
+355,New York Cheesecake,1,2024-01-03 12:52:00,Henry
+356,Carrot Cake,2,2024-01-03 13:21:00,Alice
+357,New York Cheesecake,2,2024-01-03 18:18:00,Bob
+358,Pavlova,2,2024-01-03 18:04:00,Bob
+359,Carrot Cake,1,2024-01-03 12:48:00,Frank
+360,Banoffee Pie,1,2024-01-03 13:21:00,Henry
+361,Pavlova,1,2024-01-03 13:14:00,Frank
+362,Banoffee Pie,3,2024-01-03 13:07:00,Henry
+363,Carrot Cake,2,2024-01-03 15:14:00,Frank
+364,Red Velvet Cake,2,2024-01-03 17:38:00,Diana
+365,Club Sandwich,2,2024-01-03 14:53:00,Henry
+366,Carrot Cake,1,2024-01-03 15:04:00,Frank
+367,Red Velvet Cake,2,2024-01-03 19:24:00,Henry
+368,Red Velvet Cake,3,2024-01-03 19:06:00,Grace
+369,Panna Cotta,2,2024-01-03 13:59:00,Alice
+370,Carrot Cake,1,2024-01-03 19:24:00,Diana
+371,Tiramisu,3,2024-01-03 12:20:00,Alice
+372,New York Cheesecake,1,2024-01-04 14:03:00,Henry
+373,Panna Cotta,3,2024-01-04 12:13:00,Henry
+374,Carrot Cake,1,2024-01-04 12:17:00,Henry
+375,Panna Cotta,2,2024-01-04 13:20:00,Henry
+376,Carrot Cake,2,2024-01-04 14:41:00,Alice
+377,Red Velvet Cake,1,2024-01-04 13:44:00,Henry
+378,Cookie,1,2024-01-04 17:21:00,Henry
+379,Panna Cotta,1,2024-01-04 15:43:00,Henry
+380,Carrot Cake,1,2024-01-04 18:09:00,Diana
+381,Carrot Cake,1,2024-01-04 14:26:00,Frank
+382,Carrot Cake,2,2024-01-04 18:08:00,Henry
+383,New York Cheesecake,2,2024-01-04 19:04:00,Charlie
+384,Red Velvet Cake,1,2024-01-04 11:24:00,Frank
+385,Carrot Cake,3,2024-01-04 14:14:00,Alice
+386,Panna Cotta,1,2024-01-04 18:38:00,Charlie
+387,Carrot Cake,1,2024-01-04 12:01:00,Henry
+388,Quiche,1,2024-01-04 19:37:00,Diana
+389,Red Velvet Cake,3,2024-01-04 17:26:00,Grace
+390,Red Velvet Cake,1,2024-01-04 19:14:00,Henry
+391,Carrot Cake,2,2024-01-04 19:32:00,Charlie
+392,Tea,2,2024-01-04 12:07:00,Henry
+393,New York Cheesecake,2,2024-01-04 14:03:00,Henry
+394,Red Velvet Cake,1,2024-01-04 18:09:00,Grace
+395,New York Cheesecake,1,2024-01-04 12:18:00,Frank
+396,Red Velvet Cake,1,2024-01-04 13:49:00,Henry
+397,New York Cheesecake,1,2024-01-04 18:17:00,Grace
+398,New York Cheesecake,3,2024-01-04 18:27:00,Henry
+399,Carrot Cake,1,2024-01-04 21:23:00,Diana
+400,Carrot Cake,3,2024-01-04 21:13:00,Bob
+401,Carrot Cake,3,2024-01-04 13:30:00,Henry
+402,Banoffee Pie,1,2024-01-04 19:46:00,Charlie
+403,Carrot Cake,1,2024-01-04 17:17:00,Eve
+404,Carrot Cake,2,2024-01-04 12:55:00,Henry
+405,Carrot Cake,1,2024-01-04 11:27:00,Frank
+406,Tiramisu,2,2024-01-04 14:24:00,Henry
+407,Banoffee Pie,3,2024-01-04 13:31:00,Henry
+408,Carrot Cake,1,2024-01-04 12:32:00,Frank
+409,Tea,2,2024-01-04 12:24:00,Alice
+410,New York Cheesecake,1,2024-01-04 17:22:00,Grace
+411,Red Velvet Cake,2,2024-01-04 14:03:00,Frank
+412,Carrot Cake,1,2024-01-04 18:03:00,Diana
+413,Fresh Juice,1,2024-01-04 21:10:00,Henry
+414,Panna Cotta,1,2024-01-04 12:17:00,Alice
+415,Panna Cotta,1,2024-01-04 11:03:00,Henry
+416,Carrot Cake,2,2024-01-04 19:44:00,Eve
+417,New York Cheesecake,2,2024-01-04 19:18:00,Eve
+418,New York Cheesecake,1,2024-01-04 14:42:00,Frank
+419,Carrot Cake,1,2024-01-04 18:46:00,Charlie
+420,New York Cheesecake,3,2024-01-04 19:41:00,Charlie
+421,Red Velvet Cake,1,2024-01-04 11:52:00,Henry
+422,Red Velvet Cake,2,2024-01-04 18:39:00,Henry
+423,Carrot Cake,1,2024-01-04 13:20:00,Frank
+424,New York Cheesecake,2,2024-01-04 17:55:00,Bob
+425,Pavlova,1,2024-01-04 18:36:00,Bob
+426,Pavlova,2,2024-01-04 11:59:00,Alice
+427,New York Cheesecake,2,2024-01-04 12:50:00,Henry
+428,Carrot Cake,2,2024-01-04 14:32:00,Frank
+429,Carrot Cake,1,2024-01-04 15:57:00,Frank
+430,New York Cheesecake,2,2024-01-04 11:24:00,Frank
+431,Tea,1,2024-01-04 15:33:00,Frank
+432,Panna Cotta,1,2024-01-04 12:25:00,Alice
+433,New York Cheesecake,1,2024-01-04 14:21:00,Henry
+434,Tea,1,2024-01-04 17:58:00,Bob
+435,Carrot Cake,2,2024-01-04 17:11:00,Charlie
+436,Red Velvet Cake,2,2024-01-04 18:09:00,Charlie
+437,Smoothie,1,2024-01-04 18:29:00,Henry
+438,Panna Cotta,2,2024-01-04 13:20:00,Alice
+439,New York Cheesecake,2,2024-01-04 22:00:00,Henry
+440,Red Velvet Cake,2,2024-01-04 19:24:00,Henry
+441,Pavlova,3,2024-01-04 19:13:00,Charlie
+442,Carrot Cake,1,2024-01-04 21:55:00,Henry
+443,Carrot Cake,1,2024-01-04 13:38:00,Frank
+444,Banoffee Pie,1,2024-01-04 17:24:00,Diana
+445,Carrot Cake,3,2024-01-04 13:31:00,Alice
+446,Banoffee Pie,2,2024-01-04 14:03:00,Alice
+447,Carrot Cake,2,2024-01-04 10:58:00,Alice
+448,Tiramisu,2,2024-01-04 13:41:00,Alice
+449,Carrot Cake,2,2024-01-04 10:01:00,Henry
+450,Panna Cotta,2,2024-01-04 14:40:00,Frank
+451,Carrot Cake,3,2024-01-04 19:07:00,Bob
+452,Red Velvet Cake,2,2024-01-04 16:40:00,Bob
+453,Tea,2,2024-01-04 18:11:00,Eve
+454,Carrot Cake,1,2024-01-04 13:55:00,Frank
+455,New York Cheesecake,1,2024-01-04 10:06:00,Frank
+456,Carrot Cake,1,2024-01-04 14:32:00,Frank
+457,Panna Cotta,1,2024-01-04 18:13:00,Grace
+458,Tiramisu,1,2024-01-04 17:41:00,Charlie
+459,Carrot Cake,2,2024-01-04 14:09:00,Frank
+460,Cappuccino,1,2024-01-04 19:26:00,Charlie
+461,Club Sandwich,2,2024-01-04 19:31:00,Henry
+462,Latte,2,2024-01-04 20:11:00,Henry
+463,Carrot Cake,2,2024-01-04 11:04:00,Henry
+464,Carrot Cake,1,2024-01-04 14:38:00,Frank
+465,Carrot Cake,2,2024-01-04 11:42:00,Henry
+466,Latte,2,2024-01-04 15:32:00,Alice
+467,Red Velvet Cake,2,2024-01-04 13:58:00,Alice
+468,Red Velvet Cake,3,2024-01-04 20:31:00,Grace
+469,Red Velvet Cake,2,2024-01-04 13:11:00,Henry
+470,New York Cheesecake,3,2024-01-04 19:07:00,Charlie
+471,New York Cheesecake,1,2024-01-04 12:27:00,Alice
+472,Banoffee Pie,1,2024-01-04 11:24:00,Frank
+473,New York Cheesecake,3,2024-01-04 13:01:00,Henry
+474,New York Cheesecake,1,2024-01-04 14:48:00,Henry
+475,Carrot Cake,1,2024-01-04 19:41:00,Diana
+476,Red Velvet Cake,1,2024-01-04 18:07:00,Bob
+477,New York Cheesecake,1,2024-01-04 14:41:00,Frank
+478,Carrot Cake,1,2024-01-04 10:41:00,Frank
+479,Panna Cotta,2,2024-01-04 12:24:00,Alice
+480,New York Cheesecake,2,2024-01-05 18:23:00,Bob
+481,Carrot Cake,1,2024-01-05 10:22:00,Frank
+482,Tea,1,2024-01-05 12:30:00,Alice
+483,Red Velvet Cake,2,2024-01-05 17:46:00,Charlie
+484,Iced Coffee,1,2024-01-05 17:45:00,Charlie
+485,Carrot Cake,1,2024-01-05 14:55:00,Henry
+486,Pavlova,3,2024-01-05 21:32:00,Charlie
+487,Latte,2,2024-01-05 13:00:00,Alice
+488,Tea,1,2024-01-05 12:28:00,Alice
+489,Carrot Cake,3,2024-01-05 15:03:00,Alice
+490,Panna Cotta,2,2024-01-05 15:05:00,Henry
+491,Red Velvet Cake,3,2024-01-05 19:58:00,Bob
+492,Latte,1,2024-01-05 13:26:00,Alice
+493,Carrot Cake,1,2024-01-05 13:31:00,Alice
+494,New York Cheesecake,1,2024-01-05 18:01:00,Diana
+495,New York Cheesecake,1,2024-01-05 13:10:00,Frank
+496,Carrot Cake,1,2024-01-05 13:20:00,Alice
+497,Cookie,1,2024-01-05 19:51:00,Diana
+498,Banoffee Pie,1,2024-01-05 12:20:00,Henry
+499,Carrot Cake,2,2024-01-05 18:14:00,Henry
+500,Carrot Cake,1,2024-01-05 18:56:00,Grace
+501,Carrot Cake,2,2024-01-05 15:59:00,Henry
+502,Panna Cotta,1,2024-01-05 09:31:00,Alice
+503,Panna Cotta,1,2024-01-05 12:55:00,Henry
+504,Carrot Cake,1,2024-01-05 13:14:00,Alice
+505,Panna Cotta,1,2024-01-05 13:11:00,Frank
+506,Smoothie,3,2024-01-05 12:19:00,Alice
+507,Red Velvet Cake,2,2024-01-05 15:45:00,Henry
+508,Red Velvet Cake,1,2024-01-05 18:31:00,Grace
+509,Red Velvet Cake,3,2024-01-05 18:50:00,Grace
+510,Banoffee Pie,1,2024-01-05 11:48:00,Henry
+511,Banoffee Pie,2,2024-01-05 17:59:00,Bob
+512,Panna Cotta,1,2024-01-05 17:02:00,Eve
+513,Pavlova,1,2024-01-05 14:51:00,Henry
+514,Red Velvet Cake,1,2024-01-05 13:02:00,Henry
+515,Triple Chocolate Cake,2,2024-01-05 19:25:00,Henry
+516,New York Cheesecake,1,2024-01-05 14:25:00,Frank
+517,Carrot Cake,2,2024-01-05 13:15:00,Frank
+518,Carrot Cake,3,2024-01-05 13:33:00,Henry
+519,New York Cheesecake,1,2024-01-05 19:58:00,Bob
+520,Panna Cotta,3,2024-01-05 18:08:00,Charlie
+521,New York Cheesecake,1,2024-01-05 12:35:00,Frank
+522,Tiramisu,2,2024-01-05 17:33:00,Charlie
+523,Carrot Cake,3,2024-01-05 13:48:00,Alice
+524,Red Velvet Cake,2,2024-01-05 19:39:00,Charlie
+525,Carrot Cake,1,2024-01-05 18:11:00,Diana
+526,Red Velvet Cake,1,2024-01-05 22:26:00,Grace
+527,Carrot Cake,3,2024-01-05 19:27:00,Henry
+528,Carrot Cake,1,2024-01-05 20:05:00,Diana
+529,Red Velvet Cake,1,2024-01-05 14:18:00,Alice
+530,Cookie,2,2024-01-05 18:11:00,Eve
+531,Panna Cotta,2,2024-01-05 13:04:00,Frank
+532,Carrot Cake,1,2024-01-05 18:39:00,Diana
+533,Red Velvet Cake,1,2024-01-05 13:52:00,Henry
+534,Carrot Cake,1,2024-01-05 13:32:00,Frank
+535,Carrot Cake,1,2024-01-05 13:15:00,Alice
+536,Carrot Cake,2,2024-01-05 16:37:00,Henry
+537,Red Velvet Cake,2,2024-01-05 20:46:00,Charlie
+538,New York Cheesecake,3,2024-01-05 11:31:00,Henry
+539,Carrot Cake,1,2024-01-05 14:25:00,Alice
+540,New York Cheesecake,3,2024-01-05 18:05:00,Bob
+541,Banoffee Pie,3,2024-01-05 17:30:00,Henry
+542,Carrot Cake,1,2024-01-05 19:36:00,Bob
+543,Carrot Cake,1,2024-01-05 19:02:00,Grace
+544,Red Velvet Cake,1,2024-01-05 13:38:00,Henry
+545,Red Velvet Cake,1,2024-01-05 19:42:00,Grace
+546,Carrot Cake,1,2024-01-05 21:45:00,Bob
+547,New York Cheesecake,1,2024-01-05 13:42:00,Henry
+548,Tea,2,2024-01-05 09:02:00,Henry
+549,Pavlova,1,2024-01-05 14:43:00,Alice
+550,Carrot Cake,2,2024-01-05 15:29:00,Frank
+551,Carrot Cake,1,2024-01-05 22:25:00,Grace
+552,Carrot Cake,2,2024-01-05 13:04:00,Alice
+553,Quiche,1,2024-01-05 15:17:00,Frank
+554,Panna Cotta,3,2024-01-05 14:55:00,Henry
+555,Carrot Cake,2,2024-01-05 12:04:00,Alice
+556,Carrot Cake,1,2024-01-05 17:11:00,Bob
+557,Carrot Cake,1,2024-01-05 14:22:00,Alice
+558,Carrot Cake,1,2024-01-05 17:41:00,Eve
+559,New York Cheesecake,1,2024-01-05 18:04:00,Henry
+560,Panna Cotta,1,2024-01-05 19:17:00,Grace
+561,Red Velvet Cake,1,2024-01-05 11:50:00,Frank
+562,New York Cheesecake,2,2024-01-05 14:51:00,Alice
+563,Carrot Cake,1,2024-01-05 21:47:00,Diana
+564,New York Cheesecake,2,2024-01-05 15:09:00,Alice
+565,Carrot Cake,2,2024-01-05 13:53:00,Henry
+566,Red Velvet Cake,1,2024-01-05 14:25:00,Frank
+567,Red Velvet Cake,2,2024-01-05 13:19:00,Alice
+568,Carrot Cake,1,2024-01-05 12:08:00,Frank
+569,Tiramisu,1,2024-01-05 12:41:00,Frank
+570,Banoffee Pie,1,2024-01-05 21:00:00,Charlie
+571,Carrot Cake,1,2024-01-05 17:02:00,Diana
+572,Panna Cotta,1,2024-01-05 17:45:00,Charlie
+573,Carrot Cake,1,2024-01-05 12:59:00,Frank
+574,Carrot Cake,1,2024-01-05 18:33:00,Diana
+575,Triple Chocolate Cake,3,2024-01-05 17:53:00,Grace
+576,Carrot Cake,2,2024-01-05 18:17:00,Henry
+577,Red Velvet Cake,1,2024-01-05 15:58:00,Frank
+578,Carrot Cake,1,2024-01-05 11:06:00,Henry
+579,Red Velvet Cake,2,2024-01-05 18:55:00,Henry
+580,Carrot Cake,2,2024-01-05 11:05:00,Alice
+581,Carrot Cake,1,2024-01-05 19:41:00,Henry
+582,Carrot Cake,2,2024-01-05 18:43:00,Charlie
+583,Smoothie,1,2024-01-05 14:57:00,Henry
+584,New York Cheesecake,2,2024-01-05 12:45:00,Henry
+585,Carrot Cake,1,2024-01-05 10:32:00,Frank
+586,Carrot Cake,2,2024-01-05 17:24:00,Eve
+587,Carrot Cake,1,2024-01-05 17:43:00,Henry
+588,Red Velvet Cake,2,2024-01-05 13:32:00,Henry
+589,Red Velvet Cake,1,2024-01-05 11:31:00,Frank
+590,Carrot Cake,1,2024-01-05 19:35:00,Diana
+591,New York Cheesecake,2,2024-01-05 14:35:00,Henry
+592,Carrot Cake,1,2024-01-05 13:51:00,Alice
+593,New York Cheesecake,1,2024-01-05 13:03:00,Henry
+594,Carrot Cake,1,2024-01-05 12:56:00,Alice
+595,Carrot Cake,2,2024-01-05 18:20:00,Grace
+596,Tiramisu,3,2024-01-05 20:48:00,Charlie
+597,Carrot Cake,1,2024-01-05 19:24:00,Eve
+598,Quiche,2,2024-01-05 18:31:00,Grace
+599,Red Velvet Cake,1,2024-01-05 20:29:00,Diana
+600,New York Cheesecake,2,2024-01-05 19:49:00,Eve
+601,Carrot Cake,1,2024-01-05 14:56:00,Henry
+602,Carrot Cake,1,2024-01-05 12:25:00,Alice
+603,Carrot Cake,2,2024-01-05 16:50:00,Henry
+604,Red Velvet Cake,1,2024-01-05 13:12:00,Henry
+605,Carrot Cake,2,2024-01-05 19:37:00,Bob
+606,New York Cheesecake,1,2024-01-05 17:54:00,Eve
+607,Carrot Cake,1,2024-01-05 20:38:00,Henry
+608,New York Cheesecake,2,2024-01-05 09:35:00,Henry
+609,New York Cheesecake,1,2024-01-05 13:30:00,Henry
+610,Red Velvet Cake,1,2024-01-05 20:14:00,Diana
+611,Carrot Cake,3,2024-01-05 16:10:00,Charlie
+612,Quiche,1,2024-01-05 13:29:00,Frank
+613,Carrot Cake,2,2024-01-05 14:41:00,Henry
+614,Carrot Cake,1,2024-01-05 18:01:00,Charlie
+615,New York Cheesecake,3,2024-01-05 10:30:00,Henry
+616,Banoffee Pie,2,2024-01-05 09:05:00,Frank
+617,New York Cheesecake,3,2024-01-05 16:33:00,Bob
+618,Quiche,3,2024-01-05 12:37:00,Alice
+619,Granola Bowl,2,2024-01-05 11:55:00,Henry
+620,Pavlova,2,2024-01-05 13:11:00,Alice
+621,New York Cheesecake,1,2024-01-05 18:09:00,Eve
+622,Panna Cotta,2,2024-01-05 13:53:00,Henry
+623,Carrot Cake,2,2024-01-05 20:54:00,Eve
+624,Quiche,1,2024-01-05 14:57:00,Henry
+625,New York Cheesecake,1,2024-01-05 17:45:00,Grace
+626,New York Cheesecake,2,2024-01-05 19:13:00,Henry
+627,Carrot Cake,3,2024-01-05 13:49:00,Alice
+628,Red Velvet Cake,3,2024-01-05 19:29:00,Henry
+629,Carrot Cake,1,2024-01-05 12:54:00,Frank
+630,Red Velvet Cake,1,2024-01-05 17:55:00,Diana
+631,Red Velvet Cake,1,2024-01-05 11:20:00,Frank
+632,New York Cheesecake,1,2024-01-05 15:29:00,Alice
+633,New York Cheesecake,2,2024-01-05 19:25:00,Diana
+634,Red Velvet Cake,3,2024-01-05 17:11:00,Charlie
+635,New York Cheesecake,3,2024-01-05 18:51:00,Henry
+636,Carrot Cake,2,2024-01-05 22:47:00,Charlie
+637,Carrot Cake,2,2024-01-05 14:25:00,Henry
+638,Carrot Cake,1,2024-01-05 12:55:00,Henry
+639,New York Cheesecake,2,2024-01-05 13:13:00,Frank
+640,Carrot Cake,2,2024-01-05 19:14:00,Eve
+641,Carrot Cake,2,2024-01-05 17:04:00,Eve
+642,New York Cheesecake,3,2024-01-05 17:26:00,Charlie
+643,Carrot Cake,3,2024-01-05 18:30:00,Bob
+644,Red Velvet Cake,2,2024-01-05 12:20:00,Alice
+645,Panna Cotta,2,2024-01-05 12:34:00,Henry
+646,Red Velvet Cake,3,2024-01-05 20:40:00,Diana
+647,Carrot Cake,1,2024-01-05 19:22:00,Charlie
+648,New York Cheesecake,2,2024-01-05 13:09:00,Henry
+649,New York Cheesecake,2,2024-01-05 13:52:00,Henry
+650,Carrot Cake,2,2024-01-05 19:48:00,Charlie
+651,Panna Cotta,1,2024-01-05 21:13:00,Bob
+652,New York Cheesecake,3,2024-01-05 19:14:00,Henry
+653,New York Cheesecake,2,2024-01-06 09:25:00,Frank
+654,Carrot Cake,1,2024-01-06 13:40:00,Frank
+655,Carrot Cake,3,2024-01-06 18:18:00,Bob
+656,Carrot Cake,1,2024-01-06 09:42:00,Alice
+657,Carrot Cake,1,2024-01-06 13:35:00,Frank
+658,Panna Cotta,3,2024-01-06 18:05:00,Eve
+659,Carrot Cake,2,2024-01-06 12:12:00,Henry
+660,New York Cheesecake,1,2024-01-06 12:46:00,Alice
+661,Carrot Cake,1,2024-01-06 12:02:00,Henry
+662,Red Velvet Cake,2,2024-01-06 19:24:00,Grace
+663,New York Cheesecake,3,2024-01-06 18:34:00,Eve
+664,Panna Cotta,3,2024-01-06 12:35:00,Alice
+665,Carrot Cake,3,2024-01-06 14:05:00,Henry
+666,Red Velvet Cake,1,2024-01-06 12:17:00,Henry
+667,New York Cheesecake,2,2024-01-06 18:36:00,Diana
+668,Carrot Cake,1,2024-01-06 13:31:00,Alice
+669,Red Velvet Cake,2,2024-01-06 17:13:00,Diana
+670,Cappuccino,1,2024-01-06 18:42:00,Eve
+671,New York Cheesecake,3,2024-01-06 19:42:00,Bob
+672,Carrot Cake,1,2024-01-06 19:04:00,Eve
+673,Smoothie,1,2024-01-06 18:45:00,Grace
+674,Carrot Cake,1,2024-01-06 11:27:00,Frank
+675,Carrot Cake,1,2024-01-06 13:34:00,Henry
+676,New York Cheesecake,1,2024-01-06 10:12:00,Henry
+677,Red Velvet Cake,1,2024-01-06 10:28:00,Frank
+678,Red Velvet Cake,2,2024-01-06 14:06:00,Henry
+679,Iced Coffee,2,2024-01-06 11:52:00,Henry
+680,Carrot Cake,2,2024-01-06 14:14:00,Alice
+681,New York Cheesecake,2,2024-01-06 12:51:00,Frank
+682,New York Cheesecake,1,2024-01-06 18:21:00,Eve
+683,Carrot Cake,2,2024-01-06 13:36:00,Alice
+684,Red Velvet Cake,2,2024-01-06 14:45:00,Alice
+685,Banoffee Pie,1,2024-01-06 12:35:00,Alice
+686,Carrot Cake,1,2024-01-06 13:16:00,Frank
+687,New York Cheesecake,2,2024-01-06 18:16:00,Henry
+688,Carrot Cake,2,2024-01-06 18:00:00,Diana
+689,Carrot Cake,1,2024-01-06 13:31:00,Alice
+690,Cappuccino,1,2024-01-06 14:39:00,Frank
+691,Soup & Salad Combo,1,2024-01-06 17:53:00,Diana
+692,Panna Cotta,2,2024-01-06 12:52:00,Alice
+693,Carrot Cake,1,2024-01-06 16:32:00,Bob
+694,New York Cheesecake,1,2024-01-06 16:18:00,Charlie
+695,Carrot Cake,1,2024-01-06 10:29:00,Henry
+696,Carrot Cake,2,2024-01-06 12:53:00,Henry
+697,Latte,1,2024-01-06 21:43:00,Bob
+698,Carrot Cake,3,2024-01-06 17:33:00,Diana
+699,Carrot Cake,2,2024-01-06 12:25:00,Henry
+700,Fresh Juice,2,2024-01-06 20:35:00,Bob
+701,New York Cheesecake,2,2024-01-06 18:52:00,Bob
+702,Red Velvet Cake,3,2024-01-06 14:19:00,Alice
+703,Smoothie,1,2024-01-06 10:16:00,Henry
+704,Tiramisu,2,2024-01-06 12:07:00,Henry
+705,Carrot Cake,2,2024-01-06 18:24:00,Eve
+706,Carrot Cake,3,2024-01-06 17:34:00,Charlie
+707,Red Velvet Cake,1,2024-01-06 17:47:00,Diana
+708,Iced Coffee,1,2024-01-06 12:39:00,Alice
+709,Red Velvet Cake,2,2024-01-06 18:59:00,Charlie
+710,Tea,3,2024-01-06 13:32:00,Henry
+711,Carrot Cake,3,2024-01-06 12:05:00,Henry
+712,Carrot Cake,1,2024-01-06 15:11:00,Frank
+713,Carrot Cake,3,2024-01-06 13:40:00,Henry
+714,Panna Cotta,1,2024-01-06 12:44:00,Frank
+715,Carrot Cake,1,2024-01-06 13:50:00,Alice
+716,Carrot Cake,2,2024-01-06 14:11:00,Frank
+717,New York Cheesecake,2,2024-01-06 15:24:00,Henry
+718,Carrot Cake,1,2024-01-06 18:36:00,Henry
+719,Tiramisu,1,2024-01-06 12:43:00,Frank
+720,Carrot Cake,1,2024-01-06 11:57:00,Frank
+721,Red Velvet Cake,2,2024-01-06 18:55:00,Grace
+722,New York Cheesecake,1,2024-01-06 17:02:00,Diana
+723,Carrot Cake,2,2024-01-06 21:45:00,Bob
+724,Panna Cotta,2,2024-01-06 12:16:00,Henry
+725,Panna Cotta,2,2024-01-06 17:32:00,Bob
+726,Banoffee Pie,2,2024-01-06 13:19:00,Henry
+727,Tea,1,2024-01-06 13:52:00,Henry
+728,Carrot Cake,2,2024-01-06 13:26:00,Alice
+729,Red Velvet Cake,1,2024-01-06 14:06:00,Frank
+730,Carrot Cake,1,2024-01-06 13:50:00,Henry
+731,Panna Cotta,1,2024-01-06 18:22:00,Bob
+732,Carrot Cake,1,2024-01-06 21:07:00,Grace
+733,Carrot Cake,2,2024-01-06 12:34:00,Frank
+734,Banoffee Pie,3,2024-01-06 18:26:00,Diana
+735,Fresh Juice,1,2024-01-06 14:18:00,Frank
+736,New York Cheesecake,2,2024-01-06 19:29:00,Bob
+737,Carrot Cake,1,2024-01-06 17:51:00,Diana
+738,Carrot Cake,2,2024-01-06 12:30:00,Alice
+739,Carrot Cake,2,2024-01-06 12:09:00,Henry
+740,New York Cheesecake,2,2024-01-06 14:39:00,Alice
+741,Carrot Cake,2,2024-01-06 09:31:00,Henry
+742,Carrot Cake,2,2024-01-06 19:00:00,Henry
+743,Red Velvet Cake,1,2024-01-06 17:46:00,Charlie
+744,Banoffee Pie,1,2024-01-06 17:18:00,Grace
+745,New York Cheesecake,2,2024-01-06 12:27:00,Frank
+746,Carrot Cake,3,2024-01-06 19:10:00,Henry
+747,Panna Cotta,1,2024-01-06 14:54:00,Alice
+748,Tea,1,2024-01-06 13:09:00,Alice
+749,Carrot Cake,2,2024-01-06 20:42:00,Grace
+750,Carrot Cake,2,2024-01-06 13:42:00,Frank
+751,New York Cheesecake,2,2024-01-06 13:40:00,Alice
+752,Carrot Cake,1,2024-01-06 14:28:00,Frank
+753,Carrot Cake,1,2024-01-06 13:59:00,Alice
+754,Carrot Cake,1,2024-01-06 13:47:00,Frank
+755,New York Cheesecake,3,2024-01-06 16:15:00,Bob
+756,Panna Cotta,1,2024-01-06 14:14:00,Henry
+757,Carrot Cake,1,2024-01-06 18:30:00,Grace
+758,Red Velvet Cake,1,2024-01-06 18:02:00,Diana
+759,Carrot Cake,2,2024-01-06 22:04:00,Bob
+760,Carrot Cake,1,2024-01-06 18:04:00,Grace
+761,Carrot Cake,1,2024-01-06 09:09:00,Frank
+762,Tiramisu,1,2024-01-06 12:28:00,Alice
+763,Iced Coffee,3,2024-01-06 19:27:00,Charlie
+764,Carrot Cake,2,2024-01-06 12:03:00,Henry
+765,Panna Cotta,2,2024-01-06 11:03:00,Alice
+766,New York Cheesecake,3,2024-01-06 21:39:00,Grace
+767,Carrot Cake,1,2024-01-06 18:20:00,Bob
+768,Tea,1,2024-01-06 09:02:00,Frank
+769,Tiramisu,1,2024-01-06 15:49:00,Alice
+770,Carrot Cake,1,2024-01-06 18:08:00,Henry
+771,Carrot Cake,2,2024-01-06 12:36:00,Alice
+772,Carrot Cake,1,2024-01-06 17:45:00,Diana
+773,Banoffee Pie,3,2024-01-06 12:34:00,Henry
+774,Cappuccino,2,2024-01-06 19:44:00,Eve
+775,Carrot Cake,1,2024-01-06 09:14:00,Alice
+776,Carrot Cake,2,2024-01-06 13:10:00,Henry
+777,Carrot Cake,1,2024-01-06 12:51:00,Henry
+778,Panna Cotta,3,2024-01-06 13:04:00,Alice
+779,Carrot Cake,2,2024-01-06 18:17:00,Grace
+780,New York Cheesecake,2,2024-01-06 18:27:00,Charlie
+781,New York Cheesecake,1,2024-01-06 14:14:00,Alice
+782,Tea,1,2024-01-06 12:00:00,Alice
+783,Red Velvet Cake,2,2024-01-06 13:43:00,Alice
+784,Carrot Cake,2,2024-01-06 19:47:00,Charlie
+785,Red Velvet Cake,2,2024-01-06 13:16:00,Henry
+786,Panna Cotta,2,2024-01-06 21:30:00,Eve
+787,Panna Cotta,1,2024-01-06 10:16:00,Henry
+788,Panna Cotta,2,2024-01-06 17:11:00,Bob
+789,Carrot Cake,1,2024-01-06 11:00:00,Frank
+790,Tea,1,2024-01-06 12:58:00,Henry
+791,Carrot Cake,2,2024-01-06 20:18:00,Eve
+792,New York Cheesecake,2,2024-01-06 18:33:00,Grace
+793,New York Cheesecake,1,2024-01-06 13:57:00,Alice
+794,Carrot Cake,2,2024-01-06 13:06:00,Alice
+795,Panna Cotta,1,2024-01-06 17:08:00,Diana
+796,Carrot Cake,2,2024-01-06 13:37:00,Henry
+797,Banoffee Pie,2,2024-01-06 15:00:00,Henry
+798,Tea,1,2024-01-06 15:07:00,Alice
+799,New York Cheesecake,1,2024-01-06 13:52:00,Henry
+800,Carrot Cake,1,2024-01-06 11:12:00,Alice
+801,New York Cheesecake,2,2024-01-06 19:48:00,Henry
+802,New York Cheesecake,1,2024-01-06 13:29:00,Alice
+803,Club Sandwich,2,2024-01-06 11:47:00,Alice
+804,Carrot Cake,2,2024-01-06 18:08:00,Grace
+805,New York Cheesecake,1,2024-01-06 14:05:00,Henry
+806,Quiche,1,2024-01-06 20:28:00,Charlie
+807,New York Cheesecake,2,2024-01-06 13:11:00,Frank
+808,Carrot Cake,2,2024-01-06 13:54:00,Frank
+809,New York Cheesecake,2,2024-01-06 12:11:00,Alice
+810,Carrot Cake,1,2024-01-06 18:08:00,Eve
+811,Cookie,1,2024-01-06 10:31:00,Alice
+812,Carrot Cake,1,2024-01-06 15:17:00,Frank
+813,Red Velvet Cake,1,2024-01-06 18:10:00,Grace
+814,Red Velvet Cake,1,2024-01-06 17:51:00,Eve
+815,Carrot Cake,2,2024-01-06 18:19:00,Eve
+816,Carrot Cake,1,2024-01-06 19:31:00,Bob
+817,Bagel & Cream Cheese,2,2024-01-06 15:43:00,Frank
+818,Red Velvet Cake,3,2024-01-06 14:17:00,Henry
+819,Red Velvet Cake,2,2024-01-06 19:39:00,Eve
+820,Pavlova,1,2024-01-06 16:56:00,Henry
+821,Latte,1,2024-01-06 12:23:00,Henry
+822,Carrot Cake,2,2024-01-07 19:44:00,Henry
+823,Carrot Cake,2,2024-01-07 17:04:00,Henry
+824,Carrot Cake,2,2024-01-07 19:04:00,Bob
+825,Panna Cotta,2,2024-01-07 13:52:00,Henry
+826,Tiramisu,1,2024-01-07 12:30:00,Frank
+827,Carrot Cake,1,2024-01-07 12:30:00,Frank
+828,Carrot Cake,2,2024-01-07 19:37:00,Charlie
+829,New York Cheesecake,1,2024-01-07 14:51:00,Frank
+830,Carrot Cake,2,2024-01-07 19:09:00,Grace
+831,Panna Cotta,1,2024-01-07 17:55:00,Henry
+832,Red Velvet Cake,1,2024-01-07 17:59:00,Henry
+833,Carrot Cake,1,2024-01-07 17:19:00,Charlie
+834,Carrot Cake,2,2024-01-07 13:15:00,Alice
+835,Carrot Cake,2,2024-01-07 18:52:00,Charlie
+836,Quiche,3,2024-01-07 17:19:00,Eve
+837,Red Velvet Cake,1,2024-01-07 18:00:00,Charlie
+838,Carrot Cake,1,2024-01-07 18:56:00,Charlie
+839,Carrot Cake,2,2024-01-07 13:27:00,Henry
+840,Tea,1,2024-01-07 13:45:00,Frank
+841,Carrot Cake,2,2024-01-07 14:18:00,Henry
+842,Red Velvet Cake,3,2024-01-07 14:33:00,Henry
+843,New York Cheesecake,3,2024-01-07 17:49:00,Charlie
+844,Banoffee Pie,2,2024-01-07 17:26:00,Eve
+845,New York Cheesecake,2,2024-01-07 18:41:00,Grace
+846,Carrot Cake,1,2024-01-07 09:12:00,Henry
+847,Banoffee Pie,1,2024-01-07 18:51:00,Charlie
+848,Carrot Cake,1,2024-01-07 19:43:00,Henry
+849,Carrot Cake,2,2024-01-07 17:24:00,Henry
+850,Red Velvet Cake,3,2024-01-07 18:43:00,Eve
+851,Latte,3,2024-01-07 18:40:00,Bob
+852,Carrot Cake,2,2024-01-07 18:59:00,Henry
+853,Carrot Cake,1,2024-01-07 18:36:00,Eve
+854,Pavlova,1,2024-01-07 13:31:00,Henry
+855,New York Cheesecake,1,2024-01-07 12:30:00,Frank
+856,Carrot Cake,2,2024-01-07 09:50:00,Alice
+857,Carrot Cake,1,2024-01-07 18:28:00,Eve
+858,New York Cheesecake,2,2024-01-07 13:13:00,Frank
+859,New York Cheesecake,2,2024-01-07 12:53:00,Alice
+860,Carrot Cake,3,2024-01-07 22:19:00,Bob
+861,New York Cheesecake,1,2024-01-07 16:06:00,Charlie
+862,Fresh Juice,2,2024-01-07 18:20:00,Henry
+863,New York Cheesecake,2,2024-01-07 15:29:00,Frank
+864,Carrot Cake,3,2024-01-07 12:42:00,Alice
+865,Red Velvet Cake,1,2024-01-07 15:58:00,Frank
+866,Pavlova,1,2024-01-07 12:50:00,Alice
+867,Panna Cotta,2,2024-01-07 13:18:00,Alice
+868,Carrot Cake,2,2024-01-07 11:49:00,Alice
+869,Carrot Cake,1,2024-01-07 18:45:00,Diana
+870,Red Velvet Cake,3,2024-01-07 15:54:00,Henry
+871,Panna Cotta,1,2024-01-07 13:46:00,Alice
+872,Red Velvet Cake,3,2024-01-07 22:48:00,Eve
+873,Carrot Cake,2,2024-01-07 14:52:00,Henry
+874,Granola Bowl,1,2024-01-07 12:17:00,Frank
+875,Red Velvet Cake,1,2024-01-07 12:56:00,Frank
+876,Red Velvet Cake,1,2024-01-07 13:11:00,Frank
+877,Carrot Cake,1,2024-01-07 18:36:00,Diana
+878,Red Velvet Cake,2,2024-01-07 20:21:00,Eve
+879,Carrot Cake,3,2024-01-07 19:37:00,Diana
+880,Carrot Cake,1,2024-01-07 17:40:00,Henry
+881,Carrot Cake,2,2024-01-07 20:38:00,Eve
+882,Red Velvet Cake,2,2024-01-07 11:35:00,Frank
+883,Quiche,3,2024-01-07 16:49:00,Eve
+884,Banoffee Pie,1,2024-01-07 12:16:00,Frank
+885,Carrot Cake,1,2024-01-07 13:03:00,Alice
+886,Red Velvet Cake,1,2024-01-07 12:14:00,Henry
+887,Carrot Cake,2,2024-01-07 11:18:00,Frank
+888,Red Velvet Cake,3,2024-01-07 11:09:00,Alice
+889,Carrot Cake,1,2024-01-07 18:12:00,Diana
+890,Carrot Cake,1,2024-01-07 12:14:00,Henry
+891,Carrot Cake,2,2024-01-07 17:22:00,Grace
+892,Carrot Cake,1,2024-01-07 19:17:00,Diana
+893,Carrot Cake,2,2024-01-07 11:19:00,Alice
+894,Panna Cotta,1,2024-01-07 15:44:00,Alice
+895,Carrot Cake,1,2024-01-07 20:11:00,Eve
+896,New York Cheesecake,2,2024-01-07 17:36:00,Eve
+897,Tiramisu,1,2024-01-07 14:05:00,Alice
+898,Red Velvet Cake,2,2024-01-07 14:17:00,Henry
+899,Carrot Cake,1,2024-01-07 18:53:00,Eve
+900,New York Cheesecake,3,2024-01-07 17:03:00,Grace
+901,Banoffee Pie,3,2024-01-07 18:26:00,Henry
+902,Carrot Cake,3,2024-01-07 19:59:00,Diana
+903,New York Cheesecake,3,2024-01-07 14:43:00,Alice
+904,Carrot Cake,3,2024-01-07 14:38:00,Henry
+905,Banoffee Pie,2,2024-01-07 13:49:00,Frank
+906,Carrot Cake,1,2024-01-07 19:42:00,Diana
+907,New York Cheesecake,2,2024-01-07 21:34:00,Charlie
+908,Carrot Cake,2,2024-01-07 14:15:00,Frank
+909,New York Cheesecake,1,2024-01-07 15:12:00,Alice
+910,Red Velvet Cake,1,2024-01-07 19:05:00,Grace
+911,Banoffee Pie,2,2024-01-07 15:18:00,Henry
+912,Red Velvet Cake,2,2024-01-07 13:27:00,Frank
+913,Triple Chocolate Cake,1,2024-01-07 12:15:00,Alice
+914,Carrot Cake,2,2024-01-07 13:59:00,Henry
+915,Carrot Cake,3,2024-01-07 13:03:00,Alice
+916,Carrot Cake,2,2024-01-07 20:39:00,Diana
+917,Panna Cotta,1,2024-01-07 15:40:00,Frank
+918,Carrot Cake,3,2024-01-07 20:42:00,Eve
+919,Cappuccino,2,2024-01-07 12:05:00,Frank
+920,New York Cheesecake,1,2024-01-07 12:31:00,Henry
+921,Carrot Cake,2,2024-01-07 13:20:00,Alice
+922,Carrot Cake,2,2024-01-07 17:01:00,Eve
+923,Red Velvet Cake,1,2024-01-07 13:38:00,Alice
+924,Carrot Cake,2,2024-01-07 12:00:00,Alice
+925,Carrot Cake,2,2024-01-07 17:01:00,Eve
+926,Tiramisu,2,2024-01-07 12:56:00,Henry
+927,Red Velvet Cake,2,2024-01-07 13:33:00,Henry
+928,Carrot Cake,2,2024-01-07 19:25:00,Eve
+929,New York Cheesecake,1,2024-01-07 10:46:00,Frank
+930,Carrot Cake,2,2024-01-07 13:43:00,Henry
+931,New York Cheesecake,1,2024-01-07 17:56:00,Grace
+932,Cookie,2,2024-01-07 14:24:00,Henry
+933,Carrot Cake,1,2024-01-07 13:41:00,Frank
+934,New York Cheesecake,2,2024-01-07 17:40:00,Bob
+935,Red Velvet Cake,2,2024-01-07 18:57:00,Eve
+936,Carrot Cake,2,2024-01-07 13:14:00,Henry
+937,Pavlova,1,2024-01-07 12:22:00,Frank
+938,Quiche,2,2024-01-07 11:48:00,Alice
+939,Red Velvet Cake,2,2024-01-07 13:28:00,Alice
+940,New York Cheesecake,1,2024-01-07 13:56:00,Alice
+941,Carrot Cake,3,2024-01-07 12:37:00,Alice
+942,Tea,1,2024-01-07 14:06:00,Alice
+943,Red Velvet Cake,1,2024-01-07 14:00:00,Frank
+944,Cookie,3,2024-01-07 14:43:00,Alice
+945,Panna Cotta,1,2024-01-07 19:58:00,Grace
+946,New York Cheesecake,3,2024-01-07 17:55:00,Diana
+947,Carrot Cake,1,2024-01-07 17:30:00,Grace
+948,Carrot Cake,1,2024-01-07 12:18:00,Frank
+949,New York Cheesecake,2,2024-01-07 16:08:00,Bob
+950,Carrot Cake,2,2024-01-07 19:22:00,Eve
+951,Carrot Cake,1,2024-01-07 14:32:00,Henry
+952,New York Cheesecake,1,2024-01-07 13:51:00,Frank
+953,Carrot Cake,1,2024-01-07 14:31:00,Frank
+954,Carrot Cake,2,2024-01-07 19:13:00,Bob
+955,Red Velvet Cake,2,2024-01-07 19:12:00,Bob
+956,Quiche,2,2024-01-08 17:14:00,Eve
+957,New York Cheesecake,1,2024-01-08 13:26:00,Frank
+958,Carrot Cake,1,2024-01-08 11:21:00,Alice
+959,Red Velvet Cake,1,2024-01-08 17:49:00,Charlie
+960,Red Velvet Cake,2,2024-01-08 11:52:00,Henry
+961,New York Cheesecake,1,2024-01-08 20:37:00,Henry
+962,Tea,1,2024-01-08 17:12:00,Henry
+963,Carrot Cake,2,2024-01-08 13:20:00,Alice
+964,Panna Cotta,1,2024-01-08 13:55:00,Frank
+965,Carrot Cake,2,2024-01-08 12:11:00,Frank
+966,Carrot Cake,1,2024-01-08 12:59:00,Frank
+967,Carrot Cake,2,2024-01-08 12:54:00,Alice
+968,Pavlova,2,2024-01-08 17:22:00,Bob
+969,Panna Cotta,1,2024-01-08 12:00:00,Frank
+970,Smoothie,3,2024-01-08 14:03:00,Henry
+971,Red Velvet Cake,1,2024-01-08 14:43:00,Alice
+972,Pavlova,1,2024-01-08 09:40:00,Alice
+973,Carrot Cake,3,2024-01-08 12:38:00,Henry
+974,Carrot Cake,1,2024-01-08 12:18:00,Frank
+975,Carrot Cake,1,2024-01-08 12:24:00,Alice
+976,Tiramisu,2,2024-01-08 12:11:00,Henry
+977,Pavlova,1,2024-01-08 16:38:00,Charlie
+978,Carrot Cake,1,2024-01-08 18:53:00,Charlie
+979,Tea,2,2024-01-08 19:43:00,Grace
+980,Red Velvet Cake,2,2024-01-08 17:36:00,Diana
+981,New York Cheesecake,1,2024-01-08 13:46:00,Frank
+982,Carrot Cake,1,2024-01-08 13:39:00,Alice
+983,Banoffee Pie,1,2024-01-08 18:53:00,Diana
+984,Panna Cotta,1,2024-01-08 19:45:00,Diana
+985,New York Cheesecake,2,2024-01-08 13:20:00,Frank
+986,Pavlova,3,2024-01-08 17:10:00,Eve
+987,Tea,1,2024-01-08 19:11:00,Charlie
+988,New York Cheesecake,1,2024-01-08 18:29:00,Henry
+989,Carrot Cake,1,2024-01-08 17:12:00,Bob
+990,Carrot Cake,1,2024-01-08 18:48:00,Henry
+991,Carrot Cake,1,2024-01-08 17:36:00,Diana
+992,Carrot Cake,1,2024-01-08 14:26:00,Frank
+993,Panna Cotta,1,2024-01-08 14:10:00,Frank
+994,Fresh Juice,1,2024-01-08 13:28:00,Frank
+995,Carrot Cake,1,2024-01-08 17:09:00,Bob
+996,Carrot Cake,1,2024-01-08 18:34:00,Henry
+997,Carrot Cake,1,2024-01-08 13:12:00,Frank
+998,New York Cheesecake,2,2024-01-08 19:26:00,Charlie
+999,Panna Cotta,2,2024-01-08 13:18:00,Henry
+1000,New York Cheesecake,1,2024-01-08 18:35:00,Henry
+1001,New York Cheesecake,2,2024-01-08 19:53:00,Grace
+1002,Carrot Cake,1,2024-01-08 13:52:00,Frank
+1003,Carrot Cake,3,2024-01-08 15:42:00,Henry
+1004,Carrot Cake,2,2024-01-08 13:25:00,Henry
+1005,Red Velvet Cake,2,2024-01-08 15:33:00,Henry
+1006,New York Cheesecake,2,2024-01-08 17:03:00,Diana
+1007,Carrot Cake,1,2024-01-08 10:07:00,Frank
+1008,New York Cheesecake,1,2024-01-08 18:38:00,Diana
+1009,Panna Cotta,1,2024-01-08 13:30:00,Frank
+1010,Carrot Cake,1,2024-01-08 18:47:00,Diana
+1011,New York Cheesecake,2,2024-01-08 16:19:00,Diana
+1012,Tiramisu,2,2024-01-08 09:24:00,Henry
+1013,Red Velvet Cake,2,2024-01-08 12:39:00,Frank
+1014,Panna Cotta,1,2024-01-08 14:09:00,Frank
+1015,New York Cheesecake,2,2024-01-08 14:23:00,Frank
+1016,Red Velvet Cake,2,2024-01-08 18:18:00,Henry
+1017,Iced Coffee,2,2024-01-08 17:20:00,Eve
+1018,Carrot Cake,2,2024-01-08 19:11:00,Grace
+1019,Carrot Cake,1,2024-01-08 15:29:00,Henry
+1020,New York Cheesecake,1,2024-01-08 12:10:00,Alice
+1021,Carrot Cake,1,2024-01-08 18:59:00,Eve
+1022,Red Velvet Cake,1,2024-01-08 15:55:00,Alice
+1023,Carrot Cake,1,2024-01-08 12:40:00,Alice
+1024,Banoffee Pie,1,2024-01-08 17:01:00,Grace
+1025,Red Velvet Cake,1,2024-01-08 11:32:00,Frank
+1026,Carrot Cake,1,2024-01-08 13:03:00,Frank
+1027,Tiramisu,3,2024-01-08 12:04:00,Henry
+1028,Club Sandwich,1,2024-01-08 18:28:00,Charlie
+1029,Red Velvet Cake,2,2024-01-08 12:49:00,Alice
+1030,Panna Cotta,2,2024-01-08 12:57:00,Frank
+1031,Banoffee Pie,1,2024-01-08 10:28:00,Henry
+1032,Carrot Cake,1,2024-01-08 12:29:00,Frank
+1033,Carrot Cake,1,2024-01-08 17:38:00,Grace
+1034,Panna Cotta,3,2024-01-08 15:31:00,Henry
+1035,Carrot Cake,1,2024-01-08 10:58:00,Alice
+1036,New York Cheesecake,3,2024-01-08 12:09:00,Alice
+1037,New York Cheesecake,3,2024-01-08 11:50:00,Alice
+1038,Red Velvet Cake,1,2024-01-08 13:34:00,Henry
+1039,New York Cheesecake,1,2024-01-08 18:55:00,Grace
+1040,Banoffee Pie,3,2024-01-08 18:33:00,Grace
+1041,Carrot Cake,1,2024-01-08 15:07:00,Henry
+1042,Carrot Cake,1,2024-01-08 10:30:00,Frank
+1043,Carrot Cake,2,2024-01-08 18:58:00,Bob
+1044,Carrot Cake,3,2024-01-08 12:02:00,Henry
+1045,Carrot Cake,1,2024-01-08 12:34:00,Henry
+1046,Carrot Cake,3,2024-01-08 11:11:00,Alice
+1047,Carrot Cake,1,2024-01-08 14:12:00,Frank
+1048,New York Cheesecake,3,2024-01-08 18:49:00,Diana
+1049,Carrot Cake,2,2024-01-08 13:43:00,Alice
+1050,Carrot Cake,2,2024-01-08 13:46:00,Henry
+1051,Carrot Cake,1,2024-01-08 18:13:00,Charlie
+1052,Carrot Cake,3,2024-01-08 17:26:00,Henry
+1053,New York Cheesecake,2,2024-01-08 14:35:00,Henry
+1054,New York Cheesecake,1,2024-01-08 11:49:00,Alice
+1055,Fresh Juice,1,2024-01-08 18:22:00,Henry
+1056,New York Cheesecake,2,2024-01-08 19:19:00,Bob
+1057,Quiche,2,2024-01-08 11:15:00,Alice
+1058,Carrot Cake,2,2024-01-08 18:53:00,Bob
+1059,Tea,2,2024-01-08 12:32:00,Henry
+1060,Carrot Cake,1,2024-01-08 19:43:00,Eve
+1061,Red Velvet Cake,2,2024-01-09 17:04:00,Eve
+1062,New York Cheesecake,2,2024-01-09 20:03:00,Eve
+1063,New York Cheesecake,3,2024-01-09 12:18:00,Henry
+1064,New York Cheesecake,2,2024-01-09 18:32:00,Eve
+1065,Red Velvet Cake,1,2024-01-09 12:07:00,Henry
+1066,Carrot Cake,1,2024-01-09 15:25:00,Alice
+1067,Red Velvet Cake,1,2024-01-09 18:09:00,Grace
+1068,Red Velvet Cake,2,2024-01-09 15:11:00,Henry
+1069,Red Velvet Cake,1,2024-01-09 19:19:00,Eve
+1070,Red Velvet Cake,2,2024-01-09 18:54:00,Bob
+1071,Carrot Cake,2,2024-01-09 15:34:00,Alice
+1072,Carrot Cake,1,2024-01-09 12:39:00,Frank
+1073,Soup & Salad Combo,1,2024-01-09 18:45:00,Grace
+1074,Fresh Juice,1,2024-01-09 14:44:00,Henry
+1075,Carrot Cake,1,2024-01-09 19:35:00,Grace
+1076,Panna Cotta,2,2024-01-09 18:09:00,Charlie
+1077,Yogurt Parfait,2,2024-01-09 16:09:00,Henry
+1078,Carrot Cake,1,2024-01-09 13:00:00,Frank
+1079,Carrot Cake,1,2024-01-09 17:10:00,Charlie
+1080,Red Velvet Cake,3,2024-01-09 12:22:00,Alice
+1081,Carrot Cake,2,2024-01-09 19:01:00,Bob
+1082,Red Velvet Cake,1,2024-01-09 19:22:00,Diana
+1083,Red Velvet Cake,3,2024-01-09 10:14:00,Alice
+1084,Carrot Cake,2,2024-01-09 12:18:00,Henry
+1085,Carrot Cake,3,2024-01-09 17:27:00,Grace
+1086,New York Cheesecake,1,2024-01-09 17:01:00,Henry
+1087,Tiramisu,3,2024-01-09 12:39:00,Henry
+1088,Triple Chocolate Cake,2,2024-01-09 14:35:00,Frank
+1089,Carrot Cake,2,2024-01-09 12:24:00,Henry
+1090,Red Velvet Cake,1,2024-01-09 22:09:00,Henry
+1091,New York Cheesecake,2,2024-01-09 17:14:00,Bob
+1092,Carrot Cake,3,2024-01-09 16:02:00,Henry
+1093,Carrot Cake,1,2024-01-09 14:14:00,Henry
+1094,Carrot Cake,1,2024-01-09 19:38:00,Eve
+1095,New York Cheesecake,3,2024-01-09 13:16:00,Henry
+1096,Panna Cotta,1,2024-01-09 22:32:00,Grace
+1097,Carrot Cake,2,2024-01-09 15:06:00,Alice
+1098,Carrot Cake,2,2024-01-09 09:29:00,Henry
+1099,Carrot Cake,1,2024-01-09 12:27:00,Frank
+1100,Carrot Cake,2,2024-01-09 18:23:00,Bob
+1101,Carrot Cake,1,2024-01-09 19:19:00,Henry
+1102,Banoffee Pie,1,2024-01-09 14:07:00,Henry
+1103,Banoffee Pie,2,2024-01-09 11:17:00,Frank
+1104,New York Cheesecake,2,2024-01-09 18:24:00,Bob
+1105,Banoffee Pie,1,2024-01-09 12:33:00,Henry
+1106,New York Cheesecake,1,2024-01-09 17:33:00,Henry
+1107,Carrot Cake,1,2024-01-09 17:28:00,Diana
+1108,Smoothie,2,2024-01-09 10:51:00,Alice
+1109,Iced Coffee,1,2024-01-09 13:01:00,Frank
+1110,Tiramisu,2,2024-01-09 18:16:00,Diana
+1111,Panna Cotta,1,2024-01-09 09:17:00,Frank
+1112,Quiche,2,2024-01-09 18:40:00,Eve
+1113,Panna Cotta,3,2024-01-09 22:43:00,Henry
+1114,Banoffee Pie,1,2024-01-09 12:14:00,Frank
+1115,Red Velvet Cake,3,2024-01-09 16:39:00,Henry
+1116,Carrot Cake,1,2024-01-09 12:34:00,Henry
+1117,New York Cheesecake,1,2024-01-09 18:21:00,Henry
+1118,Carrot Cake,3,2024-01-09 18:04:00,Eve
+1119,New York Cheesecake,3,2024-01-09 17:47:00,Eve
+1120,Red Velvet Cake,2,2024-01-09 17:46:00,Charlie
+1121,Red Velvet Cake,3,2024-01-09 18:53:00,Bob
+1122,Carrot Cake,1,2024-01-09 14:12:00,Alice
+1123,Iced Coffee,2,2024-01-09 17:10:00,Diana
+1124,Carrot Cake,1,2024-01-09 18:55:00,Grace
+1125,Carrot Cake,1,2024-01-09 12:19:00,Alice
+1126,Red Velvet Cake,1,2024-01-09 18:58:00,Grace
+1127,Pavlova,1,2024-01-09 12:28:00,Frank
+1128,Carrot Cake,2,2024-01-09 12:32:00,Frank
+1129,Carrot Cake,1,2024-01-09 12:56:00,Frank
+1130,Panna Cotta,2,2024-01-09 12:37:00,Alice
+1131,New York Cheesecake,1,2024-01-09 13:15:00,Frank
+1132,Carrot Cake,1,2024-01-09 13:16:00,Alice
+1133,New York Cheesecake,1,2024-01-09 12:41:00,Alice
+1134,Fresh Juice,1,2024-01-09 13:00:00,Frank
+1135,Carrot Cake,3,2024-01-09 13:59:00,Henry
+1136,Carrot Cake,3,2024-01-09 12:27:00,Henry
+1137,Carrot Cake,1,2024-01-09 19:07:00,Bob
+1138,Pavlova,1,2024-01-09 18:06:00,Grace
+1139,Carrot Cake,1,2024-01-09 17:54:00,Bob
+1140,Carrot Cake,1,2024-01-09 19:24:00,Grace
+1141,New York Cheesecake,1,2024-01-09 10:16:00,Henry
+1142,Panna Cotta,2,2024-01-09 12:16:00,Frank
+1143,Banoffee Pie,2,2024-01-09 20:07:00,Henry
+1144,Red Velvet Cake,2,2024-01-09 22:02:00,Charlie
+1145,New York Cheesecake,1,2024-01-09 19:20:00,Grace
+1146,Carrot Cake,2,2024-01-09 18:43:00,Grace
+1147,New York Cheesecake,2,2024-01-09 14:51:00,Alice
+1148,Carrot Cake,1,2024-01-09 21:28:00,Henry
+1149,Panna Cotta,2,2024-01-09 12:26:00,Henry
+1150,Carrot Cake,1,2024-01-09 12:17:00,Alice
+1151,Carrot Cake,1,2024-01-09 17:20:00,Diana
+1152,New York Cheesecake,1,2024-01-09 13:54:00,Frank
+1153,Panna Cotta,2,2024-01-09 14:35:00,Alice
+1154,Carrot Cake,1,2024-01-09 11:32:00,Henry
+1155,Red Velvet Cake,3,2024-01-09 17:20:00,Grace
+1156,Red Velvet Cake,1,2024-01-09 13:24:00,Frank
+1157,Carrot Cake,2,2024-01-09 18:14:00,Charlie
+1158,Carrot Cake,1,2024-01-09 12:02:00,Alice
+1159,Pavlova,2,2024-01-09 11:13:00,Alice
+1160,Carrot Cake,2,2024-01-09 19:02:00,Henry
+1161,Fresh Juice,2,2024-01-09 13:06:00,Alice
+1162,Tiramisu,2,2024-01-09 14:28:00,Frank
+1163,Fresh Juice,2,2024-01-09 15:59:00,Henry
+1164,New York Cheesecake,2,2024-01-09 14:30:00,Henry
+1165,Carrot Cake,1,2024-01-09 12:16:00,Frank
+1166,Bagel & Cream Cheese,1,2024-01-09 09:42:00,Alice
+1167,Panna Cotta,1,2024-01-09 14:26:00,Frank
+1168,Fresh Juice,1,2024-01-09 13:04:00,Frank
+1169,Red Velvet Cake,2,2024-01-09 20:59:00,Henry
+1170,New York Cheesecake,1,2024-01-09 12:52:00,Alice
+1171,Red Velvet Cake,1,2024-01-09 13:41:00,Henry
+1172,Carrot Cake,1,2024-01-09 12:57:00,Frank
+1173,Tiramisu,2,2024-01-09 14:28:00,Alice
+1174,Carrot Cake,2,2024-01-09 18:12:00,Henry
+1175,New York Cheesecake,1,2024-01-09 14:43:00,Frank
+1176,Pavlova,1,2024-01-09 15:34:00,Frank
+1177,New York Cheesecake,2,2024-01-09 12:56:00,Henry
+1178,New York Cheesecake,2,2024-01-09 18:30:00,Diana
+1179,Carrot Cake,2,2024-01-09 14:16:00,Alice
+1180,Carrot Cake,1,2024-01-09 18:24:00,Grace
+1181,Carrot Cake,3,2024-01-09 18:54:00,Eve
+1182,Carrot Cake,1,2024-01-09 11:44:00,Frank
+1183,Panna Cotta,1,2024-01-09 19:00:00,Diana
+1184,Carrot Cake,2,2024-01-09 13:25:00,Alice
+1185,Red Velvet Cake,2,2024-01-09 12:18:00,Henry
+1186,Panna Cotta,3,2024-01-09 18:46:00,Charlie
+1187,Quiche,1,2024-01-09 14:07:00,Henry
+1188,Panna Cotta,2,2024-01-09 15:37:00,Alice
+1189,Red Velvet Cake,1,2024-01-09 17:53:00,Henry
+1190,Pavlova,1,2024-01-09 14:06:00,Henry
+1191,New York Cheesecake,2,2024-01-09 18:38:00,Charlie
+1192,Carrot Cake,1,2024-01-09 12:35:00,Frank
+1193,Carrot Cake,1,2024-01-09 12:40:00,Henry
+1194,Carrot Cake,2,2024-01-09 19:35:00,Bob
+1195,Red Velvet Cake,1,2024-01-09 13:50:00,Frank
+1196,New York Cheesecake,1,2024-01-09 14:59:00,Frank
+1197,Red Velvet Cake,2,2024-01-09 12:16:00,Henry
+1198,Carrot Cake,2,2024-01-09 15:30:00,Frank
+1199,Red Velvet Cake,1,2024-01-09 18:17:00,Henry
+1200,Carrot Cake,1,2024-01-09 18:34:00,Diana
+1201,Red Velvet Cake,3,2024-01-10 13:54:00,Henry
+1202,Fresh Juice,1,2024-01-10 18:07:00,Grace
+1203,Panna Cotta,3,2024-01-10 13:39:00,Alice
+1204,Red Velvet Cake,1,2024-01-10 14:11:00,Frank
+1205,Banoffee Pie,2,2024-01-10 18:21:00,Charlie
+1206,Carrot Cake,1,2024-01-10 18:16:00,Charlie
+1207,Carrot Cake,1,2024-01-10 13:52:00,Henry
+1208,Carrot Cake,3,2024-01-10 19:22:00,Bob
+1209,Carrot Cake,2,2024-01-10 16:33:00,Grace
+1210,Red Velvet Cake,2,2024-01-10 17:39:00,Grace
+1211,Red Velvet Cake,1,2024-01-10 12:52:00,Henry
+1212,Carrot Cake,2,2024-01-10 19:31:00,Charlie
+1213,New York Cheesecake,1,2024-01-10 12:42:00,Alice
+1214,Carrot Cake,1,2024-01-10 12:20:00,Alice
+1215,Carrot Cake,1,2024-01-10 10:37:00,Frank
+1216,Carrot Cake,2,2024-01-10 13:41:00,Henry
+1217,Carrot Cake,3,2024-01-10 14:30:00,Alice
+1218,Red Velvet Cake,1,2024-01-10 19:46:00,Charlie
+1219,Carrot Cake,1,2024-01-10 13:11:00,Alice
+1220,Bagel & Cream Cheese,3,2024-01-10 19:15:00,Bob
+1221,Carrot Cake,1,2024-01-10 18:29:00,Diana
+1222,Carrot Cake,1,2024-01-10 12:57:00,Frank
+1223,Banoffee Pie,1,2024-01-10 12:31:00,Frank
+1224,Carrot Cake,1,2024-01-10 10:39:00,Frank
+1225,Red Velvet Cake,2,2024-01-10 18:48:00,Diana
+1226,Carrot Cake,1,2024-01-10 12:58:00,Henry
+1227,Carrot Cake,1,2024-01-10 15:47:00,Frank
+1228,Red Velvet Cake,2,2024-01-10 19:22:00,Henry
+1229,Pavlova,1,2024-01-10 17:19:00,Eve
+1230,Bagel & Cream Cheese,3,2024-01-10 17:30:00,Bob
+1231,Carrot Cake,1,2024-01-10 10:46:00,Frank
+1232,Red Velvet Cake,2,2024-01-10 19:46:00,Charlie
+1233,Red Velvet Cake,1,2024-01-10 12:13:00,Alice
+1234,Red Velvet Cake,3,2024-01-10 12:09:00,Henry
+1235,Red Velvet Cake,2,2024-01-10 12:38:00,Henry
+1236,Carrot Cake,1,2024-01-10 17:46:00,Bob
+1237,Carrot Cake,1,2024-01-10 16:42:00,Eve
+1238,Red Velvet Cake,1,2024-01-10 12:43:00,Alice
+1239,Carrot Cake,1,2024-01-10 19:17:00,Eve
+1240,Red Velvet Cake,1,2024-01-10 13:14:00,Frank
+1241,Iced Coffee,1,2024-01-10 14:56:00,Frank
+1242,Carrot Cake,2,2024-01-10 15:28:00,Alice
+1243,Carrot Cake,1,2024-01-10 12:24:00,Frank
+1244,Carrot Cake,1,2024-01-10 19:04:00,Diana
+1245,Carrot Cake,2,2024-01-10 19:49:00,Charlie
+1246,Smoothie,1,2024-01-10 13:27:00,Frank
+1247,Carrot Cake,3,2024-01-10 18:54:00,Eve
+1248,Quiche,2,2024-01-10 17:49:00,Charlie
+1249,Carrot Cake,1,2024-01-10 19:13:00,Diana
+1250,Carrot Cake,2,2024-01-10 15:41:00,Henry
+1251,Carrot Cake,3,2024-01-10 18:20:00,Henry
+1252,Tiramisu,2,2024-01-10 17:48:00,Grace
+1253,Pavlova,2,2024-01-10 17:33:00,Charlie
+1254,Pavlova,1,2024-01-10 16:34:00,Bob
+1255,Red Velvet Cake,1,2024-01-10 19:30:00,Henry
+1256,Red Velvet Cake,1,2024-01-10 12:19:00,Frank
+1257,Red Velvet Cake,3,2024-01-10 11:14:00,Alice
+1258,Red Velvet Cake,3,2024-01-10 17:02:00,Eve
+1259,Red Velvet Cake,2,2024-01-10 13:19:00,Henry
+1260,New York Cheesecake,1,2024-01-10 19:46:00,Charlie
+1261,Tiramisu,1,2024-01-10 14:39:00,Alice
+1262,Pavlova,1,2024-01-10 13:31:00,Frank
+1263,Carrot Cake,2,2024-01-10 22:29:00,Henry
+1264,Carrot Cake,2,2024-01-10 17:18:00,Grace
+1265,New York Cheesecake,2,2024-01-10 12:52:00,Alice
+1266,Carrot Cake,1,2024-01-10 19:56:00,Bob
+1267,New York Cheesecake,2,2024-01-10 12:36:00,Alice
+1268,Granola Bowl,2,2024-01-10 17:33:00,Diana
+1269,Quiche,2,2024-01-10 11:07:00,Henry
+1270,Carrot Cake,2,2024-01-10 19:18:00,Eve
+1271,Red Velvet Cake,3,2024-01-10 12:09:00,Henry
+1272,Banoffee Pie,1,2024-01-10 14:16:00,Frank
+1273,Carrot Cake,2,2024-01-10 13:41:00,Alice
+1274,Tiramisu,3,2024-01-10 12:38:00,Alice
+1275,Pavlova,1,2024-01-10 11:44:00,Alice
+1276,Carrot Cake,2,2024-01-10 20:45:00,Henry
+1277,Red Velvet Cake,1,2024-01-10 13:36:00,Alice
+1278,Panna Cotta,1,2024-01-10 12:20:00,Frank
+1279,Carrot Cake,1,2024-01-10 15:47:00,Frank
+1280,Carrot Cake,3,2024-01-10 12:05:00,Alice
+1281,New York Cheesecake,1,2024-01-10 14:19:00,Frank
+1282,Pavlova,2,2024-01-10 12:23:00,Alice
+1283,Red Velvet Cake,1,2024-01-10 12:58:00,Alice
+1284,New York Cheesecake,1,2024-01-10 14:51:00,Frank
+1285,New York Cheesecake,1,2024-01-10 12:41:00,Henry
+1286,Banoffee Pie,3,2024-01-10 13:02:00,Henry
+1287,Pavlova,1,2024-01-10 17:21:00,Diana
+1288,Carrot Cake,3,2024-01-10 17:19:00,Eve
+1289,Triple Chocolate Cake,3,2024-01-10 13:15:00,Alice
+1290,Tea,3,2024-01-10 19:08:00,Diana
+1291,Carrot Cake,2,2024-01-10 19:51:00,Henry
+1292,Carrot Cake,2,2024-01-10 17:55:00,Grace
+1293,Iced Coffee,1,2024-01-10 20:19:00,Charlie
+1294,Carrot Cake,2,2024-01-10 12:46:00,Alice
+1295,Carrot Cake,1,2024-01-10 13:30:00,Frank
+1296,Banoffee Pie,2,2024-01-10 19:23:00,Grace
+1297,Panna Cotta,1,2024-01-10 22:38:00,Charlie
+1298,New York Cheesecake,1,2024-01-10 16:04:00,Eve
+1299,Smoothie,1,2024-01-10 09:21:00,Frank
+1300,Carrot Cake,1,2024-01-10 12:57:00,Alice
+1301,Carrot Cake,1,2024-01-10 13:17:00,Frank
+1302,Carrot Cake,1,2024-01-10 10:04:00,Henry
+1303,Carrot Cake,1,2024-01-10 11:47:00,Frank
+1304,Carrot Cake,3,2024-01-10 12:31:00,Alice
+1305,Banoffee Pie,1,2024-01-10 14:08:00,Frank
+1306,Carrot Cake,2,2024-01-10 12:26:00,Alice
+1307,Carrot Cake,1,2024-01-10 18:43:00,Eve
+1308,Red Velvet Cake,2,2024-01-10 13:41:00,Alice
+1309,Banoffee Pie,2,2024-01-11 11:17:00,Henry
+1310,Banoffee Pie,1,2024-01-11 12:43:00,Frank
+1311,Cappuccino,2,2024-01-11 17:54:00,Grace
+1312,Carrot Cake,1,2024-01-11 14:54:00,Frank
+1313,Red Velvet Cake,3,2024-01-11 11:21:00,Henry
+1314,Carrot Cake,3,2024-01-11 20:08:00,Charlie
+1315,Smoothie,1,2024-01-11 13:25:00,Frank
+1316,New York Cheesecake,1,2024-01-11 17:08:00,Bob
+1317,Carrot Cake,1,2024-01-11 18:39:00,Bob
+1318,Carrot Cake,1,2024-01-11 18:12:00,Henry
+1319,Carrot Cake,2,2024-01-11 18:47:00,Eve
+1320,Carrot Cake,3,2024-01-11 19:05:00,Charlie
+1321,Carrot Cake,1,2024-01-11 14:33:00,Alice
+1322,Tiramisu,1,2024-01-11 13:26:00,Frank
+1323,Carrot Cake,1,2024-01-11 12:41:00,Frank
+1324,Carrot Cake,1,2024-01-11 18:23:00,Eve
+1325,Carrot Cake,1,2024-01-11 18:21:00,Henry
+1326,New York Cheesecake,1,2024-01-11 12:16:00,Henry
+1327,Carrot Cake,1,2024-01-11 20:43:00,Diana
+1328,Bagel & Cream Cheese,3,2024-01-11 15:08:00,Henry
+1329,Carrot Cake,3,2024-01-11 17:47:00,Henry
+1330,Pavlova,2,2024-01-11 17:57:00,Bob
+1331,Panna Cotta,2,2024-01-11 14:21:00,Frank
+1332,Carrot Cake,1,2024-01-11 12:43:00,Alice
+1333,New York Cheesecake,3,2024-01-11 18:56:00,Bob
+1334,Carrot Cake,2,2024-01-11 13:49:00,Alice
+1335,Carrot Cake,2,2024-01-11 14:49:00,Alice
+1336,New York Cheesecake,1,2024-01-11 12:00:00,Henry
+1337,Tiramisu,2,2024-01-11 17:55:00,Diana
+1338,New York Cheesecake,1,2024-01-11 12:11:00,Alice
+1339,Carrot Cake,2,2024-01-11 18:06:00,Bob
+1340,Tiramisu,2,2024-01-11 11:47:00,Frank
+1341,Carrot Cake,1,2024-01-11 12:37:00,Henry
+1342,Smoothie,1,2024-01-11 14:40:00,Frank
+1343,Carrot Cake,2,2024-01-11 09:34:00,Frank
+1344,Carrot Cake,1,2024-01-11 19:21:00,Grace
+1345,New York Cheesecake,1,2024-01-11 18:52:00,Eve
+1346,Panna Cotta,2,2024-01-11 13:18:00,Frank
+1347,Panna Cotta,1,2024-01-11 13:51:00,Alice
+1348,Carrot Cake,2,2024-01-11 15:01:00,Frank
+1349,Carrot Cake,2,2024-01-11 13:06:00,Alice
+1350,New York Cheesecake,1,2024-01-11 17:10:00,Diana
+1351,Iced Coffee,1,2024-01-11 13:06:00,Frank
+1352,Carrot Cake,1,2024-01-11 12:06:00,Frank
+1353,New York Cheesecake,1,2024-01-11 13:08:00,Alice
+1354,Red Velvet Cake,3,2024-01-11 19:25:00,Henry
+1355,Carrot Cake,2,2024-01-11 18:18:00,Grace
+1356,Banoffee Pie,1,2024-01-11 13:20:00,Frank
+1357,Yogurt Parfait,3,2024-01-11 17:50:00,Diana
+1358,Carrot Cake,2,2024-01-11 16:22:00,Bob
+1359,Carrot Cake,2,2024-01-11 13:35:00,Alice
+1360,Tiramisu,1,2024-01-11 14:58:00,Henry
+1361,Red Velvet Cake,1,2024-01-11 12:17:00,Alice
+1362,Carrot Cake,2,2024-01-11 13:39:00,Frank
+1363,Carrot Cake,2,2024-01-11 13:40:00,Frank
+1364,Carrot Cake,1,2024-01-11 12:06:00,Frank
+1365,Soup & Salad Combo,2,2024-01-11 19:39:00,Bob
+1366,Carrot Cake,3,2024-01-11 19:08:00,Henry
+1367,Banoffee Pie,2,2024-01-11 18:19:00,Charlie
+1368,New York Cheesecake,1,2024-01-11 13:51:00,Frank
+1369,Red Velvet Cake,2,2024-01-11 20:19:00,Charlie
+1370,Carrot Cake,2,2024-01-11 17:34:00,Diana
+1371,Carrot Cake,3,2024-01-11 09:25:00,Henry
+1372,New York Cheesecake,2,2024-01-11 14:34:00,Alice
+1373,Red Velvet Cake,2,2024-01-11 11:34:00,Alice
+1374,Carrot Cake,1,2024-01-11 17:53:00,Bob
+1375,New York Cheesecake,1,2024-01-11 18:03:00,Eve
+1376,Red Velvet Cake,1,2024-01-11 17:02:00,Diana
+1377,Tiramisu,2,2024-01-11 19:37:00,Henry
+1378,Carrot Cake,1,2024-01-11 13:36:00,Frank
+1379,Banoffee Pie,1,2024-01-11 17:38:00,Diana
+1380,Carrot Cake,2,2024-01-11 13:44:00,Alice
+1381,New York Cheesecake,1,2024-01-11 11:25:00,Henry
+1382,Carrot Cake,1,2024-01-11 18:06:00,Diana
+1383,Carrot Cake,2,2024-01-11 18:02:00,Eve
+1384,Panna Cotta,2,2024-01-11 12:47:00,Henry
+1385,Pavlova,2,2024-01-11 12:34:00,Henry
+1386,Red Velvet Cake,2,2024-01-11 13:53:00,Frank
+1387,Banoffee Pie,1,2024-01-11 18:17:00,Bob
+1388,Carrot Cake,1,2024-01-11 09:07:00,Alice
+1389,Red Velvet Cake,2,2024-01-11 18:31:00,Henry
+1390,Red Velvet Cake,1,2024-01-11 19:15:00,Henry
+1391,Red Velvet Cake,1,2024-01-11 16:36:00,Charlie
+1392,Carrot Cake,3,2024-01-11 17:30:00,Charlie
+1393,Carrot Cake,2,2024-01-11 13:45:00,Henry
+1394,Carrot Cake,2,2024-01-11 09:10:00,Henry
+1395,Carrot Cake,2,2024-01-11 19:04:00,Charlie
+1396,Red Velvet Cake,1,2024-01-11 19:32:00,Bob
+1397,Tiramisu,2,2024-01-11 19:44:00,Grace
+1398,Banoffee Pie,2,2024-01-11 11:51:00,Henry
+1399,Carrot Cake,1,2024-01-11 14:03:00,Henry
+1400,New York Cheesecake,3,2024-01-11 17:54:00,Eve
+1401,Red Velvet Cake,3,2024-01-11 18:46:00,Eve
+1402,Panna Cotta,2,2024-01-11 22:06:00,Bob
+1403,Red Velvet Cake,3,2024-01-11 11:05:00,Alice
+1404,Red Velvet Cake,3,2024-01-11 19:04:00,Grace
+1405,Red Velvet Cake,2,2024-01-11 13:39:00,Alice
+1406,Tea,2,2024-01-11 19:16:00,Grace
+1407,Carrot Cake,2,2024-01-11 17:09:00,Bob
+1408,Red Velvet Cake,2,2024-01-11 17:54:00,Henry
+1409,Tea,3,2024-01-11 11:47:00,Alice
+1410,Carrot Cake,2,2024-01-11 20:10:00,Charlie
+1411,Carrot Cake,1,2024-01-11 18:02:00,Charlie
+1412,Tiramisu,1,2024-01-11 15:05:00,Frank
+1413,Cappuccino,1,2024-01-11 19:14:00,Diana
+1414,Carrot Cake,1,2024-01-11 14:44:00,Henry
+1415,Red Velvet Cake,1,2024-01-11 18:21:00,Grace
+1416,Cookie,2,2024-01-11 16:48:00,Charlie
+1417,Panna Cotta,3,2024-01-11 16:13:00,Diana
+1418,Carrot Cake,1,2024-01-11 22:43:00,Charlie
+1419,Carrot Cake,2,2024-01-11 18:27:00,Grace
+1420,New York Cheesecake,1,2024-01-11 14:52:00,Henry
+1421,Carrot Cake,2,2024-01-11 12:49:00,Henry
+1422,Carrot Cake,2,2024-01-11 19:46:00,Eve
+1423,Carrot Cake,2,2024-01-11 17:39:00,Grace
+1424,Carrot Cake,1,2024-01-11 18:45:00,Henry
+1425,Panna Cotta,2,2024-01-11 18:42:00,Grace
+1426,Carrot Cake,1,2024-01-11 18:30:00,Diana
+1427,Carrot Cake,1,2024-01-11 12:31:00,Frank
+1428,Carrot Cake,1,2024-01-11 19:21:00,Diana
+1429,Panna Cotta,1,2024-01-11 12:43:00,Frank
+1430,Red Velvet Cake,1,2024-01-11 18:41:00,Diana
+1431,Panna Cotta,3,2024-01-11 17:40:00,Eve
+1432,Red Velvet Cake,1,2024-01-11 15:32:00,Henry
+1433,Carrot Cake,1,2024-01-11 13:28:00,Frank
+1434,Red Velvet Cake,1,2024-01-11 19:16:00,Grace
+1435,Carrot Cake,1,2024-01-11 18:56:00,Grace
+1436,Carrot Cake,1,2024-01-11 13:59:00,Frank
+1437,Panna Cotta,1,2024-01-11 15:02:00,Frank
+1438,New York Cheesecake,2,2024-01-11 10:33:00,Alice
+1439,New York Cheesecake,1,2024-01-11 13:38:00,Frank
+1440,Red Velvet Cake,1,2024-01-11 12:49:00,Frank
+1441,New York Cheesecake,2,2024-01-11 12:38:00,Alice
+1442,Red Velvet Cake,1,2024-01-11 12:09:00,Alice
+1443,Tea,2,2024-01-12 12:29:00,Henry
+1444,Carrot Cake,3,2024-01-12 10:23:00,Alice
+1445,Carrot Cake,2,2024-01-12 11:07:00,Henry
+1446,Carrot Cake,1,2024-01-12 19:31:00,Bob
+1447,Tiramisu,3,2024-01-12 19:26:00,Eve
+1448,Carrot Cake,2,2024-01-12 10:42:00,Alice
+1449,Carrot Cake,1,2024-01-12 19:33:00,Eve
+1450,Carrot Cake,2,2024-01-12 12:43:00,Henry
+1451,Carrot Cake,2,2024-01-12 13:37:00,Alice
+1452,Red Velvet Cake,2,2024-01-12 18:47:00,Henry
+1453,Red Velvet Cake,2,2024-01-12 09:08:00,Henry
+1454,Carrot Cake,3,2024-01-12 12:30:00,Henry
+1455,Panna Cotta,1,2024-01-12 10:06:00,Henry
+1456,Carrot Cake,1,2024-01-12 13:05:00,Alice
+1457,Carrot Cake,1,2024-01-12 13:38:00,Frank
+1458,Carrot Cake,1,2024-01-12 17:47:00,Bob
+1459,New York Cheesecake,1,2024-01-12 13:10:00,Alice
+1460,Pavlova,1,2024-01-12 17:54:00,Diana
+1461,Carrot Cake,1,2024-01-12 10:31:00,Frank
+1462,Red Velvet Cake,1,2024-01-12 11:25:00,Henry
+1463,Red Velvet Cake,1,2024-01-12 12:59:00,Frank
+1464,Red Velvet Cake,2,2024-01-12 12:04:00,Henry
+1465,Tiramisu,2,2024-01-12 18:17:00,Diana
+1466,Red Velvet Cake,2,2024-01-12 22:10:00,Henry
+1467,New York Cheesecake,2,2024-01-12 13:50:00,Alice
+1468,Carrot Cake,2,2024-01-12 16:15:00,Grace
+1469,Carrot Cake,3,2024-01-12 13:34:00,Alice
+1470,New York Cheesecake,3,2024-01-12 15:38:00,Alice
+1471,Carrot Cake,2,2024-01-12 19:58:00,Eve
+1472,Carrot Cake,2,2024-01-12 18:03:00,Henry
+1473,Carrot Cake,1,2024-01-12 12:35:00,Frank
+1474,Carrot Cake,1,2024-01-12 15:37:00,Frank
+1475,New York Cheesecake,1,2024-01-12 19:23:00,Grace
+1476,Tiramisu,1,2024-01-12 17:32:00,Bob
+1477,Tea,3,2024-01-12 19:30:00,Grace
+1478,Red Velvet Cake,2,2024-01-12 19:43:00,Bob
+1479,Carrot Cake,3,2024-01-12 19:47:00,Bob
+1480,Pavlova,1,2024-01-12 12:25:00,Frank
+1481,Red Velvet Cake,3,2024-01-12 10:54:00,Henry
+1482,Pavlova,2,2024-01-12 13:44:00,Alice
+1483,Smoothie,2,2024-01-12 09:45:00,Henry
+1484,Panna Cotta,1,2024-01-12 13:49:00,Frank
+1485,New York Cheesecake,2,2024-01-12 15:42:00,Frank
+1486,Cookie,1,2024-01-12 12:15:00,Alice
+1487,Red Velvet Cake,2,2024-01-12 17:14:00,Grace
+1488,Carrot Cake,1,2024-01-12 14:16:00,Alice
+1489,Red Velvet Cake,1,2024-01-12 19:18:00,Diana
+1490,Tiramisu,1,2024-01-12 12:20:00,Henry
+1491,New York Cheesecake,2,2024-01-12 12:06:00,Henry
+1492,Carrot Cake,1,2024-01-12 13:53:00,Alice
+1493,Panna Cotta,1,2024-01-12 10:07:00,Frank
+1494,Red Velvet Cake,1,2024-01-12 18:31:00,Diana
+1495,Carrot Cake,2,2024-01-12 18:41:00,Bob
+1496,Carrot Cake,1,2024-01-12 17:10:00,Henry
+1497,Carrot Cake,2,2024-01-12 16:01:00,Eve
+1498,Carrot Cake,2,2024-01-12 12:32:00,Henry
+1499,Carrot Cake,1,2024-01-12 20:14:00,Henry
+1500,Carrot Cake,1,2024-01-12 17:36:00,Bob
+1501,Banoffee Pie,1,2024-01-12 20:33:00,Diana
+1502,Yogurt Parfait,1,2024-01-12 12:31:00,Henry
+1503,Carrot Cake,1,2024-01-12 13:07:00,Henry
+1504,Granola Bowl,2,2024-01-12 13:30:00,Alice
+1505,Carrot Cake,2,2024-01-12 12:06:00,Alice
+1506,Panna Cotta,3,2024-01-12 13:16:00,Alice
+1507,Pavlova,1,2024-01-12 12:52:00,Alice
+1508,Carrot Cake,2,2024-01-12 12:46:00,Alice
+1509,Triple Chocolate Cake,3,2024-01-12 17:23:00,Grace
+1510,New York Cheesecake,1,2024-01-12 18:45:00,Grace
+1511,Panna Cotta,1,2024-01-12 13:50:00,Frank
+1512,Cappuccino,2,2024-01-12 10:16:00,Alice
+1513,Carrot Cake,3,2024-01-12 17:55:00,Diana
+1514,New York Cheesecake,1,2024-01-12 17:38:00,Eve
+1515,Carrot Cake,1,2024-01-12 18:39:00,Henry
+1516,Smoothie,1,2024-01-12 14:47:00,Frank
+1517,Pavlova,1,2024-01-12 13:58:00,Frank
+1518,New York Cheesecake,1,2024-01-12 16:23:00,Grace
+1519,Panna Cotta,2,2024-01-12 18:01:00,Grace
+1520,Carrot Cake,1,2024-01-12 17:02:00,Henry
+1521,Carrot Cake,2,2024-01-12 15:46:00,Alice
+1522,Smoothie,1,2024-01-12 12:58:00,Frank
+1523,Carrot Cake,1,2024-01-12 15:18:00,Frank
+1524,Red Velvet Cake,1,2024-01-12 18:23:00,Diana
+1525,Banoffee Pie,1,2024-01-12 19:31:00,Bob
+1526,Carrot Cake,2,2024-01-12 17:54:00,Charlie
+1527,Pavlova,2,2024-01-12 18:22:00,Charlie
+1528,Carrot Cake,1,2024-01-12 12:16:00,Frank
+1529,Red Velvet Cake,1,2024-01-12 12:51:00,Frank
+1530,New York Cheesecake,3,2024-01-12 14:27:00,Henry
+1531,Panna Cotta,1,2024-01-12 12:26:00,Frank
+1532,Carrot Cake,2,2024-01-12 17:05:00,Henry
+1533,Carrot Cake,1,2024-01-12 12:25:00,Alice
+1534,Tea,2,2024-01-12 11:15:00,Henry
+1535,Red Velvet Cake,2,2024-01-12 13:10:00,Henry
+1536,Fresh Juice,2,2024-01-12 13:17:00,Henry
+1537,Red Velvet Cake,2,2024-01-12 12:56:00,Frank
+1538,New York Cheesecake,2,2024-01-12 12:39:00,Alice
+1539,Carrot Cake,1,2024-01-12 19:11:00,Bob
+1540,Red Velvet Cake,1,2024-01-12 10:48:00,Frank
+1541,New York Cheesecake,1,2024-01-12 10:04:00,Alice
+1542,Tiramisu,2,2024-01-12 17:11:00,Grace
+1543,Panna Cotta,2,2024-01-12 13:45:00,Frank
+1544,Latte,1,2024-01-12 17:46:00,Eve
+1545,Cappuccino,3,2024-01-12 19:30:00,Grace
+1546,Carrot Cake,2,2024-01-12 22:38:00,Bob
+1547,Tea,1,2024-01-12 17:45:00,Charlie
+1548,Carrot Cake,1,2024-01-12 15:50:00,Frank
+1549,Carrot Cake,1,2024-01-12 11:04:00,Henry
+1550,Carrot Cake,3,2024-01-12 18:51:00,Bob
+1551,New York Cheesecake,2,2024-01-12 12:08:00,Henry
+1552,Carrot Cake,1,2024-01-12 18:52:00,Diana
+1553,Carrot Cake,2,2024-01-12 13:44:00,Henry
+1554,Carrot Cake,2,2024-01-12 12:50:00,Henry
+1555,Tea,1,2024-01-12 13:27:00,Frank
+1556,Carrot Cake,2,2024-01-12 14:50:00,Henry
+1557,New York Cheesecake,3,2024-01-12 13:27:00,Alice
+1558,Pavlova,1,2024-01-12 19:05:00,Henry
+1559,New York Cheesecake,2,2024-01-12 17:58:00,Henry
+1560,Fresh Juice,2,2024-01-12 18:54:00,Grace
+1561,New York Cheesecake,1,2024-01-12 14:46:00,Alice
+1562,New York Cheesecake,1,2024-01-12 20:06:00,Eve
+1563,Carrot Cake,3,2024-01-12 17:55:00,Eve
+1564,Red Velvet Cake,1,2024-01-12 13:37:00,Frank
+1565,Tiramisu,3,2024-01-12 18:27:00,Henry
+1566,Red Velvet Cake,1,2024-01-12 18:50:00,Charlie
+1567,New York Cheesecake,2,2024-01-12 19:15:00,Charlie
+1568,Banoffee Pie,1,2024-01-12 19:21:00,Eve
+1569,Carrot Cake,3,2024-01-12 19:31:00,Charlie
+1570,Carrot Cake,1,2024-01-12 12:25:00,Alice
+1571,Banoffee Pie,1,2024-01-12 12:22:00,Frank
+1572,Carrot Cake,1,2024-01-12 12:01:00,Frank
+1573,New York Cheesecake,1,2024-01-12 12:06:00,Alice
+1574,Red Velvet Cake,2,2024-01-12 18:38:00,Henry
+1575,Banoffee Pie,2,2024-01-12 12:25:00,Alice
+1576,Carrot Cake,2,2024-01-12 20:31:00,Eve
+1577,New York Cheesecake,1,2024-01-12 12:07:00,Henry
+1578,Carrot Cake,1,2024-01-12 16:41:00,Grace
+1579,Carrot Cake,2,2024-01-12 10:17:00,Alice
+1580,Pavlova,1,2024-01-12 12:55:00,Frank
+1581,Carrot Cake,2,2024-01-12 19:31:00,Eve
+1582,Carrot Cake,2,2024-01-12 13:52:00,Henry
+1583,Carrot Cake,1,2024-01-12 19:37:00,Henry
+1584,New York Cheesecake,2,2024-01-12 12:14:00,Henry
+1585,Red Velvet Cake,2,2024-01-12 18:06:00,Charlie
+1586,Banoffee Pie,2,2024-01-12 13:15:00,Henry
+1587,New York Cheesecake,1,2024-01-12 18:48:00,Eve
+1588,Panna Cotta,2,2024-01-12 18:19:00,Grace
+1589,New York Cheesecake,3,2024-01-12 19:21:00,Charlie
+1590,Carrot Cake,3,2024-01-12 19:47:00,Diana
+1591,Tiramisu,2,2024-01-12 17:34:00,Bob
+1592,Carrot Cake,2,2024-01-12 14:29:00,Alice
+1593,New York Cheesecake,3,2024-01-12 14:59:00,Henry
+1594,New York Cheesecake,1,2024-01-12 19:54:00,Charlie
+1595,New York Cheesecake,3,2024-01-12 22:21:00,Charlie
+1596,Club Sandwich,2,2024-01-12 12:19:00,Henry
+1597,Carrot Cake,2,2024-01-12 14:11:00,Frank
+1598,Red Velvet Cake,1,2024-01-12 13:15:00,Frank
+1599,Tiramisu,2,2024-01-12 10:53:00,Henry
+1600,Carrot Cake,1,2024-01-12 17:45:00,Grace
+1601,New York Cheesecake,2,2024-01-12 18:12:00,Bob
+1602,Red Velvet Cake,3,2024-01-12 17:45:00,Charlie
+1603,Red Velvet Cake,1,2024-01-12 14:21:00,Alice
+1604,Quiche,2,2024-01-12 22:11:00,Charlie
+1605,Smoothie,2,2024-01-12 11:17:00,Alice
+1606,Carrot Cake,1,2024-01-12 11:30:00,Frank
+1607,Banoffee Pie,3,2024-01-12 17:02:00,Eve
+1608,New York Cheesecake,1,2024-01-12 12:09:00,Henry
+1609,Carrot Cake,2,2024-01-12 19:57:00,Bob
+1610,Red Velvet Cake,3,2024-01-12 13:17:00,Henry
+1611,Carrot Cake,3,2024-01-12 11:48:00,Alice
+1612,Red Velvet Cake,2,2024-01-12 12:35:00,Henry
+1613,Tea,2,2024-01-12 13:06:00,Alice
+1614,New York Cheesecake,2,2024-01-12 18:43:00,Eve
+1615,New York Cheesecake,2,2024-01-12 19:17:00,Grace
+1616,Carrot Cake,1,2024-01-12 17:21:00,Diana
+1617,Tea,3,2024-01-12 18:24:00,Henry
+1618,Carrot Cake,1,2024-01-12 17:36:00,Grace
+1619,Tea,3,2024-01-12 13:33:00,Alice
+1620,New York Cheesecake,2,2024-01-12 15:40:00,Alice
+1621,Carrot Cake,1,2024-01-12 18:59:00,Henry
+1622,Carrot Cake,1,2024-01-12 13:24:00,Alice
+1623,Carrot Cake,2,2024-01-12 12:59:00,Alice
+1624,Red Velvet Cake,1,2024-01-12 12:36:00,Henry
+1625,Panna Cotta,2,2024-01-12 09:29:00,Henry
+1626,Carrot Cake,2,2024-01-12 12:10:00,Henry
+1627,Panna Cotta,3,2024-01-12 19:56:00,Charlie
+1628,Pavlova,1,2024-01-12 13:14:00,Alice
+1629,Carrot Cake,1,2024-01-12 19:59:00,Eve
+1630,Tiramisu,3,2024-01-12 18:39:00,Grace
+1631,Panna Cotta,1,2024-01-12 17:13:00,Grace
+1632,Quiche,2,2024-01-13 18:42:00,Bob
+1633,Carrot Cake,1,2024-01-13 12:23:00,Henry
+1634,Fresh Juice,1,2024-01-13 11:20:00,Alice
+1635,New York Cheesecake,2,2024-01-13 17:01:00,Eve
+1636,Carrot Cake,3,2024-01-13 15:59:00,Henry
+1637,Carrot Cake,3,2024-01-13 18:22:00,Charlie
+1638,Panna Cotta,2,2024-01-13 12:25:00,Henry
+1639,Carrot Cake,3,2024-01-13 18:50:00,Henry
+1640,New York Cheesecake,2,2024-01-13 13:28:00,Alice
+1641,Pavlova,3,2024-01-13 18:19:00,Bob
+1642,New York Cheesecake,3,2024-01-13 10:08:00,Alice
+1643,Red Velvet Cake,1,2024-01-13 17:27:00,Bob
+1644,Carrot Cake,1,2024-01-13 20:49:00,Grace
+1645,Red Velvet Cake,3,2024-01-13 14:53:00,Henry
+1646,Carrot Cake,1,2024-01-13 14:03:00,Alice
+1647,Red Velvet Cake,2,2024-01-13 18:16:00,Eve
+1648,New York Cheesecake,1,2024-01-13 21:33:00,Bob
+1649,Carrot Cake,1,2024-01-13 12:07:00,Frank
+1650,Red Velvet Cake,1,2024-01-13 12:31:00,Frank
+1651,New York Cheesecake,2,2024-01-13 17:51:00,Diana
+1652,Carrot Cake,1,2024-01-13 17:50:00,Diana
+1653,Carrot Cake,1,2024-01-13 14:26:00,Alice
+1654,Banoffee Pie,2,2024-01-13 10:07:00,Alice
+1655,Carrot Cake,2,2024-01-13 18:16:00,Eve
+1656,Club Sandwich,1,2024-01-13 11:32:00,Frank
+1657,Carrot Cake,1,2024-01-13 18:58:00,Diana
+1658,Panna Cotta,1,2024-01-13 11:19:00,Henry
+1659,Pavlova,2,2024-01-13 17:00:00,Bob
+1660,Carrot Cake,2,2024-01-13 09:31:00,Frank
+1661,Carrot Cake,3,2024-01-13 14:16:00,Henry
+1662,Tiramisu,2,2024-01-13 14:04:00,Henry
+1663,Red Velvet Cake,2,2024-01-13 19:14:00,Henry
+1664,Carrot Cake,1,2024-01-13 19:40:00,Diana
+1665,New York Cheesecake,3,2024-01-13 13:28:00,Alice
+1666,Carrot Cake,1,2024-01-13 15:34:00,Frank
+1667,Carrot Cake,1,2024-01-13 13:23:00,Frank
+1668,New York Cheesecake,2,2024-01-13 17:43:00,Charlie
+1669,Banoffee Pie,2,2024-01-13 14:03:00,Frank
+1670,New York Cheesecake,2,2024-01-13 13:43:00,Henry
+1671,Banoffee Pie,1,2024-01-13 17:19:00,Charlie
+1672,Carrot Cake,2,2024-01-13 17:33:00,Henry
+1673,Red Velvet Cake,2,2024-01-13 15:09:00,Henry
+1674,Carrot Cake,2,2024-01-13 16:22:00,Bob
+1675,Carrot Cake,1,2024-01-13 12:57:00,Frank
+1676,Carrot Cake,1,2024-01-13 15:17:00,Frank
+1677,New York Cheesecake,3,2024-01-13 12:11:00,Alice
+1678,Carrot Cake,1,2024-01-13 15:58:00,Frank
+1679,Carrot Cake,1,2024-01-13 09:02:00,Frank
+1680,Panna Cotta,2,2024-01-13 15:51:00,Frank
+1681,Tiramisu,2,2024-01-13 14:37:00,Henry
+1682,New York Cheesecake,3,2024-01-13 21:09:00,Henry
+1683,Carrot Cake,1,2024-01-13 18:53:00,Bob
+1684,Red Velvet Cake,3,2024-01-13 12:20:00,Alice
+1685,New York Cheesecake,2,2024-01-13 22:25:00,Henry
+1686,Red Velvet Cake,1,2024-01-13 12:22:00,Alice
+1687,Red Velvet Cake,3,2024-01-13 12:20:00,Alice
+1688,New York Cheesecake,1,2024-01-13 11:06:00,Alice
+1689,New York Cheesecake,2,2024-01-13 15:19:00,Henry
+1690,Pavlova,1,2024-01-13 18:02:00,Diana
+1691,Quiche,1,2024-01-13 12:34:00,Frank
+1692,Tiramisu,2,2024-01-13 18:30:00,Henry
+1693,Tea,3,2024-01-13 14:06:00,Alice
+1694,Carrot Cake,2,2024-01-13 14:48:00,Henry
+1695,Tiramisu,1,2024-01-13 17:15:00,Diana
+1696,Cappuccino,1,2024-01-13 12:19:00,Alice
+1697,Carrot Cake,2,2024-01-13 17:07:00,Eve
+1698,New York Cheesecake,3,2024-01-13 18:56:00,Henry
+1699,Iced Coffee,1,2024-01-13 18:19:00,Grace
+1700,New York Cheesecake,2,2024-01-13 18:48:00,Charlie
+1701,Carrot Cake,2,2024-01-13 18:36:00,Grace
+1702,Banoffee Pie,2,2024-01-13 13:53:00,Henry
+1703,Carrot Cake,1,2024-01-13 14:35:00,Frank
+1704,Red Velvet Cake,2,2024-01-13 13:30:00,Frank
+1705,Carrot Cake,1,2024-01-13 12:54:00,Frank
+1706,Red Velvet Cake,2,2024-01-13 17:43:00,Bob
+1707,New York Cheesecake,2,2024-01-13 11:42:00,Henry
+1708,Carrot Cake,2,2024-01-13 16:16:00,Charlie
+1709,New York Cheesecake,3,2024-01-13 18:35:00,Henry
+1710,Carrot Cake,2,2024-01-13 17:42:00,Grace
+1711,Red Velvet Cake,2,2024-01-13 18:58:00,Bob
+1712,Carrot Cake,1,2024-01-13 13:28:00,Alice
+1713,Panna Cotta,2,2024-01-13 17:54:00,Diana
+1714,Carrot Cake,2,2024-01-13 16:23:00,Henry
+1715,Panna Cotta,3,2024-01-13 18:10:00,Henry
+1716,Carrot Cake,1,2024-01-13 17:21:00,Grace
+1717,Latte,3,2024-01-13 18:01:00,Bob
+1718,Red Velvet Cake,1,2024-01-13 13:42:00,Frank
+1719,Granola Bowl,1,2024-01-13 17:45:00,Grace
+1720,Red Velvet Cake,2,2024-01-13 12:03:00,Alice
+1721,New York Cheesecake,1,2024-01-13 18:15:00,Bob
+1722,Banoffee Pie,3,2024-01-13 19:50:00,Eve
+1723,Red Velvet Cake,2,2024-01-13 17:44:00,Charlie
+1724,Yogurt Parfait,2,2024-01-13 18:31:00,Bob
+1725,Granola Bowl,2,2024-01-13 11:03:00,Henry
+1726,Carrot Cake,1,2024-01-13 12:58:00,Henry
+1727,Iced Coffee,3,2024-01-13 10:58:00,Alice
+1728,Panna Cotta,2,2024-01-13 13:33:00,Henry
+1729,Carrot Cake,3,2024-01-13 17:28:00,Bob
+1730,Red Velvet Cake,1,2024-01-13 09:15:00,Frank
+1731,Panna Cotta,1,2024-01-13 12:13:00,Frank
+1732,New York Cheesecake,1,2024-01-13 19:37:00,Charlie
+1733,Tea,2,2024-01-13 11:55:00,Frank
+1734,New York Cheesecake,1,2024-01-13 13:13:00,Alice
+1735,Carrot Cake,2,2024-01-13 21:19:00,Charlie
+1736,Carrot Cake,1,2024-01-13 12:13:00,Alice
+1737,Carrot Cake,1,2024-01-13 17:22:00,Charlie
+1738,Carrot Cake,3,2024-01-13 13:24:00,Alice
+1739,Pavlova,2,2024-01-13 18:03:00,Eve
+1740,Red Velvet Cake,2,2024-01-13 17:56:00,Grace
+1741,Red Velvet Cake,3,2024-01-13 18:13:00,Diana
+1742,Carrot Cake,3,2024-01-13 12:27:00,Alice
+1743,Carrot Cake,2,2024-01-13 18:57:00,Henry
+1744,Carrot Cake,1,2024-01-13 18:12:00,Charlie
+1745,Carrot Cake,2,2024-01-13 15:16:00,Henry
+1746,New York Cheesecake,1,2024-01-13 18:34:00,Bob
+1747,Carrot Cake,1,2024-01-13 12:15:00,Henry
+1748,Panna Cotta,1,2024-01-13 17:00:00,Henry
+1749,Carrot Cake,1,2024-01-13 17:03:00,Henry
+1750,New York Cheesecake,2,2024-01-13 20:34:00,Eve
+1751,Carrot Cake,2,2024-01-13 18:35:00,Eve
+1752,Carrot Cake,1,2024-01-13 12:53:00,Alice
+1753,Red Velvet Cake,3,2024-01-13 20:39:00,Eve
+1754,Carrot Cake,1,2024-01-13 13:52:00,Henry
+1755,Carrot Cake,1,2024-01-13 14:27:00,Frank
+1756,Carrot Cake,1,2024-01-13 13:39:00,Frank
+1757,Carrot Cake,2,2024-01-13 18:40:00,Grace
+1758,Carrot Cake,2,2024-01-13 18:09:00,Diana
+1759,New York Cheesecake,1,2024-01-13 13:05:00,Frank
+1760,Smoothie,2,2024-01-13 17:45:00,Bob
+1761,Carrot Cake,3,2024-01-13 18:44:00,Bob
+1762,Carrot Cake,2,2024-01-13 12:44:00,Alice
+1763,Cappuccino,1,2024-01-13 17:09:00,Diana
+1764,New York Cheesecake,1,2024-01-13 18:47:00,Eve
+1765,New York Cheesecake,2,2024-01-13 15:11:00,Alice
+1766,Carrot Cake,3,2024-01-13 13:32:00,Alice
+1767,Panna Cotta,2,2024-01-13 19:00:00,Eve
+1768,Tiramisu,1,2024-01-13 18:19:00,Diana
+1769,Carrot Cake,1,2024-01-13 13:21:00,Frank
+1770,Carrot Cake,1,2024-01-13 16:19:00,Diana
+1771,Carrot Cake,3,2024-01-13 18:16:00,Charlie
+1772,Carrot Cake,1,2024-01-13 18:57:00,Grace
+1773,Carrot Cake,1,2024-01-13 09:41:00,Frank
+1774,Carrot Cake,2,2024-01-13 16:58:00,Bob
+1775,New York Cheesecake,2,2024-01-13 15:02:00,Henry
+1776,New York Cheesecake,2,2024-01-13 18:47:00,Henry
+1777,Red Velvet Cake,1,2024-01-13 13:04:00,Alice
+1778,New York Cheesecake,1,2024-01-13 15:11:00,Henry
+1779,Carrot Cake,3,2024-01-13 10:08:00,Alice
+1780,Carrot Cake,1,2024-01-13 13:19:00,Alice
+1781,Carrot Cake,2,2024-01-13 17:13:00,Eve
+1782,Carrot Cake,1,2024-01-13 15:46:00,Frank
+1783,New York Cheesecake,3,2024-01-13 18:50:00,Grace
+1784,Carrot Cake,2,2024-01-13 19:49:00,Bob
+1785,Carrot Cake,2,2024-01-13 16:11:00,Eve
+1786,Pavlova,3,2024-01-13 16:30:00,Eve
+1787,Red Velvet Cake,2,2024-01-13 18:02:00,Diana
+1788,Carrot Cake,1,2024-01-13 16:03:00,Charlie
+1789,Red Velvet Cake,1,2024-01-13 13:01:00,Alice
+1790,Soup & Salad Combo,1,2024-01-13 19:37:00,Eve
+1791,Carrot Cake,2,2024-01-13 18:55:00,Charlie
+1792,New York Cheesecake,1,2024-01-13 17:45:00,Diana
+1793,Cappuccino,3,2024-01-13 12:44:00,Henry
+1794,Carrot Cake,1,2024-01-13 18:07:00,Henry
+1795,Carrot Cake,1,2024-01-13 13:07:00,Alice
+1796,New York Cheesecake,1,2024-01-13 17:16:00,Eve
+1797,Pavlova,2,2024-01-13 19:59:00,Diana
+1798,New York Cheesecake,2,2024-01-13 19:38:00,Henry
+1799,Carrot Cake,1,2024-01-13 11:28:00,Henry
+1800,Carrot Cake,1,2024-01-13 13:47:00,Frank
+1801,Red Velvet Cake,2,2024-01-13 13:16:00,Frank
+1802,Tiramisu,1,2024-01-13 14:10:00,Henry
+1803,New York Cheesecake,1,2024-01-13 13:19:00,Henry
+1804,Panna Cotta,1,2024-01-13 20:55:00,Diana
+1805,Carrot Cake,2,2024-01-13 12:25:00,Alice
+1806,Carrot Cake,2,2024-01-13 13:53:00,Henry
+1807,New York Cheesecake,1,2024-01-13 12:54:00,Henry
+1808,Red Velvet Cake,2,2024-01-13 19:54:00,Charlie
+1809,Panna Cotta,1,2024-01-13 13:03:00,Henry
+1810,Tea,1,2024-01-13 10:28:00,Frank
+1811,New York Cheesecake,1,2024-01-13 15:09:00,Henry
+1812,New York Cheesecake,2,2024-01-13 13:23:00,Alice
+1813,Carrot Cake,1,2024-01-13 19:39:00,Diana
+1814,Red Velvet Cake,3,2024-01-13 12:49:00,Henry
+1815,New York Cheesecake,3,2024-01-13 13:47:00,Alice
+1816,Panna Cotta,3,2024-01-13 16:50:00,Eve
+1817,Carrot Cake,1,2024-01-13 14:08:00,Frank
+1818,Carrot Cake,2,2024-01-13 20:21:00,Charlie
+1819,Quiche,1,2024-01-13 16:03:00,Grace
+1820,Red Velvet Cake,2,2024-01-13 13:07:00,Alice
+1821,Carrot Cake,1,2024-01-13 19:00:00,Henry
+1822,New York Cheesecake,1,2024-01-13 22:53:00,Charlie
+1823,New York Cheesecake,1,2024-01-13 13:46:00,Henry
+1824,Carrot Cake,1,2024-01-13 20:30:00,Grace
+1825,Panna Cotta,2,2024-01-13 18:34:00,Charlie
+1826,Red Velvet Cake,3,2024-01-13 17:44:00,Diana
+1827,Carrot Cake,1,2024-01-13 14:50:00,Alice
+1828,Banoffee Pie,1,2024-01-13 13:05:00,Henry
+1829,Carrot Cake,3,2024-01-14 22:32:00,Bob
+1830,New York Cheesecake,1,2024-01-14 19:34:00,Eve
+1831,Panna Cotta,1,2024-01-14 09:25:00,Frank
+1832,Red Velvet Cake,3,2024-01-14 12:25:00,Henry
+1833,Tiramisu,2,2024-01-14 18:44:00,Bob
+1834,New York Cheesecake,1,2024-01-14 17:22:00,Diana
+1835,Carrot Cake,2,2024-01-14 12:38:00,Alice
+1836,New York Cheesecake,3,2024-01-14 20:17:00,Eve
+1837,New York Cheesecake,1,2024-01-14 12:21:00,Frank
+1838,Tea,1,2024-01-14 10:35:00,Henry
+1839,Carrot Cake,2,2024-01-14 12:00:00,Alice
+1840,Carrot Cake,2,2024-01-14 12:59:00,Henry
+1841,New York Cheesecake,1,2024-01-14 13:26:00,Frank
+1842,New York Cheesecake,3,2024-01-14 14:21:00,Henry
+1843,Red Velvet Cake,2,2024-01-14 16:10:00,Grace
+1844,Carrot Cake,1,2024-01-14 13:50:00,Alice
+1845,Banoffee Pie,1,2024-01-14 20:26:00,Henry
+1846,Carrot Cake,2,2024-01-14 19:40:00,Grace
+1847,New York Cheesecake,2,2024-01-14 17:28:00,Bob
+1848,New York Cheesecake,1,2024-01-14 12:22:00,Frank
+1849,Carrot Cake,2,2024-01-14 20:40:00,Henry
+1850,Tiramisu,2,2024-01-14 17:42:00,Eve
+1851,Red Velvet Cake,2,2024-01-14 18:46:00,Eve
+1852,Tiramisu,1,2024-01-14 13:37:00,Alice
+1853,Carrot Cake,1,2024-01-14 14:56:00,Alice
+1854,Carrot Cake,1,2024-01-14 18:41:00,Grace
+1855,Carrot Cake,1,2024-01-14 12:45:00,Alice
+1856,New York Cheesecake,3,2024-01-14 13:43:00,Henry
+1857,Tea,1,2024-01-14 12:12:00,Alice
+1858,New York Cheesecake,1,2024-01-14 17:15:00,Henry
+1859,Carrot Cake,1,2024-01-14 16:16:00,Bob
+1860,Red Velvet Cake,1,2024-01-14 19:34:00,Grace
+1861,Red Velvet Cake,1,2024-01-14 18:52:00,Henry
+1862,Red Velvet Cake,1,2024-01-14 19:15:00,Henry
+1863,Red Velvet Cake,2,2024-01-14 12:03:00,Frank
+1864,Red Velvet Cake,2,2024-01-14 10:39:00,Frank
+1865,Panna Cotta,1,2024-01-14 17:07:00,Henry
+1866,Red Velvet Cake,1,2024-01-14 09:55:00,Henry
+1867,Panna Cotta,2,2024-01-14 09:48:00,Frank
+1868,Carrot Cake,1,2024-01-14 12:54:00,Henry
+1869,Carrot Cake,2,2024-01-14 12:36:00,Henry
+1870,Carrot Cake,3,2024-01-14 13:37:00,Henry
+1871,Red Velvet Cake,2,2024-01-14 17:56:00,Henry
+1872,Smoothie,2,2024-01-14 14:24:00,Frank
+1873,Red Velvet Cake,2,2024-01-14 15:25:00,Frank
+1874,Red Velvet Cake,3,2024-01-14 18:08:00,Bob
+1875,New York Cheesecake,1,2024-01-14 18:03:00,Grace
+1876,Red Velvet Cake,2,2024-01-14 14:52:00,Henry
+1877,Red Velvet Cake,2,2024-01-14 18:56:00,Henry
+1878,Carrot Cake,1,2024-01-14 12:40:00,Alice
+1879,Tiramisu,3,2024-01-14 20:32:00,Henry
+1880,Red Velvet Cake,2,2024-01-14 15:34:00,Henry
+1881,New York Cheesecake,3,2024-01-14 12:42:00,Alice
+1882,Quiche,3,2024-01-14 17:29:00,Diana
+1883,New York Cheesecake,1,2024-01-14 13:36:00,Henry
+1884,Red Velvet Cake,1,2024-01-14 11:20:00,Frank
+1885,New York Cheesecake,1,2024-01-14 18:50:00,Charlie
+1886,Carrot Cake,2,2024-01-14 12:12:00,Henry
+1887,Carrot Cake,2,2024-01-14 12:26:00,Frank
+1888,Carrot Cake,2,2024-01-14 17:41:00,Henry
+1889,Carrot Cake,2,2024-01-14 18:28:00,Diana
+1890,Cappuccino,2,2024-01-14 22:15:00,Charlie
+1891,Panna Cotta,2,2024-01-14 14:03:00,Frank
+1892,Smoothie,2,2024-01-14 19:31:00,Henry
+1893,Quiche,3,2024-01-14 14:31:00,Henry
+1894,Carrot Cake,1,2024-01-14 15:20:00,Henry
+1895,Carrot Cake,1,2024-01-14 10:04:00,Frank
+1896,Red Velvet Cake,2,2024-01-14 12:17:00,Frank
+1897,Carrot Cake,1,2024-01-14 12:14:00,Frank
+1898,Pavlova,2,2024-01-14 16:55:00,Eve
+1899,Carrot Cake,1,2024-01-14 12:39:00,Frank
+1900,Pavlova,1,2024-01-14 14:22:00,Henry
+1901,New York Cheesecake,3,2024-01-14 13:45:00,Alice
+1902,Carrot Cake,3,2024-01-14 18:27:00,Diana
+1903,Carrot Cake,1,2024-01-14 11:33:00,Frank
+1904,Carrot Cake,1,2024-01-14 12:22:00,Alice
+1905,Carrot Cake,1,2024-01-14 17:51:00,Diana
+1906,New York Cheesecake,1,2024-01-14 19:31:00,Diana
+1907,New York Cheesecake,1,2024-01-14 11:02:00,Frank
+1908,Carrot Cake,2,2024-01-14 18:39:00,Henry
+1909,Red Velvet Cake,3,2024-01-14 16:51:00,Eve
+1910,Red Velvet Cake,3,2024-01-14 19:47:00,Charlie
+1911,Carrot Cake,1,2024-01-14 14:02:00,Henry
+1912,Carrot Cake,2,2024-01-14 13:27:00,Frank
+1913,Carrot Cake,1,2024-01-14 13:40:00,Alice
+1914,Latte,2,2024-01-14 18:07:00,Diana
+1915,Panna Cotta,3,2024-01-14 11:14:00,Alice
+1916,Red Velvet Cake,3,2024-01-14 18:52:00,Diana
+1917,Banoffee Pie,1,2024-01-14 12:31:00,Henry
+1918,Carrot Cake,3,2024-01-14 15:54:00,Alice
+1919,New York Cheesecake,1,2024-01-14 18:55:00,Henry
+1920,Carrot Cake,2,2024-01-14 18:01:00,Eve
+1921,Red Velvet Cake,3,2024-01-14 17:09:00,Grace
+1922,Carrot Cake,3,2024-01-14 13:05:00,Alice
+1923,Red Velvet Cake,1,2024-01-14 13:41:00,Frank
+1924,Tea,1,2024-01-14 18:41:00,Diana
+1925,New York Cheesecake,1,2024-01-14 12:51:00,Frank
+1926,Carrot Cake,2,2024-01-14 16:32:00,Charlie
+1927,New York Cheesecake,2,2024-01-14 21:40:00,Diana
+1928,Iced Coffee,1,2024-01-14 13:25:00,Alice
+1929,Carrot Cake,1,2024-01-14 18:26:00,Bob
+1930,Panna Cotta,2,2024-01-14 20:26:00,Grace
+1931,Panna Cotta,2,2024-01-14 17:26:00,Diana
+1932,Red Velvet Cake,1,2024-01-14 18:18:00,Charlie
+1933,Carrot Cake,1,2024-01-14 11:27:00,Frank
+1934,Red Velvet Cake,2,2024-01-14 15:55:00,Alice
+1935,Carrot Cake,2,2024-01-14 16:40:00,Henry
+1936,Carrot Cake,1,2024-01-14 13:47:00,Henry
+1937,Carrot Cake,1,2024-01-14 19:02:00,Grace
+1938,Banoffee Pie,1,2024-01-14 12:53:00,Frank
+1939,Carrot Cake,2,2024-01-14 09:54:00,Alice
+1940,Panna Cotta,1,2024-01-14 10:59:00,Alice
+1941,New York Cheesecake,2,2024-01-14 16:57:00,Bob
+1942,Panna Cotta,1,2024-01-14 21:31:00,Henry
+1943,Tiramisu,1,2024-01-14 13:44:00,Henry
+1944,New York Cheesecake,2,2024-01-14 13:21:00,Alice
+1945,Panna Cotta,1,2024-01-14 16:27:00,Henry
+1946,Carrot Cake,1,2024-01-14 13:47:00,Frank
+1947,Carrot Cake,2,2024-01-14 20:51:00,Charlie
+1948,Tea,1,2024-01-14 20:23:00,Eve
+1949,New York Cheesecake,1,2024-01-14 17:57:00,Grace
+1950,Carrot Cake,3,2024-01-14 21:09:00,Bob
+1951,Red Velvet Cake,1,2024-01-14 19:46:00,Henry
+1952,New York Cheesecake,1,2024-01-14 19:18:00,Diana
+1953,Carrot Cake,1,2024-01-14 18:56:00,Eve
+1954,Granola Bowl,1,2024-01-14 12:43:00,Frank
+1955,Tiramisu,1,2024-01-14 13:04:00,Frank
+1956,Red Velvet Cake,1,2024-01-14 17:03:00,Charlie
+1957,Carrot Cake,1,2024-01-14 12:05:00,Frank
+1958,Carrot Cake,1,2024-01-14 18:12:00,Eve
+1959,Red Velvet Cake,3,2024-01-14 19:00:00,Diana
+1960,Red Velvet Cake,1,2024-01-14 17:41:00,Eve
+1961,Carrot Cake,1,2024-01-14 19:48:00,Grace
+1962,Carrot Cake,1,2024-01-14 12:19:00,Henry
+1963,Carrot Cake,2,2024-01-14 18:53:00,Grace
+1964,Panna Cotta,1,2024-01-14 15:34:00,Henry
+1965,New York Cheesecake,1,2024-01-14 17:12:00,Bob
+1966,Carrot Cake,3,2024-01-14 18:40:00,Henry
+1967,Carrot Cake,3,2024-01-14 19:23:00,Diana
+1968,Banoffee Pie,1,2024-01-14 19:23:00,Henry
+1969,New York Cheesecake,3,2024-01-14 20:39:00,Henry
+1970,Panna Cotta,3,2024-01-14 17:48:00,Henry
+1971,Carrot Cake,1,2024-01-14 11:07:00,Frank
+1972,Carrot Cake,3,2024-01-14 12:39:00,Henry
+1973,New York Cheesecake,2,2024-01-15 10:16:00,Henry
+1974,Carrot Cake,3,2024-01-15 18:46:00,Diana
+1975,Carrot Cake,1,2024-01-15 18:50:00,Bob
+1976,New York Cheesecake,1,2024-01-15 12:40:00,Frank
+1977,Panna Cotta,3,2024-01-15 17:45:00,Eve
+1978,New York Cheesecake,1,2024-01-15 14:11:00,Frank
+1979,Carrot Cake,2,2024-01-15 18:14:00,Charlie
+1980,Red Velvet Cake,1,2024-01-15 13:57:00,Alice
+1981,New York Cheesecake,1,2024-01-15 19:33:00,Grace
+1982,Carrot Cake,3,2024-01-15 19:25:00,Eve
+1983,Red Velvet Cake,1,2024-01-15 14:10:00,Frank
+1984,New York Cheesecake,1,2024-01-15 21:55:00,Charlie
+1985,New York Cheesecake,3,2024-01-15 18:32:00,Henry
+1986,Red Velvet Cake,2,2024-01-15 17:54:00,Bob
+1987,Red Velvet Cake,2,2024-01-15 19:34:00,Bob
+1988,Carrot Cake,1,2024-01-15 18:38:00,Diana
+1989,Iced Coffee,2,2024-01-15 14:56:00,Henry
+1990,Pavlova,3,2024-01-15 16:07:00,Henry
+1991,Red Velvet Cake,3,2024-01-15 15:13:00,Henry
+1992,Carrot Cake,1,2024-01-15 21:00:00,Eve
+1993,Carrot Cake,3,2024-01-15 17:12:00,Grace
+1994,Panna Cotta,1,2024-01-15 12:07:00,Frank
+1995,Smoothie,1,2024-01-15 11:27:00,Alice
+1996,New York Cheesecake,1,2024-01-15 19:15:00,Diana
+1997,Carrot Cake,2,2024-01-15 19:04:00,Grace
+1998,Quiche,1,2024-01-15 18:11:00,Charlie
+1999,Carrot Cake,1,2024-01-15 19:41:00,Charlie
+2000,New York Cheesecake,1,2024-01-15 13:36:00,Henry
+2001,Carrot Cake,1,2024-01-15 19:56:00,Charlie
+2002,Carrot Cake,2,2024-01-15 18:34:00,Diana
+2003,Carrot Cake,2,2024-01-15 12:22:00,Henry
+2004,Pavlova,2,2024-01-15 18:56:00,Charlie
+2005,Carrot Cake,1,2024-01-15 19:36:00,Bob
+2006,Tiramisu,2,2024-01-15 14:48:00,Alice
+2007,Panna Cotta,1,2024-01-15 13:33:00,Alice
+2008,Carrot Cake,1,2024-01-15 13:16:00,Henry
+2009,Panna Cotta,2,2024-01-15 12:36:00,Alice
+2010,Red Velvet Cake,2,2024-01-15 15:49:00,Henry
+2011,Red Velvet Cake,1,2024-01-15 21:34:00,Charlie
+2012,Carrot Cake,1,2024-01-15 13:52:00,Henry
+2013,New York Cheesecake,2,2024-01-15 12:23:00,Henry
+2014,Carrot Cake,3,2024-01-15 21:22:00,Henry
+2015,New York Cheesecake,1,2024-01-15 18:12:00,Charlie
+2016,Carrot Cake,2,2024-01-15 19:35:00,Grace
+2017,Banoffee Pie,2,2024-01-15 13:37:00,Henry
+2018,Cappuccino,1,2024-01-15 10:15:00,Frank
+2019,Carrot Cake,1,2024-01-15 14:23:00,Frank
+2020,Fresh Juice,3,2024-01-15 19:37:00,Bob
+2021,Red Velvet Cake,2,2024-01-15 15:06:00,Henry
+2022,Iced Coffee,1,2024-01-15 12:37:00,Alice
+2023,Carrot Cake,1,2024-01-15 17:01:00,Henry
+2024,Tea,2,2024-01-15 13:18:00,Henry
+2025,Carrot Cake,1,2024-01-15 21:38:00,Grace
+2026,Carrot Cake,2,2024-01-15 11:40:00,Henry
+2027,Carrot Cake,1,2024-01-15 18:51:00,Henry
+2028,Carrot Cake,2,2024-01-15 19:18:00,Charlie
+2029,New York Cheesecake,1,2024-01-15 12:16:00,Alice
+2030,Carrot Cake,2,2024-01-15 12:56:00,Frank
+2031,New York Cheesecake,2,2024-01-15 12:55:00,Henry
+2032,Tea,3,2024-01-15 13:55:00,Henry
+2033,Carrot Cake,1,2024-01-15 13:03:00,Alice
+2034,Tiramisu,1,2024-01-15 11:56:00,Frank
+2035,Carrot Cake,2,2024-01-15 12:23:00,Henry
+2036,Panna Cotta,1,2024-01-15 12:43:00,Frank
+2037,Panna Cotta,3,2024-01-15 17:46:00,Eve
+2038,Tea,3,2024-01-15 19:22:00,Henry
+2039,Carrot Cake,1,2024-01-15 12:39:00,Frank
+2040,New York Cheesecake,1,2024-01-15 12:43:00,Alice
+2041,Banoffee Pie,3,2024-01-15 13:58:00,Henry
+2042,Carrot Cake,1,2024-01-15 13:25:00,Frank
+2043,Carrot Cake,1,2024-01-15 15:28:00,Frank
+2044,Panna Cotta,2,2024-01-15 19:06:00,Bob
+2045,Bagel & Cream Cheese,2,2024-01-15 20:20:00,Bob
+2046,Red Velvet Cake,1,2024-01-15 14:27:00,Henry
+2047,Carrot Cake,1,2024-01-15 13:40:00,Henry
+2048,Carrot Cake,2,2024-01-15 14:42:00,Henry
+2049,Latte,3,2024-01-15 17:45:00,Eve
+2050,Red Velvet Cake,1,2024-01-15 13:22:00,Alice
+2051,Red Velvet Cake,1,2024-01-15 16:01:00,Diana
+2052,New York Cheesecake,1,2024-01-15 14:55:00,Henry
+2053,Red Velvet Cake,2,2024-01-15 19:02:00,Diana
+2054,New York Cheesecake,1,2024-01-15 17:52:00,Eve
+2055,Carrot Cake,1,2024-01-15 17:48:00,Henry
+2056,Carrot Cake,2,2024-01-15 18:04:00,Charlie
+2057,Carrot Cake,2,2024-01-15 18:49:00,Diana
+2058,New York Cheesecake,1,2024-01-15 13:09:00,Frank
+2059,Tiramisu,3,2024-01-15 12:49:00,Alice
+2060,Red Velvet Cake,2,2024-01-15 19:01:00,Grace
+2061,Carrot Cake,3,2024-01-15 18:48:00,Bob
+2062,Red Velvet Cake,2,2024-01-15 12:40:00,Henry
+2063,Iced Coffee,1,2024-01-15 13:10:00,Frank
+2064,Carrot Cake,2,2024-01-15 18:33:00,Eve
+2065,Carrot Cake,2,2024-01-15 16:20:00,Charlie
+2066,Carrot Cake,2,2024-01-15 17:12:00,Charlie
+2067,Carrot Cake,1,2024-01-15 14:43:00,Frank
+2068,Carrot Cake,2,2024-01-15 13:29:00,Frank
+2069,Carrot Cake,2,2024-01-15 17:10:00,Eve
+2070,New York Cheesecake,1,2024-01-15 14:25:00,Frank
+2071,Banoffee Pie,3,2024-01-15 16:26:00,Eve
+2072,Carrot Cake,2,2024-01-15 18:32:00,Diana
+2073,Carrot Cake,1,2024-01-15 19:30:00,Grace
+2074,New York Cheesecake,2,2024-01-15 18:55:00,Henry
+2075,Red Velvet Cake,1,2024-01-15 15:52:00,Frank
+2076,Carrot Cake,1,2024-01-15 19:38:00,Eve
+2077,Carrot Cake,2,2024-01-15 11:56:00,Alice
+2078,New York Cheesecake,2,2024-01-15 20:16:00,Bob
+2079,Carrot Cake,1,2024-01-15 12:20:00,Frank
+2080,Carrot Cake,1,2024-01-15 10:57:00,Frank
+2081,Carrot Cake,3,2024-01-15 18:52:00,Charlie
+2082,Red Velvet Cake,1,2024-01-15 12:25:00,Henry
+2083,Quiche,2,2024-01-15 14:45:00,Henry
+2084,Carrot Cake,3,2024-01-15 18:51:00,Charlie
+2085,Latte,1,2024-01-15 11:06:00,Henry
+2086,Red Velvet Cake,2,2024-01-15 11:09:00,Alice
+2087,New York Cheesecake,2,2024-01-15 16:57:00,Bob
+2088,New York Cheesecake,1,2024-01-15 19:55:00,Charlie
+2089,Carrot Cake,2,2024-01-15 15:39:00,Henry
+2090,Quiche,1,2024-01-15 18:31:00,Grace
+2091,Pavlova,1,2024-01-15 12:24:00,Frank
+2092,Carrot Cake,2,2024-01-15 18:47:00,Bob
+2093,Carrot Cake,3,2024-01-15 16:01:00,Diana
+2094,New York Cheesecake,1,2024-01-15 11:46:00,Alice
+2095,Red Velvet Cake,2,2024-01-15 19:47:00,Henry
+2096,Red Velvet Cake,2,2024-01-15 16:24:00,Bob
+2097,Carrot Cake,1,2024-01-15 09:09:00,Henry
+2098,Red Velvet Cake,2,2024-01-15 17:01:00,Diana
+2099,Carrot Cake,1,2024-01-15 12:40:00,Alice
+2100,Tea,1,2024-01-15 16:56:00,Grace
+2101,Carrot Cake,2,2024-01-15 17:30:00,Eve
+2102,Carrot Cake,2,2024-01-15 12:55:00,Frank
+2103,Carrot Cake,2,2024-01-15 14:37:00,Frank
+2104,Panna Cotta,2,2024-01-15 18:08:00,Henry
+2105,Cappuccino,2,2024-01-15 10:44:00,Henry
+2106,Tea,1,2024-01-15 12:11:00,Henry
+2107,Bagel & Cream Cheese,1,2024-01-15 13:06:00,Alice
+2108,New York Cheesecake,2,2024-01-15 21:10:00,Henry
+2109,New York Cheesecake,2,2024-01-15 16:20:00,Henry
+2110,New York Cheesecake,2,2024-01-15 17:44:00,Charlie
+2111,New York Cheesecake,1,2024-01-16 12:21:00,Henry
+2112,Red Velvet Cake,3,2024-01-16 19:53:00,Charlie
+2113,Carrot Cake,2,2024-01-16 12:33:00,Frank
+2114,Carrot Cake,2,2024-01-16 14:49:00,Henry
+2115,Carrot Cake,3,2024-01-16 20:56:00,Grace
+2116,Panna Cotta,2,2024-01-16 15:40:00,Alice
+2117,Carrot Cake,1,2024-01-16 12:27:00,Frank
+2118,Carrot Cake,1,2024-01-16 09:31:00,Henry
+2119,Carrot Cake,1,2024-01-16 14:35:00,Frank
+2120,Pavlova,1,2024-01-16 10:23:00,Henry
+2121,New York Cheesecake,2,2024-01-16 18:58:00,Eve
+2122,Tiramisu,1,2024-01-16 14:51:00,Frank
+2123,Carrot Cake,1,2024-01-16 21:27:00,Eve
+2124,Carrot Cake,1,2024-01-16 18:39:00,Charlie
+2125,Tiramisu,1,2024-01-16 18:42:00,Eve
+2126,New York Cheesecake,1,2024-01-16 17:45:00,Eve
+2127,Carrot Cake,1,2024-01-16 18:05:00,Henry
+2128,Tiramisu,1,2024-01-16 18:41:00,Diana
+2129,Carrot Cake,2,2024-01-16 19:15:00,Diana
+2130,Carrot Cake,1,2024-01-16 15:22:00,Alice
+2131,Carrot Cake,2,2024-01-16 15:38:00,Alice
+2132,Smoothie,1,2024-01-16 09:07:00,Alice
+2133,Carrot Cake,2,2024-01-16 13:12:00,Alice
+2134,Carrot Cake,1,2024-01-16 13:24:00,Frank
+2135,Carrot Cake,1,2024-01-16 20:51:00,Henry
+2136,New York Cheesecake,2,2024-01-16 12:09:00,Alice
+2137,Red Velvet Cake,3,2024-01-16 14:19:00,Alice
+2138,New York Cheesecake,1,2024-01-16 19:51:00,Bob
+2139,Red Velvet Cake,1,2024-01-16 18:17:00,Eve
+2140,Carrot Cake,1,2024-01-16 13:36:00,Henry
+2141,New York Cheesecake,2,2024-01-16 18:02:00,Grace
+2142,Carrot Cake,2,2024-01-16 18:11:00,Bob
+2143,Carrot Cake,2,2024-01-16 19:26:00,Charlie
+2144,Carrot Cake,2,2024-01-16 13:09:00,Alice
+2145,Quiche,2,2024-01-16 13:11:00,Alice
+2146,Carrot Cake,1,2024-01-16 15:13:00,Alice
+2147,New York Cheesecake,1,2024-01-16 12:25:00,Alice
+2148,Carrot Cake,1,2024-01-16 13:20:00,Frank
+2149,Carrot Cake,2,2024-01-16 10:36:00,Alice
+2150,New York Cheesecake,1,2024-01-16 12:23:00,Henry
+2151,Tiramisu,2,2024-01-16 10:22:00,Alice
+2152,New York Cheesecake,2,2024-01-16 10:27:00,Henry
+2153,Fresh Juice,3,2024-01-16 18:40:00,Eve
+2154,Carrot Cake,1,2024-01-16 13:06:00,Alice
+2155,New York Cheesecake,2,2024-01-16 16:35:00,Diana
+2156,Carrot Cake,1,2024-01-16 13:45:00,Frank
+2157,New York Cheesecake,1,2024-01-16 17:24:00,Bob
+2158,Carrot Cake,2,2024-01-16 18:51:00,Eve
+2159,New York Cheesecake,2,2024-01-16 19:00:00,Grace
+2160,Carrot Cake,1,2024-01-16 14:48:00,Henry
+2161,Carrot Cake,1,2024-01-16 12:12:00,Alice
+2162,Panna Cotta,1,2024-01-16 12:54:00,Frank
+2163,Carrot Cake,2,2024-01-16 17:50:00,Diana
+2164,Panna Cotta,1,2024-01-16 21:06:00,Eve
+2165,Banoffee Pie,2,2024-01-16 20:33:00,Grace
+2166,Carrot Cake,2,2024-01-16 12:30:00,Frank
+2167,Carrot Cake,2,2024-01-16 12:17:00,Frank
+2168,Red Velvet Cake,2,2024-01-16 13:28:00,Henry
+2169,Carrot Cake,3,2024-01-16 17:25:00,Charlie
+2170,Banoffee Pie,2,2024-01-16 19:10:00,Charlie
+2171,Carrot Cake,1,2024-01-16 17:28:00,Diana
+2172,Red Velvet Cake,1,2024-01-16 14:09:00,Alice
+2173,New York Cheesecake,1,2024-01-16 12:23:00,Henry
+2174,Red Velvet Cake,3,2024-01-16 18:15:00,Henry
+2175,Tea,3,2024-01-16 22:20:00,Eve
+2176,Carrot Cake,2,2024-01-16 13:31:00,Henry
+2177,Carrot Cake,2,2024-01-16 19:03:00,Diana
+2178,Red Velvet Cake,2,2024-01-16 18:59:00,Henry
+2179,Tea,1,2024-01-16 20:30:00,Charlie
+2180,Carrot Cake,1,2024-01-16 17:32:00,Bob
+2181,New York Cheesecake,1,2024-01-16 11:34:00,Frank
+2182,Carrot Cake,1,2024-01-16 18:01:00,Charlie
+2183,Carrot Cake,2,2024-01-16 17:19:00,Grace
+2184,Latte,1,2024-01-16 17:46:00,Grace
+2185,Carrot Cake,2,2024-01-16 12:15:00,Alice
+2186,Tea,1,2024-01-16 12:17:00,Henry
+2187,Carrot Cake,3,2024-01-16 12:33:00,Alice
+2188,New York Cheesecake,1,2024-01-16 17:01:00,Bob
+2189,New York Cheesecake,1,2024-01-16 14:28:00,Frank
+2190,Carrot Cake,1,2024-01-16 19:17:00,Bob
+2191,New York Cheesecake,1,2024-01-16 13:58:00,Henry
+2192,Tea,2,2024-01-16 15:08:00,Henry
+2193,Carrot Cake,1,2024-01-16 10:08:00,Frank
+2194,Quiche,2,2024-01-16 17:49:00,Grace
+2195,Red Velvet Cake,1,2024-01-16 18:42:00,Grace
+2196,Red Velvet Cake,1,2024-01-16 12:34:00,Alice
+2197,Red Velvet Cake,2,2024-01-16 12:05:00,Alice
+2198,Red Velvet Cake,2,2024-01-16 13:20:00,Henry
+2199,Red Velvet Cake,1,2024-01-16 18:52:00,Diana
+2200,Carrot Cake,1,2024-01-16 15:16:00,Frank
+2201,Red Velvet Cake,2,2024-01-16 13:42:00,Frank
+2202,Banoffee Pie,1,2024-01-16 18:28:00,Diana
+2203,New York Cheesecake,1,2024-01-16 13:40:00,Frank
+2204,Carrot Cake,2,2024-01-16 20:49:00,Diana
+2205,Tea,3,2024-01-16 13:00:00,Alice
+2206,Soup & Salad Combo,2,2024-01-16 20:56:00,Charlie
+2207,Carrot Cake,1,2024-01-16 19:39:00,Bob
+2208,New York Cheesecake,1,2024-01-16 18:52:00,Grace
+2209,Carrot Cake,1,2024-01-16 18:23:00,Diana
+2210,Latte,2,2024-01-16 15:28:00,Alice
+2211,New York Cheesecake,1,2024-01-16 13:12:00,Henry
+2212,Carrot Cake,2,2024-01-16 17:24:00,Charlie
+2213,Carrot Cake,2,2024-01-16 17:38:00,Diana
+2214,New York Cheesecake,3,2024-01-16 13:43:00,Henry
+2215,Tiramisu,1,2024-01-16 13:57:00,Henry
+2216,Fresh Juice,2,2024-01-16 11:04:00,Alice
+2217,Carrot Cake,2,2024-01-16 17:46:00,Eve
+2218,Banoffee Pie,1,2024-01-16 19:29:00,Eve
+2219,Carrot Cake,3,2024-01-16 21:04:00,Bob
+2220,Carrot Cake,2,2024-01-16 12:49:00,Alice
+2221,New York Cheesecake,3,2024-01-16 19:07:00,Henry
+2222,Panna Cotta,2,2024-01-16 17:43:00,Henry
+2223,New York Cheesecake,1,2024-01-16 10:39:00,Alice
+2224,Quiche,1,2024-01-16 16:51:00,Grace
+2225,Red Velvet Cake,3,2024-01-16 18:04:00,Henry
+2226,Carrot Cake,2,2024-01-16 19:13:00,Eve
+2227,Smoothie,3,2024-01-16 18:31:00,Charlie
+2228,New York Cheesecake,2,2024-01-16 15:49:00,Henry
+2229,Panna Cotta,1,2024-01-16 19:55:00,Bob
+2230,Red Velvet Cake,1,2024-01-16 19:27:00,Diana
+2231,Carrot Cake,1,2024-01-16 13:33:00,Henry
+2232,Carrot Cake,1,2024-01-16 10:54:00,Alice
+2233,Tiramisu,1,2024-01-16 17:00:00,Charlie
+2234,Carrot Cake,1,2024-01-16 14:27:00,Henry
+2235,Carrot Cake,3,2024-01-16 17:01:00,Henry
+2236,Smoothie,1,2024-01-16 19:31:00,Eve
+2237,Fresh Juice,2,2024-01-16 19:55:00,Henry
+2238,Carrot Cake,1,2024-01-16 18:18:00,Charlie
+2239,Carrot Cake,1,2024-01-16 17:42:00,Grace
+2240,New York Cheesecake,1,2024-01-16 13:40:00,Frank
+2241,New York Cheesecake,1,2024-01-16 12:21:00,Henry
+2242,Carrot Cake,1,2024-01-16 13:47:00,Frank
+2243,Panna Cotta,3,2024-01-17 10:12:00,Alice
+2244,New York Cheesecake,2,2024-01-17 16:05:00,Grace
+2245,Red Velvet Cake,2,2024-01-17 12:25:00,Henry
+2246,Carrot Cake,3,2024-01-17 14:13:00,Alice
+2247,New York Cheesecake,2,2024-01-17 13:23:00,Henry
+2248,Red Velvet Cake,2,2024-01-17 18:31:00,Henry
+2249,Iced Coffee,1,2024-01-17 18:43:00,Henry
+2250,Pavlova,3,2024-01-17 15:22:00,Henry
+2251,Carrot Cake,3,2024-01-17 12:28:00,Alice
+2252,Red Velvet Cake,1,2024-01-17 17:34:00,Charlie
+2253,Panna Cotta,2,2024-01-17 19:57:00,Diana
+2254,Panna Cotta,2,2024-01-17 13:57:00,Alice
+2255,Quiche,2,2024-01-17 14:38:00,Alice
+2256,Red Velvet Cake,1,2024-01-17 15:35:00,Henry
+2257,Red Velvet Cake,2,2024-01-17 14:37:00,Alice
+2258,Red Velvet Cake,2,2024-01-17 11:56:00,Henry
+2259,Carrot Cake,1,2024-01-17 13:43:00,Alice
+2260,New York Cheesecake,3,2024-01-17 15:06:00,Alice
+2261,Red Velvet Cake,2,2024-01-17 14:58:00,Alice
+2262,New York Cheesecake,2,2024-01-17 13:06:00,Henry
+2263,Carrot Cake,1,2024-01-17 15:51:00,Alice
+2264,Carrot Cake,2,2024-01-17 12:23:00,Henry
+2265,Red Velvet Cake,3,2024-01-17 10:18:00,Alice
+2266,Banoffee Pie,1,2024-01-17 15:09:00,Alice
+2267,Carrot Cake,2,2024-01-17 14:29:00,Frank
+2268,Banoffee Pie,2,2024-01-17 18:05:00,Bob
+2269,New York Cheesecake,1,2024-01-17 18:59:00,Diana
+2270,New York Cheesecake,1,2024-01-17 15:39:00,Frank
+2271,Red Velvet Cake,2,2024-01-17 17:15:00,Charlie
+2272,Pavlova,1,2024-01-17 12:14:00,Frank
+2273,Carrot Cake,2,2024-01-17 10:57:00,Henry
+2274,Tea,1,2024-01-17 12:50:00,Alice
+2275,Bagel & Cream Cheese,1,2024-01-17 12:44:00,Frank
+2276,Carrot Cake,1,2024-01-17 21:06:00,Henry
+2277,Carrot Cake,2,2024-01-17 21:59:00,Henry
+2278,Smoothie,2,2024-01-17 10:19:00,Henry
+2279,Tiramisu,2,2024-01-17 18:49:00,Charlie
+2280,Carrot Cake,1,2024-01-17 17:23:00,Grace
+2281,Carrot Cake,3,2024-01-17 13:54:00,Alice
+2282,Quiche,1,2024-01-17 13:40:00,Henry
+2283,New York Cheesecake,1,2024-01-17 13:29:00,Alice
+2284,Red Velvet Cake,1,2024-01-17 17:35:00,Charlie
+2285,Carrot Cake,1,2024-01-17 18:49:00,Henry
+2286,Carrot Cake,2,2024-01-17 16:46:00,Charlie
+2287,New York Cheesecake,3,2024-01-17 21:54:00,Diana
+2288,New York Cheesecake,3,2024-01-17 12:06:00,Alice
+2289,Tiramisu,2,2024-01-17 19:42:00,Charlie
+2290,Carrot Cake,1,2024-01-17 19:52:00,Bob
+2291,Red Velvet Cake,3,2024-01-17 19:37:00,Charlie
+2292,New York Cheesecake,1,2024-01-17 20:02:00,Charlie
+2293,Red Velvet Cake,2,2024-01-17 15:59:00,Alice
+2294,Carrot Cake,3,2024-01-17 14:06:00,Alice
+2295,Carrot Cake,1,2024-01-17 18:04:00,Bob
+2296,New York Cheesecake,1,2024-01-17 12:04:00,Henry
+2297,Red Velvet Cake,2,2024-01-17 18:56:00,Henry
+2298,Carrot Cake,3,2024-01-17 09:22:00,Henry
+2299,Red Velvet Cake,2,2024-01-17 13:27:00,Henry
+2300,Carrot Cake,3,2024-01-17 13:38:00,Henry
+2301,Carrot Cake,1,2024-01-17 19:34:00,Grace
+2302,Carrot Cake,2,2024-01-17 18:20:00,Bob
+2303,New York Cheesecake,1,2024-01-17 14:16:00,Henry
+2304,Carrot Cake,1,2024-01-17 11:31:00,Henry
+2305,New York Cheesecake,3,2024-01-17 13:36:00,Alice
+2306,Carrot Cake,1,2024-01-17 14:36:00,Henry
+2307,Carrot Cake,1,2024-01-17 11:32:00,Henry
+2308,Carrot Cake,2,2024-01-17 17:00:00,Bob
+2309,Carrot Cake,2,2024-01-17 18:34:00,Grace
+2310,New York Cheesecake,1,2024-01-17 13:01:00,Henry
+2311,Carrot Cake,1,2024-01-17 21:43:00,Bob
+2312,Carrot Cake,2,2024-01-17 13:38:00,Alice
+2313,New York Cheesecake,2,2024-01-17 18:26:00,Bob
+2314,Red Velvet Cake,1,2024-01-17 18:15:00,Bob
+2315,Carrot Cake,1,2024-01-17 18:46:00,Bob
+2316,Carrot Cake,1,2024-01-17 22:58:00,Bob
+2317,New York Cheesecake,2,2024-01-17 14:10:00,Frank
+2318,Red Velvet Cake,3,2024-01-17 15:25:00,Henry
+2319,Carrot Cake,3,2024-01-17 12:30:00,Henry
+2320,New York Cheesecake,2,2024-01-17 16:00:00,Bob
+2321,Carrot Cake,2,2024-01-17 17:12:00,Henry
+2322,New York Cheesecake,2,2024-01-17 17:51:00,Eve
+2323,New York Cheesecake,1,2024-01-17 18:39:00,Charlie
+2324,Carrot Cake,1,2024-01-17 18:36:00,Henry
+2325,Carrot Cake,1,2024-01-17 12:38:00,Frank
+2326,New York Cheesecake,2,2024-01-17 14:57:00,Frank
+2327,Carrot Cake,1,2024-01-17 11:44:00,Frank
+2328,Carrot Cake,2,2024-01-17 17:02:00,Henry
+2329,New York Cheesecake,1,2024-01-17 18:46:00,Diana
+2330,Banoffee Pie,2,2024-01-17 17:50:00,Eve
+2331,New York Cheesecake,1,2024-01-17 13:27:00,Frank
+2332,New York Cheesecake,1,2024-01-17 17:45:00,Charlie
+2333,New York Cheesecake,2,2024-01-17 18:56:00,Diana
+2334,Tea,1,2024-01-17 12:16:00,Frank
+2335,New York Cheesecake,1,2024-01-17 18:20:00,Diana
+2336,Carrot Cake,3,2024-01-17 12:40:00,Alice
+2337,Panna Cotta,1,2024-01-17 19:10:00,Diana
+2338,Red Velvet Cake,2,2024-01-17 21:01:00,Charlie
+2339,New York Cheesecake,1,2024-01-17 17:14:00,Eve
+2340,Carrot Cake,3,2024-01-17 09:13:00,Henry
+2341,Red Velvet Cake,2,2024-01-17 16:04:00,Henry
+2342,Smoothie,2,2024-01-17 20:45:00,Eve
+2343,Carrot Cake,2,2024-01-17 18:21:00,Henry
+2344,Carrot Cake,3,2024-01-17 20:15:00,Grace
+2345,Panna Cotta,1,2024-01-17 19:54:00,Diana
+2346,Latte,1,2024-01-17 11:35:00,Frank
+2347,Carrot Cake,1,2024-01-17 18:06:00,Grace
+2348,Carrot Cake,1,2024-01-17 17:38:00,Henry
+2349,Carrot Cake,1,2024-01-17 18:37:00,Bob
+2350,Carrot Cake,3,2024-01-17 13:04:00,Alice
+2351,Red Velvet Cake,1,2024-01-17 19:48:00,Diana
+2352,Quiche,2,2024-01-17 19:21:00,Henry
+2353,New York Cheesecake,1,2024-01-17 11:37:00,Henry
+2354,New York Cheesecake,2,2024-01-17 18:34:00,Bob
+2355,Fresh Juice,1,2024-01-17 20:15:00,Charlie
+2356,New York Cheesecake,1,2024-01-17 19:29:00,Charlie
+2357,Pavlova,2,2024-01-17 21:14:00,Henry
+2358,New York Cheesecake,2,2024-01-17 17:57:00,Bob
+2359,Fresh Juice,1,2024-01-17 16:16:00,Eve
+2360,Carrot Cake,1,2024-01-17 17:08:00,Bob
+2361,New York Cheesecake,2,2024-01-17 13:06:00,Alice
+2362,Tiramisu,2,2024-01-17 18:38:00,Charlie
+2363,Panna Cotta,3,2024-01-17 17:08:00,Henry
+2364,Carrot Cake,2,2024-01-17 11:33:00,Alice
+2365,Tiramisu,2,2024-01-17 14:37:00,Alice
+2366,Carrot Cake,1,2024-01-17 12:43:00,Alice
+2367,Red Velvet Cake,3,2024-01-17 18:40:00,Charlie
+2368,Triple Chocolate Cake,2,2024-01-17 18:03:00,Diana
+2369,New York Cheesecake,1,2024-01-17 18:51:00,Henry
+2370,New York Cheesecake,2,2024-01-17 19:08:00,Charlie
+2371,New York Cheesecake,2,2024-01-17 12:38:00,Henry
+2372,New York Cheesecake,1,2024-01-17 16:20:00,Grace
+2373,New York Cheesecake,1,2024-01-17 12:11:00,Frank
+2374,Tea,2,2024-01-17 21:56:00,Charlie
+2375,Tiramisu,1,2024-01-17 17:21:00,Diana
+2376,Carrot Cake,2,2024-01-17 09:14:00,Henry
+2377,Tea,2,2024-01-17 12:04:00,Henry
+2378,Red Velvet Cake,1,2024-01-17 18:43:00,Bob
+2379,Carrot Cake,3,2024-01-18 20:26:00,Eve
+2380,Carrot Cake,1,2024-01-18 12:43:00,Alice
+2381,Carrot Cake,1,2024-01-18 17:40:00,Grace
+2382,Red Velvet Cake,1,2024-01-18 18:10:00,Bob
+2383,Pavlova,2,2024-01-18 19:46:00,Diana
+2384,Carrot Cake,2,2024-01-18 12:03:00,Frank
+2385,Carrot Cake,3,2024-01-18 12:30:00,Henry
+2386,Cappuccino,1,2024-01-18 14:27:00,Alice
+2387,Panna Cotta,3,2024-01-18 13:21:00,Henry
+2388,Tea,3,2024-01-18 11:51:00,Henry
+2389,Red Velvet Cake,3,2024-01-18 19:48:00,Henry
+2390,Carrot Cake,1,2024-01-18 19:33:00,Eve
+2391,Carrot Cake,1,2024-01-18 17:14:00,Grace
+2392,Tea,1,2024-01-18 17:16:00,Bob
+2393,Carrot Cake,3,2024-01-18 12:54:00,Alice
+2394,Pavlova,1,2024-01-18 11:00:00,Alice
+2395,New York Cheesecake,1,2024-01-18 18:40:00,Bob
+2396,Carrot Cake,1,2024-01-18 14:14:00,Frank
+2397,Latte,1,2024-01-18 11:36:00,Alice
+2398,Banoffee Pie,3,2024-01-18 13:19:00,Alice
+2399,Carrot Cake,2,2024-01-18 18:25:00,Eve
+2400,Yogurt Parfait,1,2024-01-18 19:26:00,Grace
+2401,Carrot Cake,1,2024-01-18 13:38:00,Alice
+2402,New York Cheesecake,1,2024-01-18 18:50:00,Henry
+2403,Red Velvet Cake,1,2024-01-18 17:54:00,Grace
+2404,Red Velvet Cake,1,2024-01-18 17:44:00,Henry
+2405,Panna Cotta,2,2024-01-18 22:23:00,Charlie
+2406,Carrot Cake,2,2024-01-18 10:26:00,Alice
+2407,Carrot Cake,1,2024-01-18 15:27:00,Frank
+2408,New York Cheesecake,3,2024-01-18 18:02:00,Grace
+2409,Tea,3,2024-01-18 19:37:00,Bob
+2410,Carrot Cake,2,2024-01-18 13:48:00,Alice
+2411,Panna Cotta,1,2024-01-18 18:03:00,Eve
+2412,New York Cheesecake,1,2024-01-18 19:29:00,Bob
+2413,Panna Cotta,1,2024-01-18 14:03:00,Frank
+2414,Carrot Cake,2,2024-01-18 18:24:00,Bob
+2415,Carrot Cake,1,2024-01-18 18:21:00,Eve
+2416,New York Cheesecake,2,2024-01-18 12:14:00,Frank
+2417,New York Cheesecake,1,2024-01-18 12:45:00,Frank
+2418,Red Velvet Cake,1,2024-01-18 15:03:00,Frank
+2419,Red Velvet Cake,1,2024-01-18 12:40:00,Henry
+2420,Carrot Cake,2,2024-01-18 10:50:00,Alice
+2421,Tiramisu,2,2024-01-18 09:09:00,Alice
+2422,New York Cheesecake,1,2024-01-18 10:32:00,Frank
+2423,New York Cheesecake,1,2024-01-18 12:11:00,Henry
+2424,Red Velvet Cake,1,2024-01-18 14:19:00,Henry
+2425,Tea,1,2024-01-18 17:39:00,Bob
+2426,Carrot Cake,3,2024-01-18 10:46:00,Alice
+2427,New York Cheesecake,2,2024-01-18 18:56:00,Henry
+2428,Red Velvet Cake,2,2024-01-18 13:28:00,Alice
+2429,Carrot Cake,1,2024-01-18 14:41:00,Frank
+2430,Carrot Cake,1,2024-01-18 18:57:00,Grace
+2431,Carrot Cake,2,2024-01-18 12:24:00,Frank
+2432,Carrot Cake,2,2024-01-18 17:48:00,Charlie
+2433,Carrot Cake,1,2024-01-18 12:34:00,Frank
+2434,Panna Cotta,2,2024-01-18 13:00:00,Alice
+2435,Carrot Cake,1,2024-01-18 13:45:00,Alice
+2436,New York Cheesecake,2,2024-01-18 17:14:00,Eve
+2437,Tiramisu,2,2024-01-18 12:35:00,Frank
+2438,Yogurt Parfait,1,2024-01-18 11:56:00,Frank
+2439,Tiramisu,3,2024-01-18 12:05:00,Henry
+2440,Red Velvet Cake,1,2024-01-18 17:15:00,Charlie
+2441,Carrot Cake,1,2024-01-18 19:40:00,Henry
+2442,Carrot Cake,1,2024-01-18 12:41:00,Alice
+2443,Banoffee Pie,2,2024-01-18 12:35:00,Henry
+2444,Carrot Cake,2,2024-01-18 10:01:00,Henry
+2445,New York Cheesecake,3,2024-01-18 09:40:00,Henry
+2446,New York Cheesecake,3,2024-01-18 17:57:00,Grace
+2447,New York Cheesecake,2,2024-01-18 12:20:00,Alice
+2448,New York Cheesecake,2,2024-01-18 17:00:00,Grace
+2449,Carrot Cake,2,2024-01-18 13:50:00,Henry
+2450,Triple Chocolate Cake,1,2024-01-18 19:13:00,Charlie
+2451,Carrot Cake,3,2024-01-18 17:17:00,Diana
+2452,Carrot Cake,1,2024-01-18 12:38:00,Frank
+2453,New York Cheesecake,1,2024-01-18 11:09:00,Henry
+2454,Panna Cotta,2,2024-01-18 18:27:00,Eve
+2455,Red Velvet Cake,1,2024-01-18 15:04:00,Alice
+2456,Banoffee Pie,2,2024-01-18 13:00:00,Alice
+2457,Carrot Cake,2,2024-01-18 19:48:00,Charlie
+2458,Carrot Cake,1,2024-01-18 13:11:00,Alice
+2459,Granola Bowl,3,2024-01-18 17:11:00,Eve
+2460,New York Cheesecake,1,2024-01-18 18:49:00,Diana
+2461,Pavlova,1,2024-01-18 18:12:00,Bob
+2462,Carrot Cake,2,2024-01-18 14:46:00,Frank
+2463,Carrot Cake,2,2024-01-18 09:33:00,Alice
+2464,New York Cheesecake,1,2024-01-18 12:11:00,Frank
+2465,Carrot Cake,1,2024-01-18 21:34:00,Diana
+2466,Carrot Cake,1,2024-01-18 18:20:00,Henry
+2467,Iced Coffee,2,2024-01-18 13:41:00,Alice
+2468,Carrot Cake,3,2024-01-18 17:45:00,Henry
+2469,Red Velvet Cake,1,2024-01-18 13:33:00,Frank
+2470,Carrot Cake,2,2024-01-18 13:29:00,Alice
+2471,Carrot Cake,2,2024-01-18 13:43:00,Alice
+2472,Red Velvet Cake,1,2024-01-18 18:12:00,Grace
+2473,Carrot Cake,3,2024-01-18 13:23:00,Alice
+2474,New York Cheesecake,2,2024-01-18 12:32:00,Alice
+2475,Cappuccino,1,2024-01-18 10:05:00,Alice
+2476,Panna Cotta,2,2024-01-18 17:33:00,Grace
+2477,Red Velvet Cake,3,2024-01-18 12:56:00,Alice
+2478,Fresh Juice,1,2024-01-18 12:00:00,Alice
+2479,Carrot Cake,2,2024-01-18 19:12:00,Eve
+2480,Smoothie,3,2024-01-18 18:54:00,Bob
+2481,New York Cheesecake,2,2024-01-18 19:56:00,Eve
+2482,Carrot Cake,1,2024-01-18 09:12:00,Frank
+2483,Carrot Cake,1,2024-01-18 13:41:00,Frank
+2484,Yogurt Parfait,1,2024-01-18 20:02:00,Grace
+2485,Carrot Cake,1,2024-01-18 18:48:00,Diana
+2486,New York Cheesecake,2,2024-01-18 09:53:00,Frank
+2487,Carrot Cake,1,2024-01-18 19:05:00,Diana
+2488,Carrot Cake,3,2024-01-18 17:38:00,Henry
+2489,New York Cheesecake,3,2024-01-18 12:17:00,Alice
+2490,Carrot Cake,2,2024-01-18 13:22:00,Henry
+2491,New York Cheesecake,2,2024-01-18 17:33:00,Charlie
+2492,Carrot Cake,3,2024-01-18 15:58:00,Alice
+2493,New York Cheesecake,2,2024-01-18 17:30:00,Grace
+2494,New York Cheesecake,1,2024-01-18 12:10:00,Frank
+2495,Red Velvet Cake,1,2024-01-18 12:32:00,Frank
+2496,Carrot Cake,1,2024-01-18 10:51:00,Henry
+2497,Cappuccino,2,2024-01-18 21:45:00,Grace
+2498,Triple Chocolate Cake,3,2024-01-18 17:05:00,Charlie
+2499,Carrot Cake,1,2024-01-18 19:17:00,Diana
+2500,Bagel & Cream Cheese,2,2024-01-18 13:26:00,Henry
+2501,Pavlova,1,2024-01-18 20:07:00,Eve
+2502,Panna Cotta,1,2024-01-18 11:31:00,Alice
+2503,Bagel & Cream Cheese,3,2024-01-18 12:13:00,Alice
+2504,Red Velvet Cake,1,2024-01-18 12:17:00,Frank
+2505,Carrot Cake,1,2024-01-18 15:38:00,Henry
+2506,Carrot Cake,1,2024-01-18 18:26:00,Grace
+2507,Carrot Cake,2,2024-01-19 19:00:00,Grace
+2508,Tiramisu,1,2024-01-19 19:19:00,Grace
+2509,Red Velvet Cake,1,2024-01-19 18:00:00,Bob
+2510,Carrot Cake,1,2024-01-19 13:28:00,Frank
+2511,Banoffee Pie,1,2024-01-19 18:21:00,Diana
+2512,New York Cheesecake,1,2024-01-19 17:19:00,Diana
+2513,Carrot Cake,3,2024-01-19 20:22:00,Henry
+2514,Red Velvet Cake,2,2024-01-19 12:54:00,Frank
+2515,New York Cheesecake,1,2024-01-19 12:30:00,Alice
+2516,New York Cheesecake,3,2024-01-19 18:13:00,Diana
+2517,Tiramisu,1,2024-01-19 17:16:00,Henry
+2518,Carrot Cake,1,2024-01-19 11:12:00,Henry
+2519,Carrot Cake,1,2024-01-19 12:34:00,Alice
+2520,Fresh Juice,1,2024-01-19 14:56:00,Henry
+2521,Carrot Cake,2,2024-01-19 18:00:00,Henry
+2522,New York Cheesecake,2,2024-01-19 18:37:00,Charlie
+2523,Red Velvet Cake,1,2024-01-19 17:25:00,Bob
+2524,Carrot Cake,1,2024-01-19 13:30:00,Henry
+2525,Carrot Cake,2,2024-01-19 17:00:00,Charlie
+2526,New York Cheesecake,3,2024-01-19 09:42:00,Alice
+2527,New York Cheesecake,2,2024-01-19 18:03:00,Eve
+2528,Panna Cotta,1,2024-01-19 18:39:00,Henry
+2529,Banoffee Pie,1,2024-01-19 13:44:00,Frank
+2530,Panna Cotta,3,2024-01-19 13:31:00,Henry
+2531,Carrot Cake,1,2024-01-19 12:46:00,Frank
+2532,Carrot Cake,1,2024-01-19 09:21:00,Alice
+2533,Carrot Cake,1,2024-01-19 18:14:00,Henry
+2534,Iced Coffee,3,2024-01-19 19:02:00,Bob
+2535,Red Velvet Cake,2,2024-01-19 13:47:00,Frank
+2536,Red Velvet Cake,2,2024-01-19 14:41:00,Frank
+2537,Red Velvet Cake,1,2024-01-19 20:22:00,Bob
+2538,Red Velvet Cake,2,2024-01-19 14:03:00,Alice
+2539,Carrot Cake,2,2024-01-19 12:28:00,Henry
+2540,Carrot Cake,1,2024-01-19 13:41:00,Frank
+2541,Iced Coffee,1,2024-01-19 14:11:00,Frank
+2542,Tea,1,2024-01-19 19:02:00,Grace
+2543,Red Velvet Cake,2,2024-01-19 12:26:00,Alice
+2544,Banoffee Pie,3,2024-01-19 12:53:00,Alice
+2545,New York Cheesecake,2,2024-01-19 13:18:00,Henry
+2546,Iced Coffee,1,2024-01-19 14:03:00,Alice
+2547,New York Cheesecake,3,2024-01-19 17:34:00,Diana
+2548,Carrot Cake,2,2024-01-19 17:36:00,Bob
+2549,New York Cheesecake,2,2024-01-19 12:30:00,Alice
+2550,Carrot Cake,1,2024-01-19 22:01:00,Charlie
+2551,Carrot Cake,2,2024-01-19 15:42:00,Frank
+2552,Carrot Cake,1,2024-01-19 16:58:00,Henry
+2553,Carrot Cake,1,2024-01-19 09:13:00,Henry
+2554,Carrot Cake,2,2024-01-19 19:14:00,Grace
+2555,Cappuccino,1,2024-01-19 09:23:00,Frank
+2556,New York Cheesecake,2,2024-01-19 19:11:00,Bob
+2557,Tea,1,2024-01-19 21:18:00,Grace
+2558,Carrot Cake,1,2024-01-19 19:01:00,Diana
+2559,New York Cheesecake,2,2024-01-19 19:32:00,Diana
+2560,New York Cheesecake,2,2024-01-19 18:15:00,Charlie
+2561,New York Cheesecake,2,2024-01-19 17:28:00,Bob
+2562,New York Cheesecake,1,2024-01-19 16:40:00,Henry
+2563,Pavlova,2,2024-01-19 12:11:00,Henry
+2564,Soup & Salad Combo,1,2024-01-19 21:47:00,Eve
+2565,Carrot Cake,2,2024-01-19 12:14:00,Alice
+2566,Club Sandwich,2,2024-01-19 13:43:00,Henry
+2567,Carrot Cake,2,2024-01-19 17:31:00,Grace
+2568,Carrot Cake,1,2024-01-19 13:01:00,Alice
+2569,Cappuccino,1,2024-01-19 12:38:00,Frank
+2570,Pavlova,1,2024-01-19 17:40:00,Grace
+2571,Carrot Cake,2,2024-01-19 14:38:00,Frank
+2572,Carrot Cake,1,2024-01-19 12:54:00,Frank
+2573,New York Cheesecake,2,2024-01-19 12:30:00,Alice
+2574,Quiche,1,2024-01-19 13:46:00,Henry
+2575,Tea,2,2024-01-19 15:30:00,Alice
+2576,New York Cheesecake,1,2024-01-19 11:18:00,Henry
+2577,Panna Cotta,2,2024-01-19 12:01:00,Alice
+2578,Carrot Cake,1,2024-01-19 15:25:00,Frank
+2579,Carrot Cake,1,2024-01-19 17:06:00,Charlie
+2580,Smoothie,1,2024-01-19 15:00:00,Henry
+2581,Carrot Cake,1,2024-01-19 19:17:00,Eve
+2582,Carrot Cake,2,2024-01-19 13:55:00,Alice
+2583,Panna Cotta,1,2024-01-19 10:59:00,Henry
+2584,Red Velvet Cake,1,2024-01-19 13:50:00,Frank
+2585,Carrot Cake,2,2024-01-19 12:28:00,Alice
+2586,Carrot Cake,3,2024-01-19 12:22:00,Henry
+2587,New York Cheesecake,1,2024-01-19 17:23:00,Bob
+2588,Red Velvet Cake,1,2024-01-19 19:00:00,Bob
+2589,Carrot Cake,2,2024-01-19 13:23:00,Henry
+2590,Tiramisu,2,2024-01-19 19:14:00,Charlie
+2591,Red Velvet Cake,3,2024-01-19 14:23:00,Henry
+2592,Carrot Cake,1,2024-01-19 11:11:00,Frank
+2593,Tiramisu,3,2024-01-19 17:47:00,Bob
+2594,Pavlova,3,2024-01-19 17:07:00,Henry
+2595,Red Velvet Cake,1,2024-01-19 14:15:00,Henry
+2596,Banoffee Pie,1,2024-01-19 18:54:00,Grace
+2597,Carrot Cake,2,2024-01-19 11:39:00,Henry
+2598,Panna Cotta,1,2024-01-19 18:10:00,Diana
+2599,Carrot Cake,1,2024-01-19 18:35:00,Bob
+2600,Carrot Cake,1,2024-01-19 14:32:00,Frank
+2601,Tea,3,2024-01-19 17:55:00,Charlie
+2602,New York Cheesecake,3,2024-01-19 18:35:00,Charlie
+2603,New York Cheesecake,1,2024-01-19 14:01:00,Henry
+2604,Tiramisu,1,2024-01-19 15:57:00,Alice
+2605,Carrot Cake,2,2024-01-19 18:41:00,Charlie
+2606,Tea,3,2024-01-19 18:09:00,Bob
+2607,Banoffee Pie,1,2024-01-19 14:31:00,Henry
+2608,Carrot Cake,2,2024-01-19 19:09:00,Charlie
+2609,Red Velvet Cake,3,2024-01-19 16:35:00,Grace
+2610,Fresh Juice,1,2024-01-19 10:55:00,Alice
+2611,Carrot Cake,1,2024-01-19 11:46:00,Henry
+2612,Carrot Cake,2,2024-01-19 15:48:00,Alice
+2613,Carrot Cake,1,2024-01-19 14:48:00,Henry
+2614,New York Cheesecake,1,2024-01-19 19:10:00,Diana
+2615,New York Cheesecake,1,2024-01-19 14:34:00,Frank
+2616,Panna Cotta,2,2024-01-19 14:49:00,Alice
+2617,New York Cheesecake,1,2024-01-19 14:15:00,Frank
+2618,Latte,1,2024-01-19 18:30:00,Bob
+2619,Carrot Cake,2,2024-01-19 17:36:00,Eve
+2620,Pavlova,1,2024-01-19 14:03:00,Frank
+2621,Red Velvet Cake,2,2024-01-19 14:48:00,Alice
+2622,Carrot Cake,2,2024-01-19 18:04:00,Charlie
+2623,Cappuccino,2,2024-01-19 12:52:00,Frank
+2624,Carrot Cake,3,2024-01-19 18:22:00,Eve
+2625,Carrot Cake,1,2024-01-19 12:12:00,Frank
+2626,Carrot Cake,1,2024-01-19 18:35:00,Diana
+2627,Carrot Cake,1,2024-01-19 14:57:00,Frank
+2628,Tiramisu,3,2024-01-19 18:54:00,Grace
+2629,Red Velvet Cake,3,2024-01-19 17:14:00,Eve
+2630,Panna Cotta,3,2024-01-19 17:09:00,Bob
+2631,Red Velvet Cake,2,2024-01-19 19:38:00,Henry
+2632,Latte,2,2024-01-19 19:32:00,Henry
+2633,Carrot Cake,1,2024-01-19 13:47:00,Henry
+2634,Pavlova,2,2024-01-19 12:29:00,Frank
+2635,Panna Cotta,1,2024-01-19 12:43:00,Frank
+2636,New York Cheesecake,1,2024-01-19 18:20:00,Grace
+2637,Carrot Cake,1,2024-01-19 18:27:00,Eve
+2638,Quiche,1,2024-01-19 17:59:00,Eve
+2639,Carrot Cake,1,2024-01-19 12:17:00,Henry
+2640,Carrot Cake,1,2024-01-19 18:11:00,Diana
+2641,Pavlova,2,2024-01-19 18:56:00,Eve
+2642,Carrot Cake,2,2024-01-19 19:05:00,Eve
+2643,Red Velvet Cake,2,2024-01-19 16:48:00,Charlie
+2644,New York Cheesecake,1,2024-01-19 21:49:00,Grace
+2645,Carrot Cake,2,2024-01-19 12:52:00,Alice
+2646,Carrot Cake,2,2024-01-19 17:46:00,Diana
+2647,New York Cheesecake,1,2024-01-19 14:52:00,Alice
+2648,New York Cheesecake,2,2024-01-19 17:08:00,Eve
+2649,Pavlova,2,2024-01-19 18:58:00,Charlie
+2650,Red Velvet Cake,1,2024-01-19 12:49:00,Frank
+2651,Carrot Cake,1,2024-01-19 18:36:00,Bob
+2652,Carrot Cake,3,2024-01-19 13:01:00,Henry
+2653,Carrot Cake,2,2024-01-19 22:02:00,Bob
+2654,Quiche,2,2024-01-19 19:43:00,Diana
+2655,New York Cheesecake,1,2024-01-19 21:31:00,Eve
+2656,Carrot Cake,3,2024-01-19 13:15:00,Alice
+2657,Carrot Cake,2,2024-01-19 18:43:00,Eve
+2658,Carrot Cake,2,2024-01-19 15:01:00,Alice
+2659,Panna Cotta,2,2024-01-19 12:29:00,Alice
+2660,New York Cheesecake,3,2024-01-19 12:18:00,Henry
+2661,Red Velvet Cake,1,2024-01-19 15:38:00,Henry
+2662,Carrot Cake,2,2024-01-19 18:55:00,Diana
+2663,Pavlova,2,2024-01-19 13:12:00,Frank
+2664,Red Velvet Cake,2,2024-01-19 18:14:00,Charlie
+2665,Carrot Cake,3,2024-01-19 17:02:00,Grace
+2666,New York Cheesecake,1,2024-01-19 15:08:00,Frank
+2667,Panna Cotta,3,2024-01-19 17:44:00,Eve
+2668,Carrot Cake,1,2024-01-19 19:15:00,Grace
+2669,Carrot Cake,2,2024-01-19 12:44:00,Alice
+2670,Carrot Cake,1,2024-01-19 20:56:00,Bob
+2671,Carrot Cake,1,2024-01-19 13:08:00,Alice
+2672,Tiramisu,2,2024-01-19 13:56:00,Alice
+2673,Red Velvet Cake,1,2024-01-19 17:35:00,Bob
+2674,Carrot Cake,1,2024-01-19 19:17:00,Eve
+2675,Tiramisu,2,2024-01-19 18:23:00,Eve
+2676,Carrot Cake,3,2024-01-19 18:06:00,Bob
+2677,Pavlova,1,2024-01-19 12:15:00,Alice
+2678,New York Cheesecake,2,2024-01-19 17:10:00,Eve
+2679,Tiramisu,1,2024-01-19 14:41:00,Alice
+2680,Panna Cotta,1,2024-01-19 18:45:00,Eve
+2681,New York Cheesecake,2,2024-01-19 18:19:00,Henry
+2682,Carrot Cake,1,2024-01-19 17:07:00,Bob
+2683,Tiramisu,2,2024-01-19 19:14:00,Grace
+2684,Carrot Cake,2,2024-01-19 15:42:00,Alice
+2685,Panna Cotta,2,2024-01-19 18:27:00,Eve
+2686,New York Cheesecake,1,2024-01-19 18:53:00,Grace
+2687,Red Velvet Cake,2,2024-01-19 18:40:00,Henry
+2688,Tiramisu,2,2024-01-19 13:18:00,Alice
+2689,Carrot Cake,3,2024-01-19 21:01:00,Eve
+2690,Carrot Cake,1,2024-01-19 13:27:00,Frank
+2691,Carrot Cake,1,2024-01-19 15:59:00,Alice
+2692,Carrot Cake,3,2024-01-19 19:20:00,Henry
+2693,Carrot Cake,1,2024-01-19 12:46:00,Alice
+2694,Red Velvet Cake,3,2024-01-19 11:31:00,Henry
+2695,Tea,1,2024-01-19 14:17:00,Alice
+2696,Carrot Cake,1,2024-01-19 18:41:00,Diana
+2697,New York Cheesecake,1,2024-01-19 13:01:00,Henry
+2698,Quiche,3,2024-01-19 11:24:00,Henry
+2699,Carrot Cake,2,2024-01-19 19:40:00,Charlie
+2700,Tea,2,2024-01-19 17:42:00,Henry
+2701,Yogurt Parfait,2,2024-01-19 17:55:00,Grace
+2702,Carrot Cake,1,2024-01-19 17:48:00,Bob
+2703,Fresh Juice,2,2024-01-20 12:22:00,Frank
+2704,Carrot Cake,2,2024-01-20 13:08:00,Alice
+2705,Carrot Cake,1,2024-01-20 15:52:00,Frank
+2706,Fresh Juice,2,2024-01-20 17:56:00,Diana
+2707,Pavlova,3,2024-01-20 19:58:00,Diana
+2708,Carrot Cake,2,2024-01-20 20:39:00,Henry
+2709,Tea,1,2024-01-20 12:02:00,Frank
+2710,Latte,3,2024-01-20 18:00:00,Henry
+2711,Iced Coffee,1,2024-01-20 17:10:00,Diana
+2712,New York Cheesecake,2,2024-01-20 12:54:00,Henry
+2713,Tea,1,2024-01-20 12:30:00,Frank
+2714,Red Velvet Cake,2,2024-01-20 14:01:00,Frank
+2715,Red Velvet Cake,1,2024-01-20 14:25:00,Frank
+2716,Carrot Cake,1,2024-01-20 12:26:00,Frank
+2717,Carrot Cake,2,2024-01-20 13:20:00,Alice
+2718,Smoothie,1,2024-01-20 12:19:00,Alice
+2719,New York Cheesecake,2,2024-01-20 19:32:00,Eve
+2720,Carrot Cake,1,2024-01-20 12:24:00,Henry
+2721,Red Velvet Cake,3,2024-01-20 18:00:00,Eve
+2722,Latte,2,2024-01-20 10:43:00,Henry
+2723,New York Cheesecake,1,2024-01-20 12:25:00,Henry
+2724,Carrot Cake,2,2024-01-20 19:36:00,Eve
+2725,Carrot Cake,2,2024-01-20 13:42:00,Henry
+2726,New York Cheesecake,2,2024-01-20 14:13:00,Alice
+2727,Banoffee Pie,1,2024-01-20 19:40:00,Henry
+2728,Carrot Cake,1,2024-01-20 18:31:00,Bob
+2729,Panna Cotta,3,2024-01-20 19:13:00,Diana
+2730,Red Velvet Cake,2,2024-01-20 16:07:00,Henry
+2731,Carrot Cake,2,2024-01-20 14:09:00,Frank
+2732,Red Velvet Cake,2,2024-01-20 13:02:00,Henry
+2733,Pavlova,1,2024-01-20 18:46:00,Henry
+2734,Carrot Cake,3,2024-01-20 13:40:00,Alice
+2735,New York Cheesecake,1,2024-01-20 14:24:00,Alice
+2736,Panna Cotta,2,2024-01-20 13:39:00,Henry
+2737,Red Velvet Cake,1,2024-01-20 17:07:00,Charlie
+2738,Pavlova,2,2024-01-20 13:19:00,Henry
+2739,Carrot Cake,3,2024-01-20 13:45:00,Henry
+2740,Red Velvet Cake,1,2024-01-20 13:37:00,Henry
+2741,Banoffee Pie,2,2024-01-20 15:01:00,Alice
+2742,New York Cheesecake,1,2024-01-20 18:42:00,Charlie
+2743,Carrot Cake,3,2024-01-20 22:10:00,Grace
+2744,Red Velvet Cake,2,2024-01-20 17:40:00,Eve
+2745,Carrot Cake,1,2024-01-20 13:28:00,Alice
+2746,Pavlova,3,2024-01-20 17:31:00,Bob
+2747,Carrot Cake,3,2024-01-20 11:53:00,Henry
+2748,Pavlova,2,2024-01-20 12:09:00,Henry
+2749,New York Cheesecake,1,2024-01-20 13:05:00,Frank
+2750,New York Cheesecake,1,2024-01-20 14:17:00,Frank
+2751,New York Cheesecake,2,2024-01-20 13:02:00,Frank
+2752,Panna Cotta,3,2024-01-20 16:19:00,Grace
+2753,Red Velvet Cake,1,2024-01-20 13:09:00,Frank
+2754,Red Velvet Cake,1,2024-01-20 18:56:00,Charlie
+2755,Cappuccino,3,2024-01-20 21:21:00,Grace
+2756,Carrot Cake,1,2024-01-20 19:21:00,Diana
+2757,Quiche,1,2024-01-20 13:21:00,Henry
+2758,Tiramisu,1,2024-01-20 18:30:00,Bob
+2759,Carrot Cake,1,2024-01-20 18:38:00,Bob
+2760,Quiche,3,2024-01-20 18:49:00,Charlie
+2761,Panna Cotta,1,2024-01-20 19:31:00,Charlie
+2762,Cappuccino,3,2024-01-20 18:18:00,Charlie
+2763,Red Velvet Cake,2,2024-01-20 17:49:00,Bob
+2764,New York Cheesecake,2,2024-01-20 18:39:00,Bob
+2765,New York Cheesecake,2,2024-01-20 20:53:00,Eve
+2766,Carrot Cake,1,2024-01-20 18:12:00,Henry
+2767,Carrot Cake,1,2024-01-20 09:29:00,Frank
+2768,New York Cheesecake,1,2024-01-20 14:13:00,Henry
+2769,Carrot Cake,1,2024-01-20 13:00:00,Frank
+2770,Carrot Cake,1,2024-01-20 17:18:00,Eve
+2771,Panna Cotta,2,2024-01-20 12:29:00,Alice
+2772,Carrot Cake,1,2024-01-20 12:51:00,Henry
+2773,Carrot Cake,2,2024-01-20 12:00:00,Frank
+2774,Carrot Cake,1,2024-01-20 12:15:00,Frank
+2775,Panna Cotta,3,2024-01-20 11:18:00,Alice
+2776,Banoffee Pie,1,2024-01-20 13:27:00,Frank
+2777,New York Cheesecake,1,2024-01-20 17:50:00,Bob
+2778,New York Cheesecake,2,2024-01-20 13:06:00,Alice
+2779,Smoothie,1,2024-01-20 18:14:00,Bob
+2780,Carrot Cake,1,2024-01-20 19:32:00,Grace
+2781,Carrot Cake,2,2024-01-20 18:43:00,Grace
+2782,Carrot Cake,2,2024-01-20 11:34:00,Frank
+2783,New York Cheesecake,1,2024-01-20 14:56:00,Alice
+2784,Carrot Cake,1,2024-01-20 16:34:00,Diana
+2785,Tiramisu,1,2024-01-20 12:40:00,Frank
+2786,Panna Cotta,1,2024-01-20 13:00:00,Frank
+2787,Red Velvet Cake,1,2024-01-20 19:28:00,Eve
+2788,New York Cheesecake,1,2024-01-20 12:51:00,Frank
+2789,Red Velvet Cake,3,2024-01-20 12:19:00,Alice
+2790,Carrot Cake,1,2024-01-20 12:20:00,Alice
+2791,Red Velvet Cake,1,2024-01-20 12:13:00,Frank
+2792,Panna Cotta,3,2024-01-20 17:28:00,Eve
+2793,Cappuccino,2,2024-01-20 13:21:00,Henry
+2794,Carrot Cake,1,2024-01-20 12:17:00,Henry
+2795,Carrot Cake,2,2024-01-20 16:59:00,Diana
+2796,Carrot Cake,2,2024-01-20 19:58:00,Grace
+2797,Carrot Cake,2,2024-01-20 21:33:00,Henry
+2798,Red Velvet Cake,1,2024-01-20 17:29:00,Charlie
+2799,Carrot Cake,1,2024-01-20 12:58:00,Frank
+2800,Red Velvet Cake,1,2024-01-20 12:52:00,Alice
+2801,Panna Cotta,1,2024-01-20 09:11:00,Henry
+2802,Carrot Cake,1,2024-01-20 13:53:00,Frank
+2803,Tiramisu,3,2024-01-20 13:05:00,Henry
+2804,Tea,2,2024-01-20 20:55:00,Eve
+2805,Quiche,1,2024-01-20 14:09:00,Alice
+2806,Red Velvet Cake,1,2024-01-20 15:30:00,Frank
+2807,Carrot Cake,2,2024-01-20 12:02:00,Alice
+2808,Tiramisu,2,2024-01-20 15:03:00,Henry
+2809,Carrot Cake,1,2024-01-20 20:05:00,Bob
+2810,Carrot Cake,1,2024-01-20 12:02:00,Frank
+2811,Carrot Cake,3,2024-01-20 19:19:00,Charlie
+2812,Red Velvet Cake,2,2024-01-20 14:37:00,Henry
+2813,Carrot Cake,2,2024-01-20 19:29:00,Charlie
+2814,Pavlova,1,2024-01-20 18:13:00,Charlie
+2815,Tiramisu,3,2024-01-20 20:50:00,Bob
+2816,Red Velvet Cake,1,2024-01-20 13:08:00,Frank
+2817,New York Cheesecake,1,2024-01-20 12:27:00,Frank
+2818,New York Cheesecake,1,2024-01-20 13:19:00,Alice
+2819,Pavlova,1,2024-01-20 13:45:00,Frank
+2820,New York Cheesecake,3,2024-01-20 14:49:00,Henry
+2821,Latte,2,2024-01-20 18:26:00,Bob
+2822,Carrot Cake,2,2024-01-20 17:45:00,Bob
+2823,Carrot Cake,2,2024-01-20 14:24:00,Henry
+2824,Panna Cotta,3,2024-01-20 12:02:00,Alice
+2825,Banoffee Pie,2,2024-01-20 17:05:00,Henry
+2826,Tea,2,2024-01-20 15:46:00,Henry
+2827,Carrot Cake,1,2024-01-20 12:32:00,Frank
+2828,Carrot Cake,1,2024-01-20 18:17:00,Henry
+2829,Quiche,2,2024-01-20 19:36:00,Bob
+2830,New York Cheesecake,1,2024-01-20 19:15:00,Eve
+2831,Carrot Cake,1,2024-01-20 12:17:00,Henry
+2832,Tiramisu,1,2024-01-20 13:35:00,Alice
+2833,Panna Cotta,2,2024-01-20 10:25:00,Henry
+2834,Tea,1,2024-01-20 16:20:00,Henry
+2835,Soup & Salad Combo,1,2024-01-20 11:37:00,Henry
+2836,Granola Bowl,2,2024-01-20 11:03:00,Henry
+2837,Red Velvet Cake,2,2024-01-20 14:52:00,Frank
+2838,Carrot Cake,2,2024-01-20 18:52:00,Diana
+2839,Carrot Cake,1,2024-01-20 18:18:00,Diana
+2840,Quiche,1,2024-01-20 11:15:00,Alice
+2841,Carrot Cake,2,2024-01-20 19:41:00,Grace
+2842,New York Cheesecake,1,2024-01-20 17:22:00,Bob
+2843,Red Velvet Cake,1,2024-01-20 15:04:00,Henry
+2844,Quiche,1,2024-01-20 18:53:00,Bob
+2845,Carrot Cake,1,2024-01-20 12:24:00,Henry
+2846,Carrot Cake,2,2024-01-20 21:16:00,Eve
+2847,Carrot Cake,2,2024-01-20 15:59:00,Frank
+2848,Granola Bowl,2,2024-01-20 13:18:00,Frank
+2849,Smoothie,2,2024-01-20 13:49:00,Alice
+2850,Carrot Cake,3,2024-01-20 12:57:00,Alice
+2851,Carrot Cake,2,2024-01-20 14:24:00,Alice
+2852,Club Sandwich,3,2024-01-20 11:58:00,Henry
+2853,New York Cheesecake,2,2024-01-20 18:50:00,Bob
+2854,Tiramisu,1,2024-01-20 17:31:00,Eve
+2855,Red Velvet Cake,1,2024-01-20 18:03:00,Bob
+2856,Carrot Cake,3,2024-01-20 12:38:00,Henry
+2857,Carrot Cake,1,2024-01-20 11:20:00,Frank
+2858,Carrot Cake,1,2024-01-20 18:47:00,Eve
+2859,Carrot Cake,2,2024-01-20 17:23:00,Bob
+2860,Pavlova,1,2024-01-20 12:56:00,Henry
+2861,Carrot Cake,2,2024-01-20 20:16:00,Grace
+2862,Carrot Cake,1,2024-01-20 16:06:00,Diana
+2863,New York Cheesecake,1,2024-01-20 14:43:00,Frank
+2864,Smoothie,1,2024-01-20 17:13:00,Grace
+2865,Tiramisu,1,2024-01-20 19:31:00,Grace
+2866,Carrot Cake,1,2024-01-20 12:02:00,Frank
+2867,Carrot Cake,3,2024-01-20 18:59:00,Charlie
+2868,Red Velvet Cake,1,2024-01-20 21:36:00,Grace
+2869,Red Velvet Cake,2,2024-01-20 12:47:00,Frank
+2870,Panna Cotta,1,2024-01-20 17:37:00,Diana
+2871,Panna Cotta,3,2024-01-20 15:44:00,Henry
+2872,Smoothie,1,2024-01-20 12:54:00,Alice
+2873,Carrot Cake,1,2024-01-20 12:20:00,Frank
+2874,New York Cheesecake,1,2024-01-20 09:39:00,Alice
+2875,Carrot Cake,1,2024-01-20 18:04:00,Henry
+2876,Red Velvet Cake,2,2024-01-20 12:53:00,Alice
+2877,New York Cheesecake,2,2024-01-20 13:39:00,Frank
+2878,Latte,1,2024-01-20 13:26:00,Alice
+2879,New York Cheesecake,1,2024-01-20 17:35:00,Grace
+2880,New York Cheesecake,1,2024-01-20 12:01:00,Frank
+2881,Latte,2,2024-01-20 18:12:00,Henry
+2882,Carrot Cake,1,2024-01-20 11:05:00,Frank
+2883,Carrot Cake,1,2024-01-20 12:22:00,Frank
+2884,New York Cheesecake,2,2024-01-20 19:34:00,Diana
+2885,Carrot Cake,1,2024-01-20 17:46:00,Charlie
+2886,Smoothie,2,2024-01-20 17:39:00,Bob
+2887,Carrot Cake,2,2024-01-20 14:03:00,Alice
+2888,Red Velvet Cake,1,2024-01-20 17:48:00,Grace
+2889,Carrot Cake,1,2024-01-20 17:28:00,Diana
+2890,Red Velvet Cake,1,2024-01-20 18:28:00,Bob
+2891,Carrot Cake,2,2024-01-20 20:15:00,Eve
+2892,Carrot Cake,3,2024-01-21 19:27:00,Henry
+2893,Carrot Cake,1,2024-01-21 12:57:00,Frank
+2894,Red Velvet Cake,1,2024-01-21 12:16:00,Alice
+2895,New York Cheesecake,1,2024-01-21 13:44:00,Frank
+2896,Carrot Cake,2,2024-01-21 18:50:00,Charlie
+2897,Carrot Cake,2,2024-01-21 12:48:00,Henry
+2898,New York Cheesecake,1,2024-01-21 15:30:00,Frank
+2899,Panna Cotta,1,2024-01-21 17:04:00,Henry
+2900,Red Velvet Cake,2,2024-01-21 19:03:00,Henry
+2901,Panna Cotta,2,2024-01-21 17:52:00,Eve
+2902,Tiramisu,1,2024-01-21 17:59:00,Charlie
+2903,New York Cheesecake,1,2024-01-21 14:18:00,Henry
+2904,Tea,1,2024-01-21 19:41:00,Grace
+2905,Carrot Cake,3,2024-01-21 19:22:00,Henry
+2906,Carrot Cake,2,2024-01-21 13:54:00,Alice
+2907,Carrot Cake,3,2024-01-21 22:42:00,Diana
+2908,Red Velvet Cake,2,2024-01-21 13:17:00,Alice
+2909,Carrot Cake,2,2024-01-21 19:09:00,Bob
+2910,Tea,1,2024-01-21 17:06:00,Grace
+2911,Pavlova,2,2024-01-21 13:40:00,Alice
+2912,Cappuccino,1,2024-01-21 11:34:00,Henry
+2913,Club Sandwich,1,2024-01-21 17:08:00,Bob
+2914,Carrot Cake,2,2024-01-21 13:45:00,Alice
+2915,Yogurt Parfait,1,2024-01-21 12:30:00,Frank
+2916,Tiramisu,2,2024-01-21 13:01:00,Alice
+2917,Carrot Cake,1,2024-01-21 17:56:00,Bob
+2918,Banoffee Pie,1,2024-01-21 17:41:00,Eve
+2919,New York Cheesecake,1,2024-01-21 18:19:00,Henry
+2920,New York Cheesecake,1,2024-01-21 17:37:00,Henry
+2921,Banoffee Pie,1,2024-01-21 12:44:00,Frank
+2922,New York Cheesecake,2,2024-01-21 18:17:00,Henry
+2923,Carrot Cake,2,2024-01-21 17:44:00,Bob
+2924,Cappuccino,3,2024-01-21 20:31:00,Henry
+2925,Carrot Cake,1,2024-01-21 15:27:00,Henry
+2926,Carrot Cake,1,2024-01-21 10:43:00,Henry
+2927,New York Cheesecake,1,2024-01-21 18:27:00,Diana
+2928,Panna Cotta,1,2024-01-21 14:39:00,Henry
+2929,Carrot Cake,2,2024-01-21 12:10:00,Henry
+2930,New York Cheesecake,2,2024-01-21 13:12:00,Frank
+2931,Red Velvet Cake,3,2024-01-21 17:51:00,Grace
+2932,Pavlova,2,2024-01-21 17:00:00,Eve
+2933,Carrot Cake,1,2024-01-21 18:32:00,Diana
+2934,Carrot Cake,3,2024-01-21 12:30:00,Alice
+2935,Red Velvet Cake,1,2024-01-21 12:15:00,Frank
+2936,Tea,3,2024-01-21 17:19:00,Grace
+2937,Carrot Cake,2,2024-01-21 19:31:00,Henry
+2938,Carrot Cake,1,2024-01-21 13:48:00,Henry
+2939,New York Cheesecake,1,2024-01-21 10:47:00,Alice
+2940,Carrot Cake,1,2024-01-21 15:36:00,Frank
+2941,Carrot Cake,3,2024-01-21 10:22:00,Henry
+2942,Red Velvet Cake,1,2024-01-21 17:37:00,Eve
+2943,Carrot Cake,1,2024-01-21 21:56:00,Grace
+2944,Carrot Cake,2,2024-01-21 15:06:00,Alice
+2945,Carrot Cake,1,2024-01-21 10:09:00,Henry
+2946,Panna Cotta,2,2024-01-21 13:09:00,Henry
+2947,Red Velvet Cake,2,2024-01-21 14:57:00,Alice
+2948,Carrot Cake,2,2024-01-21 17:16:00,Henry
+2949,Fresh Juice,1,2024-01-21 19:48:00,Charlie
+2950,Carrot Cake,2,2024-01-21 21:51:00,Grace
+2951,New York Cheesecake,2,2024-01-21 21:48:00,Eve
+2952,Carrot Cake,1,2024-01-21 18:26:00,Henry
+2953,New York Cheesecake,2,2024-01-21 13:45:00,Frank
+2954,Carrot Cake,2,2024-01-21 18:44:00,Charlie
+2955,Red Velvet Cake,3,2024-01-21 19:35:00,Diana
+2956,New York Cheesecake,2,2024-01-21 13:38:00,Henry
+2957,Carrot Cake,1,2024-01-21 12:43:00,Frank
+2958,New York Cheesecake,2,2024-01-21 12:14:00,Henry
+2959,Panna Cotta,3,2024-01-21 19:25:00,Henry
+2960,Banoffee Pie,1,2024-01-21 19:26:00,Grace
+2961,New York Cheesecake,1,2024-01-21 18:39:00,Diana
+2962,Panna Cotta,1,2024-01-21 18:12:00,Grace
+2963,New York Cheesecake,1,2024-01-21 18:14:00,Henry
+2964,Tea,1,2024-01-21 18:17:00,Grace
+2965,Panna Cotta,2,2024-01-21 12:13:00,Henry
+2966,New York Cheesecake,1,2024-01-21 13:14:00,Frank
+2967,Carrot Cake,1,2024-01-21 14:53:00,Alice
+2968,Tea,1,2024-01-21 12:11:00,Frank
+2969,Carrot Cake,1,2024-01-21 19:11:00,Grace
+2970,Tiramisu,1,2024-01-21 12:15:00,Frank
+2971,New York Cheesecake,1,2024-01-21 18:48:00,Diana
+2972,Carrot Cake,1,2024-01-21 11:37:00,Alice
+2973,Banoffee Pie,1,2024-01-21 12:59:00,Frank
+2974,Red Velvet Cake,1,2024-01-21 20:54:00,Charlie
+2975,Smoothie,2,2024-01-21 13:03:00,Frank
+2976,Panna Cotta,2,2024-01-21 17:03:00,Henry
+2977,New York Cheesecake,2,2024-01-21 13:13:00,Henry
+2978,Carrot Cake,2,2024-01-21 19:01:00,Charlie
+2979,Banoffee Pie,1,2024-01-21 12:28:00,Frank
+2980,New York Cheesecake,2,2024-01-21 13:37:00,Henry
+2981,Tiramisu,3,2024-01-21 18:52:00,Henry
+2982,Carrot Cake,2,2024-01-21 19:34:00,Charlie
+2983,New York Cheesecake,2,2024-01-21 17:03:00,Grace
+2984,Panna Cotta,1,2024-01-21 15:22:00,Frank
+2985,Carrot Cake,3,2024-01-21 19:08:00,Grace
+2986,Carrot Cake,1,2024-01-21 13:33:00,Frank
+2987,Triple Chocolate Cake,1,2024-01-21 18:30:00,Diana
+2988,Panna Cotta,2,2024-01-21 12:47:00,Henry
+2989,Carrot Cake,1,2024-01-21 18:57:00,Grace
+2990,Pavlova,3,2024-01-21 17:09:00,Henry
+2991,Red Velvet Cake,2,2024-01-21 12:59:00,Frank
+2992,Red Velvet Cake,2,2024-01-21 13:23:00,Alice
+2993,Panna Cotta,2,2024-01-21 17:40:00,Grace
+2994,Red Velvet Cake,1,2024-01-21 15:09:00,Henry
+2995,Carrot Cake,1,2024-01-21 15:14:00,Alice
+2996,Carrot Cake,1,2024-01-21 19:23:00,Diana
+2997,Carrot Cake,1,2024-01-21 14:36:00,Frank
+2998,Red Velvet Cake,1,2024-01-21 18:36:00,Bob
+2999,New York Cheesecake,1,2024-01-21 14:06:00,Alice
+3000,Carrot Cake,2,2024-01-21 17:25:00,Henry
+3001,Carrot Cake,1,2024-01-21 11:18:00,Frank
+3002,Smoothie,3,2024-01-21 12:20:00,Henry
+3003,Panna Cotta,3,2024-01-21 13:56:00,Alice
+3004,Triple Chocolate Cake,3,2024-01-21 15:39:00,Alice
+3005,New York Cheesecake,2,2024-01-21 19:10:00,Charlie
+3006,Carrot Cake,2,2024-01-21 19:31:00,Grace
+3007,Carrot Cake,1,2024-01-21 19:45:00,Bob
+3008,Carrot Cake,2,2024-01-21 14:09:00,Henry
+3009,Carrot Cake,1,2024-01-21 10:46:00,Frank
+3010,Carrot Cake,2,2024-01-21 18:53:00,Eve
+3011,Quiche,2,2024-01-21 12:06:00,Alice
+3012,Tiramisu,1,2024-01-21 12:58:00,Henry
+3013,Panna Cotta,2,2024-01-21 14:43:00,Henry
+3014,Red Velvet Cake,2,2024-01-21 15:59:00,Henry
+3015,Pavlova,3,2024-01-21 20:50:00,Henry
+3016,Red Velvet Cake,2,2024-01-21 13:19:00,Frank
+3017,Carrot Cake,1,2024-01-21 19:22:00,Bob
+3018,Carrot Cake,1,2024-01-21 09:37:00,Frank
+3019,Panna Cotta,1,2024-01-21 17:10:00,Charlie
+3020,Carrot Cake,1,2024-01-21 13:08:00,Alice
+3021,Carrot Cake,2,2024-01-21 16:08:00,Eve
+3022,New York Cheesecake,2,2024-01-21 17:45:00,Diana
+3023,Carrot Cake,1,2024-01-21 14:54:00,Alice
+3024,New York Cheesecake,3,2024-01-21 18:19:00,Diana
+3025,Pavlova,1,2024-01-21 15:03:00,Alice
+3026,New York Cheesecake,2,2024-01-21 21:04:00,Grace
+3027,Tiramisu,1,2024-01-21 18:41:00,Bob
+3028,Red Velvet Cake,2,2024-01-21 09:43:00,Henry
+3029,Carrot Cake,1,2024-01-21 15:30:00,Henry
+3030,New York Cheesecake,1,2024-01-21 19:55:00,Grace
+3031,New York Cheesecake,1,2024-01-21 20:54:00,Bob
+3032,Carrot Cake,2,2024-01-21 15:45:00,Henry
+3033,New York Cheesecake,1,2024-01-21 15:49:00,Frank
+3034,Banoffee Pie,1,2024-01-21 11:41:00,Henry
+3035,New York Cheesecake,1,2024-01-21 11:07:00,Frank
+3036,Carrot Cake,2,2024-01-21 13:54:00,Henry
+3037,New York Cheesecake,1,2024-01-21 14:45:00,Frank
+3038,Tiramisu,1,2024-01-21 15:12:00,Henry
+3039,Red Velvet Cake,1,2024-01-21 19:10:00,Diana
+3040,Tea,2,2024-01-21 18:10:00,Diana
+3041,Tiramisu,3,2024-01-21 16:26:00,Henry
+3042,Carrot Cake,1,2024-01-21 20:39:00,Eve
+3043,Tea,1,2024-01-21 16:16:00,Bob
+3044,Red Velvet Cake,2,2024-01-21 18:46:00,Bob
+3045,Smoothie,1,2024-01-21 17:42:00,Diana
+3046,Carrot Cake,1,2024-01-21 12:45:00,Frank
+3047,New York Cheesecake,1,2024-01-21 19:08:00,Eve
+3048,New York Cheesecake,1,2024-01-21 13:26:00,Alice
+3049,Carrot Cake,2,2024-01-21 19:50:00,Henry
+3050,Carrot Cake,2,2024-01-21 18:29:00,Grace
+3051,New York Cheesecake,1,2024-01-21 14:22:00,Frank
+3052,Carrot Cake,1,2024-01-21 12:51:00,Henry
+3053,Red Velvet Cake,2,2024-01-21 17:21:00,Grace
+3054,New York Cheesecake,1,2024-01-22 13:17:00,Frank
+3055,Panna Cotta,1,2024-01-22 11:15:00,Frank
+3056,Pavlova,3,2024-01-22 18:06:00,Eve
+3057,Carrot Cake,2,2024-01-22 12:37:00,Henry
+3058,Fresh Juice,1,2024-01-22 12:26:00,Alice
+3059,New York Cheesecake,2,2024-01-22 19:50:00,Eve
+3060,Tea,1,2024-01-22 12:39:00,Frank
+3061,Tiramisu,2,2024-01-22 19:18:00,Henry
+3062,Smoothie,2,2024-01-22 12:47:00,Frank
+3063,New York Cheesecake,1,2024-01-22 19:46:00,Charlie
+3064,Carrot Cake,1,2024-01-22 19:45:00,Charlie
+3065,Panna Cotta,3,2024-01-22 12:14:00,Alice
+3066,Carrot Cake,2,2024-01-22 18:32:00,Charlie
+3067,Carrot Cake,1,2024-01-22 18:59:00,Charlie
+3068,Banoffee Pie,1,2024-01-22 12:15:00,Frank
+3069,Banoffee Pie,1,2024-01-22 13:21:00,Frank
+3070,Red Velvet Cake,1,2024-01-22 11:11:00,Frank
+3071,New York Cheesecake,1,2024-01-22 11:43:00,Frank
+3072,Cappuccino,2,2024-01-22 17:17:00,Diana
+3073,New York Cheesecake,2,2024-01-22 16:57:00,Charlie
+3074,Red Velvet Cake,3,2024-01-22 18:05:00,Grace
+3075,Red Velvet Cake,1,2024-01-22 17:56:00,Henry
+3076,Red Velvet Cake,1,2024-01-22 17:34:00,Charlie
+3077,Red Velvet Cake,1,2024-01-22 15:06:00,Alice
+3078,Smoothie,2,2024-01-22 17:13:00,Henry
+3079,Carrot Cake,3,2024-01-22 13:03:00,Henry
+3080,Panna Cotta,1,2024-01-22 18:04:00,Eve
+3081,Carrot Cake,2,2024-01-22 16:53:00,Diana
+3082,New York Cheesecake,1,2024-01-22 14:47:00,Alice
+3083,Carrot Cake,2,2024-01-22 17:28:00,Eve
+3084,New York Cheesecake,2,2024-01-22 13:26:00,Henry
+3085,Red Velvet Cake,2,2024-01-22 16:56:00,Henry
+3086,Carrot Cake,1,2024-01-22 18:36:00,Bob
+3087,Carrot Cake,2,2024-01-22 12:52:00,Alice
+3088,Panna Cotta,1,2024-01-22 13:15:00,Alice
+3089,Red Velvet Cake,1,2024-01-22 18:32:00,Charlie
+3090,New York Cheesecake,2,2024-01-22 17:22:00,Grace
+3091,Carrot Cake,2,2024-01-22 20:21:00,Diana
+3092,Carrot Cake,2,2024-01-22 11:45:00,Henry
+3093,Red Velvet Cake,1,2024-01-22 12:39:00,Frank
+3094,New York Cheesecake,3,2024-01-22 09:58:00,Alice
+3095,Pavlova,1,2024-01-22 17:07:00,Henry
+3096,New York Cheesecake,1,2024-01-22 12:34:00,Alice
+3097,Carrot Cake,1,2024-01-22 12:24:00,Henry
+3098,Carrot Cake,2,2024-01-22 18:57:00,Eve
+3099,Panna Cotta,2,2024-01-22 09:55:00,Alice
+3100,New York Cheesecake,1,2024-01-22 15:29:00,Henry
+3101,Carrot Cake,2,2024-01-22 12:13:00,Alice
+3102,New York Cheesecake,1,2024-01-22 19:41:00,Charlie
+3103,New York Cheesecake,1,2024-01-22 18:26:00,Bob
+3104,Carrot Cake,1,2024-01-22 12:34:00,Frank
+3105,Red Velvet Cake,2,2024-01-22 13:32:00,Henry
+3106,Red Velvet Cake,2,2024-01-22 19:17:00,Eve
+3107,Pavlova,1,2024-01-22 11:30:00,Frank
+3108,Panna Cotta,1,2024-01-22 19:13:00,Charlie
+3109,Carrot Cake,2,2024-01-22 16:04:00,Diana
+3110,Panna Cotta,1,2024-01-22 19:55:00,Diana
+3111,Panna Cotta,1,2024-01-22 17:28:00,Charlie
+3112,Carrot Cake,1,2024-01-22 18:10:00,Henry
+3113,Smoothie,1,2024-01-22 14:46:00,Frank
+3114,Carrot Cake,1,2024-01-22 18:42:00,Henry
+3115,Carrot Cake,3,2024-01-22 17:26:00,Diana
+3116,Carrot Cake,1,2024-01-22 13:04:00,Frank
+3117,Carrot Cake,1,2024-01-22 17:17:00,Grace
+3118,New York Cheesecake,1,2024-01-22 11:25:00,Frank
+3119,Carrot Cake,1,2024-01-22 17:54:00,Henry
+3120,Tea,1,2024-01-22 17:45:00,Grace
+3121,New York Cheesecake,3,2024-01-22 17:51:00,Diana
+3122,Red Velvet Cake,2,2024-01-22 19:47:00,Bob
+3123,Red Velvet Cake,3,2024-01-22 17:24:00,Henry
+3124,Carrot Cake,2,2024-01-22 18:55:00,Charlie
+3125,Carrot Cake,2,2024-01-22 12:57:00,Henry
+3126,New York Cheesecake,2,2024-01-22 13:30:00,Henry
+3127,Tea,2,2024-01-22 18:19:00,Eve
+3128,Red Velvet Cake,2,2024-01-22 15:46:00,Alice
+3129,Tea,2,2024-01-22 13:38:00,Henry
+3130,Bagel & Cream Cheese,1,2024-01-22 11:34:00,Frank
+3131,Carrot Cake,2,2024-01-22 16:00:00,Diana
+3132,Carrot Cake,3,2024-01-22 13:36:00,Alice
+3133,Carrot Cake,2,2024-01-22 12:40:00,Alice
+3134,Carrot Cake,2,2024-01-22 12:39:00,Henry
+3135,Red Velvet Cake,1,2024-01-22 13:00:00,Frank
+3136,Tea,1,2024-01-22 20:23:00,Charlie
+3137,Red Velvet Cake,1,2024-01-22 17:06:00,Grace
+3138,Carrot Cake,3,2024-01-22 11:35:00,Henry
+3139,Carrot Cake,2,2024-01-22 13:30:00,Henry
+3140,Panna Cotta,2,2024-01-22 13:03:00,Alice
+3141,Iced Coffee,1,2024-01-22 12:31:00,Frank
+3142,Carrot Cake,2,2024-01-22 10:57:00,Alice
+3143,Carrot Cake,2,2024-01-22 18:00:00,Charlie
+3144,Cappuccino,1,2024-01-22 13:55:00,Frank
+3145,New York Cheesecake,2,2024-01-22 15:04:00,Henry
+3146,New York Cheesecake,2,2024-01-22 18:55:00,Eve
+3147,Carrot Cake,2,2024-01-22 18:26:00,Grace
+3148,Carrot Cake,1,2024-01-22 12:25:00,Alice
+3149,New York Cheesecake,2,2024-01-22 17:28:00,Charlie
+3150,New York Cheesecake,2,2024-01-22 12:48:00,Alice
+3151,Red Velvet Cake,1,2024-01-22 14:35:00,Alice
+3152,Panna Cotta,1,2024-01-22 10:48:00,Henry
+3153,Pavlova,2,2024-01-22 19:08:00,Eve
+3154,Red Velvet Cake,3,2024-01-22 19:34:00,Bob
+3155,Red Velvet Cake,3,2024-01-22 18:54:00,Henry
+3156,Red Velvet Cake,1,2024-01-22 13:44:00,Henry
+3157,Carrot Cake,1,2024-01-22 12:37:00,Frank
+3158,Carrot Cake,1,2024-01-22 19:58:00,Diana
+3159,Carrot Cake,2,2024-01-23 12:54:00,Frank
+3160,Red Velvet Cake,1,2024-01-23 18:34:00,Bob
+3161,Carrot Cake,1,2024-01-23 14:14:00,Frank
+3162,Carrot Cake,1,2024-01-23 18:49:00,Henry
+3163,Carrot Cake,2,2024-01-23 13:27:00,Alice
+3164,Quiche,2,2024-01-23 13:36:00,Alice
+3165,Club Sandwich,2,2024-01-23 11:41:00,Henry
+3166,New York Cheesecake,2,2024-01-23 18:19:00,Eve
+3167,Carrot Cake,2,2024-01-23 15:06:00,Henry
+3168,Panna Cotta,2,2024-01-23 18:35:00,Eve
+3169,Yogurt Parfait,1,2024-01-23 12:46:00,Alice
+3170,Tiramisu,2,2024-01-23 17:29:00,Grace
+3171,New York Cheesecake,1,2024-01-23 17:52:00,Charlie
+3172,Red Velvet Cake,2,2024-01-23 12:55:00,Frank
+3173,Red Velvet Cake,2,2024-01-23 19:38:00,Eve
+3174,Panna Cotta,1,2024-01-23 17:56:00,Diana
+3175,Carrot Cake,1,2024-01-23 13:02:00,Henry
+3176,Red Velvet Cake,1,2024-01-23 16:57:00,Diana
+3177,Carrot Cake,3,2024-01-23 17:11:00,Eve
+3178,Carrot Cake,1,2024-01-23 12:39:00,Frank
+3179,Carrot Cake,1,2024-01-23 15:44:00,Alice
+3180,Red Velvet Cake,1,2024-01-23 12:02:00,Frank
+3181,Carrot Cake,3,2024-01-23 22:56:00,Henry
+3182,New York Cheesecake,1,2024-01-23 12:33:00,Frank
+3183,Carrot Cake,2,2024-01-23 18:10:00,Eve
+3184,Panna Cotta,3,2024-01-23 21:02:00,Henry
+3185,Panna Cotta,2,2024-01-23 17:08:00,Charlie
+3186,Red Velvet Cake,1,2024-01-23 17:02:00,Charlie
+3187,Red Velvet Cake,1,2024-01-23 12:33:00,Alice
+3188,Carrot Cake,3,2024-01-23 18:36:00,Diana
+3189,Carrot Cake,1,2024-01-23 12:09:00,Henry
+3190,Carrot Cake,2,2024-01-23 14:01:00,Henry
+3191,New York Cheesecake,1,2024-01-23 13:47:00,Frank
+3192,Carrot Cake,1,2024-01-23 19:06:00,Eve
+3193,Pavlova,2,2024-01-23 12:55:00,Henry
+3194,Carrot Cake,2,2024-01-23 19:53:00,Charlie
+3195,Carrot Cake,2,2024-01-23 17:16:00,Diana
+3196,New York Cheesecake,2,2024-01-23 13:16:00,Alice
+3197,Red Velvet Cake,2,2024-01-23 20:14:00,Grace
+3198,Quiche,2,2024-01-23 18:08:00,Charlie
+3199,Cappuccino,1,2024-01-23 13:18:00,Henry
+3200,Carrot Cake,1,2024-01-23 19:17:00,Bob
+3201,Fresh Juice,1,2024-01-23 17:30:00,Henry
+3202,Panna Cotta,2,2024-01-23 12:33:00,Henry
+3203,Carrot Cake,2,2024-01-23 11:56:00,Henry
+3204,Banoffee Pie,3,2024-01-23 17:04:00,Diana
+3205,Red Velvet Cake,1,2024-01-23 13:28:00,Frank
+3206,Pavlova,2,2024-01-23 13:19:00,Alice
+3207,New York Cheesecake,1,2024-01-23 19:40:00,Charlie
+3208,Carrot Cake,1,2024-01-23 15:30:00,Alice
+3209,New York Cheesecake,2,2024-01-23 12:15:00,Frank
+3210,Carrot Cake,3,2024-01-23 13:14:00,Alice
+3211,Carrot Cake,2,2024-01-23 19:15:00,Bob
+3212,New York Cheesecake,2,2024-01-23 18:08:00,Henry
+3213,Carrot Cake,1,2024-01-23 12:29:00,Frank
+3214,Carrot Cake,1,2024-01-23 13:03:00,Alice
+3215,New York Cheesecake,1,2024-01-23 11:49:00,Henry
+3216,Panna Cotta,2,2024-01-23 18:40:00,Eve
+3217,New York Cheesecake,3,2024-01-23 17:12:00,Henry
+3218,Red Velvet Cake,2,2024-01-23 10:23:00,Alice
+3219,Carrot Cake,2,2024-01-23 14:37:00,Frank
+3220,Carrot Cake,3,2024-01-23 13:23:00,Henry
+3221,New York Cheesecake,2,2024-01-23 16:53:00,Charlie
+3222,Carrot Cake,2,2024-01-23 15:23:00,Henry
+3223,Carrot Cake,2,2024-01-23 14:25:00,Alice
+3224,Panna Cotta,1,2024-01-23 17:45:00,Henry
+3225,Pavlova,1,2024-01-23 12:59:00,Henry
+3226,Pavlova,2,2024-01-23 12:41:00,Alice
+3227,Tiramisu,1,2024-01-23 12:53:00,Frank
+3228,Carrot Cake,1,2024-01-23 14:06:00,Alice
+3229,Carrot Cake,1,2024-01-23 13:14:00,Henry
+3230,Carrot Cake,1,2024-01-23 18:07:00,Henry
+3231,New York Cheesecake,1,2024-01-23 21:55:00,Diana
+3232,Carrot Cake,2,2024-01-23 18:58:00,Diana
+3233,Panna Cotta,1,2024-01-23 17:57:00,Grace
+3234,Carrot Cake,1,2024-01-23 19:58:00,Charlie
+3235,Carrot Cake,2,2024-01-23 12:08:00,Henry
+3236,Tea,2,2024-01-23 16:01:00,Charlie
+3237,Yogurt Parfait,2,2024-01-23 20:18:00,Henry
+3238,Carrot Cake,2,2024-01-23 19:21:00,Bob
+3239,Red Velvet Cake,1,2024-01-23 12:03:00,Henry
+3240,Carrot Cake,2,2024-01-23 19:33:00,Bob
+3241,Pavlova,1,2024-01-23 22:29:00,Henry
+3242,New York Cheesecake,1,2024-01-23 17:26:00,Bob
+3243,Carrot Cake,1,2024-01-23 12:29:00,Henry
+3244,Banoffee Pie,1,2024-01-23 18:51:00,Henry
+3245,Carrot Cake,2,2024-01-23 16:29:00,Bob
+3246,Carrot Cake,2,2024-01-23 13:03:00,Henry
+3247,Banoffee Pie,3,2024-01-23 18:02:00,Bob
+3248,Carrot Cake,1,2024-01-23 13:21:00,Frank
+3249,Tiramisu,1,2024-01-23 11:48:00,Henry
+3250,Tea,2,2024-01-23 19:03:00,Eve
+3251,New York Cheesecake,1,2024-01-23 17:32:00,Grace
+3252,Red Velvet Cake,2,2024-01-23 19:11:00,Grace
+3253,Carrot Cake,2,2024-01-23 17:56:00,Bob
+3254,New York Cheesecake,1,2024-01-23 18:33:00,Bob
+3255,Red Velvet Cake,1,2024-01-23 19:20:00,Bob
+3256,Bagel & Cream Cheese,1,2024-01-23 19:06:00,Charlie
+3257,Quiche,3,2024-01-23 18:42:00,Henry
+3258,Panna Cotta,2,2024-01-23 12:24:00,Henry
+3259,New York Cheesecake,3,2024-01-23 18:30:00,Diana
+3260,Pavlova,3,2024-01-23 18:23:00,Diana
+3261,Red Velvet Cake,3,2024-01-23 10:24:00,Alice
+3262,Carrot Cake,1,2024-01-23 12:01:00,Alice
+3263,Red Velvet Cake,3,2024-01-23 13:17:00,Alice
+3264,New York Cheesecake,1,2024-01-23 12:28:00,Alice
+3265,Carrot Cake,1,2024-01-23 12:50:00,Alice
+3266,Cappuccino,1,2024-01-23 20:30:00,Eve
+3267,Panna Cotta,1,2024-01-23 12:27:00,Alice
+3268,Banoffee Pie,1,2024-01-23 11:35:00,Frank
+3269,Carrot Cake,1,2024-01-24 21:43:00,Charlie
+3270,Carrot Cake,1,2024-01-24 15:59:00,Henry
+3271,Yogurt Parfait,2,2024-01-24 14:58:00,Henry
+3272,Carrot Cake,1,2024-01-24 13:48:00,Frank
+3273,Red Velvet Cake,2,2024-01-24 19:01:00,Eve
+3274,Carrot Cake,2,2024-01-24 13:44:00,Frank
+3275,Carrot Cake,2,2024-01-24 12:53:00,Henry
+3276,New York Cheesecake,1,2024-01-24 15:39:00,Frank
+3277,Carrot Cake,1,2024-01-24 12:49:00,Frank
+3278,New York Cheesecake,2,2024-01-24 16:02:00,Charlie
+3279,New York Cheesecake,2,2024-01-24 16:44:00,Grace
+3280,New York Cheesecake,1,2024-01-24 12:40:00,Alice
+3281,Red Velvet Cake,3,2024-01-24 12:37:00,Alice
+3282,Fresh Juice,3,2024-01-24 12:43:00,Alice
+3283,Carrot Cake,2,2024-01-24 12:30:00,Henry
+3284,Panna Cotta,1,2024-01-24 09:30:00,Frank
+3285,New York Cheesecake,1,2024-01-24 09:20:00,Frank
+3286,Carrot Cake,1,2024-01-24 19:10:00,Diana
+3287,New York Cheesecake,2,2024-01-24 13:40:00,Alice
+3288,Carrot Cake,1,2024-01-24 14:08:00,Frank
+3289,Red Velvet Cake,2,2024-01-24 17:39:00,Henry
+3290,Latte,1,2024-01-24 20:36:00,Eve
+3291,Granola Bowl,3,2024-01-24 17:17:00,Charlie
+3292,New York Cheesecake,3,2024-01-24 12:15:00,Henry
+3293,Smoothie,2,2024-01-24 20:57:00,Eve
+3294,Carrot Cake,1,2024-01-24 15:20:00,Frank
+3295,Red Velvet Cake,1,2024-01-24 13:47:00,Frank
+3296,Red Velvet Cake,3,2024-01-24 17:48:00,Eve
+3297,Red Velvet Cake,3,2024-01-24 19:11:00,Eve
+3298,Red Velvet Cake,2,2024-01-24 12:36:00,Alice
+3299,Carrot Cake,1,2024-01-24 18:28:00,Bob
+3300,Carrot Cake,2,2024-01-24 13:46:00,Alice
+3301,Quiche,2,2024-01-24 10:04:00,Alice
+3302,Carrot Cake,3,2024-01-24 21:13:00,Eve
+3303,New York Cheesecake,1,2024-01-24 13:59:00,Alice
+3304,Red Velvet Cake,1,2024-01-24 14:25:00,Frank
+3305,Carrot Cake,2,2024-01-24 13:59:00,Alice
+3306,Panna Cotta,1,2024-01-24 10:51:00,Alice
+3307,Carrot Cake,3,2024-01-24 11:45:00,Alice
+3308,New York Cheesecake,2,2024-01-24 18:13:00,Eve
+3309,New York Cheesecake,2,2024-01-24 19:44:00,Grace
+3310,Panna Cotta,2,2024-01-24 17:20:00,Charlie
+3311,Quiche,1,2024-01-24 11:36:00,Alice
+3312,Red Velvet Cake,1,2024-01-24 20:31:00,Diana
+3313,Carrot Cake,1,2024-01-24 13:00:00,Henry
+3314,New York Cheesecake,3,2024-01-24 15:41:00,Alice
+3315,Banoffee Pie,2,2024-01-24 19:49:00,Charlie
+3316,Pavlova,1,2024-01-24 19:10:00,Charlie
+3317,Pavlova,1,2024-01-24 10:19:00,Frank
+3318,Smoothie,2,2024-01-24 19:58:00,Diana
+3319,Carrot Cake,1,2024-01-24 19:31:00,Grace
+3320,Carrot Cake,2,2024-01-24 19:01:00,Bob
+3321,New York Cheesecake,1,2024-01-24 12:00:00,Alice
+3322,New York Cheesecake,1,2024-01-24 18:28:00,Bob
+3323,Carrot Cake,2,2024-01-24 17:28:00,Bob
+3324,Panna Cotta,1,2024-01-24 12:08:00,Henry
+3325,Carrot Cake,1,2024-01-24 13:05:00,Henry
+3326,Carrot Cake,3,2024-01-24 16:36:00,Diana
+3327,Carrot Cake,3,2024-01-24 16:25:00,Diana
+3328,Latte,3,2024-01-24 15:12:00,Alice
+3329,New York Cheesecake,2,2024-01-24 14:54:00,Frank
+3330,Red Velvet Cake,1,2024-01-24 15:39:00,Alice
+3331,Carrot Cake,1,2024-01-24 12:08:00,Henry
+3332,Red Velvet Cake,3,2024-01-24 19:07:00,Diana
+3333,Tiramisu,2,2024-01-24 12:11:00,Henry
+3334,New York Cheesecake,1,2024-01-24 17:09:00,Diana
+3335,Carrot Cake,2,2024-01-24 17:28:00,Bob
+3336,New York Cheesecake,2,2024-01-24 15:16:00,Alice
+3337,Panna Cotta,1,2024-01-24 13:17:00,Henry
+3338,Panna Cotta,2,2024-01-24 18:31:00,Bob
+3339,Carrot Cake,1,2024-01-24 18:42:00,Bob
+3340,New York Cheesecake,2,2024-01-24 17:03:00,Diana
+3341,Carrot Cake,1,2024-01-24 20:23:00,Diana
+3342,Red Velvet Cake,1,2024-01-24 12:51:00,Frank
+3343,Smoothie,1,2024-01-24 12:06:00,Frank
+3344,Carrot Cake,2,2024-01-24 18:31:00,Grace
+3345,Pavlova,1,2024-01-24 14:17:00,Alice
+3346,Red Velvet Cake,2,2024-01-24 18:55:00,Grace
+3347,New York Cheesecake,1,2024-01-24 12:01:00,Alice
+3348,Carrot Cake,1,2024-01-24 18:25:00,Charlie
+3349,New York Cheesecake,1,2024-01-24 13:21:00,Henry
+3350,Panna Cotta,1,2024-01-24 19:17:00,Diana
+3351,Carrot Cake,2,2024-01-24 17:34:00,Eve
+3352,Panna Cotta,2,2024-01-24 12:58:00,Alice
+3353,Carrot Cake,1,2024-01-24 12:07:00,Frank
+3354,Red Velvet Cake,2,2024-01-24 11:22:00,Alice
+3355,Red Velvet Cake,1,2024-01-24 14:09:00,Henry
+3356,Latte,1,2024-01-24 19:05:00,Bob
+3357,Carrot Cake,3,2024-01-24 13:41:00,Alice
+3358,Red Velvet Cake,1,2024-01-24 13:06:00,Alice
+3359,Tea,3,2024-01-24 18:03:00,Bob
+3360,Smoothie,2,2024-01-24 12:24:00,Frank
+3361,Tiramisu,2,2024-01-24 18:06:00,Bob
+3362,New York Cheesecake,2,2024-01-24 13:17:00,Henry
+3363,Red Velvet Cake,1,2024-01-24 12:16:00,Frank
+3364,New York Cheesecake,2,2024-01-24 11:22:00,Henry
+3365,Iced Coffee,3,2024-01-24 19:49:00,Diana
+3366,Panna Cotta,1,2024-01-24 13:10:00,Frank
+3367,Tea,2,2024-01-24 17:42:00,Eve
+3368,New York Cheesecake,1,2024-01-24 18:55:00,Eve
+3369,Carrot Cake,2,2024-01-24 17:32:00,Eve
+3370,Carrot Cake,1,2024-01-24 14:59:00,Alice
+3371,Tiramisu,2,2024-01-24 17:58:00,Eve
+3372,Club Sandwich,3,2024-01-25 12:13:00,Henry
+3373,Fresh Juice,1,2024-01-25 13:39:00,Frank
+3374,Red Velvet Cake,1,2024-01-25 17:17:00,Charlie
+3375,Bagel & Cream Cheese,1,2024-01-25 11:41:00,Frank
+3376,Carrot Cake,3,2024-01-25 17:59:00,Eve
+3377,New York Cheesecake,1,2024-01-25 10:33:00,Alice
+3378,Carrot Cake,3,2024-01-25 19:36:00,Eve
+3379,Banoffee Pie,1,2024-01-25 20:27:00,Henry
+3380,Carrot Cake,1,2024-01-25 09:05:00,Alice
+3381,Carrot Cake,1,2024-01-25 12:15:00,Alice
+3382,Carrot Cake,2,2024-01-25 12:44:00,Alice
+3383,Carrot Cake,1,2024-01-25 11:47:00,Henry
+3384,Carrot Cake,1,2024-01-25 12:27:00,Alice
+3385,Carrot Cake,1,2024-01-25 20:22:00,Charlie
+3386,Cappuccino,1,2024-01-25 17:28:00,Bob
+3387,Carrot Cake,3,2024-01-25 18:33:00,Eve
+3388,Red Velvet Cake,3,2024-01-25 17:18:00,Bob
+3389,New York Cheesecake,3,2024-01-25 12:42:00,Alice
+3390,New York Cheesecake,1,2024-01-25 15:11:00,Frank
+3391,Quiche,2,2024-01-25 12:19:00,Alice
+3392,New York Cheesecake,1,2024-01-25 13:08:00,Henry
+3393,Granola Bowl,2,2024-01-25 13:10:00,Alice
+3394,Carrot Cake,1,2024-01-25 12:18:00,Frank
+3395,Red Velvet Cake,1,2024-01-25 12:13:00,Frank
+3396,Panna Cotta,2,2024-01-25 19:20:00,Charlie
+3397,Tiramisu,2,2024-01-25 12:18:00,Alice
+3398,Red Velvet Cake,2,2024-01-25 20:46:00,Eve
+3399,New York Cheesecake,1,2024-01-25 21:09:00,Eve
+3400,Carrot Cake,1,2024-01-25 17:23:00,Henry
+3401,New York Cheesecake,2,2024-01-25 16:15:00,Bob
+3402,New York Cheesecake,2,2024-01-25 19:14:00,Charlie
+3403,Carrot Cake,2,2024-01-25 09:59:00,Alice
+3404,Carrot Cake,2,2024-01-25 14:54:00,Frank
+3405,Tea,1,2024-01-25 15:45:00,Frank
+3406,Carrot Cake,2,2024-01-25 16:22:00,Eve
+3407,Carrot Cake,1,2024-01-25 16:35:00,Grace
+3408,Carrot Cake,2,2024-01-25 12:52:00,Henry
+3409,Red Velvet Cake,3,2024-01-25 19:34:00,Grace
+3410,Carrot Cake,1,2024-01-25 19:05:00,Diana
+3411,Panna Cotta,1,2024-01-25 14:25:00,Alice
+3412,New York Cheesecake,1,2024-01-25 17:31:00,Diana
+3413,Tea,1,2024-01-25 13:37:00,Henry
+3414,Red Velvet Cake,1,2024-01-25 17:21:00,Grace
+3415,Carrot Cake,1,2024-01-25 14:31:00,Frank
+3416,New York Cheesecake,1,2024-01-25 14:50:00,Alice
+3417,Carrot Cake,1,2024-01-25 19:59:00,Eve
+3418,Pavlova,3,2024-01-25 12:42:00,Alice
+3419,Panna Cotta,2,2024-01-25 13:37:00,Alice
+3420,Carrot Cake,2,2024-01-25 10:38:00,Henry
+3421,Carrot Cake,2,2024-01-25 13:23:00,Henry
+3422,Quiche,1,2024-01-25 17:46:00,Diana
+3423,Panna Cotta,2,2024-01-25 17:01:00,Diana
+3424,New York Cheesecake,3,2024-01-25 18:57:00,Diana
+3425,Panna Cotta,2,2024-01-25 15:40:00,Frank
+3426,Red Velvet Cake,2,2024-01-25 22:50:00,Bob
+3427,Carrot Cake,2,2024-01-25 11:54:00,Henry
+3428,Red Velvet Cake,1,2024-01-25 14:40:00,Alice
+3429,New York Cheesecake,2,2024-01-25 14:00:00,Henry
+3430,New York Cheesecake,2,2024-01-25 18:50:00,Grace
+3431,New York Cheesecake,2,2024-01-25 12:22:00,Henry
+3432,Banoffee Pie,1,2024-01-25 18:35:00,Diana
+3433,New York Cheesecake,2,2024-01-25 19:07:00,Charlie
+3434,Carrot Cake,2,2024-01-25 13:14:00,Henry
+3435,New York Cheesecake,3,2024-01-25 19:21:00,Henry
+3436,Pavlova,2,2024-01-25 14:18:00,Alice
+3437,Carrot Cake,2,2024-01-25 12:49:00,Frank
+3438,Carrot Cake,2,2024-01-25 12:07:00,Henry
+3439,New York Cheesecake,1,2024-01-25 19:54:00,Eve
+3440,Carrot Cake,1,2024-01-25 12:53:00,Henry
+3441,New York Cheesecake,1,2024-01-25 18:16:00,Henry
+3442,Smoothie,3,2024-01-25 15:11:00,Alice
+3443,Fresh Juice,3,2024-01-25 18:34:00,Henry
+3444,Carrot Cake,2,2024-01-25 19:09:00,Eve
+3445,Carrot Cake,1,2024-01-25 13:28:00,Frank
+3446,New York Cheesecake,2,2024-01-25 13:20:00,Alice
+3447,Carrot Cake,2,2024-01-25 11:41:00,Alice
+3448,New York Cheesecake,1,2024-01-25 14:56:00,Henry
+3449,Smoothie,2,2024-01-25 19:21:00,Diana
+3450,Carrot Cake,3,2024-01-25 11:06:00,Alice
+3451,Pavlova,3,2024-01-25 18:33:00,Diana
+3452,Carrot Cake,1,2024-01-25 17:30:00,Bob
+3453,Carrot Cake,2,2024-01-25 18:30:00,Charlie
+3454,Banoffee Pie,2,2024-01-25 17:35:00,Henry
+3455,New York Cheesecake,3,2024-01-25 19:28:00,Diana
+3456,New York Cheesecake,1,2024-01-25 18:19:00,Diana
+3457,Carrot Cake,1,2024-01-25 11:20:00,Frank
+3458,Red Velvet Cake,2,2024-01-25 20:47:00,Henry
+3459,Latte,2,2024-01-25 19:26:00,Eve
+3460,Banoffee Pie,1,2024-01-25 12:50:00,Alice
+3461,Red Velvet Cake,2,2024-01-25 19:23:00,Eve
+3462,Carrot Cake,2,2024-01-25 19:12:00,Eve
+3463,Carrot Cake,1,2024-01-25 12:57:00,Alice
+3464,Carrot Cake,3,2024-01-25 10:48:00,Alice
+3465,Latte,2,2024-01-25 13:25:00,Frank
+3466,Carrot Cake,2,2024-01-25 17:56:00,Bob
+3467,Tiramisu,3,2024-01-25 21:16:00,Grace
+3468,New York Cheesecake,1,2024-01-25 19:22:00,Eve
+3469,Carrot Cake,1,2024-01-25 17:13:00,Henry
+3470,Panna Cotta,2,2024-01-25 13:21:00,Henry
+3471,New York Cheesecake,1,2024-01-25 17:27:00,Henry
+3472,Red Velvet Cake,3,2024-01-25 10:42:00,Henry
+3473,Red Velvet Cake,1,2024-01-25 20:49:00,Diana
+3474,Carrot Cake,1,2024-01-25 18:38:00,Grace
+3475,Carrot Cake,2,2024-01-25 13:57:00,Frank
+3476,New York Cheesecake,1,2024-01-25 18:17:00,Bob
+3477,New York Cheesecake,2,2024-01-25 17:14:00,Henry
+3478,Carrot Cake,2,2024-01-25 18:22:00,Bob
+3479,Carrot Cake,2,2024-01-25 12:45:00,Henry
+3480,Carrot Cake,1,2024-01-26 19:47:00,Charlie
+3481,New York Cheesecake,3,2024-01-26 16:30:00,Grace
+3482,Smoothie,3,2024-01-26 18:20:00,Charlie
+3483,Red Velvet Cake,3,2024-01-26 14:08:00,Alice
+3484,Carrot Cake,1,2024-01-26 20:32:00,Grace
+3485,Carrot Cake,1,2024-01-26 15:21:00,Frank
+3486,Banoffee Pie,1,2024-01-26 12:55:00,Alice
+3487,Tea,1,2024-01-26 14:17:00,Frank
+3488,New York Cheesecake,2,2024-01-26 17:33:00,Grace
+3489,New York Cheesecake,1,2024-01-26 15:02:00,Frank
+3490,Pavlova,1,2024-01-26 13:31:00,Frank
+3491,Carrot Cake,1,2024-01-26 15:15:00,Alice
+3492,Bagel & Cream Cheese,1,2024-01-26 18:24:00,Charlie
+3493,New York Cheesecake,2,2024-01-26 15:17:00,Alice
+3494,Quiche,1,2024-01-26 19:59:00,Eve
+3495,Fresh Juice,2,2024-01-26 18:02:00,Charlie
+3496,Red Velvet Cake,3,2024-01-26 11:28:00,Alice
+3497,Banoffee Pie,1,2024-01-26 19:10:00,Charlie
+3498,Latte,2,2024-01-26 13:09:00,Henry
+3499,Carrot Cake,1,2024-01-26 15:27:00,Alice
+3500,New York Cheesecake,1,2024-01-26 19:32:00,Bob
+3501,Carrot Cake,2,2024-01-26 15:08:00,Alice
+3502,Carrot Cake,2,2024-01-26 17:29:00,Henry
+3503,Carrot Cake,3,2024-01-26 19:24:00,Charlie
+3504,New York Cheesecake,2,2024-01-26 19:32:00,Eve
+3505,Panna Cotta,2,2024-01-26 17:28:00,Henry
+3506,Carrot Cake,2,2024-01-26 15:01:00,Alice
+3507,Carrot Cake,3,2024-01-26 17:51:00,Henry
+3508,Panna Cotta,1,2024-01-26 17:03:00,Grace
+3509,Carrot Cake,2,2024-01-26 19:55:00,Bob
+3510,New York Cheesecake,3,2024-01-26 18:40:00,Henry
+3511,Carrot Cake,1,2024-01-26 15:30:00,Frank
+3512,Carrot Cake,1,2024-01-26 12:38:00,Frank
+3513,Carrot Cake,1,2024-01-26 16:46:00,Grace
+3514,Red Velvet Cake,2,2024-01-26 17:32:00,Eve
+3515,New York Cheesecake,1,2024-01-26 16:43:00,Grace
+3516,Carrot Cake,1,2024-01-26 15:44:00,Henry
+3517,Triple Chocolate Cake,1,2024-01-26 19:32:00,Bob
+3518,Tiramisu,2,2024-01-26 18:55:00,Henry
+3519,Red Velvet Cake,2,2024-01-26 18:27:00,Henry
+3520,Cappuccino,2,2024-01-26 12:14:00,Alice
+3521,Red Velvet Cake,2,2024-01-26 16:37:00,Henry
+3522,Banoffee Pie,3,2024-01-26 19:11:00,Bob
+3523,Carrot Cake,2,2024-01-26 10:57:00,Alice
+3524,Red Velvet Cake,1,2024-01-26 11:55:00,Alice
+3525,New York Cheesecake,1,2024-01-26 19:06:00,Eve
+3526,Carrot Cake,3,2024-01-26 14:32:00,Alice
+3527,Club Sandwich,1,2024-01-26 14:36:00,Henry
+3528,Fresh Juice,1,2024-01-26 18:11:00,Diana
+3529,Carrot Cake,2,2024-01-26 18:35:00,Charlie
+3530,Carrot Cake,1,2024-01-26 20:39:00,Eve
+3531,Carrot Cake,1,2024-01-26 11:12:00,Alice
+3532,Carrot Cake,1,2024-01-26 13:18:00,Frank
+3533,New York Cheesecake,1,2024-01-26 09:02:00,Frank
+3534,Red Velvet Cake,3,2024-01-26 18:33:00,Bob
+3535,Carrot Cake,2,2024-01-26 09:48:00,Frank
+3536,Red Velvet Cake,1,2024-01-26 16:16:00,Eve
+3537,Carrot Cake,3,2024-01-26 18:55:00,Eve
+3538,Red Velvet Cake,3,2024-01-26 17:12:00,Eve
+3539,Carrot Cake,2,2024-01-26 19:06:00,Henry
+3540,Carrot Cake,2,2024-01-26 18:36:00,Charlie
+3541,Banoffee Pie,2,2024-01-26 14:11:00,Alice
+3542,Carrot Cake,1,2024-01-26 16:58:00,Bob
+3543,Red Velvet Cake,1,2024-01-26 13:12:00,Frank
+3544,Pavlova,3,2024-01-26 17:16:00,Henry
+3545,Panna Cotta,1,2024-01-26 12:10:00,Frank
+3546,Carrot Cake,1,2024-01-26 20:45:00,Eve
+3547,Panna Cotta,3,2024-01-26 19:32:00,Diana
+3548,Quiche,1,2024-01-26 14:56:00,Frank
+3549,Tea,1,2024-01-26 18:12:00,Diana
+3550,Carrot Cake,2,2024-01-26 17:20:00,Grace
+3551,Carrot Cake,1,2024-01-26 17:55:00,Grace
+3552,Red Velvet Cake,1,2024-01-26 14:44:00,Frank
+3553,Red Velvet Cake,2,2024-01-26 20:57:00,Charlie
+3554,Tiramisu,1,2024-01-26 11:38:00,Alice
+3555,Carrot Cake,2,2024-01-26 14:32:00,Henry
+3556,Pavlova,1,2024-01-26 17:43:00,Charlie
+3557,Club Sandwich,2,2024-01-26 13:54:00,Frank
+3558,Granola Bowl,2,2024-01-26 21:03:00,Henry
+3559,Cappuccino,2,2024-01-26 17:52:00,Bob
+3560,Carrot Cake,2,2024-01-26 12:31:00,Henry
+3561,Tea,2,2024-01-26 12:56:00,Alice
+3562,Red Velvet Cake,3,2024-01-26 13:30:00,Henry
+3563,Carrot Cake,1,2024-01-26 19:39:00,Henry
+3564,Carrot Cake,1,2024-01-26 19:38:00,Bob
+3565,Red Velvet Cake,1,2024-01-26 13:09:00,Frank
+3566,New York Cheesecake,1,2024-01-26 16:48:00,Diana
+3567,New York Cheesecake,1,2024-01-26 10:21:00,Frank
+3568,New York Cheesecake,2,2024-01-26 13:51:00,Alice
+3569,New York Cheesecake,1,2024-01-26 14:35:00,Henry
+3570,Carrot Cake,2,2024-01-26 17:41:00,Bob
+3571,Red Velvet Cake,2,2024-01-26 12:40:00,Alice
+3572,Red Velvet Cake,2,2024-01-26 19:14:00,Henry
+3573,Carrot Cake,1,2024-01-26 13:14:00,Henry
+3574,Panna Cotta,2,2024-01-26 11:56:00,Henry
+3575,Carrot Cake,1,2024-01-26 19:15:00,Grace
+3576,Carrot Cake,3,2024-01-26 19:43:00,Eve
+3577,Carrot Cake,1,2024-01-26 12:48:00,Frank
+3578,Carrot Cake,2,2024-01-26 14:15:00,Henry
+3579,Tiramisu,2,2024-01-26 18:07:00,Henry
+3580,Carrot Cake,2,2024-01-26 12:45:00,Henry
+3581,Carrot Cake,1,2024-01-26 12:54:00,Frank
+3582,New York Cheesecake,2,2024-01-26 17:51:00,Diana
+3583,Carrot Cake,3,2024-01-26 17:00:00,Grace
+3584,Banoffee Pie,1,2024-01-26 11:32:00,Frank
+3585,Carrot Cake,1,2024-01-26 13:07:00,Alice
+3586,New York Cheesecake,1,2024-01-26 17:46:00,Eve
+3587,Carrot Cake,1,2024-01-26 18:55:00,Eve
+3588,Triple Chocolate Cake,1,2024-01-26 13:51:00,Henry
+3589,Carrot Cake,2,2024-01-26 12:25:00,Alice
+3590,Tiramisu,2,2024-01-26 14:28:00,Henry
+3591,Carrot Cake,1,2024-01-26 18:42:00,Grace
+3592,Carrot Cake,3,2024-01-26 15:20:00,Henry
+3593,Banoffee Pie,2,2024-01-26 13:47:00,Alice
+3594,Red Velvet Cake,2,2024-01-26 19:14:00,Henry
+3595,New York Cheesecake,3,2024-01-26 22:11:00,Charlie
+3596,New York Cheesecake,3,2024-01-26 12:31:00,Henry
+3597,Banoffee Pie,1,2024-01-26 17:50:00,Grace
+3598,Tea,3,2024-01-26 17:51:00,Henry
+3599,Carrot Cake,2,2024-01-26 17:40:00,Eve
+3600,Panna Cotta,2,2024-01-26 17:22:00,Bob
+3601,Carrot Cake,3,2024-01-26 13:17:00,Alice
+3602,Tea,3,2024-01-26 20:31:00,Eve
+3603,Red Velvet Cake,1,2024-01-26 12:38:00,Alice
+3604,Red Velvet Cake,2,2024-01-26 17:12:00,Charlie
+3605,Tea,2,2024-01-26 13:35:00,Henry
+3606,Carrot Cake,3,2024-01-26 18:15:00,Henry
+3607,New York Cheesecake,1,2024-01-26 11:59:00,Frank
+3608,Red Velvet Cake,1,2024-01-26 11:25:00,Alice
+3609,Carrot Cake,2,2024-01-26 14:47:00,Henry
+3610,Carrot Cake,1,2024-01-26 10:25:00,Henry
+3611,Smoothie,2,2024-01-26 15:41:00,Henry
+3612,New York Cheesecake,1,2024-01-26 18:05:00,Eve
+3613,Iced Coffee,1,2024-01-26 13:57:00,Henry
+3614,New York Cheesecake,1,2024-01-26 12:10:00,Alice
+3615,Carrot Cake,1,2024-01-26 17:51:00,Bob
+3616,New York Cheesecake,2,2024-01-26 18:19:00,Charlie
+3617,New York Cheesecake,1,2024-01-26 18:27:00,Charlie
+3618,Cappuccino,3,2024-01-26 17:07:00,Diana
+3619,Carrot Cake,2,2024-01-26 18:14:00,Henry
+3620,New York Cheesecake,2,2024-01-26 12:52:00,Alice
+3621,Carrot Cake,3,2024-01-26 18:54:00,Henry
+3622,Red Velvet Cake,2,2024-01-26 19:44:00,Henry
+3623,Club Sandwich,1,2024-01-26 18:44:00,Henry
+3624,Carrot Cake,1,2024-01-26 13:58:00,Alice
+3625,Carrot Cake,1,2024-01-26 13:36:00,Henry
+3626,Iced Coffee,2,2024-01-26 17:51:00,Eve
+3627,Banoffee Pie,2,2024-01-26 21:06:00,Charlie
+3628,Red Velvet Cake,1,2024-01-26 18:40:00,Diana
+3629,Carrot Cake,2,2024-01-26 19:41:00,Grace
+3630,Red Velvet Cake,3,2024-01-26 18:35:00,Eve
+3631,New York Cheesecake,2,2024-01-26 17:06:00,Grace
+3632,Red Velvet Cake,3,2024-01-26 12:13:00,Henry
+3633,Carrot Cake,1,2024-01-26 19:59:00,Eve
+3634,Panna Cotta,1,2024-01-26 14:50:00,Frank
+3635,Carrot Cake,1,2024-01-26 22:59:00,Charlie
+3636,Carrot Cake,2,2024-01-26 17:21:00,Diana
+3637,Tiramisu,2,2024-01-26 09:38:00,Frank
+3638,New York Cheesecake,1,2024-01-26 12:00:00,Alice
+3639,Tea,1,2024-01-26 16:19:00,Diana
+3640,Carrot Cake,2,2024-01-26 17:28:00,Grace
+3641,Cappuccino,2,2024-01-26 19:18:00,Grace
+3642,Red Velvet Cake,2,2024-01-26 13:22:00,Henry
+3643,Fresh Juice,1,2024-01-26 18:09:00,Henry
+3644,Carrot Cake,2,2024-01-26 18:18:00,Charlie
+3645,New York Cheesecake,2,2024-01-26 12:39:00,Henry
+3646,Carrot Cake,1,2024-01-26 21:06:00,Eve
+3647,Carrot Cake,1,2024-01-26 12:36:00,Alice
+3648,Carrot Cake,2,2024-01-26 16:38:00,Grace
+3649,New York Cheesecake,1,2024-01-26 19:42:00,Charlie
+3650,Quiche,1,2024-01-26 16:58:00,Grace
+3651,New York Cheesecake,2,2024-01-26 19:52:00,Charlie
+3652,New York Cheesecake,1,2024-01-26 12:44:00,Henry
+3653,Banoffee Pie,1,2024-01-26 20:02:00,Diana
+3654,New York Cheesecake,1,2024-01-26 12:46:00,Henry
+3655,Carrot Cake,2,2024-01-26 18:48:00,Eve
+3656,Banoffee Pie,2,2024-01-26 17:08:00,Eve
+3657,Carrot Cake,1,2024-01-26 19:49:00,Grace
+3658,Carrot Cake,1,2024-01-26 20:52:00,Henry
+3659,Carrot Cake,1,2024-01-27 19:21:00,Diana
+3660,Carrot Cake,1,2024-01-27 19:55:00,Eve
+3661,Red Velvet Cake,1,2024-01-27 16:01:00,Bob
+3662,New York Cheesecake,1,2024-01-27 18:33:00,Grace
+3663,New York Cheesecake,2,2024-01-27 13:04:00,Henry
+3664,Panna Cotta,2,2024-01-27 13:16:00,Henry
+3665,Granola Bowl,2,2024-01-27 13:49:00,Alice
+3666,Carrot Cake,1,2024-01-27 17:55:00,Grace
+3667,Red Velvet Cake,1,2024-01-27 14:34:00,Frank
+3668,Carrot Cake,3,2024-01-27 17:51:00,Bob
+3669,New York Cheesecake,1,2024-01-27 19:45:00,Diana
+3670,Carrot Cake,1,2024-01-27 12:24:00,Alice
+3671,Tiramisu,2,2024-01-27 18:49:00,Eve
+3672,Granola Bowl,2,2024-01-27 18:16:00,Henry
+3673,Panna Cotta,3,2024-01-27 09:31:00,Henry
+3674,Pavlova,2,2024-01-27 09:55:00,Alice
+3675,Carrot Cake,1,2024-01-27 20:05:00,Charlie
+3676,Red Velvet Cake,2,2024-01-27 17:31:00,Eve
+3677,Panna Cotta,1,2024-01-27 18:22:00,Grace
+3678,Carrot Cake,3,2024-01-27 19:50:00,Henry
+3679,Carrot Cake,1,2024-01-27 12:25:00,Frank
+3680,Tiramisu,1,2024-01-27 13:53:00,Henry
+3681,Carrot Cake,1,2024-01-27 14:31:00,Henry
+3682,Pavlova,1,2024-01-27 12:20:00,Henry
+3683,Banoffee Pie,2,2024-01-27 12:12:00,Henry
+3684,Carrot Cake,1,2024-01-27 13:35:00,Frank
+3685,New York Cheesecake,1,2024-01-27 12:51:00,Henry
+3686,Carrot Cake,1,2024-01-27 18:14:00,Charlie
+3687,Avocado Toast,1,2024-01-27 12:18:00,Frank
+3688,Cappuccino,3,2024-01-27 13:26:00,Henry
+3689,New York Cheesecake,3,2024-01-27 17:33:00,Charlie
+3690,Banoffee Pie,1,2024-01-27 15:25:00,Alice
+3691,Carrot Cake,2,2024-01-27 18:05:00,Eve
+3692,Carrot Cake,3,2024-01-27 18:05:00,Bob
+3693,Carrot Cake,1,2024-01-27 14:33:00,Henry
+3694,Red Velvet Cake,1,2024-01-27 19:59:00,Henry
+3695,Carrot Cake,3,2024-01-27 12:24:00,Henry
+3696,Carrot Cake,1,2024-01-27 14:02:00,Alice
+3697,Panna Cotta,1,2024-01-27 17:05:00,Grace
+3698,Carrot Cake,2,2024-01-27 17:39:00,Grace
+3699,Red Velvet Cake,1,2024-01-27 14:15:00,Frank
+3700,New York Cheesecake,1,2024-01-27 13:01:00,Frank
+3701,Red Velvet Cake,1,2024-01-27 18:49:00,Charlie
+3702,Carrot Cake,1,2024-01-27 17:22:00,Diana
+3703,Red Velvet Cake,2,2024-01-27 14:28:00,Frank
+3704,Quiche,1,2024-01-27 11:17:00,Frank
+3705,Red Velvet Cake,2,2024-01-27 11:54:00,Henry
+3706,Carrot Cake,2,2024-01-27 19:46:00,Bob
+3707,New York Cheesecake,3,2024-01-27 14:38:00,Alice
+3708,New York Cheesecake,2,2024-01-27 14:00:00,Alice
+3709,Carrot Cake,1,2024-01-27 13:45:00,Henry
+3710,Red Velvet Cake,1,2024-01-27 13:43:00,Frank
+3711,Latte,2,2024-01-27 12:52:00,Henry
+3712,Carrot Cake,2,2024-01-27 18:03:00,Henry
+3713,New York Cheesecake,2,2024-01-27 20:46:00,Charlie
+3714,Banoffee Pie,1,2024-01-27 19:44:00,Grace
+3715,Carrot Cake,1,2024-01-27 17:05:00,Charlie
+3716,Carrot Cake,3,2024-01-27 18:53:00,Charlie
+3717,Carrot Cake,1,2024-01-27 19:55:00,Grace
+3718,Carrot Cake,1,2024-01-27 19:51:00,Eve
+3719,Red Velvet Cake,2,2024-01-27 13:54:00,Alice
+3720,Carrot Cake,1,2024-01-27 12:46:00,Henry
+3721,Carrot Cake,2,2024-01-27 12:18:00,Alice
+3722,Tea,2,2024-01-27 12:18:00,Henry
+3723,Red Velvet Cake,3,2024-01-27 14:18:00,Henry
+3724,Red Velvet Cake,1,2024-01-27 18:09:00,Henry
+3725,Carrot Cake,3,2024-01-27 19:26:00,Diana
+3726,New York Cheesecake,3,2024-01-27 19:01:00,Henry
+3727,New York Cheesecake,2,2024-01-27 18:45:00,Diana
+3728,New York Cheesecake,1,2024-01-27 17:15:00,Diana
+3729,Bagel & Cream Cheese,3,2024-01-27 12:53:00,Henry
+3730,Carrot Cake,1,2024-01-27 11:50:00,Frank
+3731,New York Cheesecake,2,2024-01-27 19:23:00,Bob
+3732,Carrot Cake,2,2024-01-27 19:06:00,Diana
+3733,Carrot Cake,2,2024-01-27 21:05:00,Diana
+3734,Red Velvet Cake,2,2024-01-27 17:50:00,Bob
+3735,Carrot Cake,1,2024-01-27 18:51:00,Henry
+3736,Carrot Cake,2,2024-01-27 21:52:00,Grace
+3737,Carrot Cake,1,2024-01-27 17:32:00,Henry
+3738,Red Velvet Cake,1,2024-01-27 14:49:00,Frank
+3739,Carrot Cake,2,2024-01-27 17:01:00,Bob
+3740,Panna Cotta,1,2024-01-27 18:34:00,Grace
+3741,Banoffee Pie,1,2024-01-27 16:37:00,Henry
+3742,Banoffee Pie,1,2024-01-27 19:19:00,Henry
+3743,Carrot Cake,1,2024-01-27 16:08:00,Diana
+3744,Tea,2,2024-01-27 18:19:00,Eve
+3745,Red Velvet Cake,2,2024-01-27 17:34:00,Eve
+3746,Quiche,1,2024-01-27 13:49:00,Frank
+3747,Red Velvet Cake,2,2024-01-27 17:44:00,Charlie
+3748,Carrot Cake,3,2024-01-27 19:27:00,Grace
+3749,New York Cheesecake,1,2024-01-27 19:12:00,Eve
+3750,Carrot Cake,1,2024-01-27 19:02:00,Grace
+3751,Carrot Cake,2,2024-01-27 17:26:00,Charlie
+3752,Carrot Cake,1,2024-01-27 17:08:00,Diana
+3753,Tiramisu,1,2024-01-27 14:50:00,Frank
+3754,Carrot Cake,1,2024-01-27 15:47:00,Frank
+3755,Carrot Cake,2,2024-01-27 13:33:00,Alice
+3756,Pavlova,1,2024-01-27 20:45:00,Eve
+3757,Tea,1,2024-01-27 12:02:00,Alice
+3758,Iced Coffee,3,2024-01-27 20:57:00,Eve
+3759,Carrot Cake,1,2024-01-27 12:02:00,Frank
+3760,Carrot Cake,1,2024-01-27 13:35:00,Alice
+3761,Carrot Cake,2,2024-01-27 13:37:00,Alice
+3762,New York Cheesecake,1,2024-01-27 12:44:00,Alice
+3763,New York Cheesecake,1,2024-01-27 17:11:00,Charlie
+3764,Red Velvet Cake,1,2024-01-27 19:24:00,Henry
+3765,Red Velvet Cake,2,2024-01-27 10:03:00,Alice
+3766,Carrot Cake,3,2024-01-27 18:33:00,Grace
+3767,Carrot Cake,1,2024-01-27 14:47:00,Frank
+3768,Triple Chocolate Cake,1,2024-01-27 12:02:00,Alice
+3769,Banoffee Pie,2,2024-01-27 13:04:00,Frank
+3770,Carrot Cake,1,2024-01-27 11:35:00,Frank
+3771,Carrot Cake,1,2024-01-27 13:09:00,Henry
+3772,Carrot Cake,1,2024-01-27 17:37:00,Charlie
+3773,Red Velvet Cake,2,2024-01-27 18:38:00,Diana
+3774,Pavlova,2,2024-01-27 18:45:00,Charlie
+3775,New York Cheesecake,1,2024-01-27 18:16:00,Eve
+3776,New York Cheesecake,2,2024-01-27 17:00:00,Grace
+3777,Banoffee Pie,1,2024-01-27 13:40:00,Henry
+3778,Red Velvet Cake,1,2024-01-27 18:18:00,Diana
+3779,Red Velvet Cake,2,2024-01-27 15:39:00,Henry
+3780,Red Velvet Cake,2,2024-01-27 17:02:00,Diana
+3781,Tea,3,2024-01-27 18:43:00,Bob
+3782,Red Velvet Cake,2,2024-01-27 20:05:00,Bob
+3783,Carrot Cake,3,2024-01-27 12:48:00,Alice
+3784,Tiramisu,2,2024-01-27 12:45:00,Henry
+3785,Carrot Cake,1,2024-01-27 12:09:00,Alice
+3786,Panna Cotta,1,2024-01-27 20:11:00,Charlie
+3787,Carrot Cake,1,2024-01-27 09:29:00,Frank
+3788,Banoffee Pie,1,2024-01-27 12:21:00,Henry
+3789,Red Velvet Cake,1,2024-01-27 18:19:00,Henry
+3790,Latte,2,2024-01-27 18:37:00,Grace
+3791,Carrot Cake,1,2024-01-27 12:51:00,Henry
+3792,Carrot Cake,1,2024-01-27 12:56:00,Frank
+3793,Panna Cotta,2,2024-01-27 14:56:00,Henry
+3794,Carrot Cake,1,2024-01-27 15:43:00,Alice
+3795,Iced Coffee,1,2024-01-27 12:54:00,Frank
+3796,Panna Cotta,1,2024-01-27 12:04:00,Frank
+3797,Carrot Cake,2,2024-01-27 17:48:00,Eve
+3798,Carrot Cake,1,2024-01-27 13:23:00,Alice
+3799,New York Cheesecake,2,2024-01-27 18:35:00,Charlie
+3800,Panna Cotta,2,2024-01-27 11:24:00,Henry
+3801,Panna Cotta,3,2024-01-27 17:27:00,Diana
+3802,Panna Cotta,2,2024-01-27 13:19:00,Henry
+3803,New York Cheesecake,1,2024-01-27 13:16:00,Frank
+3804,Club Sandwich,2,2024-01-27 17:50:00,Bob
+3805,Carrot Cake,1,2024-01-27 12:13:00,Alice
+3806,Carrot Cake,2,2024-01-27 21:53:00,Grace
+3807,Carrot Cake,1,2024-01-27 20:32:00,Bob
+3808,Carrot Cake,3,2024-01-27 13:25:00,Alice
+3809,Carrot Cake,1,2024-01-27 18:09:00,Bob
+3810,Red Velvet Cake,3,2024-01-27 13:05:00,Henry
+3811,Red Velvet Cake,2,2024-01-27 15:40:00,Henry
+3812,Carrot Cake,1,2024-01-27 19:40:00,Grace
+3813,Tiramisu,3,2024-01-27 13:48:00,Alice
+3814,Triple Chocolate Cake,3,2024-01-27 13:52:00,Henry
+3815,Carrot Cake,1,2024-01-27 10:44:00,Alice
+3816,Carrot Cake,1,2024-01-27 13:21:00,Alice
+3817,Red Velvet Cake,2,2024-01-27 17:53:00,Bob
+3818,Panna Cotta,2,2024-01-27 12:13:00,Frank
+3819,Cappuccino,2,2024-01-27 17:28:00,Diana
+3820,Panna Cotta,1,2024-01-27 13:12:00,Henry
+3821,New York Cheesecake,2,2024-01-27 13:57:00,Alice
+3822,Carrot Cake,1,2024-01-27 19:09:00,Eve
+3823,New York Cheesecake,2,2024-01-27 12:14:00,Alice
+3824,Carrot Cake,1,2024-01-27 18:56:00,Diana
+3825,Bagel & Cream Cheese,2,2024-01-27 19:14:00,Charlie
+3826,Club Sandwich,1,2024-01-27 12:19:00,Frank
+3827,New York Cheesecake,1,2024-01-27 13:32:00,Alice
+3828,New York Cheesecake,3,2024-01-27 18:52:00,Charlie
+3829,Carrot Cake,1,2024-01-27 18:47:00,Eve
+3830,Carrot Cake,1,2024-01-27 15:13:00,Frank
+3831,Panna Cotta,3,2024-01-27 20:57:00,Bob
+3832,New York Cheesecake,2,2024-01-27 13:42:00,Frank
+3833,New York Cheesecake,3,2024-01-27 13:30:00,Alice
+3834,Tea,2,2024-01-27 12:19:00,Henry
+3835,New York Cheesecake,1,2024-01-27 13:12:00,Frank
+3836,Tiramisu,2,2024-01-27 17:21:00,Grace
+3837,Tiramisu,1,2024-01-27 11:46:00,Frank
+3838,Carrot Cake,1,2024-01-27 12:52:00,Frank
+3839,New York Cheesecake,1,2024-01-27 19:13:00,Charlie
+3840,Red Velvet Cake,1,2024-01-27 18:31:00,Diana
+3841,Carrot Cake,1,2024-01-27 12:06:00,Alice
+3842,Carrot Cake,1,2024-01-27 19:35:00,Charlie
+3843,Tiramisu,3,2024-01-27 19:07:00,Diana
+3844,New York Cheesecake,2,2024-01-27 14:42:00,Alice
+3845,Carrot Cake,1,2024-01-28 13:28:00,Frank
+3846,Smoothie,1,2024-01-28 20:28:00,Diana
+3847,New York Cheesecake,1,2024-01-28 18:25:00,Henry
+3848,Carrot Cake,3,2024-01-28 13:58:00,Alice
+3849,Panna Cotta,2,2024-01-28 13:41:00,Alice
+3850,Banoffee Pie,1,2024-01-28 17:24:00,Charlie
+3851,Carrot Cake,2,2024-01-28 17:41:00,Diana
+3852,Carrot Cake,2,2024-01-28 17:18:00,Diana
+3853,Tea,1,2024-01-28 13:10:00,Henry
+3854,Carrot Cake,2,2024-01-28 20:53:00,Grace
+3855,Cappuccino,1,2024-01-28 10:04:00,Frank
+3856,New York Cheesecake,3,2024-01-28 15:37:00,Alice
+3857,Carrot Cake,1,2024-01-28 12:24:00,Frank
+3858,Carrot Cake,2,2024-01-28 18:47:00,Grace
+3859,Carrot Cake,3,2024-01-28 17:59:00,Grace
+3860,Tea,1,2024-01-28 13:12:00,Alice
+3861,Fresh Juice,2,2024-01-28 19:03:00,Eve
+3862,New York Cheesecake,1,2024-01-28 18:30:00,Grace
+3863,Tea,1,2024-01-28 09:40:00,Alice
+3864,Red Velvet Cake,3,2024-01-28 18:30:00,Eve
+3865,New York Cheesecake,1,2024-01-28 10:03:00,Frank
+3866,Carrot Cake,3,2024-01-28 12:27:00,Henry
+3867,Red Velvet Cake,1,2024-01-28 17:34:00,Bob
+3868,Avocado Toast,2,2024-01-28 18:00:00,Eve
+3869,Quiche,1,2024-01-28 15:40:00,Frank
+3870,New York Cheesecake,1,2024-01-28 13:03:00,Henry
+3871,Quiche,2,2024-01-28 12:48:00,Henry
+3872,New York Cheesecake,1,2024-01-28 14:56:00,Alice
+3873,Carrot Cake,2,2024-01-28 17:33:00,Bob
+3874,Banoffee Pie,2,2024-01-28 10:55:00,Frank
+3875,Red Velvet Cake,3,2024-01-28 12:09:00,Alice
+3876,New York Cheesecake,1,2024-01-28 14:17:00,Alice
+3877,Carrot Cake,2,2024-01-28 16:39:00,Diana
+3878,New York Cheesecake,1,2024-01-28 13:34:00,Frank
+3879,Fresh Juice,2,2024-01-28 19:43:00,Grace
+3880,Carrot Cake,1,2024-01-28 12:01:00,Frank
+3881,Granola Bowl,2,2024-01-28 14:25:00,Frank
+3882,Carrot Cake,1,2024-01-28 12:46:00,Frank
+3883,Banoffee Pie,2,2024-01-28 12:45:00,Frank
+3884,Carrot Cake,1,2024-01-28 13:56:00,Alice
+3885,Banoffee Pie,3,2024-01-28 18:52:00,Grace
+3886,Carrot Cake,1,2024-01-28 17:20:00,Henry
+3887,Latte,1,2024-01-28 18:16:00,Grace
+3888,Tiramisu,2,2024-01-28 13:12:00,Henry
+3889,Carrot Cake,3,2024-01-28 16:14:00,Charlie
+3890,New York Cheesecake,2,2024-01-28 09:25:00,Henry
+3891,Carrot Cake,1,2024-01-28 14:32:00,Alice
+3892,Red Velvet Cake,1,2024-01-28 13:58:00,Henry
+3893,Carrot Cake,1,2024-01-28 21:40:00,Bob
+3894,Banoffee Pie,3,2024-01-28 18:41:00,Henry
+3895,Carrot Cake,2,2024-01-28 09:20:00,Frank
+3896,Carrot Cake,2,2024-01-28 19:48:00,Charlie
+3897,Latte,1,2024-01-28 12:23:00,Frank
+3898,Carrot Cake,2,2024-01-28 09:35:00,Henry
+3899,Red Velvet Cake,1,2024-01-28 18:57:00,Eve
+3900,New York Cheesecake,3,2024-01-28 19:02:00,Diana
+3901,Banoffee Pie,3,2024-01-28 09:07:00,Henry
+3902,New York Cheesecake,3,2024-01-28 12:45:00,Alice
+3903,New York Cheesecake,1,2024-01-28 22:16:00,Diana
+3904,Carrot Cake,1,2024-01-28 18:57:00,Henry
+3905,New York Cheesecake,2,2024-01-28 20:30:00,Bob
+3906,Carrot Cake,1,2024-01-28 16:39:00,Grace
+3907,New York Cheesecake,1,2024-01-28 12:22:00,Frank
+3908,Carrot Cake,2,2024-01-28 13:23:00,Alice
+3909,Panna Cotta,1,2024-01-28 16:38:00,Diana
+3910,Panna Cotta,1,2024-01-28 11:16:00,Henry
+3911,New York Cheesecake,1,2024-01-28 22:39:00,Diana
+3912,Carrot Cake,2,2024-01-28 13:25:00,Alice
+3913,Avocado Toast,2,2024-01-28 18:38:00,Henry
+3914,Carrot Cake,1,2024-01-28 12:27:00,Frank
+3915,Carrot Cake,1,2024-01-28 21:06:00,Eve
+3916,Red Velvet Cake,1,2024-01-28 17:00:00,Diana
+3917,Carrot Cake,2,2024-01-28 09:20:00,Henry
+3918,Red Velvet Cake,3,2024-01-28 18:01:00,Grace
+3919,New York Cheesecake,1,2024-01-28 12:54:00,Frank
+3920,Red Velvet Cake,2,2024-01-28 18:05:00,Bob
+3921,Iced Coffee,2,2024-01-28 17:15:00,Diana
+3922,Quiche,1,2024-01-28 18:40:00,Grace
+3923,Carrot Cake,1,2024-01-28 12:57:00,Frank
+3924,Carrot Cake,1,2024-01-28 21:58:00,Bob
+3925,New York Cheesecake,2,2024-01-28 14:41:00,Alice
+3926,Carrot Cake,1,2024-01-28 13:27:00,Frank
+3927,Red Velvet Cake,2,2024-01-28 17:30:00,Diana
+3928,Carrot Cake,3,2024-01-28 12:35:00,Henry
+3929,New York Cheesecake,1,2024-01-28 17:02:00,Bob
+3930,New York Cheesecake,2,2024-01-28 19:45:00,Henry
+3931,Panna Cotta,3,2024-01-28 17:00:00,Diana
+3932,Carrot Cake,3,2024-01-28 13:40:00,Alice
+3933,Panna Cotta,2,2024-01-28 20:41:00,Diana
+3934,Red Velvet Cake,2,2024-01-28 14:35:00,Henry
+3935,Iced Coffee,1,2024-01-28 11:07:00,Henry
+3936,Latte,2,2024-01-28 19:07:00,Diana
+3937,Tiramisu,1,2024-01-28 11:24:00,Frank
+3938,Tea,1,2024-01-28 19:21:00,Charlie
+3939,New York Cheesecake,3,2024-01-28 17:53:00,Henry
+3940,Carrot Cake,1,2024-01-28 22:57:00,Eve
+3941,Carrot Cake,2,2024-01-28 14:52:00,Alice
+3942,Panna Cotta,3,2024-01-28 17:29:00,Henry
+3943,Carrot Cake,1,2024-01-28 12:59:00,Frank
+3944,Carrot Cake,1,2024-01-28 18:09:00,Grace
+3945,New York Cheesecake,1,2024-01-28 12:04:00,Alice
+3946,Tea,3,2024-01-28 13:45:00,Henry
+3947,Carrot Cake,1,2024-01-28 09:53:00,Frank
+3948,Carrot Cake,1,2024-01-28 14:52:00,Henry
+3949,Tiramisu,3,2024-01-28 17:17:00,Henry
+3950,Red Velvet Cake,1,2024-01-28 12:52:00,Alice
+3951,Carrot Cake,2,2024-01-28 18:45:00,Bob
+3952,New York Cheesecake,1,2024-01-28 19:04:00,Grace
+3953,New York Cheesecake,1,2024-01-28 12:13:00,Frank
+3954,Yogurt Parfait,3,2024-01-28 20:14:00,Charlie
+3955,Carrot Cake,1,2024-01-28 17:52:00,Grace
+3956,New York Cheesecake,1,2024-01-28 17:00:00,Charlie
+3957,Red Velvet Cake,1,2024-01-28 12:41:00,Alice
+3958,Carrot Cake,2,2024-01-28 18:11:00,Eve
+3959,Red Velvet Cake,1,2024-01-28 12:12:00,Frank
+3960,Carrot Cake,2,2024-01-28 17:12:00,Charlie
+3961,Latte,1,2024-01-28 17:38:00,Eve
+3962,Red Velvet Cake,1,2024-01-28 18:25:00,Eve
+3963,New York Cheesecake,2,2024-01-28 17:30:00,Charlie
+3964,Carrot Cake,1,2024-01-28 14:29:00,Frank
+3965,Iced Coffee,1,2024-01-28 19:20:00,Bob
+3966,Panna Cotta,1,2024-01-28 12:14:00,Henry
+3967,Carrot Cake,1,2024-01-28 12:54:00,Henry
+3968,Tea,1,2024-01-28 14:56:00,Alice
+3969,Carrot Cake,3,2024-01-28 17:37:00,Diana
+3970,Pavlova,2,2024-01-28 13:17:00,Henry
+3971,Panna Cotta,1,2024-01-28 13:45:00,Alice
+3972,Red Velvet Cake,2,2024-01-28 20:49:00,Grace
+3973,Pavlova,2,2024-01-28 18:42:00,Diana
+3974,Red Velvet Cake,1,2024-01-28 12:02:00,Frank
+3975,Smoothie,1,2024-01-28 18:40:00,Grace
+3976,Carrot Cake,3,2024-01-28 18:18:00,Henry
+3977,Smoothie,2,2024-01-28 22:17:00,Grace
+3978,Carrot Cake,1,2024-01-28 15:08:00,Henry
+3979,Carrot Cake,1,2024-01-28 13:06:00,Alice
+3980,Panna Cotta,2,2024-01-28 13:44:00,Frank
+3981,Carrot Cake,2,2024-01-29 12:29:00,Alice
+3982,Red Velvet Cake,2,2024-01-29 14:16:00,Alice
+3983,Iced Coffee,2,2024-01-29 18:19:00,Charlie
+3984,Red Velvet Cake,2,2024-01-29 14:26:00,Henry
+3985,New York Cheesecake,1,2024-01-29 18:57:00,Henry
+3986,Carrot Cake,3,2024-01-29 17:25:00,Diana
+3987,Red Velvet Cake,1,2024-01-29 12:22:00,Alice
+3988,Pavlova,1,2024-01-29 10:49:00,Henry
+3989,Panna Cotta,1,2024-01-29 17:25:00,Henry
+3990,Red Velvet Cake,1,2024-01-29 12:29:00,Frank
+3991,Banoffee Pie,2,2024-01-29 18:03:00,Bob
+3992,New York Cheesecake,1,2024-01-29 13:51:00,Henry
+3993,Carrot Cake,1,2024-01-29 13:00:00,Henry
+3994,Carrot Cake,1,2024-01-29 20:58:00,Eve
+3995,New York Cheesecake,2,2024-01-29 14:18:00,Alice
+3996,Carrot Cake,1,2024-01-29 13:58:00,Alice
+3997,Red Velvet Cake,3,2024-01-29 12:21:00,Alice
+3998,Carrot Cake,3,2024-01-29 19:41:00,Charlie
+3999,Red Velvet Cake,3,2024-01-29 10:31:00,Henry
+4000,Red Velvet Cake,3,2024-01-29 19:24:00,Charlie
+4001,Carrot Cake,2,2024-01-29 10:48:00,Henry
+4002,Carrot Cake,1,2024-01-29 19:11:00,Bob
+4003,Carrot Cake,1,2024-01-29 10:18:00,Frank
+4004,Red Velvet Cake,1,2024-01-29 14:51:00,Henry
+4005,New York Cheesecake,1,2024-01-29 12:42:00,Alice
+4006,New York Cheesecake,1,2024-01-29 12:56:00,Henry
+4007,Panna Cotta,1,2024-01-29 11:59:00,Alice
+4008,Carrot Cake,1,2024-01-29 12:11:00,Frank
+4009,Panna Cotta,3,2024-01-29 14:07:00,Alice
+4010,Carrot Cake,1,2024-01-29 19:49:00,Grace
+4011,Panna Cotta,1,2024-01-29 17:57:00,Henry
+4012,Panna Cotta,3,2024-01-29 17:08:00,Grace
+4013,Carrot Cake,1,2024-01-29 18:48:00,Grace
+4014,New York Cheesecake,2,2024-01-29 19:04:00,Henry
+4015,Fresh Juice,2,2024-01-29 13:44:00,Alice
+4016,Quiche,1,2024-01-29 14:56:00,Henry
+4017,Tea,1,2024-01-29 17:02:00,Eve
+4018,Iced Coffee,1,2024-01-29 13:47:00,Frank
+4019,Carrot Cake,1,2024-01-29 15:03:00,Henry
+4020,Panna Cotta,1,2024-01-29 12:34:00,Frank
+4021,Carrot Cake,1,2024-01-29 13:17:00,Frank
+4022,Carrot Cake,1,2024-01-29 20:43:00,Diana
+4023,Red Velvet Cake,1,2024-01-29 18:19:00,Henry
+4024,New York Cheesecake,1,2024-01-29 18:30:00,Grace
+4025,Red Velvet Cake,2,2024-01-29 17:39:00,Eve
+4026,Pavlova,2,2024-01-29 15:34:00,Alice
+4027,Red Velvet Cake,3,2024-01-29 21:49:00,Diana
+4028,Carrot Cake,2,2024-01-29 12:53:00,Henry
+4029,Carrot Cake,2,2024-01-29 21:51:00,Eve
+4030,New York Cheesecake,3,2024-01-29 12:05:00,Henry
+4031,Panna Cotta,1,2024-01-29 19:57:00,Bob
+4032,Carrot Cake,3,2024-01-29 16:00:00,Henry
+4033,New York Cheesecake,1,2024-01-29 12:04:00,Henry
+4034,Carrot Cake,1,2024-01-29 12:42:00,Frank
+4035,Panna Cotta,3,2024-01-29 19:08:00,Diana
+4036,Tea,1,2024-01-29 20:48:00,Bob
+4037,Carrot Cake,3,2024-01-29 17:02:00,Henry
+4038,Panna Cotta,2,2024-01-29 21:10:00,Charlie
+4039,Carrot Cake,2,2024-01-29 13:59:00,Frank
+4040,Iced Coffee,2,2024-01-29 18:07:00,Bob
+4041,New York Cheesecake,2,2024-01-29 13:03:00,Henry
+4042,Tiramisu,2,2024-01-29 14:28:00,Alice
+4043,Panna Cotta,2,2024-01-29 13:30:00,Henry
+4044,Carrot Cake,3,2024-01-29 14:17:00,Henry
+4045,Carrot Cake,2,2024-01-29 12:25:00,Henry
+4046,Red Velvet Cake,2,2024-01-29 14:24:00,Alice
+4047,Tea,2,2024-01-29 15:24:00,Frank
+4048,Red Velvet Cake,3,2024-01-29 18:28:00,Diana
+4049,New York Cheesecake,1,2024-01-29 11:45:00,Frank
+4050,Carrot Cake,2,2024-01-29 14:59:00,Alice
+4051,Carrot Cake,2,2024-01-29 12:20:00,Henry
+4052,Carrot Cake,1,2024-01-29 17:36:00,Diana
+4053,Cappuccino,2,2024-01-29 13:38:00,Henry
+4054,Carrot Cake,3,2024-01-29 18:36:00,Henry
+4055,New York Cheesecake,1,2024-01-29 15:19:00,Frank
+4056,Carrot Cake,1,2024-01-29 13:06:00,Alice
+4057,Smoothie,1,2024-01-29 14:00:00,Frank
+4058,Panna Cotta,3,2024-01-29 10:49:00,Henry
+4059,Banoffee Pie,1,2024-01-29 18:29:00,Eve
+4060,Red Velvet Cake,1,2024-01-29 15:24:00,Henry
+4061,Red Velvet Cake,1,2024-01-29 19:55:00,Charlie
+4062,Carrot Cake,1,2024-01-29 14:27:00,Henry
+4063,Red Velvet Cake,2,2024-01-29 13:30:00,Alice
+4064,Carrot Cake,1,2024-01-29 17:38:00,Bob
+4065,Smoothie,1,2024-01-29 11:49:00,Alice
+4066,New York Cheesecake,1,2024-01-29 19:20:00,Bob
+4067,New York Cheesecake,1,2024-01-29 12:05:00,Frank
+4068,New York Cheesecake,3,2024-01-29 19:22:00,Bob
+4069,Carrot Cake,2,2024-01-29 11:54:00,Alice
+4070,Red Velvet Cake,1,2024-01-29 16:16:00,Charlie
+4071,New York Cheesecake,1,2024-01-29 18:34:00,Bob
+4072,Banoffee Pie,2,2024-01-29 13:33:00,Alice
+4073,New York Cheesecake,3,2024-01-29 12:23:00,Alice
+4074,New York Cheesecake,2,2024-01-29 16:45:00,Eve
+4075,Iced Coffee,2,2024-01-29 14:39:00,Henry
+4076,New York Cheesecake,1,2024-01-29 17:08:00,Eve
+4077,Carrot Cake,1,2024-01-29 13:28:00,Frank
+4078,Carrot Cake,3,2024-01-29 18:07:00,Henry
+4079,New York Cheesecake,3,2024-01-29 12:13:00,Alice
+4080,Red Velvet Cake,2,2024-01-29 15:42:00,Frank
+4081,Carrot Cake,1,2024-01-29 12:22:00,Frank
+4082,Carrot Cake,1,2024-01-29 14:49:00,Alice
+4083,Red Velvet Cake,1,2024-01-29 18:06:00,Diana
+4084,Carrot Cake,3,2024-01-29 11:43:00,Henry
+4085,Panna Cotta,3,2024-01-29 19:42:00,Grace
+4086,Red Velvet Cake,2,2024-01-29 12:20:00,Alice
+4087,Carrot Cake,1,2024-01-29 18:03:00,Grace
+4088,Red Velvet Cake,3,2024-01-29 13:59:00,Henry
+4089,Carrot Cake,2,2024-01-29 15:46:00,Henry
+4090,Carrot Cake,2,2024-01-29 18:46:00,Diana
+4091,Latte,3,2024-01-29 17:21:00,Henry
+4092,New York Cheesecake,1,2024-01-29 17:13:00,Eve
+4093,New York Cheesecake,2,2024-01-29 14:59:00,Henry
+4094,New York Cheesecake,1,2024-01-29 12:02:00,Frank
+4095,Carrot Cake,1,2024-01-29 21:15:00,Diana
+4096,Pavlova,2,2024-01-29 12:15:00,Alice
+4097,New York Cheesecake,1,2024-01-29 13:43:00,Henry
+4098,Red Velvet Cake,1,2024-01-29 13:12:00,Frank
+4099,Carrot Cake,2,2024-01-29 12:09:00,Alice
+4100,Carrot Cake,1,2024-01-29 15:36:00,Alice
+4101,New York Cheesecake,2,2024-01-30 18:57:00,Bob
+4102,Panna Cotta,1,2024-01-30 12:50:00,Alice
+4103,Carrot Cake,3,2024-01-30 17:41:00,Bob
+4104,Carrot Cake,3,2024-01-30 13:02:00,Alice
+4105,Iced Coffee,2,2024-01-30 14:20:00,Alice
+4106,Cappuccino,2,2024-01-30 13:24:00,Henry
+4107,Red Velvet Cake,1,2024-01-30 13:57:00,Frank
+4108,Banoffee Pie,2,2024-01-30 12:18:00,Frank
+4109,Red Velvet Cake,2,2024-01-30 19:29:00,Bob
+4110,Banoffee Pie,1,2024-01-30 13:37:00,Alice
+4111,Latte,1,2024-01-30 11:58:00,Frank
+4112,Red Velvet Cake,1,2024-01-30 12:02:00,Frank
+4113,New York Cheesecake,1,2024-01-30 17:35:00,Grace
+4114,Tiramisu,1,2024-01-30 19:26:00,Charlie
+4115,Carrot Cake,3,2024-01-30 14:21:00,Alice
+4116,Iced Coffee,1,2024-01-30 09:06:00,Henry
+4117,Carrot Cake,2,2024-01-30 18:03:00,Henry
+4118,Red Velvet Cake,1,2024-01-30 19:44:00,Grace
+4119,Triple Chocolate Cake,1,2024-01-30 15:23:00,Frank
+4120,Carrot Cake,1,2024-01-30 19:28:00,Grace
+4121,Carrot Cake,1,2024-01-30 12:41:00,Alice
+4122,Quiche,3,2024-01-30 20:35:00,Charlie
+4123,Carrot Cake,1,2024-01-30 13:01:00,Frank
+4124,Carrot Cake,3,2024-01-30 13:16:00,Henry
+4125,New York Cheesecake,1,2024-01-30 17:07:00,Grace
+4126,Bagel & Cream Cheese,2,2024-01-30 18:28:00,Eve
+4127,Carrot Cake,1,2024-01-30 13:42:00,Frank
+4128,Soup & Salad Combo,1,2024-01-30 09:02:00,Alice
+4129,Iced Coffee,2,2024-01-30 17:05:00,Diana
+4130,Pavlova,1,2024-01-30 12:14:00,Frank
+4131,Carrot Cake,1,2024-01-30 15:06:00,Henry
+4132,Carrot Cake,3,2024-01-30 18:55:00,Charlie
+4133,Carrot Cake,2,2024-01-30 13:41:00,Henry
+4134,Carrot Cake,1,2024-01-30 11:41:00,Henry
+4135,Panna Cotta,3,2024-01-30 17:16:00,Diana
+4136,New York Cheesecake,1,2024-01-30 12:41:00,Frank
+4137,New York Cheesecake,2,2024-01-30 18:31:00,Eve
+4138,Carrot Cake,1,2024-01-30 20:04:00,Henry
+4139,Carrot Cake,1,2024-01-30 15:15:00,Henry
+4140,Panna Cotta,2,2024-01-30 19:58:00,Diana
+4141,Carrot Cake,1,2024-01-30 13:39:00,Frank
+4142,New York Cheesecake,2,2024-01-30 20:03:00,Charlie
+4143,Carrot Cake,1,2024-01-30 12:40:00,Henry
+4144,Carrot Cake,1,2024-01-30 19:49:00,Diana
+4145,Carrot Cake,1,2024-01-30 18:03:00,Henry
+4146,Carrot Cake,1,2024-01-30 12:55:00,Frank
+4147,Carrot Cake,1,2024-01-30 13:57:00,Frank
+4148,New York Cheesecake,1,2024-01-30 12:59:00,Frank
+4149,New York Cheesecake,1,2024-01-30 12:31:00,Alice
+4150,Red Velvet Cake,2,2024-01-30 17:08:00,Diana
+4151,Carrot Cake,2,2024-01-30 13:16:00,Alice
+4152,Red Velvet Cake,3,2024-01-30 19:59:00,Charlie
+4153,New York Cheesecake,1,2024-01-30 12:36:00,Frank
+4154,New York Cheesecake,3,2024-01-30 13:36:00,Henry
+4155,New York Cheesecake,2,2024-01-30 19:52:00,Grace
+4156,Panna Cotta,2,2024-01-30 19:38:00,Eve
+4157,Carrot Cake,2,2024-01-30 12:14:00,Henry
+4158,Carrot Cake,1,2024-01-30 12:33:00,Frank
+4159,Panna Cotta,2,2024-01-30 17:14:00,Diana
+4160,Red Velvet Cake,2,2024-01-30 14:54:00,Henry
+4161,Fresh Juice,3,2024-01-30 13:33:00,Alice
+4162,Carrot Cake,1,2024-01-30 12:45:00,Henry
+4163,Iced Coffee,1,2024-01-30 22:35:00,Henry
+4164,New York Cheesecake,2,2024-01-30 15:04:00,Henry
+4165,Carrot Cake,3,2024-01-30 15:45:00,Alice
+4166,New York Cheesecake,2,2024-01-30 09:00:00,Alice
+4167,Banoffee Pie,1,2024-01-30 13:00:00,Alice
+4168,Pavlova,2,2024-01-30 17:35:00,Eve
+4169,Carrot Cake,2,2024-01-30 18:53:00,Eve
+4170,Pavlova,1,2024-01-30 14:08:00,Frank
+4171,Carrot Cake,3,2024-01-30 12:50:00,Henry
+4172,New York Cheesecake,1,2024-01-30 17:35:00,Bob
+4173,Carrot Cake,2,2024-01-30 19:03:00,Henry
+4174,Red Velvet Cake,1,2024-01-30 19:44:00,Eve
+4175,Red Velvet Cake,3,2024-01-30 19:29:00,Eve
+4176,Granola Bowl,2,2024-01-30 18:21:00,Henry
+4177,Banoffee Pie,2,2024-01-30 18:30:00,Bob
+4178,Carrot Cake,3,2024-01-30 13:18:00,Henry
+4179,New York Cheesecake,1,2024-01-30 19:30:00,Diana
+4180,Red Velvet Cake,2,2024-01-30 13:24:00,Henry
+4181,Carrot Cake,1,2024-01-30 13:28:00,Frank
+4182,Carrot Cake,2,2024-01-30 13:23:00,Alice
+4183,Tiramisu,2,2024-01-30 18:37:00,Eve
+4184,Red Velvet Cake,2,2024-01-30 18:48:00,Diana
+4185,Carrot Cake,3,2024-01-30 10:46:00,Henry
+4186,Red Velvet Cake,2,2024-01-30 11:38:00,Alice
+4187,Tiramisu,1,2024-01-30 13:14:00,Frank
+4188,New York Cheesecake,3,2024-01-30 20:42:00,Grace
+4189,New York Cheesecake,1,2024-01-30 18:32:00,Bob
+4190,Red Velvet Cake,1,2024-01-30 13:01:00,Frank
+4191,New York Cheesecake,1,2024-01-30 17:18:00,Charlie
+4192,Panna Cotta,2,2024-01-30 18:00:00,Henry
+4193,Carrot Cake,1,2024-01-30 12:55:00,Alice
+4194,Carrot Cake,3,2024-01-30 11:08:00,Henry
+4195,Carrot Cake,1,2024-01-30 19:53:00,Diana
+4196,Panna Cotta,1,2024-01-30 16:33:00,Henry
+4197,Pavlova,2,2024-01-30 14:59:00,Henry
+4198,Pavlova,1,2024-01-30 14:33:00,Frank
+4199,Panna Cotta,1,2024-01-30 18:56:00,Diana
+4200,Carrot Cake,2,2024-01-30 09:19:00,Alice
+4201,New York Cheesecake,3,2024-01-30 18:23:00,Grace
+4202,Carrot Cake,1,2024-01-30 20:42:00,Charlie
+4203,Carrot Cake,2,2024-01-30 19:49:00,Bob
+4204,Carrot Cake,2,2024-01-30 17:34:00,Eve
+4205,Carrot Cake,2,2024-01-30 19:38:00,Bob
+4206,Tea,3,2024-01-30 12:20:00,Henry
+4207,Red Velvet Cake,1,2024-01-30 19:19:00,Diana
+4208,Iced Coffee,2,2024-01-30 19:22:00,Grace
+4209,Carrot Cake,1,2024-01-30 17:48:00,Bob
+4210,Red Velvet Cake,2,2024-01-30 18:00:00,Charlie
+4211,Carrot Cake,2,2024-01-30 13:26:00,Henry
+4212,Club Sandwich,1,2024-01-30 13:40:00,Frank
+4213,Red Velvet Cake,1,2024-01-30 18:25:00,Henry
+4214,Tiramisu,2,2024-01-30 21:38:00,Bob
+4215,Carrot Cake,1,2024-01-30 19:40:00,Henry
+4216,Carrot Cake,2,2024-01-30 12:39:00,Alice
+4217,Carrot Cake,1,2024-01-30 12:59:00,Frank
+4218,New York Cheesecake,2,2024-01-30 14:48:00,Alice
+4219,Tea,2,2024-01-30 13:54:00,Alice
+4220,Carrot Cake,1,2024-01-30 12:29:00,Frank
+4221,New York Cheesecake,1,2024-01-30 12:04:00,Henry
+4222,Carrot Cake,1,2024-01-30 18:45:00,Diana
+4223,Latte,2,2024-01-30 11:52:00,Alice
+4224,Banoffee Pie,1,2024-01-30 19:30:00,Bob
+4225,Carrot Cake,1,2024-01-30 17:31:00,Diana
+4226,Carrot Cake,1,2024-01-30 10:23:00,Henry
+4227,Carrot Cake,3,2024-01-30 19:01:00,Charlie

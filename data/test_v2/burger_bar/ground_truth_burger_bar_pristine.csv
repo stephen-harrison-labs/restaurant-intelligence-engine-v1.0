@@ -1,0 +1,24 @@
+item_id,item_name,tags,expected_quadrant,is_opportunity,is_risk,archetype_role
+1,Mozzarella Sticks,['starters'],,False,False,standard
+2,Jalapeño Poppers,"['starters', 'overpriced_low_volume']",Dog,False,True,risk
+3,Loaded Potato Skins,['starters'],,False,False,standard
+4,Double Cheeseburger,['mains'],,False,False,standard
+5,BBQ Pulled Pork Burger,['mains'],,False,False,standard
+6,Chicken Burger,"['mains', 'high_waste_risk']",,False,True,risk
+7,Double Cheeseburger,"['mains', 'overpriced_low_volume']",Dog,False,True,risk
+8,Veggie Burger,['mains'],,False,False,standard
+9,Veggie Burger,['mains'],,False,False,standard
+10,Veggie Burger,['mains'],,False,False,standard
+11,Bacon Cheeseburger,['mains'],,False,False,standard
+12,Classic Beef Burger,['mains'],,False,False,standard
+13,Veggie Burger,['mains'],,False,False,standard
+14,Onion Rings,['sides'],,False,False,standard
+15,French Fries,"['sides', 'overpriced_low_volume']",Dog,False,True,risk
+16,Corn on the Cob,['sides'],,False,False,standard
+17,Coleslaw,['sides'],,False,False,standard
+18,Sweet Potato Fries,['sides'],,False,False,standard
+19,Side Salad,"['sides', 'high_waste_risk']",,False,True,risk
+20,Brownie Sundae,"['desserts', 'underpriced_high_performer']",Star,True,False,opportunity
+21,Apple Pie,['desserts'],,False,False,standard
+22,Coca Cola,['drinks'],,False,False,standard
+23,Milkshake,"['drinks', 'underpriced_high_performer']",Star,True,False,opportunity

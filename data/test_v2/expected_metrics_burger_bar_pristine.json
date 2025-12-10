@@ -1,0 +1,14 @@
+{
+  "total_star_items": 2,
+  "total_underpriced_items": 2,
+  "high_waste_items": [
+    "Chicken Burger",
+    "Side Salad"
+  ],
+  "anchor_items": [],
+  "overpriced_low_volume_items": [
+    "Jalape\u00f1o Poppers",
+    "Double Cheeseburger",
+    "French Fries"
+  ]
+}

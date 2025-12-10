@@ -1,0 +1,4193 @@
+order_id,item_name,qty,order_datetime,staff_name
+1,Sunday Roast,2,2024-01-01 13:28:00,Henry
+2,Cask Ale,1,2024-01-01 10:19:00,Frank
+3,Apple Crumble,1,2024-01-01 16:49:00,Charlie
+4,Craft Beer,1,2024-01-01 17:06:00,Grace
+5,Prawn Cocktail,2,2024-01-01 19:43:00,Henry
+6,Craft Beer,1,2024-01-01 13:13:00,Alice
+7,Sunday Roast,1,2024-01-01 20:49:00,Eve
+8,Prawn Cocktail,2,2024-01-01 19:17:00,Charlie
+9,Craft Beer,3,2024-01-01 22:09:00,Bob
+10,Steak & Ale Pie,2,2024-01-01 19:53:00,Bob
+11,Chicken Liver Pâté,2,2024-01-01 17:31:00,Diana
+12,Sea Bass,1,2024-01-01 13:22:00,Alice
+13,Lamb Shank,2,2024-01-01 19:56:00,Henry
+14,Steak & Ale Pie,2,2024-01-01 19:09:00,Bob
+15,Fish & Chips,1,2024-01-01 21:11:00,Diana
+16,Apple Crumble,1,2024-01-01 12:30:00,Alice
+17,Gravy,1,2024-01-01 15:07:00,Henry
+18,Sparkling Water,1,2024-01-01 18:41:00,Bob
+19,Steak & Ale Pie,1,2024-01-01 12:42:00,Frank
+20,House Wine (175ml),1,2024-01-01 15:55:00,Frank
+21,Gravy,2,2024-01-01 19:39:00,Diana
+22,Sea Bass,3,2024-01-01 12:01:00,Henry
+23,Craft Beer,2,2024-01-01 17:08:00,Charlie
+24,Pork Pie,3,2024-01-01 18:55:00,Henry
+25,Fish & Chips,2,2024-01-01 18:01:00,Diana
+26,Sea Bass,1,2024-01-01 19:13:00,Grace
+27,Cider,2,2024-01-01 14:36:00,Alice
+28,Craft Beer,3,2024-01-01 13:39:00,Alice
+29,Seasonal Veg,1,2024-01-01 12:14:00,Henry
+30,Fish & Chips,3,2024-01-01 19:03:00,Charlie
+31,Lamb Shank,1,2024-01-01 12:18:00,Alice
+32,Lamb Shank,1,2024-01-01 10:17:00,Henry
+33,Steak & Ale Pie,1,2024-01-01 17:03:00,Eve
+34,G&T,1,2024-01-01 15:40:00,Henry
+35,Sea Bass,2,2024-01-01 12:52:00,Henry
+36,Steak & Ale Pie,2,2024-01-01 14:14:00,Alice
+37,Prawn Cocktail,3,2024-01-01 12:02:00,Alice
+38,Coffee,3,2024-01-01 12:50:00,Henry
+39,Sticky Toffee Pudding,2,2024-01-01 18:50:00,Eve
+40,Sunday Roast,3,2024-01-01 12:46:00,Henry
+41,Sticky Toffee Pudding,1,2024-01-01 14:32:00,Henry
+42,Sea Bass,1,2024-01-01 12:23:00,Frank
+43,Sea Bass,1,2024-01-01 13:28:00,Frank
+44,House Wine (175ml),3,2024-01-01 18:21:00,Charlie
+45,Fish & Chips,3,2024-01-01 15:17:00,Henry
+46,Fish & Chips,2,2024-01-01 17:19:00,Charlie
+47,Lamb Shank,2,2024-01-01 13:48:00,Alice
+48,Chips,1,2024-01-01 19:44:00,Henry
+49,House Wine (175ml),1,2024-01-01 18:07:00,Eve
+50,Seasonal Veg,2,2024-01-01 20:05:00,Charlie
+51,Lamb Shank,2,2024-01-01 18:48:00,Henry
+52,Lamb Shank,1,2024-01-01 11:56:00,Frank
+53,Sunday Roast,2,2024-01-01 17:36:00,Diana
+54,Seasonal Veg,3,2024-01-01 18:27:00,Eve
+55,Scotch Egg,2,2024-01-01 12:29:00,Henry
+56,Apple Crumble,1,2024-01-01 14:07:00,Henry
+57,Lamb Shank,1,2024-01-01 19:46:00,Grace
+58,Lamb Shank,3,2024-01-01 13:45:00,Alice
+59,Sparkling Water,2,2024-01-01 14:09:00,Henry
+60,Sunday Roast,1,2024-01-01 19:22:00,Diana
+61,House Wine (175ml),1,2024-01-01 21:46:00,Bob
+62,Fish & Chips,2,2024-01-01 19:43:00,Henry
+63,Steak & Ale Pie,3,2024-01-01 18:38:00,Eve
+64,Steak & Ale Pie,1,2024-01-01 13:00:00,Henry
+65,Fish & Chips,3,2024-01-01 19:27:00,Grace
+66,G&T,1,2024-01-01 19:46:00,Grace
+67,Bread & Butter Pudding,1,2024-01-01 22:17:00,Bob
+68,Sea Bass,1,2024-01-01 19:39:00,Henry
+69,Coffee,2,2024-01-01 18:01:00,Grace
+70,Prawn Cocktail,2,2024-01-01 10:11:00,Alice
+71,G&T,1,2024-01-01 18:00:00,Henry
+72,Craft Beer,2,2024-01-01 18:14:00,Henry
+73,Lamb Shank,1,2024-01-01 19:55:00,Diana
+74,Sticky Toffee Pudding,2,2024-01-01 15:02:00,Frank
+75,Lamb Shank,1,2024-01-01 12:44:00,Henry
+76,Chips,1,2024-01-01 18:44:00,Eve
+77,Cask Ale,2,2024-01-01 17:58:00,Bob
+78,Lamb Shank,2,2024-01-01 12:02:00,Frank
+79,Sticky Toffee Pudding,1,2024-01-01 14:05:00,Frank
+80,Steak & Ale Pie,2,2024-01-01 12:47:00,Alice
+81,House Wine (175ml),1,2024-01-01 18:56:00,Charlie
+82,Steak & Ale Pie,1,2024-01-01 15:38:00,Henry
+83,Steak & Ale Pie,2,2024-01-01 12:24:00,Henry
+84,Sea Bass,1,2024-01-01 17:16:00,Diana
+85,Steak & Ale Pie,1,2024-01-01 12:38:00,Henry
+86,Sea Bass,1,2024-01-01 14:35:00,Frank
+87,Sticky Toffee Pudding,2,2024-01-01 17:28:00,Eve
+88,Mushy Peas,2,2024-01-01 13:42:00,Alice
+89,Sunday Roast,2,2024-01-01 17:47:00,Eve
+90,Sunday Roast,2,2024-01-01 19:21:00,Bob
+91,G&T,2,2024-01-01 18:55:00,Charlie
+92,G&T,1,2024-01-01 12:18:00,Alice
+93,Lamb Shank,1,2024-01-01 13:04:00,Frank
+94,Craft Beer,3,2024-01-01 18:20:00,Henry
+95,Seasonal Veg,1,2024-01-01 13:00:00,Henry
+96,Cider,1,2024-01-01 13:09:00,Frank
+97,G&T,1,2024-01-01 13:57:00,Henry
+98,Lamb Shank,2,2024-01-01 17:41:00,Diana
+99,G&T,3,2024-01-01 12:00:00,Henry
+100,Coffee,1,2024-01-01 17:09:00,Charlie
+101,Scotch Egg,2,2024-01-01 14:50:00,Henry
+102,Lamb Shank,1,2024-01-01 14:23:00,Frank
+103,Sea Bass,1,2024-01-01 19:28:00,Henry
+104,Sunday Roast,1,2024-01-01 15:02:00,Henry
+105,Sticky Toffee Pudding,2,2024-01-01 12:35:00,Henry
+106,Prawn Cocktail,1,2024-01-01 17:50:00,Grace
+107,G&T,2,2024-01-01 16:45:00,Henry
+108,Sunday Roast,3,2024-01-01 18:20:00,Grace
+109,Sea Bass,1,2024-01-01 17:51:00,Bob
+110,Steak & Ale Pie,3,2024-01-01 16:51:00,Eve
+111,Sea Bass,1,2024-01-01 17:06:00,Diana
+112,Steak & Ale Pie,1,2024-01-01 10:10:00,Frank
+113,Lamb Shank,2,2024-01-01 17:55:00,Eve
+114,Eton Mess,1,2024-01-01 17:00:00,Grace
+115,Sparkling Water,3,2024-01-01 18:58:00,Eve
+116,Fish & Chips,2,2024-01-01 18:54:00,Diana
+117,Bread & Butter Pudding,2,2024-01-01 14:52:00,Frank
+118,Sparkling Water,2,2024-01-01 21:33:00,Bob
+119,Prawn Cocktail,2,2024-01-01 13:17:00,Alice
+120,Steak & Ale Pie,3,2024-01-01 15:07:00,Henry
+121,Scotch Egg,2,2024-01-01 14:59:00,Alice
+122,Craft Beer,1,2024-01-01 18:47:00,Charlie
+123,Pork Pie,2,2024-01-02 13:57:00,Alice
+124,Cider,2,2024-01-02 18:39:00,Grace
+125,Sea Bass,2,2024-01-02 18:22:00,Bob
+126,Sunday Roast,2,2024-01-02 19:26:00,Bob
+127,Cask Ale,1,2024-01-02 10:45:00,Frank
+128,Sea Bass,3,2024-01-02 12:24:00,Henry
+129,Steak & Ale Pie,1,2024-01-02 13:42:00,Frank
+130,Scotch Egg,1,2024-01-02 19:51:00,Charlie
+131,Cider,1,2024-01-02 18:25:00,Grace
+132,Gravy,3,2024-01-02 14:32:00,Alice
+133,Steak & Ale Pie,3,2024-01-02 18:44:00,Eve
+134,Bangers & Mash,1,2024-01-02 15:20:00,Alice
+135,Steak & Ale Pie,2,2024-01-02 12:33:00,Alice
+136,House Wine (175ml),1,2024-01-02 13:26:00,Frank
+137,Cask Ale,1,2024-01-02 16:58:00,Charlie
+138,Fish & Chips,2,2024-01-02 13:53:00,Henry
+139,Steak & Ale Pie,1,2024-01-02 17:37:00,Eve
+140,Cask Ale,1,2024-01-02 13:10:00,Alice
+141,Craft Beer,1,2024-01-02 17:15:00,Grace
+142,Apple Crumble,3,2024-01-02 15:56:00,Henry
+143,Lamb Shank,2,2024-01-02 19:16:00,Grace
+144,House Wine (175ml),1,2024-01-02 12:25:00,Frank
+145,House Wine (175ml),1,2024-01-02 14:08:00,Alice
+146,Smoked Salmon,2,2024-01-02 10:03:00,Alice
+147,Prawn Cocktail,1,2024-01-02 15:47:00,Alice
+148,G&T,1,2024-01-02 13:46:00,Alice
+149,Sea Bass,1,2024-01-02 13:29:00,Frank
+150,Chicken Liver Pâté,2,2024-01-02 12:24:00,Henry
+151,Sea Bass,2,2024-01-02 15:01:00,Alice
+152,Steak & Ale Pie,1,2024-01-02 19:31:00,Charlie
+153,Sea Bass,1,2024-01-02 15:51:00,Henry
+154,Steak & Ale Pie,2,2024-01-02 19:28:00,Bob
+155,Fish & Chips,3,2024-01-02 12:36:00,Alice
+156,Prawn Cocktail,1,2024-01-02 09:55:00,Alice
+157,Gravy,2,2024-01-02 17:28:00,Charlie
+158,G&T,2,2024-01-02 19:29:00,Bob
+159,G&T,1,2024-01-02 12:53:00,Henry
+160,Mash,3,2024-01-02 19:33:00,Diana
+161,Steak & Ale Pie,2,2024-01-02 13:44:00,Henry
+162,Sea Bass,1,2024-01-02 17:17:00,Charlie
+163,Sea Bass,1,2024-01-02 11:51:00,Alice
+164,G&T,2,2024-01-02 12:39:00,Henry
+165,Seasonal Veg,1,2024-01-02 13:07:00,Henry
+166,Lamb Shank,2,2024-01-02 12:40:00,Henry
+167,Soup of the Day,3,2024-01-02 22:15:00,Bob
+168,Cask Ale,3,2024-01-02 17:23:00,Bob
+169,Lamb Shank,1,2024-01-02 16:09:00,Eve
+170,Apple Crumble,3,2024-01-02 17:07:00,Charlie
+171,Sea Bass,2,2024-01-02 09:03:00,Frank
+172,Gravy,1,2024-01-02 13:37:00,Frank
+173,Gravy,2,2024-01-02 18:31:00,Grace
+174,Sunday Roast,1,2024-01-02 21:08:00,Diana
+175,Sea Bass,1,2024-01-02 18:21:00,Eve
+176,G&T,1,2024-01-02 19:39:00,Diana
+177,Lamb Shank,3,2024-01-02 20:15:00,Charlie
+178,Steak & Ale Pie,2,2024-01-02 19:14:00,Charlie
+179,Sunday Roast,2,2024-01-02 19:38:00,Diana
+180,Gravy,1,2024-01-02 18:32:00,Grace
+181,Craft Beer,1,2024-01-02 19:41:00,Henry
+182,Soup of the Day,3,2024-01-02 12:25:00,Henry
+183,Cask Ale,1,2024-01-02 13:48:00,Henry
+184,Gravy,1,2024-01-02 13:20:00,Frank
+185,Steak & Ale Pie,1,2024-01-02 17:34:00,Henry
+186,Fish & Chips,1,2024-01-02 13:21:00,Frank
+187,House Wine (175ml),1,2024-01-02 18:02:00,Diana
+188,Cask Ale,1,2024-01-02 11:28:00,Henry
+189,Sunday Roast,2,2024-01-02 12:58:00,Alice
+190,Sunday Roast,3,2024-01-02 13:07:00,Alice
+191,Fish & Chips,1,2024-01-02 17:40:00,Diana
+192,Cask Ale,3,2024-01-02 13:18:00,Henry
+193,House Wine (175ml),1,2024-01-02 21:36:00,Henry
+194,Gravy,1,2024-01-02 12:56:00,Alice
+195,Mushy Peas,1,2024-01-02 19:44:00,Eve
+196,G&T,2,2024-01-02 13:27:00,Alice
+197,Steak & Ale Pie,2,2024-01-02 18:44:00,Charlie
+198,Lamb Shank,3,2024-01-02 18:01:00,Grace
+199,Chicken Liver Pâté,1,2024-01-02 12:13:00,Henry
+200,Sea Bass,2,2024-01-02 19:37:00,Charlie
+201,G&T,3,2024-01-02 12:52:00,Henry
+202,Sea Bass,1,2024-01-02 13:32:00,Frank
+203,Cask Ale,2,2024-01-02 12:02:00,Henry
+204,Fish & Chips,1,2024-01-02 15:16:00,Frank
+205,Fish & Chips,3,2024-01-02 14:21:00,Alice
+206,Lamb Shank,2,2024-01-02 15:50:00,Henry
+207,Soup of the Day,1,2024-01-02 12:09:00,Alice
+208,Chips,2,2024-01-02 19:00:00,Charlie
+209,Lamb Shank,2,2024-01-02 14:31:00,Frank
+210,Steak & Ale Pie,1,2024-01-02 18:49:00,Grace
+211,Prawn Cocktail,1,2024-01-02 19:40:00,Diana
+212,Craft Beer,2,2024-01-02 18:39:00,Eve
+213,Sea Bass,2,2024-01-02 12:12:00,Henry
+214,Lamb Shank,1,2024-01-02 09:33:00,Henry
+215,Lamb Shank,2,2024-01-02 14:47:00,Alice
+216,Steak & Ale Pie,2,2024-01-02 13:09:00,Henry
+217,Seasonal Veg,1,2024-01-02 14:18:00,Frank
+218,Lamb Shank,2,2024-01-02 20:31:00,Diana
+219,Steak & Ale Pie,3,2024-01-02 19:35:00,Bob
+220,Fish & Chips,2,2024-01-02 18:16:00,Henry
+221,Bangers & Mash,2,2024-01-02 13:21:00,Henry
+222,Sparkling Water,1,2024-01-02 14:53:00,Frank
+223,Sticky Toffee Pudding,1,2024-01-02 19:19:00,Diana
+224,Fish & Chips,1,2024-01-02 14:27:00,Frank
+225,Apple Crumble,1,2024-01-02 17:07:00,Eve
+226,Craft Beer,3,2024-01-02 13:48:00,Alice
+227,Fish & Chips,1,2024-01-02 12:54:00,Henry
+228,Apple Crumble,3,2024-01-02 12:16:00,Alice
+229,G&T,2,2024-01-02 12:57:00,Frank
+230,Sticky Toffee Pudding,1,2024-01-02 17:44:00,Charlie
+231,G&T,1,2024-01-02 21:31:00,Diana
+232,Chips,2,2024-01-02 14:42:00,Henry
+233,Steak & Ale Pie,2,2024-01-02 19:50:00,Henry
+234,Sea Bass,1,2024-01-02 15:26:00,Frank
+235,G&T,3,2024-01-02 19:57:00,Henry
+236,Craft Beer,1,2024-01-02 18:59:00,Grace
+237,Sticky Toffee Pudding,1,2024-01-02 14:41:00,Alice
+238,Sea Bass,1,2024-01-02 13:27:00,Frank
+239,Lamb Shank,1,2024-01-02 18:17:00,Henry
+240,G&T,1,2024-01-02 13:27:00,Henry
+241,Steak & Ale Pie,3,2024-01-02 18:36:00,Bob
+242,Sea Bass,2,2024-01-02 12:56:00,Alice
+243,Smoked Salmon,1,2024-01-02 19:17:00,Henry
+244,Cask Ale,2,2024-01-02 18:14:00,Charlie
+245,Lamb Shank,2,2024-01-02 12:42:00,Henry
+246,G&T,2,2024-01-02 16:14:00,Eve
+247,Sunday Roast,1,2024-01-02 22:01:00,Henry
+248,Steak & Ale Pie,2,2024-01-02 18:07:00,Henry
+249,Apple Crumble,1,2024-01-02 14:12:00,Alice
+250,Craft Beer,1,2024-01-02 18:40:00,Grace
+251,Craft Beer,2,2024-01-02 13:14:00,Henry
+252,Cask Ale,1,2024-01-02 19:16:00,Bob
+253,Smoked Salmon,1,2024-01-02 12:18:00,Frank
+254,Craft Beer,1,2024-01-02 09:05:00,Frank
+255,Lamb Shank,1,2024-01-02 17:44:00,Grace
+256,Fish & Chips,2,2024-01-02 19:16:00,Grace
+257,Sparkling Water,1,2024-01-02 11:25:00,Frank
+258,Craft Beer,2,2024-01-02 18:12:00,Eve
+259,Lamb Shank,2,2024-01-02 13:24:00,Alice
+260,Lamb Shank,2,2024-01-03 11:07:00,Frank
+261,Fish & Chips,2,2024-01-03 14:10:00,Henry
+262,Cask Ale,3,2024-01-03 14:59:00,Henry
+263,Sea Bass,2,2024-01-03 19:23:00,Diana
+264,Gravy,2,2024-01-03 13:11:00,Alice
+265,Soup of the Day,1,2024-01-03 19:44:00,Diana
+266,Lamb Shank,1,2024-01-03 17:42:00,Diana
+267,Gravy,1,2024-01-03 18:29:00,Bob
+268,Steak & Ale Pie,2,2024-01-03 13:49:00,Alice
+269,Chicken Liver Pâté,1,2024-01-03 18:31:00,Henry
+270,Lamb Shank,3,2024-01-03 19:03:00,Grace
+271,House Wine (175ml),1,2024-01-03 14:38:00,Henry
+272,Lamb Shank,1,2024-01-03 12:28:00,Frank
+273,Lamb Shank,2,2024-01-03 12:35:00,Henry
+274,G&T,1,2024-01-03 12:05:00,Alice
+275,Sea Bass,1,2024-01-03 13:08:00,Alice
+276,Cask Ale,3,2024-01-03 17:03:00,Diana
+277,Fish & Chips,2,2024-01-03 12:12:00,Henry
+278,Craft Beer,3,2024-01-03 12:06:00,Alice
+279,Prawn Cocktail,1,2024-01-03 16:51:00,Bob
+280,Gravy,2,2024-01-03 13:59:00,Frank
+281,Sunday Roast,2,2024-01-03 12:56:00,Henry
+282,Steak & Ale Pie,2,2024-01-03 21:58:00,Henry
+283,Lamb Shank,1,2024-01-03 12:22:00,Frank
+284,Sea Bass,1,2024-01-03 19:19:00,Bob
+285,Coffee,3,2024-01-03 14:35:00,Henry
+286,Steak & Ale Pie,2,2024-01-03 13:37:00,Henry
+287,Gravy,1,2024-01-03 14:19:00,Alice
+288,Chicken Liver Pâté,1,2024-01-03 13:39:00,Alice
+289,Lamb Shank,2,2024-01-03 18:22:00,Henry
+290,Craft Beer,3,2024-01-03 18:23:00,Eve
+291,Prawn Cocktail,3,2024-01-03 17:15:00,Bob
+292,Gravy,1,2024-01-03 13:40:00,Alice
+293,Gravy,1,2024-01-03 10:55:00,Henry
+294,Sunday Roast,1,2024-01-03 18:40:00,Bob
+295,Sea Bass,2,2024-01-03 09:51:00,Frank
+296,Lamb Shank,1,2024-01-03 13:47:00,Henry
+297,Fish & Chips,3,2024-01-03 18:33:00,Bob
+298,Lamb Shank,2,2024-01-03 20:29:00,Grace
+299,Chicken Liver Pâté,3,2024-01-03 19:51:00,Eve
+300,Coffee,2,2024-01-03 15:22:00,Alice
+301,Sea Bass,1,2024-01-03 14:33:00,Henry
+302,Lamb Shank,1,2024-01-03 18:22:00,Charlie
+303,Sunday Roast,1,2024-01-03 19:50:00,Bob
+304,Apple Crumble,1,2024-01-03 18:01:00,Eve
+305,Steak & Ale Pie,2,2024-01-03 17:09:00,Bob
+306,Lamb Shank,1,2024-01-03 12:02:00,Frank
+307,Sea Bass,2,2024-01-03 11:08:00,Frank
+308,Bread & Butter Pudding,3,2024-01-03 21:56:00,Charlie
+309,Sea Bass,1,2024-01-03 17:04:00,Diana
+310,House Wine (175ml),1,2024-01-03 16:25:00,Diana
+311,Coffee,1,2024-01-03 18:59:00,Eve
+312,Fish & Chips,1,2024-01-03 19:18:00,Grace
+313,Fish & Chips,3,2024-01-03 19:50:00,Henry
+314,Steak & Ale Pie,1,2024-01-03 17:09:00,Grace
+315,Lamb Shank,1,2024-01-03 20:23:00,Charlie
+316,Cider,2,2024-01-03 20:18:00,Charlie
+317,G&T,3,2024-01-03 19:05:00,Bob
+318,Mushy Peas,2,2024-01-03 12:58:00,Henry
+319,G&T,2,2024-01-03 19:47:00,Charlie
+320,Bangers & Mash,1,2024-01-03 14:58:00,Henry
+321,Craft Beer,2,2024-01-03 11:23:00,Henry
+322,Prawn Cocktail,1,2024-01-03 19:04:00,Henry
+323,Sea Bass,2,2024-01-03 12:36:00,Alice
+324,Sea Bass,1,2024-01-03 19:58:00,Henry
+325,Lamb Shank,2,2024-01-03 12:58:00,Henry
+326,Sticky Toffee Pudding,1,2024-01-03 19:03:00,Charlie
+327,G&T,3,2024-01-03 18:32:00,Henry
+328,Sea Bass,2,2024-01-03 13:37:00,Alice
+329,Craft Beer,2,2024-01-03 20:05:00,Henry
+330,Bread & Butter Pudding,1,2024-01-03 12:22:00,Frank
+331,Sparkling Water,1,2024-01-03 14:19:00,Henry
+332,Pork Pie,1,2024-01-03 19:13:00,Grace
+333,Sea Bass,3,2024-01-03 15:11:00,Alice
+334,Sea Bass,1,2024-01-03 15:30:00,Frank
+335,Sticky Toffee Pudding,1,2024-01-03 17:28:00,Charlie
+336,Cask Ale,1,2024-01-03 21:13:00,Bob
+337,Sticky Toffee Pudding,2,2024-01-03 11:28:00,Henry
+338,G&T,1,2024-01-03 14:49:00,Frank
+339,Apple Crumble,2,2024-01-03 13:38:00,Frank
+340,Craft Beer,1,2024-01-03 13:39:00,Frank
+341,Lamb Shank,2,2024-01-03 18:25:00,Diana
+342,Sticky Toffee Pudding,1,2024-01-03 12:27:00,Frank
+343,Fish & Chips,3,2024-01-03 19:11:00,Grace
+344,Steak & Ale Pie,2,2024-01-03 12:16:00,Alice
+345,G&T,1,2024-01-03 19:11:00,Grace
+346,Lamb Shank,1,2024-01-03 13:45:00,Henry
+347,Mushy Peas,1,2024-01-03 13:28:00,Frank
+348,Craft Beer,1,2024-01-03 11:07:00,Frank
+349,Craft Beer,1,2024-01-03 18:28:00,Charlie
+350,Steak & Ale Pie,1,2024-01-03 13:26:00,Alice
+351,Steak & Ale Pie,1,2024-01-03 12:10:00,Henry
+352,Steak & Ale Pie,1,2024-01-03 12:45:00,Alice
+353,Coffee,1,2024-01-03 12:26:00,Frank
+354,Cider,2,2024-01-03 17:45:00,Bob
+355,Craft Beer,1,2024-01-03 19:52:00,Grace
+356,Sunday Roast,2,2024-01-03 11:54:00,Henry
+357,Mushy Peas,2,2024-01-03 14:00:00,Frank
+358,Craft Beer,3,2024-01-03 12:34:00,Henry
+359,Cask Ale,1,2024-01-03 22:13:00,Grace
+360,Chips,3,2024-01-03 14:52:00,Henry
+361,Steak & Ale Pie,1,2024-01-03 13:16:00,Henry
+362,House Wine (175ml),2,2024-01-03 12:33:00,Henry
+363,Lamb Shank,1,2024-01-03 19:03:00,Bob
+364,Coffee,1,2024-01-03 18:40:00,Henry
+365,Sea Bass,1,2024-01-03 18:15:00,Henry
+366,Sea Bass,2,2024-01-03 20:48:00,Eve
+367,Craft Beer,1,2024-01-03 13:15:00,Henry
+368,Chicken Liver Pâté,2,2024-01-03 19:46:00,Henry
+369,Lamb Shank,2,2024-01-03 22:12:00,Henry
+370,Steak & Ale Pie,2,2024-01-03 18:02:00,Grace
+371,Lamb Shank,2,2024-01-03 13:05:00,Alice
+372,Sticky Toffee Pudding,2,2024-01-03 15:11:00,Henry
+373,Sea Bass,3,2024-01-03 21:51:00,Bob
+374,Craft Beer,1,2024-01-03 12:24:00,Henry
+375,Lamb Shank,2,2024-01-03 14:43:00,Alice
+376,Coffee,3,2024-01-03 13:12:00,Alice
+377,Lamb Shank,1,2024-01-03 13:47:00,Frank
+378,Sea Bass,3,2024-01-03 20:16:00,Eve
+379,Lamb Shank,2,2024-01-03 14:24:00,Alice
+380,Coffee,3,2024-01-03 18:02:00,Bob
+381,Prawn Cocktail,3,2024-01-03 19:12:00,Bob
+382,Craft Beer,1,2024-01-03 13:13:00,Alice
+383,Sparkling Water,1,2024-01-03 18:37:00,Bob
+384,Craft Beer,3,2024-01-03 19:56:00,Charlie
+385,Fish & Chips,1,2024-01-03 18:31:00,Eve
+386,Gravy,1,2024-01-03 15:17:00,Henry
+387,Sea Bass,2,2024-01-03 18:30:00,Henry
+388,Lamb Shank,2,2024-01-03 18:54:00,Charlie
+389,Coffee,3,2024-01-03 20:31:00,Bob
+390,Steak & Ale Pie,2,2024-01-03 13:43:00,Frank
+391,Cask Ale,1,2024-01-03 11:38:00,Frank
+392,Coffee,3,2024-01-03 18:24:00,Eve
+393,Sea Bass,2,2024-01-03 13:22:00,Alice
+394,Soup of the Day,1,2024-01-03 17:46:00,Henry
+395,Sunday Roast,1,2024-01-03 18:49:00,Charlie
+396,Prawn Cocktail,1,2024-01-03 13:33:00,Henry
+397,Craft Beer,1,2024-01-03 20:51:00,Henry
+398,Cask Ale,1,2024-01-03 19:03:00,Charlie
+399,Sea Bass,1,2024-01-04 16:24:00,Grace
+400,G&T,2,2024-01-04 10:20:00,Henry
+401,Sunday Roast,2,2024-01-04 18:55:00,Eve
+402,Cask Ale,3,2024-01-04 17:18:00,Charlie
+403,Fish & Chips,2,2024-01-04 13:58:00,Frank
+404,Sea Bass,1,2024-01-04 19:40:00,Henry
+405,Fish & Chips,1,2024-01-04 12:07:00,Alice
+406,Fish & Chips,2,2024-01-04 21:05:00,Bob
+407,Sticky Toffee Pudding,3,2024-01-04 17:05:00,Grace
+408,Sparkling Water,2,2024-01-04 17:26:00,Eve
+409,Lamb Shank,1,2024-01-04 13:10:00,Frank
+410,Sea Bass,3,2024-01-04 13:25:00,Alice
+411,G&T,1,2024-01-04 13:57:00,Henry
+412,Lamb Shank,2,2024-01-04 18:12:00,Charlie
+413,Gravy,1,2024-01-04 19:06:00,Charlie
+414,Chips,2,2024-01-04 16:17:00,Eve
+415,Apple Crumble,2,2024-01-04 12:19:00,Henry
+416,Sea Bass,1,2024-01-04 11:45:00,Frank
+417,Craft Beer,1,2024-01-04 12:19:00,Frank
+418,Craft Beer,2,2024-01-04 19:27:00,Eve
+419,Coffee,1,2024-01-04 15:04:00,Frank
+420,Sparkling Water,1,2024-01-04 16:38:00,Eve
+421,Coffee,1,2024-01-04 15:40:00,Frank
+422,Steak & Ale Pie,1,2024-01-04 14:58:00,Henry
+423,Chicken Liver Pâté,2,2024-01-04 12:08:00,Alice
+424,Prawn Cocktail,2,2024-01-04 18:32:00,Grace
+425,Lamb Shank,2,2024-01-04 12:06:00,Henry
+426,Sea Bass,1,2024-01-04 13:23:00,Frank
+427,Sunday Roast,2,2024-01-04 12:14:00,Henry
+428,Sea Bass,1,2024-01-04 19:21:00,Henry
+429,Gravy,3,2024-01-04 13:40:00,Alice
+430,Sticky Toffee Pudding,3,2024-01-04 22:06:00,Eve
+431,Fish & Chips,3,2024-01-04 19:19:00,Charlie
+432,Coffee,2,2024-01-04 13:56:00,Frank
+433,Lamb Shank,1,2024-01-04 19:34:00,Grace
+434,Sunday Roast,2,2024-01-04 16:04:00,Eve
+435,Sea Bass,1,2024-01-04 14:40:00,Henry
+436,G&T,2,2024-01-04 12:25:00,Alice
+437,Gravy,1,2024-01-04 12:06:00,Henry
+438,Bread & Butter Pudding,1,2024-01-04 13:06:00,Alice
+439,Gravy,1,2024-01-04 11:00:00,Alice
+440,Chips,1,2024-01-04 19:06:00,Bob
+441,Craft Beer,3,2024-01-04 14:22:00,Alice
+442,Coffee,2,2024-01-04 09:32:00,Alice
+443,Apple Crumble,2,2024-01-04 12:53:00,Alice
+444,Sunday Roast,1,2024-01-04 17:57:00,Henry
+445,Sea Bass,1,2024-01-04 15:46:00,Frank
+446,Soup of the Day,2,2024-01-04 13:28:00,Henry
+447,Craft Beer,3,2024-01-04 17:14:00,Eve
+448,Sunday Roast,2,2024-01-04 18:02:00,Bob
+449,Sea Bass,2,2024-01-04 12:10:00,Alice
+450,Craft Beer,3,2024-01-04 14:04:00,Alice
+451,Soup of the Day,3,2024-01-04 12:36:00,Henry
+452,Craft Beer,3,2024-01-04 20:30:00,Bob
+453,Mushy Peas,1,2024-01-04 19:13:00,Henry
+454,Chips,2,2024-01-04 19:03:00,Eve
+455,Sparkling Water,1,2024-01-04 17:30:00,Bob
+456,Steak & Ale Pie,2,2024-01-04 18:11:00,Henry
+457,Sparkling Water,1,2024-01-04 13:55:00,Henry
+458,Steak & Ale Pie,3,2024-01-04 12:22:00,Alice
+459,G&T,1,2024-01-04 18:05:00,Charlie
+460,Eton Mess,3,2024-01-04 19:47:00,Charlie
+461,Coffee,1,2024-01-04 13:05:00,Henry
+462,Sea Bass,1,2024-01-04 11:40:00,Henry
+463,Lamb Shank,1,2024-01-04 15:45:00,Henry
+464,G&T,2,2024-01-04 19:43:00,Eve
+465,Fish & Chips,3,2024-01-04 20:15:00,Eve
+466,Lamb Shank,2,2024-01-04 15:16:00,Alice
+467,Fish & Chips,2,2024-01-04 10:32:00,Alice
+468,Lamb Shank,1,2024-01-04 14:32:00,Frank
+469,Bread & Butter Pudding,1,2024-01-04 17:18:00,Diana
+470,Steak & Ale Pie,1,2024-01-04 09:27:00,Alice
+471,Fish & Chips,2,2024-01-04 18:00:00,Diana
+472,Sea Bass,1,2024-01-04 10:37:00,Frank
+473,House Wine (175ml),1,2024-01-04 12:05:00,Henry
+474,Lamb Shank,2,2024-01-04 17:14:00,Grace
+475,Coffee,1,2024-01-04 17:16:00,Henry
+476,Lamb Shank,1,2024-01-04 14:57:00,Frank
+477,Steak & Ale Pie,2,2024-01-04 21:11:00,Bob
+478,Coffee,1,2024-01-04 13:00:00,Frank
+479,House Wine (175ml),1,2024-01-04 12:12:00,Alice
+480,Sea Bass,3,2024-01-04 15:02:00,Alice
+481,Lamb Shank,2,2024-01-04 15:59:00,Henry
+482,Lamb Shank,3,2024-01-04 19:09:00,Diana
+483,Coffee,1,2024-01-04 13:19:00,Frank
+484,Steak & Ale Pie,1,2024-01-04 13:11:00,Alice
+485,Apple Crumble,1,2024-01-04 18:27:00,Charlie
+486,Sparkling Water,1,2024-01-04 13:24:00,Frank
+487,Gravy,1,2024-01-04 13:06:00,Henry
+488,Prawn Cocktail,1,2024-01-04 19:25:00,Diana
+489,Craft Beer,1,2024-01-04 12:57:00,Alice
+490,Chips,2,2024-01-04 18:54:00,Henry
+491,Sea Bass,1,2024-01-04 18:41:00,Henry
+492,Lamb Shank,1,2024-01-04 15:49:00,Frank
+493,Lamb Shank,1,2024-01-04 09:04:00,Henry
+494,Lamb Shank,1,2024-01-04 12:45:00,Alice
+495,Steak & Ale Pie,1,2024-01-04 13:16:00,Alice
+496,Scotch Egg,1,2024-01-04 13:20:00,Alice
+497,Coffee,3,2024-01-04 12:17:00,Henry
+498,Steak & Ale Pie,1,2024-01-04 15:47:00,Frank
+499,Cask Ale,2,2024-01-04 18:44:00,Henry
+500,Steak & Ale Pie,3,2024-01-04 18:42:00,Grace
+501,Craft Beer,1,2024-01-04 11:55:00,Henry
+502,Craft Beer,2,2024-01-04 17:08:00,Bob
+503,Chicken Liver Pâté,1,2024-01-04 17:31:00,Henry
+504,Steak & Ale Pie,1,2024-01-04 14:51:00,Alice
+505,Cask Ale,1,2024-01-04 13:51:00,Frank
+506,Sea Bass,2,2024-01-04 19:55:00,Diana
+507,Sunday Roast,1,2024-01-04 14:28:00,Alice
+508,Sea Bass,2,2024-01-04 13:36:00,Frank
+509,Craft Beer,3,2024-01-04 13:40:00,Henry
+510,Sunday Roast,1,2024-01-04 19:09:00,Bob
+511,Lamb Shank,3,2024-01-04 18:18:00,Eve
+512,Sparkling Water,1,2024-01-04 12:21:00,Frank
+513,Smoked Salmon,2,2024-01-04 17:10:00,Grace
+514,Fish & Chips,2,2024-01-04 13:04:00,Frank
+515,Steak & Ale Pie,2,2024-01-04 19:15:00,Charlie
+516,Lamb Shank,1,2024-01-04 18:29:00,Diana
+517,Cask Ale,1,2024-01-04 22:45:00,Diana
+518,Fish & Chips,3,2024-01-04 19:55:00,Bob
+519,Sea Bass,2,2024-01-04 20:20:00,Charlie
+520,Cask Ale,1,2024-01-04 14:18:00,Alice
+521,Prawn Cocktail,2,2024-01-04 18:36:00,Bob
+522,Chicken Liver Pâté,2,2024-01-04 13:35:00,Frank
+523,Fish & Chips,1,2024-01-04 18:24:00,Henry
+524,Steak & Ale Pie,1,2024-01-04 13:52:00,Frank
+525,Steak & Ale Pie,1,2024-01-04 13:32:00,Alice
+526,Steak & Ale Pie,1,2024-01-04 13:18:00,Frank
+527,Steak & Ale Pie,2,2024-01-04 16:59:00,Grace
+528,Coffee,2,2024-01-04 20:17:00,Eve
+529,Coffee,2,2024-01-05 14:03:00,Henry
+530,Fish & Chips,1,2024-01-05 11:41:00,Frank
+531,Cider,2,2024-01-05 15:33:00,Alice
+532,G&T,3,2024-01-05 17:43:00,Diana
+533,Lamb Shank,3,2024-01-05 10:45:00,Alice
+534,Lamb Shank,1,2024-01-05 17:33:00,Diana
+535,Chicken Liver Pâté,3,2024-01-05 18:25:00,Charlie
+536,Steak & Ale Pie,3,2024-01-05 18:12:00,Bob
+537,Steak & Ale Pie,1,2024-01-05 18:11:00,Eve
+538,Prawn Cocktail,1,2024-01-05 10:36:00,Alice
+539,Craft Beer,2,2024-01-05 18:43:00,Henry
+540,Sea Bass,2,2024-01-05 15:56:00,Henry
+541,Cask Ale,3,2024-01-05 14:26:00,Alice
+542,Lamb Shank,1,2024-01-05 11:35:00,Frank
+543,Craft Beer,2,2024-01-05 13:23:00,Alice
+544,Smoked Salmon,2,2024-01-05 19:10:00,Henry
+545,Coffee,1,2024-01-05 11:01:00,Alice
+546,Sunday Roast,2,2024-01-05 12:15:00,Alice
+547,Fish & Chips,2,2024-01-05 13:34:00,Alice
+548,Steak & Ale Pie,2,2024-01-05 18:49:00,Charlie
+549,Smoked Salmon,2,2024-01-05 11:52:00,Alice
+550,Smoked Salmon,3,2024-01-05 13:10:00,Alice
+551,Soup of the Day,1,2024-01-05 19:43:00,Bob
+552,Mushy Peas,1,2024-01-05 19:05:00,Grace
+553,Sunday Roast,3,2024-01-05 18:14:00,Henry
+554,Prawn Cocktail,1,2024-01-05 12:29:00,Frank
+555,G&T,1,2024-01-05 19:49:00,Bob
+556,Sunday Roast,2,2024-01-05 14:39:00,Alice
+557,Sea Bass,1,2024-01-05 13:21:00,Henry
+558,Mash,1,2024-01-05 12:18:00,Henry
+559,Sea Bass,1,2024-01-05 18:52:00,Henry
+560,Craft Beer,3,2024-01-05 09:50:00,Alice
+561,Smoked Salmon,1,2024-01-05 10:02:00,Frank
+562,Chicken Liver Pâté,2,2024-01-05 18:44:00,Henry
+563,Lamb Shank,1,2024-01-05 22:21:00,Henry
+564,Craft Beer,2,2024-01-05 17:15:00,Eve
+565,Sea Bass,2,2024-01-05 19:35:00,Diana
+566,Coffee,2,2024-01-05 13:48:00,Henry
+567,Fish & Chips,1,2024-01-05 21:19:00,Diana
+568,Sunday Roast,1,2024-01-05 12:25:00,Frank
+569,Lamb Shank,2,2024-01-05 19:14:00,Grace
+570,Sparkling Water,1,2024-01-05 11:07:00,Alice
+571,Craft Beer,3,2024-01-05 18:54:00,Henry
+572,Steak & Ale Pie,2,2024-01-05 18:37:00,Henry
+573,Apple Crumble,1,2024-01-05 20:35:00,Bob
+574,Lamb Shank,1,2024-01-05 18:35:00,Diana
+575,Gravy,1,2024-01-05 16:59:00,Diana
+576,Gravy,2,2024-01-05 14:28:00,Henry
+577,Craft Beer,2,2024-01-05 18:34:00,Charlie
+578,Chicken Liver Pâté,1,2024-01-05 16:38:00,Bob
+579,Apple Crumble,1,2024-01-05 16:36:00,Henry
+580,Sparkling Water,3,2024-01-05 17:52:00,Charlie
+581,Sea Bass,2,2024-01-05 17:13:00,Henry
+582,Sunday Roast,1,2024-01-05 19:35:00,Bob
+583,Lamb Shank,1,2024-01-05 11:43:00,Henry
+584,Sea Bass,1,2024-01-05 20:08:00,Diana
+585,Steak & Ale Pie,2,2024-01-05 13:30:00,Alice
+586,Chips,3,2024-01-05 18:48:00,Eve
+587,Coffee,3,2024-01-05 14:06:00,Alice
+588,Lamb Shank,3,2024-01-05 15:03:00,Henry
+589,G&T,3,2024-01-05 15:33:00,Alice
+590,Prawn Cocktail,3,2024-01-05 19:02:00,Grace
+591,Sticky Toffee Pudding,1,2024-01-05 19:16:00,Bob
+592,Chicken Liver Pâté,1,2024-01-05 14:31:00,Henry
+593,Sea Bass,2,2024-01-05 19:07:00,Diana
+594,Gravy,1,2024-01-05 12:08:00,Frank
+595,Lamb Shank,3,2024-01-05 17:09:00,Charlie
+596,Sticky Toffee Pudding,2,2024-01-05 19:54:00,Henry
+597,Soup of the Day,3,2024-01-05 17:49:00,Eve
+598,Steak & Ale Pie,1,2024-01-05 17:41:00,Charlie
+599,Sea Bass,1,2024-01-05 15:46:00,Alice
+600,Steak & Ale Pie,3,2024-01-05 13:30:00,Alice
+601,Steak & Ale Pie,1,2024-01-05 12:31:00,Frank
+602,House Wine (175ml),1,2024-01-05 15:19:00,Alice
+603,Lamb Shank,2,2024-01-05 18:38:00,Henry
+604,Apple Crumble,2,2024-01-05 10:01:00,Henry
+605,Steak & Ale Pie,1,2024-01-05 15:37:00,Henry
+606,Cider,1,2024-01-05 12:36:00,Frank
+607,Craft Beer,2,2024-01-05 17:39:00,Eve
+608,G&T,1,2024-01-05 17:45:00,Charlie
+609,G&T,1,2024-01-05 19:41:00,Diana
+610,Steak & Ale Pie,1,2024-01-05 12:01:00,Frank
+611,Steak & Ale Pie,2,2024-01-05 12:00:00,Alice
+612,Fish & Chips,1,2024-01-05 19:27:00,Grace
+613,Sea Bass,3,2024-01-05 19:39:00,Diana
+614,Apple Crumble,1,2024-01-05 20:05:00,Diana
+615,Fish & Chips,2,2024-01-05 18:24:00,Diana
+616,Sea Bass,3,2024-01-05 12:01:00,Henry
+617,Craft Beer,1,2024-01-05 18:39:00,Eve
+618,G&T,3,2024-01-05 15:29:00,Alice
+619,House Wine (175ml),1,2024-01-05 19:11:00,Diana
+620,Sea Bass,2,2024-01-05 19:52:00,Henry
+621,Sea Bass,1,2024-01-05 13:34:00,Alice
+622,Sticky Toffee Pudding,2,2024-01-05 15:17:00,Henry
+623,Lamb Shank,3,2024-01-05 14:53:00,Alice
+624,Craft Beer,2,2024-01-05 12:27:00,Henry
+625,Cask Ale,2,2024-01-05 19:42:00,Charlie
+626,G&T,3,2024-01-05 18:17:00,Bob
+627,Craft Beer,2,2024-01-05 14:39:00,Alice
+628,Gravy,1,2024-01-05 19:48:00,Charlie
+629,Steak & Ale Pie,1,2024-01-05 12:23:00,Alice
+630,Craft Beer,3,2024-01-05 12:50:00,Alice
+631,Steak & Ale Pie,2,2024-01-05 11:29:00,Henry
+632,Steak & Ale Pie,2,2024-01-05 14:34:00,Alice
+633,Craft Beer,2,2024-01-05 15:23:00,Alice
+634,G&T,1,2024-01-05 13:28:00,Frank
+635,Sparkling Water,1,2024-01-05 17:48:00,Eve
+636,Sunday Roast,3,2024-01-05 17:17:00,Charlie
+637,Coffee,3,2024-01-05 13:15:00,Alice
+638,Prawn Cocktail,1,2024-01-05 12:52:00,Henry
+639,Fish & Chips,1,2024-01-05 19:49:00,Henry
+640,Steak & Ale Pie,3,2024-01-05 18:41:00,Eve
+641,Sticky Toffee Pudding,2,2024-01-05 12:42:00,Frank
+642,Fish & Chips,3,2024-01-05 12:10:00,Alice
+643,Coffee,1,2024-01-05 12:14:00,Alice
+644,Craft Beer,1,2024-01-05 17:30:00,Eve
+645,Sparkling Water,1,2024-01-05 14:30:00,Frank
+646,Cask Ale,1,2024-01-05 12:10:00,Alice
+647,Sea Bass,1,2024-01-05 13:23:00,Alice
+648,Fish & Chips,2,2024-01-05 14:33:00,Henry
+649,G&T,1,2024-01-05 17:10:00,Henry
+650,Craft Beer,1,2024-01-05 18:05:00,Henry
+651,Prawn Cocktail,1,2024-01-05 12:21:00,Henry
+652,Scotch Egg,3,2024-01-05 18:29:00,Eve
+653,G&T,2,2024-01-05 18:50:00,Henry
+654,Coffee,1,2024-01-05 16:52:00,Diana
+655,House Wine (175ml),2,2024-01-05 13:39:00,Alice
+656,Coffee,1,2024-01-05 18:04:00,Bob
+657,Prawn Cocktail,2,2024-01-05 18:50:00,Charlie
+658,Sunday Roast,1,2024-01-05 13:53:00,Frank
+659,Chicken Liver Pâté,1,2024-01-05 12:38:00,Frank
+660,G&T,2,2024-01-05 13:07:00,Alice
+661,Steak & Ale Pie,3,2024-01-05 16:12:00,Eve
+662,Coffee,2,2024-01-05 11:56:00,Frank
+663,Sea Bass,2,2024-01-05 17:44:00,Eve
+664,Sunday Roast,1,2024-01-05 18:37:00,Diana
+665,Sea Bass,1,2024-01-05 17:59:00,Eve
+666,Lamb Shank,1,2024-01-05 18:07:00,Grace
+667,Prawn Cocktail,1,2024-01-05 19:11:00,Charlie
+668,Seasonal Veg,2,2024-01-05 17:41:00,Eve
+669,Apple Crumble,1,2024-01-05 19:16:00,Grace
+670,Sparkling Water,2,2024-01-05 20:17:00,Henry
+671,Sparkling Water,1,2024-01-05 12:58:00,Henry
+672,Craft Beer,1,2024-01-05 14:48:00,Frank
+673,Lamb Shank,1,2024-01-05 17:27:00,Henry
+674,Sea Bass,2,2024-01-05 10:38:00,Alice
+675,Gravy,1,2024-01-05 12:47:00,Henry
+676,Steak & Ale Pie,1,2024-01-05 11:12:00,Alice
+677,Steak & Ale Pie,2,2024-01-05 14:46:00,Alice
+678,Sea Bass,2,2024-01-05 19:48:00,Diana
+679,Sunday Roast,1,2024-01-05 14:39:00,Henry
+680,Fish & Chips,1,2024-01-05 12:24:00,Frank
+681,Prawn Cocktail,2,2024-01-05 17:24:00,Charlie
+682,Sea Bass,1,2024-01-05 14:55:00,Alice
+683,Steak & Ale Pie,2,2024-01-05 12:01:00,Alice
+684,Chicken Liver Pâté,2,2024-01-05 09:16:00,Alice
+685,Sea Bass,1,2024-01-05 13:09:00,Frank
+686,Fish & Chips,1,2024-01-05 20:32:00,Diana
+687,Chips,3,2024-01-05 21:06:00,Eve
+688,Lamb Shank,1,2024-01-05 11:37:00,Frank
+689,Coffee,1,2024-01-05 14:58:00,Alice
+690,Sticky Toffee Pudding,3,2024-01-05 22:23:00,Diana
+691,Gravy,1,2024-01-05 11:22:00,Frank
+692,Apple Crumble,1,2024-01-05 12:55:00,Frank
+693,G&T,1,2024-01-05 12:32:00,Henry
+694,Chicken Liver Pâté,1,2024-01-05 18:14:00,Grace
+695,Seasonal Veg,2,2024-01-05 18:59:00,Eve
+696,G&T,2,2024-01-05 17:03:00,Diana
+697,Cask Ale,2,2024-01-05 12:21:00,Henry
+698,Scotch Egg,1,2024-01-05 14:33:00,Henry
+699,Sea Bass,3,2024-01-05 09:19:00,Alice
+700,Sea Bass,1,2024-01-05 12:59:00,Frank
+701,Cask Ale,1,2024-01-05 18:17:00,Bob
+702,Coffee,2,2024-01-05 18:57:00,Charlie
+703,Chicken Liver Pâté,1,2024-01-06 13:41:00,Alice
+704,Coffee,1,2024-01-06 19:08:00,Grace
+705,Mushy Peas,1,2024-01-06 17:06:00,Charlie
+706,Lamb Shank,1,2024-01-06 13:09:00,Frank
+707,Coffee,2,2024-01-06 17:15:00,Bob
+708,G&T,2,2024-01-06 18:11:00,Eve
+709,Lamb Shank,1,2024-01-06 19:10:00,Eve
+710,Sea Bass,1,2024-01-06 17:11:00,Bob
+711,Chips,2,2024-01-06 16:55:00,Bob
+712,Mushy Peas,2,2024-01-06 19:08:00,Charlie
+713,Lamb Shank,2,2024-01-06 14:49:00,Frank
+714,Seasonal Veg,1,2024-01-06 11:37:00,Henry
+715,Craft Beer,2,2024-01-06 18:04:00,Bob
+716,Craft Beer,1,2024-01-06 12:19:00,Alice
+717,G&T,1,2024-01-06 19:29:00,Grace
+718,Scotch Egg,1,2024-01-06 18:46:00,Henry
+719,Sparkling Water,1,2024-01-06 12:23:00,Frank
+720,Fish & Chips,1,2024-01-06 17:10:00,Charlie
+721,Steak & Ale Pie,2,2024-01-06 19:00:00,Eve
+722,Sea Bass,3,2024-01-06 11:22:00,Alice
+723,Chicken Liver Pâté,1,2024-01-06 18:43:00,Eve
+724,Coffee,2,2024-01-06 17:53:00,Diana
+725,Coffee,2,2024-01-06 14:23:00,Henry
+726,Sea Bass,3,2024-01-06 17:40:00,Henry
+727,Craft Beer,1,2024-01-06 11:49:00,Frank
+728,Lamb Shank,1,2024-01-06 15:27:00,Frank
+729,Steak & Ale Pie,1,2024-01-06 13:13:00,Frank
+730,Steak & Ale Pie,1,2024-01-06 19:19:00,Diana
+731,Steak & Ale Pie,1,2024-01-06 12:08:00,Henry
+732,Sparkling Water,3,2024-01-06 20:04:00,Grace
+733,Chips,2,2024-01-06 19:39:00,Diana
+734,Fish & Chips,2,2024-01-06 13:14:00,Alice
+735,Steak & Ale Pie,1,2024-01-06 18:49:00,Grace
+736,Coffee,2,2024-01-06 14:44:00,Frank
+737,Coffee,2,2024-01-06 19:10:00,Henry
+738,Steak & Ale Pie,1,2024-01-06 10:15:00,Alice
+739,Lamb Shank,3,2024-01-06 12:56:00,Henry
+740,Apple Crumble,1,2024-01-06 18:17:00,Eve
+741,House Wine (175ml),1,2024-01-06 17:26:00,Charlie
+742,Bread & Butter Pudding,2,2024-01-06 13:22:00,Henry
+743,Apple Crumble,1,2024-01-06 17:09:00,Bob
+744,Sea Bass,1,2024-01-06 13:39:00,Alice
+745,Lamb Shank,2,2024-01-06 14:03:00,Alice
+746,House Wine (175ml),2,2024-01-06 12:37:00,Henry
+747,Prawn Cocktail,2,2024-01-06 19:32:00,Bob
+748,Prawn Cocktail,2,2024-01-06 18:34:00,Henry
+749,Lamb Shank,3,2024-01-06 13:00:00,Alice
+750,Sticky Toffee Pudding,2,2024-01-06 11:16:00,Henry
+751,Lamb Shank,1,2024-01-06 18:08:00,Henry
+752,Fish & Chips,1,2024-01-06 17:18:00,Diana
+753,Prawn Cocktail,3,2024-01-06 13:02:00,Alice
+754,Coffee,1,2024-01-06 13:46:00,Henry
+755,G&T,1,2024-01-06 18:04:00,Eve
+756,Chips,3,2024-01-06 12:32:00,Alice
+757,Coffee,2,2024-01-06 17:10:00,Grace
+758,Bangers & Mash,1,2024-01-06 10:07:00,Henry
+759,Lamb Shank,2,2024-01-06 15:37:00,Henry
+760,Scotch Egg,2,2024-01-06 12:01:00,Alice
+761,Lamb Shank,1,2024-01-06 19:08:00,Bob
+762,G&T,1,2024-01-06 10:14:00,Frank
+763,Chicken Liver Pâté,1,2024-01-06 13:15:00,Frank
+764,Coffee,3,2024-01-06 19:32:00,Grace
+765,Sea Bass,1,2024-01-06 17:31:00,Henry
+766,Chicken Liver Pâté,1,2024-01-06 11:12:00,Alice
+767,Seasonal Veg,1,2024-01-06 18:58:00,Grace
+768,Chicken Liver Pâté,1,2024-01-06 18:15:00,Diana
+769,Craft Beer,2,2024-01-06 13:50:00,Alice
+770,Craft Beer,2,2024-01-06 18:11:00,Bob
+771,Sunday Roast,1,2024-01-06 12:17:00,Frank
+772,Chicken Liver Pâté,1,2024-01-06 12:07:00,Frank
+773,Lamb Shank,1,2024-01-06 12:26:00,Henry
+774,Gravy,3,2024-01-06 13:39:00,Henry
+775,Gravy,1,2024-01-06 13:07:00,Alice
+776,Steak & Ale Pie,3,2024-01-06 18:36:00,Henry
+777,Sunday Roast,1,2024-01-06 16:24:00,Charlie
+778,Steak & Ale Pie,2,2024-01-06 18:05:00,Bob
+779,G&T,1,2024-01-06 10:00:00,Alice
+780,Sea Bass,1,2024-01-06 15:50:00,Frank
+781,Fish & Chips,3,2024-01-06 18:20:00,Henry
+782,G&T,2,2024-01-06 17:10:00,Eve
+783,Fish & Chips,1,2024-01-06 18:10:00,Diana
+784,Prawn Cocktail,1,2024-01-06 12:38:00,Frank
+785,Sticky Toffee Pudding,2,2024-01-06 11:09:00,Alice
+786,Sea Bass,1,2024-01-06 14:02:00,Alice
+787,Sunday Roast,2,2024-01-06 18:43:00,Eve
+788,Sunday Roast,1,2024-01-06 20:22:00,Grace
+789,Steak & Ale Pie,1,2024-01-06 10:08:00,Henry
+790,Prawn Cocktail,1,2024-01-06 22:05:00,Grace
+791,Smoked Salmon,2,2024-01-06 10:28:00,Frank
+792,Eton Mess,1,2024-01-06 19:31:00,Eve
+793,Chicken Liver Pâté,1,2024-01-06 11:11:00,Henry
+794,Sea Bass,2,2024-01-06 13:19:00,Alice
+795,G&T,2,2024-01-06 18:33:00,Eve
+796,Sea Bass,3,2024-01-06 19:53:00,Eve
+797,Sea Bass,1,2024-01-06 13:41:00,Alice
+798,Cask Ale,1,2024-01-06 13:20:00,Frank
+799,Craft Beer,1,2024-01-06 15:11:00,Frank
+800,Apple Crumble,1,2024-01-06 12:41:00,Frank
+801,Steak & Ale Pie,1,2024-01-06 17:52:00,Grace
+802,Sea Bass,2,2024-01-06 12:53:00,Alice
+803,Sunday Roast,1,2024-01-06 13:33:00,Frank
+804,Sea Bass,2,2024-01-06 17:51:00,Charlie
+805,Sea Bass,2,2024-01-06 17:07:00,Charlie
+806,Steak & Ale Pie,3,2024-01-06 17:23:00,Bob
+807,Lamb Shank,2,2024-01-06 10:52:00,Henry
+808,Coffee,2,2024-01-06 14:36:00,Alice
+809,Cider,3,2024-01-06 20:01:00,Charlie
+810,G&T,2,2024-01-06 17:31:00,Charlie
+811,Lamb Shank,1,2024-01-06 20:31:00,Diana
+812,Soup of the Day,2,2024-01-06 18:14:00,Henry
+813,Pork Pie,2,2024-01-06 19:51:00,Bob
+814,Craft Beer,2,2024-01-06 17:51:00,Bob
+815,Craft Beer,2,2024-01-06 19:02:00,Henry
+816,Chicken Liver Pâté,1,2024-01-06 13:52:00,Frank
+817,Prawn Cocktail,1,2024-01-06 12:32:00,Frank
+818,Craft Beer,1,2024-01-06 12:26:00,Frank
+819,Sea Bass,2,2024-01-06 19:16:00,Henry
+820,Fish & Chips,1,2024-01-06 14:20:00,Alice
+821,Craft Beer,2,2024-01-06 19:41:00,Henry
+822,Sea Bass,1,2024-01-06 17:54:00,Henry
+823,Steak & Ale Pie,1,2024-01-06 17:59:00,Charlie
+824,Lamb Shank,1,2024-01-06 17:18:00,Charlie
+825,Sea Bass,2,2024-01-06 13:06:00,Henry
+826,Craft Beer,2,2024-01-06 18:15:00,Charlie
+827,Prawn Cocktail,3,2024-01-06 17:38:00,Bob
+828,Coffee,1,2024-01-06 18:17:00,Henry
+829,Craft Beer,1,2024-01-06 18:15:00,Diana
+830,Craft Beer,2,2024-01-06 13:43:00,Henry
+831,Coffee,2,2024-01-06 13:28:00,Alice
+832,Sea Bass,1,2024-01-06 14:47:00,Frank
+833,Coffee,3,2024-01-06 14:48:00,Henry
+834,G&T,2,2024-01-06 17:17:00,Diana
+835,Craft Beer,2,2024-01-06 17:32:00,Grace
+836,Sunday Roast,2,2024-01-06 18:47:00,Charlie
+837,Chips,1,2024-01-06 09:57:00,Henry
+838,Craft Beer,1,2024-01-06 18:13:00,Grace
+839,Gravy,1,2024-01-06 19:54:00,Diana
+840,Gravy,1,2024-01-06 17:58:00,Grace
+841,Lamb Shank,3,2024-01-06 18:36:00,Grace
+842,Coffee,3,2024-01-06 18:07:00,Henry
+843,Lamb Shank,2,2024-01-06 18:54:00,Eve
+844,Cider,1,2024-01-06 18:31:00,Eve
+845,Sea Bass,1,2024-01-06 13:47:00,Frank
+846,Sunday Roast,1,2024-01-06 12:22:00,Henry
+847,Lamb Shank,1,2024-01-06 09:01:00,Frank
+848,Seasonal Veg,1,2024-01-06 18:36:00,Charlie
+849,Mushy Peas,3,2024-01-06 13:20:00,Henry
+850,Steak & Ale Pie,2,2024-01-06 12:08:00,Alice
+851,G&T,3,2024-01-06 22:09:00,Bob
+852,Sunday Roast,1,2024-01-06 16:16:00,Diana
+853,Coffee,2,2024-01-06 18:56:00,Diana
+854,Sunday Roast,3,2024-01-06 15:31:00,Henry
+855,Craft Beer,3,2024-01-06 12:17:00,Henry
+856,Steak & Ale Pie,2,2024-01-06 15:33:00,Henry
+857,Steak & Ale Pie,1,2024-01-06 12:13:00,Alice
+858,Lamb Shank,2,2024-01-06 13:08:00,Henry
+859,Craft Beer,2,2024-01-06 11:02:00,Henry
+860,Craft Beer,1,2024-01-06 18:23:00,Henry
+861,Steak & Ale Pie,3,2024-01-06 15:44:00,Henry
+862,Scotch Egg,1,2024-01-06 13:13:00,Henry
+863,Cask Ale,3,2024-01-06 22:34:00,Henry
+864,Fish & Chips,2,2024-01-06 14:40:00,Alice
+865,Chicken Liver Pâté,1,2024-01-06 12:26:00,Henry
+866,Sea Bass,2,2024-01-06 12:36:00,Alice
+867,Cask Ale,1,2024-01-06 13:31:00,Frank
+868,Lamb Shank,1,2024-01-06 18:26:00,Diana
+869,Steak & Ale Pie,3,2024-01-07 17:57:00,Charlie
+870,Cask Ale,2,2024-01-07 17:16:00,Diana
+871,Chicken Liver Pâté,3,2024-01-07 17:33:00,Bob
+872,Gravy,1,2024-01-07 17:11:00,Grace
+873,Craft Beer,2,2024-01-07 19:24:00,Bob
+874,Craft Beer,1,2024-01-07 13:12:00,Henry
+875,Sea Bass,1,2024-01-07 11:01:00,Henry
+876,Steak & Ale Pie,1,2024-01-07 12:45:00,Frank
+877,Steak & Ale Pie,1,2024-01-07 13:51:00,Frank
+878,Cask Ale,1,2024-01-07 12:12:00,Henry
+879,Cask Ale,2,2024-01-07 12:25:00,Henry
+880,Lamb Shank,1,2024-01-07 12:54:00,Alice
+881,Sea Bass,2,2024-01-07 13:25:00,Alice
+882,Craft Beer,3,2024-01-07 13:34:00,Alice
+883,Lamb Shank,1,2024-01-07 13:20:00,Henry
+884,Sea Bass,1,2024-01-07 18:34:00,Bob
+885,Sea Bass,3,2024-01-07 12:10:00,Henry
+886,Prawn Cocktail,2,2024-01-07 17:05:00,Diana
+887,Craft Beer,2,2024-01-07 11:22:00,Henry
+888,Soup of the Day,1,2024-01-07 13:32:00,Frank
+889,Gravy,2,2024-01-07 19:02:00,Bob
+890,Sea Bass,2,2024-01-07 11:14:00,Alice
+891,Cider,2,2024-01-07 14:09:00,Henry
+892,G&T,3,2024-01-07 22:44:00,Eve
+893,House Wine (175ml),1,2024-01-07 18:45:00,Diana
+894,G&T,2,2024-01-07 17:48:00,Eve
+895,House Wine (175ml),1,2024-01-07 18:30:00,Grace
+896,House Wine (175ml),3,2024-01-07 18:47:00,Bob
+897,Lamb Shank,3,2024-01-07 17:45:00,Eve
+898,Craft Beer,1,2024-01-07 13:34:00,Frank
+899,G&T,1,2024-01-07 12:43:00,Frank
+900,Sea Bass,3,2024-01-07 11:11:00,Alice
+901,Scotch Egg,1,2024-01-07 13:43:00,Frank
+902,Steak & Ale Pie,1,2024-01-07 14:12:00,Alice
+903,Coffee,1,2024-01-07 13:45:00,Alice
+904,Scotch Egg,1,2024-01-07 21:16:00,Diana
+905,Sunday Roast,1,2024-01-07 11:19:00,Frank
+906,House Wine (175ml),3,2024-01-07 17:47:00,Charlie
+907,Craft Beer,2,2024-01-07 18:37:00,Eve
+908,Craft Beer,3,2024-01-07 18:49:00,Eve
+909,House Wine (175ml),1,2024-01-07 11:04:00,Frank
+910,House Wine (175ml),1,2024-01-07 16:50:00,Grace
+911,Sea Bass,1,2024-01-07 13:55:00,Frank
+912,Gravy,2,2024-01-07 10:41:00,Henry
+913,Sea Bass,1,2024-01-07 17:09:00,Diana
+914,Steak & Ale Pie,1,2024-01-07 09:46:00,Alice
+915,Apple Crumble,2,2024-01-07 10:12:00,Alice
+916,Gravy,1,2024-01-07 19:09:00,Charlie
+917,Sea Bass,1,2024-01-07 17:47:00,Charlie
+918,G&T,3,2024-01-07 14:03:00,Alice
+919,Fish & Chips,1,2024-01-07 18:16:00,Diana
+920,Lamb Shank,1,2024-01-07 18:37:00,Diana
+921,Sunday Roast,2,2024-01-07 19:32:00,Eve
+922,Steak & Ale Pie,1,2024-01-07 14:37:00,Frank
+923,Craft Beer,1,2024-01-07 18:28:00,Henry
+924,Bread & Butter Pudding,2,2024-01-07 18:02:00,Henry
+925,Sparkling Water,2,2024-01-07 20:38:00,Henry
+926,Sea Bass,1,2024-01-07 12:30:00,Alice
+927,Mash,1,2024-01-07 13:16:00,Henry
+928,G&T,1,2024-01-07 18:23:00,Bob
+929,Apple Crumble,1,2024-01-07 14:26:00,Henry
+930,Gravy,1,2024-01-07 20:01:00,Eve
+931,Steak & Ale Pie,1,2024-01-07 17:19:00,Grace
+932,Cider,2,2024-01-07 12:28:00,Henry
+933,Soup of the Day,2,2024-01-07 09:07:00,Alice
+934,Sparkling Water,2,2024-01-07 18:57:00,Eve
+935,Coffee,3,2024-01-07 21:54:00,Charlie
+936,Fish & Chips,2,2024-01-07 19:02:00,Diana
+937,Coffee,2,2024-01-07 15:15:00,Henry
+938,Fish & Chips,1,2024-01-07 13:31:00,Alice
+939,G&T,2,2024-01-07 12:24:00,Henry
+940,Craft Beer,2,2024-01-07 13:48:00,Frank
+941,Sunday Roast,1,2024-01-07 16:40:00,Grace
+942,Steak & Ale Pie,1,2024-01-07 19:49:00,Charlie
+943,Apple Crumble,2,2024-01-07 15:23:00,Henry
+944,Sea Bass,3,2024-01-07 12:32:00,Henry
+945,Fish & Chips,3,2024-01-07 12:52:00,Alice
+946,Fish & Chips,2,2024-01-07 12:33:00,Alice
+947,Sunday Roast,1,2024-01-07 15:54:00,Henry
+948,Sunday Roast,1,2024-01-07 13:02:00,Alice
+949,Lamb Shank,2,2024-01-07 11:38:00,Henry
+950,Lamb Shank,1,2024-01-07 12:11:00,Alice
+951,Sea Bass,3,2024-01-07 19:52:00,Henry
+952,Smoked Salmon,2,2024-01-07 20:17:00,Grace
+953,Chicken Liver Pâté,1,2024-01-07 21:42:00,Bob
+954,G&T,1,2024-01-07 13:56:00,Frank
+955,Sunday Roast,1,2024-01-07 13:07:00,Frank
+956,House Wine (175ml),1,2024-01-07 14:05:00,Alice
+957,Smoked Salmon,1,2024-01-07 15:08:00,Henry
+958,Sunday Roast,1,2024-01-07 11:11:00,Frank
+959,Gravy,1,2024-01-07 11:08:00,Frank
+960,Sea Bass,2,2024-01-07 13:26:00,Alice
+961,Coffee,1,2024-01-07 22:04:00,Diana
+962,Sea Bass,1,2024-01-07 11:59:00,Henry
+963,Sea Bass,1,2024-01-07 11:19:00,Henry
+964,G&T,1,2024-01-07 18:27:00,Charlie
+965,Sunday Roast,1,2024-01-07 16:21:00,Eve
+966,Lamb Shank,1,2024-01-07 12:11:00,Alice
+967,Gravy,2,2024-01-07 19:36:00,Eve
+968,Scotch Egg,2,2024-01-07 13:02:00,Henry
+969,Steak & Ale Pie,3,2024-01-07 12:27:00,Henry
+970,Bread & Butter Pudding,2,2024-01-07 18:11:00,Charlie
+971,Sunday Roast,1,2024-01-07 15:56:00,Frank
+972,Fish & Chips,1,2024-01-07 17:54:00,Charlie
+973,Steak & Ale Pie,3,2024-01-07 13:32:00,Henry
+974,Fish & Chips,2,2024-01-07 14:50:00,Frank
+975,Sea Bass,1,2024-01-07 15:45:00,Frank
+976,House Wine (175ml),2,2024-01-07 13:15:00,Alice
+977,Craft Beer,2,2024-01-07 16:43:00,Diana
+978,Steak & Ale Pie,3,2024-01-07 13:26:00,Alice
+979,Lamb Shank,2,2024-01-07 20:57:00,Grace
+980,Lamb Shank,2,2024-01-07 12:42:00,Alice
+981,Steak & Ale Pie,2,2024-01-07 19:47:00,Henry
+982,Soup of the Day,2,2024-01-07 14:10:00,Henry
+983,Lamb Shank,1,2024-01-07 17:10:00,Diana
+984,Sparkling Water,1,2024-01-07 13:34:00,Frank
+985,Fish & Chips,2,2024-01-07 16:16:00,Henry
+986,Chicken Liver Pâté,2,2024-01-07 11:55:00,Henry
+987,Sea Bass,1,2024-01-07 19:10:00,Diana
+988,G&T,3,2024-01-07 17:11:00,Bob
+989,Gravy,1,2024-01-07 13:37:00,Frank
+990,G&T,2,2024-01-07 19:39:00,Grace
+991,Steak & Ale Pie,2,2024-01-07 19:05:00,Diana
+992,Craft Beer,1,2024-01-07 18:31:00,Eve
+993,Steak & Ale Pie,1,2024-01-07 17:30:00,Diana
+994,Cask Ale,1,2024-01-07 20:51:00,Eve
+995,Sunday Roast,2,2024-01-07 22:47:00,Eve
+996,Sparkling Water,2,2024-01-07 18:09:00,Eve
+997,Sunday Roast,1,2024-01-07 14:54:00,Alice
+998,G&T,2,2024-01-07 15:30:00,Alice
+999,Prawn Cocktail,1,2024-01-07 13:51:00,Alice
+1000,Prawn Cocktail,1,2024-01-07 14:31:00,Frank
+1001,Sea Bass,2,2024-01-07 14:15:00,Alice
+1002,Gravy,1,2024-01-07 14:24:00,Frank
+1003,Steak & Ale Pie,1,2024-01-07 19:28:00,Bob
+1004,G&T,1,2024-01-08 15:38:00,Alice
+1005,Soup of the Day,2,2024-01-08 17:01:00,Charlie
+1006,House Wine (175ml),2,2024-01-08 16:38:00,Diana
+1007,Craft Beer,2,2024-01-08 22:15:00,Charlie
+1008,Bread & Butter Pudding,3,2024-01-08 17:33:00,Henry
+1009,G&T,1,2024-01-08 18:46:00,Bob
+1010,Chicken Liver Pâté,1,2024-01-08 19:58:00,Grace
+1011,Scotch Egg,1,2024-01-08 11:56:00,Frank
+1012,Lamb Shank,2,2024-01-08 16:36:00,Henry
+1013,Lamb Shank,1,2024-01-08 12:05:00,Henry
+1014,Chicken Liver Pâté,2,2024-01-08 12:04:00,Henry
+1015,Lamb Shank,1,2024-01-08 18:54:00,Grace
+1016,G&T,1,2024-01-08 14:44:00,Alice
+1017,Gravy,1,2024-01-08 14:15:00,Alice
+1018,Coffee,2,2024-01-08 18:20:00,Bob
+1019,Sea Bass,1,2024-01-08 12:18:00,Alice
+1020,Mash,1,2024-01-08 12:33:00,Henry
+1021,Coffee,1,2024-01-08 17:24:00,Charlie
+1022,Smoked Salmon,1,2024-01-08 18:23:00,Grace
+1023,Fish & Chips,2,2024-01-08 13:48:00,Henry
+1024,Sunday Roast,2,2024-01-08 18:58:00,Grace
+1025,G&T,1,2024-01-08 18:25:00,Charlie
+1026,Sea Bass,1,2024-01-08 12:36:00,Henry
+1027,G&T,1,2024-01-08 12:27:00,Frank
+1028,House Wine (175ml),1,2024-01-08 10:33:00,Frank
+1029,Lamb Shank,3,2024-01-08 20:43:00,Henry
+1030,Sea Bass,3,2024-01-08 18:42:00,Eve
+1031,Cider,1,2024-01-08 18:01:00,Grace
+1032,Lamb Shank,1,2024-01-08 18:42:00,Henry
+1033,Steak & Ale Pie,2,2024-01-08 14:56:00,Henry
+1034,Chips,1,2024-01-08 09:58:00,Frank
+1035,Coffee,1,2024-01-08 19:56:00,Bob
+1036,Scotch Egg,1,2024-01-08 22:54:00,Eve
+1037,Craft Beer,1,2024-01-08 11:45:00,Frank
+1038,Fish & Chips,1,2024-01-08 14:10:00,Frank
+1039,Cider,1,2024-01-08 14:15:00,Henry
+1040,Gravy,1,2024-01-08 09:12:00,Alice
+1041,Sunday Roast,2,2024-01-08 19:00:00,Eve
+1042,Chicken Liver Pâté,2,2024-01-08 13:47:00,Henry
+1043,G&T,1,2024-01-08 19:48:00,Grace
+1044,Eton Mess,1,2024-01-08 19:54:00,Eve
+1045,Prawn Cocktail,1,2024-01-08 12:53:00,Frank
+1046,Chicken Liver Pâté,3,2024-01-08 19:13:00,Henry
+1047,G&T,1,2024-01-08 11:52:00,Frank
+1048,Sunday Roast,3,2024-01-08 09:57:00,Alice
+1049,Gravy,1,2024-01-08 12:01:00,Alice
+1050,Craft Beer,3,2024-01-08 18:20:00,Henry
+1051,Lamb Shank,1,2024-01-08 15:26:00,Henry
+1052,Cask Ale,2,2024-01-08 17:35:00,Bob
+1053,Sunday Roast,2,2024-01-08 20:30:00,Charlie
+1054,Apple Crumble,2,2024-01-08 12:45:00,Frank
+1055,Sunday Roast,2,2024-01-08 18:35:00,Bob
+1056,Lamb Shank,1,2024-01-08 12:42:00,Frank
+1057,Seasonal Veg,1,2024-01-08 15:05:00,Alice
+1058,Cask Ale,1,2024-01-08 18:43:00,Charlie
+1059,Sea Bass,2,2024-01-08 15:46:00,Alice
+1060,Steak & Ale Pie,1,2024-01-08 19:30:00,Henry
+1061,Lamb Shank,2,2024-01-08 18:08:00,Eve
+1062,Sea Bass,1,2024-01-08 15:14:00,Frank
+1063,Lamb Shank,2,2024-01-08 12:26:00,Henry
+1064,Soup of the Day,1,2024-01-08 18:46:00,Grace
+1065,Coffee,1,2024-01-08 14:54:00,Frank
+1066,Steak & Ale Pie,1,2024-01-08 19:45:00,Bob
+1067,Lamb Shank,2,2024-01-08 18:13:00,Bob
+1068,Chicken Liver Pâté,2,2024-01-08 16:56:00,Bob
+1069,Chips,1,2024-01-08 13:38:00,Alice
+1070,Lamb Shank,1,2024-01-08 17:15:00,Diana
+1071,Steak & Ale Pie,3,2024-01-08 12:17:00,Alice
+1072,Gravy,2,2024-01-08 19:06:00,Diana
+1073,Steak & Ale Pie,1,2024-01-08 19:23:00,Charlie
+1074,Cask Ale,3,2024-01-08 10:16:00,Alice
+1075,Steak & Ale Pie,1,2024-01-08 12:54:00,Frank
+1076,G&T,3,2024-01-08 17:44:00,Bob
+1077,Sunday Roast,1,2024-01-08 17:53:00,Eve
+1078,Prawn Cocktail,2,2024-01-08 12:40:00,Frank
+1079,Sea Bass,2,2024-01-08 14:39:00,Frank
+1080,Lamb Shank,2,2024-01-08 12:51:00,Alice
+1081,Coffee,1,2024-01-08 22:53:00,Charlie
+1082,Sunday Roast,2,2024-01-08 17:04:00,Bob
+1083,Craft Beer,3,2024-01-08 16:53:00,Charlie
+1084,Craft Beer,1,2024-01-08 14:53:00,Frank
+1085,Craft Beer,1,2024-01-08 19:36:00,Charlie
+1086,Sunday Roast,2,2024-01-08 13:45:00,Frank
+1087,Lamb Shank,1,2024-01-08 22:44:00,Bob
+1088,G&T,1,2024-01-08 15:01:00,Frank
+1089,Eton Mess,1,2024-01-08 09:40:00,Frank
+1090,Sea Bass,1,2024-01-08 12:27:00,Frank
+1091,Gravy,2,2024-01-08 18:07:00,Charlie
+1092,Fish & Chips,1,2024-01-08 19:58:00,Bob
+1093,Craft Beer,1,2024-01-08 14:51:00,Alice
+1094,Craft Beer,2,2024-01-08 11:32:00,Frank
+1095,Sparkling Water,2,2024-01-08 18:01:00,Eve
+1096,Craft Beer,1,2024-01-08 12:59:00,Frank
+1097,Sunday Roast,1,2024-01-08 17:51:00,Diana
+1098,Fish & Chips,1,2024-01-08 17:25:00,Henry
+1099,Coffee,2,2024-01-08 10:11:00,Alice
+1100,Coffee,1,2024-01-08 13:31:00,Alice
+1101,Smoked Salmon,2,2024-01-08 18:27:00,Charlie
+1102,Sea Bass,2,2024-01-08 09:28:00,Henry
+1103,Soup of the Day,2,2024-01-08 18:31:00,Grace
+1104,Lamb Shank,3,2024-01-08 22:59:00,Charlie
+1105,Craft Beer,1,2024-01-08 12:33:00,Frank
+1106,Cask Ale,1,2024-01-09 17:33:00,Eve
+1107,Lamb Shank,2,2024-01-09 13:18:00,Frank
+1108,Smoked Salmon,2,2024-01-09 11:50:00,Henry
+1109,Coffee,2,2024-01-09 18:29:00,Henry
+1110,Coffee,2,2024-01-09 18:50:00,Bob
+1111,Sunday Roast,2,2024-01-09 19:30:00,Henry
+1112,Coffee,1,2024-01-09 12:14:00,Frank
+1113,Steak & Ale Pie,2,2024-01-09 12:12:00,Henry
+1114,Bread & Butter Pudding,2,2024-01-09 19:19:00,Eve
+1115,Sea Bass,1,2024-01-09 13:59:00,Henry
+1116,Steak & Ale Pie,2,2024-01-09 21:51:00,Bob
+1117,Lamb Shank,1,2024-01-09 14:51:00,Henry
+1118,Sunday Roast,1,2024-01-09 16:19:00,Eve
+1119,Cask Ale,1,2024-01-09 19:26:00,Grace
+1120,Sea Bass,1,2024-01-09 17:38:00,Charlie
+1121,Steak & Ale Pie,1,2024-01-09 13:50:00,Frank
+1122,Prawn Cocktail,1,2024-01-09 13:16:00,Henry
+1123,Sea Bass,1,2024-01-09 18:38:00,Charlie
+1124,Prawn Cocktail,1,2024-01-09 09:10:00,Alice
+1125,Lamb Shank,1,2024-01-09 22:28:00,Grace
+1126,Craft Beer,1,2024-01-09 14:55:00,Alice
+1127,Cider,2,2024-01-09 12:50:00,Frank
+1128,Lamb Shank,2,2024-01-09 12:25:00,Henry
+1129,Scotch Egg,2,2024-01-09 19:34:00,Diana
+1130,Sea Bass,2,2024-01-09 14:27:00,Frank
+1131,Steak & Ale Pie,1,2024-01-09 13:48:00,Henry
+1132,Fish & Chips,1,2024-01-09 13:09:00,Alice
+1133,Cask Ale,3,2024-01-09 12:39:00,Henry
+1134,Sparkling Water,2,2024-01-09 10:04:00,Frank
+1135,Steak & Ale Pie,3,2024-01-09 13:45:00,Alice
+1136,Sea Bass,2,2024-01-09 18:17:00,Bob
+1137,Apple Crumble,1,2024-01-09 19:28:00,Diana
+1138,Craft Beer,3,2024-01-09 15:23:00,Alice
+1139,Steak & Ale Pie,1,2024-01-09 14:31:00,Henry
+1140,Sea Bass,1,2024-01-09 13:20:00,Henry
+1141,Sea Bass,1,2024-01-09 13:05:00,Frank
+1142,Lamb Shank,1,2024-01-09 19:47:00,Diana
+1143,Lamb Shank,1,2024-01-09 17:34:00,Bob
+1144,Chips,1,2024-01-09 16:30:00,Grace
+1145,Lamb Shank,2,2024-01-09 13:16:00,Henry
+1146,Coffee,1,2024-01-09 14:48:00,Alice
+1147,Craft Beer,2,2024-01-09 12:18:00,Henry
+1148,Sticky Toffee Pudding,1,2024-01-09 11:54:00,Frank
+1149,Lamb Shank,1,2024-01-09 12:07:00,Frank
+1150,Eton Mess,2,2024-01-09 10:46:00,Frank
+1151,Fish & Chips,1,2024-01-09 12:26:00,Henry
+1152,Mushy Peas,2,2024-01-09 15:11:00,Henry
+1153,Coffee,2,2024-01-09 21:55:00,Diana
+1154,Sunday Roast,1,2024-01-09 15:03:00,Frank
+1155,Gravy,1,2024-01-09 13:55:00,Frank
+1156,Steak & Ale Pie,1,2024-01-09 18:39:00,Bob
+1157,Smoked Salmon,2,2024-01-09 14:38:00,Henry
+1158,Bread & Butter Pudding,1,2024-01-09 11:00:00,Henry
+1159,Gravy,3,2024-01-09 22:16:00,Henry
+1160,Craft Beer,1,2024-01-09 19:54:00,Bob
+1161,Soup of the Day,1,2024-01-09 18:19:00,Diana
+1162,Lamb Shank,1,2024-01-09 20:29:00,Eve
+1163,Craft Beer,2,2024-01-09 15:18:00,Henry
+1164,Steak & Ale Pie,2,2024-01-09 12:50:00,Frank
+1165,Seasonal Veg,1,2024-01-09 18:02:00,Bob
+1166,Apple Crumble,2,2024-01-09 17:24:00,Charlie
+1167,Soup of the Day,1,2024-01-09 20:31:00,Eve
+1168,Mushy Peas,2,2024-01-09 15:25:00,Henry
+1169,G&T,1,2024-01-09 13:32:00,Frank
+1170,Sea Bass,2,2024-01-09 14:39:00,Henry
+1171,Steak & Ale Pie,2,2024-01-09 19:10:00,Charlie
+1172,Craft Beer,1,2024-01-09 18:35:00,Charlie
+1173,Lamb Shank,3,2024-01-09 09:19:00,Henry
+1174,Sea Bass,1,2024-01-09 14:07:00,Frank
+1175,Bread & Butter Pudding,1,2024-01-09 13:16:00,Frank
+1176,Sparkling Water,2,2024-01-09 18:08:00,Bob
+1177,House Wine (175ml),2,2024-01-09 12:12:00,Henry
+1178,Lamb Shank,2,2024-01-09 17:05:00,Eve
+1179,Craft Beer,2,2024-01-09 19:01:00,Charlie
+1180,Sea Bass,1,2024-01-09 12:16:00,Frank
+1181,Sea Bass,2,2024-01-09 17:17:00,Diana
+1182,Gravy,1,2024-01-09 17:26:00,Grace
+1183,Bangers & Mash,1,2024-01-09 18:31:00,Charlie
+1184,Sea Bass,3,2024-01-09 17:23:00,Grace
+1185,G&T,1,2024-01-09 19:36:00,Grace
+1186,Lamb Shank,2,2024-01-09 22:06:00,Charlie
+1187,Sunday Roast,1,2024-01-09 13:13:00,Henry
+1188,Craft Beer,1,2024-01-09 15:41:00,Frank
+1189,Cask Ale,2,2024-01-09 13:53:00,Henry
+1190,Fish & Chips,2,2024-01-09 17:10:00,Diana
+1191,Steak & Ale Pie,1,2024-01-09 12:52:00,Henry
+1192,Craft Beer,2,2024-01-09 20:07:00,Henry
+1193,Sea Bass,1,2024-01-09 17:19:00,Eve
+1194,Cask Ale,2,2024-01-09 12:55:00,Henry
+1195,Sunday Roast,2,2024-01-09 13:16:00,Henry
+1196,Sticky Toffee Pudding,1,2024-01-09 13:12:00,Frank
+1197,Lamb Shank,1,2024-01-09 13:45:00,Frank
+1198,Lamb Shank,3,2024-01-09 18:37:00,Henry
+1199,Coffee,2,2024-01-09 11:37:00,Alice
+1200,Craft Beer,2,2024-01-09 18:35:00,Bob
+1201,Sparkling Water,1,2024-01-09 18:35:00,Eve
+1202,Sea Bass,3,2024-01-09 21:13:00,Eve
+1203,Sparkling Water,1,2024-01-09 12:13:00,Alice
+1204,Sea Bass,1,2024-01-09 12:21:00,Alice
+1205,Steak & Ale Pie,1,2024-01-09 09:29:00,Alice
+1206,Smoked Salmon,1,2024-01-09 17:22:00,Eve
+1207,Sea Bass,2,2024-01-09 19:37:00,Henry
+1208,Coffee,3,2024-01-09 12:34:00,Henry
+1209,Lamb Shank,1,2024-01-09 12:48:00,Frank
+1210,Lamb Shank,2,2024-01-09 13:18:00,Frank
+1211,G&T,1,2024-01-09 12:37:00,Frank
+1212,Sea Bass,1,2024-01-09 13:00:00,Frank
+1213,Chips,1,2024-01-09 14:35:00,Henry
+1214,Lamb Shank,1,2024-01-09 17:21:00,Charlie
+1215,Bread & Butter Pudding,1,2024-01-09 14:46:00,Frank
+1216,Fish & Chips,1,2024-01-09 14:46:00,Alice
+1217,Steak & Ale Pie,2,2024-01-09 18:14:00,Grace
+1218,Sea Bass,2,2024-01-09 15:11:00,Frank
+1219,Sticky Toffee Pudding,2,2024-01-09 19:36:00,Eve
+1220,Steak & Ale Pie,2,2024-01-09 17:52:00,Grace
+1221,G&T,1,2024-01-09 10:26:00,Alice
+1222,Lamb Shank,3,2024-01-09 16:00:00,Charlie
+1223,Craft Beer,1,2024-01-09 12:36:00,Frank
+1224,Steak & Ale Pie,1,2024-01-09 12:53:00,Alice
+1225,Craft Beer,1,2024-01-09 22:18:00,Eve
+1226,Sea Bass,2,2024-01-09 21:13:00,Grace
+1227,Lamb Shank,1,2024-01-09 12:13:00,Frank
+1228,Prawn Cocktail,1,2024-01-09 16:49:00,Henry
+1229,Fish & Chips,3,2024-01-09 12:36:00,Henry
+1230,Sea Bass,1,2024-01-09 15:18:00,Henry
+1231,Sea Bass,2,2024-01-10 15:22:00,Alice
+1232,Sea Bass,2,2024-01-10 15:35:00,Henry
+1233,Sparkling Water,1,2024-01-10 12:06:00,Frank
+1234,Prawn Cocktail,3,2024-01-10 17:26:00,Diana
+1235,Sea Bass,3,2024-01-10 14:31:00,Henry
+1236,Craft Beer,1,2024-01-10 13:49:00,Frank
+1237,Gravy,2,2024-01-10 13:07:00,Henry
+1238,G&T,2,2024-01-10 17:36:00,Grace
+1239,Chips,3,2024-01-10 13:40:00,Alice
+1240,Lamb Shank,2,2024-01-10 14:51:00,Alice
+1241,Chips,2,2024-01-10 19:20:00,Charlie
+1242,Coffee,2,2024-01-10 19:04:00,Bob
+1243,Sunday Roast,2,2024-01-10 18:56:00,Bob
+1244,Gravy,1,2024-01-10 13:06:00,Frank
+1245,Lamb Shank,2,2024-01-10 10:38:00,Frank
+1246,Lamb Shank,1,2024-01-10 21:10:00,Charlie
+1247,Sunday Roast,1,2024-01-10 15:21:00,Henry
+1248,G&T,2,2024-01-10 10:51:00,Alice
+1249,Coffee,1,2024-01-10 17:33:00,Charlie
+1250,Sunday Roast,3,2024-01-10 19:04:00,Henry
+1251,Scotch Egg,1,2024-01-10 13:03:00,Frank
+1252,Chicken Liver Pâté,1,2024-01-10 12:06:00,Alice
+1253,Steak & Ale Pie,3,2024-01-10 17:18:00,Diana
+1254,Sea Bass,2,2024-01-10 19:30:00,Bob
+1255,Craft Beer,1,2024-01-10 18:30:00,Diana
+1256,Sticky Toffee Pudding,3,2024-01-10 13:38:00,Henry
+1257,Prawn Cocktail,1,2024-01-10 10:44:00,Alice
+1258,Fish & Chips,1,2024-01-10 09:01:00,Frank
+1259,Apple Crumble,1,2024-01-10 13:35:00,Alice
+1260,Fish & Chips,3,2024-01-10 19:19:00,Bob
+1261,G&T,1,2024-01-10 17:44:00,Eve
+1262,Coffee,2,2024-01-10 18:07:00,Henry
+1263,Mushy Peas,1,2024-01-10 13:44:00,Henry
+1264,Steak & Ale Pie,1,2024-01-10 12:50:00,Alice
+1265,Coffee,1,2024-01-10 09:59:00,Alice
+1266,Sea Bass,2,2024-01-10 11:53:00,Frank
+1267,Steak & Ale Pie,1,2024-01-10 19:19:00,Diana
+1268,Fish & Chips,1,2024-01-10 10:20:00,Alice
+1269,Chicken Liver Pâté,1,2024-01-10 17:52:00,Bob
+1270,Chicken Liver Pâté,1,2024-01-10 14:56:00,Alice
+1271,Coffee,2,2024-01-10 12:58:00,Henry
+1272,Sticky Toffee Pudding,1,2024-01-10 14:45:00,Henry
+1273,Gravy,1,2024-01-10 12:42:00,Frank
+1274,Lamb Shank,2,2024-01-10 13:06:00,Alice
+1275,Lamb Shank,1,2024-01-10 17:02:00,Eve
+1276,Smoked Salmon,1,2024-01-10 19:05:00,Diana
+1277,Cask Ale,2,2024-01-10 18:26:00,Grace
+1278,Lamb Shank,1,2024-01-10 14:49:00,Frank
+1279,Cask Ale,1,2024-01-10 17:24:00,Bob
+1280,Cider,3,2024-01-10 11:43:00,Alice
+1281,Cask Ale,3,2024-01-10 15:28:00,Henry
+1282,Craft Beer,2,2024-01-10 19:24:00,Diana
+1283,Sparkling Water,3,2024-01-10 18:44:00,Charlie
+1284,Steak & Ale Pie,1,2024-01-10 13:58:00,Henry
+1285,Gravy,1,2024-01-10 12:10:00,Henry
+1286,Steak & Ale Pie,3,2024-01-10 17:44:00,Charlie
+1287,Gravy,3,2024-01-10 17:56:00,Grace
+1288,Chicken Liver Pâté,2,2024-01-10 12:19:00,Alice
+1289,Sea Bass,1,2024-01-10 17:45:00,Grace
+1290,Steak & Ale Pie,1,2024-01-10 17:02:00,Henry
+1291,Sea Bass,1,2024-01-10 13:22:00,Frank
+1292,Steak & Ale Pie,1,2024-01-10 17:41:00,Diana
+1293,Sea Bass,1,2024-01-10 19:02:00,Diana
+1294,Prawn Cocktail,1,2024-01-10 17:51:00,Henry
+1295,Coffee,1,2024-01-10 12:55:00,Frank
+1296,Sparkling Water,1,2024-01-10 13:35:00,Henry
+1297,Craft Beer,1,2024-01-10 12:24:00,Frank
+1298,Lamb Shank,1,2024-01-10 17:16:00,Grace
+1299,Gravy,1,2024-01-10 10:36:00,Henry
+1300,Craft Beer,2,2024-01-10 11:41:00,Henry
+1301,Craft Beer,2,2024-01-10 12:28:00,Henry
+1302,Coffee,2,2024-01-10 17:46:00,Henry
+1303,Craft Beer,1,2024-01-10 14:39:00,Frank
+1304,Cask Ale,3,2024-01-10 11:50:00,Alice
+1305,Craft Beer,2,2024-01-10 20:14:00,Diana
+1306,Cider,1,2024-01-10 13:35:00,Alice
+1307,G&T,1,2024-01-10 17:04:00,Eve
+1308,Craft Beer,1,2024-01-10 18:09:00,Charlie
+1309,Lamb Shank,1,2024-01-10 18:54:00,Grace
+1310,Lamb Shank,1,2024-01-10 18:39:00,Bob
+1311,Steak & Ale Pie,3,2024-01-10 19:12:00,Eve
+1312,Sea Bass,1,2024-01-10 14:07:00,Frank
+1313,Prawn Cocktail,2,2024-01-10 13:22:00,Henry
+1314,Lamb Shank,1,2024-01-10 12:37:00,Frank
+1315,Lamb Shank,1,2024-01-10 18:30:00,Diana
+1316,Craft Beer,1,2024-01-10 18:53:00,Charlie
+1317,Steak & Ale Pie,1,2024-01-10 12:42:00,Henry
+1318,Sea Bass,1,2024-01-10 20:27:00,Bob
+1319,Chicken Liver Pâté,3,2024-01-10 15:45:00,Henry
+1320,Craft Beer,3,2024-01-10 17:55:00,Henry
+1321,Steak & Ale Pie,2,2024-01-10 17:01:00,Diana
+1322,Chicken Liver Pâté,3,2024-01-10 14:22:00,Henry
+1323,Lamb Shank,1,2024-01-10 12:02:00,Henry
+1324,Sparkling Water,3,2024-01-10 18:09:00,Grace
+1325,Sea Bass,2,2024-01-10 13:14:00,Henry
+1326,Gravy,2,2024-01-10 14:03:00,Alice
+1327,Fish & Chips,1,2024-01-10 12:57:00,Henry
+1328,Smoked Salmon,2,2024-01-10 17:25:00,Charlie
+1329,Sparkling Water,1,2024-01-10 12:02:00,Alice
+1330,Fish & Chips,2,2024-01-10 18:08:00,Grace
+1331,Smoked Salmon,2,2024-01-10 11:22:00,Frank
+1332,Fish & Chips,1,2024-01-10 12:54:00,Henry
+1333,Cider,1,2024-01-10 14:31:00,Frank
+1334,Bangers & Mash,2,2024-01-10 09:23:00,Frank
+1335,Fish & Chips,2,2024-01-10 19:46:00,Henry
+1336,Apple Crumble,1,2024-01-10 18:30:00,Charlie
+1337,Sea Bass,3,2024-01-10 13:27:00,Henry
+1338,Lamb Shank,1,2024-01-10 13:13:00,Alice
+1339,Sticky Toffee Pudding,3,2024-01-10 15:36:00,Alice
+1340,Steak & Ale Pie,2,2024-01-10 13:01:00,Alice
+1341,Fish & Chips,1,2024-01-10 17:27:00,Bob
+1342,Coffee,1,2024-01-10 13:21:00,Alice
+1343,Gravy,2,2024-01-10 12:26:00,Alice
+1344,Apple Crumble,1,2024-01-10 13:12:00,Frank
+1345,Lamb Shank,3,2024-01-10 19:55:00,Charlie
+1346,G&T,2,2024-01-10 18:43:00,Diana
+1347,Craft Beer,1,2024-01-10 13:24:00,Henry
+1348,Chicken Liver Pâté,3,2024-01-10 17:28:00,Diana
+1349,Seasonal Veg,2,2024-01-10 16:00:00,Eve
+1350,Eton Mess,2,2024-01-10 13:03:00,Henry
+1351,Smoked Salmon,1,2024-01-10 14:53:00,Alice
+1352,Cask Ale,1,2024-01-10 12:13:00,Frank
+1353,Lamb Shank,3,2024-01-10 13:20:00,Henry
+1354,Lamb Shank,3,2024-01-10 13:37:00,Alice
+1355,Lamb Shank,1,2024-01-10 12:36:00,Frank
+1356,Sunday Roast,3,2024-01-11 12:52:00,Henry
+1357,Coffee,2,2024-01-11 13:01:00,Alice
+1358,G&T,1,2024-01-11 19:07:00,Grace
+1359,Sparkling Water,3,2024-01-11 13:45:00,Henry
+1360,Sunday Roast,2,2024-01-11 17:43:00,Bob
+1361,Gravy,1,2024-01-11 14:17:00,Frank
+1362,Coffee,2,2024-01-11 17:47:00,Charlie
+1363,Fish & Chips,1,2024-01-11 17:38:00,Eve
+1364,Mushy Peas,2,2024-01-11 19:28:00,Diana
+1365,Sea Bass,1,2024-01-11 11:54:00,Frank
+1366,Lamb Shank,1,2024-01-11 10:35:00,Frank
+1367,Steak & Ale Pie,3,2024-01-11 17:42:00,Henry
+1368,Steak & Ale Pie,1,2024-01-11 17:13:00,Henry
+1369,Chicken Liver Pâté,2,2024-01-11 17:04:00,Bob
+1370,Prawn Cocktail,1,2024-01-11 18:36:00,Eve
+1371,Sea Bass,1,2024-01-11 14:46:00,Henry
+1372,Lamb Shank,1,2024-01-11 12:10:00,Frank
+1373,Steak & Ale Pie,2,2024-01-11 10:40:00,Alice
+1374,Eton Mess,1,2024-01-11 18:33:00,Bob
+1375,Sea Bass,1,2024-01-11 17:22:00,Grace
+1376,Seasonal Veg,1,2024-01-11 19:04:00,Bob
+1377,Coffee,2,2024-01-11 13:26:00,Henry
+1378,Sea Bass,1,2024-01-11 12:12:00,Henry
+1379,Lamb Shank,2,2024-01-11 16:44:00,Bob
+1380,Apple Crumble,2,2024-01-11 13:07:00,Frank
+1381,Bangers & Mash,2,2024-01-11 17:53:00,Eve
+1382,Lamb Shank,1,2024-01-11 15:52:00,Frank
+1383,Cider,1,2024-01-11 18:54:00,Diana
+1384,Sea Bass,1,2024-01-11 12:22:00,Henry
+1385,Craft Beer,2,2024-01-11 11:35:00,Frank
+1386,Fish & Chips,3,2024-01-11 16:11:00,Bob
+1387,Fish & Chips,3,2024-01-11 18:06:00,Bob
+1388,Craft Beer,1,2024-01-11 19:17:00,Eve
+1389,Fish & Chips,2,2024-01-11 11:03:00,Henry
+1390,Prawn Cocktail,2,2024-01-11 19:45:00,Diana
+1391,Coffee,2,2024-01-11 18:50:00,Henry
+1392,Craft Beer,2,2024-01-11 12:33:00,Frank
+1393,Craft Beer,1,2024-01-11 11:11:00,Henry
+1394,Craft Beer,3,2024-01-11 11:06:00,Henry
+1395,Coffee,1,2024-01-11 17:53:00,Henry
+1396,Apple Crumble,2,2024-01-11 13:19:00,Frank
+1397,Chips,1,2024-01-11 12:53:00,Frank
+1398,Sparkling Water,2,2024-01-11 19:57:00,Charlie
+1399,Apple Crumble,1,2024-01-11 18:22:00,Charlie
+1400,Coffee,3,2024-01-11 12:53:00,Henry
+1401,Craft Beer,2,2024-01-11 10:57:00,Henry
+1402,Fish & Chips,2,2024-01-11 11:22:00,Alice
+1403,Scotch Egg,3,2024-01-11 12:36:00,Alice
+1404,Steak & Ale Pie,1,2024-01-11 18:03:00,Diana
+1405,Sea Bass,2,2024-01-11 13:55:00,Henry
+1406,Sea Bass,2,2024-01-11 18:36:00,Bob
+1407,G&T,1,2024-01-11 12:52:00,Frank
+1408,Cider,3,2024-01-11 18:02:00,Henry
+1409,Sea Bass,2,2024-01-11 14:05:00,Alice
+1410,Craft Beer,2,2024-01-11 19:51:00,Henry
+1411,Fish & Chips,1,2024-01-11 18:48:00,Bob
+1412,Sunday Roast,3,2024-01-11 18:41:00,Bob
+1413,Sea Bass,2,2024-01-11 17:37:00,Eve
+1414,Sunday Roast,2,2024-01-11 18:23:00,Grace
+1415,Smoked Salmon,2,2024-01-11 18:33:00,Grace
+1416,Apple Crumble,2,2024-01-11 15:49:00,Henry
+1417,Steak & Ale Pie,1,2024-01-11 15:04:00,Frank
+1418,G&T,3,2024-01-11 13:47:00,Alice
+1419,Bangers & Mash,1,2024-01-11 18:24:00,Bob
+1420,Sunday Roast,2,2024-01-11 18:10:00,Grace
+1421,Sea Bass,2,2024-01-11 17:14:00,Henry
+1422,Cask Ale,2,2024-01-11 16:17:00,Charlie
+1423,Steak & Ale Pie,1,2024-01-11 14:05:00,Alice
+1424,Steak & Ale Pie,2,2024-01-11 13:11:00,Frank
+1425,Chicken Liver Pâté,2,2024-01-11 20:34:00,Henry
+1426,Soup of the Day,1,2024-01-11 22:13:00,Henry
+1427,Gravy,1,2024-01-11 10:51:00,Frank
+1428,Mash,1,2024-01-11 16:49:00,Henry
+1429,Apple Crumble,1,2024-01-11 17:15:00,Grace
+1430,Fish & Chips,1,2024-01-11 19:44:00,Diana
+1431,Fish & Chips,1,2024-01-11 17:42:00,Eve
+1432,Chips,1,2024-01-11 12:17:00,Alice
+1433,Steak & Ale Pie,1,2024-01-11 18:28:00,Henry
+1434,Sunday Roast,1,2024-01-11 18:16:00,Grace
+1435,G&T,1,2024-01-11 13:57:00,Frank
+1436,Sunday Roast,3,2024-01-11 20:09:00,Henry
+1437,Fish & Chips,3,2024-01-11 10:35:00,Henry
+1438,Craft Beer,1,2024-01-11 16:46:00,Henry
+1439,Steak & Ale Pie,3,2024-01-11 12:03:00,Henry
+1440,Steak & Ale Pie,1,2024-01-11 17:47:00,Bob
+1441,Fish & Chips,1,2024-01-11 20:37:00,Eve
+1442,Craft Beer,1,2024-01-11 13:06:00,Frank
+1443,Steak & Ale Pie,1,2024-01-11 19:35:00,Charlie
+1444,Gravy,1,2024-01-11 18:17:00,Grace
+1445,Cask Ale,1,2024-01-11 18:18:00,Grace
+1446,Steak & Ale Pie,1,2024-01-11 22:49:00,Eve
+1447,Sea Bass,1,2024-01-11 13:14:00,Alice
+1448,G&T,2,2024-01-11 17:33:00,Henry
+1449,Prawn Cocktail,1,2024-01-11 12:50:00,Frank
+1450,Steak & Ale Pie,1,2024-01-11 11:48:00,Frank
+1451,Steak & Ale Pie,1,2024-01-11 13:40:00,Alice
+1452,Mushy Peas,1,2024-01-11 14:27:00,Alice
+1453,Chicken Liver Pâté,1,2024-01-11 17:38:00,Charlie
+1454,G&T,1,2024-01-11 15:18:00,Alice
+1455,Eton Mess,2,2024-01-11 18:18:00,Bob
+1456,Fish & Chips,2,2024-01-11 13:17:00,Frank
+1457,Craft Beer,1,2024-01-11 20:02:00,Grace
+1458,Sunday Roast,2,2024-01-11 12:13:00,Alice
+1459,Apple Crumble,1,2024-01-11 19:39:00,Eve
+1460,House Wine (175ml),1,2024-01-11 10:20:00,Frank
+1461,Coffee,2,2024-01-11 12:22:00,Frank
+1462,Gravy,2,2024-01-11 17:41:00,Bob
+1463,Steak & Ale Pie,1,2024-01-11 19:22:00,Diana
+1464,Prawn Cocktail,2,2024-01-11 17:49:00,Eve
+1465,Craft Beer,3,2024-01-11 17:09:00,Henry
+1466,Chicken Liver Pâté,2,2024-01-11 18:51:00,Henry
+1467,Lamb Shank,3,2024-01-11 12:42:00,Henry
+1468,Coffee,3,2024-01-11 18:03:00,Grace
+1469,G&T,2,2024-01-11 12:56:00,Frank
+1470,Coffee,1,2024-01-11 12:52:00,Henry
+1471,Fish & Chips,1,2024-01-11 13:07:00,Alice
+1472,Coffee,1,2024-01-11 22:27:00,Diana
+1473,Steak & Ale Pie,1,2024-01-11 12:52:00,Henry
+1474,Fish & Chips,1,2024-01-11 18:25:00,Grace
+1475,Lamb Shank,1,2024-01-11 13:59:00,Frank
+1476,G&T,1,2024-01-11 14:05:00,Alice
+1477,Fish & Chips,1,2024-01-11 10:32:00,Frank
+1478,Sticky Toffee Pudding,1,2024-01-11 18:02:00,Bob
+1479,Sea Bass,2,2024-01-12 12:55:00,Frank
+1480,Lamb Shank,1,2024-01-12 15:47:00,Alice
+1481,Chicken Liver Pâté,1,2024-01-12 19:04:00,Bob
+1482,Sticky Toffee Pudding,1,2024-01-12 18:07:00,Eve
+1483,Lamb Shank,1,2024-01-12 11:06:00,Henry
+1484,Chicken Liver Pâté,2,2024-01-12 17:39:00,Bob
+1485,Sea Bass,2,2024-01-12 15:06:00,Alice
+1486,Chips,2,2024-01-12 11:03:00,Alice
+1487,Smoked Salmon,2,2024-01-12 21:43:00,Diana
+1488,Gravy,1,2024-01-12 17:22:00,Bob
+1489,Sea Bass,3,2024-01-12 19:16:00,Henry
+1490,Steak & Ale Pie,2,2024-01-12 21:00:00,Bob
+1491,Lamb Shank,2,2024-01-12 11:30:00,Frank
+1492,Steak & Ale Pie,1,2024-01-12 14:04:00,Henry
+1493,Prawn Cocktail,1,2024-01-12 19:27:00,Bob
+1494,Smoked Salmon,1,2024-01-12 18:10:00,Diana
+1495,Fish & Chips,1,2024-01-12 12:58:00,Alice
+1496,Sparkling Water,1,2024-01-12 13:19:00,Frank
+1497,House Wine (175ml),1,2024-01-12 13:50:00,Alice
+1498,Lamb Shank,1,2024-01-12 12:09:00,Frank
+1499,Chips,1,2024-01-12 11:27:00,Frank
+1500,Coffee,2,2024-01-12 18:43:00,Charlie
+1501,Sea Bass,1,2024-01-12 18:17:00,Grace
+1502,Steak & Ale Pie,1,2024-01-12 14:12:00,Alice
+1503,G&T,2,2024-01-12 09:18:00,Henry
+1504,Cask Ale,1,2024-01-12 13:11:00,Frank
+1505,Sea Bass,2,2024-01-12 17:44:00,Diana
+1506,Steak & Ale Pie,1,2024-01-12 21:23:00,Diana
+1507,G&T,1,2024-01-12 14:13:00,Henry
+1508,Prawn Cocktail,1,2024-01-12 13:59:00,Frank
+1509,Lamb Shank,2,2024-01-12 18:37:00,Eve
+1510,Eton Mess,2,2024-01-12 18:07:00,Charlie
+1511,Lamb Shank,1,2024-01-12 19:12:00,Bob
+1512,Craft Beer,1,2024-01-12 10:06:00,Frank
+1513,Sunday Roast,2,2024-01-12 14:57:00,Henry
+1514,Lamb Shank,2,2024-01-12 17:29:00,Charlie
+1515,Prawn Cocktail,3,2024-01-12 13:04:00,Alice
+1516,Steak & Ale Pie,2,2024-01-12 10:29:00,Henry
+1517,Fish & Chips,2,2024-01-12 13:16:00,Alice
+1518,Steak & Ale Pie,1,2024-01-12 12:32:00,Frank
+1519,Sunday Roast,1,2024-01-12 17:02:00,Bob
+1520,Steak & Ale Pie,2,2024-01-12 15:09:00,Alice
+1521,Craft Beer,1,2024-01-12 19:57:00,Diana
+1522,Sea Bass,2,2024-01-12 13:05:00,Alice
+1523,Sticky Toffee Pudding,1,2024-01-12 19:29:00,Eve
+1524,Lamb Shank,1,2024-01-12 10:10:00,Henry
+1525,Chips,1,2024-01-12 19:37:00,Henry
+1526,Sea Bass,1,2024-01-12 19:11:00,Charlie
+1527,Bread & Butter Pudding,1,2024-01-12 19:34:00,Henry
+1528,Cask Ale,1,2024-01-12 15:42:00,Alice
+1529,Steak & Ale Pie,3,2024-01-12 11:27:00,Henry
+1530,Prawn Cocktail,1,2024-01-12 11:09:00,Henry
+1531,Seasonal Veg,1,2024-01-12 14:04:00,Alice
+1532,Lamb Shank,2,2024-01-12 10:23:00,Henry
+1533,Craft Beer,1,2024-01-12 18:25:00,Bob
+1534,G&T,2,2024-01-12 13:27:00,Alice
+1535,Sea Bass,3,2024-01-12 15:12:00,Henry
+1536,Coffee,3,2024-01-12 18:54:00,Henry
+1537,Craft Beer,2,2024-01-12 12:06:00,Henry
+1538,Lamb Shank,2,2024-01-12 13:26:00,Henry
+1539,Sparkling Water,1,2024-01-12 15:36:00,Alice
+1540,Sea Bass,2,2024-01-12 18:26:00,Henry
+1541,House Wine (175ml),1,2024-01-12 12:19:00,Henry
+1542,Fish & Chips,2,2024-01-12 18:00:00,Eve
+1543,Sea Bass,1,2024-01-12 15:38:00,Frank
+1544,Seasonal Veg,1,2024-01-12 19:16:00,Bob
+1545,Steak & Ale Pie,1,2024-01-12 19:44:00,Eve
+1546,Sunday Roast,2,2024-01-12 14:04:00,Henry
+1547,Sea Bass,1,2024-01-12 18:52:00,Diana
+1548,Cask Ale,3,2024-01-12 12:35:00,Henry
+1549,Lamb Shank,2,2024-01-12 19:20:00,Diana
+1550,Sunday Roast,2,2024-01-12 20:25:00,Grace
+1551,Craft Beer,2,2024-01-12 18:37:00,Henry
+1552,Sea Bass,2,2024-01-12 13:53:00,Frank
+1553,Sea Bass,1,2024-01-12 15:50:00,Frank
+1554,Cider,1,2024-01-12 15:25:00,Alice
+1555,Gravy,2,2024-01-12 14:14:00,Alice
+1556,Coffee,2,2024-01-12 19:16:00,Bob
+1557,Steak & Ale Pie,3,2024-01-12 13:38:00,Alice
+1558,G&T,2,2024-01-12 13:49:00,Frank
+1559,Lamb Shank,3,2024-01-12 17:25:00,Grace
+1560,Coffee,1,2024-01-12 13:08:00,Alice
+1561,Steak & Ale Pie,1,2024-01-12 12:32:00,Frank
+1562,Craft Beer,1,2024-01-12 17:03:00,Grace
+1563,Lamb Shank,1,2024-01-12 17:32:00,Grace
+1564,Lamb Shank,1,2024-01-12 09:04:00,Frank
+1565,Bread & Butter Pudding,1,2024-01-12 20:06:00,Charlie
+1566,Sea Bass,3,2024-01-12 09:23:00,Henry
+1567,Steak & Ale Pie,1,2024-01-12 16:55:00,Bob
+1568,Sea Bass,2,2024-01-12 19:36:00,Grace
+1569,Scotch Egg,1,2024-01-12 17:24:00,Grace
+1570,Steak & Ale Pie,1,2024-01-12 12:13:00,Frank
+1571,Pork Pie,2,2024-01-12 14:35:00,Frank
+1572,Sunday Roast,1,2024-01-12 17:38:00,Diana
+1573,Sunday Roast,3,2024-01-12 19:14:00,Eve
+1574,Sea Bass,1,2024-01-12 19:48:00,Grace
+1575,G&T,2,2024-01-12 18:30:00,Diana
+1576,Sunday Roast,1,2024-01-12 13:03:00,Alice
+1577,Steak & Ale Pie,2,2024-01-12 17:59:00,Grace
+1578,Sea Bass,2,2024-01-12 15:05:00,Henry
+1579,Gravy,3,2024-01-12 18:42:00,Charlie
+1580,House Wine (175ml),3,2024-01-12 13:51:00,Henry
+1581,Coffee,1,2024-01-12 14:03:00,Frank
+1582,Craft Beer,2,2024-01-12 12:00:00,Alice
+1583,Craft Beer,1,2024-01-12 12:25:00,Frank
+1584,Coffee,3,2024-01-12 19:47:00,Grace
+1585,Soup of the Day,2,2024-01-12 13:00:00,Frank
+1586,G&T,1,2024-01-12 13:39:00,Frank
+1587,Steak & Ale Pie,1,2024-01-12 19:05:00,Bob
+1588,Coffee,1,2024-01-12 13:14:00,Frank
+1589,Craft Beer,1,2024-01-12 17:31:00,Henry
+1590,Gravy,2,2024-01-12 20:15:00,Bob
+1591,Lamb Shank,2,2024-01-12 18:00:00,Bob
+1592,Sparkling Water,1,2024-01-12 12:00:00,Frank
+1593,Coffee,2,2024-01-12 12:20:00,Alice
+1594,Sea Bass,3,2024-01-12 10:54:00,Alice
+1595,Sunday Roast,1,2024-01-12 13:16:00,Alice
+1596,G&T,1,2024-01-12 13:25:00,Henry
+1597,Fish & Chips,2,2024-01-12 14:30:00,Alice
+1598,Cask Ale,1,2024-01-12 15:55:00,Henry
+1599,Lamb Shank,3,2024-01-12 19:43:00,Eve
+1600,Sparkling Water,1,2024-01-12 10:03:00,Frank
+1601,G&T,1,2024-01-12 19:21:00,Charlie
+1602,G&T,1,2024-01-12 12:08:00,Frank
+1603,Steak & Ale Pie,1,2024-01-12 19:39:00,Charlie
+1604,Sea Bass,2,2024-01-12 12:31:00,Henry
+1605,Eton Mess,3,2024-01-12 17:45:00,Eve
+1606,Sticky Toffee Pudding,2,2024-01-12 18:01:00,Eve
+1607,Steak & Ale Pie,1,2024-01-12 14:13:00,Frank
+1608,Craft Beer,2,2024-01-12 20:00:00,Henry
+1609,Sunday Roast,1,2024-01-12 18:14:00,Charlie
+1610,G&T,2,2024-01-12 09:01:00,Henry
+1611,Sea Bass,3,2024-01-12 13:44:00,Henry
+1612,Sea Bass,1,2024-01-12 22:46:00,Diana
+1613,Soup of the Day,1,2024-01-12 11:04:00,Frank
+1614,Sparkling Water,1,2024-01-12 13:22:00,Alice
+1615,Pork Pie,1,2024-01-12 19:06:00,Charlie
+1616,Sunday Roast,1,2024-01-12 18:24:00,Charlie
+1617,Sea Bass,3,2024-01-12 21:43:00,Bob
+1618,Craft Beer,1,2024-01-12 12:00:00,Alice
+1619,Chicken Liver Pâté,2,2024-01-12 09:00:00,Frank
+1620,Lamb Shank,2,2024-01-12 17:31:00,Eve
+1621,Cask Ale,2,2024-01-12 18:36:00,Bob
+1622,Fish & Chips,2,2024-01-12 18:27:00,Charlie
+1623,Soup of the Day,2,2024-01-12 18:03:00,Diana
+1624,Sticky Toffee Pudding,1,2024-01-12 12:44:00,Frank
+1625,Coffee,1,2024-01-12 11:17:00,Alice
+1626,Apple Crumble,2,2024-01-12 17:34:00,Henry
+1627,Seasonal Veg,2,2024-01-12 15:55:00,Frank
+1628,Sea Bass,3,2024-01-12 18:15:00,Diana
+1629,Lamb Shank,2,2024-01-12 12:49:00,Henry
+1630,Lamb Shank,2,2024-01-12 18:57:00,Diana
+1631,Sunday Roast,2,2024-01-12 13:14:00,Alice
+1632,Sea Bass,3,2024-01-12 18:02:00,Bob
+1633,Apple Crumble,2,2024-01-12 10:06:00,Frank
+1634,Sea Bass,1,2024-01-12 17:02:00,Grace
+1635,Gravy,2,2024-01-12 20:48:00,Henry
+1636,Cask Ale,3,2024-01-12 14:46:00,Alice
+1637,Sea Bass,1,2024-01-12 14:01:00,Alice
+1638,Sea Bass,2,2024-01-12 18:34:00,Eve
+1639,Steak & Ale Pie,1,2024-01-12 21:03:00,Bob
+1640,Chips,1,2024-01-12 12:26:00,Frank
+1641,Steak & Ale Pie,2,2024-01-12 12:37:00,Henry
+1642,Sparkling Water,3,2024-01-12 17:22:00,Henry
+1643,Steak & Ale Pie,1,2024-01-12 17:21:00,Diana
+1644,Sea Bass,1,2024-01-12 14:04:00,Alice
+1645,Craft Beer,2,2024-01-12 10:15:00,Alice
+1646,G&T,2,2024-01-12 18:32:00,Eve
+1647,Chicken Liver Pâté,2,2024-01-12 11:36:00,Henry
+1648,Seasonal Veg,1,2024-01-12 18:23:00,Charlie
+1649,Chicken Liver Pâté,1,2024-01-12 11:45:00,Alice
+1650,Steak & Ale Pie,2,2024-01-12 17:05:00,Eve
+1651,Craft Beer,3,2024-01-12 09:26:00,Alice
+1652,Craft Beer,3,2024-01-12 14:50:00,Alice
+1653,Prawn Cocktail,2,2024-01-12 14:53:00,Alice
+1654,Steak & Ale Pie,2,2024-01-12 19:57:00,Grace
+1655,Craft Beer,1,2024-01-12 19:21:00,Diana
+1656,Steak & Ale Pie,2,2024-01-12 13:05:00,Frank
+1657,Steak & Ale Pie,1,2024-01-12 15:31:00,Frank
+1658,Steak & Ale Pie,1,2024-01-12 13:30:00,Henry
+1659,Bread & Butter Pudding,2,2024-01-12 17:17:00,Bob
+1660,Craft Beer,3,2024-01-12 14:38:00,Henry
+1661,Sparkling Water,2,2024-01-12 13:47:00,Alice
+1662,Craft Beer,1,2024-01-12 17:11:00,Eve
+1663,Sea Bass,2,2024-01-12 17:57:00,Bob
+1664,Cask Ale,1,2024-01-12 15:50:00,Frank
+1665,Sea Bass,2,2024-01-12 16:05:00,Henry
+1666,Sea Bass,1,2024-01-12 12:37:00,Alice
+1667,Sticky Toffee Pudding,1,2024-01-12 15:23:00,Alice
+1668,Apple Crumble,3,2024-01-12 12:01:00,Henry
+1669,Gravy,2,2024-01-12 15:27:00,Alice
+1670,Eton Mess,2,2024-01-12 09:38:00,Henry
+1671,Lamb Shank,2,2024-01-12 15:34:00,Frank
+1672,Prawn Cocktail,2,2024-01-12 14:54:00,Alice
+1673,G&T,3,2024-01-12 21:53:00,Henry
+1674,Seasonal Veg,1,2024-01-12 18:08:00,Diana
+1675,House Wine (175ml),2,2024-01-13 14:13:00,Frank
+1676,Sea Bass,1,2024-01-13 13:12:00,Frank
+1677,Sea Bass,1,2024-01-13 13:42:00,Henry
+1678,Coffee,1,2024-01-13 12:14:00,Alice
+1679,Sea Bass,1,2024-01-13 13:13:00,Frank
+1680,Gravy,1,2024-01-13 10:31:00,Frank
+1681,Sea Bass,1,2024-01-13 17:38:00,Charlie
+1682,Sea Bass,2,2024-01-13 15:26:00,Henry
+1683,Bread & Butter Pudding,1,2024-01-13 12:01:00,Henry
+1684,House Wine (175ml),1,2024-01-13 18:03:00,Grace
+1685,Sticky Toffee Pudding,2,2024-01-13 13:56:00,Henry
+1686,Lamb Shank,1,2024-01-13 13:36:00,Henry
+1687,Chicken Liver Pâté,2,2024-01-13 12:03:00,Henry
+1688,Sunday Roast,2,2024-01-13 20:55:00,Diana
+1689,Craft Beer,2,2024-01-13 13:21:00,Alice
+1690,Steak & Ale Pie,2,2024-01-13 18:28:00,Grace
+1691,Sparkling Water,2,2024-01-13 17:59:00,Eve
+1692,Bread & Butter Pudding,1,2024-01-13 19:39:00,Henry
+1693,Craft Beer,2,2024-01-13 17:20:00,Eve
+1694,Lamb Shank,1,2024-01-13 15:45:00,Frank
+1695,Coffee,1,2024-01-13 19:20:00,Bob
+1696,G&T,2,2024-01-13 18:18:00,Henry
+1697,Gravy,1,2024-01-13 18:34:00,Bob
+1698,Sunday Roast,2,2024-01-13 13:54:00,Alice
+1699,Craft Beer,2,2024-01-13 17:42:00,Henry
+1700,Cask Ale,2,2024-01-13 18:22:00,Henry
+1701,Sticky Toffee Pudding,2,2024-01-13 20:42:00,Diana
+1702,Mushy Peas,1,2024-01-13 15:07:00,Alice
+1703,Lamb Shank,2,2024-01-13 19:17:00,Charlie
+1704,Gravy,2,2024-01-13 13:21:00,Henry
+1705,Gravy,1,2024-01-13 12:05:00,Frank
+1706,House Wine (175ml),2,2024-01-13 13:35:00,Henry
+1707,Lamb Shank,2,2024-01-13 10:14:00,Henry
+1708,Coffee,1,2024-01-13 18:49:00,Eve
+1709,Sticky Toffee Pudding,2,2024-01-13 18:58:00,Henry
+1710,Prawn Cocktail,1,2024-01-13 11:19:00,Alice
+1711,Sunday Roast,2,2024-01-13 13:00:00,Henry
+1712,Steak & Ale Pie,3,2024-01-13 19:54:00,Henry
+1713,Cask Ale,2,2024-01-13 18:44:00,Diana
+1714,Steak & Ale Pie,2,2024-01-13 16:44:00,Bob
+1715,Fish & Chips,1,2024-01-13 11:53:00,Alice
+1716,Sparkling Water,1,2024-01-13 21:00:00,Eve
+1717,Soup of the Day,1,2024-01-13 20:00:00,Eve
+1718,Coffee,1,2024-01-13 16:22:00,Eve
+1719,Sunday Roast,1,2024-01-13 15:59:00,Frank
+1720,Cask Ale,1,2024-01-13 13:06:00,Frank
+1721,Fish & Chips,1,2024-01-13 12:36:00,Alice
+1722,Sparkling Water,3,2024-01-13 17:12:00,Charlie
+1723,Lamb Shank,1,2024-01-13 19:06:00,Bob
+1724,House Wine (175ml),1,2024-01-13 12:39:00,Alice
+1725,Steak & Ale Pie,2,2024-01-13 13:57:00,Frank
+1726,Sea Bass,1,2024-01-13 12:30:00,Frank
+1727,Fish & Chips,2,2024-01-13 13:22:00,Alice
+1728,Chicken Liver Pâté,1,2024-01-13 14:51:00,Frank
+1729,Craft Beer,1,2024-01-13 11:10:00,Frank
+1730,G&T,2,2024-01-13 20:22:00,Diana
+1731,Fish & Chips,1,2024-01-13 12:25:00,Frank
+1732,Coffee,1,2024-01-13 14:18:00,Henry
+1733,G&T,2,2024-01-13 20:13:00,Grace
+1734,Craft Beer,2,2024-01-13 12:48:00,Henry
+1735,Sea Bass,2,2024-01-13 13:37:00,Alice
+1736,Craft Beer,2,2024-01-13 17:10:00,Eve
+1737,Sea Bass,1,2024-01-13 13:50:00,Frank
+1738,Lamb Shank,2,2024-01-13 09:28:00,Henry
+1739,Prawn Cocktail,2,2024-01-13 11:20:00,Henry
+1740,Lamb Shank,3,2024-01-13 17:16:00,Bob
+1741,Fish & Chips,2,2024-01-13 17:20:00,Grace
+1742,G&T,1,2024-01-13 19:40:00,Eve
+1743,Chicken Liver Pâté,3,2024-01-13 17:22:00,Grace
+1744,Cider,1,2024-01-13 19:23:00,Charlie
+1745,Steak & Ale Pie,2,2024-01-13 14:17:00,Henry
+1746,Sea Bass,1,2024-01-13 17:51:00,Henry
+1747,Sea Bass,2,2024-01-13 18:07:00,Eve
+1748,Sparkling Water,1,2024-01-13 12:08:00,Frank
+1749,Sparkling Water,1,2024-01-13 11:25:00,Henry
+1750,Seasonal Veg,2,2024-01-13 18:51:00,Diana
+1751,Gravy,2,2024-01-13 18:43:00,Bob
+1752,House Wine (175ml),1,2024-01-13 18:59:00,Diana
+1753,Steak & Ale Pie,2,2024-01-13 12:51:00,Henry
+1754,Sea Bass,2,2024-01-13 18:35:00,Bob
+1755,Soup of the Day,1,2024-01-13 12:55:00,Frank
+1756,Bread & Butter Pudding,1,2024-01-13 16:32:00,Bob
+1757,Coffee,2,2024-01-13 09:44:00,Frank
+1758,Sea Bass,1,2024-01-13 13:06:00,Frank
+1759,Steak & Ale Pie,1,2024-01-13 13:15:00,Alice
+1760,Apple Crumble,2,2024-01-13 13:04:00,Alice
+1761,Sunday Roast,2,2024-01-13 13:09:00,Henry
+1762,Cask Ale,2,2024-01-13 20:33:00,Eve
+1763,Sea Bass,1,2024-01-13 18:07:00,Bob
+1764,Steak & Ale Pie,2,2024-01-13 21:22:00,Henry
+1765,Eton Mess,2,2024-01-13 10:36:00,Henry
+1766,Seasonal Veg,3,2024-01-13 18:10:00,Henry
+1767,Sparkling Water,1,2024-01-13 11:39:00,Henry
+1768,Lamb Shank,2,2024-01-13 12:41:00,Alice
+1769,Chicken Liver Pâté,1,2024-01-13 12:12:00,Frank
+1770,Coffee,1,2024-01-13 13:39:00,Henry
+1771,Steak & Ale Pie,2,2024-01-13 12:11:00,Henry
+1772,Sticky Toffee Pudding,2,2024-01-13 18:11:00,Henry
+1773,Steak & Ale Pie,2,2024-01-13 19:21:00,Henry
+1774,Coffee,3,2024-01-13 18:34:00,Bob
+1775,Seasonal Veg,2,2024-01-13 12:27:00,Henry
+1776,Chips,2,2024-01-13 15:47:00,Alice
+1777,Coffee,2,2024-01-13 10:51:00,Alice
+1778,Craft Beer,2,2024-01-13 11:26:00,Henry
+1779,Prawn Cocktail,1,2024-01-13 10:53:00,Henry
+1780,Sea Bass,3,2024-01-13 17:33:00,Diana
+1781,Sea Bass,2,2024-01-13 19:54:00,Diana
+1782,Bread & Butter Pudding,2,2024-01-13 18:01:00,Bob
+1783,Scotch Egg,1,2024-01-13 18:23:00,Bob
+1784,Coffee,2,2024-01-13 12:43:00,Alice
+1785,Lamb Shank,1,2024-01-13 12:55:00,Alice
+1786,Fish & Chips,2,2024-01-13 13:34:00,Alice
+1787,Scotch Egg,3,2024-01-13 21:49:00,Eve
+1788,Apple Crumble,3,2024-01-13 17:41:00,Charlie
+1789,Steak & Ale Pie,1,2024-01-13 15:27:00,Frank
+1790,Steak & Ale Pie,1,2024-01-13 18:31:00,Grace
+1791,Eton Mess,1,2024-01-13 13:07:00,Alice
+1792,Coffee,2,2024-01-13 12:24:00,Henry
+1793,Prawn Cocktail,1,2024-01-13 13:52:00,Alice
+1794,Sea Bass,3,2024-01-13 19:02:00,Grace
+1795,Sea Bass,1,2024-01-13 14:43:00,Alice
+1796,Apple Crumble,1,2024-01-13 19:16:00,Diana
+1797,Sunday Roast,1,2024-01-13 19:21:00,Charlie
+1798,Lamb Shank,3,2024-01-13 19:38:00,Bob
+1799,Fish & Chips,1,2024-01-13 11:32:00,Frank
+1800,Fish & Chips,1,2024-01-13 15:18:00,Frank
+1801,Gravy,1,2024-01-13 12:15:00,Frank
+1802,Fish & Chips,1,2024-01-13 13:57:00,Henry
+1803,Craft Beer,3,2024-01-13 17:42:00,Eve
+1804,Scotch Egg,1,2024-01-13 19:28:00,Diana
+1805,Coffee,1,2024-01-13 18:11:00,Diana
+1806,Craft Beer,2,2024-01-13 19:54:00,Henry
+1807,House Wine (175ml),2,2024-01-13 12:32:00,Alice
+1808,Steak & Ale Pie,2,2024-01-13 13:04:00,Frank
+1809,Craft Beer,1,2024-01-13 11:21:00,Frank
+1810,Sea Bass,1,2024-01-13 12:07:00,Frank
+1811,Sparkling Water,3,2024-01-13 09:02:00,Alice
+1812,Steak & Ale Pie,3,2024-01-13 19:12:00,Diana
+1813,Lamb Shank,1,2024-01-13 18:23:00,Henry
+1814,Chicken Liver Pâté,3,2024-01-13 15:32:00,Alice
+1815,Lamb Shank,2,2024-01-13 17:32:00,Henry
+1816,Seasonal Veg,2,2024-01-13 18:35:00,Grace
+1817,Cask Ale,1,2024-01-13 19:05:00,Diana
+1818,Lamb Shank,1,2024-01-13 11:12:00,Alice
+1819,Lamb Shank,3,2024-01-13 15:06:00,Alice
+1820,Coffee,3,2024-01-13 12:44:00,Alice
+1821,Fish & Chips,1,2024-01-13 17:35:00,Grace
+1822,Sea Bass,1,2024-01-13 14:42:00,Henry
+1823,Craft Beer,2,2024-01-13 19:05:00,Diana
+1824,Bread & Butter Pudding,2,2024-01-13 12:52:00,Henry
+1825,Sunday Roast,1,2024-01-13 13:02:00,Frank
+1826,Mash,3,2024-01-13 13:28:00,Alice
+1827,Craft Beer,1,2024-01-13 16:25:00,Eve
+1828,Gravy,1,2024-01-13 17:43:00,Eve
+1829,Chicken Liver Pâté,1,2024-01-13 19:28:00,Eve
+1830,Seasonal Veg,1,2024-01-13 12:57:00,Henry
+1831,Steak & Ale Pie,1,2024-01-13 18:46:00,Diana
+1832,Lamb Shank,2,2024-01-13 15:21:00,Alice
+1833,Coffee,2,2024-01-13 19:28:00,Eve
+1834,Craft Beer,1,2024-01-13 18:30:00,Diana
+1835,Soup of the Day,2,2024-01-13 09:17:00,Frank
+1836,Pork Pie,3,2024-01-13 22:09:00,Charlie
+1837,Sunday Roast,2,2024-01-13 18:45:00,Henry
+1838,Sparkling Water,1,2024-01-13 10:19:00,Alice
+1839,Sparkling Water,3,2024-01-13 14:30:00,Henry
+1840,Gravy,2,2024-01-13 19:31:00,Grace
+1841,G&T,2,2024-01-13 16:37:00,Charlie
+1842,Apple Crumble,1,2024-01-13 15:03:00,Alice
+1843,Sea Bass,2,2024-01-13 09:52:00,Henry
+1844,Sea Bass,2,2024-01-13 12:03:00,Alice
+1845,Lamb Shank,1,2024-01-13 18:11:00,Grace
+1846,Prawn Cocktail,1,2024-01-13 11:22:00,Alice
+1847,Craft Beer,1,2024-01-13 20:23:00,Eve
+1848,Steak & Ale Pie,1,2024-01-13 13:30:00,Frank
+1849,Steak & Ale Pie,2,2024-01-13 21:56:00,Diana
+1850,Chicken Liver Pâté,3,2024-01-13 11:33:00,Alice
+1851,Sea Bass,2,2024-01-13 17:06:00,Grace
+1852,Steak & Ale Pie,3,2024-01-13 19:17:00,Bob
+1853,Steak & Ale Pie,1,2024-01-13 19:17:00,Henry
+1854,Cask Ale,1,2024-01-13 14:54:00,Alice
+1855,Coffee,2,2024-01-13 17:17:00,Bob
+1856,Sea Bass,1,2024-01-13 20:54:00,Eve
+1857,Soup of the Day,1,2024-01-13 21:04:00,Eve
+1858,G&T,1,2024-01-13 13:54:00,Alice
+1859,Steak & Ale Pie,1,2024-01-14 18:24:00,Eve
+1860,Steak & Ale Pie,1,2024-01-14 22:44:00,Eve
+1861,Craft Beer,2,2024-01-14 19:55:00,Grace
+1862,G&T,2,2024-01-14 19:39:00,Charlie
+1863,Coffee,2,2024-01-14 17:02:00,Henry
+1864,Coffee,2,2024-01-14 17:26:00,Henry
+1865,Cask Ale,2,2024-01-14 11:23:00,Alice
+1866,Sea Bass,1,2024-01-14 18:05:00,Grace
+1867,G&T,2,2024-01-14 18:20:00,Charlie
+1868,Sparkling Water,1,2024-01-14 19:32:00,Charlie
+1869,Prawn Cocktail,2,2024-01-14 12:59:00,Frank
+1870,G&T,2,2024-01-14 19:57:00,Bob
+1871,Gravy,1,2024-01-14 18:56:00,Henry
+1872,House Wine (175ml),1,2024-01-14 09:41:00,Frank
+1873,Coffee,1,2024-01-14 13:05:00,Alice
+1874,Lamb Shank,1,2024-01-14 18:44:00,Grace
+1875,G&T,3,2024-01-14 13:58:00,Alice
+1876,Prawn Cocktail,1,2024-01-14 12:25:00,Frank
+1877,Craft Beer,1,2024-01-14 18:12:00,Grace
+1878,Coffee,2,2024-01-14 16:46:00,Diana
+1879,Steak & Ale Pie,2,2024-01-14 19:28:00,Bob
+1880,Sunday Roast,2,2024-01-14 13:25:00,Frank
+1881,Steak & Ale Pie,2,2024-01-14 12:47:00,Henry
+1882,Coffee,3,2024-01-14 16:16:00,Charlie
+1883,Apple Crumble,2,2024-01-14 21:22:00,Henry
+1884,Craft Beer,1,2024-01-14 19:47:00,Bob
+1885,Steak & Ale Pie,1,2024-01-14 17:39:00,Diana
+1886,Sea Bass,1,2024-01-14 14:30:00,Frank
+1887,Craft Beer,1,2024-01-14 17:18:00,Charlie
+1888,Fish & Chips,2,2024-01-14 17:57:00,Bob
+1889,Sunday Roast,1,2024-01-14 17:01:00,Diana
+1890,Apple Crumble,1,2024-01-14 14:34:00,Frank
+1891,Sea Bass,1,2024-01-14 18:43:00,Diana
+1892,Craft Beer,1,2024-01-14 10:01:00,Frank
+1893,G&T,1,2024-01-14 14:25:00,Alice
+1894,Steak & Ale Pie,1,2024-01-14 14:47:00,Henry
+1895,Lamb Shank,1,2024-01-14 13:55:00,Frank
+1896,Sea Bass,2,2024-01-14 14:08:00,Frank
+1897,Steak & Ale Pie,1,2024-01-14 14:33:00,Henry
+1898,Steak & Ale Pie,2,2024-01-14 14:32:00,Frank
+1899,Gravy,2,2024-01-14 19:13:00,Grace
+1900,Craft Beer,3,2024-01-14 17:00:00,Charlie
+1901,G&T,2,2024-01-14 13:11:00,Henry
+1902,Soup of the Day,1,2024-01-14 19:35:00,Bob
+1903,House Wine (175ml),1,2024-01-14 17:50:00,Diana
+1904,Chicken Liver Pâté,1,2024-01-14 13:28:00,Frank
+1905,G&T,1,2024-01-14 13:15:00,Henry
+1906,House Wine (175ml),2,2024-01-14 11:47:00,Alice
+1907,Cask Ale,1,2024-01-14 14:26:00,Alice
+1908,Steak & Ale Pie,2,2024-01-14 18:04:00,Grace
+1909,Coffee,1,2024-01-14 12:15:00,Frank
+1910,Sea Bass,2,2024-01-14 19:40:00,Eve
+1911,Sea Bass,2,2024-01-14 15:51:00,Alice
+1912,Cask Ale,1,2024-01-14 18:03:00,Charlie
+1913,Craft Beer,1,2024-01-14 13:58:00,Alice
+1914,G&T,2,2024-01-14 15:06:00,Alice
+1915,Soup of the Day,1,2024-01-14 13:17:00,Henry
+1916,Sea Bass,2,2024-01-14 17:41:00,Grace
+1917,Apple Crumble,2,2024-01-14 13:00:00,Frank
+1918,Gravy,1,2024-01-14 14:42:00,Frank
+1919,Lamb Shank,2,2024-01-14 13:34:00,Henry
+1920,Lamb Shank,3,2024-01-14 12:24:00,Henry
+1921,G&T,2,2024-01-14 18:21:00,Bob
+1922,Sparkling Water,2,2024-01-14 13:15:00,Alice
+1923,Lamb Shank,1,2024-01-14 13:55:00,Henry
+1924,Lamb Shank,2,2024-01-14 17:40:00,Bob
+1925,G&T,2,2024-01-14 13:27:00,Alice
+1926,Sunday Roast,1,2024-01-14 19:11:00,Eve
+1927,Sea Bass,3,2024-01-14 18:18:00,Charlie
+1928,Prawn Cocktail,1,2024-01-14 18:45:00,Eve
+1929,Steak & Ale Pie,1,2024-01-14 15:05:00,Henry
+1930,G&T,1,2024-01-14 12:50:00,Frank
+1931,Scotch Egg,2,2024-01-14 10:59:00,Alice
+1932,Craft Beer,2,2024-01-14 12:02:00,Frank
+1933,Soup of the Day,1,2024-01-14 20:07:00,Charlie
+1934,Sea Bass,1,2024-01-14 18:05:00,Bob
+1935,Apple Crumble,2,2024-01-14 12:15:00,Henry
+1936,Lamb Shank,1,2024-01-14 19:25:00,Bob
+1937,Smoked Salmon,3,2024-01-14 17:27:00,Eve
+1938,Eton Mess,2,2024-01-14 13:21:00,Frank
+1939,Lamb Shank,2,2024-01-14 17:30:00,Henry
+1940,Bangers & Mash,3,2024-01-14 19:01:00,Eve
+1941,Cask Ale,2,2024-01-14 12:41:00,Frank
+1942,Prawn Cocktail,3,2024-01-14 21:43:00,Henry
+1943,Steak & Ale Pie,2,2024-01-14 14:34:00,Frank
+1944,Lamb Shank,1,2024-01-14 17:04:00,Henry
+1945,G&T,1,2024-01-14 14:13:00,Alice
+1946,Lamb Shank,2,2024-01-14 17:46:00,Bob
+1947,Sea Bass,1,2024-01-14 13:08:00,Alice
+1948,Bangers & Mash,2,2024-01-14 17:58:00,Charlie
+1949,Sea Bass,2,2024-01-14 15:30:00,Frank
+1950,Coffee,2,2024-01-14 14:52:00,Alice
+1951,Prawn Cocktail,3,2024-01-14 17:17:00,Henry
+1952,Lamb Shank,1,2024-01-14 18:22:00,Diana
+1953,Lamb Shank,2,2024-01-14 20:42:00,Bob
+1954,Craft Beer,2,2024-01-14 18:29:00,Bob
+1955,Prawn Cocktail,2,2024-01-14 19:48:00,Bob
+1956,Chicken Liver Pâté,1,2024-01-14 12:29:00,Frank
+1957,House Wine (175ml),3,2024-01-14 19:48:00,Henry
+1958,Cask Ale,2,2024-01-14 14:41:00,Frank
+1959,Lamb Shank,3,2024-01-14 21:36:00,Grace
+1960,G&T,2,2024-01-14 20:50:00,Eve
+1961,G&T,1,2024-01-14 20:16:00,Bob
+1962,Sunday Roast,1,2024-01-14 13:20:00,Alice
+1963,Cask Ale,1,2024-01-14 20:59:00,Eve
+1964,G&T,2,2024-01-14 10:48:00,Henry
+1965,Gravy,3,2024-01-14 18:24:00,Henry
+1966,Bangers & Mash,1,2024-01-14 18:05:00,Grace
+1967,G&T,1,2024-01-14 12:30:00,Henry
+1968,Lamb Shank,3,2024-01-14 17:39:00,Charlie
+1969,Sunday Roast,1,2024-01-14 14:26:00,Alice
+1970,Seasonal Veg,2,2024-01-14 18:19:00,Henry
+1971,Steak & Ale Pie,1,2024-01-14 13:08:00,Frank
+1972,Sunday Roast,1,2024-01-14 19:46:00,Diana
+1973,Sea Bass,3,2024-01-14 19:34:00,Charlie
+1974,Lamb Shank,2,2024-01-14 14:25:00,Henry
+1975,G&T,1,2024-01-14 21:17:00,Eve
+1976,G&T,3,2024-01-14 18:57:00,Henry
+1977,Steak & Ale Pie,2,2024-01-14 17:02:00,Eve
+1978,Sea Bass,2,2024-01-14 19:05:00,Eve
+1979,Lamb Shank,1,2024-01-14 18:26:00,Henry
+1980,Coffee,2,2024-01-14 14:51:00,Alice
+1981,Steak & Ale Pie,3,2024-01-14 16:58:00,Charlie
+1982,Sea Bass,3,2024-01-14 15:45:00,Alice
+1983,Chips,1,2024-01-14 21:36:00,Charlie
+1984,Craft Beer,3,2024-01-14 17:46:00,Bob
+1985,Chicken Liver Pâté,1,2024-01-14 12:34:00,Frank
+1986,Coffee,1,2024-01-14 11:06:00,Alice
+1987,Fish & Chips,1,2024-01-14 19:26:00,Bob
+1988,Lamb Shank,2,2024-01-14 19:47:00,Charlie
+1989,Soup of the Day,1,2024-01-14 18:13:00,Grace
+1990,Mash,1,2024-01-14 19:11:00,Eve
+1991,Sparkling Water,1,2024-01-14 13:54:00,Henry
+1992,Sea Bass,1,2024-01-14 19:13:00,Eve
+1993,G&T,1,2024-01-15 13:43:00,Henry
+1994,Sea Bass,2,2024-01-15 20:34:00,Bob
+1995,Bread & Butter Pudding,3,2024-01-15 17:21:00,Henry
+1996,Lamb Shank,2,2024-01-15 18:26:00,Charlie
+1997,Craft Beer,1,2024-01-15 16:49:00,Bob
+1998,Lamb Shank,1,2024-01-15 13:02:00,Alice
+1999,Lamb Shank,1,2024-01-15 17:15:00,Eve
+2000,Sunday Roast,2,2024-01-15 19:35:00,Henry
+2001,Eton Mess,3,2024-01-15 17:05:00,Eve
+2002,Sea Bass,1,2024-01-15 19:53:00,Eve
+2003,Sea Bass,1,2024-01-15 13:12:00,Frank
+2004,G&T,2,2024-01-15 13:33:00,Frank
+2005,Coffee,2,2024-01-15 12:40:00,Alice
+2006,Smoked Salmon,3,2024-01-15 17:23:00,Charlie
+2007,Fish & Chips,1,2024-01-15 17:32:00,Charlie
+2008,Sunday Roast,1,2024-01-15 13:34:00,Henry
+2009,Steak & Ale Pie,2,2024-01-15 14:45:00,Alice
+2010,Apple Crumble,3,2024-01-15 17:55:00,Diana
+2011,Coffee,1,2024-01-15 12:48:00,Frank
+2012,Steak & Ale Pie,1,2024-01-15 17:55:00,Grace
+2013,Lamb Shank,2,2024-01-15 10:12:00,Alice
+2014,Steak & Ale Pie,1,2024-01-15 13:58:00,Henry
+2015,Sea Bass,3,2024-01-15 17:22:00,Charlie
+2016,Sea Bass,1,2024-01-15 17:57:00,Grace
+2017,Sea Bass,2,2024-01-15 19:36:00,Bob
+2018,Sea Bass,3,2024-01-15 13:34:00,Henry
+2019,G&T,1,2024-01-15 13:47:00,Frank
+2020,Sea Bass,1,2024-01-15 20:08:00,Diana
+2021,Cask Ale,1,2024-01-15 19:39:00,Charlie
+2022,Apple Crumble,1,2024-01-15 19:36:00,Charlie
+2023,Cider,1,2024-01-15 11:31:00,Alice
+2024,Lamb Shank,1,2024-01-15 20:57:00,Diana
+2025,Steak & Ale Pie,1,2024-01-15 13:10:00,Alice
+2026,G&T,1,2024-01-15 18:03:00,Eve
+2027,Craft Beer,2,2024-01-15 18:50:00,Eve
+2028,Craft Beer,3,2024-01-15 13:14:00,Alice
+2029,House Wine (175ml),1,2024-01-15 17:05:00,Eve
+2030,Sunday Roast,1,2024-01-15 18:57:00,Grace
+2031,Lamb Shank,1,2024-01-15 21:20:00,Grace
+2032,Coffee,1,2024-01-15 14:43:00,Henry
+2033,Steak & Ale Pie,2,2024-01-15 14:44:00,Alice
+2034,Steak & Ale Pie,2,2024-01-15 12:35:00,Frank
+2035,Craft Beer,3,2024-01-15 13:10:00,Henry
+2036,G&T,2,2024-01-15 14:14:00,Henry
+2037,Chicken Liver Pâté,1,2024-01-15 18:00:00,Bob
+2038,Sea Bass,1,2024-01-15 18:16:00,Bob
+2039,G&T,2,2024-01-15 18:23:00,Grace
+2040,Cask Ale,1,2024-01-15 13:07:00,Alice
+2041,Lamb Shank,2,2024-01-15 10:58:00,Alice
+2042,Steak & Ale Pie,1,2024-01-15 19:18:00,Bob
+2043,Smoked Salmon,3,2024-01-15 10:52:00,Alice
+2044,G&T,2,2024-01-15 19:32:00,Grace
+2045,Lamb Shank,2,2024-01-15 18:12:00,Grace
+2046,Lamb Shank,2,2024-01-15 11:28:00,Henry
+2047,Steak & Ale Pie,2,2024-01-15 19:35:00,Diana
+2048,Apple Crumble,1,2024-01-15 12:06:00,Alice
+2049,Sticky Toffee Pudding,1,2024-01-15 19:33:00,Charlie
+2050,Coffee,3,2024-01-15 10:30:00,Alice
+2051,Sunday Roast,2,2024-01-15 18:03:00,Grace
+2052,Cask Ale,1,2024-01-15 18:11:00,Grace
+2053,Sunday Roast,1,2024-01-15 12:06:00,Henry
+2054,Fish & Chips,2,2024-01-15 16:54:00,Henry
+2055,Sea Bass,2,2024-01-15 13:58:00,Alice
+2056,Sticky Toffee Pudding,2,2024-01-15 12:07:00,Henry
+2057,Sea Bass,2,2024-01-15 18:24:00,Charlie
+2058,Pork Pie,1,2024-01-15 15:50:00,Alice
+2059,Coffee,1,2024-01-15 12:33:00,Frank
+2060,Apple Crumble,1,2024-01-15 14:23:00,Frank
+2061,Prawn Cocktail,2,2024-01-15 14:33:00,Alice
+2062,Coffee,2,2024-01-15 16:42:00,Grace
+2063,Gravy,2,2024-01-15 15:45:00,Frank
+2064,Lamb Shank,2,2024-01-15 19:10:00,Henry
+2065,G&T,2,2024-01-15 19:49:00,Grace
+2066,Scotch Egg,3,2024-01-15 17:40:00,Eve
+2067,Sea Bass,1,2024-01-15 20:17:00,Henry
+2068,Bread & Butter Pudding,3,2024-01-15 13:51:00,Alice
+2069,Craft Beer,1,2024-01-15 13:50:00,Alice
+2070,Chicken Liver Pâté,1,2024-01-15 20:33:00,Eve
+2071,Craft Beer,2,2024-01-15 19:35:00,Diana
+2072,House Wine (175ml),1,2024-01-15 14:38:00,Frank
+2073,Steak & Ale Pie,1,2024-01-15 18:47:00,Grace
+2074,Sea Bass,2,2024-01-15 19:18:00,Grace
+2075,House Wine (175ml),1,2024-01-15 12:01:00,Alice
+2076,Lamb Shank,1,2024-01-15 12:47:00,Alice
+2077,Bread & Butter Pudding,2,2024-01-15 20:58:00,Charlie
+2078,Apple Crumble,2,2024-01-15 19:53:00,Diana
+2079,Steak & Ale Pie,2,2024-01-15 17:39:00,Eve
+2080,Steak & Ale Pie,3,2024-01-15 15:30:00,Henry
+2081,Lamb Shank,1,2024-01-15 14:21:00,Henry
+2082,Lamb Shank,2,2024-01-15 18:01:00,Diana
+2083,Craft Beer,2,2024-01-15 09:26:00,Henry
+2084,House Wine (175ml),1,2024-01-15 18:10:00,Grace
+2085,Lamb Shank,3,2024-01-15 18:50:00,Bob
+2086,Chips,2,2024-01-15 14:42:00,Alice
+2087,Gravy,1,2024-01-15 12:53:00,Alice
+2088,Lamb Shank,2,2024-01-15 09:54:00,Henry
+2089,Gravy,1,2024-01-15 18:46:00,Diana
+2090,Lamb Shank,2,2024-01-15 20:16:00,Eve
+2091,Steak & Ale Pie,2,2024-01-15 15:51:00,Alice
+2092,Mushy Peas,1,2024-01-15 19:57:00,Charlie
+2093,Coffee,2,2024-01-15 17:09:00,Charlie
+2094,Craft Beer,2,2024-01-15 12:21:00,Alice
+2095,Sticky Toffee Pudding,1,2024-01-15 18:50:00,Grace
+2096,Sparkling Water,1,2024-01-15 12:15:00,Henry
+2097,Fish & Chips,1,2024-01-15 12:55:00,Alice
+2098,Steak & Ale Pie,2,2024-01-15 12:56:00,Frank
+2099,Craft Beer,1,2024-01-15 13:00:00,Frank
+2100,Chips,2,2024-01-15 18:30:00,Grace
+2101,Craft Beer,1,2024-01-15 18:39:00,Eve
+2102,Steak & Ale Pie,3,2024-01-15 18:42:00,Henry
+2103,Cider,1,2024-01-15 13:44:00,Frank
+2104,Cask Ale,1,2024-01-15 14:14:00,Frank
+2105,Sticky Toffee Pudding,3,2024-01-15 18:22:00,Charlie
+2106,House Wine (175ml),2,2024-01-16 18:30:00,Diana
+2107,Eton Mess,1,2024-01-16 10:38:00,Alice
+2108,Fish & Chips,1,2024-01-16 17:06:00,Diana
+2109,Fish & Chips,1,2024-01-16 19:35:00,Diana
+2110,Sunday Roast,1,2024-01-16 15:57:00,Frank
+2111,Scotch Egg,2,2024-01-16 19:21:00,Diana
+2112,Sea Bass,2,2024-01-16 17:49:00,Eve
+2113,Steak & Ale Pie,3,2024-01-16 16:45:00,Bob
+2114,Sea Bass,2,2024-01-16 17:38:00,Diana
+2115,Lamb Shank,2,2024-01-16 13:52:00,Alice
+2116,Fish & Chips,2,2024-01-16 17:51:00,Bob
+2117,Lamb Shank,2,2024-01-16 17:23:00,Grace
+2118,Lamb Shank,2,2024-01-16 19:10:00,Eve
+2119,Steak & Ale Pie,3,2024-01-16 13:49:00,Alice
+2120,Sunday Roast,2,2024-01-16 14:49:00,Henry
+2121,Pork Pie,1,2024-01-16 09:55:00,Frank
+2122,Fish & Chips,1,2024-01-16 13:44:00,Frank
+2123,Prawn Cocktail,1,2024-01-16 13:30:00,Henry
+2124,G&T,1,2024-01-16 13:58:00,Frank
+2125,Steak & Ale Pie,2,2024-01-16 14:00:00,Frank
+2126,Sea Bass,1,2024-01-16 21:24:00,Bob
+2127,Gravy,1,2024-01-16 12:39:00,Frank
+2128,Coffee,3,2024-01-16 13:22:00,Alice
+2129,Steak & Ale Pie,1,2024-01-16 11:29:00,Frank
+2130,Smoked Salmon,1,2024-01-16 17:14:00,Henry
+2131,Fish & Chips,2,2024-01-16 21:27:00,Charlie
+2132,Craft Beer,2,2024-01-16 18:13:00,Grace
+2133,Craft Beer,2,2024-01-16 12:22:00,Frank
+2134,Craft Beer,1,2024-01-16 12:44:00,Alice
+2135,Sunday Roast,1,2024-01-16 10:05:00,Henry
+2136,Craft Beer,2,2024-01-16 09:40:00,Alice
+2137,Lamb Shank,1,2024-01-16 12:27:00,Frank
+2138,Lamb Shank,1,2024-01-16 13:13:00,Frank
+2139,Fish & Chips,1,2024-01-16 15:08:00,Frank
+2140,Sparkling Water,1,2024-01-16 10:10:00,Frank
+2141,Chicken Liver Pâté,1,2024-01-16 18:05:00,Grace
+2142,Fish & Chips,1,2024-01-16 12:35:00,Alice
+2143,Sparkling Water,2,2024-01-16 18:17:00,Diana
+2144,Coffee,1,2024-01-16 15:26:00,Henry
+2145,Sea Bass,1,2024-01-16 12:57:00,Frank
+2146,Craft Beer,1,2024-01-16 13:44:00,Frank
+2147,Craft Beer,2,2024-01-16 16:45:00,Diana
+2148,Lamb Shank,1,2024-01-16 09:43:00,Frank
+2149,G&T,3,2024-01-16 17:43:00,Diana
+2150,Sparkling Water,2,2024-01-16 18:47:00,Eve
+2151,Fish & Chips,1,2024-01-16 18:12:00,Grace
+2152,Steak & Ale Pie,1,2024-01-16 13:29:00,Alice
+2153,Lamb Shank,2,2024-01-16 17:00:00,Bob
+2154,Craft Beer,2,2024-01-16 14:44:00,Frank
+2155,Chicken Liver Pâté,3,2024-01-16 17:37:00,Bob
+2156,Apple Crumble,1,2024-01-16 18:29:00,Grace
+2157,Cider,1,2024-01-16 14:09:00,Henry
+2158,House Wine (175ml),1,2024-01-16 17:24:00,Bob
+2159,Chips,2,2024-01-16 18:08:00,Charlie
+2160,Cask Ale,3,2024-01-16 13:51:00,Henry
+2161,Gravy,2,2024-01-16 13:33:00,Henry
+2162,Fish & Chips,1,2024-01-16 15:35:00,Frank
+2163,Fish & Chips,1,2024-01-16 12:57:00,Alice
+2164,Soup of the Day,2,2024-01-16 18:12:00,Eve
+2165,Craft Beer,3,2024-01-16 19:55:00,Henry
+2166,House Wine (175ml),1,2024-01-16 17:00:00,Henry
+2167,Craft Beer,3,2024-01-16 19:32:00,Grace
+2168,Sticky Toffee Pudding,1,2024-01-16 13:05:00,Frank
+2169,Sparkling Water,3,2024-01-16 19:35:00,Henry
+2170,Smoked Salmon,2,2024-01-16 12:43:00,Henry
+2171,Steak & Ale Pie,1,2024-01-16 11:34:00,Frank
+2172,Lamb Shank,2,2024-01-16 17:16:00,Grace
+2173,Lamb Shank,2,2024-01-16 12:23:00,Alice
+2174,Craft Beer,2,2024-01-16 18:01:00,Eve
+2175,Steak & Ale Pie,1,2024-01-16 18:10:00,Henry
+2176,Mushy Peas,1,2024-01-16 12:43:00,Frank
+2177,Lamb Shank,1,2024-01-16 19:00:00,Henry
+2178,G&T,1,2024-01-16 12:47:00,Frank
+2179,Scotch Egg,1,2024-01-16 11:30:00,Frank
+2180,Mushy Peas,2,2024-01-16 14:29:00,Frank
+2181,Soup of the Day,1,2024-01-16 09:02:00,Henry
+2182,Lamb Shank,1,2024-01-16 19:02:00,Grace
+2183,Sticky Toffee Pudding,1,2024-01-16 18:16:00,Henry
+2184,Prawn Cocktail,2,2024-01-16 15:46:00,Alice
+2185,Craft Beer,2,2024-01-16 18:31:00,Bob
+2186,Steak & Ale Pie,1,2024-01-16 18:13:00,Charlie
+2187,Steak & Ale Pie,1,2024-01-16 12:33:00,Alice
+2188,Craft Beer,1,2024-01-16 12:25:00,Henry
+2189,Sea Bass,3,2024-01-16 20:42:00,Charlie
+2190,Steak & Ale Pie,2,2024-01-16 14:42:00,Alice
+2191,Sea Bass,1,2024-01-16 17:44:00,Diana
+2192,Cider,2,2024-01-16 16:56:00,Charlie
+2193,Chicken Liver Pâté,1,2024-01-16 14:39:00,Henry
+2194,Craft Beer,2,2024-01-16 14:37:00,Frank
+2195,Chips,1,2024-01-16 13:42:00,Frank
+2196,Craft Beer,3,2024-01-16 12:31:00,Henry
+2197,Sea Bass,3,2024-01-16 12:51:00,Alice
+2198,Smoked Salmon,2,2024-01-16 12:08:00,Alice
+2199,Prawn Cocktail,2,2024-01-16 18:29:00,Grace
+2200,Steak & Ale Pie,2,2024-01-16 14:26:00,Alice
+2201,Sunday Roast,1,2024-01-16 13:10:00,Henry
+2202,Chicken Liver Pâté,2,2024-01-16 17:46:00,Eve
+2203,G&T,1,2024-01-16 12:58:00,Frank
+2204,Sunday Roast,1,2024-01-16 13:09:00,Alice
+2205,Cider,1,2024-01-16 19:46:00,Eve
+2206,Steak & Ale Pie,1,2024-01-16 19:50:00,Bob
+2207,Sparkling Water,2,2024-01-16 10:11:00,Henry
+2208,Sticky Toffee Pudding,3,2024-01-16 16:51:00,Eve
+2209,Lamb Shank,3,2024-01-16 17:58:00,Grace
+2210,Cask Ale,1,2024-01-16 10:06:00,Frank
+2211,Sea Bass,2,2024-01-16 12:47:00,Frank
+2212,Coffee,2,2024-01-16 19:17:00,Diana
+2213,Sunday Roast,1,2024-01-16 19:08:00,Charlie
+2214,Fish & Chips,2,2024-01-16 09:47:00,Henry
+2215,Steak & Ale Pie,2,2024-01-16 18:39:00,Bob
+2216,Coffee,3,2024-01-16 19:03:00,Charlie
+2217,G&T,2,2024-01-16 17:05:00,Diana
+2218,Coffee,2,2024-01-16 13:15:00,Henry
+2219,Craft Beer,3,2024-01-16 18:12:00,Eve
+2220,Sea Bass,3,2024-01-16 10:37:00,Alice
+2221,Steak & Ale Pie,1,2024-01-16 14:05:00,Henry
+2222,Bangers & Mash,1,2024-01-16 19:19:00,Eve
+2223,Bangers & Mash,2,2024-01-16 12:12:00,Alice
+2224,Lamb Shank,2,2024-01-16 13:00:00,Alice
+2225,Scotch Egg,2,2024-01-16 22:39:00,Diana
+2226,G&T,3,2024-01-16 19:30:00,Grace
+2227,Prawn Cocktail,3,2024-01-16 17:12:00,Henry
+2228,Sunday Roast,2,2024-01-16 19:33:00,Henry
+2229,Sea Bass,1,2024-01-16 12:22:00,Frank
+2230,Lamb Shank,1,2024-01-16 18:08:00,Diana
+2231,Sparkling Water,1,2024-01-16 17:07:00,Grace
+2232,Soup of the Day,1,2024-01-16 18:25:00,Grace
+2233,Fish & Chips,1,2024-01-16 14:34:00,Frank
+2234,Lamb Shank,3,2024-01-16 10:00:00,Alice
+2235,Apple Crumble,2,2024-01-16 16:44:00,Diana
+2236,Sea Bass,2,2024-01-16 12:57:00,Alice
+2237,Gravy,2,2024-01-16 14:07:00,Frank
+2238,Sparkling Water,2,2024-01-17 15:18:00,Alice
+2239,Steak & Ale Pie,2,2024-01-17 18:28:00,Diana
+2240,Bangers & Mash,2,2024-01-17 13:12:00,Henry
+2241,G&T,1,2024-01-17 14:59:00,Alice
+2242,G&T,2,2024-01-17 17:26:00,Henry
+2243,Sea Bass,3,2024-01-17 20:37:00,Grace
+2244,Chips,1,2024-01-17 20:52:00,Grace
+2245,Sparkling Water,1,2024-01-17 17:15:00,Bob
+2246,G&T,1,2024-01-17 17:05:00,Bob
+2247,Fish & Chips,1,2024-01-17 17:01:00,Grace
+2248,Apple Crumble,1,2024-01-17 20:18:00,Grace
+2249,Steak & Ale Pie,1,2024-01-17 18:13:00,Diana
+2250,Sea Bass,2,2024-01-17 12:14:00,Alice
+2251,Coffee,1,2024-01-17 21:20:00,Grace
+2252,Sea Bass,1,2024-01-17 12:28:00,Alice
+2253,Gravy,1,2024-01-17 19:13:00,Bob
+2254,Fish & Chips,1,2024-01-17 14:40:00,Henry
+2255,Apple Crumble,1,2024-01-17 13:36:00,Alice
+2256,Cider,1,2024-01-17 12:10:00,Frank
+2257,Prawn Cocktail,1,2024-01-17 15:54:00,Frank
+2258,Coffee,1,2024-01-17 12:46:00,Frank
+2259,Chips,2,2024-01-17 21:24:00,Diana
+2260,Steak & Ale Pie,2,2024-01-17 17:44:00,Eve
+2261,Lamb Shank,2,2024-01-17 13:27:00,Henry
+2262,Sunday Roast,1,2024-01-17 12:29:00,Alice
+2263,Sea Bass,1,2024-01-17 20:17:00,Grace
+2264,Sea Bass,1,2024-01-17 19:26:00,Henry
+2265,Steak & Ale Pie,1,2024-01-17 18:37:00,Bob
+2266,Craft Beer,3,2024-01-17 12:56:00,Alice
+2267,Lamb Shank,3,2024-01-17 22:00:00,Bob
+2268,G&T,1,2024-01-17 13:47:00,Alice
+2269,Craft Beer,2,2024-01-17 19:20:00,Henry
+2270,Craft Beer,2,2024-01-17 13:59:00,Henry
+2271,Steak & Ale Pie,1,2024-01-17 19:03:00,Grace
+2272,House Wine (175ml),1,2024-01-17 18:06:00,Bob
+2273,Sea Bass,1,2024-01-17 15:47:00,Frank
+2274,Bangers & Mash,2,2024-01-17 17:01:00,Diana
+2275,Sea Bass,2,2024-01-17 19:28:00,Charlie
+2276,Lamb Shank,2,2024-01-17 18:14:00,Charlie
+2277,Sea Bass,3,2024-01-17 19:49:00,Charlie
+2278,G&T,1,2024-01-17 12:23:00,Henry
+2279,G&T,3,2024-01-17 18:42:00,Charlie
+2280,Craft Beer,3,2024-01-17 19:28:00,Charlie
+2281,Prawn Cocktail,3,2024-01-17 17:03:00,Grace
+2282,Coffee,2,2024-01-17 10:36:00,Frank
+2283,Lamb Shank,1,2024-01-17 22:18:00,Diana
+2284,Gravy,1,2024-01-17 12:28:00,Frank
+2285,Cider,2,2024-01-17 11:52:00,Henry
+2286,Steak & Ale Pie,1,2024-01-17 11:24:00,Alice
+2287,Chicken Liver Pâté,2,2024-01-17 19:09:00,Bob
+2288,Gravy,1,2024-01-17 13:39:00,Alice
+2289,Coffee,1,2024-01-17 14:14:00,Frank
+2290,Gravy,1,2024-01-17 17:50:00,Grace
+2291,House Wine (175ml),3,2024-01-17 17:13:00,Grace
+2292,Chicken Liver Pâté,2,2024-01-17 13:10:00,Henry
+2293,Apple Crumble,1,2024-01-17 13:46:00,Frank
+2294,Prawn Cocktail,1,2024-01-17 16:08:00,Diana
+2295,Prawn Cocktail,1,2024-01-17 17:31:00,Bob
+2296,Craft Beer,1,2024-01-17 17:37:00,Diana
+2297,Steak & Ale Pie,1,2024-01-17 16:39:00,Bob
+2298,Lamb Shank,1,2024-01-17 09:34:00,Frank
+2299,Craft Beer,2,2024-01-17 17:50:00,Bob
+2300,Sunday Roast,1,2024-01-17 10:23:00,Alice
+2301,Steak & Ale Pie,3,2024-01-17 18:46:00,Charlie
+2302,Smoked Salmon,1,2024-01-17 17:41:00,Eve
+2303,Sunday Roast,2,2024-01-17 14:36:00,Alice
+2304,Craft Beer,1,2024-01-17 13:37:00,Frank
+2305,Scotch Egg,2,2024-01-17 18:42:00,Charlie
+2306,Lamb Shank,3,2024-01-17 20:53:00,Eve
+2307,Lamb Shank,2,2024-01-17 12:34:00,Alice
+2308,Coffee,2,2024-01-17 14:20:00,Henry
+2309,Craft Beer,1,2024-01-17 15:29:00,Henry
+2310,G&T,1,2024-01-17 09:53:00,Frank
+2311,Apple Crumble,2,2024-01-17 12:37:00,Alice
+2312,Apple Crumble,2,2024-01-17 19:44:00,Bob
+2313,Steak & Ale Pie,2,2024-01-17 17:47:00,Diana
+2314,Fish & Chips,2,2024-01-17 17:31:00,Grace
+2315,Sea Bass,1,2024-01-17 17:29:00,Eve
+2316,Gravy,1,2024-01-17 20:20:00,Diana
+2317,Coffee,1,2024-01-17 18:51:00,Eve
+2318,Lamb Shank,1,2024-01-17 10:31:00,Frank
+2319,Steak & Ale Pie,2,2024-01-17 18:34:00,Eve
+2320,Lamb Shank,2,2024-01-17 19:08:00,Charlie
+2321,Gravy,1,2024-01-17 14:29:00,Henry
+2322,Lamb Shank,2,2024-01-17 18:46:00,Charlie
+2323,Steak & Ale Pie,2,2024-01-17 20:31:00,Eve
+2324,Sunday Roast,1,2024-01-17 13:42:00,Alice
+2325,Sea Bass,3,2024-01-17 13:32:00,Alice
+2326,Fish & Chips,1,2024-01-17 17:56:00,Bob
+2327,Coffee,3,2024-01-17 12:31:00,Henry
+2328,Lamb Shank,3,2024-01-17 10:35:00,Alice
+2329,Eton Mess,2,2024-01-17 12:16:00,Henry
+2330,Chicken Liver Pâté,1,2024-01-17 12:12:00,Frank
+2331,Coffee,2,2024-01-17 11:40:00,Henry
+2332,Sparkling Water,3,2024-01-17 18:21:00,Eve
+2333,Sticky Toffee Pudding,2,2024-01-17 13:19:00,Henry
+2334,Sunday Roast,3,2024-01-17 13:59:00,Henry
+2335,House Wine (175ml),3,2024-01-17 19:38:00,Eve
+2336,Lamb Shank,1,2024-01-17 17:23:00,Grace
+2337,Lamb Shank,2,2024-01-17 12:04:00,Henry
+2338,Lamb Shank,2,2024-01-17 17:58:00,Eve
+2339,Lamb Shank,2,2024-01-17 17:37:00,Diana
+2340,Sea Bass,1,2024-01-17 11:34:00,Alice
+2341,House Wine (175ml),3,2024-01-17 18:35:00,Diana
+2342,Fish & Chips,3,2024-01-17 13:10:00,Alice
+2343,Sunday Roast,1,2024-01-17 17:18:00,Henry
+2344,Scotch Egg,2,2024-01-17 17:01:00,Bob
+2345,Sticky Toffee Pudding,2,2024-01-17 13:30:00,Frank
+2346,Sea Bass,3,2024-01-17 15:32:00,Alice
+2347,Scotch Egg,3,2024-01-17 12:55:00,Alice
+2348,Sunday Roast,2,2024-01-17 20:42:00,Charlie
+2349,G&T,2,2024-01-17 13:26:00,Alice
+2350,Fish & Chips,2,2024-01-17 12:40:00,Henry
+2351,Soup of the Day,1,2024-01-17 12:55:00,Frank
+2352,Apple Crumble,2,2024-01-17 17:08:00,Charlie
+2353,Sticky Toffee Pudding,2,2024-01-18 12:32:00,Alice
+2354,Craft Beer,1,2024-01-18 17:26:00,Charlie
+2355,Bread & Butter Pudding,1,2024-01-18 17:39:00,Bob
+2356,Gravy,1,2024-01-18 18:44:00,Bob
+2357,Smoked Salmon,2,2024-01-18 18:27:00,Bob
+2358,Craft Beer,3,2024-01-18 11:57:00,Alice
+2359,Sunday Roast,2,2024-01-18 19:00:00,Charlie
+2360,Chicken Liver Pâté,3,2024-01-18 12:45:00,Henry
+2361,Sunday Roast,1,2024-01-18 17:56:00,Diana
+2362,Mushy Peas,2,2024-01-18 13:41:00,Henry
+2363,Steak & Ale Pie,1,2024-01-18 12:13:00,Henry
+2364,Sunday Roast,3,2024-01-18 20:26:00,Eve
+2365,G&T,2,2024-01-18 13:38:00,Henry
+2366,Sea Bass,1,2024-01-18 12:17:00,Alice
+2367,Sparkling Water,1,2024-01-18 11:08:00,Frank
+2368,Craft Beer,2,2024-01-18 18:23:00,Henry
+2369,Bangers & Mash,3,2024-01-18 18:56:00,Charlie
+2370,Coffee,1,2024-01-18 17:58:00,Grace
+2371,Soup of the Day,1,2024-01-18 13:19:00,Frank
+2372,Steak & Ale Pie,2,2024-01-18 18:38:00,Eve
+2373,Chicken Liver Pâté,3,2024-01-18 12:52:00,Henry
+2374,Sunday Roast,1,2024-01-18 15:30:00,Frank
+2375,Craft Beer,1,2024-01-18 14:02:00,Henry
+2376,Craft Beer,2,2024-01-18 18:01:00,Henry
+2377,Steak & Ale Pie,1,2024-01-18 10:42:00,Henry
+2378,G&T,1,2024-01-18 18:35:00,Charlie
+2379,Cider,3,2024-01-18 18:16:00,Henry
+2380,Coffee,3,2024-01-18 19:32:00,Charlie
+2381,Pork Pie,2,2024-01-18 16:04:00,Diana
+2382,Sea Bass,2,2024-01-18 18:27:00,Diana
+2383,Steak & Ale Pie,1,2024-01-18 10:56:00,Henry
+2384,G&T,1,2024-01-18 09:28:00,Henry
+2385,Lamb Shank,1,2024-01-18 12:03:00,Frank
+2386,Steak & Ale Pie,1,2024-01-18 11:54:00,Frank
+2387,Sea Bass,1,2024-01-18 14:04:00,Alice
+2388,Lamb Shank,1,2024-01-18 12:13:00,Henry
+2389,Coffee,2,2024-01-18 12:25:00,Henry
+2390,Sea Bass,3,2024-01-18 17:34:00,Grace
+2391,Sunday Roast,1,2024-01-18 18:40:00,Bob
+2392,Chicken Liver Pâté,2,2024-01-18 11:36:00,Henry
+2393,Steak & Ale Pie,2,2024-01-18 21:01:00,Diana
+2394,Sea Bass,2,2024-01-18 18:03:00,Charlie
+2395,Steak & Ale Pie,3,2024-01-18 19:42:00,Charlie
+2396,Seasonal Veg,1,2024-01-18 12:00:00,Alice
+2397,Apple Crumble,1,2024-01-18 12:20:00,Frank
+2398,Sticky Toffee Pudding,2,2024-01-18 13:07:00,Frank
+2399,Cask Ale,3,2024-01-18 18:14:00,Eve
+2400,Cask Ale,1,2024-01-18 12:14:00,Henry
+2401,Sea Bass,1,2024-01-18 10:53:00,Frank
+2402,Sea Bass,3,2024-01-18 15:51:00,Alice
+2403,Steak & Ale Pie,2,2024-01-18 10:01:00,Henry
+2404,Bread & Butter Pudding,2,2024-01-18 16:58:00,Charlie
+2405,Craft Beer,1,2024-01-18 11:52:00,Frank
+2406,Pork Pie,1,2024-01-18 16:27:00,Grace
+2407,Craft Beer,1,2024-01-18 17:49:00,Grace
+2408,Sea Bass,1,2024-01-18 15:22:00,Frank
+2409,Steak & Ale Pie,1,2024-01-18 17:26:00,Charlie
+2410,Fish & Chips,1,2024-01-18 19:37:00,Charlie
+2411,Chips,1,2024-01-18 10:32:00,Alice
+2412,Sea Bass,1,2024-01-18 13:56:00,Alice
+2413,Sparkling Water,1,2024-01-18 17:10:00,Grace
+2414,Prawn Cocktail,1,2024-01-18 19:30:00,Grace
+2415,Steak & Ale Pie,2,2024-01-18 18:47:00,Charlie
+2416,Lamb Shank,1,2024-01-18 11:20:00,Henry
+2417,Cask Ale,2,2024-01-18 09:35:00,Frank
+2418,Steak & Ale Pie,1,2024-01-18 19:42:00,Eve
+2419,Sunday Roast,2,2024-01-18 10:50:00,Henry
+2420,Sea Bass,2,2024-01-18 15:16:00,Henry
+2421,Chicken Liver Pâté,1,2024-01-18 18:01:00,Henry
+2422,Coffee,2,2024-01-18 14:04:00,Henry
+2423,Sticky Toffee Pudding,1,2024-01-18 12:54:00,Alice
+2424,Steak & Ale Pie,1,2024-01-18 16:59:00,Henry
+2425,G&T,1,2024-01-18 10:45:00,Alice
+2426,Chicken Liver Pâté,2,2024-01-18 12:28:00,Alice
+2427,Sunday Roast,1,2024-01-18 17:20:00,Eve
+2428,Coffee,1,2024-01-18 15:17:00,Alice
+2429,Craft Beer,1,2024-01-18 14:34:00,Alice
+2430,Craft Beer,2,2024-01-18 19:48:00,Bob
+2431,Sea Bass,3,2024-01-18 13:42:00,Alice
+2432,Sea Bass,1,2024-01-18 19:31:00,Charlie
+2433,Sea Bass,1,2024-01-18 12:57:00,Frank
+2434,Craft Beer,1,2024-01-18 19:14:00,Grace
+2435,Sunday Roast,1,2024-01-18 19:09:00,Eve
+2436,Craft Beer,2,2024-01-18 19:20:00,Eve
+2437,Coffee,1,2024-01-18 18:24:00,Grace
+2438,Sunday Roast,2,2024-01-18 12:35:00,Henry
+2439,Craft Beer,1,2024-01-18 18:01:00,Eve
+2440,Sticky Toffee Pudding,3,2024-01-18 19:22:00,Bob
+2441,Steak & Ale Pie,2,2024-01-18 13:59:00,Alice
+2442,Cask Ale,1,2024-01-18 14:21:00,Alice
+2443,Prawn Cocktail,1,2024-01-18 16:33:00,Eve
+2444,Prawn Cocktail,2,2024-01-18 21:43:00,Eve
+2445,Apple Crumble,2,2024-01-18 15:45:00,Alice
+2446,Steak & Ale Pie,1,2024-01-18 12:14:00,Henry
+2447,G&T,3,2024-01-18 13:43:00,Henry
+2448,Gravy,1,2024-01-18 12:35:00,Henry
+2449,Sea Bass,2,2024-01-18 10:44:00,Henry
+2450,Cider,2,2024-01-18 16:58:00,Bob
+2451,Sunday Roast,2,2024-01-18 15:18:00,Henry
+2452,Sea Bass,1,2024-01-18 12:04:00,Frank
+2453,Coffee,1,2024-01-18 14:33:00,Alice
+2454,Eton Mess,1,2024-01-18 09:04:00,Frank
+2455,Chicken Liver Pâté,3,2024-01-18 16:52:00,Grace
+2456,Fish & Chips,1,2024-01-18 13:39:00,Frank
+2457,Fish & Chips,1,2024-01-18 19:03:00,Bob
+2458,Seasonal Veg,2,2024-01-18 09:21:00,Henry
+2459,Craft Beer,1,2024-01-18 20:37:00,Grace
+2460,Sea Bass,1,2024-01-18 13:23:00,Alice
+2461,Steak & Ale Pie,1,2024-01-18 12:23:00,Frank
+2462,Sunday Roast,1,2024-01-18 12:09:00,Frank
+2463,Prawn Cocktail,1,2024-01-18 18:33:00,Charlie
+2464,Coffee,1,2024-01-18 12:21:00,Frank
+2465,Sunday Roast,1,2024-01-18 13:27:00,Henry
+2466,Chicken Liver Pâté,2,2024-01-18 12:20:00,Henry
+2467,Sparkling Water,1,2024-01-18 18:29:00,Charlie
+2468,Cider,1,2024-01-18 13:49:00,Alice
+2469,Lamb Shank,3,2024-01-18 12:10:00,Henry
+2470,Craft Beer,2,2024-01-18 17:32:00,Eve
+2471,House Wine (175ml),3,2024-01-18 12:39:00,Henry
+2472,Fish & Chips,1,2024-01-18 17:42:00,Eve
+2473,Apple Crumble,1,2024-01-18 15:20:00,Frank
+2474,House Wine (175ml),2,2024-01-19 17:28:00,Charlie
+2475,G&T,1,2024-01-19 09:25:00,Frank
+2476,Chicken Liver Pâté,1,2024-01-19 19:01:00,Diana
+2477,Cask Ale,1,2024-01-19 18:10:00,Diana
+2478,Gravy,3,2024-01-19 18:58:00,Diana
+2479,Sea Bass,1,2024-01-19 14:04:00,Alice
+2480,Steak & Ale Pie,3,2024-01-19 16:57:00,Eve
+2481,Gravy,1,2024-01-19 12:54:00,Henry
+2482,Sunday Roast,1,2024-01-19 18:44:00,Eve
+2483,Bread & Butter Pudding,3,2024-01-19 12:42:00,Alice
+2484,Lamb Shank,2,2024-01-19 18:57:00,Henry
+2485,Lamb Shank,2,2024-01-19 17:49:00,Grace
+2486,Prawn Cocktail,3,2024-01-19 19:06:00,Charlie
+2487,Coffee,1,2024-01-19 12:39:00,Frank
+2488,Bread & Butter Pudding,1,2024-01-19 19:13:00,Henry
+2489,G&T,1,2024-01-19 13:48:00,Alice
+2490,Sea Bass,2,2024-01-19 13:56:00,Frank
+2491,House Wine (175ml),2,2024-01-19 09:17:00,Alice
+2492,Smoked Salmon,1,2024-01-19 14:26:00,Frank
+2493,Lamb Shank,1,2024-01-19 11:18:00,Alice
+2494,Fish & Chips,1,2024-01-19 09:07:00,Alice
+2495,Sunday Roast,2,2024-01-19 19:57:00,Grace
+2496,Sparkling Water,2,2024-01-19 17:06:00,Charlie
+2497,Chicken Liver Pâté,3,2024-01-19 13:12:00,Henry
+2498,Sunday Roast,3,2024-01-19 13:02:00,Henry
+2499,Sea Bass,2,2024-01-19 09:08:00,Alice
+2500,Prawn Cocktail,1,2024-01-19 15:03:00,Henry
+2501,Sunday Roast,2,2024-01-19 13:53:00,Alice
+2502,Lamb Shank,2,2024-01-19 13:20:00,Henry
+2503,Pork Pie,2,2024-01-19 13:44:00,Frank
+2504,Cask Ale,1,2024-01-19 19:32:00,Diana
+2505,Cask Ale,1,2024-01-19 15:49:00,Henry
+2506,Scotch Egg,2,2024-01-19 12:19:00,Henry
+2507,Cask Ale,1,2024-01-19 13:41:00,Frank
+2508,Prawn Cocktail,1,2024-01-19 12:39:00,Alice
+2509,Sea Bass,1,2024-01-19 17:02:00,Henry
+2510,Steak & Ale Pie,1,2024-01-19 20:20:00,Grace
+2511,Chicken Liver Pâté,1,2024-01-19 09:07:00,Frank
+2512,Bread & Butter Pudding,2,2024-01-19 17:55:00,Bob
+2513,G&T,1,2024-01-19 14:48:00,Frank
+2514,Lamb Shank,1,2024-01-19 15:29:00,Frank
+2515,Chicken Liver Pâté,1,2024-01-19 09:12:00,Frank
+2516,G&T,1,2024-01-19 18:25:00,Charlie
+2517,Craft Beer,2,2024-01-19 11:33:00,Alice
+2518,Sparkling Water,2,2024-01-19 17:41:00,Grace
+2519,Smoked Salmon,1,2024-01-19 18:42:00,Eve
+2520,Sea Bass,1,2024-01-19 16:04:00,Henry
+2521,Craft Beer,1,2024-01-19 18:45:00,Grace
+2522,Steak & Ale Pie,1,2024-01-19 13:14:00,Henry
+2523,Steak & Ale Pie,2,2024-01-19 12:24:00,Henry
+2524,Prawn Cocktail,3,2024-01-19 10:20:00,Henry
+2525,Coffee,1,2024-01-19 18:23:00,Bob
+2526,Cask Ale,2,2024-01-19 18:58:00,Charlie
+2527,G&T,3,2024-01-19 13:18:00,Henry
+2528,Steak & Ale Pie,2,2024-01-19 11:54:00,Alice
+2529,Craft Beer,1,2024-01-19 14:14:00,Alice
+2530,Mash,1,2024-01-19 18:17:00,Charlie
+2531,Craft Beer,2,2024-01-19 12:51:00,Alice
+2532,Apple Crumble,3,2024-01-19 10:08:00,Henry
+2533,Lamb Shank,1,2024-01-19 14:59:00,Henry
+2534,Sunday Roast,1,2024-01-19 19:57:00,Charlie
+2535,G&T,1,2024-01-19 13:53:00,Alice
+2536,Sparkling Water,1,2024-01-19 11:45:00,Frank
+2537,Sea Bass,2,2024-01-19 17:39:00,Henry
+2538,Cider,2,2024-01-19 17:59:00,Henry
+2539,G&T,1,2024-01-19 15:32:00,Frank
+2540,Gravy,2,2024-01-19 10:07:00,Frank
+2541,Sea Bass,2,2024-01-19 18:29:00,Bob
+2542,Craft Beer,2,2024-01-19 21:50:00,Charlie
+2543,Sea Bass,1,2024-01-19 12:25:00,Henry
+2544,Steak & Ale Pie,2,2024-01-19 12:34:00,Frank
+2545,Gravy,1,2024-01-19 13:11:00,Alice
+2546,Chips,2,2024-01-19 12:50:00,Frank
+2547,Craft Beer,3,2024-01-19 13:55:00,Alice
+2548,Steak & Ale Pie,3,2024-01-19 09:42:00,Henry
+2549,Sea Bass,2,2024-01-19 16:57:00,Bob
+2550,Gravy,1,2024-01-19 13:33:00,Frank
+2551,Sunday Roast,1,2024-01-19 14:29:00,Frank
+2552,Craft Beer,2,2024-01-19 18:40:00,Henry
+2553,Scotch Egg,1,2024-01-19 12:42:00,Henry
+2554,Sunday Roast,3,2024-01-19 18:40:00,Diana
+2555,Fish & Chips,1,2024-01-19 12:26:00,Henry
+2556,Gravy,1,2024-01-19 18:01:00,Henry
+2557,G&T,1,2024-01-19 15:46:00,Frank
+2558,Craft Beer,1,2024-01-19 10:00:00,Henry
+2559,Fish & Chips,1,2024-01-19 17:49:00,Henry
+2560,Gravy,2,2024-01-19 18:36:00,Henry
+2561,Prawn Cocktail,1,2024-01-19 17:56:00,Eve
+2562,Coffee,1,2024-01-19 19:26:00,Grace
+2563,Lamb Shank,1,2024-01-19 15:48:00,Henry
+2564,Sticky Toffee Pudding,1,2024-01-19 18:35:00,Diana
+2565,Fish & Chips,2,2024-01-19 15:40:00,Henry
+2566,Steak & Ale Pie,1,2024-01-19 13:01:00,Frank
+2567,Lamb Shank,1,2024-01-19 09:57:00,Frank
+2568,Eton Mess,1,2024-01-19 14:43:00,Frank
+2569,Sea Bass,1,2024-01-19 12:15:00,Frank
+2570,Lamb Shank,2,2024-01-19 09:47:00,Henry
+2571,Sea Bass,2,2024-01-19 13:37:00,Frank
+2572,Steak & Ale Pie,1,2024-01-19 19:59:00,Henry
+2573,Mushy Peas,1,2024-01-19 21:25:00,Charlie
+2574,Prawn Cocktail,1,2024-01-19 19:37:00,Henry
+2575,Craft Beer,1,2024-01-19 15:05:00,Henry
+2576,Sunday Roast,1,2024-01-19 13:53:00,Frank
+2577,Coffee,2,2024-01-19 14:46:00,Henry
+2578,Sea Bass,2,2024-01-19 09:37:00,Frank
+2579,Steak & Ale Pie,1,2024-01-19 13:42:00,Henry
+2580,Craft Beer,2,2024-01-19 12:11:00,Frank
+2581,Sunday Roast,2,2024-01-19 14:34:00,Henry
+2582,Coffee,1,2024-01-19 12:04:00,Henry
+2583,Lamb Shank,2,2024-01-19 18:53:00,Henry
+2584,Coffee,2,2024-01-19 12:38:00,Alice
+2585,House Wine (175ml),2,2024-01-19 13:04:00,Henry
+2586,Sea Bass,2,2024-01-19 19:27:00,Grace
+2587,Bangers & Mash,1,2024-01-19 17:52:00,Eve
+2588,Craft Beer,2,2024-01-19 12:46:00,Henry
+2589,Soup of the Day,2,2024-01-19 17:36:00,Henry
+2590,Lamb Shank,1,2024-01-19 16:05:00,Diana
+2591,Smoked Salmon,2,2024-01-19 19:46:00,Diana
+2592,Coffee,2,2024-01-19 17:10:00,Diana
+2593,Cask Ale,2,2024-01-19 09:57:00,Henry
+2594,Pork Pie,2,2024-01-19 20:28:00,Henry
+2595,Sea Bass,2,2024-01-19 18:39:00,Henry
+2596,G&T,2,2024-01-19 12:03:00,Henry
+2597,Coffee,1,2024-01-19 15:20:00,Frank
+2598,Sea Bass,3,2024-01-19 12:57:00,Henry
+2599,Gravy,2,2024-01-19 17:46:00,Bob
+2600,Coffee,1,2024-01-19 19:23:00,Charlie
+2601,Steak & Ale Pie,1,2024-01-19 18:12:00,Eve
+2602,Sea Bass,2,2024-01-19 18:55:00,Bob
+2603,Sticky Toffee Pudding,1,2024-01-19 18:50:00,Grace
+2604,Sea Bass,3,2024-01-19 12:11:00,Henry
+2605,Sea Bass,2,2024-01-19 17:49:00,Eve
+2606,Craft Beer,2,2024-01-19 18:30:00,Eve
+2607,Craft Beer,2,2024-01-19 13:40:00,Henry
+2608,Sea Bass,2,2024-01-19 15:05:00,Henry
+2609,Fish & Chips,2,2024-01-19 17:28:00,Bob
+2610,Eton Mess,2,2024-01-19 11:58:00,Alice
+2611,Sea Bass,1,2024-01-19 18:48:00,Bob
+2612,Sparkling Water,2,2024-01-19 11:27:00,Alice
+2613,Sea Bass,1,2024-01-19 19:53:00,Diana
+2614,House Wine (175ml),2,2024-01-19 13:47:00,Henry
+2615,Cask Ale,1,2024-01-19 12:56:00,Henry
+2616,Steak & Ale Pie,2,2024-01-19 17:11:00,Bob
+2617,Sunday Roast,1,2024-01-19 20:22:00,Bob
+2618,Sunday Roast,2,2024-01-19 19:46:00,Eve
+2619,G&T,2,2024-01-19 12:34:00,Henry
+2620,Coffee,2,2024-01-19 12:03:00,Henry
+2621,Coffee,3,2024-01-19 17:17:00,Diana
+2622,G&T,3,2024-01-19 16:04:00,Henry
+2623,Sticky Toffee Pudding,1,2024-01-19 18:18:00,Eve
+2624,Lamb Shank,1,2024-01-19 15:58:00,Frank
+2625,Craft Beer,1,2024-01-19 18:48:00,Charlie
+2626,G&T,2,2024-01-19 13:26:00,Henry
+2627,Fish & Chips,2,2024-01-19 14:16:00,Alice
+2628,Sea Bass,2,2024-01-19 22:28:00,Charlie
+2629,Lamb Shank,1,2024-01-19 13:46:00,Henry
+2630,Steak & Ale Pie,2,2024-01-19 12:01:00,Henry
+2631,Sunday Roast,2,2024-01-19 20:47:00,Charlie
+2632,Sunday Roast,2,2024-01-19 11:34:00,Frank
+2633,G&T,2,2024-01-19 18:25:00,Henry
+2634,Sunday Roast,3,2024-01-19 19:50:00,Grace
+2635,Smoked Salmon,1,2024-01-19 19:52:00,Eve
+2636,Steak & Ale Pie,2,2024-01-19 18:30:00,Eve
+2637,Craft Beer,1,2024-01-19 19:06:00,Bob
+2638,Lamb Shank,1,2024-01-19 12:50:00,Frank
+2639,Sticky Toffee Pudding,2,2024-01-19 21:40:00,Grace
+2640,Sunday Roast,1,2024-01-19 19:33:00,Henry
+2641,Sunday Roast,2,2024-01-19 17:26:00,Grace
+2642,Lamb Shank,1,2024-01-19 09:17:00,Frank
+2643,Coffee,3,2024-01-19 10:33:00,Henry
+2644,Craft Beer,3,2024-01-19 18:10:00,Bob
+2645,G&T,2,2024-01-19 15:36:00,Frank
+2646,Bangers & Mash,1,2024-01-19 13:02:00,Frank
+2647,House Wine (175ml),2,2024-01-19 18:27:00,Eve
+2648,Craft Beer,1,2024-01-19 10:22:00,Frank
+2649,Sea Bass,1,2024-01-19 15:49:00,Alice
+2650,Apple Crumble,1,2024-01-19 13:50:00,Alice
+2651,G&T,2,2024-01-19 17:15:00,Eve
+2652,Lamb Shank,2,2024-01-19 19:27:00,Charlie
+2653,Sticky Toffee Pudding,1,2024-01-19 12:54:00,Henry
+2654,Craft Beer,1,2024-01-19 13:49:00,Frank
+2655,Sea Bass,1,2024-01-19 10:25:00,Frank
+2656,Cask Ale,2,2024-01-19 12:18:00,Alice
+2657,Steak & Ale Pie,2,2024-01-19 18:20:00,Charlie
+2658,Coffee,3,2024-01-19 13:29:00,Henry
+2659,Soup of the Day,1,2024-01-19 18:14:00,Bob
+2660,Sunday Roast,3,2024-01-19 19:08:00,Charlie
+2661,Lamb Shank,1,2024-01-19 12:48:00,Frank
+2662,Chicken Liver Pâté,1,2024-01-20 19:23:00,Henry
+2663,Mushy Peas,2,2024-01-20 17:08:00,Bob
+2664,Sea Bass,3,2024-01-20 13:20:00,Alice
+2665,Steak & Ale Pie,1,2024-01-20 13:26:00,Frank
+2666,Craft Beer,2,2024-01-20 12:37:00,Alice
+2667,House Wine (175ml),1,2024-01-20 13:42:00,Frank
+2668,Lamb Shank,1,2024-01-20 12:35:00,Frank
+2669,Chips,2,2024-01-20 18:18:00,Eve
+2670,Steak & Ale Pie,2,2024-01-20 18:27:00,Bob
+2671,Sea Bass,2,2024-01-20 13:05:00,Alice
+2672,Craft Beer,2,2024-01-20 12:56:00,Henry
+2673,Lamb Shank,3,2024-01-20 12:46:00,Henry
+2674,Craft Beer,2,2024-01-20 18:23:00,Bob
+2675,Chips,1,2024-01-20 14:14:00,Frank
+2676,Sticky Toffee Pudding,2,2024-01-20 19:13:00,Charlie
+2677,Steak & Ale Pie,2,2024-01-20 18:08:00,Diana
+2678,Mushy Peas,1,2024-01-20 13:19:00,Alice
+2679,G&T,3,2024-01-20 10:05:00,Alice
+2680,Craft Beer,1,2024-01-20 14:53:00,Alice
+2681,Sea Bass,2,2024-01-20 22:14:00,Eve
+2682,Chicken Liver Pâté,3,2024-01-20 13:07:00,Henry
+2683,Cask Ale,1,2024-01-20 18:42:00,Henry
+2684,Steak & Ale Pie,1,2024-01-20 15:45:00,Henry
+2685,Cider,2,2024-01-20 13:01:00,Alice
+2686,Steak & Ale Pie,2,2024-01-20 18:46:00,Henry
+2687,Lamb Shank,1,2024-01-20 10:56:00,Alice
+2688,Sea Bass,1,2024-01-20 14:22:00,Frank
+2689,Craft Beer,3,2024-01-20 18:36:00,Bob
+2690,Bread & Butter Pudding,2,2024-01-20 18:24:00,Eve
+2691,Sea Bass,2,2024-01-20 19:07:00,Henry
+2692,Sunday Roast,2,2024-01-20 18:06:00,Bob
+2693,Steak & Ale Pie,1,2024-01-20 18:28:00,Diana
+2694,Cask Ale,1,2024-01-20 17:37:00,Henry
+2695,Sparkling Water,2,2024-01-20 13:39:00,Henry
+2696,Craft Beer,2,2024-01-20 13:53:00,Alice
+2697,Apple Crumble,3,2024-01-20 13:09:00,Henry
+2698,House Wine (175ml),2,2024-01-20 14:31:00,Frank
+2699,Steak & Ale Pie,1,2024-01-20 20:36:00,Grace
+2700,Bangers & Mash,2,2024-01-20 13:59:00,Henry
+2701,House Wine (175ml),2,2024-01-20 19:52:00,Henry
+2702,Sea Bass,1,2024-01-20 15:21:00,Henry
+2703,Fish & Chips,1,2024-01-20 20:18:00,Grace
+2704,Mash,2,2024-01-20 15:33:00,Henry
+2705,Coffee,2,2024-01-20 16:15:00,Henry
+2706,Steak & Ale Pie,1,2024-01-20 17:25:00,Charlie
+2707,Sea Bass,1,2024-01-20 16:54:00,Eve
+2708,G&T,1,2024-01-20 12:43:00,Alice
+2709,Lamb Shank,3,2024-01-20 12:26:00,Henry
+2710,Gravy,1,2024-01-20 17:46:00,Grace
+2711,Sea Bass,2,2024-01-20 19:02:00,Grace
+2712,Craft Beer,1,2024-01-20 16:09:00,Henry
+2713,Sparkling Water,1,2024-01-20 19:13:00,Henry
+2714,Sea Bass,3,2024-01-20 18:35:00,Eve
+2715,Apple Crumble,1,2024-01-20 17:34:00,Henry
+2716,Sunday Roast,2,2024-01-20 21:14:00,Eve
+2717,Sea Bass,3,2024-01-20 12:50:00,Henry
+2718,Sea Bass,2,2024-01-20 20:48:00,Grace
+2719,Sunday Roast,3,2024-01-20 10:57:00,Henry
+2720,Cider,2,2024-01-20 13:25:00,Alice
+2721,Sunday Roast,2,2024-01-20 19:15:00,Henry
+2722,Coffee,1,2024-01-20 16:24:00,Henry
+2723,Chips,3,2024-01-20 18:04:00,Charlie
+2724,Steak & Ale Pie,1,2024-01-20 19:39:00,Diana
+2725,Cask Ale,1,2024-01-20 12:03:00,Frank
+2726,Lamb Shank,1,2024-01-20 13:55:00,Henry
+2727,Sea Bass,2,2024-01-20 19:28:00,Bob
+2728,Sea Bass,1,2024-01-20 12:33:00,Alice
+2729,Sea Bass,1,2024-01-20 19:53:00,Diana
+2730,Cask Ale,1,2024-01-20 20:24:00,Bob
+2731,Scotch Egg,2,2024-01-20 20:25:00,Charlie
+2732,Apple Crumble,2,2024-01-20 12:40:00,Henry
+2733,Steak & Ale Pie,3,2024-01-20 12:38:00,Henry
+2734,Cider,2,2024-01-20 18:30:00,Eve
+2735,Apple Crumble,1,2024-01-20 16:52:00,Charlie
+2736,Prawn Cocktail,2,2024-01-20 10:55:00,Henry
+2737,G&T,1,2024-01-20 12:55:00,Frank
+2738,Cider,1,2024-01-20 17:53:00,Eve
+2739,Sea Bass,1,2024-01-20 18:14:00,Diana
+2740,Chicken Liver Pâté,1,2024-01-20 13:44:00,Frank
+2741,Lamb Shank,1,2024-01-20 17:08:00,Diana
+2742,Cask Ale,2,2024-01-20 14:57:00,Henry
+2743,House Wine (175ml),1,2024-01-20 18:51:00,Bob
+2744,Scotch Egg,2,2024-01-20 13:00:00,Alice
+2745,Lamb Shank,3,2024-01-20 12:17:00,Alice
+2746,G&T,3,2024-01-20 18:13:00,Henry
+2747,Sea Bass,1,2024-01-20 15:03:00,Alice
+2748,Fish & Chips,2,2024-01-20 18:05:00,Bob
+2749,Pork Pie,2,2024-01-20 12:43:00,Alice
+2750,Sea Bass,2,2024-01-20 12:20:00,Alice
+2751,Coffee,3,2024-01-20 12:00:00,Alice
+2752,Lamb Shank,2,2024-01-20 12:18:00,Alice
+2753,Craft Beer,2,2024-01-20 13:48:00,Henry
+2754,Sparkling Water,2,2024-01-20 09:02:00,Henry
+2755,Craft Beer,3,2024-01-20 11:20:00,Henry
+2756,Sea Bass,2,2024-01-20 17:20:00,Eve
+2757,Sea Bass,1,2024-01-20 19:50:00,Eve
+2758,Smoked Salmon,1,2024-01-20 17:13:00,Henry
+2759,Sea Bass,1,2024-01-20 19:21:00,Eve
+2760,Apple Crumble,2,2024-01-20 14:35:00,Alice
+2761,Soup of the Day,1,2024-01-20 17:09:00,Eve
+2762,Sparkling Water,1,2024-01-20 12:14:00,Alice
+2763,Fish & Chips,1,2024-01-20 17:53:00,Charlie
+2764,Craft Beer,1,2024-01-20 15:58:00,Frank
+2765,Steak & Ale Pie,1,2024-01-20 17:49:00,Grace
+2766,Cask Ale,1,2024-01-20 12:56:00,Alice
+2767,Steak & Ale Pie,2,2024-01-20 15:49:00,Henry
+2768,Chicken Liver Pâté,1,2024-01-20 11:46:00,Frank
+2769,Apple Crumble,2,2024-01-20 13:50:00,Henry
+2770,Prawn Cocktail,3,2024-01-20 11:18:00,Henry
+2771,Steak & Ale Pie,2,2024-01-20 18:11:00,Eve
+2772,Craft Beer,1,2024-01-20 18:38:00,Bob
+2773,Craft Beer,1,2024-01-20 15:21:00,Frank
+2774,Sea Bass,1,2024-01-20 12:51:00,Frank
+2775,Sea Bass,1,2024-01-20 14:05:00,Henry
+2776,Sea Bass,1,2024-01-20 14:47:00,Alice
+2777,Gravy,3,2024-01-20 15:03:00,Alice
+2778,Smoked Salmon,1,2024-01-20 16:03:00,Charlie
+2779,Prawn Cocktail,1,2024-01-20 17:38:00,Grace
+2780,House Wine (175ml),1,2024-01-20 13:46:00,Alice
+2781,Fish & Chips,1,2024-01-20 11:53:00,Frank
+2782,Scotch Egg,2,2024-01-20 14:51:00,Alice
+2783,G&T,1,2024-01-20 15:40:00,Alice
+2784,Sea Bass,1,2024-01-20 20:47:00,Henry
+2785,Lamb Shank,2,2024-01-20 19:16:00,Diana
+2786,Sparkling Water,3,2024-01-20 15:31:00,Henry
+2787,Sunday Roast,3,2024-01-20 18:17:00,Eve
+2788,Craft Beer,2,2024-01-20 20:48:00,Henry
+2789,Chicken Liver Pâté,1,2024-01-20 13:59:00,Henry
+2790,Gravy,1,2024-01-20 14:02:00,Frank
+2791,Sea Bass,1,2024-01-20 12:56:00,Alice
+2792,Sea Bass,1,2024-01-20 18:48:00,Charlie
+2793,Lamb Shank,1,2024-01-20 15:30:00,Henry
+2794,Craft Beer,3,2024-01-20 18:29:00,Bob
+2795,Sea Bass,2,2024-01-20 17:55:00,Henry
+2796,Sea Bass,2,2024-01-20 12:34:00,Alice
+2797,Chips,1,2024-01-20 15:59:00,Alice
+2798,G&T,2,2024-01-20 13:15:00,Alice
+2799,Sea Bass,3,2024-01-20 18:09:00,Bob
+2800,Prawn Cocktail,1,2024-01-20 11:35:00,Frank
+2801,Sunday Roast,3,2024-01-20 14:44:00,Alice
+2802,Craft Beer,2,2024-01-20 12:47:00,Alice
+2803,Sticky Toffee Pudding,3,2024-01-20 19:07:00,Charlie
+2804,Sticky Toffee Pudding,3,2024-01-20 12:11:00,Henry
+2805,Fish & Chips,2,2024-01-20 12:44:00,Frank
+2806,Cask Ale,1,2024-01-20 11:49:00,Alice
+2807,Sticky Toffee Pudding,1,2024-01-20 17:03:00,Charlie
+2808,Sea Bass,1,2024-01-20 14:21:00,Frank
+2809,Lamb Shank,1,2024-01-20 12:41:00,Henry
+2810,G&T,1,2024-01-20 13:24:00,Frank
+2811,G&T,2,2024-01-20 19:31:00,Grace
+2812,Craft Beer,2,2024-01-20 12:22:00,Henry
+2813,Chips,2,2024-01-20 12:17:00,Alice
+2814,Sunday Roast,1,2024-01-20 18:34:00,Diana
+2815,Craft Beer,2,2024-01-20 12:11:00,Alice
+2816,Craft Beer,2,2024-01-20 20:14:00,Grace
+2817,Sparkling Water,1,2024-01-20 18:22:00,Henry
+2818,Scotch Egg,2,2024-01-20 17:55:00,Bob
+2819,Smoked Salmon,3,2024-01-20 19:55:00,Bob
+2820,Sparkling Water,3,2024-01-20 12:10:00,Alice
+2821,Sea Bass,1,2024-01-20 15:40:00,Frank
+2822,Steak & Ale Pie,1,2024-01-20 18:52:00,Henry
+2823,Lamb Shank,1,2024-01-20 13:44:00,Alice
+2824,G&T,2,2024-01-20 18:51:00,Charlie
+2825,Bangers & Mash,1,2024-01-20 19:37:00,Henry
+2826,Sea Bass,1,2024-01-20 18:21:00,Bob
+2827,Sunday Roast,1,2024-01-20 19:40:00,Bob
+2828,Cask Ale,2,2024-01-20 17:36:00,Charlie
+2829,Craft Beer,1,2024-01-20 14:45:00,Frank
+2830,Prawn Cocktail,1,2024-01-20 14:41:00,Frank
+2831,Lamb Shank,3,2024-01-20 11:22:00,Alice
+2832,Eton Mess,2,2024-01-20 18:46:00,Henry
+2833,Lamb Shank,2,2024-01-20 12:55:00,Henry
+2834,Sea Bass,2,2024-01-20 20:59:00,Henry
+2835,Soup of the Day,1,2024-01-20 12:41:00,Alice
+2836,Soup of the Day,3,2024-01-20 18:50:00,Diana
+2837,Sunday Roast,2,2024-01-20 16:26:00,Diana
+2838,Cask Ale,1,2024-01-20 14:47:00,Frank
+2839,G&T,1,2024-01-20 15:29:00,Alice
+2840,Gravy,1,2024-01-20 13:18:00,Henry
+2841,Coffee,1,2024-01-20 13:40:00,Frank
+2842,Sea Bass,1,2024-01-20 12:33:00,Frank
+2843,Cask Ale,2,2024-01-20 19:38:00,Bob
+2844,Mash,2,2024-01-21 18:04:00,Henry
+2845,Sparkling Water,1,2024-01-21 11:46:00,Alice
+2846,Lamb Shank,1,2024-01-21 12:03:00,Frank
+2847,Prawn Cocktail,2,2024-01-21 18:29:00,Henry
+2848,G&T,2,2024-01-21 19:50:00,Eve
+2849,Bread & Butter Pudding,1,2024-01-21 13:21:00,Frank
+2850,Fish & Chips,2,2024-01-21 19:16:00,Diana
+2851,House Wine (175ml),2,2024-01-21 14:34:00,Henry
+2852,Mushy Peas,2,2024-01-21 17:12:00,Charlie
+2853,Sea Bass,1,2024-01-21 12:50:00,Frank
+2854,Seasonal Veg,2,2024-01-21 18:09:00,Bob
+2855,Cask Ale,2,2024-01-21 22:26:00,Grace
+2856,Sea Bass,2,2024-01-21 11:19:00,Henry
+2857,Craft Beer,1,2024-01-21 17:20:00,Charlie
+2858,Coffee,2,2024-01-21 13:29:00,Henry
+2859,Lamb Shank,2,2024-01-21 12:51:00,Henry
+2860,Apple Crumble,2,2024-01-21 12:06:00,Alice
+2861,Sunday Roast,2,2024-01-21 13:54:00,Henry
+2862,Fish & Chips,1,2024-01-21 11:22:00,Alice
+2863,Chicken Liver Pâté,2,2024-01-21 22:50:00,Eve
+2864,Chicken Liver Pâté,1,2024-01-21 13:11:00,Henry
+2865,Craft Beer,3,2024-01-21 15:05:00,Alice
+2866,Lamb Shank,1,2024-01-21 12:13:00,Henry
+2867,Sea Bass,2,2024-01-21 12:20:00,Henry
+2868,Steak & Ale Pie,1,2024-01-21 18:47:00,Bob
+2869,Apple Crumble,2,2024-01-21 21:49:00,Bob
+2870,Fish & Chips,2,2024-01-21 15:19:00,Alice
+2871,G&T,3,2024-01-21 15:13:00,Alice
+2872,Smoked Salmon,1,2024-01-21 21:46:00,Diana
+2873,Lamb Shank,2,2024-01-21 17:43:00,Bob
+2874,Craft Beer,1,2024-01-21 13:35:00,Frank
+2875,Gravy,1,2024-01-21 16:20:00,Henry
+2876,Bread & Butter Pudding,1,2024-01-21 17:33:00,Henry
+2877,Sea Bass,1,2024-01-21 22:20:00,Henry
+2878,Bread & Butter Pudding,2,2024-01-21 13:46:00,Alice
+2879,Apple Crumble,2,2024-01-21 19:43:00,Charlie
+2880,Craft Beer,1,2024-01-21 17:27:00,Bob
+2881,House Wine (175ml),1,2024-01-21 12:28:00,Frank
+2882,Steak & Ale Pie,3,2024-01-21 13:17:00,Henry
+2883,G&T,1,2024-01-21 20:24:00,Bob
+2884,Bread & Butter Pudding,1,2024-01-21 13:50:00,Alice
+2885,Lamb Shank,1,2024-01-21 18:35:00,Charlie
+2886,Fish & Chips,3,2024-01-21 19:11:00,Henry
+2887,Craft Beer,1,2024-01-21 18:43:00,Henry
+2888,Sea Bass,2,2024-01-21 15:23:00,Alice
+2889,Bread & Butter Pudding,1,2024-01-21 11:07:00,Frank
+2890,Sea Bass,3,2024-01-21 11:27:00,Henry
+2891,Sparkling Water,2,2024-01-21 19:05:00,Grace
+2892,Mushy Peas,2,2024-01-21 21:18:00,Bob
+2893,Prawn Cocktail,1,2024-01-21 13:05:00,Frank
+2894,Lamb Shank,3,2024-01-21 18:02:00,Diana
+2895,Fish & Chips,3,2024-01-21 13:42:00,Alice
+2896,Craft Beer,1,2024-01-21 19:57:00,Bob
+2897,Sea Bass,3,2024-01-21 18:49:00,Bob
+2898,Coffee,1,2024-01-21 13:34:00,Henry
+2899,Craft Beer,2,2024-01-21 12:24:00,Frank
+2900,Gravy,2,2024-01-21 12:18:00,Henry
+2901,Sea Bass,1,2024-01-21 17:37:00,Diana
+2902,Steak & Ale Pie,1,2024-01-21 17:57:00,Grace
+2903,Smoked Salmon,2,2024-01-21 12:25:00,Alice
+2904,Sea Bass,1,2024-01-21 18:56:00,Grace
+2905,Bread & Butter Pudding,1,2024-01-21 15:00:00,Frank
+2906,Sea Bass,1,2024-01-21 10:20:00,Henry
+2907,Fish & Chips,2,2024-01-21 20:00:00,Grace
+2908,Chicken Liver Pâté,2,2024-01-21 18:02:00,Diana
+2909,Lamb Shank,2,2024-01-21 13:38:00,Alice
+2910,Lamb Shank,2,2024-01-21 17:46:00,Henry
+2911,Sea Bass,1,2024-01-21 18:39:00,Diana
+2912,Sea Bass,1,2024-01-21 13:29:00,Frank
+2913,Apple Crumble,2,2024-01-21 18:45:00,Eve
+2914,G&T,3,2024-01-21 15:40:00,Henry
+2915,Cider,2,2024-01-21 14:11:00,Henry
+2916,Sea Bass,1,2024-01-21 18:55:00,Charlie
+2917,Sea Bass,2,2024-01-21 14:38:00,Alice
+2918,Lamb Shank,1,2024-01-21 17:47:00,Bob
+2919,Scotch Egg,1,2024-01-21 12:41:00,Henry
+2920,Steak & Ale Pie,1,2024-01-21 12:14:00,Henry
+2921,Coffee,2,2024-01-21 19:34:00,Henry
+2922,G&T,1,2024-01-21 09:31:00,Frank
+2923,Sunday Roast,2,2024-01-21 16:54:00,Diana
+2924,Prawn Cocktail,1,2024-01-21 15:27:00,Alice
+2925,Cask Ale,1,2024-01-21 13:10:00,Alice
+2926,Mushy Peas,2,2024-01-21 13:22:00,Henry
+2927,Cider,2,2024-01-21 16:13:00,Diana
+2928,Gravy,1,2024-01-21 18:57:00,Grace
+2929,Lamb Shank,1,2024-01-21 18:21:00,Henry
+2930,Chicken Liver Pâté,2,2024-01-21 17:10:00,Eve
+2931,Prawn Cocktail,1,2024-01-21 13:41:00,Henry
+2932,Craft Beer,2,2024-01-21 17:47:00,Diana
+2933,Steak & Ale Pie,3,2024-01-21 20:35:00,Grace
+2934,Chicken Liver Pâté,2,2024-01-21 12:18:00,Alice
+2935,Craft Beer,1,2024-01-21 12:47:00,Frank
+2936,Lamb Shank,1,2024-01-21 12:35:00,Frank
+2937,Sea Bass,2,2024-01-21 20:20:00,Eve
+2938,Sparkling Water,2,2024-01-21 13:06:00,Henry
+2939,Chips,3,2024-01-21 18:16:00,Bob
+2940,Lamb Shank,3,2024-01-21 19:24:00,Diana
+2941,Apple Crumble,3,2024-01-21 18:55:00,Eve
+2942,G&T,1,2024-01-21 14:47:00,Frank
+2943,Sea Bass,1,2024-01-21 18:44:00,Henry
+2944,Craft Beer,2,2024-01-21 18:11:00,Eve
+2945,Sticky Toffee Pudding,3,2024-01-21 17:42:00,Eve
+2946,Cider,1,2024-01-21 17:08:00,Charlie
+2947,Steak & Ale Pie,1,2024-01-21 18:53:00,Charlie
+2948,Sticky Toffee Pudding,1,2024-01-21 12:32:00,Alice
+2949,Sea Bass,2,2024-01-21 14:11:00,Frank
+2950,Coffee,2,2024-01-21 14:31:00,Frank
+2951,Fish & Chips,2,2024-01-21 17:04:00,Eve
+2952,Lamb Shank,2,2024-01-21 12:45:00,Alice
+2953,Pork Pie,1,2024-01-21 12:29:00,Frank
+2954,Sea Bass,2,2024-01-21 13:15:00,Henry
+2955,Steak & Ale Pie,1,2024-01-21 12:31:00,Frank
+2956,Steak & Ale Pie,1,2024-01-21 12:56:00,Alice
+2957,Sea Bass,1,2024-01-21 19:04:00,Grace
+2958,Steak & Ale Pie,1,2024-01-21 12:31:00,Frank
+2959,Apple Crumble,2,2024-01-21 12:10:00,Frank
+2960,Bangers & Mash,1,2024-01-21 13:56:00,Frank
+2961,Sea Bass,3,2024-01-21 18:51:00,Eve
+2962,Sea Bass,1,2024-01-21 17:03:00,Henry
+2963,Lamb Shank,1,2024-01-21 22:31:00,Diana
+2964,Steak & Ale Pie,3,2024-01-21 19:10:00,Bob
+2965,Prawn Cocktail,1,2024-01-21 11:45:00,Henry
+2966,Coffee,2,2024-01-21 11:53:00,Alice
+2967,Steak & Ale Pie,1,2024-01-21 12:59:00,Henry
+2968,Chips,2,2024-01-21 10:16:00,Frank
+2969,Sunday Roast,1,2024-01-21 15:39:00,Frank
+2970,Lamb Shank,1,2024-01-21 17:20:00,Diana
+2971,Fish & Chips,2,2024-01-21 19:46:00,Diana
+2972,Craft Beer,3,2024-01-21 17:30:00,Diana
+2973,G&T,1,2024-01-21 11:04:00,Frank
+2974,G&T,1,2024-01-21 13:07:00,Frank
+2975,Steak & Ale Pie,3,2024-01-21 12:32:00,Alice
+2976,Coffee,1,2024-01-21 17:05:00,Charlie
+2977,Sparkling Water,2,2024-01-21 15:21:00,Alice
+2978,Sea Bass,1,2024-01-21 18:06:00,Bob
+2979,Bread & Butter Pudding,2,2024-01-21 20:19:00,Bob
+2980,Prawn Cocktail,1,2024-01-21 12:05:00,Frank
+2981,Coffee,1,2024-01-21 22:21:00,Eve
+2982,Cask Ale,1,2024-01-21 13:25:00,Frank
+2983,Craft Beer,2,2024-01-21 18:54:00,Henry
+2984,Chips,2,2024-01-21 12:53:00,Alice
+2985,Steak & Ale Pie,1,2024-01-21 12:04:00,Frank
+2986,Fish & Chips,2,2024-01-21 13:17:00,Frank
+2987,Sea Bass,1,2024-01-21 17:23:00,Grace
+2988,Sticky Toffee Pudding,2,2024-01-21 17:08:00,Charlie
+2989,Soup of the Day,2,2024-01-21 12:36:00,Alice
+2990,Lamb Shank,2,2024-01-21 14:18:00,Henry
+2991,Sparkling Water,1,2024-01-21 13:44:00,Alice
+2992,Sparkling Water,1,2024-01-21 13:22:00,Frank
+2993,Craft Beer,1,2024-01-21 20:23:00,Diana
+2994,Cider,2,2024-01-21 17:59:00,Henry
+2995,Craft Beer,2,2024-01-21 12:04:00,Frank
+2996,Craft Beer,3,2024-01-21 15:19:00,Henry
+2997,Sticky Toffee Pudding,3,2024-01-21 18:28:00,Diana
+2998,Prawn Cocktail,2,2024-01-21 12:23:00,Henry
+2999,Mushy Peas,1,2024-01-21 18:23:00,Henry
+3000,Sunday Roast,2,2024-01-21 19:11:00,Bob
+3001,Sparkling Water,1,2024-01-21 12:49:00,Alice
+3002,Sticky Toffee Pudding,1,2024-01-22 21:01:00,Bob
+3003,Scotch Egg,1,2024-01-22 18:13:00,Bob
+3004,Chips,2,2024-01-22 22:37:00,Charlie
+3005,Gravy,3,2024-01-22 19:03:00,Charlie
+3006,Cask Ale,1,2024-01-22 13:24:00,Frank
+3007,Craft Beer,3,2024-01-22 13:13:00,Alice
+3008,Steak & Ale Pie,1,2024-01-22 17:33:00,Eve
+3009,Fish & Chips,2,2024-01-22 12:08:00,Alice
+3010,Steak & Ale Pie,1,2024-01-22 12:34:00,Alice
+3011,Lamb Shank,2,2024-01-22 12:33:00,Alice
+3012,Craft Beer,2,2024-01-22 18:33:00,Henry
+3013,Sticky Toffee Pudding,2,2024-01-22 19:16:00,Eve
+3014,Lamb Shank,2,2024-01-22 13:29:00,Alice
+3015,G&T,2,2024-01-22 11:03:00,Henry
+3016,Sea Bass,2,2024-01-22 11:45:00,Frank
+3017,Sunday Roast,2,2024-01-22 18:23:00,Grace
+3018,Sea Bass,1,2024-01-22 18:36:00,Bob
+3019,Chips,2,2024-01-22 15:21:00,Henry
+3020,Smoked Salmon,3,2024-01-22 19:36:00,Charlie
+3021,Sea Bass,3,2024-01-22 19:21:00,Grace
+3022,Sea Bass,2,2024-01-22 18:26:00,Grace
+3023,Gravy,2,2024-01-22 19:16:00,Henry
+3024,Sea Bass,1,2024-01-22 18:28:00,Eve
+3025,Soup of the Day,1,2024-01-22 12:52:00,Henry
+3026,Chicken Liver Pâté,1,2024-01-22 19:45:00,Grace
+3027,Steak & Ale Pie,1,2024-01-22 18:41:00,Diana
+3028,Chicken Liver Pâté,2,2024-01-22 12:23:00,Henry
+3029,Fish & Chips,3,2024-01-22 12:19:00,Alice
+3030,Fish & Chips,2,2024-01-22 12:55:00,Alice
+3031,Apple Crumble,2,2024-01-22 14:20:00,Henry
+3032,House Wine (175ml),3,2024-01-22 17:48:00,Bob
+3033,Lamb Shank,1,2024-01-22 13:36:00,Frank
+3034,Sea Bass,2,2024-01-22 18:06:00,Henry
+3035,Sticky Toffee Pudding,2,2024-01-22 18:33:00,Charlie
+3036,Prawn Cocktail,1,2024-01-22 18:29:00,Henry
+3037,Steak & Ale Pie,3,2024-01-22 12:32:00,Alice
+3038,Steak & Ale Pie,1,2024-01-22 14:42:00,Henry
+3039,Sea Bass,3,2024-01-22 19:55:00,Eve
+3040,Sunday Roast,2,2024-01-22 15:18:00,Alice
+3041,Fish & Chips,2,2024-01-22 13:10:00,Henry
+3042,Sea Bass,1,2024-01-22 19:30:00,Diana
+3043,Lamb Shank,1,2024-01-22 13:51:00,Frank
+3044,Gravy,1,2024-01-22 12:30:00,Alice
+3045,Steak & Ale Pie,1,2024-01-22 17:21:00,Grace
+3046,Sunday Roast,2,2024-01-22 15:08:00,Alice
+3047,House Wine (175ml),1,2024-01-22 17:51:00,Diana
+3048,Sea Bass,1,2024-01-22 19:34:00,Grace
+3049,Sea Bass,3,2024-01-22 12:39:00,Henry
+3050,Eton Mess,1,2024-01-22 15:10:00,Frank
+3051,Sea Bass,3,2024-01-22 14:28:00,Henry
+3052,Fish & Chips,1,2024-01-22 22:12:00,Bob
+3053,Cask Ale,3,2024-01-22 17:36:00,Henry
+3054,Sea Bass,2,2024-01-22 12:12:00,Frank
+3055,Chicken Liver Pâté,1,2024-01-22 12:43:00,Alice
+3056,Cider,2,2024-01-22 12:11:00,Alice
+3057,Sea Bass,2,2024-01-22 13:03:00,Henry
+3058,Steak & Ale Pie,1,2024-01-22 13:18:00,Frank
+3059,Craft Beer,1,2024-01-22 17:44:00,Grace
+3060,Prawn Cocktail,1,2024-01-22 15:18:00,Henry
+3061,Steak & Ale Pie,1,2024-01-22 13:00:00,Alice
+3062,Craft Beer,2,2024-01-22 17:38:00,Grace
+3063,Sparkling Water,2,2024-01-22 14:42:00,Henry
+3064,Seasonal Veg,1,2024-01-22 12:57:00,Frank
+3065,House Wine (175ml),2,2024-01-22 18:43:00,Henry
+3066,Chicken Liver Pâté,2,2024-01-22 20:32:00,Henry
+3067,Steak & Ale Pie,2,2024-01-22 12:55:00,Alice
+3068,Soup of the Day,2,2024-01-22 09:58:00,Alice
+3069,Steak & Ale Pie,1,2024-01-22 19:17:00,Henry
+3070,Coffee,2,2024-01-22 19:06:00,Bob
+3071,Soup of the Day,2,2024-01-22 15:56:00,Alice
+3072,Sticky Toffee Pudding,2,2024-01-22 14:47:00,Henry
+3073,Lamb Shank,1,2024-01-22 12:07:00,Frank
+3074,Steak & Ale Pie,1,2024-01-22 17:31:00,Grace
+3075,G&T,2,2024-01-22 19:30:00,Grace
+3076,Steak & Ale Pie,2,2024-01-22 19:09:00,Charlie
+3077,Sea Bass,1,2024-01-22 12:05:00,Henry
+3078,Craft Beer,1,2024-01-22 11:38:00,Henry
+3079,Lamb Shank,2,2024-01-22 12:16:00,Alice
+3080,Prawn Cocktail,2,2024-01-22 12:42:00,Alice
+3081,Gravy,3,2024-01-22 18:22:00,Eve
+3082,Sticky Toffee Pudding,1,2024-01-22 14:28:00,Henry
+3083,Bread & Butter Pudding,1,2024-01-22 18:42:00,Eve
+3084,Lamb Shank,1,2024-01-22 14:52:00,Henry
+3085,Craft Beer,1,2024-01-22 13:37:00,Frank
+3086,Steak & Ale Pie,1,2024-01-22 19:03:00,Diana
+3087,Scotch Egg,1,2024-01-22 12:54:00,Henry
+3088,Prawn Cocktail,2,2024-01-22 19:07:00,Eve
+3089,G&T,1,2024-01-22 15:19:00,Henry
+3090,G&T,2,2024-01-22 12:28:00,Alice
+3091,Sea Bass,1,2024-01-22 18:57:00,Eve
+3092,Mushy Peas,2,2024-01-22 12:58:00,Frank
+3093,Lamb Shank,1,2024-01-22 12:16:00,Frank
+3094,Lamb Shank,1,2024-01-22 09:44:00,Frank
+3095,Steak & Ale Pie,1,2024-01-22 17:13:00,Diana
+3096,Mushy Peas,3,2024-01-22 20:14:00,Charlie
+3097,Mushy Peas,1,2024-01-22 17:11:00,Charlie
+3098,Craft Beer,2,2024-01-22 16:19:00,Diana
+3099,Steak & Ale Pie,2,2024-01-22 12:24:00,Alice
+3100,Sunday Roast,2,2024-01-22 13:58:00,Frank
+3101,Steak & Ale Pie,2,2024-01-22 14:55:00,Alice
+3102,Sea Bass,2,2024-01-22 13:30:00,Alice
+3103,Lamb Shank,1,2024-01-22 19:39:00,Diana
+3104,Steak & Ale Pie,2,2024-01-22 13:23:00,Henry
+3105,Sea Bass,2,2024-01-22 19:56:00,Eve
+3106,Coffee,1,2024-01-22 14:42:00,Frank
+3107,Lamb Shank,2,2024-01-22 14:59:00,Alice
+3108,Sea Bass,1,2024-01-22 18:24:00,Eve
+3109,Craft Beer,1,2024-01-22 14:24:00,Frank
+3110,Bangers & Mash,2,2024-01-22 19:19:00,Grace
+3111,Sea Bass,2,2024-01-22 18:46:00,Henry
+3112,Coffee,3,2024-01-22 13:18:00,Henry
+3113,Craft Beer,2,2024-01-22 12:00:00,Alice
+3114,G&T,2,2024-01-22 19:09:00,Charlie
+3115,G&T,1,2024-01-22 12:57:00,Alice
+3116,Sunday Roast,1,2024-01-22 18:06:00,Eve
+3117,Craft Beer,2,2024-01-22 21:36:00,Grace
+3118,Gravy,2,2024-01-22 17:18:00,Henry
+3119,Sparkling Water,1,2024-01-22 13:49:00,Alice
+3120,Steak & Ale Pie,1,2024-01-22 18:47:00,Henry
+3121,Craft Beer,2,2024-01-22 17:41:00,Bob
+3122,Sunday Roast,1,2024-01-22 15:38:00,Frank
+3123,Cask Ale,1,2024-01-22 13:29:00,Frank
+3124,Sea Bass,1,2024-01-22 13:02:00,Alice
+3125,Apple Crumble,1,2024-01-22 18:21:00,Bob
+3126,Sparkling Water,3,2024-01-22 14:10:00,Alice
+3127,Sea Bass,2,2024-01-22 12:12:00,Henry
+3128,Steak & Ale Pie,1,2024-01-22 18:07:00,Charlie
+3129,Cask Ale,1,2024-01-22 18:12:00,Diana
+3130,Chips,1,2024-01-22 19:20:00,Bob
+3131,Bread & Butter Pudding,1,2024-01-22 12:24:00,Alice
+3132,Steak & Ale Pie,1,2024-01-22 17:40:00,Henry
+3133,Steak & Ale Pie,2,2024-01-22 12:06:00,Alice
+3134,Sticky Toffee Pudding,1,2024-01-22 13:07:00,Alice
+3135,Steak & Ale Pie,2,2024-01-22 17:14:00,Henry
+3136,Craft Beer,2,2024-01-23 18:48:00,Diana
+3137,G&T,2,2024-01-23 16:45:00,Diana
+3138,Sea Bass,1,2024-01-23 13:43:00,Alice
+3139,Apple Crumble,1,2024-01-23 13:49:00,Alice
+3140,Lamb Shank,1,2024-01-23 17:15:00,Diana
+3141,Steak & Ale Pie,1,2024-01-23 15:30:00,Henry
+3142,Soup of the Day,3,2024-01-23 13:43:00,Alice
+3143,Cider,2,2024-01-23 11:05:00,Henry
+3144,House Wine (175ml),1,2024-01-23 14:07:00,Henry
+3145,Craft Beer,2,2024-01-23 12:38:00,Frank
+3146,Sea Bass,2,2024-01-23 13:51:00,Alice
+3147,Lamb Shank,2,2024-01-23 19:56:00,Henry
+3148,G&T,1,2024-01-23 19:10:00,Grace
+3149,Coffee,1,2024-01-23 14:04:00,Alice
+3150,Coffee,2,2024-01-23 17:20:00,Eve
+3151,Steak & Ale Pie,2,2024-01-23 12:08:00,Henry
+3152,Sea Bass,2,2024-01-23 18:17:00,Eve
+3153,Pork Pie,1,2024-01-23 14:33:00,Frank
+3154,Mushy Peas,1,2024-01-23 17:07:00,Diana
+3155,Steak & Ale Pie,1,2024-01-23 18:08:00,Charlie
+3156,Steak & Ale Pie,1,2024-01-23 13:01:00,Frank
+3157,Gravy,1,2024-01-23 12:00:00,Frank
+3158,G&T,2,2024-01-23 17:44:00,Eve
+3159,Bread & Butter Pudding,1,2024-01-23 18:20:00,Bob
+3160,Lamb Shank,2,2024-01-23 15:16:00,Henry
+3161,Gravy,2,2024-01-23 19:00:00,Bob
+3162,Chicken Liver Pâté,1,2024-01-23 19:02:00,Charlie
+3163,Coffee,3,2024-01-23 17:39:00,Bob
+3164,Sparkling Water,2,2024-01-23 20:12:00,Grace
+3165,Lamb Shank,1,2024-01-23 10:17:00,Henry
+3166,Steak & Ale Pie,2,2024-01-23 20:15:00,Grace
+3167,Smoked Salmon,2,2024-01-23 12:50:00,Henry
+3168,Cask Ale,1,2024-01-23 17:16:00,Henry
+3169,Steak & Ale Pie,2,2024-01-23 18:50:00,Eve
+3170,Lamb Shank,1,2024-01-23 10:08:00,Alice
+3171,Sunday Roast,3,2024-01-23 19:09:00,Eve
+3172,Coffee,1,2024-01-23 17:17:00,Bob
+3173,Sea Bass,1,2024-01-23 12:24:00,Frank
+3174,G&T,3,2024-01-23 10:32:00,Henry
+3175,Coffee,2,2024-01-23 12:37:00,Alice
+3176,Craft Beer,2,2024-01-23 10:14:00,Alice
+3177,Sea Bass,1,2024-01-23 17:04:00,Henry
+3178,Lamb Shank,2,2024-01-23 17:52:00,Eve
+3179,Cask Ale,1,2024-01-23 12:52:00,Frank
+3180,Bangers & Mash,1,2024-01-23 10:10:00,Henry
+3181,Bread & Butter Pudding,1,2024-01-23 18:46:00,Charlie
+3182,Steak & Ale Pie,2,2024-01-23 12:10:00,Frank
+3183,Steak & Ale Pie,1,2024-01-23 19:41:00,Bob
+3184,G&T,3,2024-01-23 19:50:00,Eve
+3185,Sticky Toffee Pudding,2,2024-01-23 13:27:00,Alice
+3186,Craft Beer,1,2024-01-23 13:07:00,Alice
+3187,Craft Beer,3,2024-01-23 12:35:00,Alice
+3188,Craft Beer,2,2024-01-23 12:43:00,Alice
+3189,Sunday Roast,1,2024-01-23 13:53:00,Frank
+3190,Lamb Shank,3,2024-01-23 13:01:00,Henry
+3191,Lamb Shank,1,2024-01-23 15:55:00,Frank
+3192,Lamb Shank,1,2024-01-23 17:50:00,Bob
+3193,Sticky Toffee Pudding,1,2024-01-23 20:55:00,Diana
+3194,Mushy Peas,1,2024-01-23 11:05:00,Frank
+3195,Coffee,1,2024-01-23 14:35:00,Henry
+3196,Craft Beer,1,2024-01-23 13:44:00,Frank
+3197,Chips,2,2024-01-23 18:19:00,Bob
+3198,Lamb Shank,1,2024-01-23 15:26:00,Frank
+3199,Steak & Ale Pie,1,2024-01-23 13:28:00,Frank
+3200,Coffee,1,2024-01-23 12:50:00,Henry
+3201,Coffee,2,2024-01-23 13:32:00,Frank
+3202,Craft Beer,2,2024-01-23 12:24:00,Henry
+3203,Gravy,1,2024-01-23 15:36:00,Frank
+3204,Smoked Salmon,1,2024-01-23 11:43:00,Henry
+3205,Prawn Cocktail,1,2024-01-23 19:22:00,Eve
+3206,Lamb Shank,2,2024-01-23 17:50:00,Grace
+3207,Craft Beer,2,2024-01-23 12:29:00,Alice
+3208,Coffee,1,2024-01-23 13:04:00,Alice
+3209,Steak & Ale Pie,1,2024-01-23 17:41:00,Grace
+3210,Craft Beer,1,2024-01-23 13:13:00,Alice
+3211,G&T,2,2024-01-23 19:11:00,Charlie
+3212,Craft Beer,2,2024-01-23 13:21:00,Alice
+3213,Gravy,2,2024-01-23 14:42:00,Henry
+3214,Steak & Ale Pie,2,2024-01-23 18:34:00,Eve
+3215,Sea Bass,1,2024-01-23 21:23:00,Charlie
+3216,Steak & Ale Pie,1,2024-01-23 18:15:00,Eve
+3217,Chips,1,2024-01-23 19:26:00,Grace
+3218,Bangers & Mash,2,2024-01-23 12:26:00,Henry
+3219,Chicken Liver Pâté,1,2024-01-23 12:04:00,Henry
+3220,Chicken Liver Pâté,2,2024-01-23 12:20:00,Henry
+3221,Chicken Liver Pâté,3,2024-01-23 19:07:00,Henry
+3222,Pork Pie,2,2024-01-23 21:37:00,Eve
+3223,Eton Mess,2,2024-01-23 20:28:00,Charlie
+3224,Lamb Shank,2,2024-01-23 21:46:00,Diana
+3225,Lamb Shank,1,2024-01-23 12:04:00,Alice
+3226,Steak & Ale Pie,2,2024-01-23 10:22:00,Alice
+3227,Seasonal Veg,3,2024-01-23 13:33:00,Henry
+3228,Craft Beer,3,2024-01-23 13:56:00,Alice
+3229,Apple Crumble,1,2024-01-23 11:00:00,Alice
+3230,Soup of the Day,3,2024-01-23 16:37:00,Henry
+3231,Sparkling Water,3,2024-01-23 15:14:00,Henry
+3232,Lamb Shank,1,2024-01-23 14:46:00,Frank
+3233,Sea Bass,1,2024-01-23 15:25:00,Alice
+3234,Sea Bass,2,2024-01-23 19:43:00,Charlie
+3235,Steak & Ale Pie,1,2024-01-23 15:49:00,Frank
+3236,Craft Beer,1,2024-01-23 11:45:00,Frank
+3237,Sea Bass,2,2024-01-23 10:10:00,Henry
+3238,G&T,1,2024-01-24 13:30:00,Henry
+3239,Sea Bass,1,2024-01-24 18:39:00,Bob
+3240,Chicken Liver Pâté,3,2024-01-24 11:59:00,Alice
+3241,Fish & Chips,2,2024-01-24 16:07:00,Henry
+3242,Steak & Ale Pie,2,2024-01-24 12:27:00,Frank
+3243,Eton Mess,2,2024-01-24 19:59:00,Charlie
+3244,Bread & Butter Pudding,2,2024-01-24 17:45:00,Bob
+3245,Fish & Chips,2,2024-01-24 13:57:00,Frank
+3246,Steak & Ale Pie,3,2024-01-24 12:22:00,Alice
+3247,Lamb Shank,2,2024-01-24 18:49:00,Bob
+3248,Coffee,1,2024-01-24 14:39:00,Alice
+3249,Sparkling Water,2,2024-01-24 15:27:00,Alice
+3250,Coffee,2,2024-01-24 14:13:00,Frank
+3251,Cask Ale,1,2024-01-24 14:27:00,Frank
+3252,Craft Beer,1,2024-01-24 10:41:00,Alice
+3253,Lamb Shank,1,2024-01-24 13:05:00,Frank
+3254,Coffee,1,2024-01-24 14:41:00,Alice
+3255,Fish & Chips,1,2024-01-24 19:08:00,Diana
+3256,Sea Bass,2,2024-01-24 15:56:00,Frank
+3257,Lamb Shank,1,2024-01-24 14:09:00,Henry
+3258,Lamb Shank,1,2024-01-24 17:01:00,Charlie
+3259,Lamb Shank,3,2024-01-24 11:43:00,Henry
+3260,Steak & Ale Pie,1,2024-01-24 12:01:00,Frank
+3261,Chicken Liver Pâté,2,2024-01-24 19:28:00,Henry
+3262,Fish & Chips,1,2024-01-24 19:08:00,Bob
+3263,Steak & Ale Pie,2,2024-01-24 14:20:00,Frank
+3264,Sparkling Water,1,2024-01-24 16:42:00,Henry
+3265,Craft Beer,1,2024-01-24 15:39:00,Frank
+3266,Chips,2,2024-01-24 19:36:00,Eve
+3267,Bread & Butter Pudding,1,2024-01-24 17:52:00,Grace
+3268,Sticky Toffee Pudding,2,2024-01-24 17:03:00,Diana
+3269,Steak & Ale Pie,2,2024-01-24 12:05:00,Henry
+3270,Craft Beer,1,2024-01-24 17:27:00,Eve
+3271,Sea Bass,1,2024-01-24 12:22:00,Henry
+3272,Coffee,1,2024-01-24 12:19:00,Alice
+3273,Coffee,1,2024-01-24 13:38:00,Henry
+3274,Craft Beer,1,2024-01-24 19:33:00,Bob
+3275,G&T,1,2024-01-24 14:00:00,Alice
+3276,Prawn Cocktail,3,2024-01-24 14:27:00,Henry
+3277,Sea Bass,1,2024-01-24 13:37:00,Alice
+3278,Sticky Toffee Pudding,1,2024-01-24 12:05:00,Frank
+3279,Steak & Ale Pie,2,2024-01-24 14:59:00,Henry
+3280,Eton Mess,3,2024-01-24 19:40:00,Charlie
+3281,Steak & Ale Pie,2,2024-01-24 16:48:00,Henry
+3282,Cider,1,2024-01-24 13:01:00,Alice
+3283,Coffee,3,2024-01-24 21:39:00,Eve
+3284,Craft Beer,2,2024-01-24 17:52:00,Henry
+3285,Chicken Liver Pâté,1,2024-01-24 17:16:00,Charlie
+3286,Sunday Roast,2,2024-01-24 14:20:00,Alice
+3287,Coffee,3,2024-01-24 17:28:00,Henry
+3288,House Wine (175ml),1,2024-01-24 17:39:00,Charlie
+3289,Gravy,2,2024-01-24 12:33:00,Alice
+3290,Lamb Shank,1,2024-01-24 09:35:00,Henry
+3291,Craft Beer,1,2024-01-24 13:57:00,Alice
+3292,Craft Beer,3,2024-01-24 12:52:00,Alice
+3293,Coffee,1,2024-01-24 17:08:00,Eve
+3294,Lamb Shank,1,2024-01-24 11:47:00,Frank
+3295,Sunday Roast,1,2024-01-24 14:17:00,Alice
+3296,G&T,1,2024-01-24 12:54:00,Henry
+3297,Smoked Salmon,1,2024-01-24 12:17:00,Alice
+3298,Craft Beer,2,2024-01-24 12:54:00,Henry
+3299,Sparkling Water,3,2024-01-24 17:55:00,Grace
+3300,Craft Beer,2,2024-01-24 18:47:00,Grace
+3301,Sea Bass,1,2024-01-24 12:16:00,Alice
+3302,Steak & Ale Pie,3,2024-01-24 12:51:00,Alice
+3303,Sea Bass,1,2024-01-24 13:50:00,Alice
+3304,Soup of the Day,2,2024-01-24 18:34:00,Eve
+3305,House Wine (175ml),3,2024-01-24 10:45:00,Henry
+3306,Craft Beer,3,2024-01-24 12:59:00,Henry
+3307,Sea Bass,1,2024-01-24 13:20:00,Frank
+3308,Sea Bass,2,2024-01-24 17:15:00,Diana
+3309,Craft Beer,3,2024-01-24 15:20:00,Henry
+3310,Smoked Salmon,3,2024-01-24 18:49:00,Bob
+3311,Chips,1,2024-01-24 12:29:00,Frank
+3312,Bangers & Mash,1,2024-01-24 12:11:00,Frank
+3313,Lamb Shank,1,2024-01-24 11:02:00,Frank
+3314,Craft Beer,1,2024-01-24 12:23:00,Alice
+3315,Sea Bass,1,2024-01-24 18:55:00,Charlie
+3316,Sea Bass,2,2024-01-24 19:56:00,Diana
+3317,Coffee,2,2024-01-24 13:47:00,Henry
+3318,Coffee,1,2024-01-24 14:07:00,Frank
+3319,House Wine (175ml),2,2024-01-24 12:23:00,Henry
+3320,Craft Beer,2,2024-01-24 13:30:00,Henry
+3321,Sea Bass,1,2024-01-24 13:52:00,Alice
+3322,Steak & Ale Pie,2,2024-01-24 18:12:00,Bob
+3323,House Wine (175ml),1,2024-01-24 14:12:00,Alice
+3324,Sea Bass,2,2024-01-24 19:24:00,Bob
+3325,Lamb Shank,1,2024-01-24 13:15:00,Frank
+3326,Gravy,2,2024-01-24 12:04:00,Henry
+3327,Gravy,1,2024-01-24 11:08:00,Frank
+3328,Lamb Shank,2,2024-01-24 18:11:00,Bob
+3329,Bread & Butter Pudding,2,2024-01-24 12:51:00,Alice
+3330,Steak & Ale Pie,2,2024-01-24 11:56:00,Alice
+3331,Craft Beer,2,2024-01-24 14:20:00,Frank
+3332,Lamb Shank,1,2024-01-24 13:32:00,Alice
+3333,Sea Bass,1,2024-01-24 13:36:00,Henry
+3334,Lamb Shank,2,2024-01-24 15:01:00,Henry
+3335,Eton Mess,1,2024-01-24 19:58:00,Diana
+3336,Chicken Liver Pâté,1,2024-01-24 13:31:00,Frank
+3337,Gravy,1,2024-01-24 19:37:00,Charlie
+3338,Fish & Chips,1,2024-01-24 12:10:00,Frank
+3339,Steak & Ale Pie,1,2024-01-24 13:17:00,Henry
+3340,Lamb Shank,3,2024-01-24 18:19:00,Eve
+3341,Sea Bass,2,2024-01-24 13:35:00,Alice
+3342,Mushy Peas,1,2024-01-24 17:51:00,Henry
+3343,Sparkling Water,1,2024-01-24 13:50:00,Alice
+3344,Smoked Salmon,1,2024-01-25 17:36:00,Bob
+3345,Steak & Ale Pie,2,2024-01-25 19:47:00,Bob
+3346,Cask Ale,1,2024-01-25 19:34:00,Charlie
+3347,Lamb Shank,1,2024-01-25 21:15:00,Diana
+3348,Steak & Ale Pie,1,2024-01-25 18:09:00,Bob
+3349,Craft Beer,1,2024-01-25 13:59:00,Henry
+3350,Fish & Chips,2,2024-01-25 20:09:00,Henry
+3351,Sparkling Water,1,2024-01-25 22:55:00,Eve
+3352,Steak & Ale Pie,2,2024-01-25 11:51:00,Alice
+3353,Fish & Chips,1,2024-01-25 18:47:00,Diana
+3354,Smoked Salmon,3,2024-01-25 19:25:00,Bob
+3355,Craft Beer,1,2024-01-25 18:19:00,Diana
+3356,Lamb Shank,1,2024-01-25 21:32:00,Henry
+3357,Sticky Toffee Pudding,2,2024-01-25 13:51:00,Henry
+3358,Craft Beer,2,2024-01-25 20:39:00,Diana
+3359,Apple Crumble,2,2024-01-25 15:28:00,Henry
+3360,Steak & Ale Pie,1,2024-01-25 12:02:00,Frank
+3361,Eton Mess,2,2024-01-25 19:47:00,Diana
+3362,Sea Bass,1,2024-01-25 11:20:00,Henry
+3363,Coffee,1,2024-01-25 17:25:00,Eve
+3364,Sunday Roast,2,2024-01-25 13:00:00,Henry
+3365,Fish & Chips,1,2024-01-25 18:55:00,Henry
+3366,G&T,2,2024-01-25 22:52:00,Diana
+3367,Coffee,1,2024-01-25 16:00:00,Henry
+3368,Steak & Ale Pie,3,2024-01-25 17:47:00,Henry
+3369,G&T,3,2024-01-25 14:43:00,Henry
+3370,Lamb Shank,1,2024-01-25 12:09:00,Frank
+3371,Fish & Chips,1,2024-01-25 13:45:00,Alice
+3372,Lamb Shank,1,2024-01-25 18:51:00,Bob
+3373,Craft Beer,1,2024-01-25 18:24:00,Henry
+3374,Lamb Shank,1,2024-01-25 14:37:00,Frank
+3375,Lamb Shank,3,2024-01-25 13:47:00,Henry
+3376,Fish & Chips,2,2024-01-25 15:20:00,Henry
+3377,Sea Bass,2,2024-01-25 17:36:00,Henry
+3378,Coffee,2,2024-01-25 13:55:00,Henry
+3379,Coffee,1,2024-01-25 18:34:00,Eve
+3380,Cider,2,2024-01-25 12:52:00,Alice
+3381,Smoked Salmon,1,2024-01-25 13:33:00,Alice
+3382,Sparkling Water,1,2024-01-25 12:32:00,Alice
+3383,Steak & Ale Pie,1,2024-01-25 12:01:00,Henry
+3384,G&T,1,2024-01-25 13:30:00,Henry
+3385,Sea Bass,1,2024-01-25 12:00:00,Henry
+3386,Prawn Cocktail,2,2024-01-25 13:11:00,Frank
+3387,Sunday Roast,1,2024-01-25 13:14:00,Frank
+3388,Steak & Ale Pie,3,2024-01-25 18:05:00,Diana
+3389,Seasonal Veg,3,2024-01-25 12:03:00,Henry
+3390,Lamb Shank,2,2024-01-25 13:12:00,Alice
+3391,Scotch Egg,2,2024-01-25 13:38:00,Alice
+3392,Craft Beer,3,2024-01-25 12:36:00,Alice
+3393,Apple Crumble,1,2024-01-25 22:40:00,Henry
+3394,Sea Bass,1,2024-01-25 19:27:00,Grace
+3395,Craft Beer,2,2024-01-25 18:36:00,Diana
+3396,Sticky Toffee Pudding,1,2024-01-25 13:50:00,Frank
+3397,Sparkling Water,2,2024-01-25 17:56:00,Eve
+3398,Steak & Ale Pie,1,2024-01-25 19:37:00,Charlie
+3399,Sunday Roast,3,2024-01-25 17:51:00,Henry
+3400,Cider,2,2024-01-25 11:37:00,Frank
+3401,Sea Bass,2,2024-01-25 14:17:00,Henry
+3402,Steak & Ale Pie,2,2024-01-25 15:11:00,Henry
+3403,Steak & Ale Pie,1,2024-01-25 17:16:00,Bob
+3404,Steak & Ale Pie,2,2024-01-25 13:39:00,Henry
+3405,Steak & Ale Pie,2,2024-01-25 15:57:00,Henry
+3406,Seasonal Veg,1,2024-01-25 19:52:00,Charlie
+3407,Chicken Liver Pâté,3,2024-01-25 21:09:00,Eve
+3408,Sea Bass,1,2024-01-25 18:43:00,Grace
+3409,G&T,1,2024-01-25 17:33:00,Henry
+3410,Sticky Toffee Pudding,1,2024-01-25 17:26:00,Charlie
+3411,Chips,1,2024-01-25 13:14:00,Frank
+3412,Gravy,2,2024-01-25 18:10:00,Diana
+3413,Steak & Ale Pie,2,2024-01-25 10:06:00,Alice
+3414,G&T,2,2024-01-25 20:02:00,Diana
+3415,Coffee,2,2024-01-25 17:05:00,Grace
+3416,Craft Beer,3,2024-01-25 19:30:00,Henry
+3417,G&T,1,2024-01-25 19:15:00,Grace
+3418,Apple Crumble,1,2024-01-25 18:18:00,Bob
+3419,Prawn Cocktail,2,2024-01-25 09:20:00,Henry
+3420,Craft Beer,2,2024-01-25 19:13:00,Diana
+3421,Sunday Roast,1,2024-01-25 13:44:00,Alice
+3422,Chips,2,2024-01-25 17:30:00,Bob
+3423,Lamb Shank,2,2024-01-25 12:43:00,Frank
+3424,Sunday Roast,1,2024-01-25 12:45:00,Henry
+3425,Gravy,2,2024-01-25 13:29:00,Frank
+3426,G&T,2,2024-01-25 13:11:00,Alice
+3427,Steak & Ale Pie,1,2024-01-25 19:30:00,Bob
+3428,Craft Beer,1,2024-01-25 12:26:00,Frank
+3429,Sea Bass,3,2024-01-25 19:36:00,Charlie
+3430,Lamb Shank,1,2024-01-25 19:21:00,Diana
+3431,Sea Bass,2,2024-01-25 13:31:00,Alice
+3432,Sea Bass,1,2024-01-25 12:46:00,Frank
+3433,Cask Ale,2,2024-01-25 17:28:00,Eve
+3434,Cask Ale,2,2024-01-25 12:59:00,Frank
+3435,Craft Beer,1,2024-01-25 15:55:00,Alice
+3436,Gravy,1,2024-01-25 13:10:00,Henry
+3437,Sunday Roast,1,2024-01-25 18:23:00,Eve
+3438,Steak & Ale Pie,2,2024-01-25 19:38:00,Henry
+3439,Chicken Liver Pâté,2,2024-01-25 13:24:00,Frank
+3440,Sticky Toffee Pudding,1,2024-01-25 12:40:00,Henry
+3441,House Wine (175ml),2,2024-01-25 17:59:00,Eve
+3442,Cider,1,2024-01-25 15:19:00,Frank
+3443,Sea Bass,2,2024-01-25 15:25:00,Henry
+3444,Gravy,2,2024-01-25 17:23:00,Eve
+3445,Sea Bass,2,2024-01-25 15:50:00,Frank
+3446,Cask Ale,1,2024-01-25 13:45:00,Frank
+3447,Lamb Shank,1,2024-01-25 13:41:00,Frank
+3448,Soup of the Day,3,2024-01-25 18:42:00,Grace
+3449,Craft Beer,3,2024-01-26 14:12:00,Henry
+3450,Sticky Toffee Pudding,1,2024-01-26 19:49:00,Henry
+3451,Lamb Shank,3,2024-01-26 13:21:00,Henry
+3452,Sunday Roast,3,2024-01-26 12:36:00,Henry
+3453,G&T,1,2024-01-26 20:45:00,Diana
+3454,Steak & Ale Pie,1,2024-01-26 18:49:00,Grace
+3455,Craft Beer,1,2024-01-26 14:53:00,Alice
+3456,Coffee,2,2024-01-26 20:47:00,Henry
+3457,G&T,3,2024-01-26 13:07:00,Henry
+3458,Cider,3,2024-01-26 13:28:00,Alice
+3459,Chicken Liver Pâté,2,2024-01-26 12:06:00,Henry
+3460,Sea Bass,1,2024-01-26 13:59:00,Frank
+3461,Steak & Ale Pie,2,2024-01-26 14:02:00,Alice
+3462,Sea Bass,1,2024-01-26 18:18:00,Grace
+3463,Coffee,3,2024-01-26 19:24:00,Henry
+3464,Steak & Ale Pie,2,2024-01-26 17:10:00,Henry
+3465,Sea Bass,1,2024-01-26 20:42:00,Grace
+3466,Craft Beer,1,2024-01-26 13:28:00,Frank
+3467,Steak & Ale Pie,2,2024-01-26 13:13:00,Henry
+3468,Sparkling Water,1,2024-01-26 13:16:00,Frank
+3469,G&T,1,2024-01-26 18:05:00,Diana
+3470,G&T,2,2024-01-26 15:44:00,Frank
+3471,Steak & Ale Pie,2,2024-01-26 13:10:00,Henry
+3472,G&T,2,2024-01-26 19:44:00,Grace
+3473,House Wine (175ml),2,2024-01-26 13:00:00,Henry
+3474,G&T,3,2024-01-26 10:47:00,Alice
+3475,Prawn Cocktail,2,2024-01-26 19:07:00,Diana
+3476,Chicken Liver Pâté,1,2024-01-26 13:14:00,Alice
+3477,Steak & Ale Pie,2,2024-01-26 12:23:00,Henry
+3478,Craft Beer,2,2024-01-26 17:21:00,Henry
+3479,G&T,1,2024-01-26 18:27:00,Grace
+3480,Steak & Ale Pie,1,2024-01-26 17:46:00,Diana
+3481,Gravy,1,2024-01-26 13:42:00,Frank
+3482,Steak & Ale Pie,1,2024-01-26 12:41:00,Frank
+3483,Scotch Egg,2,2024-01-26 13:44:00,Alice
+3484,Gravy,2,2024-01-26 12:18:00,Frank
+3485,Steak & Ale Pie,2,2024-01-26 17:33:00,Bob
+3486,Fish & Chips,1,2024-01-26 13:46:00,Henry
+3487,Coffee,3,2024-01-26 12:28:00,Henry
+3488,Sea Bass,1,2024-01-26 13:16:00,Henry
+3489,Steak & Ale Pie,2,2024-01-26 18:50:00,Henry
+3490,Smoked Salmon,2,2024-01-26 12:06:00,Frank
+3491,Lamb Shank,2,2024-01-26 10:50:00,Henry
+3492,Mushy Peas,1,2024-01-26 13:15:00,Frank
+3493,Gravy,3,2024-01-26 19:49:00,Charlie
+3494,House Wine (175ml),3,2024-01-26 13:20:00,Henry
+3495,Sunday Roast,2,2024-01-26 17:12:00,Grace
+3496,Craft Beer,2,2024-01-26 21:02:00,Charlie
+3497,Craft Beer,1,2024-01-26 12:56:00,Frank
+3498,Coffee,2,2024-01-26 19:08:00,Diana
+3499,Steak & Ale Pie,3,2024-01-26 18:33:00,Charlie
+3500,Craft Beer,1,2024-01-26 11:56:00,Frank
+3501,House Wine (175ml),1,2024-01-26 19:25:00,Grace
+3502,G&T,1,2024-01-26 17:38:00,Henry
+3503,Craft Beer,1,2024-01-26 13:54:00,Frank
+3504,Lamb Shank,2,2024-01-26 18:13:00,Henry
+3505,Sunday Roast,2,2024-01-26 17:58:00,Charlie
+3506,Scotch Egg,1,2024-01-26 18:53:00,Diana
+3507,Steak & Ale Pie,3,2024-01-26 19:24:00,Eve
+3508,Sea Bass,2,2024-01-26 12:15:00,Alice
+3509,Craft Beer,2,2024-01-26 19:18:00,Bob
+3510,Craft Beer,1,2024-01-26 19:30:00,Henry
+3511,Seasonal Veg,2,2024-01-26 13:09:00,Henry
+3512,Sparkling Water,3,2024-01-26 19:58:00,Henry
+3513,Coffee,1,2024-01-26 12:49:00,Henry
+3514,Sunday Roast,1,2024-01-26 12:14:00,Henry
+3515,Steak & Ale Pie,3,2024-01-26 13:37:00,Alice
+3516,Chicken Liver Pâté,1,2024-01-26 17:51:00,Grace
+3517,House Wine (175ml),2,2024-01-26 13:15:00,Henry
+3518,Sea Bass,2,2024-01-26 21:45:00,Bob
+3519,Sea Bass,2,2024-01-26 13:49:00,Henry
+3520,Steak & Ale Pie,3,2024-01-26 12:17:00,Alice
+3521,Chicken Liver Pâté,1,2024-01-26 17:21:00,Eve
+3522,Sea Bass,1,2024-01-26 11:35:00,Henry
+3523,Sea Bass,1,2024-01-26 17:40:00,Eve
+3524,Sea Bass,2,2024-01-26 14:06:00,Henry
+3525,House Wine (175ml),1,2024-01-26 09:02:00,Henry
+3526,G&T,1,2024-01-26 14:41:00,Frank
+3527,Scotch Egg,2,2024-01-26 17:29:00,Charlie
+3528,G&T,2,2024-01-26 17:58:00,Grace
+3529,Craft Beer,3,2024-01-26 16:40:00,Henry
+3530,Sparkling Water,2,2024-01-26 22:12:00,Diana
+3531,Sea Bass,1,2024-01-26 12:59:00,Frank
+3532,G&T,2,2024-01-26 12:41:00,Henry
+3533,Chicken Liver Pâté,1,2024-01-26 12:24:00,Frank
+3534,Sea Bass,2,2024-01-26 13:25:00,Henry
+3535,Cask Ale,1,2024-01-26 19:25:00,Diana
+3536,Gravy,3,2024-01-26 13:46:00,Alice
+3537,Lamb Shank,3,2024-01-26 17:20:00,Eve
+3538,Coffee,2,2024-01-26 14:47:00,Alice
+3539,Lamb Shank,3,2024-01-26 13:40:00,Alice
+3540,Scotch Egg,2,2024-01-26 15:55:00,Henry
+3541,Fish & Chips,2,2024-01-26 18:59:00,Eve
+3542,Sea Bass,2,2024-01-26 18:45:00,Henry
+3543,Lamb Shank,3,2024-01-26 17:07:00,Charlie
+3544,Eton Mess,1,2024-01-26 12:26:00,Alice
+3545,Fish & Chips,2,2024-01-26 10:50:00,Alice
+3546,Sea Bass,2,2024-01-26 19:59:00,Diana
+3547,Steak & Ale Pie,1,2024-01-26 13:35:00,Frank
+3548,Cask Ale,3,2024-01-26 13:37:00,Alice
+3549,Craft Beer,2,2024-01-26 19:16:00,Bob
+3550,Craft Beer,1,2024-01-26 11:04:00,Henry
+3551,Steak & Ale Pie,1,2024-01-26 20:07:00,Bob
+3552,Gravy,1,2024-01-26 12:12:00,Henry
+3553,Coffee,3,2024-01-26 18:00:00,Henry
+3554,Sea Bass,3,2024-01-26 19:51:00,Eve
+3555,Sea Bass,1,2024-01-26 12:12:00,Alice
+3556,Sunday Roast,2,2024-01-26 17:08:00,Henry
+3557,Chicken Liver Pâté,1,2024-01-26 14:45:00,Henry
+3558,Sea Bass,1,2024-01-26 17:46:00,Eve
+3559,Sea Bass,2,2024-01-26 11:39:00,Henry
+3560,Sea Bass,2,2024-01-26 19:40:00,Grace
+3561,Sparkling Water,1,2024-01-26 12:45:00,Alice
+3562,Sparkling Water,3,2024-01-26 13:49:00,Henry
+3563,Sticky Toffee Pudding,1,2024-01-26 19:47:00,Charlie
+3564,Chicken Liver Pâté,1,2024-01-26 18:03:00,Diana
+3565,Seasonal Veg,3,2024-01-26 18:59:00,Bob
+3566,Lamb Shank,3,2024-01-26 18:38:00,Diana
+3567,House Wine (175ml),1,2024-01-26 17:41:00,Diana
+3568,Fish & Chips,1,2024-01-26 14:42:00,Alice
+3569,G&T,2,2024-01-26 18:57:00,Diana
+3570,Craft Beer,1,2024-01-26 19:24:00,Bob
+3571,G&T,1,2024-01-26 18:54:00,Diana
+3572,Lamb Shank,2,2024-01-26 17:07:00,Bob
+3573,G&T,2,2024-01-26 13:39:00,Henry
+3574,Coffee,1,2024-01-26 18:47:00,Grace
+3575,Lamb Shank,1,2024-01-26 17:24:00,Grace
+3576,Bangers & Mash,1,2024-01-26 13:54:00,Frank
+3577,Sea Bass,2,2024-01-26 17:59:00,Eve
+3578,Lamb Shank,1,2024-01-26 17:29:00,Bob
+3579,Soup of the Day,1,2024-01-26 19:14:00,Charlie
+3580,Craft Beer,1,2024-01-26 10:08:00,Frank
+3581,Steak & Ale Pie,2,2024-01-26 19:50:00,Bob
+3582,Lamb Shank,2,2024-01-26 18:12:00,Henry
+3583,Craft Beer,1,2024-01-26 18:24:00,Charlie
+3584,G&T,3,2024-01-26 11:59:00,Henry
+3585,Sticky Toffee Pudding,3,2024-01-26 19:52:00,Charlie
+3586,Coffee,1,2024-01-26 12:30:00,Frank
+3587,Cask Ale,2,2024-01-26 19:00:00,Diana
+3588,Smoked Salmon,2,2024-01-26 17:39:00,Grace
+3589,Coffee,2,2024-01-26 19:20:00,Henry
+3590,Chips,2,2024-01-26 17:59:00,Eve
+3591,Eton Mess,1,2024-01-26 10:38:00,Alice
+3592,Craft Beer,3,2024-01-26 13:34:00,Alice
+3593,Cask Ale,1,2024-01-26 17:37:00,Henry
+3594,Chicken Liver Pâté,2,2024-01-26 12:06:00,Alice
+3595,Chips,1,2024-01-26 13:55:00,Henry
+3596,Craft Beer,2,2024-01-26 21:34:00,Henry
+3597,Cask Ale,1,2024-01-26 21:55:00,Eve
+3598,Prawn Cocktail,1,2024-01-26 16:43:00,Eve
+3599,Prawn Cocktail,2,2024-01-26 10:48:00,Alice
+3600,Apple Crumble,1,2024-01-26 18:32:00,Eve
+3601,Steak & Ale Pie,2,2024-01-26 19:26:00,Bob
+3602,Craft Beer,2,2024-01-26 19:41:00,Henry
+3603,Fish & Chips,1,2024-01-26 16:01:00,Eve
+3604,Steak & Ale Pie,1,2024-01-26 21:04:00,Henry
+3605,Sea Bass,1,2024-01-26 12:08:00,Frank
+3606,Lamb Shank,2,2024-01-26 11:37:00,Alice
+3607,Bread & Butter Pudding,1,2024-01-26 13:19:00,Frank
+3608,Lamb Shank,2,2024-01-26 13:19:00,Henry
+3609,Coffee,2,2024-01-26 14:40:00,Henry
+3610,Bread & Butter Pudding,1,2024-01-26 19:15:00,Bob
+3611,Sparkling Water,1,2024-01-26 13:36:00,Frank
+3612,Coffee,3,2024-01-26 19:21:00,Eve
+3613,Fish & Chips,2,2024-01-26 19:47:00,Charlie
+3614,Sea Bass,1,2024-01-26 21:47:00,Bob
+3615,Prawn Cocktail,1,2024-01-26 13:26:00,Henry
+3616,Fish & Chips,2,2024-01-26 18:32:00,Diana
+3617,Craft Beer,3,2024-01-26 15:03:00,Henry
+3618,Mushy Peas,2,2024-01-26 12:38:00,Henry
+3619,Prawn Cocktail,3,2024-01-26 14:38:00,Alice
+3620,Sticky Toffee Pudding,2,2024-01-26 18:54:00,Bob
+3621,Cask Ale,2,2024-01-26 17:08:00,Charlie
+3622,Sparkling Water,1,2024-01-26 18:27:00,Eve
+3623,G&T,3,2024-01-26 19:04:00,Charlie
+3624,Pork Pie,2,2024-01-26 17:20:00,Eve
+3625,Fish & Chips,3,2024-01-26 17:51:00,Bob
+3626,Sea Bass,1,2024-01-26 13:15:00,Frank
+3627,Sunday Roast,1,2024-01-26 14:39:00,Henry
+3628,Craft Beer,1,2024-01-26 15:15:00,Alice
+3629,Lamb Shank,1,2024-01-26 12:06:00,Frank
+3630,Scotch Egg,2,2024-01-26 14:35:00,Henry
+3631,Sticky Toffee Pudding,3,2024-01-26 18:58:00,Bob
+3632,Sparkling Water,1,2024-01-26 18:34:00,Henry
+3633,Gravy,2,2024-01-26 19:50:00,Charlie
+3634,Scotch Egg,2,2024-01-26 19:27:00,Henry
+3635,G&T,1,2024-01-26 12:51:00,Henry
+3636,Mushy Peas,3,2024-01-26 19:55:00,Diana
+3637,Soup of the Day,1,2024-01-26 17:30:00,Eve
+3638,Sea Bass,2,2024-01-26 10:48:00,Alice
+3639,Mash,3,2024-01-26 18:59:00,Charlie
+3640,Prawn Cocktail,1,2024-01-26 12:10:00,Frank
+3641,Sea Bass,3,2024-01-26 18:54:00,Bob
+3642,Lamb Shank,2,2024-01-27 18:13:00,Henry
+3643,House Wine (175ml),1,2024-01-27 16:36:00,Diana
+3644,Fish & Chips,2,2024-01-27 18:06:00,Grace
+3645,Craft Beer,2,2024-01-27 18:13:00,Charlie
+3646,Eton Mess,1,2024-01-27 13:16:00,Frank
+3647,House Wine (175ml),3,2024-01-27 18:47:00,Charlie
+3648,House Wine (175ml),2,2024-01-27 13:32:00,Frank
+3649,Bangers & Mash,3,2024-01-27 12:27:00,Alice
+3650,Lamb Shank,3,2024-01-27 19:16:00,Eve
+3651,Steak & Ale Pie,2,2024-01-27 10:48:00,Alice
+3652,Lamb Shank,2,2024-01-27 17:25:00,Diana
+3653,Lamb Shank,1,2024-01-27 11:13:00,Henry
+3654,Steak & Ale Pie,1,2024-01-27 13:29:00,Henry
+3655,Craft Beer,1,2024-01-27 19:42:00,Henry
+3656,Gravy,2,2024-01-27 19:05:00,Henry
+3657,Fish & Chips,1,2024-01-27 17:00:00,Grace
+3658,Sunday Roast,2,2024-01-27 19:48:00,Bob
+3659,Cask Ale,2,2024-01-27 18:53:00,Bob
+3660,Sunday Roast,1,2024-01-27 14:46:00,Frank
+3661,Prawn Cocktail,2,2024-01-27 18:38:00,Henry
+3662,Chips,2,2024-01-27 13:36:00,Alice
+3663,Gravy,1,2024-01-27 15:04:00,Alice
+3664,Cider,1,2024-01-27 19:00:00,Diana
+3665,Craft Beer,2,2024-01-27 11:16:00,Frank
+3666,Prawn Cocktail,2,2024-01-27 15:27:00,Alice
+3667,Sunday Roast,1,2024-01-27 13:21:00,Frank
+3668,Steak & Ale Pie,3,2024-01-27 19:54:00,Bob
+3669,Cask Ale,1,2024-01-27 14:05:00,Henry
+3670,Seasonal Veg,1,2024-01-27 19:33:00,Eve
+3671,Smoked Salmon,1,2024-01-27 16:23:00,Bob
+3672,Prawn Cocktail,1,2024-01-27 13:02:00,Alice
+3673,Sea Bass,1,2024-01-27 12:36:00,Henry
+3674,G&T,1,2024-01-27 17:26:00,Bob
+3675,Chips,1,2024-01-27 19:44:00,Eve
+3676,Sea Bass,1,2024-01-27 12:36:00,Frank
+3677,Lamb Shank,1,2024-01-27 13:28:00,Henry
+3678,Mushy Peas,1,2024-01-27 14:09:00,Henry
+3679,Cider,2,2024-01-27 16:00:00,Eve
+3680,Coffee,2,2024-01-27 14:56:00,Alice
+3681,Chicken Liver Pâté,2,2024-01-27 12:41:00,Henry
+3682,Craft Beer,2,2024-01-27 11:45:00,Alice
+3683,G&T,2,2024-01-27 17:06:00,Charlie
+3684,Lamb Shank,2,2024-01-27 22:49:00,Diana
+3685,Prawn Cocktail,1,2024-01-27 14:21:00,Frank
+3686,Craft Beer,2,2024-01-27 10:52:00,Alice
+3687,Sea Bass,2,2024-01-27 11:36:00,Henry
+3688,Sea Bass,2,2024-01-27 17:22:00,Charlie
+3689,Chips,1,2024-01-27 13:06:00,Frank
+3690,Craft Beer,1,2024-01-27 10:24:00,Henry
+3691,Steak & Ale Pie,2,2024-01-27 18:13:00,Eve
+3692,Chicken Liver Pâté,2,2024-01-27 13:28:00,Alice
+3693,Steak & Ale Pie,2,2024-01-27 14:14:00,Henry
+3694,Craft Beer,1,2024-01-27 13:48:00,Alice
+3695,Sunday Roast,1,2024-01-27 19:11:00,Eve
+3696,Gravy,3,2024-01-27 18:01:00,Bob
+3697,Craft Beer,1,2024-01-27 17:12:00,Grace
+3698,Craft Beer,1,2024-01-27 09:10:00,Frank
+3699,Steak & Ale Pie,1,2024-01-27 18:29:00,Eve
+3700,Lamb Shank,1,2024-01-27 18:42:00,Bob
+3701,Sea Bass,1,2024-01-27 19:22:00,Grace
+3702,Fish & Chips,1,2024-01-27 11:17:00,Frank
+3703,Craft Beer,3,2024-01-27 18:58:00,Bob
+3704,Sea Bass,2,2024-01-27 18:21:00,Diana
+3705,Bangers & Mash,1,2024-01-27 11:42:00,Frank
+3706,Soup of the Day,2,2024-01-27 19:44:00,Diana
+3707,G&T,2,2024-01-27 19:36:00,Grace
+3708,Steak & Ale Pie,2,2024-01-27 19:38:00,Bob
+3709,Lamb Shank,1,2024-01-27 19:20:00,Bob
+3710,Gravy,1,2024-01-27 18:08:00,Bob
+3711,Sea Bass,1,2024-01-27 13:52:00,Henry
+3712,Sunday Roast,1,2024-01-27 13:51:00,Frank
+3713,Sea Bass,2,2024-01-27 13:48:00,Alice
+3714,Craft Beer,2,2024-01-27 12:57:00,Alice
+3715,Steak & Ale Pie,3,2024-01-27 14:18:00,Henry
+3716,G&T,3,2024-01-27 10:53:00,Henry
+3717,Craft Beer,2,2024-01-27 18:20:00,Charlie
+3718,Apple Crumble,2,2024-01-27 13:40:00,Henry
+3719,Lamb Shank,1,2024-01-27 19:27:00,Henry
+3720,Cider,1,2024-01-27 19:28:00,Charlie
+3721,Sea Bass,3,2024-01-27 13:00:00,Henry
+3722,Gravy,3,2024-01-27 12:48:00,Alice
+3723,Apple Crumble,3,2024-01-27 11:30:00,Henry
+3724,Sunday Roast,2,2024-01-27 19:20:00,Charlie
+3725,Craft Beer,2,2024-01-27 19:50:00,Grace
+3726,Steak & Ale Pie,3,2024-01-27 19:52:00,Henry
+3727,Sunday Roast,2,2024-01-27 16:06:00,Grace
+3728,Prawn Cocktail,2,2024-01-27 19:10:00,Henry
+3729,Lamb Shank,2,2024-01-27 10:48:00,Henry
+3730,Gravy,2,2024-01-27 17:53:00,Diana
+3731,Bangers & Mash,2,2024-01-27 17:37:00,Grace
+3732,Steak & Ale Pie,2,2024-01-27 13:05:00,Frank
+3733,Lamb Shank,1,2024-01-27 12:45:00,Frank
+3734,Lamb Shank,2,2024-01-27 13:46:00,Alice
+3735,G&T,2,2024-01-27 17:38:00,Charlie
+3736,Sticky Toffee Pudding,1,2024-01-27 19:57:00,Bob
+3737,Sea Bass,2,2024-01-27 18:13:00,Eve
+3738,Steak & Ale Pie,3,2024-01-27 14:01:00,Henry
+3739,Coffee,3,2024-01-27 12:14:00,Henry
+3740,Smoked Salmon,3,2024-01-27 10:22:00,Henry
+3741,Lamb Shank,2,2024-01-27 14:31:00,Alice
+3742,Sunday Roast,2,2024-01-27 12:25:00,Alice
+3743,Lamb Shank,1,2024-01-27 19:47:00,Grace
+3744,Craft Beer,2,2024-01-27 18:11:00,Grace
+3745,Prawn Cocktail,1,2024-01-27 17:03:00,Charlie
+3746,Gravy,3,2024-01-27 18:33:00,Diana
+3747,Bangers & Mash,1,2024-01-27 10:24:00,Alice
+3748,Steak & Ale Pie,3,2024-01-27 20:26:00,Diana
+3749,G&T,1,2024-01-27 10:57:00,Alice
+3750,Steak & Ale Pie,1,2024-01-27 17:58:00,Grace
+3751,Fish & Chips,1,2024-01-27 17:47:00,Charlie
+3752,Sunday Roast,1,2024-01-27 18:08:00,Charlie
+3753,Pork Pie,2,2024-01-27 12:21:00,Alice
+3754,Steak & Ale Pie,3,2024-01-27 14:39:00,Henry
+3755,Lamb Shank,1,2024-01-27 11:40:00,Henry
+3756,Steak & Ale Pie,3,2024-01-27 17:53:00,Charlie
+3757,Coffee,2,2024-01-27 18:13:00,Henry
+3758,Sea Bass,1,2024-01-27 10:36:00,Henry
+3759,Sea Bass,1,2024-01-27 11:49:00,Alice
+3760,House Wine (175ml),1,2024-01-27 17:19:00,Grace
+3761,Chicken Liver Pâté,1,2024-01-27 12:45:00,Frank
+3762,Sea Bass,2,2024-01-27 17:35:00,Eve
+3763,Steak & Ale Pie,2,2024-01-27 17:46:00,Diana
+3764,Eton Mess,2,2024-01-27 18:51:00,Charlie
+3765,Sea Bass,1,2024-01-27 13:14:00,Frank
+3766,Lamb Shank,1,2024-01-27 09:27:00,Frank
+3767,Mushy Peas,1,2024-01-27 18:30:00,Henry
+3768,Fish & Chips,2,2024-01-27 13:30:00,Henry
+3769,Lamb Shank,2,2024-01-27 17:44:00,Grace
+3770,Apple Crumble,2,2024-01-27 10:53:00,Alice
+3771,Mash,2,2024-01-27 18:54:00,Bob
+3772,Cask Ale,2,2024-01-27 11:17:00,Frank
+3773,Gravy,1,2024-01-27 18:57:00,Henry
+3774,Cider,1,2024-01-27 18:17:00,Grace
+3775,G&T,1,2024-01-27 12:09:00,Alice
+3776,Steak & Ale Pie,3,2024-01-27 12:04:00,Henry
+3777,Lamb Shank,1,2024-01-27 15:10:00,Frank
+3778,Soup of the Day,1,2024-01-27 13:15:00,Frank
+3779,Smoked Salmon,1,2024-01-27 13:06:00,Frank
+3780,Lamb Shank,2,2024-01-27 17:45:00,Henry
+3781,Craft Beer,1,2024-01-27 19:52:00,Eve
+3782,Lamb Shank,1,2024-01-27 20:58:00,Charlie
+3783,Craft Beer,1,2024-01-27 19:48:00,Bob
+3784,Sparkling Water,2,2024-01-27 18:09:00,Henry
+3785,Pork Pie,1,2024-01-27 19:05:00,Grace
+3786,Fish & Chips,1,2024-01-27 11:11:00,Alice
+3787,Sea Bass,2,2024-01-27 18:58:00,Grace
+3788,Sticky Toffee Pudding,1,2024-01-27 14:14:00,Alice
+3789,Bangers & Mash,2,2024-01-27 17:50:00,Grace
+3790,Sparkling Water,1,2024-01-27 14:51:00,Henry
+3791,Sparkling Water,2,2024-01-27 14:32:00,Alice
+3792,Coffee,1,2024-01-27 13:05:00,Alice
+3793,Gravy,1,2024-01-27 13:04:00,Henry
+3794,Chicken Liver Pâté,2,2024-01-27 19:06:00,Diana
+3795,Eton Mess,1,2024-01-27 12:40:00,Henry
+3796,Lamb Shank,3,2024-01-27 19:00:00,Eve
+3797,Sunday Roast,3,2024-01-27 16:34:00,Grace
+3798,Steak & Ale Pie,1,2024-01-27 14:09:00,Alice
+3799,Cask Ale,2,2024-01-27 12:25:00,Henry
+3800,Chicken Liver Pâté,1,2024-01-27 11:34:00,Henry
+3801,G&T,1,2024-01-27 17:24:00,Grace
+3802,G&T,3,2024-01-27 17:17:00,Bob
+3803,Steak & Ale Pie,1,2024-01-27 18:53:00,Grace
+3804,House Wine (175ml),1,2024-01-27 19:34:00,Diana
+3805,House Wine (175ml),1,2024-01-27 18:03:00,Charlie
+3806,Lamb Shank,1,2024-01-27 13:19:00,Frank
+3807,Chicken Liver Pâté,2,2024-01-27 19:52:00,Bob
+3808,Chips,1,2024-01-27 12:49:00,Frank
+3809,G&T,2,2024-01-27 14:12:00,Alice
+3810,Craft Beer,1,2024-01-27 12:15:00,Alice
+3811,Steak & Ale Pie,1,2024-01-27 20:55:00,Henry
+3812,Gravy,2,2024-01-27 12:16:00,Frank
+3813,Sea Bass,1,2024-01-27 12:41:00,Henry
+3814,Craft Beer,2,2024-01-27 20:10:00,Grace
+3815,Sea Bass,3,2024-01-27 12:43:00,Alice
+3816,Apple Crumble,1,2024-01-27 13:08:00,Alice
+3817,Sunday Roast,1,2024-01-27 16:00:00,Charlie
+3818,Prawn Cocktail,2,2024-01-27 19:00:00,Diana
+3819,Coffee,3,2024-01-27 18:43:00,Henry
+3820,Sea Bass,2,2024-01-27 12:39:00,Alice
+3821,Steak & Ale Pie,3,2024-01-27 20:22:00,Henry
+3822,Coffee,1,2024-01-27 18:36:00,Diana
+3823,Coffee,1,2024-01-27 15:15:00,Henry
+3824,Cask Ale,1,2024-01-27 13:28:00,Frank
+3825,Craft Beer,1,2024-01-27 12:39:00,Henry
+3826,Apple Crumble,2,2024-01-27 13:56:00,Henry
+3827,Craft Beer,1,2024-01-27 18:28:00,Charlie
+3828,Fish & Chips,1,2024-01-27 19:03:00,Charlie
+3829,Bread & Butter Pudding,2,2024-01-27 12:02:00,Frank
+3830,Steak & Ale Pie,2,2024-01-27 15:24:00,Frank
+3831,Chicken Liver Pâté,1,2024-01-27 12:31:00,Frank
+3832,Chicken Liver Pâté,3,2024-01-27 17:18:00,Henry
+3833,Sea Bass,3,2024-01-27 12:07:00,Alice
+3834,Cask Ale,1,2024-01-27 18:36:00,Grace
+3835,Sparkling Water,1,2024-01-27 13:03:00,Henry
+3836,Seasonal Veg,3,2024-01-27 13:40:00,Henry
+3837,Lamb Shank,2,2024-01-28 14:01:00,Henry
+3838,Pork Pie,1,2024-01-28 19:33:00,Grace
+3839,Cider,1,2024-01-28 11:45:00,Frank
+3840,Gravy,2,2024-01-28 12:29:00,Alice
+3841,Scotch Egg,2,2024-01-28 12:33:00,Henry
+3842,Sticky Toffee Pudding,2,2024-01-28 14:05:00,Alice
+3843,Sunday Roast,1,2024-01-28 14:02:00,Henry
+3844,Chicken Liver Pâté,3,2024-01-28 20:07:00,Henry
+3845,Sunday Roast,1,2024-01-28 18:29:00,Bob
+3846,Steak & Ale Pie,2,2024-01-28 17:51:00,Henry
+3847,Craft Beer,1,2024-01-28 12:23:00,Frank
+3848,Craft Beer,2,2024-01-28 16:58:00,Diana
+3849,Seasonal Veg,2,2024-01-28 18:40:00,Diana
+3850,Cider,1,2024-01-28 18:24:00,Eve
+3851,Prawn Cocktail,3,2024-01-28 11:40:00,Henry
+3852,Gravy,3,2024-01-28 17:26:00,Henry
+3853,Bangers & Mash,1,2024-01-28 18:48:00,Eve
+3854,Lamb Shank,2,2024-01-28 13:48:00,Henry
+3855,Coffee,1,2024-01-28 15:26:00,Alice
+3856,Smoked Salmon,1,2024-01-28 17:16:00,Diana
+3857,Craft Beer,2,2024-01-28 18:10:00,Bob
+3858,Fish & Chips,2,2024-01-28 12:33:00,Alice
+3859,Mushy Peas,1,2024-01-28 16:38:00,Bob
+3860,Prawn Cocktail,1,2024-01-28 17:46:00,Bob
+3861,Lamb Shank,1,2024-01-28 18:33:00,Eve
+3862,Gravy,1,2024-01-28 18:59:00,Bob
+3863,Lamb Shank,1,2024-01-28 12:51:00,Frank
+3864,Sunday Roast,1,2024-01-28 12:39:00,Frank
+3865,House Wine (175ml),1,2024-01-28 17:15:00,Grace
+3866,Cask Ale,2,2024-01-28 12:52:00,Alice
+3867,Prawn Cocktail,2,2024-01-28 13:35:00,Henry
+3868,Sparkling Water,1,2024-01-28 14:46:00,Frank
+3869,Fish & Chips,3,2024-01-28 17:34:00,Eve
+3870,Sparkling Water,1,2024-01-28 18:44:00,Henry
+3871,Prawn Cocktail,1,2024-01-28 14:08:00,Frank
+3872,G&T,1,2024-01-28 13:24:00,Alice
+3873,Chips,1,2024-01-28 15:15:00,Henry
+3874,G&T,1,2024-01-28 17:12:00,Grace
+3875,Sea Bass,1,2024-01-28 10:20:00,Frank
+3876,Coffee,2,2024-01-28 18:31:00,Grace
+3877,Lamb Shank,2,2024-01-28 19:14:00,Eve
+3878,Sea Bass,1,2024-01-28 18:34:00,Henry
+3879,Sticky Toffee Pudding,2,2024-01-28 18:48:00,Bob
+3880,Craft Beer,1,2024-01-28 12:07:00,Alice
+3881,Bread & Butter Pudding,1,2024-01-28 18:50:00,Grace
+3882,Fish & Chips,1,2024-01-28 10:00:00,Henry
+3883,Lamb Shank,3,2024-01-28 20:49:00,Charlie
+3884,Sea Bass,2,2024-01-28 11:53:00,Alice
+3885,Coffee,1,2024-01-28 19:36:00,Grace
+3886,Coffee,3,2024-01-28 17:06:00,Bob
+3887,Sticky Toffee Pudding,1,2024-01-28 13:13:00,Henry
+3888,Steak & Ale Pie,1,2024-01-28 17:04:00,Henry
+3889,Sea Bass,2,2024-01-28 21:02:00,Diana
+3890,Chicken Liver Pâté,3,2024-01-28 17:42:00,Charlie
+3891,G&T,1,2024-01-28 15:36:00,Henry
+3892,House Wine (175ml),1,2024-01-28 19:56:00,Grace
+3893,Coffee,2,2024-01-28 13:31:00,Frank
+3894,Lamb Shank,1,2024-01-28 14:15:00,Frank
+3895,Sea Bass,3,2024-01-28 19:55:00,Grace
+3896,Gravy,1,2024-01-28 12:02:00,Frank
+3897,Scotch Egg,1,2024-01-28 18:53:00,Eve
+3898,Sunday Roast,1,2024-01-28 16:04:00,Grace
+3899,Sunday Roast,2,2024-01-28 11:11:00,Henry
+3900,Lamb Shank,1,2024-01-28 14:46:00,Alice
+3901,Steak & Ale Pie,3,2024-01-28 18:46:00,Charlie
+3902,Steak & Ale Pie,1,2024-01-28 13:27:00,Frank
+3903,Steak & Ale Pie,2,2024-01-28 09:29:00,Henry
+3904,Apple Crumble,1,2024-01-28 20:30:00,Bob
+3905,Smoked Salmon,3,2024-01-28 14:16:00,Henry
+3906,Soup of the Day,2,2024-01-28 17:10:00,Diana
+3907,Sunday Roast,1,2024-01-28 15:36:00,Alice
+3908,Sunday Roast,2,2024-01-28 22:20:00,Charlie
+3909,House Wine (175ml),1,2024-01-28 18:22:00,Henry
+3910,Prawn Cocktail,2,2024-01-28 13:48:00,Henry
+3911,Sparkling Water,2,2024-01-28 09:13:00,Henry
+3912,Sparkling Water,3,2024-01-28 14:32:00,Henry
+3913,Prawn Cocktail,1,2024-01-28 19:04:00,Bob
+3914,Sea Bass,3,2024-01-28 17:02:00,Eve
+3915,Sunday Roast,2,2024-01-28 11:26:00,Henry
+3916,Craft Beer,1,2024-01-28 10:47:00,Henry
+3917,Steak & Ale Pie,1,2024-01-28 15:12:00,Frank
+3918,Sparkling Water,1,2024-01-28 14:57:00,Henry
+3919,House Wine (175ml),2,2024-01-28 18:03:00,Diana
+3920,Fish & Chips,3,2024-01-28 10:48:00,Henry
+3921,Fish & Chips,2,2024-01-28 20:06:00,Grace
+3922,Coffee,1,2024-01-28 14:15:00,Alice
+3923,Coffee,3,2024-01-28 13:06:00,Alice
+3924,Craft Beer,2,2024-01-28 13:56:00,Alice
+3925,Craft Beer,1,2024-01-28 20:16:00,Henry
+3926,Steak & Ale Pie,3,2024-01-28 18:23:00,Henry
+3927,Bread & Butter Pudding,1,2024-01-28 14:52:00,Henry
+3928,Steak & Ale Pie,3,2024-01-28 15:30:00,Alice
+3929,Chicken Liver Pâté,2,2024-01-28 12:29:00,Henry
+3930,Cask Ale,3,2024-01-28 20:44:00,Eve
+3931,Prawn Cocktail,1,2024-01-28 17:57:00,Grace
+3932,Apple Crumble,2,2024-01-28 13:21:00,Henry
+3933,House Wine (175ml),1,2024-01-28 19:29:00,Bob
+3934,Sea Bass,1,2024-01-28 13:50:00,Frank
+3935,Lamb Shank,1,2024-01-28 18:08:00,Grace
+3936,Fish & Chips,1,2024-01-28 11:17:00,Frank
+3937,Craft Beer,1,2024-01-28 19:01:00,Henry
+3938,Steak & Ale Pie,1,2024-01-28 17:02:00,Bob
+3939,Lamb Shank,2,2024-01-28 20:40:00,Eve
+3940,Craft Beer,1,2024-01-28 20:14:00,Bob
+3941,Chicken Liver Pâté,2,2024-01-28 12:09:00,Henry
+3942,Eton Mess,2,2024-01-28 11:16:00,Frank
+3943,Steak & Ale Pie,1,2024-01-28 19:56:00,Grace
+3944,Scotch Egg,3,2024-01-28 17:33:00,Diana
+3945,Cask Ale,2,2024-01-28 13:37:00,Alice
+3946,Sea Bass,2,2024-01-28 18:16:00,Bob
+3947,Sea Bass,1,2024-01-28 13:44:00,Henry
+3948,Sea Bass,2,2024-01-28 09:48:00,Alice
+3949,Gravy,1,2024-01-28 17:03:00,Charlie
+3950,Sparkling Water,2,2024-01-28 14:07:00,Henry
+3951,Craft Beer,2,2024-01-28 13:24:00,Alice
+3952,Sea Bass,3,2024-01-28 17:37:00,Henry
+3953,Prawn Cocktail,2,2024-01-28 17:48:00,Charlie
+3954,G&T,2,2024-01-28 13:12:00,Henry
+3955,Steak & Ale Pie,3,2024-01-28 16:05:00,Eve
+3956,Prawn Cocktail,1,2024-01-28 11:46:00,Henry
+3957,Lamb Shank,1,2024-01-28 18:19:00,Bob
+3958,Smoked Salmon,2,2024-01-28 18:14:00,Eve
+3959,Pork Pie,2,2024-01-28 12:43:00,Henry
+3960,House Wine (175ml),1,2024-01-28 15:55:00,Frank
+3961,Apple Crumble,1,2024-01-28 18:31:00,Diana
+3962,Chicken Liver Pâté,3,2024-01-28 12:56:00,Alice
+3963,Fish & Chips,2,2024-01-28 18:28:00,Charlie
+3964,Sparkling Water,1,2024-01-28 13:25:00,Frank
+3965,Chicken Liver Pâté,2,2024-01-28 16:40:00,Charlie
+3966,Lamb Shank,2,2024-01-28 18:21:00,Henry
+3967,Cider,2,2024-01-29 17:56:00,Grace
+3968,Sunday Roast,3,2024-01-29 22:57:00,Grace
+3969,Steak & Ale Pie,1,2024-01-29 19:37:00,Henry
+3970,Steak & Ale Pie,2,2024-01-29 19:06:00,Grace
+3971,Sunday Roast,1,2024-01-29 11:13:00,Alice
+3972,Sticky Toffee Pudding,2,2024-01-29 13:57:00,Alice
+3973,Craft Beer,2,2024-01-29 13:47:00,Alice
+3974,G&T,1,2024-01-29 14:54:00,Frank
+3975,Sparkling Water,2,2024-01-29 20:58:00,Charlie
+3976,Lamb Shank,2,2024-01-29 14:53:00,Henry
+3977,House Wine (175ml),1,2024-01-29 13:30:00,Henry
+3978,Soup of the Day,1,2024-01-29 19:20:00,Charlie
+3979,Steak & Ale Pie,2,2024-01-29 14:16:00,Alice
+3980,Sea Bass,1,2024-01-29 15:27:00,Alice
+3981,G&T,2,2024-01-29 11:04:00,Henry
+3982,Fish & Chips,1,2024-01-29 19:12:00,Charlie
+3983,Steak & Ale Pie,1,2024-01-29 09:45:00,Alice
+3984,Prawn Cocktail,3,2024-01-29 21:38:00,Bob
+3985,Scotch Egg,2,2024-01-29 13:10:00,Alice
+3986,Steak & Ale Pie,1,2024-01-29 21:23:00,Henry
+3987,Lamb Shank,1,2024-01-29 13:41:00,Frank
+3988,Cask Ale,3,2024-01-29 18:36:00,Eve
+3989,Coffee,1,2024-01-29 16:52:00,Henry
+3990,Cider,3,2024-01-29 14:47:00,Alice
+3991,House Wine (175ml),1,2024-01-29 18:12:00,Eve
+3992,Craft Beer,3,2024-01-29 12:17:00,Alice
+3993,Steak & Ale Pie,1,2024-01-29 13:37:00,Henry
+3994,Lamb Shank,1,2024-01-29 19:23:00,Grace
+3995,Lamb Shank,1,2024-01-29 18:20:00,Bob
+3996,Bangers & Mash,1,2024-01-29 20:52:00,Henry
+3997,Sea Bass,1,2024-01-29 22:33:00,Henry
+3998,Fish & Chips,1,2024-01-29 12:43:00,Frank
+3999,Sunday Roast,2,2024-01-29 12:14:00,Henry
+4000,Cask Ale,3,2024-01-29 19:22:00,Eve
+4001,Sea Bass,2,2024-01-29 20:15:00,Eve
+4002,Smoked Salmon,1,2024-01-29 12:10:00,Frank
+4003,House Wine (175ml),2,2024-01-29 18:05:00,Eve
+4004,Smoked Salmon,2,2024-01-29 11:15:00,Frank
+4005,G&T,1,2024-01-29 18:24:00,Bob
+4006,Sparkling Water,2,2024-01-29 19:41:00,Eve
+4007,Fish & Chips,2,2024-01-29 10:55:00,Henry
+4008,Lamb Shank,1,2024-01-29 18:01:00,Grace
+4009,Craft Beer,2,2024-01-29 11:56:00,Henry
+4010,Lamb Shank,1,2024-01-29 17:59:00,Charlie
+4011,Gravy,1,2024-01-29 13:33:00,Frank
+4012,Fish & Chips,3,2024-01-29 18:14:00,Grace
+4013,Chicken Liver Pâté,2,2024-01-29 13:34:00,Henry
+4014,Chicken Liver Pâté,1,2024-01-29 15:38:00,Frank
+4015,Sea Bass,2,2024-01-29 17:12:00,Grace
+4016,Sunday Roast,2,2024-01-29 17:39:00,Grace
+4017,Sea Bass,3,2024-01-29 19:14:00,Eve
+4018,Coffee,1,2024-01-29 19:26:00,Eve
+4019,Sea Bass,3,2024-01-29 19:14:00,Eve
+4020,Sunday Roast,1,2024-01-29 11:10:00,Frank
+4021,Cask Ale,3,2024-01-29 20:50:00,Bob
+4022,Sea Bass,1,2024-01-29 09:32:00,Frank
+4023,Craft Beer,1,2024-01-29 11:15:00,Frank
+4024,Smoked Salmon,1,2024-01-29 18:23:00,Grace
+4025,Scotch Egg,3,2024-01-29 12:27:00,Henry
+4026,Cask Ale,3,2024-01-29 18:37:00,Charlie
+4027,Lamb Shank,1,2024-01-29 10:04:00,Frank
+4028,G&T,3,2024-01-29 12:57:00,Henry
+4029,Apple Crumble,1,2024-01-29 22:49:00,Bob
+4030,House Wine (175ml),2,2024-01-29 12:04:00,Alice
+4031,Craft Beer,1,2024-01-29 11:08:00,Frank
+4032,Apple Crumble,2,2024-01-29 14:59:00,Henry
+4033,Sunday Roast,1,2024-01-29 15:43:00,Alice
+4034,Bread & Butter Pudding,1,2024-01-29 13:02:00,Frank
+4035,House Wine (175ml),1,2024-01-29 14:16:00,Henry
+4036,G&T,2,2024-01-29 14:09:00,Henry
+4037,Craft Beer,1,2024-01-29 14:11:00,Frank
+4038,House Wine (175ml),2,2024-01-29 14:52:00,Henry
+4039,Coffee,1,2024-01-29 18:57:00,Eve
+4040,Seasonal Veg,2,2024-01-29 22:53:00,Eve
+4041,Bread & Butter Pudding,1,2024-01-29 13:42:00,Henry
+4042,Sunday Roast,2,2024-01-29 17:48:00,Charlie
+4043,Chicken Liver Pâté,1,2024-01-29 17:08:00,Charlie
+4044,Craft Beer,2,2024-01-29 17:08:00,Charlie
+4045,Cask Ale,2,2024-01-29 13:55:00,Henry
+4046,Apple Crumble,1,2024-01-29 12:06:00,Alice
+4047,Prawn Cocktail,1,2024-01-29 09:32:00,Frank
+4048,Steak & Ale Pie,1,2024-01-29 19:37:00,Eve
+4049,Cask Ale,1,2024-01-29 15:59:00,Frank
+4050,Sea Bass,1,2024-01-29 14:16:00,Frank
+4051,Steak & Ale Pie,3,2024-01-29 19:45:00,Eve
+4052,Prawn Cocktail,2,2024-01-29 14:12:00,Henry
+4053,Lamb Shank,1,2024-01-29 15:19:00,Frank
+4054,Bread & Butter Pudding,2,2024-01-29 17:24:00,Grace
+4055,Steak & Ale Pie,1,2024-01-29 18:53:00,Eve
+4056,Sea Bass,3,2024-01-29 13:09:00,Alice
+4057,Sea Bass,1,2024-01-29 11:59:00,Alice
+4058,Sunday Roast,3,2024-01-29 13:27:00,Alice
+4059,Coffee,1,2024-01-29 19:39:00,Bob
+4060,Gravy,2,2024-01-29 13:28:00,Alice
+4061,Lamb Shank,3,2024-01-29 17:25:00,Eve
+4062,Steak & Ale Pie,1,2024-01-29 17:53:00,Bob
+4063,Sunday Roast,1,2024-01-29 13:29:00,Frank
+4064,House Wine (175ml),2,2024-01-29 18:45:00,Henry
+4065,Apple Crumble,1,2024-01-29 17:39:00,Diana
+4066,Sparkling Water,1,2024-01-29 12:28:00,Frank
+4067,Fish & Chips,1,2024-01-29 15:59:00,Henry
+4068,Soup of the Day,2,2024-01-29 12:42:00,Alice
+4069,Coffee,1,2024-01-29 12:07:00,Frank
+4070,Coffee,1,2024-01-29 18:49:00,Bob
+4071,Coffee,1,2024-01-29 13:27:00,Henry
+4072,Sticky Toffee Pudding,2,2024-01-29 19:17:00,Eve
+4073,Lamb Shank,2,2024-01-29 12:11:00,Alice
+4074,Sunday Roast,1,2024-01-29 18:07:00,Eve
+4075,Cask Ale,3,2024-01-29 18:12:00,Charlie
+4076,Cask Ale,1,2024-01-29 13:47:00,Frank
+4077,Craft Beer,1,2024-01-29 11:15:00,Frank
+4078,Lamb Shank,1,2024-01-29 21:18:00,Grace
+4079,House Wine (175ml),2,2024-01-30 18:35:00,Charlie
+4080,Sunday Roast,2,2024-01-30 18:23:00,Grace
+4081,Craft Beer,2,2024-01-30 13:42:00,Henry
+4082,House Wine (175ml),2,2024-01-30 12:13:00,Henry
+4083,Steak & Ale Pie,2,2024-01-30 21:33:00,Eve
+4084,Apple Crumble,1,2024-01-30 10:30:00,Frank
+4085,Craft Beer,3,2024-01-30 13:12:00,Henry
+4086,Lamb Shank,1,2024-01-30 13:21:00,Henry
+4087,Craft Beer,1,2024-01-30 18:31:00,Diana
+4088,Fish & Chips,1,2024-01-30 12:48:00,Frank
+4089,Craft Beer,1,2024-01-30 12:55:00,Alice
+4090,Fish & Chips,2,2024-01-30 17:32:00,Eve
+4091,Lamb Shank,3,2024-01-30 17:34:00,Henry
+4092,Sunday Roast,1,2024-01-30 11:40:00,Frank
+4093,Prawn Cocktail,2,2024-01-30 11:43:00,Alice
+4094,Cask Ale,1,2024-01-30 12:55:00,Henry
+4095,Cask Ale,1,2024-01-30 12:50:00,Frank
+4096,Sunday Roast,1,2024-01-30 12:49:00,Henry
+4097,Sunday Roast,1,2024-01-30 19:22:00,Henry
+4098,Sunday Roast,1,2024-01-30 15:52:00,Alice
+4099,Coffee,2,2024-01-30 17:16:00,Grace
+4100,Fish & Chips,1,2024-01-30 11:42:00,Alice
+4101,Sea Bass,1,2024-01-30 09:11:00,Henry
+4102,Apple Crumble,1,2024-01-30 15:20:00,Henry
+4103,Prawn Cocktail,2,2024-01-30 15:50:00,Henry
+4104,Lamb Shank,3,2024-01-30 18:33:00,Grace
+4105,Scotch Egg,2,2024-01-30 13:17:00,Alice
+4106,Cider,1,2024-01-30 10:19:00,Henry
+4107,Soup of the Day,2,2024-01-30 18:24:00,Henry
+4108,Sunday Roast,3,2024-01-30 22:09:00,Grace
+4109,Sea Bass,2,2024-01-30 18:23:00,Charlie
+4110,Lamb Shank,3,2024-01-30 13:35:00,Alice
+4111,Sea Bass,1,2024-01-30 18:38:00,Charlie
+4112,Pork Pie,2,2024-01-30 12:52:00,Frank
+4113,G&T,1,2024-01-30 13:16:00,Alice
+4114,Apple Crumble,1,2024-01-30 13:22:00,Alice
+4115,Cask Ale,2,2024-01-30 19:21:00,Eve
+4116,Steak & Ale Pie,2,2024-01-30 18:02:00,Grace
+4117,G&T,1,2024-01-30 17:20:00,Bob
+4118,Soup of the Day,1,2024-01-30 16:12:00,Bob
+4119,Fish & Chips,2,2024-01-30 12:19:00,Alice
+4120,Craft Beer,1,2024-01-30 14:08:00,Henry
+4121,Bangers & Mash,1,2024-01-30 14:46:00,Frank
+4122,Sea Bass,2,2024-01-30 17:06:00,Eve
+4123,Coffee,1,2024-01-30 13:48:00,Henry
+4124,Sunday Roast,1,2024-01-30 18:17:00,Grace
+4125,Lamb Shank,2,2024-01-30 18:02:00,Diana
+4126,Coffee,1,2024-01-30 14:06:00,Alice
+4127,Fish & Chips,2,2024-01-30 15:08:00,Henry
+4128,Fish & Chips,3,2024-01-30 17:14:00,Diana
+4129,Steak & Ale Pie,2,2024-01-30 19:43:00,Bob
+4130,Steak & Ale Pie,3,2024-01-30 19:07:00,Grace
+4131,Chips,1,2024-01-30 13:11:00,Alice
+4132,Craft Beer,3,2024-01-30 17:00:00,Diana
+4133,Sparkling Water,1,2024-01-30 13:27:00,Frank
+4134,Lamb Shank,3,2024-01-30 18:45:00,Eve
+4135,Lamb Shank,2,2024-01-30 14:35:00,Alice
+4136,Scotch Egg,1,2024-01-30 19:47:00,Diana
+4137,Sea Bass,1,2024-01-30 17:55:00,Diana
+4138,Mushy Peas,1,2024-01-30 14:28:00,Frank
+4139,Mushy Peas,1,2024-01-30 15:58:00,Frank
+4140,Lamb Shank,1,2024-01-30 12:52:00,Frank
+4141,Bread & Butter Pudding,1,2024-01-30 13:18:00,Alice
+4142,Sea Bass,3,2024-01-30 12:40:00,Henry
+4143,Craft Beer,1,2024-01-30 12:28:00,Henry
+4144,Sunday Roast,1,2024-01-30 16:17:00,Eve
+4145,Coffee,2,2024-01-30 20:56:00,Grace
+4146,Sticky Toffee Pudding,3,2024-01-30 18:45:00,Grace
+4147,Gravy,1,2024-01-30 17:44:00,Bob
+4148,Gravy,1,2024-01-30 20:41:00,Eve
+4149,Apple Crumble,1,2024-01-30 15:18:00,Frank
+4150,Sunday Roast,2,2024-01-30 15:33:00,Alice
+4151,Craft Beer,1,2024-01-30 19:44:00,Henry
+4152,Coffee,1,2024-01-30 10:45:00,Henry
+4153,Lamb Shank,3,2024-01-30 18:56:00,Diana
+4154,Fish & Chips,2,2024-01-30 19:23:00,Henry
+4155,Sea Bass,2,2024-01-30 19:14:00,Grace
+4156,G&T,1,2024-01-30 10:21:00,Frank
+4157,Gravy,1,2024-01-30 12:39:00,Frank
+4158,Sea Bass,2,2024-01-30 10:41:00,Henry
+4159,Seasonal Veg,2,2024-01-30 17:02:00,Diana
+4160,Sea Bass,2,2024-01-30 17:34:00,Eve
+4161,Steak & Ale Pie,1,2024-01-30 15:57:00,Frank
+4162,Coffee,2,2024-01-30 18:53:00,Bob
+4163,Bangers & Mash,2,2024-01-30 10:31:00,Frank
+4164,Gravy,3,2024-01-30 19:48:00,Henry
+4165,Lamb Shank,3,2024-01-30 17:01:00,Henry
+4166,Cider,2,2024-01-30 17:36:00,Charlie
+4167,Mushy Peas,2,2024-01-30 19:55:00,Bob
+4168,Bread & Butter Pudding,1,2024-01-30 09:09:00,Henry
+4169,Craft Beer,3,2024-01-30 18:30:00,Bob
+4170,Steak & Ale Pie,1,2024-01-30 15:56:00,Frank
+4171,Steak & Ale Pie,1,2024-01-30 19:26:00,Charlie
+4172,Lamb Shank,1,2024-01-30 17:55:00,Grace
+4173,Sea Bass,2,2024-01-30 12:46:00,Alice
+4174,Sticky Toffee Pudding,2,2024-01-30 16:10:00,Bob
+4175,Craft Beer,1,2024-01-30 13:00:00,Alice
+4176,Cask Ale,1,2024-01-30 18:13:00,Grace
+4177,Sunday Roast,1,2024-01-30 12:15:00,Henry
+4178,Sticky Toffee Pudding,3,2024-01-30 17:25:00,Bob
+4179,House Wine (175ml),2,2024-01-30 18:12:00,Diana
+4180,Prawn Cocktail,1,2024-01-30 11:56:00,Henry
+4181,Prawn Cocktail,2,2024-01-30 17:00:00,Charlie
+4182,Lamb Shank,1,2024-01-30 13:28:00,Frank
+4183,Craft Beer,1,2024-01-30 19:59:00,Bob
+4184,Lamb Shank,1,2024-01-30 13:17:00,Frank
+4185,Cider,3,2024-01-30 18:23:00,Grace
+4186,Chicken Liver Pâté,2,2024-01-30 14:08:00,Alice
+4187,Lamb Shank,2,2024-01-30 19:58:00,Charlie
+4188,Sparkling Water,1,2024-01-30 19:54:00,Diana
+4189,Craft Beer,1,2024-01-30 13:28:00,Frank
+4190,Fish & Chips,1,2024-01-30 14:03:00,Alice
+4191,G&T,3,2024-01-30 12:06:00,Alice
+4192,Cider,3,2024-01-30 18:31:00,Grace

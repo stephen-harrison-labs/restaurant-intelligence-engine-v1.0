@@ -1,0 +1,30 @@
+item_id,item_name,tags,expected_quadrant,is_opportunity,is_risk,archetype_role
+1,Yogurt Parfait,['starters'],,False,False,standard
+2,Avocado Toast,"['starters', 'overpriced_low_volume']",Dog,False,True,risk
+3,Granola Bowl,['starters'],,False,False,standard
+4,Bagel & Cream Cheese,['mains'],,False,False,standard
+5,Club Sandwich,['mains'],,False,False,standard
+6,Soup & Salad Combo,['mains'],,False,False,standard
+7,Quiche,"['mains', 'underpriced_high_performer']",Star,True,False,opportunity
+8,Cookie,['sides'],,False,False,standard
+9,Tiramisu,['desserts'],,False,False,standard
+10,Panna Cotta,['desserts'],,False,False,standard
+11,Carrot Cake,"['desserts', 'anchor_item']",Plowhorse,False,False,anchor
+12,Red Velvet Cake,"['desserts', 'high_waste_risk']",,False,True,risk
+13,Panna Cotta,['desserts'],,False,False,standard
+14,Red Velvet Cake,['desserts'],,False,False,standard
+15,Triple Chocolate Cake,"['desserts', 'overpriced_low_volume']",Dog,False,True,risk
+16,Carrot Cake,['desserts'],,False,False,standard
+17,Pavlova,['desserts'],,False,False,standard
+18,New York Cheesecake,"['desserts', 'underpriced_high_performer']",Star,True,False,opportunity
+19,Carrot Cake,['desserts'],,False,False,standard
+20,New York Cheesecake,"['desserts', 'underpriced_high_performer']",Star,True,False,opportunity
+21,Banoffee Pie,['desserts'],,False,False,standard
+22,Carrot Cake,['desserts'],,False,False,standard
+23,Red Velvet Cake,"['desserts', 'overpriced_low_volume']",Dog,False,True,risk
+24,Fresh Juice,['drinks'],,False,False,standard
+25,Cappuccino,['drinks'],,False,False,standard
+26,Tea,"['drinks', 'underpriced_high_performer']",Star,True,False,opportunity
+27,Latte,['drinks'],,False,False,standard
+28,Iced Coffee,['drinks'],,False,False,standard
+29,Smoothie,['drinks'],,False,False,standard

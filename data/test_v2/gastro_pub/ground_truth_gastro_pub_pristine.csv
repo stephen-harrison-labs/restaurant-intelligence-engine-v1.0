@@ -1,0 +1,41 @@
+item_id,item_name,tags,expected_quadrant,is_opportunity,is_risk,archetype_role
+1,Chicken Liver Pâté,['starters'],,False,False,standard
+2,Soup of the Day,['starters'],,False,False,standard
+3,Prawn Cocktail,['starters'],,False,False,standard
+4,Prawn Cocktail,['starters'],,False,False,standard
+5,Smoked Salmon,['starters'],,False,False,standard
+6,Scotch Egg,['starters'],,False,False,standard
+7,Chicken Liver Pâté,"['starters', 'high_waste_risk']",,False,True,risk
+8,Pork Pie,"['starters', 'overpriced_low_volume']",Dog,False,True,risk
+9,Fish & Chips,['mains'],,False,False,standard
+10,Lamb Shank,['mains'],,False,False,standard
+11,Lamb Shank,['mains'],,False,False,standard
+12,Sea Bass,['mains'],,False,False,standard
+13,Lamb Shank,"['mains', 'overpriced_low_volume']",Dog,False,True,risk
+14,Steak & Ale Pie,['mains'],,False,False,standard
+15,Sea Bass,['mains'],,False,False,standard
+16,Bangers & Mash,"['mains', 'overpriced_low_volume']",Dog,False,True,risk
+17,Steak & Ale Pie,['mains'],,False,False,standard
+18,Sea Bass,['mains'],,False,False,standard
+19,Steak & Ale Pie,['mains'],,False,False,standard
+20,Sunday Roast,"['mains', 'high_waste_risk']",,False,True,risk
+21,Fish & Chips,['sides'],,False,False,standard
+22,Mushy Peas,['sides'],,False,False,standard
+23,Gravy,"['sides', 'underpriced_high_performer']",Star,True,False,opportunity
+24,Seasonal Veg,['sides'],,False,False,standard
+25,Mash,"['sides', 'overpriced_low_volume']",Dog,False,True,risk
+26,Chips,['sides'],,False,False,standard
+27,Eton Mess,['desserts'],,False,False,standard
+28,Sticky Toffee Pudding,"['desserts', 'anchor_item']",Plowhorse,False,False,anchor
+29,Bread & Butter Pudding,['desserts'],,False,False,standard
+30,Apple Crumble,"['desserts', 'underpriced_high_performer']",Star,True,False,opportunity
+31,G&T,['drinks'],,False,False,standard
+32,Sparkling Water,['drinks'],,False,False,standard
+33,Craft Beer,"['drinks', 'underpriced_high_performer']",Star,True,False,opportunity
+34,G&T,['drinks'],,False,False,standard
+35,Cider,"['drinks', 'overpriced_low_volume']",Dog,False,True,risk
+36,Cask Ale,['drinks'],,False,False,standard
+37,Coffee,['drinks'],,False,False,standard
+38,House Wine (175ml),['drinks'],,False,False,standard
+39,Coffee,['drinks'],,False,False,standard
+40,Cider,['drinks'],,False,False,standard

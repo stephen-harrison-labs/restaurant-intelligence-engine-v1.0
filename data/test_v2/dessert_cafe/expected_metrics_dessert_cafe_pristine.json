@@ -1,0 +1,15 @@
+{
+  "total_star_items": 4,
+  "total_underpriced_items": 4,
+  "high_waste_items": [
+    "Red Velvet Cake"
+  ],
+  "anchor_items": [
+    "Carrot Cake"
+  ],
+  "overpriced_low_volume_items": [
+    "Avocado Toast",
+    "Triple Chocolate Cake",
+    "Red Velvet Cake"
+  ]
+}

@@ -1,0 +1,41 @@
+item_id,item_name,category,sell_price,cost_per_unit
+1,Chicken Liver Pâté,Starters,13.8,3.94
+2,Soup of the Day,Starters,7.02,2.33
+3,Prawn Cocktail,Starters,13.41,4.07
+4,Prawn Cocktail,Starters,9.55,3.49
+5,Smoked Salmon,Starters,6.51,1.8
+6,Scotch Egg,Starters,12.06,4.18
+7,Chicken Liver Pâté,Starters,13.14,3.72
+8,Pork Pie,Starters,12.16,3.83
+9,Fish & Chips,Mains,17.41,7.5
+10,Lamb Shank,Mains,18.08,6.32
+11,Lamb Shank,Mains,28.99,10.0
+12,Sea Bass,Mains,28.98,9.54
+13,Lamb Shank,Mains,23.99,6.67
+14,Steak & Ale Pie,Mains,17.6,7.9
+15,Sea Bass,Mains,25.97,8.94
+16,Bangers & Mash,Mains,27.83,8.12
+17,Steak & Ale Pie,Mains,16.06,5.62
+18,Sea Bass,Mains,24.17,8.1
+19,Steak & Ale Pie,Mains,23.96,8.77
+20,Sunday Roast,Mains,14.55,5.59
+21,Fish & Chips,Sides,5.03,1.01
+22,Mushy Peas,Sides,6.74,1.35
+23,Gravy,Sides,5.82,0.76
+24,Seasonal Veg,Sides,4.32,0.83
+25,Mash,Sides,5.7,1.03
+26,Chips,Sides,6.44,1.5
+27,Eton Mess,Desserts,6.35,2.11
+28,Sticky Toffee Pudding,Desserts,9.5,2.33
+29,Bread & Butter Pudding,Desserts,9.88,2.3
+30,Apple Crumble,Desserts,6.63,1.13
+31,G&T,Drinks,5.0,0.64
+32,Sparkling Water,Drinks,9.62,2.05
+33,Craft Beer,Drinks,7.19,0.03
+34,G&T,Drinks,7.03,2.05
+35,Cider,Drinks,7.88,1.71
+36,Cask Ale,Drinks,8.49,2.26
+37,Coffee,Drinks,8.44,1.95
+38,House Wine (175ml),Drinks,3.69,0.4
+39,Coffee,Drinks,10.15,2.88
+40,Cider,Drinks,7.67,0.86
