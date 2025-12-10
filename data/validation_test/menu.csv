@@ -1,0 +1,24 @@
+item_id,item_name,category,sell_price,cost_per_unit
+1,Mozzarella Sticks,Starters,7.29,2.45
+2,Jalapeño Poppers,Starters,9.43,1.75
+3,Loaded Potato Skins,Starters,6.3,1.85
+4,Double Cheeseburger,Mains,8.64,3.25
+5,BBQ Pulled Pork Burger,Mains,15.58,6.96
+6,Chicken Burger,Mains,16.93,6.49
+7,Double Cheeseburger,Mains,15.84,6.25
+8,Veggie Burger,Mains,14.83,5.76
+9,Veggie Burger,Mains,11.26,5.0
+10,Veggie Burger,Mains,9.89,4.75
+11,Bacon Cheeseburger,Mains,10.27,4.1
+12,Classic Beef Burger,Mains,16.33,6.45
+13,Veggie Burger,Mains,16.32,6.19
+14,Onion Rings,Sides,4.99,0.72
+15,French Fries,Sides,5.47,0.72
+16,Corn on the Cob,Sides,3.34,0.5
+17,Coleslaw,Sides,4.7,0.64
+18,Sweet Potato Fries,Sides,4.66,0.77
+19,Side Salad,Sides,3.09,0.57
+20,Brownie Sundae,Desserts,5.58,0.66
+21,Apple Pie,Desserts,4.84,1.24
+22,Coca Cola,Drinks,4.66,0.65
+23,Milkshake,Drinks,2.27,0.08

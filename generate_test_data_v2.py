@@ -499,9 +499,9 @@ class UltraRealisticRestaurantGenerator:
                 # Stars and anchors: high volume
                 if "underpriced_high_performer" in tags or "anchor_item" in tags:
                     base_weight *= 3.0
-                # Dogs: low volume
+                # Dogs: VERY low volume (overpriced items don't sell)
                 elif "overpriced_low_volume" in tags:
-                    base_weight *= 0.2
+                    base_weight *= 0.02  # 2% of normal - truly unpopular
                 # High waste: medium-high volume (to generate waste)
                 elif "high_waste_risk" in tags:
                     base_weight *= 1.5
