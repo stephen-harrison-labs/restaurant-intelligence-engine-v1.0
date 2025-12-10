@@ -1,0 +1,4 @@
+item_name,category,sell_price,cost_per_unit
+Loss Leader,Starters,5.0,8.0
+Normal Item,Mains,10.0,4.0
+Profitable,Mains,15.0,6.0

@@ -1,0 +1,3975 @@
+item_name,qty,order_datetime
+Coca Cola,2,2024-01-02 03:14:00
+Hummus Plate,2,2024-01-02 03:53:00
+Chicken Burger,2,invalid_date
+Hummus Plate,2,2024-01-01 21:02:00
+Mashed Potatoes,1,invalid_date
+  Salmon  ,1,2024-01-01 22:13:00
+Margherita Pizza,1,2024-01-02 04:36:00
+  Salmon  ,4,2024-01-02 04:20:00
+Soup of the Day,1,invalid_date
+Coca Cola,1,2024-01-01 22:58:00
+  Salmon  ,3,2024-01-02 02:09:00
+  Salmon  ,3,2024-01-01 22:15:00
+Unknown Item 6,2,2024-01-02 03:34:00
+Onion Rings,1,2024-01-01 22:37:00
+Veggie Burger,1,2024-01-01 23:37:00
+  Salmon  ,1,2024-01-01 23:14:00
+  Salmon  ,1,2024-01-02 07:08:00
+Soup of the Day,1,invalid_date
+Coca Cola,1,2024-01-02 03:55:00
+Mashed Potatoes,3,2024-01-01 21:40:00
+  Salmon  ,1,2024-01-01 21:43:00
+Unknown Item 13,2,invalid_date
+Soup of the Day,2,2024-01-01 22:38:00
+Apple Pie,1,2024-01-02 07:33:00
+Veggie Burger,2,2024-01-01 22:35:00
+Veggie Burger,1,2024-01-02 04:00:00
+Hummus Plate,1,2024-01-02 03:07:00
+Soup of the Day,2,2024-01-02 03:34:00
+  Salmon  ,1,2024-01-02 03:49:00
+  Salmon  ,4,invalid_date
+Veggie Burger,1,2024-01-01 22:10:00
+Soup of the Day,2,2024-01-01 23:46:00
+Unknown Item 5,1,2024-01-02 04:16:00
+Onion Rings,1,2024-01-02 06:48:00
+Sparkling Water,1,invalid_date
+Apple Pie,2,2024-01-01 21:40:00
+Tea,3,2024-01-01 22:40:00
+Chocolate Cake,3,2024-01-02 00:12:00
+Tea,1,invalid_date
+Coca Cola,2,invalid_date
+  Salmon  ,2,2024-01-02 04:58:00
+Caesar Salad,2,2024-01-01 18:20:00
+Unknown Item 10,1,2024-01-02 00:07:00
+French Fries,2,2024-01-02 04:56:00
+French Fries,3,2024-01-02 06:51:00
+Cheesecake,1,2024-01-01 22:03:00
+Veggie Burger,3,2024-01-01 21:36:00
+  Salmon  ,2,2024-01-02 05:05:00
+Chicken Burger,1,2024-01-02 03:52:00
+Soup of the Day,1,2024-01-01 20:48:00
+Coca Cola,1,2024-01-02 01:08:00
+Onion Rings,2,2024-01-01 21:30:00
+Margherita Pizza,3,2024-01-02 05:10:00
+Margherita Pizza,1,2024-01-01 22:55:00
+Soup of the Day,3,2024-01-02 02:13:00
+Onion Rings,3,2024-01-02 04:48:00
+Caesar Salad,1,2024-01-02 03:12:00
+Unknown Item 4,3,2024-01-02 03:25:00
+Margherita Pizza,4,2024-01-02 07:41:00
+Apple Juice,2,2024-01-01 22:57:00
+  Salmon  ,2,2024-01-02 00:07:00
+  Salmon  ,4,2024-01-01 22:04:00
+Garlic Mushrooms,2,2024-01-01 22:37:00
+Chicken Wings,1,2024-01-02 01:37:00
+Apple Pie,3,2024-01-01 21:04:00
+  Salmon  ,2,invalid_date
+Margherita Pizza,2,2024-01-01 21:57:00
+Tea,1,2024-01-01 19:21:00
+Apple Pie,2,2024-01-01 20:15:00
+Garlic Mushrooms,1,2024-01-01 22:31:00
+Apple Juice,3,2024-01-01 21:08:00
+Tiramisu,1,2024-01-02 03:56:00
+Old Menu Item,1,2024-01-02 02:30:00
+Caesar Salad,1,2024-01-01 21:30:00
+  Salmon  ,1,2024-01-02 03:12:00
+Margherita Pizza,2,2024-01-01 20:42:00
+Unknown Item 3,3,invalid_date
+Apple Juice,3,invalid_date
+Veggie Burger,1,2024-01-02 03:43:00
+Caesar Salad,1,2024-01-02 02:41:00
+Chicken Burger,3,2024-01-01 20:25:00
+Unknown Item 0,3,invalid_date
+Veggie Burger,1,2024-01-02 04:15:00
+Chocolate Cakes,1,2024-01-01 21:34:00
+Unknown Item 12,1,2024-01-01 23:27:00
+Chicken Burger,3,2024-01-01 21:29:00
+Unknown Item 14,2,2024-01-01 22:59:00
+Hummus Plate,1,2024-01-01 20:51:00
+  Salmon  ,1,2024-01-02 04:35:00
+  Salmon  ,3,2024-01-01 20:41:00
+Garlic Mushrooms,1,2024-01-02 07:53:00
+Veggie Burgers,1,2024-01-01 18:05:00
+Margherita Pizza,2,2024-01-02 04:54:00
+Hummus Plate,1,2024-01-01 21:26:00
+Unknown Item 17,1,invalid_date
+  Salmon  ,3,invalid_date
+  Salmon  ,3,2024-01-01 20:24:00
+Soup of the Day,3,2024-01-01 18:24:00
+Margherita Pizza,-3,invalid_date
+Margherita Pizza,2,2024-01-02 03:18:00
+Garlic Mushrooms,3,2024-01-01 23:46:00
+Onion Rings,1,2024-01-02 07:35:00
+Chicken Wings,2,2024-01-02 02:31:00
+Soup of the Day,4,invalid_date
+Margherita Pizza,1,2024-01-01 21:03:00
+Soup of the Day,1,2024-01-02 02:34:00
+  Salmon  ,1,2024-01-01 20:20:00
+Soup of the Day,1,2024-01-01 20:37:00
+Veggie Burger,1,2024-01-02 00:58:00
+Daily Special,3,2024-01-02 04:10:00
+French Fries,4,2024-01-01 20:32:00
+  Salmon  ,1,invalid_date
+Unknown Item 5,1,2024-01-01 20:04:00
+Unknown Item 8,1,2024-01-02 03:15:00
+Apple Pie,3,invalid_date
+Caesar Salad,1,2024-01-02 02:37:00
+Chicken Burger,1,2024-01-02 02:39:00
+Unknown Item 18,1,2024-01-01 20:42:00
+Sparkling Water,1,invalid_date
+Unknown Item 14,1,2024-01-01 22:16:00
+Soup of the Day,3,2024-01-01 21:45:00
+Old Menu Item,2,2024-01-01 22:16:00
+Sparkling Water,2,2024-01-01 22:42:00
+Sparkling Water,1,2024-01-02 02:29:00
+Hummus Plate,2,2024-01-01 22:48:00
+  Salmon  ,2,2024-01-02 04:00:00
+Garlic Mushrooms,1,invalid_date
+Coca Cola,2,2024-01-02 07:04:00
+Veggie Burger,1,2024-01-02 01:32:00
+Seasonal Special,3,2024-01-01 22:59:00
+Onion Rings,1,2024-01-01 22:04:00
+Sparkling Water,4,2024-01-02 04:23:00
+Veggie Burger,1,2024-01-01 22:28:00
+Caesar Salad,2,2024-01-02 04:45:00
+Daily Special,2,2024-01-01 22:51:00
+  Salmon  ,2,2024-01-02 02:00:00
+  Salmon  ,-1,2024-01-02 02:35:00
+Coca Cola,1,2024-01-01 22:42:00
+Unknown Item 3,2,2024-01-01 21:56:00
+Mashed Potatoes,1,2024-01-01 21:07:00
+Margherita Pizza,1,2024-01-02 04:47:00
+  Salmon  ,2,2024-01-02 01:17:00
+Unknown Item 9,2,2024-01-01 22:13:00
+Margherita Pizza,1,2024-01-02 03:13:00
+Hummus Plate,1,2024-01-02 03:54:00
+Soup of the Day,1,2024-01-01 22:31:00
+Unknown Item 4,2,2024-01-01 22:58:00
+Old Menu Item,2,2024-01-02 04:05:00
+Soup of the Day,3,2024-01-02 02:53:00
+Soup of the Day,4,2024-01-01 22:00:00
+  Salmon  ,1,invalid_date
+Unknown Item 13,1,2024-01-02 02:16:00
+Hummus Plate,1,2024-01-01 21:28:00
+Veggie Burger,1,2024-01-02 01:27:00
+Garlic Mushrooms,3,2024-01-02 18:04:00
+Coca Cola,2,2024-01-03 05:44:00
+Coca Cola,1,2024-01-03 04:34:00
+  Salmon  ,1,2024-01-02 19:23:00
+Apple Juice,2,2024-01-03 02:09:00
+Coca Cola,2,2024-01-02 23:02:00
+Tea,1,2024-01-02 22:57:00
+Sparkling Water,4,2024-01-03 04:55:00
+French Fries,2,2024-01-02 19:22:00
+Cheesecake,1,2024-01-02 21:15:00
+Chicken Burger,3,2024-01-03 02:22:00
+Tea,1,2024-01-03 03:56:00
+Soup of the Day,3,2024-01-03 04:39:00
+Unknown Item 19,4,2024-01-03 03:59:00
+Unknown Item 6,2,2024-01-03 04:55:00
+  Salmon  ,2,2024-01-02 21:51:00
+  Salmon  ,1,2024-01-03 03:56:00
+Soup of the Day,3,invalid_date
+Unknown Item 3,2,2024-01-03 03:21:00
+Soup of the Day,2,2024-01-03 03:26:00
+  Salmon  ,3,2024-01-03 03:55:00
+Hummus Plate,4,2024-01-03 03:15:00
+Chicken Burger,3,2024-01-02 22:50:00
+Mashed Potatoes,1,2024-01-03 03:24:00
+Onion Rings,4,invalid_date
+Veggie Burger,2,2024-01-02 23:12:00
+Unknown Item 11,3,2024-01-03 03:29:00
+  Salmon  ,2,2024-01-02 22:52:00
+Chocolate Cake,1,2024-01-03 03:14:00
+Margherita Pizza,1,2024-01-02 21:42:00
+Cheesecake,2,invalid_date
+Soup of the Day,2,2024-01-02 22:04:00
+Unknown Item 15,1,invalid_date
+Apple Juice,2,2024-01-02 22:32:00
+  Salmon  ,1,2024-01-02 23:53:00
+Chicken Burger,3,2024-01-03 01:01:00
+Chocolate Cake,1,2024-01-02 21:16:00
+French Fries,1,2024-01-02 21:16:00
+Coca Cola,1,invalid_date
+Margherita Pizza,1,2024-01-02 23:46:00
+Unknown Item 3,1,2024-01-03 03:27:00
+  Salmon  ,1,2024-01-03 02:32:00
+Mashed Potatoes,1,2024-01-02 21:57:00
+Soup of the Day,3,2024-01-03 02:16:00
+Soup of the Day,3,2024-01-02 19:27:00
+  Salmon  ,1,2024-01-02 18:59:00
+Veggie Burger,4,2024-01-03 03:43:00
+Apple Juice,1,2024-01-03 03:47:00
+Mashed Potatoes,2,2024-01-03 03:12:00
+Unknown Item 19,2,2024-01-02 22:04:00
+Veggie Burger,1,2024-01-03 05:58:00
+  Salmon  ,1,2024-01-02 22:20:00
+  Salmon  ,1,2024-01-03 02:07:00
+Soup of the Day,1,2024-01-03 03:19:00
+Caesar Salad,2,2024-01-03 00:42:00
+Veggie Burger,1,2024-01-02 23:25:00
+Hummus Plate,1,2024-01-03 03:35:00
+Margherita Pizza,1,2024-01-02 21:26:00
+  Salmon  ,1,invalid_date
+Unknown Item 14,2,2024-01-03 03:57:00
+  Salmon  ,1,2024-01-02 21:36:00
+Coca Cola,3,2024-01-02 22:35:00
+Old Menu Item,1,2024-01-03 04:19:00
+Unknown Item 14,1,2024-01-02 22:27:00
+Margherita Pizza,2,2024-01-03 03:38:00
+French Fries,1,2024-01-03 02:29:00
+Chicken Burger,2,2024-01-02 23:43:00
+Margherita Pizza,2,2024-01-02 21:30:00
+Veggie Burger,-1,2024-01-03 03:50:00
+Unknown Item 7,1,2024-01-03 03:42:00
+Coca Cola,1,2024-01-02 20:32:00
+Caesar Salad,1,2024-01-03 02:39:00
+Unknown Item 12,1,2024-01-02 22:52:00
+  Salmon  ,1,2024-01-03 05:15:00
+Veggie Burger,1,2024-01-03 02:14:00
+Unknown Item 12,2,2024-01-03 03:09:00
+Margherita Pizza,2,2024-01-02 19:15:00
+Apple Pie,2,2024-01-03 06:39:00
+Caesar Salad,1,2024-01-03 04:04:00
+Soup of the Day,1,2024-01-02 23:56:00
+Tiramisu,3,2024-01-03 02:12:00
+Margherita Pizza,2,2024-01-03 03:24:00
+Caesar Salad,3,2024-01-03 00:15:00
+  Salmon  ,1,2024-01-02 21:44:00
+Soup of the Day,2,2024-01-02 18:48:00
+Apple Juice,2,invalid_date
+Unknown Item 2,1,2024-01-02 21:27:00
+Cheesecake,1,invalid_date
+  Salmon  ,2,2024-01-03 05:33:00
+French Fries,1,2024-01-02 23:35:00
+Veggie Burger,1,2024-01-02 22:54:00
+Unknown Item 1,2,2024-01-02 21:08:00
+Soup of the Day,3,invalid_date
+Coca Cola,1,2024-01-03 01:35:00
+Coca Cola,-1,invalid_date
+Margherita Pizza,1,2024-01-03 04:39:00
+Soup of the Day,2,2024-01-03 03:57:00
+Veggie Burger,1,2024-01-03 00:53:00
+  Salmon  ,4,2024-01-03 04:28:00
+Veggie Burger,1,2024-01-03 04:47:00
+Coca Cola,1,2024-01-03 04:28:00
+Veggie Burger,2,2024-01-02 22:15:00
+Soup of the Day,3,2024-01-03 04:17:00
+  Salmon  ,1,invalid_date
+Coca Cola,1,2024-01-03 00:15:00
+Margherita Pizza,4,2024-01-02 22:04:00
+Unknown Item 15,1,2024-01-03 03:15:00
+Garlic Mushrooms,3,2024-01-02 22:20:00
+Caesar Salad,1,2024-01-03 04:05:00
+Unknown Item 7,2,2024-01-02 21:14:00
+Soup of the Day,2,2024-01-02 22:09:00
+Onion Rings,1,2024-01-03 03:04:00
+Soup of the Day,3,invalid_date
+  Salmon  ,1,invalid_date
+  Salmon  ,1,invalid_date
+Mashed Potatoes,2,2024-01-02 23:57:00
+Margherita Pizza,1,2024-01-03 03:44:00
+Unknown Item 19,2,2024-01-02 18:56:00
+Caesar Salad,1,2024-01-03 03:24:00
+  Salmon  ,1,2024-01-03 00:22:00
+Garlic Mushrooms,1,2024-01-02 22:24:00
+Unknown Item 19,1,2024-01-03 04:53:00
+Tea,1,2024-01-02 23:47:00
+  Salmon  ,2,2024-01-03 03:51:00
+Margherita Pizza,3,2024-01-03 02:14:00
+Old Menu Item,3,2024-01-03 00:17:00
+Hummus Plate,1,2024-01-02 23:01:00
+Tea,1,2024-01-02 22:42:00
+Chocolate Cake,1,2024-01-03 03:25:00
+  Salmon  ,1,2024-01-03 03:53:00
+Chocolate Cake,2,2024-01-02 23:08:00
+  Salmon  ,1,2024-01-03 06:34:00
+Onion Rings,1,invalid_date
+Soup of the Day,3,2024-01-03 02:42:00
+  Salmon  ,1,2024-01-02 19:41:00
+Hummus Plate,1,2024-01-02 23:55:00
+Caesar Salad,1,2024-01-02 23:03:00
+Veggie Burger,1,2024-01-02 22:20:00
+Caesar Salad,3,2024-01-02 21:20:00
+Caesar Salad,1,2024-01-02 22:56:00
+Veggie Burger,1,2024-01-02 22:48:00
+Soup of the Day,1,2024-01-03 05:26:00
+Hummus Plate,1,2024-01-02 22:05:00
+Soup of the Day,1,2024-01-02 23:47:00
+Mashed Potatoes,-3,2024-01-03 01:22:00
+Unknown Item 15,3,2024-01-02 21:04:00
+Veggie Burger,2,2024-01-03 03:41:00
+  Salmon  ,1,2024-01-02 19:01:00
+Chocolate Cake,3,2024-01-03 05:12:00
+Soup of the Day,2,2024-01-04 02:15:00
+Soup of the Day,1,invalid_date
+Apple Juice,2,2024-01-03 21:13:00
+Margherita Pizza,1,2024-01-03 23:16:00
+Soup of the Day,1,2024-01-04 03:10:00
+Unknown Item 16,2,2024-01-04 02:47:00
+  Salmon  ,1,2024-01-04 03:49:00
+  Salmon  ,2,2024-01-04 03:19:00
+Garlic Mushrooms,1,2024-01-03 21:01:00
+Tiramisu,3,2024-01-04 04:36:00
+Seasonal Special,4,2024-01-04 03:24:00
+Unknown Item 6,3,2024-01-03 23:45:00
+Coca Cola,1,2024-01-03 21:37:00
+Chocolate Cake,1,2024-01-04 03:40:00
+Sparkling Water,1,invalid_date
+French Fries,1,2024-01-04 03:54:00
+  Salmon  ,1,2024-01-04 03:51:00
+Caesar Salad,2,2024-01-03 21:36:00
+Sparkling Water,2,2024-01-04 03:22:00
+Coca Cola,4,2024-01-04 01:42:00
+Tiramisu,1,2024-01-03 22:32:00
+Coca Cola,1,2024-01-04 02:00:00
+Chocolate Cake,1,2024-01-04 04:52:00
+Margherita Pizza,3,2024-01-04 00:27:00
+Veggie Burger,2,2024-01-04 05:40:00
+Unknown Item 3,3,2024-01-04 04:29:00
+Chicken Burger,3,2024-01-04 03:27:00
+Soup of the Day,2,2024-01-03 21:33:00
+Tiramisu,1,2024-01-04 05:17:00
+Veggie Burger,1,invalid_date
+Chocolate Cake,2,2024-01-04 01:30:00
+Chicken Burger,1,2024-01-03 23:52:00
+French Fries,1,invalid_date
+Unknown Item 9,3,2024-01-03 22:15:00
+Margherita Pizza,4,2024-01-04 04:05:00
+  Salmon  ,2,2024-01-03 22:28:00
+Garlic Mushrooms,2,2024-01-03 21:29:00
+Veggie Burger,2,2024-01-04 02:42:00
+Tea,1,2024-01-03 22:01:00
+Soup of the Day,1,2024-01-04 00:20:00
+Unknown Item 5,2,invalid_date
+Soup of the Day,2,2024-01-03 22:16:00
+Unknown Item 13,1,2024-01-03 22:56:00
+  Salmon  ,3,invalid_date
+  Salmon  ,1,2024-01-03 22:00:00
+Cheesecake,1,2024-01-04 00:12:00
+Onion Rings,2,2024-01-03 20:46:00
+Caesar Salad,-1,2024-01-03 23:35:00
+Unknown Item 3,1,2024-01-04 03:44:00
+Cheesecake,1,2024-01-04 00:45:00
+Coca Cola,2,2024-01-04 00:50:00
+  Salmon  ,1,2024-01-03 18:18:00
+Margherita Pizza,2,2024-01-03 21:44:00
+French Fries,2,2024-01-03 21:42:00
+Mashed Potatoes,1,2024-01-04 02:30:00
+Margherita Pizza,4,2024-01-04 01:22:00
+Chicken Burger,1,2024-01-03 23:47:00
+  Salmon  ,4,2024-01-04 01:22:00
+  Salmon  ,2,2024-01-04 03:17:00
+Chicken Burger,4,2024-01-03 22:14:00
+Veggie Burger,1,2024-01-03 21:12:00
+Unknown Item 16,1,2024-01-03 22:47:00
+Soup of the Day,1,2024-01-04 01:48:00
+Soup of the Day,1,2024-01-04 03:12:00
+Unknown Item 3,2,invalid_date
+Chicken Burger,1,invalid_date
+Unknown Item 4,2,2024-01-04 06:33:00
+French Fries,1,2024-01-04 02:06:00
+  Salmon  ,1,2024-01-04 04:18:00
+  Salmon  ,2,invalid_date
+Caesar Salad,1,2024-01-03 22:45:00
+Caesar Salad,2,2024-01-04 01:17:00
+Apple Pie,2,2024-01-03 19:03:00
+Unknown Item 10,3,2024-01-04 01:44:00
+Margherita Pizza,1,2024-01-04 05:40:00
+Tea,2,2024-01-04 04:31:00
+Sparkling Water,4,2024-01-03 21:00:00
+Caesar Salad,2,2024-01-04 02:30:00
+Tea,1,2024-01-04 00:21:00
+Soup of the Day,2,2024-01-03 21:03:00
+Unknown Item 18,2,2024-01-03 22:55:00
+Soup of the Day,2,2024-01-04 00:52:00
+Mashed Potatoes,1,2024-01-03 20:31:00
+  Salmon  ,1,2024-01-03 20:40:00
+Garlic Mushrooms,3,2024-01-04 03:09:00
+Unknown Item 14,1,2024-01-03 21:36:00
+Garlic Mushrooms,2,2024-01-04 05:05:00
+Unknown Item 6,1,2024-01-04 07:07:00
+Coca Cola,-2,2024-01-04 02:26:00
+Coca Cola,1,2024-01-04 02:50:00
+  Salmon  ,1,2024-01-04 02:49:00
+Seasonal Special,4,2024-01-04 00:28:00
+  Salmon  ,3,2024-01-04 04:19:00
+Apple Juice,2,invalid_date
+Chicken Wings,1,2024-01-03 22:39:00
+  Salmon  ,2,2024-01-03 20:47:00
+Margherita Pizza,2,2024-01-03 21:48:00
+Cheesecakes,2,2024-01-03 21:13:00
+Coca Cola,1,2024-01-03 22:05:00
+Apple Juice,2,2024-01-03 21:11:00
+Margherita Pizza,2,2024-01-04 01:10:00
+Apple Juice,4,invalid_date
+Cheesecake,1,2024-01-04 03:30:00
+Chicken Burger,2,invalid_date
+Daily Special,2,2024-01-03 22:18:00
+  Salmon  ,1,2024-01-04 03:29:00
+Chicken Burgers,1,2024-01-03 20:14:00
+Garlic Mushrooms,1,2024-01-04 04:50:00
+Unknown Item 3,1,2024-01-04 03:37:00
+Veggie Burger,1,2024-01-04 02:59:00
+  Salmon  ,2,2024-01-03 21:07:00
+Margherita Pizza,2,2024-01-04 01:41:00
+  Salmon  ,2,invalid_date
+  Salmon  ,3,2024-01-04 04:04:00
+Mashed Potatoes,1,2024-01-03 20:50:00
+Mashed Potatoes,1,2024-01-05 02:52:00
+Coca Cola,2,2024-01-05 02:18:00
+Mashed Potatoes,1,2024-01-04 23:29:00
+French Fries,1,2024-01-05 03:44:00
+Margherita Pizza,1,2024-01-04 23:17:00
+  Salmon  ,1,2024-01-05 00:31:00
+  Salmon  ,3,2024-01-04 23:38:00
+Caesar Salad,1,2024-01-04 19:27:00
+  Salmon  ,1,2024-01-05 03:38:00
+  Salmon  ,1,2024-01-04 22:05:00
+Sparkling Water,2,2024-01-04 21:43:00
+Soup of the Day,1,2024-01-05 04:36:00
+  Salmon  ,2,2024-01-05 02:01:00
+Veggie Burger,1,2024-01-05 07:43:00
+Soup of the Day,1,2024-01-05 03:36:00
+Tea,2,2024-01-04 19:48:00
+Tea,1,2024-01-04 21:33:00
+Margherita Pizza,1,2024-01-05 02:58:00
+Garlic Mushrooms,1,2024-01-04 22:37:00
+Unknown Item 13,3,2024-01-04 23:52:00
+Hummus Plate,1,2024-01-05 00:05:00
+Margherita Pizza,2,2024-01-04 23:26:00
+Veggie Burger,1,2024-01-04 22:42:00
+Soup of the Day,-1,2024-01-04 21:10:00
+Daily Special,1,2024-01-04 22:44:00
+Chicken Burger,3,2024-01-05 00:42:00
+Mashed Potatoes,1,2024-01-05 05:52:00
+Tea,1,2024-01-05 03:02:00
+Soup of the Day,1,2024-01-04 23:20:00
+Soup of the Day,1,2024-01-04 22:07:00
+  Salmon  ,1,2024-01-05 05:25:00
+Caesar Salad,2,2024-01-05 04:52:00
+Veggie Burger,1,2024-01-05 06:42:00
+Hummus Plate,1,2024-01-05 04:29:00
+Chocolate Cake,2,2024-01-04 23:12:00
+Unknown Item 16,1,2024-01-05 00:39:00
+Margherita Pizza,1,invalid_date
+Margherita Pizza,1,2024-01-04 23:03:00
+Chicken Burger,2,2024-01-04 21:35:00
+Margherita Pizza,1,2024-01-04 21:18:00
+Unknown Item 0,1,2024-01-04 23:44:00
+Soup of the Day,1,2024-01-05 00:01:00
+Unknown Item 14,2,2024-01-05 06:38:00
+  Salmon  ,1,2024-01-05 03:45:00
+Unknown Item 15,2,2024-01-04 21:35:00
+Veggie Burger,3,2024-01-04 18:26:00
+Caesar Salad,2,2024-01-04 20:53:00
+Unknown Item 18,1,2024-01-05 04:29:00
+Tea,1,2024-01-05 05:41:00
+  Salmon  ,1,2024-01-05 04:31:00
+Cheesecake,1,2024-01-05 04:18:00
+Tea,1,invalid_date
+Caesar Salad,2,2024-01-04 23:30:00
+Apple Juice,1,invalid_date
+  Salmon  ,1,2024-01-04 23:09:00
+Hummus Plate,2,2024-01-04 22:58:00
+  Salmon  ,2,2024-01-05 02:47:00
+Unknown Item 2,1,2024-01-05 04:55:00
+  Salmon  ,3,2024-01-04 20:49:00
+Soup of the Day,1,2024-01-05 03:26:00
+Unknown Item 4,2,2024-01-04 22:50:00
+Mashed Potatoes,2,2024-01-05 00:52:00
+Unknown Item 12,2,2024-01-04 18:46:00
+Coca Cola,2,2024-01-04 22:37:00
+  Salmon  ,1,2024-01-05 02:42:00
+Soup of the Day,1,2024-01-05 00:09:00
+Soup of the Day,2,2024-01-04 23:30:00
+Unknown Item 16,1,2024-01-04 22:35:00
+Soup of the Day,3,2024-01-05 03:24:00
+Seasonal Special,1,2024-01-04 23:20:00
+Garlic Mushrooms,1,2024-01-05 04:44:00
+  Salmon  ,1,2024-01-04 21:24:00
+Mashed Potatoes,1,2024-01-04 21:49:00
+Tea,2,2024-01-04 23:20:00
+Cheesecake,2,invalid_date
+Onion Rings,2,2024-01-05 04:24:00
+Unknown Item 7,3,2024-01-04 22:42:00
+Chicken Burger,3,invalid_date
+Margherita Pizza,3,2024-01-05 06:31:00
+Margherita Pizza,1,2024-01-05 05:08:00
+Margherita Pizza,2,invalid_date
+Unknown Item 6,1,2024-01-04 22:06:00
+Unknown Item 4,1,2024-01-05 04:28:00
+Apple Juice,2,2024-01-04 21:58:00
+Mashed Potatoes,1,2024-01-04 23:46:00
+Soup of the Day,1,invalid_date
+Margherita Pizza,1,2024-01-05 02:09:00
+Soup of the Day,1,invalid_date
+Unknown Item 5,3,2024-01-05 05:21:00
+  Salmon  ,1,2024-01-05 02:25:00
+Coca Cola,1,2024-01-05 02:54:00
+Veggie Burger,1,2024-01-04 22:43:00
+Sparkling Water,1,2024-01-05 04:24:00
+Soup of the Day,-3,invalid_date
+Caesar Salad,1,2024-01-05 03:48:00
+Sparkling Water,2,2024-01-05 00:34:00
+Cheesecake,2,invalid_date
+  Salmon  ,3,2024-01-04 21:43:00
+  Salmon  ,2,2024-01-05 04:14:00
+Sparkling Water,3,2024-01-05 03:27:00
+Chocolate Cake,1,2024-01-05 06:48:00
+Sparkling Water,1,2024-01-05 02:55:00
+Apple Juice,1,2024-01-04 21:10:00
+Tiramisu,3,invalid_date
+Soup of the Day,1,2024-01-04 19:20:00
+Unknown Item 9,1,2024-01-05 03:18:00
+Chocolate Cake,1,2024-01-04 22:27:00
+  Salmon  ,1,invalid_date
+Caesar Salad,1,2024-01-04 23:43:00
+Onion Rings,4,2024-01-05 03:10:00
+  Salmon  ,1,2024-01-04 21:39:00
+  Salmon  ,2,2024-01-05 04:39:00
+Apple Juice,2,2024-01-05 03:31:00
+Veggie Burger,1,2024-01-05 04:09:00
+Unknown Item 16,1,2024-01-04 21:40:00
+Unknown Item 1,1,2024-01-04 22:16:00
+Sparkling Water,1,2024-01-05 02:57:00
+  Salmon  ,2,2024-01-05 03:57:00
+Coca Cola,1,2024-01-04 22:34:00
+Sparkling Water,1,2024-01-04 21:28:00
+Soup of the Day,2,2024-01-05 05:37:00
+Soup of the Day,3,2024-01-04 22:27:00
+Unknown Item 13,3,2024-01-05 03:29:00
+Unknown Item 16,3,2024-01-05 04:12:00
+Margherita Pizza,2,2024-01-05 07:54:00
+Cheesecake,1,2024-01-05 00:15:00
+Veggie Burger,2,2024-01-04 22:22:00
+Unknown Item 18,1,2024-01-05 02:44:00
+Unknown Item 14,2,2024-01-04 22:53:00
+Cheesecake,2,invalid_date
+  Salmon  ,1,2024-01-04 18:55:00
+Garlic Mushrooms,2,2024-01-05 03:47:00
+Hummus Plate,3,2024-01-05 06:58:00
+Old Menu Item,1,2024-01-06 03:53:00
+  Salmon  ,3,2024-01-06 04:18:00
+Apple Juice,1,2024-01-06 03:14:00
+  Salmon  ,2,2024-01-06 02:22:00
+Soup of the Day,1,2024-01-05 21:12:00
+Apple Pie,2,2024-01-06 02:43:00
+Unknown Item 3,3,2024-01-06 03:49:00
+Unknown Item 14,3,2024-01-06 02:53:00
+Veggie Burger,2,2024-01-05 21:06:00
+Veggie Burger,1,2024-01-06 04:41:00
+Soup of the Day,3,2024-01-05 19:50:00
+  Salmon  ,1,2024-01-05 23:37:00
+  Salmon  ,3,2024-01-05 22:08:00
+Chicken Burger,1,2024-01-05 20:18:00
+Apple Juice,1,2024-01-05 22:26:00
+Caesar Salad,2,2024-01-05 21:08:00
+Veggie Burger,1,2024-01-06 03:56:00
+Veggie Burger,1,2024-01-06 06:33:00
+Caesar Salad,1,2024-01-06 00:17:00
+  Salmon  ,1,2024-01-06 04:16:00
+Garlic Mushrooms,1,2024-01-06 04:30:00
+  Salmon  ,1,invalid_date
+Hummus Plate,1,2024-01-06 03:21:00
+Chicken Burger,1,2024-01-06 03:29:00
+Unknown Item 0,2,2024-01-06 05:09:00
+Coca Cola,1,2024-01-06 03:14:00
+Caesar Salad,3,2024-01-06 04:46:00
+Apple Pie,3,2024-01-06 03:25:00
+Soup of the Day,1,2024-01-06 05:51:00
+Unknown Item 1,2,2024-01-06 02:05:00
+Tea,3,2024-01-06 03:00:00
+Margherita Pizza,4,2024-01-05 22:07:00
+Mashed Potatoes,2,invalid_date
+  Salmon  ,1,2024-01-06 03:16:00
+Onion Rings,2,2024-01-06 02:52:00
+Soup of the Day,2,2024-01-06 02:23:00
+Chicken Wings,2,2024-01-05 21:14:00
+Caesar Salad,1,2024-01-05 23:39:00
+Garlic Mushrooms,3,invalid_date
+Unknown Item 3,4,2024-01-05 22:39:00
+Mashed Potatoes,1,2024-01-05 21:04:00
+Soup of the Day,1,2024-01-06 02:29:00
+Unknown Item 8,1,2024-01-06 04:19:00
+Chicken Burger,3,2024-01-06 02:07:00
+  Salmon  ,2,2024-01-05 21:02:00
+Caesar Salad,2,2024-01-05 22:31:00
+Unknown Item 18,1,2024-01-05 21:15:00
+Hummus Plate,2,2024-01-06 04:08:00
+  Salmon  ,1,2024-01-05 22:23:00
+Coca Cola,1,2024-01-06 02:47:00
+Caesar Salad,2,2024-01-06 03:34:00
+  Salmon  ,4,2024-01-05 23:47:00
+Daily Special,3,2024-01-06 03:56:00
+Veggie Burger,3,2024-01-05 23:06:00
+Unknown Item 4,1,2024-01-06 04:39:00
+Unknown Item 2,1,2024-01-05 23:17:00
+Chocolate Cake,2,2024-01-05 19:23:00
+Unknown Item 12,3,2024-01-05 21:28:00
+Cheesecake,1,2024-01-06 05:54:00
+Mashed Potatoes,1,2024-01-05 22:43:00
+Unknown Item 9,1,2024-01-05 22:57:00
+Cheesecake,2,2024-01-06 06:22:00
+  Salmon  ,1,2024-01-05 20:17:00
+Unknown Item 8,1,2024-01-05 21:07:00
+Veggie Burger,1,2024-01-06 05:52:00
+Unknown Item 16,1,2024-01-05 23:42:00
+Apple Pie,3,2024-01-05 21:40:00
+Margherita Pizza,1,2024-01-06 02:01:00
+Unknown Item 1,2,2024-01-05 20:21:00
+Veggie Burger,2,2024-01-05 21:08:00
+Tea,3,2024-01-06 03:13:00
+Soup of the Day,1,2024-01-05 20:48:00
+Margherita Pizza,4,2024-01-06 01:37:00
+Chicken Burger,2,2024-01-05 21:55:00
+Daily Special,4,2024-01-05 21:49:00
+Coca Cola,3,2024-01-05 21:57:00
+Caesar Salad,1,2024-01-06 02:17:00
+Sparkling Water,1,2024-01-06 04:09:00
+Soup of the Day,1,2024-01-06 06:34:00
+Coca Cola,2,2024-01-05 22:11:00
+Soup of the Day,1,invalid_date
+Soup of the Day,1,2024-01-05 19:00:00
+Garlic Mushrooms,1,2024-01-05 22:50:00
+Soup of the Day,1,2024-01-05 21:20:00
+Apple Juice,1,2024-01-05 18:16:00
+Cheesecake,1,2024-01-05 20:47:00
+Tea,1,2024-01-05 23:07:00
+Soup of the Day,1,2024-01-06 03:30:00
+Soup of the Day,1,2024-01-05 23:23:00
+  Salmon  ,1,2024-01-06 00:06:00
+Onion Rings,3,2024-01-05 23:14:00
+Coca Cola,2,2024-01-06 05:02:00
+Onion Rings,1,2024-01-06 03:58:00
+  Salmon  ,1,2024-01-06 04:33:00
+  Salmon  ,3,2024-01-05 22:41:00
+Unknown Item 5,3,2024-01-06 05:03:00
+Margherita Pizza,3,2024-01-06 07:54:00
+Soup of the Day,2,2024-01-05 23:43:00
+Onion Rings,1,2024-01-05 21:45:00
+Margherita Pizza,1,2024-01-06 04:04:00
+Mashed Potatoes,1,2024-01-06 04:20:00
+Unknown Item 10,3,2024-01-06 02:04:00
+Garlic Mushrooms,2,2024-01-05 21:39:00
+Mashed Potatoes,2,2024-01-06 02:35:00
+Caesar Salad,1,2024-01-06 03:24:00
+Unknown Item 11,3,2024-01-06 07:33:00
+Unknown Item 16,1,2024-01-05 22:32:00
+Veggie Burger,1,2024-01-06 02:06:00
+Apple Pie,1,2024-01-06 03:07:00
+Chicken Burger,2,2024-01-06 04:41:00
+  Salmon  ,1,invalid_date
+  Salmon  ,3,2024-01-06 03:13:00
+  Salmon  ,1,2024-01-05 23:56:00
+Margherita Pizza,2,2024-01-05 21:21:00
+Garlic Mushrooms,2,2024-01-06 04:25:00
+Caesar Salad,1,2024-01-05 23:06:00
+Chicken Wings,3,2024-01-05 22:20:00
+Soup of the Day,2,2024-01-06 02:23:00
+Unknown Item 14,2,2024-01-06 05:43:00
+  Salmon  ,3,2024-01-06 04:04:00
+Apple Pie,2,2024-01-05 20:05:00
+Sparkling Water,1,2024-01-05 20:06:00
+Caesar Salad,2,invalid_date
+Coca Cola,1,2024-01-06 03:35:00
+Unknown Item 0,1,2024-01-05 20:35:00
+  Salmon  ,1,2024-01-06 02:42:00
+Tea,2,2024-01-05 21:22:00
+Soup of the Day,2,2024-01-06 04:48:00
+Margherita Pizza,1,2024-01-05 23:58:00
+Chicken Burger,2,2024-01-06 03:18:00
+Tea,3,2024-01-06 02:22:00
+Onion Ringss,1,2024-01-05 21:32:00
+Soup of the Day,1,2024-01-05 21:42:00
+Sparkling Water,2,2024-01-06 00:54:00
+Coca Cola,1,invalid_date
+Mashed Potatoes,2,2024-01-06 02:07:00
+Sparkling Water,1,2024-01-06 03:36:00
+Coca Cola,1,invalid_date
+Unknown Item 17,2,2024-01-06 04:49:00
+Margherita Pizza,2,2024-01-06 03:39:00
+Unknown Item 17,3,2024-01-06 03:35:00
+Apple Juice,3,2024-01-05 19:59:00
+Veggie Burger,2,invalid_date
+Cheesecake,2,2024-01-05 22:11:00
+Unknown Item 5,1,2024-01-05 22:48:00
+Unknown Item 17,2,2024-01-05 22:21:00
+Onion Rings,1,2024-01-05 22:11:00
+Apple Juice,3,invalid_date
+Tiramisu,1,2024-01-06 02:04:00
+  Salmon  ,2,2024-01-05 21:40:00
+  Salmon  ,1,2024-01-06 06:05:00
+Cheesecake,2,2024-01-06 03:13:00
+Chicken Burger,3,2024-01-06 23:21:00
+  Salmon  ,1,2024-01-06 21:19:00
+  Salmon  ,3,2024-01-07 03:49:00
+Soup of the Day,1,2024-01-07 05:38:00
+Margherita Pizza,2,2024-01-06 20:03:00
+  Salmon  ,3,2024-01-06 21:48:00
+  Salmon  ,1,2024-01-07 02:43:00
+Unknown Item 0,4,invalid_date
+Onion Rings,1,2024-01-07 02:31:00
+Garlic Mushrooms,1,2024-01-07 02:26:00
+Hummus Plate,3,2024-01-06 22:48:00
+Apple Juice,1,2024-01-07 00:22:00
+  Salmon  ,4,2024-01-06 23:18:00
+Mashed Potatoes,4,2024-01-07 03:37:00
+Unknown Item 13,1,2024-01-07 00:42:00
+Soup of the Day,2,invalid_date
+Mashed Potatoes,1,2024-01-06 22:38:00
+Unknown Item 2,1,2024-01-06 20:13:00
+Sparkling Water,1,2024-01-06 22:13:00
+Chicken Wings,1,2024-01-07 03:48:00
+Margherita Pizza,1,2024-01-06 22:20:00
+Onion Rings,1,2024-01-06 21:31:00
+  Salmon  ,4,invalid_date
+Mashed Potatoes,3,2024-01-06 21:34:00
+Caesar Salad,2,2024-01-07 03:32:00
+  Salmon  ,2,2024-01-07 02:42:00
+Chicken Burger,3,2024-01-07 03:04:00
+  Salmon  ,1,2024-01-06 23:47:00
+Apple Pie,2,2024-01-06 19:01:00
+  Salmon  ,4,2024-01-06 23:04:00
+Daily Special,1,2024-01-07 04:36:00
+Unknown Item 15,2,2024-01-06 23:25:00
+  Salmon  ,3,2024-01-07 03:26:00
+Sparkling Water,3,invalid_date
+Soup of the Day,2,2024-01-06 19:20:00
+Unknown Item 14,1,2024-01-06 21:39:00
+Unknown Item 9,1,invalid_date
+Onion Rings,1,2024-01-07 04:05:00
+Apple Pie,2,2024-01-06 23:06:00
+Coca Cola,1,2024-01-06 21:37:00
+Soup of the Day,3,invalid_date
+Veggie Burger,1,2024-01-06 22:19:00
+Unknown Item 1,1,2024-01-07 03:14:00
+  Salmon  ,1,2024-01-06 22:10:00
+Veggie Burger,2,2024-01-06 20:40:00
+Tiramisu,1,invalid_date
+Tea,1,2024-01-06 21:49:00
+Unknown Item 4,1,2024-01-06 22:46:00
+Caesar Salad,1,2024-01-07 05:41:00
+Unknown Item 3,1,2024-01-07 03:15:00
+Onion Rings,3,2024-01-06 21:16:00
+Apple Pie,2,2024-01-06 21:38:00
+Caesar Salad,1,2024-01-06 21:48:00
+Tea,3,2024-01-07 02:11:00
+Sparkling Water,4,2024-01-07 05:40:00
+Soup of the Day,2,2024-01-07 00:48:00
+Chocolate Cake,2,2024-01-07 02:37:00
+Sparkling Water,3,2024-01-06 23:59:00
+Chicken Burger,4,2024-01-07 04:41:00
+Caesar Salad,2,2024-01-07 02:39:00
+Caesar Salad,1,2024-01-06 22:40:00
+Unknown Item 19,2,2024-01-06 22:28:00
+Coca Cola,2,2024-01-06 20:28:00
+Tea,1,2024-01-07 02:50:00
+Caesar Salad,1,2024-01-06 22:03:00
+Margherita Pizza,3,2024-01-06 22:04:00
+Hummus Plate,2,2024-01-06 22:28:00
+Hummus Plate,1,2024-01-06 19:23:00
+Coca Cola,2,2024-01-07 04:04:00
+Veggie Burger,1,2024-01-07 02:54:00
+Unknown Item 10,1,2024-01-06 20:38:00
+Margherita Pizza,2,2024-01-07 00:29:00
+Unknown Item 18,1,invalid_date
+Chicken Burger,1,2024-01-07 03:02:00
+Mashed Potatoes,4,2024-01-06 23:51:00
+Margherita Pizza,1,2024-01-07 02:12:00
+Sparkling Water,1,2024-01-06 22:30:00
+Unknown Item 0,4,2024-01-07 00:03:00
+Caesar Salad,2,2024-01-06 23:51:00
+  Salmon  ,2,2024-01-07 04:21:00
+Coca Cola,3,2024-01-07 06:05:00
+Tea,1,invalid_date
+  Salmon  ,2,invalid_date
+Unknown Item 11,2,2024-01-06 23:28:00
+Tea,3,2024-01-07 00:39:00
+Cheesecake,2,2024-01-06 21:23:00
+Soup of the Day,2,2024-01-07 04:24:00
+Tea,1,invalid_date
+Margherita Pizza,1,2024-01-07 03:03:00
+Cheesecake,2,2024-01-07 03:41:00
+Hummus Plate,2,invalid_date
+Soup of the Day,2,2024-01-06 20:43:00
+Veggie Burger,1,2024-01-06 22:16:00
+Sparkling Water,2,2024-01-07 03:42:00
+Veggie Burger,2,invalid_date
+Margherita Pizza,3,2024-01-07 04:21:00
+Margherita Pizza,2,2024-01-06 20:42:00
+  Salmon  ,3,2024-01-06 21:22:00
+Soup of the Day,3,2024-01-06 22:41:00
+  Salmon  ,2,2024-01-07 03:25:00
+  Salmon  ,2,invalid_date
+Coca Cola,3,2024-01-07 04:19:00
+  Salmon  ,2,2024-01-07 02:41:00
+Hummus Plate,3,invalid_date
+Veggie Burger,2,2024-01-06 21:44:00
+Veggie Burger,2,2024-01-07 04:47:00
+  Salmon  ,1,2024-01-07 07:58:00
+  Salmon  ,1,2024-01-07 01:41:00
+Sparkling Water,4,2024-01-07 02:32:00
+Unknown Item 4,2,2024-01-06 22:23:00
+Unknown Item 5,2,2024-01-06 22:13:00
+Tiramisu,3,2024-01-06 22:49:00
+Chicken Burger,2,2024-01-07 00:14:00
+Coca Cola,2,2024-01-07 07:09:00
+Cheesecake,2,2024-01-06 20:54:00
+Veggie Burger,2,2024-01-07 03:32:00
+Unknown Item 8,1,2024-01-07 03:53:00
+  Salmon  ,1,2024-01-07 03:33:00
+Unknown Item 10,1,2024-01-06 19:21:00
+  Salmon  ,1,2024-01-07 04:39:00
+  Salmon  ,2,2024-01-06 21:24:00
+Mashed Potatoes,1,2024-01-06 21:11:00
+Caesar Salad,1,2024-01-07 04:49:00
+Veggie Burgers,1,2024-01-07 02:57:00
+Unknown Item 9,1,2024-01-06 21:28:00
+Mashed Potatoes,2,2024-01-06 19:23:00
+Veggie Burger,3,invalid_date
+Apple Juice,2,2024-01-07 05:39:00
+  Salmon  ,1,2024-01-06 22:47:00
+Unknown Item 0,1,2024-01-07 03:14:00
+Unknown Item 13,1,invalid_date
+Unknown Item 9,2,2024-01-07 05:50:00
+Coca Cola,1,2024-01-06 23:53:00
+  Salmon  ,2,2024-01-06 21:43:00
+  Salmon  ,1,2024-01-07 05:28:00
+Margherita Pizza,3,2024-01-06 23:18:00
+Margherita Pizza,1,2024-01-07 03:32:00
+  Salmon  ,1,2024-01-07 01:10:00
+Apple Pie,3,2024-01-08 03:08:00
+Veggie Burger,1,invalid_date
+  Salmon  s,1,2024-01-08 02:55:00
+Apple Juice,2,2024-01-07 22:59:00
+  Salmon  ,2,2024-01-07 21:54:00
+Unknown Item 16,2,2024-01-08 00:07:00
+Sparkling Water,1,2024-01-07 22:48:00
+Soup of the Day,1,2024-01-07 21:28:00
+Apple Pie,1,2024-01-08 04:09:00
+Sparkling Water,1,2024-01-08 04:05:00
+Soup of the Day,3,2024-01-08 05:14:00
+Tea,2,2024-01-08 03:56:00
+Chicken Wings,1,2024-01-07 22:01:00
+  Salmon  ,2,2024-01-07 23:25:00
+Veggie Burger,1,2024-01-08 00:15:00
+Caesar Salad,3,invalid_date
+Tiramisu,1,2024-01-07 22:01:00
+Mashed Potatoes,1,2024-01-07 22:06:00
+Unknown Item 10,2,2024-01-08 04:41:00
+Caesar Salad,2,2024-01-07 22:09:00
+Unknown Item 17,2,2024-01-07 21:18:00
+Chocolate Cake,1,invalid_date
+Garlic Mushrooms,1,invalid_date
+Tea,1,2024-01-08 03:30:00
+Tiramisu,1,2024-01-07 23:00:00
+Veggie Burger,3,2024-01-08 04:01:00
+Coca Cola,1,2024-01-07 22:53:00
+Chicken Burger,1,2024-01-07 21:46:00
+Unknown Item 4,2,2024-01-08 02:27:00
+Coca Cola,1,2024-01-07 21:18:00
+Veggie Burger,2,invalid_date
+Unknown Item 3,3,2024-01-07 19:26:00
+Chicken Burger,1,2024-01-08 02:39:00
+Coca Cola,3,2024-01-07 23:07:00
+Margherita Pizza,2,2024-01-08 04:31:00
+Unknown Item 2,1,2024-01-08 02:01:00
+Sparkling Water,1,2024-01-08 02:36:00
+Caesar Salad,1,2024-01-07 21:09:00
+  Salmon  ,2,2024-01-07 22:00:00
+Soup of the Day,2,2024-01-08 02:15:00
+  Salmon  ,3,2024-01-08 02:11:00
+Unknown Item 3,4,2024-01-08 02:05:00
+  Salmon  ,2,2024-01-08 00:23:00
+  Salmon  ,2,2024-01-07 20:33:00
+Mashed Potatoes,1,2024-01-08 01:50:00
+Garlic Mushrooms,2,2024-01-08 06:35:00
+  Salmon  ,1,2024-01-07 19:55:00
+Margherita Pizza,2,2024-01-07 23:40:00
+Chocolate Cake,1,2024-01-07 22:23:00
+  Salmon  ,1,2024-01-07 22:01:00
+Caesar Salad,1,2024-01-07 22:04:00
+Unknown Item 0,1,2024-01-07 22:46:00
+Garlic Mushrooms,2,2024-01-08 02:06:00
+French Fries,1,2024-01-08 03:47:00
+Coca Cola,2,2024-01-08 03:08:00
+  Salmon  ,1,2024-01-07 19:34:00
+Sparkling Water,2,2024-01-07 22:41:00
+  Salmon  ,1,2024-01-07 21:49:00
+Soup of the Day,1,2024-01-08 03:44:00
+  Salmon  ,2,2024-01-08 00:11:00
+  Salmon  ,1,2024-01-08 03:04:00
+Onion Rings,1,2024-01-08 03:29:00
+Caesar Salad,1,2024-01-07 19:12:00
+Chicken Wings,1,2024-01-07 19:12:00
+Margherita Pizza,2,invalid_date
+Margherita Pizza,1,2024-01-08 04:32:00
+Mashed Potatoes,2,invalid_date
+Margherita Pizza,3,2024-01-08 01:16:00
+Tiramisu,1,2024-01-07 19:41:00
+  Salmon  ,4,2024-01-07 21:22:00
+  Salmon  ,2,2024-01-08 04:03:00
+Coca Cola,2,2024-01-08 04:21:00
+  Salmon  ,2,2024-01-07 22:51:00
+Sparkling Water,2,2024-01-07 22:56:00
+  Salmon  ,2,2024-01-07 23:28:00
+Chicken Burger,1,2024-01-08 04:24:00
+Soup of the Day,1,2024-01-07 22:11:00
+Hummus Plate,1,2024-01-08 00:31:00
+Unknown Item 13,1,invalid_date
+Sparkling Water,1,2024-01-08 00:51:00
+Caesar Salad,1,2024-01-07 20:27:00
+Coca Cola,1,2024-01-07 20:38:00
+  Salmon  ,2,2024-01-08 07:11:00
+Tea,3,invalid_date
+Unknown Item 12,3,2024-01-07 21:20:00
+Apple Pie,1,2024-01-08 02:19:00
+Soup of the Day,2,2024-01-07 23:45:00
+  Salmon  ,3,2024-01-07 23:44:00
+Soup of the Day,1,2024-01-07 23:28:00
+Caesar Salad,1,2024-01-07 19:55:00
+  Salmon  ,3,2024-01-08 04:39:00
+Veggie Burger,2,2024-01-08 07:17:00
+  Salmon  ,1,invalid_date
+Hummus Plate,1,2024-01-08 05:04:00
+Coca Cola,1,2024-01-08 02:25:00
+Unknown Item 8,3,2024-01-07 22:51:00
+Soup of the Day,2,2024-01-08 03:10:00
+Hummus Plate,1,2024-01-08 05:09:00
+Tiramisu,1,2024-01-08 04:43:00
+  Salmon  ,2,2024-01-08 03:02:00
+Unknown Item 19,2,2024-01-07 21:15:00
+Chicken Burger,1,2024-01-08 03:23:00
+  Salmon  ,3,2024-01-07 22:36:00
+Garlic Mushrooms,1,2024-01-07 19:09:00
+Old Menu Item,1,2024-01-08 03:23:00
+  Salmon  ,2,2024-01-07 22:48:00
+Caesar Salad,1,2024-01-07 20:08:00
+Caesar Salad,3,2024-01-08 01:25:00
+Soup of the Day,2,2024-01-07 22:17:00
+Soup of the Day,2,2024-01-07 22:07:00
+Soup of the Day,1,2024-01-07 19:11:00
+Caesar Salad,1,2024-01-08 00:24:00
+Veggie Burger,1,2024-01-08 04:07:00
+Sparkling Water,2,2024-01-07 22:16:00
+Soup of the Day,2,2024-01-08 03:13:00
+Sparkling Water,3,2024-01-08 07:18:00
+Garlic Mushrooms,2,invalid_date
+  Salmon  ,3,2024-01-07 21:08:00
+Caesar Salad,2,invalid_date
+Soup of the Day,1,2024-01-07 21:45:00
+Unknown Item 12,1,2024-01-07 23:05:00
+Chocolate Cake,2,2024-01-08 03:54:00
+Mashed Potatoes,1,2024-01-08 06:42:00
+Unknown Item 7,1,2024-01-07 22:04:00
+Chocolate Cake,2,2024-01-08 01:18:00
+Unknown Item 6,3,2024-01-08 04:54:00
+Unknown Item 13,1,2024-01-09 03:59:00
+Unknown Item 15,2,invalid_date
+Garlic Mushrooms,-3,2024-01-09 03:32:00
+Soup of the Day,1,2024-01-08 21:12:00
+French Fries,1,2024-01-09 03:15:00
+Soup of the Day,1,2024-01-09 03:01:00
+Cheesecake,2,2024-01-08 22:36:00
+Soup of the Day,2,2024-01-08 22:51:00
+Unknown Item 3,3,2024-01-09 06:08:00
+Unknown Item 14,-2,2024-01-09 02:05:00
+Veggie Burger,1,2024-01-08 20:25:00
+Caesar Salad,1,2024-01-09 07:46:00
+Onion Rings,2,2024-01-09 00:26:00
+Margherita Pizza,1,2024-01-09 03:52:00
+Unknown Item 10,1,invalid_date
+  Salmon  ,1,2024-01-09 06:41:00
+Sparkling Water,1,2024-01-08 20:29:00
+Unknown Item 15,1,2024-01-09 03:22:00
+Soup of the Day,1,2024-01-08 21:53:00
+  Salmon  ,1,2024-01-09 03:40:00
+  Salmon  ,1,2024-01-09 02:49:00
+Chocolate Cake,2,2024-01-09 05:27:00
+Chocolate Cake,3,2024-01-09 00:55:00
+Chicken Burger,1,2024-01-08 20:07:00
+  Salmon  ,2,2024-01-09 00:19:00
+  Salmon  ,1,2024-01-08 21:20:00
+Apple Juice,2,2024-01-09 04:14:00
+  Salmon  ,3,2024-01-08 22:33:00
+  Salmon  ,2,2024-01-09 04:54:00
+  Salmon  ,3,2024-01-08 20:12:00
+  Salmon  ,1,2024-01-09 02:35:00
+Sparkling Water,1,2024-01-08 22:40:00
+  Salmon  ,3,2024-01-08 22:34:00
+French Fries,1,2024-01-08 20:41:00
+Mashed Potatoes,1,2024-01-08 21:37:00
+  Salmon  ,2,2024-01-08 21:42:00
+  Salmon  ,3,2024-01-09 02:57:00
+Apple Juice,3,invalid_date
+Unknown Item 18,1,2024-01-09 04:02:00
+  Salmon  ,3,2024-01-09 04:01:00
+Soup of the Day,1,invalid_date
+Soup of the Day,1,invalid_date
+Unknown Item 18,2,2024-01-09 02:49:00
+Chicken Burger,1,2024-01-09 02:39:00
+Tea,1,2024-01-09 02:31:00
+Caesar Salad,-2,2024-01-09 04:34:00
+Soup of the Day,1,2024-01-08 22:19:00
+Soup of the Day,1,2024-01-09 00:51:00
+Caesar Salad,1,2024-01-09 03:25:00
+Soup of the Day,1,2024-01-08 22:04:00
+Unknown Item 9,1,2024-01-09 03:10:00
+Cheesecake,2,2024-01-08 23:30:00
+Veggie Burger,2,2024-01-08 23:21:00
+  Salmon  ,1,2024-01-09 02:20:00
+Caesar Salad,3,2024-01-09 04:20:00
+Unknown Item 2,1,2024-01-09 03:55:00
+  Salmon  ,1,invalid_date
+Mashed Potatoes,3,2024-01-08 21:23:00
+Soup of the Day,-1,2024-01-09 00:06:00
+Old Menu Item,4,2024-01-08 22:29:00
+Veggie Burger,1,invalid_date
+Coca Cola,2,2024-01-08 22:06:00
+Unknown Item 12,1,2024-01-08 20:24:00
+Cheesecake,1,2024-01-09 04:26:00
+Unknown Item 4,1,2024-01-08 22:55:00
+Apple Juice,2,2024-01-09 04:52:00
+Soup of the Day,2,2024-01-08 22:36:00
+Caesar Salad,3,2024-01-09 03:12:00
+  Salmon  ,1,invalid_date
+Unknown Item 19,1,2024-01-09 07:29:00
+Soup of the Day,1,2024-01-09 00:19:00
+Unknown Item 5,2,2024-01-09 00:05:00
+Margherita Pizza,3,2024-01-09 05:32:00
+Cheesecake,1,2024-01-08 23:15:00
+Unknown Item 9,2,2024-01-08 21:22:00
+Apple Juice,1,2024-01-08 19:18:00
+Apple Pie,2,2024-01-09 00:56:00
+Apple Juice,3,2024-01-09 04:43:00
+Soup of the Day,1,2024-01-08 23:34:00
+Unknown Item 15,1,invalid_date
+Soup of the Day,4,2024-01-08 23:56:00
+  Salmon  ,3,2024-01-08 22:23:00
+Unknown Item 4,2,2024-01-09 03:23:00
+Unknown Item 3,2,2024-01-08 19:03:00
+Coca Cola,1,2024-01-09 02:12:00
+Caesar Salad,2,2024-01-08 22:18:00
+Soup of the Day,3,invalid_date
+Chicken Burger,2,2024-01-08 23:35:00
+Soup of the Day,1,2024-01-08 22:39:00
+Soup of the Day,1,invalid_date
+Coca Cola,1,2024-01-08 21:06:00
+Unknown Item 19,1,2024-01-08 22:50:00
+Tiramisu,1,2024-01-09 06:35:00
+Margherita Pizza,1,2024-01-09 04:48:00
+  Salmon  ,1,2024-01-08 21:38:00
+Apple Pie,1,2024-01-09 00:32:00
+  Salmon  ,2,invalid_date
+Margherita Pizza,1,2024-01-08 21:21:00
+Unknown Item 6,1,2024-01-09 03:33:00
+Unknown Item 1,1,2024-01-08 23:38:00
+Unknown Item 4,1,2024-01-09 04:08:00
+Unknown Item 3,2,2024-01-08 22:39:00
+  Salmon  ,1,2024-01-08 22:25:00
+Tiramisu,2,invalid_date
+Daily Special,3,2024-01-09 04:37:00
+Unknown Item 12,2,2024-01-08 22:53:00
+Apple Juice,2,2024-01-09 00:31:00
+Coca Cola,3,2024-01-09 03:19:00
+  Salmon  ,2,2024-01-08 23:01:00
+Chicken Burger,1,2024-01-08 22:43:00
+Veggie Burger,1,2024-01-08 21:26:00
+Unknown Item 18,3,2024-01-09 02:50:00
+Soup of the Day,1,2024-01-09 04:55:00
+Unknown Item 9,1,2024-01-09 03:01:00
+Soup of the Day,2,2024-01-09 02:16:00
+Veggie Burger,3,2024-01-09 05:50:00
+Tea,1,2024-01-09 06:37:00
+Mashed Potatoes,2,2024-01-09 02:46:00
+Veggie Burger,1,2024-01-08 20:30:00
+Unknown Item 15,2,2024-01-08 21:40:00
+Soup of the Day,1,2024-01-09 03:49:00
+Garlic Mushrooms,1,2024-01-09 04:09:00
+Soup of the Day,3,2024-01-09 03:15:00
+Unknown Item 7,1,2024-01-08 19:44:00
+Soup of the Day,2,2024-01-09 21:28:00
+Caesar Salads,1,2024-01-09 22:09:00
+Unknown Item 1,1,2024-01-09 23:13:00
+Soup of the Day,2,2024-01-09 23:49:00
+Soup of the Day,1,2024-01-10 02:30:00
+Apple Juice,1,2024-01-10 04:47:00
+Unknown Item 12,1,2024-01-10 03:45:00
+Apple Juice,2,2024-01-09 21:13:00
+  Salmon  ,3,2024-01-10 02:42:00
+French Fries,4,2024-01-10 00:24:00
+  Salmon  ,1,2024-01-09 22:11:00
+Coca Cola,1,invalid_date
+Mashed Potatoes,1,invalid_date
+  Salmon  ,3,2024-01-10 03:55:00
+Coca Cola,1,2024-01-10 03:41:00
+Margherita Pizza,4,2024-01-10 03:16:00
+Hummus Plate,1,2024-01-10 02:12:00
+Hummus Plate,4,2024-01-10 05:17:00
+Veggie Burger,3,2024-01-10 02:14:00
+Margherita Pizza,3,2024-01-10 05:19:00
+Tea,1,2024-01-10 03:45:00
+Caesar Salad,1,2024-01-09 21:45:00
+Garlic Mushrooms,1,2024-01-10 00:30:00
+Hummus Plate,1,2024-01-09 22:59:00
+Apple Juice,1,2024-01-10 04:46:00
+Soup of the Day,2,2024-01-09 22:07:00
+Unknown Item 18,1,2024-01-10 02:34:00
+Apple Juice,2,invalid_date
+Unknown Item 8,2,invalid_date
+Coca Cola,1,2024-01-10 03:18:00
+Margherita Pizza,4,2024-01-09 19:45:00
+Unknown Item 19,1,invalid_date
+Soup of the Day,1,invalid_date
+Unknown Item 18,1,2024-01-10 03:13:00
+Mashed Potatoes,3,2024-01-09 21:34:00
+Margherita Pizza,1,invalid_date
+Margherita Pizza,1,2024-01-10 03:08:00
+Caesar Salad,2,2024-01-09 21:47:00
+Veggie Burger,1,2024-01-10 02:15:00
+  Salmon  ,2,2024-01-09 20:57:00
+Caesar Salad,3,2024-01-10 01:40:00
+Chicken Burger,4,2024-01-09 21:06:00
+Soup of the Day,1,2024-01-09 23:45:00
+Sparkling Water,1,2024-01-09 23:43:00
+Caesar Salad,1,2024-01-10 03:00:00
+Veggie Burger,1,invalid_date
+Unknown Item 5,1,2024-01-09 21:41:00
+  Salmon  ,1,invalid_date
+Coca Cola,4,2024-01-10 00:41:00
+  Salmon  ,3,2024-01-09 21:18:00
+Hummus Plate,1,2024-01-09 22:41:00
+Seasonal Special,1,2024-01-09 20:49:00
+Sparkling Water,1,2024-01-09 20:36:00
+Hummus Plate,1,invalid_date
+Sparkling Water,2,2024-01-10 03:59:00
+Tea,2,2024-01-09 19:58:00
+Hummus Plate,3,2024-01-09 21:56:00
+Sparkling Water,2,2024-01-10 04:59:00
+Garlic Mushrooms,2,invalid_date
+Unknown Item 9,2,2024-01-09 23:31:00
+Soup of the Day,1,invalid_date
+Caesar Salad,2,invalid_date
+Coca Cola,1,2024-01-09 22:02:00
+Unknown Item 12,1,2024-01-09 18:36:00
+French Fries,1,2024-01-10 02:59:00
+  Salmon  ,1,2024-01-10 06:18:00
+Chocolate Cake,3,2024-01-09 23:41:00
+Unknown Item 4,1,2024-01-10 01:31:00
+Unknown Item 3,1,2024-01-10 04:08:00
+Soup of the Day,1,2024-01-10 04:29:00
+Coca Cola,2,2024-01-09 22:51:00
+Chicken Burger,1,2024-01-09 21:10:00
+Unknown Item 17,4,2024-01-10 03:41:00
+Margherita Pizza,3,2024-01-09 22:11:00
+Soup of the Day,2,2024-01-09 18:21:00
+Hummus Plate,2,2024-01-10 03:36:00
+  Salmon  ,1,2024-01-10 03:12:00
+Tea,1,invalid_date
+Caesar Salad,2,2024-01-10 02:25:00
+Coca Cola,1,2024-01-10 04:32:00
+  Salmon  ,1,2024-01-09 22:25:00
+Coca Cola,2,2024-01-10 02:11:00
+Veggie Burger,1,2024-01-10 06:30:00
+Coca Cola,3,2024-01-09 22:15:00
+Unknown Item 2,1,2024-01-09 18:24:00
+Margherita Pizza,2,2024-01-09 21:48:00
+Unknown Item 7,2,2024-01-09 22:21:00
+Coca Cola,2,2024-01-09 22:46:00
+Unknown Item 9,1,2024-01-10 02:16:00
+Soup of the Day,2,2024-01-10 02:44:00
+Onion Rings,3,2024-01-09 21:42:00
+Apple Juice,1,2024-01-09 21:19:00
+Coca Cola,1,2024-01-09 21:43:00
+Soup of the Day,2,invalid_date
+Mashed Potatoes,2,2024-01-10 04:49:00
+  Salmon  ,1,2024-01-09 22:07:00
+Veggie Burger,3,2024-01-10 02:18:00
+Unknown Item 17,1,2024-01-09 22:14:00
+Onion Rings,1,2024-01-09 21:08:00
+Mashed Potatoes,2,2024-01-10 00:29:00
+Margherita Pizza,2,2024-01-10 03:38:00
+Coca Cola,3,2024-01-09 22:44:00
+Onion Rings,4,2024-01-10 01:30:00
+  Salmon  ,1,2024-01-10 03:51:00
+  Salmon  ,1,2024-01-10 02:13:00
+  Salmon  ,1,2024-01-10 03:43:00
+Hummus Plate,2,2024-01-10 03:55:00
+Margherita Pizza,3,2024-01-10 03:33:00
+Caesar Salad,1,2024-01-09 23:45:00
+Hummus Plate,1,2024-01-09 22:58:00
+  Salmon  ,1,2024-01-10 02:03:00
+Daily Special,3,2024-01-10 04:57:00
+Soup of the Day,1,2024-01-10 00:36:00
+Sparkling Water,1,2024-01-10 01:10:00
+Veggie Burger,2,2024-01-09 22:33:00
+Tea,3,2024-01-09 23:43:00
+Soup of the Day,2,2024-01-09 21:37:00
+Hummus Plate,2,2024-01-10 00:57:00
+  Salmon  ,1,2024-01-10 00:51:00
+Soup of the Day,2,2024-01-09 20:08:00
+Apple Pie,2,2024-01-10 00:29:00
+Apple Pie,4,2024-01-10 20:29:00
+Margherita Pizza,1,2024-01-11 02:19:00
+  Salmon  ,1,2024-01-11 03:25:00
+Margherita Pizza,1,2024-01-10 22:00:00
+Hummus Plate,1,2024-01-11 03:37:00
+Unknown Item 10,3,2024-01-10 20:27:00
+Unknown Item 6,1,2024-01-10 22:04:00
+Cheesecake,1,2024-01-11 01:03:00
+Unknown Item 12,1,invalid_date
+Soup of the Day,1,2024-01-11 06:30:00
+Hummus Plate,1,2024-01-10 19:26:00
+  Salmon  ,1,2024-01-10 21:08:00
+French Fries,1,2024-01-11 03:46:00
+  Salmon  ,2,2024-01-11 02:26:00
+Soup of the Days,2,2024-01-10 22:57:00
+Onion Rings,1,2024-01-10 22:55:00
+Unknown Item 17,4,2024-01-11 04:24:00
+Unknown Item 14,2,2024-01-10 22:43:00
+Soup of the Day,2,2024-01-11 05:55:00
+Apple Juice,1,invalid_date
+Unknown Item 3,1,2024-01-11 04:07:00
+Mashed Potatoes,1,2024-01-10 21:34:00
+Chicken Wings,1,2024-01-10 22:08:00
+Caesar Salad,1,2024-01-11 03:14:00
+Unknown Item 10,3,2024-01-11 04:48:00
+Soup of the Day,1,2024-01-10 19:19:00
+  Salmon  ,1,2024-01-10 23:46:00
+Unknown Item 15,2,2024-01-11 01:34:00
+Daily Special,1,2024-01-10 22:14:00
+Sparkling Water,2,invalid_date
+Tea,2,2024-01-10 21:12:00
+Caesar Salad,2,2024-01-11 04:46:00
+  Salmon  ,4,2024-01-11 03:02:00
+Apple Juice,1,2024-01-11 03:26:00
+Caesar Salad,2,2024-01-11 02:59:00
+Coca Cola,3,invalid_date
+Chicken Burger,2,2024-01-10 21:04:00
+Veggie Burger,1,2024-01-10 21:02:00
+Soup of the Day,3,2024-01-10 23:43:00
+Unknown Item 7,1,2024-01-11 03:03:00
+Garlic Mushrooms,3,2024-01-10 21:02:00
+Coca Cola,1,2024-01-10 23:14:00
+Soup of the Day,2,2024-01-11 01:48:00
+French Fries,3,2024-01-11 04:03:00
+Soup of the Day,1,invalid_date
+Caesar Salad,1,2024-01-10 21:58:00
+Apple Juice,1,2024-01-11 03:20:00
+Apple Pie,4,2024-01-11 02:49:00
+Tiramisu,3,2024-01-11 02:20:00
+Tiramisu,2,2024-01-10 21:56:00
+Unknown Item 11,2,2024-01-10 21:42:00
+Tea,3,2024-01-11 00:26:00
+Tea,1,2024-01-10 22:03:00
+Tiramisu,1,2024-01-11 02:37:00
+Unknown Item 9,2,2024-01-11 04:58:00
+Apple Pie,1,2024-01-10 21:43:00
+  Salmon  ,1,2024-01-10 23:31:00
+Chocolate Cake,1,2024-01-10 19:22:00
+  Salmon  ,1,2024-01-11 05:42:00
+Unknown Item 0,3,2024-01-10 22:33:00
+Sparkling Water,1,2024-01-10 22:26:00
+  Salmon  ,2,invalid_date
+Soup of the Day,1,2024-01-10 22:48:00
+Hummus Plate,1,2024-01-11 01:15:00
+  Salmon  ,1,2024-01-11 04:19:00
+Onion Rings,2,2024-01-11 04:09:00
+Apple Pie,2,2024-01-11 03:58:00
+Chocolate Cake,3,2024-01-10 20:26:00
+  Salmon  ,2,2024-01-11 05:35:00
+Tiramisu,2,2024-01-11 01:24:00
+Unknown Item 5,2,2024-01-10 21:13:00
+Unknown Item 12,3,2024-01-10 22:05:00
+Mashed Potatoes,2,2024-01-11 04:54:00
+Unknown Item 15,1,2024-01-10 22:34:00
+  Salmon  ,2,2024-01-11 03:12:00
+Soup of the Day,2,2024-01-10 20:24:00
+Seasonal Special,2,2024-01-11 03:38:00
+Soup of the Day,1,2024-01-10 19:04:00
+Chocolate Cake,3,2024-01-10 21:48:00
+Veggie Burger,4,2024-01-11 02:42:00
+Unknown Item 3,1,2024-01-11 02:30:00
+  Salmon  ,3,2024-01-10 21:58:00
+Caesar Salad,1,2024-01-10 22:58:00
+  Salmon  ,1,invalid_date
+Unknown Item 7,1,2024-01-10 21:47:00
+  Salmon  ,1,2024-01-10 21:48:00
+Margherita Pizza,3,2024-01-11 00:15:00
+Unknown Item 5,1,invalid_date
+Hummus Plate,1,2024-01-10 21:58:00
+Soup of the Day,1,2024-01-10 21:20:00
+  Salmon  ,1,2024-01-11 03:24:00
+Coca Cola,1,invalid_date
+Tiramisu,2,2024-01-10 22:16:00
+Unknown Item 9,1,2024-01-10 22:56:00
+Mashed Potatoes,3,2024-01-11 00:06:00
+  Salmon  ,3,2024-01-11 03:46:00
+Unknown Item 13,1,2024-01-10 23:53:00
+  Salmon  ,3,2024-01-10 22:13:00
+Cheesecake,1,invalid_date
+Soup of the Day,1,2024-01-10 19:55:00
+  Salmon  ,1,invalid_date
+Apple Pie,1,2024-01-10 18:35:00
+Apple Pie,2,2024-01-11 04:37:00
+Sparkling Water,2,2024-01-11 03:18:00
+Chocolate Cake,1,2024-01-10 21:21:00
+Soup of the Day,2,invalid_date
+Veggie Burger,1,2024-01-11 04:31:00
+Chicken Burger,2,2024-01-11 01:43:00
+Chicken Burgers,1,2024-01-10 22:48:00
+  Salmon  ,1,2024-01-11 03:46:00
+Coca Cola,1,2024-01-11 02:31:00
+Margherita Pizza,1,invalid_date
+Unknown Item 6,2,2024-01-11 03:10:00
+  Salmon  ,3,2024-01-10 21:34:00
+Apple Pie,1,2024-01-11 00:58:00
+Tiramisu,2,invalid_date
+Chicken Burger,2,2024-01-11 05:33:00
+  Salmon  ,3,2024-01-10 19:54:00
+  Salmon  ,1,2024-01-10 20:52:00
+Caesar Salad,1,2024-01-11 02:48:00
+  Salmon  ,3,invalid_date
+Caesar Salad,2,2024-01-11 04:14:00
+  Salmon  ,1,2024-01-10 20:09:00
+Apple Pie,1,2024-01-10 18:32:00
+Cheesecake,1,2024-01-10 23:03:00
+French Fries,2,2024-01-11 02:42:00
+Unknown Item 3,2,2024-01-11 04:58:00
+Old Menu Item,1,2024-01-11 00:31:00
+Veggie Burger,2,2024-01-10 18:34:00
+Unknown Item 10,2,2024-01-11 01:00:00
+Coca Cola,2,2024-01-10 18:46:00
+Soup of the Day,2,2024-01-10 22:18:00
+Cheesecake,3,2024-01-10 18:52:00
+Apple Pie,1,invalid_date
+  Salmon  ,3,2024-01-11 03:58:00
+Margherita Pizza,1,2024-01-10 21:58:00
+Unknown Item 0,1,invalid_date
+Apple Juice,1,2024-01-10 21:39:00
+  Salmon  ,1,2024-01-11 01:52:00
+Veggie Burger,1,2024-01-10 22:50:00
+  Salmon  ,1,2024-01-10 23:23:00
+French Fries,3,2024-01-11 05:29:00
+Chicken Wings,1,2024-01-11 02:44:00
+  Salmon  ,2,2024-01-10 21:43:00
+Cheesecake,1,2024-01-11 04:05:00
+Soup of the Day,3,2024-01-11 02:54:00
+Margherita Pizza,2,2024-01-11 02:02:00
+Chicken Burger,1,2024-01-10 20:24:00
+Chicken Burger,2,2024-01-10 22:30:00
+Apple Pie,2,2024-01-10 20:00:00
+Unknown Item 17,2,2024-01-11 20:54:00
+Unknown Item 16,2,2024-01-11 23:50:00
+Sparkling Water,2,2024-01-11 22:54:00
+Garlic Mushrooms,2,2024-01-12 06:57:00
+  Salmon  ,-1,2024-01-12 01:02:00
+Coca Cola,1,2024-01-11 21:57:00
+  Salmon  ,3,2024-01-12 04:56:00
+  Salmon  ,-1,2024-01-12 02:17:00
+Soup of the Day,1,invalid_date
+Soup of the Day,1,2024-01-12 03:17:00
+Caesar Salad,1,2024-01-12 04:36:00
+Margherita Pizza,4,2024-01-12 02:11:00
+Soup of the Day,1,2024-01-12 04:20:00
+Chocolate Cake,1,2024-01-11 18:13:00
+Margherita Pizzas,2,2024-01-12 02:48:00
+Hummus Plate,3,2024-01-12 03:52:00
+Caesar Salad,1,2024-01-11 23:04:00
+Unknown Item 14,1,2024-01-11 22:36:00
+Cheesecake,3,2024-01-11 21:53:00
+Garlic Mushrooms,2,2024-01-12 04:43:00
+  Salmon  ,1,2024-01-12 04:21:00
+  Salmon  ,1,2024-01-11 22:47:00
+Garlic Mushrooms,1,2024-01-11 21:44:00
+Soup of the Day,1,2024-01-12 03:32:00
+Veggie Burger,1,2024-01-12 03:22:00
+Soup of the Day,3,2024-01-11 20:27:00
+Cheesecake,1,2024-01-11 21:04:00
+Unknown Item 3,2,2024-01-11 22:49:00
+  Salmon  s,1,2024-01-12 02:38:00
+Veggie Burger,2,2024-01-11 23:49:00
+  Salmon  ,2,invalid_date
+Caesar Salad,1,2024-01-11 22:28:00
+Caesar Salad,2,2024-01-12 00:22:00
+Chicken Wings,-1,2024-01-12 01:24:00
+Tea,3,2024-01-11 23:43:00
+Mashed Potatoes,3,2024-01-12 02:24:00
+Hummus Plate,1,2024-01-11 20:39:00
+Hummus Plate,1,invalid_date
+Onion Rings,1,2024-01-12 03:05:00
+Hummus Plate,2,2024-01-11 22:24:00
+Margherita Pizza,1,2024-01-12 03:40:00
+Soup of the Day,1,invalid_date
+Margherita Pizza,1,2024-01-11 22:06:00
+French Fries,1,2024-01-11 20:19:00
+Soup of the Day,2,2024-01-11 23:48:00
+Seasonal Special,1,2024-01-11 22:08:00
+Soup of the Day,2,2024-01-11 20:27:00
+Margherita Pizza,1,2024-01-11 23:35:00
+Coca Cola,1,2024-01-12 00:06:00
+Coca Cola,2,2024-01-11 19:22:00
+Mashed Potatoes,4,2024-01-12 01:38:00
+Caesar Salad,2,2024-01-12 02:20:00
+Sparkling Water,1,2024-01-12 04:00:00
+Tea,1,2024-01-11 22:24:00
+Apple Pie,3,2024-01-12 03:46:00
+Tea,1,2024-01-12 04:57:00
+Coca Cola,1,2024-01-12 07:15:00
+French Fries,3,2024-01-12 02:10:00
+Cheesecake,3,2024-01-12 03:10:00
+Veggie Burger,4,2024-01-11 21:19:00
+Unknown Item 18,3,2024-01-11 22:09:00
+Apple Pie,3,2024-01-11 20:27:00
+Veggie Burger,1,2024-01-11 22:19:00
+Coca Cola,1,2024-01-12 00:04:00
+Soup of the Day,2,2024-01-11 22:15:00
+Mashed Potatoes,2,2024-01-12 03:31:00
+Caesar Salad,1,2024-01-12 02:12:00
+Veggie Burger,1,2024-01-11 23:08:00
+Caesar Salad,1,2024-01-11 22:25:00
+Unknown Item 0,2,2024-01-11 22:39:00
+Mashed Potatoes,1,2024-01-11 22:55:00
+Tea,1,2024-01-11 22:21:00
+  Salmon  ,2,2024-01-11 23:52:00
+Apple Juice,2,2024-01-12 04:38:00
+Apple Juice,1,2024-01-11 21:20:00
+Veggie Burger,2,2024-01-12 02:44:00
+Coca Cola,2,2024-01-11 21:20:00
+Chicken Burger,1,invalid_date
+Veggie Burger,1,2024-01-12 05:18:00
+Unknown Item 19,1,2024-01-12 03:40:00
+Veggie Burger,1,2024-01-12 00:36:00
+Tiramisu,3,2024-01-12 03:20:00
+Apple Pie,1,2024-01-11 22:52:00
+  Salmon  ,2,invalid_date
+Chicken Burger,1,2024-01-11 21:36:00
+  Salmon  ,1,2024-01-11 21:34:00
+Apple Pie,2,2024-01-11 21:49:00
+  Salmon  ,1,2024-01-12 01:46:00
+  Salmon  ,1,2024-01-11 23:45:00
+Unknown Item 17,1,2024-01-11 21:51:00
+Cheesecake,1,2024-01-11 22:44:00
+Hummus Plate,2,2024-01-11 20:54:00
+Chocolate Cake,1,2024-01-12 03:26:00
+Mashed Potatoes,3,2024-01-12 02:08:00
+  Salmon  ,2,2024-01-12 02:15:00
+  Salmon  ,1,2024-01-11 22:09:00
+Seasonal Special,1,2024-01-12 03:50:00
+Coca Cola,1,2024-01-11 22:28:00
+Unknown Item 12,2,2024-01-12 07:30:00
+Sparkling Water,1,2024-01-12 02:34:00
+Caesar Salad,3,2024-01-12 00:58:00
+Hummus Plate,1,2024-01-12 04:26:00
+  Salmon  ,3,2024-01-12 01:50:00
+Margherita Pizza,1,invalid_date
+  Salmon  ,3,invalid_date
+  Salmon  ,1,2024-01-12 02:58:00
+  Salmon  ,1,2024-01-11 20:49:00
+Mashed Potatoes,1,2024-01-11 22:42:00
+Onion Rings,1,2024-01-11 22:41:00
+  Salmon  ,4,2024-01-12 02:36:00
+Coca Cola,1,2024-01-12 06:43:00
+  Salmon  ,1,2024-01-12 02:48:00
+Apple Juice,2,2024-01-11 22:50:00
+Caesar Salad,1,2024-01-11 23:00:00
+Unknown Item 0,2,2024-01-11 20:14:00
+Chocolate Cake,2,2024-01-12 00:33:00
+Chicken Burger,1,2024-01-12 02:44:00
+Margherita Pizza,3,2024-01-12 02:28:00
+  Salmon  ,1,invalid_date
+Margherita Pizza,1,2024-01-12 03:37:00
+Hummus Plate,2,2024-01-12 03:09:00
+Tiramisu,2,2024-01-11 22:01:00
+  Salmon  ,1,2024-01-12 00:18:00
+French Fries,2,2024-01-11 23:05:00
+Unknown Item 13,1,invalid_date
+  Salmon  ,1,2024-01-12 21:19:00
+Unknown Item 11,3,2024-01-12 22:50:00
+Caesar Salad,1,2024-01-12 21:30:00
+Onion Rings,1,2024-01-12 22:06:00
+  Salmon  ,3,2024-01-12 23:44:00
+Unknown Item 14,4,2024-01-12 23:04:00
+Coca Cola,1,2024-01-12 22:51:00
+  Salmon  ,2,2024-01-13 03:01:00
+Caesar Salad,2,2024-01-13 04:41:00
+Coca Cola,3,2024-01-12 21:51:00
+Sparkling Water,3,2024-01-12 21:47:00
+Hummus Plate,1,2024-01-12 21:11:00
+Veggie Burger,1,2024-01-13 01:21:00
+Sparkling Water,1,2024-01-13 02:29:00
+Hummus Plate,2,2024-01-12 21:25:00
+Tea,2,2024-01-13 02:11:00
+  Salmon  ,2,2024-01-13 02:27:00
+Caesar Salad,4,2024-01-12 22:47:00
+Unknown Item 12,1,2024-01-13 02:12:00
+Unknown Item 15,1,2024-01-12 23:27:00
+Unknown Item 1,1,2024-01-12 22:45:00
+Caesar Salad,1,2024-01-12 21:17:00
+Soup of the Day,1,2024-01-13 03:51:00
+Chocolate Cake,1,2024-01-13 03:36:00
+  Salmon  ,2,2024-01-12 21:55:00
+Apple Pie,3,2024-01-13 01:23:00
+Sparkling Water,2,2024-01-12 22:29:00
+Unknown Item 18,2,2024-01-12 21:42:00
+Hummus Plate,1,2024-01-13 04:33:00
+Chicken Burger,2,2024-01-13 05:20:00
+Apple Juice,2,invalid_date
+Sparkling Water,2,2024-01-12 22:07:00
+Unknown Item 16,1,2024-01-12 22:54:00
+Margherita Pizza,1,2024-01-12 23:11:00
+Veggie Burger,1,2024-01-13 03:45:00
+Onion Rings,2,2024-01-13 03:58:00
+Coca Cola,3,2024-01-13 02:05:00
+French Fries,3,2024-01-13 02:20:00
+Sparkling Water,1,2024-01-12 21:19:00
+Mashed Potatoes,2,2024-01-12 21:23:00
+Hummus Plate,3,2024-01-13 03:32:00
+  Salmon  ,1,2024-01-12 22:38:00
+Hummus Plate,1,invalid_date
+Margherita Pizza,3,2024-01-12 23:31:00
+Coca Cola,1,2024-01-13 02:44:00
+  Salmon  ,3,2024-01-13 04:59:00
+  Salmon  ,4,2024-01-13 07:35:00
+Unknown Item 18,2,2024-01-12 21:18:00
+Veggie Burger,3,2024-01-12 21:20:00
+Margherita Pizza,2,2024-01-13 04:39:00
+Margherita Pizza,2,2024-01-12 20:22:00
+Chocolate Cake,1,invalid_date
+Margherita Pizza,1,2024-01-12 21:52:00
+Tiramisu,1,2024-01-12 22:35:00
+Daily Special,2,invalid_date
+Chicken Wings,1,2024-01-12 23:31:00
+Veggie Burger,1,2024-01-12 23:53:00
+Apple Pie,1,2024-01-12 23:10:00
+Unknown Item 1,-2,2024-01-12 20:01:00
+  Salmon  ,4,2024-01-13 03:14:00
+  Salmon  s,4,2024-01-12 22:17:00
+Onion Rings,1,2024-01-12 21:18:00
+Soup of the Day,3,2024-01-12 21:29:00
+Veggie Burger,2,2024-01-13 02:49:00
+Sparkling Water,2,2024-01-13 03:35:00
+Apple Pie,2,2024-01-13 00:36:00
+Veggie Burger,1,2024-01-12 21:49:00
+Apple Juice,3,2024-01-13 01:23:00
+Sparkling Water,1,2024-01-13 01:48:00
+Margherita Pizza,1,2024-01-12 19:46:00
+Chocolate Cake,2,invalid_date
+Apple Pie,1,2024-01-13 06:06:00
+  Salmon  ,1,2024-01-13 03:41:00
+Unknown Item 4,2,2024-01-13 03:19:00
+Veggie Burger,1,2024-01-13 04:02:00
+Tiramisu,2,2024-01-12 23:22:00
+  Salmon  ,2,2024-01-13 04:05:00
+Unknown Item 3,2,invalid_date
+French Fries,2,2024-01-13 03:15:00
+Caesar Salad,2,2024-01-12 21:47:00
+Old Menu Item,2,2024-01-13 02:22:00
+Veggie Burger,2,2024-01-13 04:39:00
+Apple Pie,2,2024-01-13 02:10:00
+Unknown Item 13,2,2024-01-13 02:50:00
+Daily Special,3,2024-01-12 21:13:00
+  Salmon  ,1,2024-01-13 03:36:00
+Hummus Plate,1,2024-01-12 22:17:00
+Soup of the Day,3,2024-01-13 02:10:00
+Unknown Item 4,1,2024-01-12 22:45:00
+Chicken Burger,1,2024-01-12 22:36:00
+Soup of the Day,2,invalid_date
+  Salmon  ,1,2024-01-13 00:57:00
+Veggie Burger,1,2024-01-13 03:06:00
+Cheesecake,4,2024-01-12 21:48:00
+Caesar Salad,2,2024-01-13 03:58:00
+Soup of the Day,1,2024-01-12 20:17:00
+Chocolate Cake,4,2024-01-13 04:08:00
+Mashed Potatoes,4,invalid_date
+Hummus Plate,1,2024-01-12 22:45:00
+  Salmon  ,1,2024-01-12 22:15:00
+  Salmon  ,3,2024-01-13 03:43:00
+Coca Cola,2,2024-01-12 22:09:00
+Soup of the Day,2,2024-01-13 02:17:00
+Veggie Burger,3,2024-01-13 02:24:00
+Unknown Item 6,2,2024-01-12 23:40:00
+  Salmon  ,1,2024-01-13 03:49:00
+Chicken Burger,2,2024-01-12 20:32:00
+Caesar Salad,1,2024-01-13 03:44:00
+Soup of the Day,2,2024-01-13 04:23:00
+Soup of the Day,2,2024-01-12 23:31:00
+Unknown Item 6,1,invalid_date
+Sparkling Waters,2,2024-01-13 04:54:00
+Margherita Pizza,1,2024-01-13 03:46:00
+French Fries,1,2024-01-13 06:40:00
+Caesar Salad,2,2024-01-13 02:22:00
+Margherita Pizza,1,2024-01-13 04:50:00
+Sparkling Water,2,2024-01-13 01:13:00
+Coca Cola,1,2024-01-13 05:52:00
+Apple Pie,2,invalid_date
+  Salmon  ,3,2024-01-12 22:18:00
+Hummus Plate,2,2024-01-14 01:08:00
+Soup of the Day,1,invalid_date
+Unknown Item 19,4,2024-01-14 03:57:00
+Margherita Pizza,1,2024-01-14 03:03:00
+Unknown Item 4,1,2024-01-13 19:40:00
+Chicken Burger,1,2024-01-14 03:29:00
+Veggie Burger,1,2024-01-13 18:59:00
+Margherita Pizza,4,2024-01-14 04:28:00
+  Salmon  ,1,2024-01-13 23:27:00
+Unknown Item 14,2,2024-01-13 21:44:00
+Veggie Burger,2,2024-01-14 04:56:00
+Tea,1,2024-01-14 02:10:00
+Apple Juice,2,invalid_date
+Hummus Plate,1,2024-01-13 22:41:00
+Sparkling Water,1,2024-01-13 22:05:00
+  Salmon  ,1,invalid_date
+  Salmon  ,3,2024-01-14 02:03:00
+Chicken Burger,4,2024-01-13 23:19:00
+Unknown Item 4,1,2024-01-14 03:48:00
+  Salmon  ,1,2024-01-13 21:41:00
+  Salmon  ,2,2024-01-13 20:06:00
+Unknown Item 14,1,2024-01-13 18:30:00
+French Fries,3,2024-01-13 20:37:00
+  Salmon  ,2,2024-01-13 21:43:00
+Onion Rings,1,2024-01-13 23:00:00
+Chicken Wings,3,2024-01-14 03:52:00
+Margherita Pizza,1,2024-01-13 21:55:00
+Sparkling Water,3,2024-01-13 23:08:00
+Veggie Burger,3,2024-01-14 00:14:00
+Soup of the Day,1,2024-01-13 22:46:00
+Hummus Plate,1,2024-01-14 03:06:00
+Margherita Pizza,4,2024-01-13 22:56:00
+Soup of the Day,3,2024-01-13 22:24:00
+  Salmon  ,1,2024-01-14 03:48:00
+Unknown Item 14,3,2024-01-14 04:41:00
+Unknown Item 19,1,2024-01-14 07:09:00
+  Salmon  ,1,2024-01-13 20:36:00
+Veggie Burger,3,2024-01-13 18:41:00
+Apple Pie,1,invalid_date
+Unknown Item 9,3,2024-01-14 03:40:00
+Unknown Item 7,1,2024-01-14 03:58:00
+Coca Cola,2,2024-01-13 23:43:00
+Veggie Burger,1,2024-01-13 23:13:00
+Soup of the Day,2,2024-01-13 20:06:00
+Coca Cola,2,2024-01-13 21:07:00
+French Fries,1,2024-01-14 02:24:00
+Caesar Salad,2,2024-01-13 22:27:00
+  Salmon  ,1,2024-01-13 22:08:00
+  Salmon  ,1,2024-01-13 22:41:00
+Seasonal Special,3,2024-01-13 20:35:00
+Caesar Salad,1,2024-01-14 02:46:00
+Sparkling Water,2,2024-01-14 02:49:00
+Caesar Salad,2,2024-01-14 05:01:00
+Apple Pie,2,2024-01-14 04:42:00
+Tea,1,2024-01-14 04:13:00
+Unknown Item 3,1,2024-01-14 00:32:00
+Veggie Burger,1,2024-01-13 21:25:00
+Unknown Item 10,2,2024-01-13 22:03:00
+Soup of the Day,3,2024-01-14 03:50:00
+Soup of the Day,2,invalid_date
+Unknown Item 19,1,invalid_date
+Chicken Burger,1,invalid_date
+Chicken Burger,1,invalid_date
+  Salmon  ,1,2024-01-14 06:23:00
+Hummus Plate,1,2024-01-14 04:08:00
+Unknown Item 17,1,2024-01-13 22:53:00
+Unknown Item 10,1,2024-01-14 02:23:00
+Mashed Potatoes,1,2024-01-14 01:11:00
+Tiramisu,1,2024-01-14 03:49:00
+Veggie Burger,1,2024-01-13 20:37:00
+  Salmon  ,1,2024-01-13 20:16:00
+Hummus Plate,1,2024-01-13 21:59:00
+Caesar Salad,2,2024-01-13 20:50:00
+Unknown Item 15,1,2024-01-13 23:18:00
+Margherita Pizza,1,2024-01-14 02:32:00
+Hummus Plate,1,2024-01-14 03:27:00
+Garlic Mushrooms,1,2024-01-14 03:05:00
+Tiramisu,1,2024-01-14 02:34:00
+Tiramisu,1,2024-01-14 02:17:00
+Margherita Pizza,2,2024-01-13 20:05:00
+Margherita Pizza,1,2024-01-14 00:13:00
+Margherita Pizza,1,2024-01-14 06:09:00
+Unknown Item 18,3,2024-01-14 01:25:00
+Chocolate Cake,1,invalid_date
+Unknown Item 11,1,2024-01-14 04:43:00
+Onion Rings,3,invalid_date
+Sparkling Water,3,2024-01-14 03:46:00
+  Salmon  ,1,2024-01-14 05:15:00
+Chocolate Cake,1,2024-01-13 20:05:00
+Chicken Burger,1,2024-01-14 04:07:00
+Unknown Item 5,1,2024-01-13 23:38:00
+  Salmon  ,2,2024-01-13 20:42:00
+Hummus Plate,1,invalid_date
+Chicken Burger,1,2024-01-13 21:00:00
+Soup of the Day,3,2024-01-14 03:44:00
+Margherita Pizza,4,2024-01-13 18:31:00
+Caesar Salad,1,2024-01-14 05:33:00
+  Salmon  ,2,2024-01-14 00:52:00
+Sparkling Water,1,2024-01-14 03:10:00
+Cheesecake,3,2024-01-13 22:47:00
+French Fries,1,2024-01-14 03:17:00
+Hummus Plate,1,2024-01-14 03:07:00
+Tiramisu,1,2024-01-14 03:01:00
+Veggie Burger,1,2024-01-13 22:27:00
+Coca Cola,1,2024-01-13 22:04:00
+Tiramisu,2,2024-01-13 22:36:00
+Unknown Item 0,2,2024-01-14 02:31:00
+Soup of the Day,1,2024-01-13 23:23:00
+Soup of the Day,1,2024-01-13 20:54:00
+Chicken Burger,1,2024-01-14 02:23:00
+Margherita Pizza,3,2024-01-13 21:49:00
+Chocolate Cake,3,2024-01-13 21:36:00
+  Salmon  ,4,2024-01-14 03:07:00
+Margherita Pizza,3,invalid_date
+Hummus Plate,1,2024-01-13 18:54:00
+Caesar Salad,1,2024-01-14 04:15:00
+Unknown Item 3,2,2024-01-13 19:23:00
+Margherita Pizza,3,2024-01-13 22:09:00
+Chocolate Cakes,1,2024-01-13 21:54:00
+Sparkling Water,1,2024-01-13 19:51:00
+Tiramisu,3,2024-01-14 04:47:00
+Unknown Item 12,1,2024-01-14 02:14:00
+  Salmon  ,1,2024-01-13 22:26:00
+Unknown Item 4,2,2024-01-14 04:20:00
+Caesar Salad,1,2024-01-13 22:04:00
+Unknown Item 10,1,2024-01-14 02:07:00
+Unknown Item 2,2,2024-01-14 00:57:00
+Tea,2,2024-01-13 20:14:00
+Unknown Item 16,4,invalid_date
+Caesar Salad,1,2024-01-14 05:04:00
+Veggie Burger,1,2024-01-14 04:55:00
+Tea,2,2024-01-13 22:54:00
+Margherita Pizza,2,2024-01-13 22:05:00
+Sparkling Water,1,2024-01-14 01:00:00
+Coca Cola,2,2024-01-13 22:18:00
+  Salmon  ,1,2024-01-15 03:47:00
+Chicken Burger,1,2024-01-15 02:29:00
+  Salmon  ,1,2024-01-14 22:31:00
+Margherita Pizza,1,2024-01-15 07:49:00
+Apple Juice,1,2024-01-14 21:57:00
+  Salmon  ,2,2024-01-15 01:50:00
+Apple Juice,2,2024-01-14 21:00:00
+Unknown Item 14,3,invalid_date
+Soup of the Day,1,2024-01-14 21:22:00
+  Salmon  ,1,2024-01-15 02:44:00
+Soup of the Day,1,2024-01-15 04:21:00
+Soup of the Day,1,2024-01-14 18:42:00
+Mashed Potatoes,2,2024-01-14 22:47:00
+Chocolate Cake,2,2024-01-15 03:06:00
+Unknown Item 11,2,2024-01-14 21:15:00
+Caesar Salad,1,2024-01-14 23:03:00
+Soup of the Day,1,2024-01-15 06:09:00
+  Salmon  ,1,2024-01-15 03:05:00
+Chicken Burger,1,2024-01-14 19:14:00
+Unknown Item 4,2,2024-01-15 04:33:00
+Old Menu Item,4,2024-01-14 23:57:00
+Soup of the Day,1,2024-01-14 22:47:00
+Tea,2,2024-01-14 20:06:00
+Sparkling Water,2,2024-01-15 00:40:00
+Unknown Item 11,1,2024-01-15 03:04:00
+  Salmon  ,2,2024-01-15 02:03:00
+  Salmon  ,1,2024-01-14 23:08:00
+Coca Cola,1,invalid_date
+Caesar Salad,2,2024-01-15 04:59:00
+  Salmon  ,3,invalid_date
+Caesar Salad,1,2024-01-15 04:20:00
+Unknown Item 19,1,2024-01-14 22:17:00
+Apple Juice,3,2024-01-14 21:12:00
+Sparkling Water,3,2024-01-14 21:49:00
+Unknown Item 19,2,2024-01-15 02:09:00
+Soup of the Day,1,2024-01-14 21:28:00
+French Fries,3,2024-01-14 23:26:00
+Soup of the Day,1,2024-01-14 21:22:00
+Margherita Pizza,2,2024-01-15 05:13:00
+Margherita Pizza,1,2024-01-14 23:29:00
+Unknown Item 9,2,2024-01-14 22:07:00
+Unknown Item 2,1,2024-01-14 20:51:00
+Unknown Item 15,1,2024-01-15 03:52:00
+Apple Juices,1,2024-01-15 03:38:00
+Unknown Item 5,1,2024-01-14 19:53:00
+Unknown Item 10,2,2024-01-15 04:09:00
+  Salmon  ,3,2024-01-14 20:15:00
+Caesar Salad,4,2024-01-15 05:25:00
+  Salmon  ,1,invalid_date
+Tea,2,2024-01-14 22:52:00
+  Salmon  ,2,2024-01-15 07:01:00
+Tiramisu,1,2024-01-15 05:54:00
+Hummus Plate,1,2024-01-14 23:47:00
+Soup of the Day,2,2024-01-15 01:06:00
+Caesar Salad,-3,2024-01-14 23:51:00
+Unknown Item 8,2,2024-01-15 03:07:00
+Caesar Salad,1,2024-01-14 18:53:00
+Chicken Burger,2,2024-01-15 03:14:00
+Unknown Item 19,1,2024-01-14 21:52:00
+Chicken Burger,2,2024-01-14 23:43:00
+Unknown Item 18,2,2024-01-15 02:41:00
+Veggie Burger,1,2024-01-14 20:37:00
+Tea,3,2024-01-14 22:52:00
+French Fries,1,2024-01-14 20:04:00
+  Salmon  ,4,2024-01-14 21:41:00
+Soup of the Day,1,2024-01-14 23:08:00
+Unknown Item 13,1,2024-01-14 20:54:00
+French Fries,1,2024-01-15 04:21:00
+Veggie Burger,1,2024-01-14 21:29:00
+Apple Juice,1,2024-01-14 20:59:00
+Unknown Item 5,2,2024-01-15 02:52:00
+  Salmon  ,2,2024-01-15 03:31:00
+Chocolate Cake,2,2024-01-14 19:43:00
+Margherita Pizza,1,2024-01-14 23:22:00
+Unknown Item 11,2,2024-01-14 21:11:00
+Mashed Potatoes,1,2024-01-14 22:28:00
+  Salmon  ,2,2024-01-15 04:02:00
+Hummus Plate,1,invalid_date
+Soup of the Day,3,invalid_date
+Veggie Burger,2,2024-01-15 00:56:00
+Mashed Potatoes,2,2024-01-15 01:03:00
+Margherita Pizza,1,invalid_date
+  Salmon  ,1,2024-01-14 21:12:00
+Onion Rings,1,2024-01-15 02:51:00
+Caesar Salad,3,invalid_date
+Garlic Mushrooms,3,2024-01-15 07:34:00
+Caesar Salad,-1,2024-01-15 03:24:00
+Soup of the Day,2,2024-01-15 03:22:00
+  Salmon  ,2,2024-01-15 00:50:00
+Hummus Plate,2,2024-01-15 00:58:00
+Veggie Burger,1,2024-01-15 02:20:00
+  Salmon  ,1,2024-01-14 22:11:00
+Mashed Potatoes,1,2024-01-14 19:38:00
+Mashed Potatoes,3,2024-01-14 21:57:00
+Apple Pie,1,2024-01-15 03:17:00
+Caesar Salad,1,2024-01-14 20:30:00
+Hummus Plate,3,invalid_date
+Caesar Salad,2,2024-01-15 02:14:00
+Cheesecake,3,2024-01-15 06:06:00
+Apple Juice,1,2024-01-14 22:15:00
+  Salmon  ,1,2024-01-14 22:52:00
+Seasonal Special,3,2024-01-15 03:47:00
+  Salmon  ,1,2024-01-14 20:14:00
+Sparkling Water,1,2024-01-15 02:51:00
+Mashed Potatoes,1,2024-01-14 22:59:00
+Unknown Item 9,1,2024-01-15 04:54:00
+Veggie Burger,1,2024-01-14 21:15:00
+Unknown Item 14,3,2024-01-15 02:51:00
+Apple Juice,3,invalid_date
+Chocolate Cake,3,2024-01-15 04:01:00
+Veggie Burger,1,2024-01-15 03:22:00
+Mashed Potatoes,1,2024-01-15 05:36:00
+Sparkling Water,1,invalid_date
+Tiramisu,3,2024-01-15 04:51:00
+Unknown Item 6,1,2024-01-15 04:31:00
+Chicken Burger,2,2024-01-15 01:11:00
+Unknown Item 2,2,2024-01-15 00:05:00
+  Salmon  ,1,invalid_date
+Coca Cola,1,2024-01-14 21:33:00
+Coca Cola,4,2024-01-15 00:21:00
+Daily Special,4,2024-01-15 04:12:00
+Soup of the Day,1,2024-01-15 03:21:00
+Mashed Potatoes,1,2024-01-15 03:58:00
+Mashed Potatoes,4,2024-01-15 03:55:00
+French Fries,1,2024-01-14 22:01:00
+Mashed Potatoes,1,2024-01-14 21:45:00
+Coca Cola,1,2024-01-15 04:49:00
+  Salmon  ,2,2024-01-14 21:33:00
+  Salmon  ,1,2024-01-15 04:04:00
+Caesar Salad,1,2024-01-14 22:42:00
+Chicken Burger,1,2024-01-14 22:06:00
+Chocolate Cake,2,2024-01-14 22:20:00
+Unknown Item 17,4,2024-01-14 21:10:00
+Margherita Pizza,3,2024-01-15 03:27:00
+Unknown Item 7,3,2024-01-15 03:31:00
+French Fries,2,2024-01-15 02:11:00
+Soup of the Day,1,2024-01-15 03:35:00
+Hummus Plate,1,2024-01-15 03:59:00
+Soup of the Day,3,2024-01-15 02:22:00
+Hummus Plate,1,2024-01-14 21:37:00
+Daily Special,1,2024-01-15 03:24:00
+Chicken Burger,2,invalid_date
+  Salmon  ,1,2024-01-14 22:11:00
+Apple Juice,1,2024-01-15 03:44:00
+  Salmon  ,4,2024-01-15 05:25:00
+Onion Rings,3,2024-01-15 04:49:00
+Caesar Salad,1,2024-01-15 05:02:00
+Margherita Pizza,4,2024-01-14 21:20:00
+Garlic Mushrooms,2,2024-01-15 04:39:00
+Soup of the Day,2,2024-01-14 21:36:00
+  Salmon  ,1,2024-01-16 04:09:00
+Apple Pie,1,2024-01-15 22:04:00
+Unknown Item 7,2,2024-01-15 21:20:00
+Soup of the Day,3,invalid_date
+Veggie Burger,2,2024-01-16 05:52:00
+Chocolate Cake,1,2024-01-16 03:40:00
+Hummus Plate,1,2024-01-16 03:21:00
+Garlic Mushrooms,3,2024-01-15 23:16:00
+Mashed Potatoes,1,2024-01-15 21:44:00
+Unknown Item 3,2,2024-01-15 20:16:00
+Margherita Pizza,1,2024-01-16 03:46:00
+Coca Cola,1,invalid_date
+  Salmon  ,2,2024-01-15 23:26:00
+Chicken Burger,2,2024-01-16 05:56:00
+Caesar Salad,1,2024-01-15 23:56:00
+Mashed Potatoes,1,2024-01-15 22:34:00
+Old Menu Item,3,2024-01-15 22:53:00
+Chicken Burger,1,2024-01-16 00:55:00
+Soup of the Day,2,2024-01-16 02:48:00
+Sparkling Water,4,invalid_date
+Mashed Potatoes,1,2024-01-15 23:51:00
+Unknown Item 4,3,2024-01-16 04:18:00
+Unknown Item 14,1,2024-01-15 19:16:00
+Hummus Plate,2,2024-01-16 05:04:00
+Chocolate Cake,1,2024-01-15 22:56:00
+Unknown Item 19,4,2024-01-15 22:46:00
+Hummus Plate,1,2024-01-15 20:57:00
+Garlic Mushrooms,1,2024-01-16 06:21:00
+Unknown Item 16,4,2024-01-16 02:39:00
+Mashed Potatoes,2,2024-01-16 04:45:00
+Mashed Potatoes,2,2024-01-15 19:41:00
+Soup of the Days,1,2024-01-15 21:56:00
+Margherita Pizza,2,2024-01-15 23:03:00
+  Salmon  ,1,2024-01-15 21:13:00
+Unknown Item 16,1,2024-01-16 06:26:00
+Hummus Plate,2,2024-01-16 03:46:00
+Unknown Item 18,1,2024-01-16 04:34:00
+Unknown Item 8,4,2024-01-15 22:18:00
+Cheesecake,3,2024-01-15 22:06:00
+Garlic Mushrooms,2,2024-01-15 20:36:00
+Tea,3,2024-01-16 01:31:00
+Sparkling Water,2,2024-01-15 21:23:00
+Soup of the Day,1,2024-01-15 18:05:00
+Coca Cola,2,2024-01-15 22:42:00
+Margherita Pizza,1,2024-01-16 02:30:00
+Chicken Burger,1,2024-01-15 21:01:00
+  Salmon  ,3,2024-01-15 21:40:00
+  Salmon  ,-2,2024-01-15 22:05:00
+  Salmon  ,3,2024-01-15 23:07:00
+Tea,1,2024-01-15 22:25:00
+Garlic Mushrooms,2,2024-01-15 23:57:00
+Tiramisu,1,2024-01-16 02:05:00
+Soup of the Day,2,2024-01-16 02:24:00
+Unknown Item 0,2,2024-01-15 21:56:00
+Unknown Item 19,2,2024-01-15 22:11:00
+Sparkling Water,1,2024-01-15 23:16:00
+Old Menu Item,1,2024-01-15 23:16:00
+Soup of the Day,1,invalid_date
+Margherita Pizza,2,2024-01-16 02:09:00
+Caesar Salad,3,invalid_date
+  Salmon  ,1,2024-01-15 20:42:00
+Tea,2,2024-01-15 22:34:00
+  Salmon  ,3,2024-01-15 23:48:00
+Soup of the Day,2,2024-01-16 02:35:00
+Veggie Burger,2,2024-01-15 20:24:00
+Soup of the Day,3,2024-01-16 03:26:00
+Soup of the Day,1,2024-01-16 05:43:00
+Unknown Item 16,1,2024-01-16 04:30:00
+Veggie Burger,1,2024-01-16 02:15:00
+Sparkling Water,4,2024-01-16 00:05:00
+Soup of the Day,3,2024-01-15 22:54:00
+Chicken Burger,2,2024-01-16 03:32:00
+  Salmon  ,1,2024-01-16 02:33:00
+Coca Cola,1,invalid_date
+Margherita Pizza,1,2024-01-16 06:09:00
+Hummus Plate,1,2024-01-15 21:48:00
+Coca Cola,2,2024-01-15 23:10:00
+Soup of the Day,4,2024-01-16 06:51:00
+Tiramisu,3,2024-01-15 21:02:00
+  Salmon  ,2,2024-01-15 23:43:00
+Veggie Burger,1,2024-01-15 23:52:00
+Veggie Burger,1,2024-01-16 02:53:00
+Sparkling Water,1,2024-01-16 02:20:00
+Caesar Salad,2,invalid_date
+Margherita Pizza,3,2024-01-16 03:05:00
+Mashed Potatoes,1,2024-01-15 22:25:00
+  Salmon  ,1,2024-01-16 01:54:00
+Caesar Salad,1,2024-01-15 22:29:00
+Apple Juice,1,2024-01-16 04:00:00
+  Salmon  ,1,2024-01-16 03:39:00
+Coca Cola,1,2024-01-16 02:50:00
+Sparkling Water,1,invalid_date
+Daily Special,3,2024-01-15 21:36:00
+  Salmon  ,2,2024-01-16 02:48:00
+Soup of the Day,1,2024-01-16 05:06:00
+Unknown Item 10,1,2024-01-16 04:36:00
+Unknown Item 14,1,2024-01-16 03:50:00
+Hummus Plate,1,2024-01-15 22:34:00
+Unknown Item 17,1,2024-01-16 04:56:00
+Veggie Burger,2,2024-01-15 23:24:00
+Tea,2,2024-01-16 02:36:00
+Soup of the Day,2,2024-01-16 02:02:00
+Hummus Plate,1,2024-01-15 21:25:00
+Soup of the Day,3,2024-01-15 21:38:00
+Onion Rings,1,2024-01-16 03:25:00
+  Salmon  ,1,2024-01-15 19:56:00
+Caesar Salad,2,2024-01-16 04:44:00
+Garlic Mushrooms,2,2024-01-15 21:47:00
+  Salmon  s,3,2024-01-15 23:17:00
+Soup of the Day,2,2024-01-16 04:01:00
+Margherita Pizza,3,invalid_date
+  Salmon  ,3,2024-01-15 22:17:00
+Old Menu Item,2,2024-01-16 04:54:00
+Sparkling Water,2,2024-01-16 03:06:00
+  Salmon  ,2,2024-01-16 06:14:00
+Apple Pie,4,2024-01-15 21:47:00
+Unknown Item 15,2,2024-01-15 23:52:00
+Coca Cola,1,2024-01-15 22:46:00
+  Salmon  ,2,2024-01-15 23:41:00
+Chicken Wings,1,2024-01-15 20:28:00
+Unknown Item 11,1,2024-01-17 04:26:00
+Unknown Item 15,1,invalid_date
+Caesar Salad,2,2024-01-17 00:23:00
+Coca Cola,3,2024-01-17 03:32:00
+Old Menu Item,1,2024-01-17 03:04:00
+Mashed Potatoes,1,2024-01-16 22:32:00
+Unknown Item 11,1,invalid_date
+Unknown Item 1,2,invalid_date
+Caesar Salad,1,2024-01-17 02:11:00
+Chicken Burger,1,2024-01-16 21:53:00
+Soup of the Day,1,invalid_date
+Sparkling Water,1,invalid_date
+Unknown Item 9,1,2024-01-16 20:23:00
+Veggie Burger,2,2024-01-17 03:17:00
+Coca Cola,1,2024-01-16 22:29:00
+Unknown Item 19,2,2024-01-17 00:40:00
+Mashed Potatoes,1,2024-01-17 04:43:00
+Mashed Potatoes,1,invalid_date
+Soup of the Day,1,2024-01-17 00:28:00
+Caesar Salad,2,2024-01-16 21:55:00
+Chocolate Cake,3,2024-01-16 23:35:00
+Unknown Item 15,3,2024-01-16 22:10:00
+Margherita Pizzas,2,2024-01-17 04:16:00
+Teas,1,2024-01-17 03:44:00
+Daily Special,3,2024-01-16 20:01:00
+Mashed Potatoes,2,2024-01-16 22:10:00
+  Salmon  ,1,2024-01-17 04:49:00
+Daily Special,3,2024-01-17 05:54:00
+Seasonal Special,1,2024-01-16 21:14:00
+Veggie Burger,1,2024-01-17 03:17:00
+Veggie Burger,1,2024-01-17 02:32:00
+Chicken Burger,1,2024-01-16 19:49:00
+Unknown Item 11,2,2024-01-17 05:43:00
+Chicken Burger,1,2024-01-16 18:58:00
+  Salmon  ,1,2024-01-16 21:11:00
+  Salmon  ,1,2024-01-17 02:00:00
+Caesar Salad,2,2024-01-16 21:38:00
+Unknown Item 4,2,invalid_date
+Margherita Pizza,1,2024-01-17 03:45:00
+Hummus Plate,1,2024-01-17 02:27:00
+Caesar Salad,1,2024-01-17 04:54:00
+Chicken Burger,3,2024-01-16 22:16:00
+Mashed Potatoes,1,2024-01-16 21:19:00
+Veggie Burger,1,2024-01-17 03:52:00
+Veggie Burger,1,2024-01-17 02:37:00
+Chocolate Cake,2,2024-01-16 21:32:00
+Margherita Pizza,2,invalid_date
+Apple Juices,1,2024-01-17 04:35:00
+  Salmon  ,1,2024-01-17 02:38:00
+  Salmon  ,1,2024-01-16 22:43:00
+  Salmon  ,3,2024-01-16 21:04:00
+Unknown Item 17,3,2024-01-16 22:17:00
+Tiramisu,2,2024-01-17 02:55:00
+Chicken Burger,2,2024-01-16 22:41:00
+Unknown Item 4,1,invalid_date
+Unknown Item 1,2,invalid_date
+  Salmon  ,2,2024-01-16 21:48:00
+Apple Pie,1,2024-01-16 21:03:00
+Soup of the Day,3,2024-01-17 03:51:00
+Chicken Burger,1,2024-01-17 03:25:00
+Mashed Potatoes,1,2024-01-17 02:43:00
+Unknown Item 3,2,2024-01-16 21:01:00
+Veggie Burger,2,2024-01-17 02:18:00
+Sparkling Water,2,2024-01-16 22:26:00
+Soup of the Day,1,2024-01-16 23:47:00
+Coca Cola,3,2024-01-16 19:45:00
+Caesar Salad,2,2024-01-17 07:52:00
+Mashed Potatoes,1,2024-01-16 21:46:00
+Veggie Burger,4,2024-01-17 03:43:00
+Soup of the Day,2,2024-01-17 01:50:00
+  Salmon  ,1,2024-01-17 00:42:00
+Unknown Item 6,2,invalid_date
+Onion Rings,1,2024-01-17 04:53:00
+Veggie Burger,1,2024-01-17 02:35:00
+Soup of the Day,1,2024-01-16 21:06:00
+Soup of the Day,4,2024-01-16 23:47:00
+Chocolate Cake,1,2024-01-16 22:51:00
+Caesar Salad,2,2024-01-17 02:58:00
+Garlic Mushrooms,1,invalid_date
+Caesar Salad,2,2024-01-17 04:41:00
+Soup of the Day,2,2024-01-16 20:22:00
+Coca Cola,2,2024-01-16 21:55:00
+Daily Special,1,2024-01-16 22:50:00
+Chicken Burger,2,2024-01-17 04:23:00
+Soup of the Day,4,2024-01-16 22:18:00
+Veggie Burger,2,2024-01-16 23:07:00
+Veggie Burger,1,2024-01-16 23:55:00
+Tea,3,2024-01-17 02:37:00
+Caesar Salad,1,2024-01-17 05:04:00
+Mashed Potatoes,2,2024-01-16 23:12:00
+Soup of the Day,3,2024-01-17 00:55:00
+Apple Juice,1,2024-01-17 03:33:00
+Chocolate Cake,1,2024-01-16 22:03:00
+Veggie Burger,1,2024-01-17 04:09:00
+Margherita Pizza,2,2024-01-16 21:12:00
+Sparkling Water,2,2024-01-16 22:36:00
+Apple Juices,1,2024-01-17 04:29:00
+  Salmon  ,1,2024-01-16 21:55:00
+Unknown Item 0,1,2024-01-17 03:49:00
+Caesar Salad,1,2024-01-16 20:21:00
+Caesar Salad,1,2024-01-17 02:11:00
+Onion Rings,3,2024-01-16 22:03:00
+Unknown Item 13,1,2024-01-16 18:17:00
+Unknown Item 8,3,2024-01-16 21:49:00
+Mashed Potatoes,2,2024-01-16 21:48:00
+Unknown Item 6,1,2024-01-16 21:50:00
+Tiramisu,2,invalid_date
+  Salmon  ,2,2024-01-16 21:27:00
+Cheesecake,1,2024-01-17 02:25:00
+Mashed Potatoes,1,2024-01-16 23:30:00
+Sparkling Water,1,invalid_date
+Coca Cola,1,2024-01-17 01:46:00
+Margherita Pizza,1,2024-01-16 22:00:00
+Soup of the Day,1,2024-01-17 04:48:00
+Mashed Potatoes,1,2024-01-17 04:12:00
+Caesar Salad,1,2024-01-16 18:00:00
+Veggie Burger,-1,2024-01-17 02:15:00
+Daily Special,1,2024-01-16 21:56:00
+French Fries,1,2024-01-16 22:08:00
+Hummus Plate,4,2024-01-16 21:32:00
+Chocolate Cake,1,2024-01-17 02:10:00
+Soup of the Day,2,2024-01-16 20:02:00
+Caesar Salad,1,2024-01-16 22:18:00
+Caesar Salad,3,2024-01-16 23:33:00
+Veggie Burger,1,2024-01-17 02:21:00
+Unknown Item 13,4,2024-01-16 23:43:00
+Margherita Pizza,2,2024-01-17 07:21:00
+Unknown Item 16,1,2024-01-17 22:12:00
+Caesar Salad,3,2024-01-17 21:58:00
+Mashed Potatoes,2,2024-01-18 04:25:00
+  Salmon  ,1,invalid_date
+Mashed Potatoes,2,2024-01-18 03:08:00
+Apple Juice,3,2024-01-17 21:01:00
+Margherita Pizza,1,2024-01-18 02:10:00
+Sparkling Water,1,2024-01-17 21:45:00
+Soup of the Day,2,2024-01-18 02:02:00
+Apple Juice,2,2024-01-17 22:40:00
+Chocolate Cake,3,2024-01-17 22:34:00
+Apple Juice,2,2024-01-18 02:38:00
+Unknown Item 14,1,2024-01-18 07:42:00
+Hummus Plate,3,2024-01-17 21:53:00
+Unknown Item 17,1,2024-01-17 18:44:00
+Chicken Burger,1,2024-01-17 21:28:00
+Margherita Pizza,2,2024-01-17 22:35:00
+Chicken Burger,2,2024-01-17 22:44:00
+Caesar Salad,1,2024-01-17 21:44:00
+  Salmon  ,2,2024-01-18 03:00:00
+Sparkling Water,1,2024-01-17 22:42:00
+  Salmon  ,1,2024-01-17 21:33:00
+Soup of the Day,3,2024-01-17 22:38:00
+  Salmon  ,1,invalid_date
+Soup of the Day,1,2024-01-18 04:06:00
+Soup of the Day,1,2024-01-18 00:39:00
+Caesar Salad,4,2024-01-17 21:07:00
+Garlic Mushrooms,1,2024-01-18 03:31:00
+Soup of the Day,1,2024-01-17 21:12:00
+Coca Cola,2,2024-01-18 03:53:00
+Garlic Mushrooms,1,2024-01-18 00:12:00
+Coca Cola,1,2024-01-17 22:26:00
+Soup of the Day,2,2024-01-17 22:02:00
+Unknown Item 18,1,2024-01-18 01:58:00
+  Salmon  ,4,2024-01-17 21:59:00
+Tiramisu,1,2024-01-18 00:15:00
+Unknown Item 1,1,2024-01-17 18:42:00
+Chocolate Cake,1,2024-01-17 20:07:00
+  Salmon  ,1,2024-01-18 04:42:00
+Margherita Pizza,2,invalid_date
+Caesar Salad,1,2024-01-18 03:04:00
+Caesar Salad,1,invalid_date
+Margherita Pizza,2,2024-01-18 04:41:00
+Unknown Item 18,2,invalid_date
+  Salmon  ,1,2024-01-17 22:03:00
+Veggie Burger,1,2024-01-17 21:11:00
+Unknown Item 16,1,invalid_date
+Caesar Salad,1,2024-01-17 22:51:00
+Margherita Pizza,1,invalid_date
+Onion Rings,2,2024-01-18 03:06:00
+Apple Pie,3,2024-01-18 04:56:00
+Unknown Item 9,1,2024-01-17 19:54:00
+Apple Juice,1,2024-01-17 21:41:00
+Apple Juice,1,2024-01-17 21:22:00
+Veggie Burger,1,2024-01-18 04:39:00
+Unknown Item 13,1,2024-01-17 22:46:00
+Soup of the Day,3,2024-01-17 20:52:00
+Tiramisu,2,2024-01-17 22:07:00
+  Salmon  ,4,2024-01-17 23:29:00
+Coca Cola,3,2024-01-17 22:24:00
+Veggie Burger,1,2024-01-18 03:30:00
+  Salmon  ,2,2024-01-18 03:41:00
+Margherita Pizza,1,invalid_date
+Sparkling Water,1,2024-01-17 21:44:00
+  Salmon  ,3,2024-01-18 03:54:00
+Chocolate Cake,1,invalid_date
+Margherita Pizza,3,2024-01-18 04:30:00
+Margherita Pizza,1,invalid_date
+  Salmon  ,3,2024-01-17 23:39:00
+Mashed Potatoes,3,2024-01-17 22:22:00
+  Salmon  ,2,2024-01-18 02:55:00
+Soup of the Day,2,2024-01-18 03:53:00
+Unknown Item 2,1,2024-01-18 03:57:00
+Soup of the Day,3,2024-01-17 21:58:00
+Soup of the Day,4,invalid_date
+Seasonal Special,2,2024-01-17 23:02:00
+Garlic Mushrooms,2,2024-01-17 20:41:00
+Caesar Salad,2,2024-01-17 22:45:00
+Tea,3,2024-01-18 04:33:00
+  Salmon  ,2,2024-01-18 03:36:00
+Caesar Salad,3,invalid_date
+Veggie Burger,2,2024-01-18 06:42:00
+Daily Special,1,2024-01-18 04:33:00
+Hummus Plate,1,2024-01-18 00:44:00
+Soup of the Day,1,2024-01-18 02:27:00
+  Salmon  ,1,2024-01-18 02:15:00
+Sparkling Water,1,2024-01-18 00:42:00
+Chocolate Cake,2,2024-01-18 03:24:00
+French Fries,1,2024-01-17 21:52:00
+Caesar Salad,1,2024-01-18 02:39:00
+Margherita Pizza,2,2024-01-17 20:41:00
+Sparkling Water,4,2024-01-18 04:32:00
+Soup of the Day,2,2024-01-18 04:54:00
+Margherita Pizza,4,2024-01-18 00:10:00
+Veggie Burger,2,2024-01-17 20:31:00
+  Salmon  ,1,2024-01-17 22:21:00
+Unknown Item 1,2,2024-01-18 05:03:00
+Margherita Pizza,2,2024-01-18 00:35:00
+  Salmon  ,1,2024-01-18 02:25:00
+Seasonal Special,1,2024-01-18 03:05:00
+Soup of the Day,2,2024-01-17 23:51:00
+Soup of the Day,1,2024-01-18 02:05:00
+Apple Pie,2,2024-01-18 04:28:00
+Unknown Item 12,1,2024-01-17 22:31:00
+Unknown Item 3,2,2024-01-18 03:01:00
+  Salmon  ,2,2024-01-17 21:26:00
+  Salmon  ,1,2024-01-17 19:35:00
+  Salmon  ,1,2024-01-17 18:05:00
+Tiramisu,2,2024-01-18 03:39:00
+  Salmon  ,3,2024-01-18 02:56:00
+  Salmon  ,3,2024-01-18 00:13:00
+  Salmon  ,1,2024-01-18 02:29:00
+Cheesecake,2,2024-01-18 05:23:00
+  Salmon  ,1,2024-01-18 04:52:00
+Coca Cola,1,2024-01-17 21:29:00
+Soup of the Day,1,2024-01-17 22:49:00
+Unknown Item 5,2,2024-01-18 02:30:00
+Coca Cola,1,2024-01-18 03:23:00
+Veggie Burger,1,2024-01-18 03:07:00
+  Salmon  ,2,2024-01-17 20:42:00
+  Salmon  ,2,2024-01-17 21:21:00
+Margherita Pizza,1,invalid_date
+  Salmon  ,1,2024-01-18 05:18:00
+Soup of the Day,1,2024-01-18 01:23:00
+Unknown Item 14,1,2024-01-18 03:02:00
+Sparkling Water,2,2024-01-18 04:31:00
+Veggie Burger,1,invalid_date
+Sparkling Water,2,2024-01-18 03:26:00
+  Salmon  ,3,2024-01-17 21:39:00
+Apple Juice,1,2024-01-17 21:07:00
+  Salmon  ,4,invalid_date
+Soup of the Day,1,2024-01-17 21:52:00
+French Fries,1,2024-01-18 03:45:00
+Soup of the Day,1,invalid_date
+  Salmon  ,1,invalid_date
+Tea,1,2024-01-18 02:43:00
+Hummus Plate,1,2024-01-18 02:49:00
+Unknown Item 13,2,invalid_date
+Onion Rings,3,2024-01-18 02:32:00
+Apple Juice,2,2024-01-17 21:31:00
+French Fries,1,invalid_date
+Margherita Pizza,2,2024-01-17 19:59:00
+Unknown Item 14,2,2024-01-17 23:37:00
+Veggie Burger,3,2024-01-18 00:32:00
+Onion Rings,3,2024-01-18 03:58:00
+Soup of the Day,3,2024-01-19 03:11:00
+Onion Rings,1,2024-01-19 03:08:00
+Coca Cola,2,2024-01-18 21:42:00
+Unknown Item 9,1,2024-01-19 02:56:00
+Onion Rings,4,2024-01-18 22:56:00
+Coca Cola,1,2024-01-18 22:38:00
+Soup of the Day,1,2024-01-19 04:48:00
+Unknown Item 3,1,2024-01-18 22:25:00
+Margherita Pizza,2,2024-01-19 05:18:00
+Unknown Item 5,1,2024-01-18 23:08:00
+Sparkling Water,1,invalid_date
+French Fries,4,2024-01-19 03:47:00
+Caesar Salad,3,2024-01-19 00:53:00
+Unknown Item 12,1,2024-01-19 03:55:00
+  Salmon  ,1,2024-01-18 22:47:00
+Apple Juice,3,2024-01-19 04:40:00
+  Salmon  ,3,2024-01-18 21:13:00
+Veggie Burger,2,2024-01-19 02:18:00
+Mashed Potatoes,2,2024-01-19 03:58:00
+  Salmon  ,1,2024-01-19 02:45:00
+Chocolate Cake,3,2024-01-19 02:11:00
+Chocolate Cake,2,2024-01-19 00:44:00
+Apple Juice,2,invalid_date
+Unknown Item 18,1,2024-01-18 21:22:00
+  Salmon  ,3,2024-01-19 02:37:00
+Chicken Wings,2,2024-01-19 02:42:00
+Caesar Salad,1,2024-01-19 03:43:00
+Hummus Plate,2,2024-01-19 03:53:00
+Hummus Plate,2,2024-01-19 01:56:00
+Chocolate Cake,2,2024-01-19 04:51:00
+Mashed Potatoes,2,invalid_date
+  Salmon  ,2,2024-01-18 19:09:00
+Coca Cola,3,2024-01-18 20:03:00
+Soup of the Day,1,invalid_date
+Unknown Item 13,1,2024-01-19 03:18:00
+Garlic Mushrooms,1,2024-01-19 03:09:00
+Unknown Item 0,2,2024-01-19 04:44:00
+  Salmon  ,2,2024-01-19 03:13:00
+Caesar Salad,3,2024-01-19 03:02:00
+Unknown Item 10,2,2024-01-18 22:28:00
+Apple Juice,2,2024-01-18 21:55:00
+Sparkling Water,4,2024-01-19 03:35:00
+Margherita Pizzas,1,2024-01-19 04:47:00
+  Salmon  ,3,invalid_date
+Sparkling Water,1,2024-01-18 21:50:00
+Soup of the Day,2,2024-01-19 03:44:00
+Chicken Burger,2,2024-01-18 22:42:00
+Coca Cola,2,invalid_date
+  Salmon  ,1,2024-01-18 22:50:00
+Caesar Salad,1,2024-01-19 06:20:00
+  Salmon  ,2,invalid_date
+Coca Cola,3,2024-01-18 18:16:00
+Unknown Item 9,1,2024-01-18 21:55:00
+Margherita Pizza,3,2024-01-19 03:55:00
+Unknown Item 6,1,2024-01-18 23:14:00
+  Salmon  ,2,2024-01-19 04:45:00
+Cheesecake,2,2024-01-19 03:23:00
+Mashed Potatoes,2,2024-01-19 03:34:00
+Caesar Salad,4,invalid_date
+Apple Juice,2,2024-01-19 03:12:00
+Soup of the Day,2,2024-01-18 22:11:00
+Chicken Burgers,1,2024-01-19 06:04:00
+Soup of the Day,1,2024-01-18 21:11:00
+  Salmon  ,1,2024-01-19 03:07:00
+  Salmon  ,2,2024-01-18 22:27:00
+Unknown Item 0,1,2024-01-18 22:16:00
+Hummus Plate,1,2024-01-18 21:37:00
+Chocolate Cake,1,2024-01-19 04:00:00
+Soup of the Day,1,2024-01-18 22:45:00
+Mashed Potatoes,1,2024-01-19 04:02:00
+Tea,3,2024-01-18 21:20:00
+Veggie Burger,2,2024-01-19 02:49:00
+  Salmon  ,2,2024-01-19 04:39:00
+Chicken Burger,2,2024-01-19 04:19:00
+Unknown Item 10,1,2024-01-19 00:36:00
+Chicken Burger,3,2024-01-19 01:04:00
+Sparkling Water,1,2024-01-19 03:20:00
+Apple Pie,1,2024-01-19 01:11:00
+Unknown Item 4,2,2024-01-19 00:50:00
+Coca Cola,1,2024-01-19 00:26:00
+  Salmon  ,2,2024-01-19 01:25:00
+Coca Cola,1,2024-01-18 20:14:00
+Cheesecake,2,2024-01-19 04:42:00
+  Salmon  ,1,2024-01-18 22:23:00
+Unknown Item 2,1,2024-01-18 22:48:00
+Hummus Plate,2,2024-01-19 02:30:00
+Soup of the Day,1,2024-01-19 07:52:00
+Margherita Pizza,-1,2024-01-19 03:41:00
+Soup of the Day,1,2024-01-18 18:42:00
+  Salmon  ,2,invalid_date
+Caesar Salad,2,2024-01-19 04:39:00
+Caesar Salad,1,2024-01-19 04:15:00
+Margherita Pizza,4,2024-01-19 05:43:00
+Unknown Item 2,3,2024-01-19 04:24:00
+  Salmon  ,2,2024-01-19 04:07:00
+  Salmon  ,2,2024-01-18 22:34:00
+Veggie Burger,1,2024-01-19 03:01:00
+Chicken Wings,2,2024-01-19 04:52:00
+  Salmon  ,1,2024-01-19 03:32:00
+Caesar Salad,1,2024-01-19 03:28:00
+Coca Cola,4,2024-01-19 00:18:00
+Chicken Burger,2,2024-01-19 04:12:00
+Chicken Burger,1,2024-01-18 22:05:00
+Unknown Item 4,1,2024-01-19 05:10:00
+  Salmon  ,2,2024-01-19 06:49:00
+Soup of the Day,1,2024-01-19 01:00:00
+  Salmon  ,1,2024-01-19 02:13:00
+Caesar Salad,1,2024-01-19 02:49:00
+Apple Pie,1,2024-01-18 21:43:00
+Unknown Item 18,2,2024-01-18 23:06:00
+Soup of the Day,1,2024-01-18 21:53:00
+Soup of the Day,2,2024-01-19 03:47:00
+Sparkling Water,1,invalid_date
+Soup of the Day,2,2024-01-19 03:04:00
+Unknown Item 18,4,2024-01-19 03:09:00
+  Salmon  ,2,2024-01-18 19:45:00
+Hummus Plate,3,invalid_date
+Margherita Pizza,3,2024-01-18 20:11:00
+Coca Cola,1,2024-01-19 03:35:00
+Chicken Burger,2,2024-01-18 20:52:00
+Coca Cola,3,2024-01-18 21:16:00
+Garlic Mushrooms,1,2024-01-18 23:28:00
+Hummus Plate,1,2024-01-19 02:27:00
+  Salmon  ,3,2024-01-18 22:24:00
+French Friess,2,2024-01-19 03:34:00
+Margherita Pizza,1,invalid_date
+Coca Cola,1,2024-01-19 20:47:00
+  Salmon  ,2,2024-01-20 02:44:00
+Hummus Plate,2,invalid_date
+Cheesecake,2,2024-01-20 04:06:00
+Unknown Item 15,2,2024-01-19 22:43:00
+Hummus Plate,2,2024-01-19 22:05:00
+Sparkling Water,2,2024-01-19 22:59:00
+Margherita Pizza,2,2024-01-19 23:25:00
+Sparkling Water,2,2024-01-20 04:01:00
+Mashed Potatoes,2,2024-01-19 23:34:00
+Veggie Burger,1,2024-01-19 21:47:00
+Veggie Burger,1,2024-01-19 22:51:00
+Sparkling Water,4,2024-01-20 04:18:00
+  Salmon  ,1,2024-01-20 05:09:00
+Unknown Item 15,1,2024-01-19 22:56:00
+Chicken Wings,1,2024-01-20 04:50:00
+Coca Cola,3,2024-01-20 04:41:00
+Onion Rings,-1,2024-01-19 22:00:00
+Apple Juice,1,2024-01-20 01:35:00
+Unknown Item 2,1,2024-01-19 21:02:00
+Apple Pie,2,2024-01-19 18:38:00
+Apple Pie,1,2024-01-19 22:35:00
+Chicken Burger,1,2024-01-20 05:19:00
+Unknown Item 7,1,2024-01-19 21:47:00
+Soup of the Day,3,2024-01-20 04:22:00
+Mashed Potatoes,1,2024-01-19 21:57:00
+  Salmon  ,1,2024-01-20 02:32:00
+Soup of the Day,2,2024-01-19 21:11:00
+French Fries,4,2024-01-19 21:53:00
+  Salmon  ,2,2024-01-19 22:07:00
+Soup of the Day,4,2024-01-19 21:51:00
+Soup of the Day,3,2024-01-20 02:03:00
+Soup of the Day,1,2024-01-20 04:59:00
+  Salmon  ,2,2024-01-20 06:35:00
+Caesar Salad,1,2024-01-19 23:35:00
+Mashed Potatoes,2,invalid_date
+Unknown Item 13,1,2024-01-19 20:06:00
+Veggie Burger,1,2024-01-19 21:37:00
+  Salmon  ,3,invalid_date
+  Salmon  ,1,2024-01-19 22:42:00
+Unknown Item 18,3,2024-01-20 02:06:00
+  Salmon  ,1,2024-01-19 22:04:00
+Apple Pie,1,2024-01-20 04:20:00
+Tea,3,2024-01-20 00:21:00
+Chicken Burger,2,2024-01-20 02:19:00
+Onion Rings,2,invalid_date
+Unknown Item 5,1,2024-01-20 02:23:00
+Unknown Item 11,-2,2024-01-20 03:27:00
+  Salmon  ,2,2024-01-19 21:20:00
+Unknown Item 12,2,2024-01-19 21:14:00
+Cheesecake,1,2024-01-20 03:41:00
+Sparkling Water,4,2024-01-19 23:53:00
+Unknown Item 13,2,invalid_date
+Soup of the Day,3,2024-01-20 03:56:00
+Unknown Item 14,2,2024-01-20 00:28:00
+Soup of the Day,2,2024-01-19 22:19:00
+Unknown Item 17,1,2024-01-20 00:06:00
+Veggie Burger,1,2024-01-19 21:38:00
+Margherita Pizza,3,2024-01-19 20:17:00
+Veggie Burger,1,invalid_date
+Daily Special,1,2024-01-20 04:12:00
+Soup of the Day,1,2024-01-19 22:56:00
+Soup of the Day,1,2024-01-20 02:46:00
+Margherita Pizza,3,2024-01-19 20:01:00
+Mashed Potatoes,3,2024-01-20 04:40:00
+Mashed Potatoes,1,2024-01-19 19:37:00
+Daily Special,1,2024-01-20 02:49:00
+Soup of the Day,2,2024-01-20 02:58:00
+Coca Cola,2,2024-01-19 19:16:00
+  Salmon  ,4,2024-01-20 01:34:00
+Tiramisu,2,2024-01-19 23:49:00
+Unknown Item 5,1,2024-01-19 21:25:00
+Coca Cola,2,invalid_date
+Unknown Item 16,4,2024-01-20 02:54:00
+Mashed Potatoes,2,2024-01-19 22:29:00
+  Salmon  ,2,invalid_date
+Sparkling Water,1,2024-01-19 23:32:00
+Soup of the Day,2,2024-01-19 18:15:00
+Margherita Pizza,2,2024-01-20 04:51:00
+Soup of the Day,1,2024-01-20 06:43:00
+Caesar Salad,1,2024-01-19 21:32:00
+Soup of the Day,1,2024-01-19 21:10:00
+Soup of the Day,1,2024-01-19 21:36:00
+Veggie Burger,1,invalid_date
+Tiramisu,1,2024-01-20 03:30:00
+Caesar Salad,2,2024-01-20 04:02:00
+Soup of the Day,1,2024-01-19 21:31:00
+Tea,1,2024-01-19 21:16:00
+Coca Cola,3,2024-01-19 22:02:00
+Sparkling Water,2,2024-01-20 02:33:00
+Apple Juice,2,invalid_date
+Garlic Mushrooms,1,2024-01-19 22:58:00
+Caesar Salad,2,2024-01-19 23:02:00
+  Salmon  ,1,2024-01-19 19:41:00
+Onion Rings,3,2024-01-19 22:45:00
+Veggie Burger,1,2024-01-20 05:40:00
+Unknown Item 11,2,2024-01-20 04:53:00
+Soup of the Day,1,2024-01-20 03:37:00
+Veggie Burger,2,2024-01-20 01:11:00
+  Salmon  ,2,2024-01-19 22:24:00
+Unknown Item 13,1,2024-01-19 22:41:00
+Cheesecake,1,2024-01-20 04:04:00
+Garlic Mushrooms,2,invalid_date
+Soup of the Day,4,2024-01-20 06:14:00
+Caesar Salad,3,2024-01-20 00:22:00
+Coca Cola,1,2024-01-20 03:22:00
+Unknown Item 13,1,invalid_date
+Caesar Salad,3,2024-01-20 04:00:00
+Coca Colas,2,2024-01-20 00:08:00
+Margherita Pizza,2,2024-01-19 23:14:00
+  Salmon  ,3,2024-01-19 20:41:00
+Chicken Wings,3,2024-01-19 22:09:00
+Onion Rings,2,2024-01-19 21:23:00
+French Fries,1,2024-01-21 03:07:00
+Margherita Pizza,1,2024-01-21 02:26:00
+Coca Cola,2,2024-01-21 03:46:00
+  Salmon  ,1,2024-01-20 21:43:00
+Veggie Burger,1,2024-01-21 00:13:00
+Hummus Plate,1,2024-01-21 02:41:00
+Margherita Pizza,1,2024-01-21 04:01:00
+Unknown Item 11,2,2024-01-20 21:08:00
+Unknown Item 14,2,2024-01-21 02:10:00
+Coca Cola,1,2024-01-20 21:32:00
+  Salmon  ,1,2024-01-20 19:36:00
+Margherita Pizza,3,2024-01-20 21:10:00
+Soup of the Day,1,2024-01-20 22:11:00
+Margherita Pizza,2,2024-01-21 00:25:00
+  Salmon  ,-3,2024-01-21 02:36:00
+Unknown Item 16,1,2024-01-21 02:56:00
+Hummus Plate,2,2024-01-21 03:42:00
+Onion Rings,3,2024-01-21 03:05:00
+Coca Cola,1,2024-01-20 21:38:00
+  Salmon  ,2,invalid_date
+Coca Cola,1,2024-01-21 00:14:00
+  Salmon  ,1,2024-01-21 04:38:00
+Chocolate Cake,3,2024-01-20 21:37:00
+  Salmon  ,3,2024-01-21 03:11:00
+Daily Special,2,2024-01-21 02:32:00
+Margherita Pizza,1,2024-01-20 22:46:00
+Veggie Burger,1,2024-01-21 03:59:00
+Veggie Burger,2,2024-01-20 23:37:00
+  Salmon  ,1,2024-01-20 20:24:00
+Seasonal Special,2,2024-01-20 22:06:00
+Tea,2,2024-01-20 18:33:00
+Onion Rings,2,2024-01-21 04:32:00
+  Salmon  ,2,2024-01-21 03:52:00
+Hummus Plate,1,2024-01-20 21:06:00
+Apple Juice,1,2024-01-20 21:57:00
+Unknown Item 11,1,2024-01-21 02:02:00
+Unknown Item 2,2,2024-01-21 04:34:00
+Veggie Burger,2,invalid_date
+  Salmon  ,-2,invalid_date
+Caesar Salad,2,2024-01-20 21:38:00
+Hummus Plate,4,2024-01-21 01:00:00
+Sparkling Water,1,invalid_date
+Onion Rings,-1,2024-01-21 03:27:00
+Unknown Item 0,1,2024-01-21 00:23:00
+Unknown Item 2,2,2024-01-21 04:44:00
+Cheesecake,1,2024-01-21 01:14:00
+  Salmon  ,3,2024-01-21 04:30:00
+Veggie Burger,2,2024-01-21 03:24:00
+Unknown Item 9,3,2024-01-20 22:51:00
+Caesar Salad,3,2024-01-21 03:48:00
+Unknown Item 0,1,2024-01-21 04:36:00
+Coca Cola,1,2024-01-20 20:08:00
+Caesar Salad,2,2024-01-20 22:49:00
+  Salmon  ,1,2024-01-20 21:54:00
+Coca Cola,1,2024-01-20 20:38:00
+  Salmon  ,2,2024-01-21 04:26:00
+Apple Juice,1,2024-01-20 22:00:00
+Tea,2,2024-01-21 03:50:00
+Unknown Item 4,2,2024-01-20 18:33:00
+Chicken Burger,1,2024-01-20 21:00:00
+Tea,1,2024-01-20 22:13:00
+French Fries,1,2024-01-21 03:20:00
+Caesar Salad,2,2024-01-20 23:06:00
+Unknown Item 11,1,2024-01-20 21:41:00
+  Salmon  ,3,2024-01-21 02:16:00
+Tea,1,2024-01-21 04:27:00
+Coca Cola,1,invalid_date
+French Fries,1,2024-01-20 22:43:00
+Chicken Wings,1,2024-01-20 23:13:00
+Margherita Pizza,1,2024-01-20 23:50:00
+Apple Juice,2,2024-01-21 02:11:00
+Hummus Plate,2,invalid_date
+Veggie Burger,1,2024-01-21 00:19:00
+Unknown Item 16,1,2024-01-21 02:49:00
+French Fries,2,2024-01-21 03:47:00
+Tea,2,2024-01-20 21:55:00
+Margherita Pizza,1,2024-01-21 02:47:00
+  Salmon  ,3,2024-01-20 21:50:00
+Tiramisu,1,invalid_date
+Soup of the Days,2,2024-01-20 21:32:00
+Caesar Salad,1,2024-01-20 23:21:00
+  Salmon  ,1,invalid_date
+Chicken Burger,3,2024-01-21 03:45:00
+Coca Cola,1,2024-01-20 20:24:00
+Unknown Item 18,2,2024-01-21 05:00:00
+Caesar Salad,1,2024-01-21 03:52:00
+Chocolate Cake,2,2024-01-20 21:59:00
+Sparkling Water,3,2024-01-21 02:05:00
+Soup of the Day,1,2024-01-20 20:14:00
+Unknown Item 8,3,2024-01-20 22:38:00
+Hummus Plate,2,2024-01-20 19:24:00
+  Salmon  ,2,2024-01-21 04:25:00
+  Salmon  ,2,invalid_date
+Onion Rings,3,2024-01-20 22:38:00
+Unknown Item 12,1,2024-01-20 20:49:00
+Coca Cola,1,2024-01-21 03:40:00
+Onion Rings,3,2024-01-21 00:00:00
+Chocolate Cake,2,2024-01-20 21:42:00
+Sparkling Water,1,2024-01-21 04:33:00
+Mashed Potatoes,2,2024-01-20 22:02:00
+Soup of the Day,2,2024-01-21 03:32:00
+  Salmon  ,1,2024-01-21 00:14:00
+Unknown Item 4,1,invalid_date
+Caesar Salad,2,2024-01-20 19:15:00
+Unknown Item 16,1,2024-01-21 02:10:00
+Soup of the Day,2,2024-01-20 20:17:00
+Soup of the Day,3,2024-01-21 03:22:00
+French Fries,1,2024-01-21 02:25:00
+  Salmon  ,1,2024-01-21 02:33:00
+Cheesecake,1,2024-01-20 18:45:00
+Caesar Salad,1,2024-01-20 20:05:00
+Soup of the Day,2,2024-01-21 01:46:00
+French Fries,1,2024-01-21 04:58:00
+Coca Cola,2,2024-01-21 02:22:00
+Sparkling Water,1,2024-01-21 05:17:00
+  Salmon  ,1,2024-01-20 21:12:00
+Unknown Item 19,1,2024-01-20 23:25:00
+Garlic Mushrooms,1,2024-01-21 02:16:00
+Margherita Pizza,1,2024-01-20 21:32:00
+Tea,1,2024-01-20 21:04:00
+Unknown Item 13,3,2024-01-21 00:21:00
+Onion Rings,2,2024-01-21 05:51:00
+Soup of the Day,1,2024-01-21 00:16:00
+Unknown Item 1,1,2024-01-21 04:52:00
+Mashed Potatoes,1,invalid_date
+Veggie Burger,1,2024-01-21 03:24:00
+Unknown Item 1,1,2024-01-21 02:49:00
+Unknown Item 10,1,2024-01-20 21:21:00
+Unknown Item 16,1,2024-01-21 05:29:00
+Apple Juice,1,2024-01-21 03:57:00
+Soup of the Day,1,2024-01-21 02:01:00
+  Salmon  ,1,2024-01-21 00:16:00
+Mashed Potatoes,2,2024-01-20 20:40:00
+  Salmon  ,1,2024-01-21 03:14:00
+Margherita Pizza,1,2024-01-21 03:14:00
+Margherita Pizza,2,invalid_date
+Unknown Item 7,3,2024-01-21 05:33:00
+Coca Cola,3,2024-01-21 01:44:00
+Cheesecake,2,2024-01-21 04:15:00
+Caesar Salad,1,invalid_date
+Chicken Burger,2,2024-01-21 03:52:00
+Chicken Burger,2,2024-01-20 22:35:00
+Hummus Plate,1,2024-01-21 04:30:00
+  Salmon  ,2,2024-01-20 22:13:00
+Veggie Burger,3,invalid_date
+Unknown Item 1,1,invalid_date
+Mashed Potatoes,1,2024-01-21 03:58:00
+Margherita Pizza,1,2024-01-20 21:47:00
+Chocolate Cake,1,2024-01-20 21:47:00
+  Salmon  ,1,2024-01-20 21:16:00
+  Salmon  ,2,2024-01-20 21:12:00
+French Fries,2,invalid_date
+  Salmon  ,1,2024-01-21 22:49:00
+Apple Juice,3,2024-01-21 21:58:00
+French Fries,1,2024-01-21 20:42:00
+  Salmon  ,1,2024-01-22 00:00:00
+Coca Cola,2,2024-01-22 03:34:00
+Apple Pie,2,2024-01-22 05:54:00
+Veggie Burger,2,2024-01-22 00:39:00
+Margherita Pizza,3,2024-01-21 22:57:00
+Hummus Plate,2,2024-01-22 06:57:00
+Apple Juice,3,2024-01-22 02:17:00
+Onion Rings,1,2024-01-22 00:48:00
+Tea,2,2024-01-22 04:17:00
+Apple Pie,4,2024-01-21 23:48:00
+  Salmon  ,2,2024-01-22 02:03:00
+Soup of the Day,1,2024-01-22 01:27:00
+French Fries,2,2024-01-22 00:34:00
+Cheesecake,2,2024-01-21 19:22:00
+Unknown Item 9,1,2024-01-21 22:43:00
+Margherita Pizza,4,2024-01-22 03:29:00
+  Salmon  ,1,2024-01-22 06:44:00
+Chocolate Cake,1,2024-01-22 00:20:00
+Chocolate Cake,3,invalid_date
+Unknown Item 6,1,2024-01-22 03:24:00
+Sparkling Water,1,2024-01-22 02:20:00
+Margherita Pizza,2,2024-01-21 22:55:00
+Onion Rings,2,2024-01-21 22:35:00
+Tiramisu,1,2024-01-21 22:17:00
+Apple Juice,4,invalid_date
+Coca Cola,2,2024-01-21 22:11:00
+Veggie Burger,2,2024-01-22 00:13:00
+Veggie Burger,2,2024-01-21 23:48:00
+Unknown Item 11,2,2024-01-21 22:54:00
+Seasonal Special,1,2024-01-21 23:28:00
+Apple Juice,1,2024-01-21 21:08:00
+Hummus Plate,2,2024-01-22 06:43:00
+Chocolate Cake,3,2024-01-21 21:06:00
+Seasonal Special,1,2024-01-22 03:51:00
+Unknown Item 11,2,invalid_date
+Veggie Burger,3,2024-01-22 04:12:00
+Onion Rings,1,2024-01-21 21:47:00
+  Salmon  ,1,2024-01-21 21:51:00
+Unknown Item 1,1,2024-01-21 18:26:00
+Unknown Item 12,2,2024-01-22 00:57:00
+Garlic Mushrooms,1,2024-01-22 04:33:00
+Tea,1,2024-01-22 01:20:00
+Unknown Item 17,2,2024-01-22 03:19:00
+Margherita Pizza,2,2024-01-21 22:54:00
+Soup of the Day,1,2024-01-22 02:25:00
+  Salmon  ,1,2024-01-21 20:10:00
+Veggie Burger,2,2024-01-21 20:52:00
+Mashed Potatoes,3,2024-01-21 22:53:00
+Chicken Burger,3,2024-01-22 02:28:00
+Soup of the Day,2,2024-01-22 03:16:00
+Soup of the Day,1,2024-01-21 22:35:00
+Tiramisu,1,2024-01-22 02:51:00
+Old Menu Item,1,2024-01-21 22:01:00
+Mashed Potatoes,1,2024-01-21 23:22:00
+  Salmon  ,2,2024-01-22 04:38:00
+Hummus Plates,1,2024-01-21 21:36:00
+  Salmon  ,1,2024-01-22 02:34:00
+  Salmon  ,4,2024-01-21 21:49:00
+Coca Cola,1,2024-01-21 22:20:00
+  Salmon  ,1,2024-01-22 02:31:00
+Apple Juice,1,2024-01-22 03:28:00
+French Fries,2,2024-01-22 04:24:00
+Caesar Salad,2,2024-01-22 02:29:00
+Soup of the Day,1,2024-01-22 02:09:00
+  Salmon  ,2,2024-01-22 04:40:00
+  Salmon  ,2,2024-01-22 03:21:00
+Chocolate Cake,3,2024-01-21 23:39:00
+Caesar Salad,4,2024-01-22 02:54:00
+Chocolate Cake,3,2024-01-22 04:05:00
+Unknown Item 12,2,2024-01-21 21:14:00
+  Salmon  ,1,2024-01-21 22:41:00
+Unknown Item 4,1,2024-01-21 22:17:00
+Unknown Item 5,1,invalid_date
+Unknown Item 12,2,2024-01-21 22:28:00
+  Salmon  ,3,2024-01-22 03:23:00
+Tea,2,invalid_date
+Hummus Plate,1,2024-01-22 05:26:00
+Margherita Pizza,2,invalid_date
+Soup of the Day,3,2024-01-21 19:46:00
+Soup of the Day,2,invalid_date
+Coca Cola,3,2024-01-22 04:44:00
+Unknown Item 17,3,2024-01-22 03:13:00
+Chicken Burger,3,2024-01-21 21:06:00
+Garlic Mushrooms,2,2024-01-21 20:59:00
+  Salmon  ,2,2024-01-22 04:35:00
+Soup of the Day,1,2024-01-21 20:49:00
+Soup of the Day,1,2024-01-21 23:48:00
+  Salmon  s,2,invalid_date
+Coca Cola,1,2024-01-21 22:09:00
+Sparkling Water,4,2024-01-21 20:59:00
+Veggie Burger,1,2024-01-22 04:19:00
+Margherita Pizza,3,2024-01-21 21:47:00
+  Salmon  ,1,2024-01-21 22:40:00
+Sparkling Water,1,2024-01-21 21:33:00
+Soup of the Day,3,2024-01-22 04:01:00
+Unknown Item 9,1,2024-01-21 19:22:00
+Coca Cola,1,2024-01-22 04:20:00
+Apple Pie,1,2024-01-22 04:29:00
+Coca Cola,2,invalid_date
+Daily Special,1,invalid_date
+Chicken Burger,2,2024-01-21 23:44:00
+  Salmon  ,2,invalid_date
+Sparkling Water,2,2024-01-22 02:40:00
+Soup of the Day,2,2024-01-22 03:56:00
+Old Menu Item,2,2024-01-22 02:33:00
+Hummus Plate,1,2024-01-22 02:34:00
+  Salmon  ,3,2024-01-21 22:22:00
+Sparkling Water,1,invalid_date
+Margherita Pizza,2,2024-01-22 03:28:00
+Margherita Pizza,1,invalid_date
+  Salmon  ,3,invalid_date
+Apple Juice,1,2024-01-21 18:33:00
+Soup of the Day,1,2024-01-22 03:54:00
+Apple Juice,2,2024-01-21 21:18:00
+Hummus Plate,2,2024-01-21 23:00:00
+Soup of the Day,1,invalid_date
+Soup of the Day,2,2024-01-22 05:30:00
+  Salmon  ,2,invalid_date
+Unknown Item 13,4,2024-01-21 23:18:00
+  Salmon  ,2,2024-01-22 02:50:00
+Chocolate Cake,1,2024-01-21 18:23:00
+Caesar Salad,1,2024-01-21 21:56:00
+Soup of the Day,3,2024-01-22 02:25:00
+Soup of the Day,3,2024-01-21 22:45:00
+Unknown Item 12,1,2024-01-22 03:24:00
+Veggie Burger,1,2024-01-22 04:14:00
+Tiramisu,2,2024-01-21 22:27:00
+Soup of the Day,1,2024-01-22 02:33:00
+Unknown Item 19,1,2024-01-22 03:58:00
+Unknown Item 2,1,2024-01-22 02:44:00
+Unknown Item 4,1,2024-01-22 03:18:00
+Coca Cola,1,2024-01-22 02:34:00
+Apple Juice,2,2024-01-22 03:26:00
+Apple Juice,1,2024-01-21 21:04:00
+Soup of the Day,1,2024-01-21 21:18:00
+Unknown Item 16,1,2024-01-21 21:29:00
+Coca Cola,1,2024-01-22 02:17:00
+Unknown Item 16,1,2024-01-22 03:31:00
+Margherita Pizza,1,2024-01-21 21:01:00
+Soup of the Day,2,2024-01-21 21:34:00
+Chicken Wings,1,2024-01-21 19:06:00
+French Fries,1,2024-01-21 22:08:00
+Margherita Pizza,1,2024-01-22 03:46:00
+  Salmon  ,2,2024-01-21 18:05:00
+Onion Rings,3,2024-01-21 21:31:00
+  Salmon  ,1,2024-01-21 21:26:00
+  Salmon  ,3,invalid_date
+Veggie Burger,1,2024-01-22 00:23:00
+Coca Cola,3,2024-01-21 23:50:00
+Chicken Wings,1,2024-01-21 19:05:00
+  Salmon  ,2,2024-01-22 20:49:00
+Unknown Item 16,2,2024-01-22 22:34:00
+Coca Cola,1,2024-01-22 23:12:00
+  Salmon  ,3,2024-01-23 04:16:00
+Mashed Potatoes,2,2024-01-23 03:53:00
+Coca Cola,1,invalid_date
+Apple Juice,1,2024-01-23 03:24:00
+  Salmon  ,1,2024-01-23 03:28:00
+Margherita Pizza,3,2024-01-22 21:02:00
+Margherita Pizza,2,2024-01-22 21:47:00
+Unknown Item 11,1,invalid_date
+Apple Pie,2,2024-01-23 02:13:00
+Soup of the Day,3,2024-01-22 23:43:00
+Chocolate Cake,2,2024-01-23 05:59:00
+Chicken Burger,2,2024-01-22 22:40:00
+Veggie Burger,2,2024-01-23 03:47:00
+Apple Juice,1,2024-01-23 04:33:00
+  Salmon  ,1,2024-01-22 21:30:00
+Caesar Salad,3,2024-01-23 02:12:00
+Unknown Item 11,1,2024-01-22 22:03:00
+Soup of the Day,3,2024-01-23 04:13:00
+Onion Rings,1,2024-01-23 06:15:00
+Sparkling Waters,1,2024-01-23 02:20:00
+Chicken Burger,3,2024-01-22 18:50:00
+Coca Cola,2,invalid_date
+  Salmon  ,1,2024-01-22 22:15:00
+  Salmon  ,2,2024-01-22 18:02:00
+Soup of the Day,2,invalid_date
+Veggie Burger,2,2024-01-23 00:38:00
+Tea,1,2024-01-22 21:49:00
+  Salmon  ,3,2024-01-22 20:10:00
+  Salmon  ,3,2024-01-23 00:43:00
+Unknown Item 14,1,invalid_date
+Cheesecake,3,2024-01-23 05:48:00
+Soup of the Day,3,2024-01-23 02:03:00
+Chicken Burger,2,2024-01-22 22:09:00
+Onion Rings,2,2024-01-23 03:50:00
+Unknown Item 19,1,2024-01-22 21:31:00
+Margherita Pizza,1,2024-01-22 21:35:00
+Soup of the Day,2,2024-01-23 03:48:00
+  Salmon  ,3,2024-01-22 22:57:00
+Unknown Item 13,2,2024-01-22 23:12:00
+Soup of the Day,2,2024-01-22 19:24:00
+Hummus Plate,1,2024-01-22 22:08:00
+Unknown Item 14,1,2024-01-22 22:02:00
+Onion Rings,1,2024-01-23 00:28:00
+Chocolate Cake,1,2024-01-23 02:34:00
+  Salmon  ,2,2024-01-23 03:12:00
+Mashed Potatoes,1,2024-01-23 02:34:00
+Apple Pie,2,2024-01-22 22:46:00
+Apple Juice,1,2024-01-22 23:55:00
+Sparkling Water,2,2024-01-23 04:58:00
+Unknown Item 15,2,invalid_date
+Veggie Burger,1,2024-01-22 20:09:00
+Caesar Salad,1,2024-01-22 23:52:00
+Veggie Burger,1,invalid_date
+Soup of the Day,3,2024-01-22 23:49:00
+  Salmon  ,1,2024-01-23 02:24:00
+Margherita Pizza,2,2024-01-23 03:56:00
+Mashed Potatoes,4,2024-01-22 18:54:00
+  Salmon  ,2,2024-01-22 22:39:00
+Hummus Plate,1,2024-01-22 21:46:00
+Chicken Burger,3,invalid_date
+Unknown Item 14,1,2024-01-23 03:12:00
+Mashed Potatoes,1,2024-01-23 00:31:00
+Soup of the Day,3,2024-01-23 03:09:00
+Margherita Pizza,2,2024-01-23 02:20:00
+  Salmon  ,1,invalid_date
+Margherita Pizza,1,2024-01-22 21:33:00
+Tiramisu,1,2024-01-23 02:02:00
+  Salmon  ,2,invalid_date
+Chicken Burger,1,2024-01-22 21:02:00
+Soup of the Day,4,2024-01-22 21:31:00
+Unknown Item 2,3,2024-01-22 21:02:00
+Caesar Salad,3,2024-01-23 02:53:00
+  Salmon  ,1,2024-01-22 22:31:00
+Unknown Item 7,2,invalid_date
+Garlic Mushrooms,3,2024-01-23 02:03:00
+Unknown Item 15,3,2024-01-22 22:38:00
+Soup of the Day,1,2024-01-23 03:00:00
+  Salmon  ,1,2024-01-23 04:13:00
+Unknown Item 11,1,2024-01-23 02:59:00
+Hummus Plate,2,2024-01-23 04:05:00
+Caesar Salad,2,2024-01-22 23:40:00
+Sparkling Water,3,2024-01-22 20:35:00
+Caesar Salad,1,2024-01-23 03:56:00
+Caesar Salad,1,2024-01-22 23:23:00
+Coca Cola,1,2024-01-23 03:03:00
+Veggie Burger,1,2024-01-23 04:17:00
+Soup of the Day,1,2024-01-23 01:46:00
+Soup of the Day,2,2024-01-22 20:19:00
+Chicken Wings,2,2024-01-22 20:13:00
+Margherita Pizza,2,2024-01-23 05:06:00
+Unknown Item 13,1,invalid_date
+Unknown Item 11,1,2024-01-23 01:12:00
+Caesar Salad,1,2024-01-22 21:42:00
+Mashed Potatoes,3,2024-01-22 22:40:00
+French Fries,1,2024-01-23 05:35:00
+  Salmon  ,3,2024-01-23 03:26:00
+  Salmon  ,1,2024-01-23 03:49:00
+Veggie Burger,3,2024-01-23 02:22:00
+  Salmon  ,3,2024-01-23 03:44:00
+  Salmon  ,1,2024-01-23 02:56:00
+Unknown Item 3,2,2024-01-22 21:50:00
+Apple Juice,1,2024-01-22 21:25:00
+Soup of the Day,3,2024-01-23 00:42:00
+Sparkling Water,1,2024-01-22 21:38:00
+Caesar Salad,1,2024-01-22 23:22:00
+Sparkling Water,2,2024-01-23 04:35:00
+Tiramisu,3,2024-01-23 07:20:00
+Unknown Item 8,1,2024-01-23 04:26:00
+Unknown Item 4,2,2024-01-23 03:27:00
+  Salmon  ,1,invalid_date
+  Salmon  ,1,2024-01-23 02:36:00
+Garlic Mushrooms,2,2024-01-23 01:24:00
+Unknown Item 16,1,2024-01-23 03:59:00
+  Salmon  ,1,2024-01-23 03:23:00
+  Salmon  ,3,2024-01-23 05:28:00
+Veggie Burger,1,2024-01-23 05:00:00
+  Salmon  ,2,2024-01-23 03:18:00
+Unknown Item 8,1,2024-01-23 02:33:00
+Soup of the Day,1,2024-01-22 21:56:00
+Onion Rings,1,2024-01-22 22:19:00
+Soup of the Day,2,2024-01-23 21:20:00
+Margherita Pizza,2,2024-01-23 19:52:00
+Apple Juice,1,2024-01-24 05:52:00
+Sparkling Water,1,invalid_date
+French Fries,3,2024-01-24 00:36:00
+Tiramisu,1,2024-01-24 04:09:00
+Veggie Burger,3,2024-01-23 20:29:00
+Sparkling Water,1,2024-01-23 22:08:00
+Unknown Item 13,2,2024-01-23 22:56:00
+Caesar Salad,1,2024-01-24 02:14:00
+Veggie Burger,3,2024-01-23 22:19:00
+Tea,2,2024-01-23 20:25:00
+Coca Cola,1,2024-01-24 02:13:00
+Soup of the Day,1,2024-01-24 03:46:00
+Tiramisu,2,2024-01-23 22:30:00
+Unknown Item 6,2,2024-01-23 21:52:00
+Hummus Plate,1,2024-01-24 04:44:00
+Hummus Plate,1,2024-01-24 02:58:00
+Soup of the Day,3,invalid_date
+Chicken Burger,1,2024-01-23 22:46:00
+Hummus Plate,2,2024-01-24 03:24:00
+  Salmon  ,1,2024-01-23 20:03:00
+Tea,3,2024-01-24 04:21:00
+  Salmon  ,3,2024-01-23 22:52:00
+Apple Juice,4,2024-01-23 23:59:00
+Unknown Item 13,1,2024-01-24 04:55:00
+Margherita Pizza,3,2024-01-24 03:47:00
+Chicken Burger,1,2024-01-24 02:38:00
+Caesar Salad,2,2024-01-24 04:40:00
+Veggie Burger,2,2024-01-24 03:24:00
+French Fries,1,2024-01-23 20:33:00
+Caesar Salad,3,2024-01-23 19:34:00
+Margherita Pizza,1,2024-01-24 02:20:00
+Chicken Burger,2,2024-01-24 00:14:00
+Soup of the Day,2,invalid_date
+Unknown Item 1,2,2024-01-24 03:25:00
+Mashed Potatoes,1,2024-01-24 06:48:00
+Caesar Salad,1,2024-01-24 02:32:00
+Sparkling Water,3,2024-01-23 20:27:00
+Sparkling Water,1,2024-01-23 22:25:00
+Apple Pie,1,2024-01-23 21:21:00
+Soup of the Day,1,2024-01-23 20:36:00
+Veggie Burger,1,2024-01-24 03:35:00
+Tea,3,2024-01-23 23:05:00
+Tea,1,2024-01-23 23:27:00
+Soup of the Day,2,2024-01-24 03:08:00
+  Salmon  ,1,2024-01-24 03:30:00
+Soup of the Day,1,2024-01-24 02:31:00
+Caesar Salad,1,2024-01-23 22:36:00
+  Salmon  ,1,2024-01-23 21:39:00
+Soup of the Day,1,2024-01-24 07:33:00
+  Salmon  ,2,2024-01-23 21:04:00
+Hummus Plate,1,2024-01-23 22:27:00
+Cheesecake,1,2024-01-23 22:59:00
+Margherita Pizza,1,2024-01-24 02:07:00
+  Salmon  ,1,2024-01-24 02:27:00
+Caesar Salad,3,2024-01-23 22:12:00
+Unknown Item 15,2,2024-01-23 22:38:00
+  Salmon  ,1,2024-01-24 02:49:00
+Mashed Potatoes,1,2024-01-23 22:22:00
+Unknown Item 0,4,2024-01-24 02:51:00
+  Salmon  ,1,2024-01-23 23:09:00
+Garlic Mushrooms,3,2024-01-23 23:59:00
+Chicken Wings,1,2024-01-24 03:12:00
+Unknown Item 1,3,2024-01-24 03:09:00
+Hummus Plate,3,2024-01-24 03:54:00
+Tea,2,2024-01-23 20:47:00
+Unknown Item 10,1,2024-01-23 20:39:00
+Unknown Item 7,1,2024-01-24 04:55:00
+Garlic Mushrooms,1,invalid_date
+Unknown Item 5,1,2024-01-23 18:44:00
+Daily Special,1,2024-01-24 03:19:00
+  Salmon  ,1,2024-01-23 23:01:00
+Chocolate Cake,2,2024-01-23 22:47:00
+Garlic Mushrooms,2,2024-01-24 01:13:00
+Chicken Burger,1,invalid_date
+  Salmon  ,1,invalid_date
+Unknown Item 15,4,2024-01-24 02:09:00
+French Fries,1,2024-01-24 03:42:00
+Cheesecake,2,2024-01-23 18:37:00
+  Salmon  ,1,2024-01-24 04:33:00
+Margherita Pizza,1,2024-01-23 19:10:00
+Soup of the Day,1,2024-01-23 20:12:00
+Hummus Plate,1,2024-01-24 03:39:00
+Caesar Salad,3,2024-01-23 22:29:00
+  Salmon  ,2,2024-01-24 02:00:00
+Apple Pie,1,2024-01-23 20:42:00
+Margherita Pizza,4,2024-01-23 22:54:00
+Tea,1,2024-01-24 04:23:00
+Unknown Item 6,4,2024-01-24 04:01:00
+Sparkling Water,4,2024-01-23 22:56:00
+Unknown Item 18,1,2024-01-24 02:14:00
+Chicken Burger,1,invalid_date
+Soup of the Day,1,2024-01-24 06:06:00
+Tiramisu,2,2024-01-24 04:31:00
+Chicken Burger,2,2024-01-24 04:34:00
+Unknown Item 12,4,2024-01-23 20:12:00
+  Salmon  ,2,2024-01-24 00:29:00
+Tea,1,2024-01-24 02:45:00
+Margherita Pizza,1,2024-01-23 19:15:00
+Onion Rings,2,2024-01-24 04:19:00
+Tiramisu,1,2024-01-23 22:25:00
+Mashed Potatoes,2,2024-01-24 03:01:00
+Margherita Pizza,1,2024-01-23 22:22:00
+French Fries,1,invalid_date
+  Salmon  ,1,2024-01-23 21:32:00
+Unknown Item 16,2,2024-01-23 22:03:00
+Veggie Burger,1,2024-01-24 02:56:00
+Apple Juice,2,2024-01-23 22:52:00
+Caesar Salad,1,2024-01-24 07:35:00
+Sparkling Water,2,2024-01-24 05:14:00
+Coca Cola,2,2024-01-23 21:57:00
+Unknown Item 15,1,2024-01-23 22:08:00
+Unknown Item 13,2,2024-01-23 20:24:00
+Unknown Item 18,1,2024-01-24 00:43:00
+Soup of the Day,1,2024-01-24 02:40:00
+Margherita Pizza,1,2024-01-24 03:26:00
+  Salmon  ,2,2024-01-23 21:09:00
+French Fries,3,2024-01-23 23:19:00
+Garlic Mushrooms,2,2024-01-24 04:21:00
+Unknown Item 2,2,2024-01-23 23:08:00
+Chocolate Cake,2,2024-01-23 21:08:00
+Sparkling Water,1,2024-01-24 02:43:00
+Soup of the Day,3,invalid_date
+Tea,1,2024-01-23 21:44:00
+Soup of the Day,4,2024-01-24 03:33:00
+Chicken Burger,2,2024-01-24 04:27:00
+Daily Special,2,2024-01-24 07:49:00
+Caesar Salad,2,2024-01-25 02:36:00
+Tea,1,invalid_date
+Chicken Burger,2,invalid_date
+  Salmon  ,1,2024-01-25 05:07:00
+Margherita Pizza,2,invalid_date
+Apple Pie,2,2024-01-25 04:46:00
+Apple Pie,3,2024-01-24 19:20:00
+Chicken Burger,2,2024-01-25 04:26:00
+Veggie Burger,1,2024-01-25 05:19:00
+Apple Juice,1,2024-01-24 23:59:00
+Chicken Burger,2,2024-01-25 03:40:00
+  Salmon  ,1,2024-01-25 04:17:00
+Veggie Burger,1,2024-01-24 21:12:00
+Sparkling Water,3,2024-01-24 21:11:00
+  Salmon  ,2,2024-01-24 19:39:00
+  Salmon  ,2,2024-01-25 02:38:00
+Margherita Pizza,1,2024-01-25 02:14:00
+Soup of the Day,2,2024-01-25 02:14:00
+Veggie Burger,1,2024-01-25 03:22:00
+Sparkling Water,2,2024-01-24 20:49:00
+Unknown Item 9,1,2024-01-25 00:32:00
+Margherita Pizza,3,2024-01-25 04:30:00
+Sparkling Water,1,2024-01-25 03:23:00
+Veggie Burger,1,2024-01-24 21:24:00
+Coca Cola,2,2024-01-25 00:08:00
+Tea,2,2024-01-24 21:14:00
+Coca Cola,1,2024-01-24 19:48:00
+Soup of the Day,2,invalid_date
+Sparkling Water,1,2024-01-24 22:26:00
+  Salmon  ,3,invalid_date
+Apple Juice,3,2024-01-25 06:48:00
+Chocolate Cake,1,2024-01-24 21:11:00
+Coca Cola,3,2024-01-25 04:28:00
+  Salmon  ,1,2024-01-25 04:31:00
+Old Menu Item,1,2024-01-25 03:55:00
+Chicken Wings,4,2024-01-24 23:15:00
+Sparkling Water,2,2024-01-24 23:49:00
+  Salmon  ,1,2024-01-24 19:47:00
+  Salmon  ,1,2024-01-25 04:46:00
+Sparkling Water,1,2024-01-24 22:39:00
+Unknown Item 9,4,2024-01-25 04:36:00
+Margherita Pizza,1,2024-01-25 02:33:00
+Unknown Item 9,1,2024-01-25 02:45:00
+  Salmon  ,1,2024-01-25 03:33:00
+  Salmon  ,1,invalid_date
+Soup of the Day,1,2024-01-25 04:02:00
+Unknown Item 4,1,invalid_date
+Veggie Burger,1,2024-01-25 00:25:00
+Unknown Item 12,1,2024-01-25 06:02:00
+Unknown Item 2,3,2024-01-25 02:33:00
+Old Menu Item,-1,2024-01-25 03:03:00
+Tea,2,2024-01-24 21:28:00
+Caesar Salad,2,2024-01-24 23:19:00
+  Salmon  ,3,2024-01-25 03:18:00
+Sparkling Waters,3,2024-01-24 23:27:00
+Tea,1,2024-01-24 22:58:00
+Unknown Item 9,1,2024-01-24 20:33:00
+Onion Rings,1,2024-01-25 04:29:00
+Coca Cola,1,2024-01-25 04:28:00
+  Salmon  ,2,2024-01-24 20:32:00
+Sparkling Water,2,2024-01-24 21:49:00
+Unknown Item 1,3,2024-01-25 02:57:00
+Tea,1,2024-01-25 03:08:00
+  Salmon  ,3,2024-01-24 22:20:00
+Old Menu Item,1,2024-01-24 23:11:00
+Unknown Item 13,1,2024-01-24 23:57:00
+Old Menu Item,1,invalid_date
+Caesar Salad,2,invalid_date
+Coca Cola,1,2024-01-24 22:44:00
+Coca Cola,3,2024-01-25 02:45:00
+Margherita Pizza,3,2024-01-25 03:45:00
+Unknown Item 13,3,2024-01-25 03:05:00
+Sparkling Water,1,2024-01-24 21:28:00
+Tiramisu,3,2024-01-25 02:05:00
+Chicken Burger,2,2024-01-25 00:24:00
+Veggie Burger,1,2024-01-25 03:32:00
+Margherita Pizza,1,2024-01-25 02:10:00
+Veggie Burger,1,2024-01-24 22:24:00
+Apple Juice,1,2024-01-24 19:10:00
+Caesar Salad,2,2024-01-25 04:36:00
+Coca Cola,4,2024-01-25 04:55:00
+Veggie Burger,1,2024-01-24 21:55:00
+  Salmon  ,2,2024-01-24 21:49:00
+Sparkling Water,4,2024-01-25 03:26:00
+Apple Juice,1,2024-01-24 22:46:00
+Veggie Burger,3,2024-01-25 03:28:00
+  Salmon  ,2,2024-01-24 22:11:00
+Unknown Item 14,2,2024-01-24 21:08:00
+Unknown Item 6,1,2024-01-25 05:00:00
+Veggie Burger,2,2024-01-25 02:16:00
+  Salmon  ,1,2024-01-24 18:31:00
+  Salmon  ,2,2024-01-25 04:34:00
+Onion Rings,1,2024-01-25 03:38:00
+Chicken Burger,3,2024-01-25 04:15:00
+  Salmon  ,1,2024-01-24 21:42:00
+Unknown Item 9,1,2024-01-25 00:26:00
+Mashed Potatoes,2,2024-01-24 23:38:00
+Coca Cola,1,2024-01-25 02:15:00
+  Salmon  ,-2,2024-01-25 04:17:00
+Sparkling Water,4,2024-01-25 02:35:00
+Veggie Burger,2,2024-01-25 03:13:00
+  Salmon  ,1,2024-01-24 19:09:00
+Veggie Burger,2,2024-01-24 20:22:00
+  Salmon  ,2,2024-01-24 19:54:00
+Mashed Potatoes,3,2024-01-24 19:36:00
+Apple Juice,1,2024-01-25 04:19:00
+Caesar Salad,1,2024-01-24 22:05:00
+Chocolate Cake,2,2024-01-24 19:26:00
+Cheesecake,1,2024-01-25 07:10:00
+Caesar Salad,1,2024-01-25 02:39:00
+Margherita Pizza,1,2024-01-25 02:44:00
+Veggie Burger,3,2024-01-25 02:50:00
+Hummus Plate,3,2024-01-25 02:29:00
+Unknown Item 7,2,2024-01-25 03:23:00
+Margherita Pizza,1,2024-01-25 04:05:00
+Veggie Burger,1,2024-01-25 03:20:00
+Mashed Potatoes,4,2024-01-24 22:24:00
+  Salmon  ,4,2024-01-25 03:48:00
+Soup of the Day,3,2024-01-24 23:35:00
+  Salmon  ,2,2024-01-24 20:30:00
+Mashed Potatoes,1,2024-01-24 21:44:00
+Coca Cola,3,2024-01-25 04:21:00
+French Fries,1,2024-01-25 01:33:00
+  Salmon  ,1,2024-01-26 03:39:00
+Unknown Item 8,2,invalid_date
+Unknown Item 0,1,invalid_date
+Veggie Burger,1,2024-01-26 01:05:00
+  Salmon  ,1,invalid_date
+Cheesecake,1,2024-01-26 02:50:00
+Soup of the Day,3,2024-01-26 06:18:00
+Tea,1,2024-01-25 23:54:00
+Garlic Mushrooms,1,2024-01-25 22:33:00
+  Salmon  ,1,2024-01-26 02:39:00
+Unknown Item 2,1,2024-01-25 22:08:00
+  Salmon  ,1,2024-01-26 02:31:00
+Soup of the Day,2,2024-01-26 00:40:00
+  Salmon  ,1,2024-01-26 00:51:00
+Caesar Salad,2,invalid_date
+Mashed Potatoes,4,2024-01-25 21:18:00
+French Fries,2,2024-01-26 06:00:00
+Sparkling Water,1,2024-01-25 21:29:00
+Soup of the Day,1,2024-01-26 02:07:00
+Sparkling Water,3,2024-01-26 03:13:00
+Apple Pie,2,invalid_date
+Coca Cola,3,2024-01-25 23:21:00
+Unknown Item 0,3,invalid_date
+  Salmon  ,3,2024-01-26 02:00:00
+Apple Juice,3,2024-01-26 02:44:00
+Margherita Pizza,2,2024-01-25 22:50:00
+Onion Rings,1,2024-01-25 20:19:00
+Apple Juice,4,2024-01-26 00:20:00
+Unknown Item 7,2,2024-01-26 03:07:00
+Garlic Mushrooms,1,2024-01-26 03:21:00
+Mashed Potatoes,2,2024-01-25 23:36:00
+Unknown Item 13,2,2024-01-26 02:01:00
+Unknown Item 8,3,2024-01-26 04:12:00
+Margherita Pizza,2,2024-01-25 22:21:00
+Caesar Salad,1,2024-01-26 04:30:00
+Veggie Burger,4,2024-01-26 04:51:00
+  Salmon  ,3,2024-01-25 19:08:00
+  Salmon  ,2,2024-01-26 00:40:00
+Unknown Item 10,1,2024-01-25 23:55:00
+  Salmon  ,1,2024-01-26 01:21:00
+  Salmon  ,2,2024-01-25 23:52:00
+Soup of the Day,1,2024-01-25 23:47:00
+  Salmon  ,1,2024-01-25 20:33:00
+Unknown Item 7,2,2024-01-25 22:46:00
+Unknown Item 13,1,2024-01-26 03:35:00
+Seasonal Special,1,2024-01-26 01:13:00
+Margherita Pizza,1,2024-01-26 02:21:00
+Soup of the Day,1,2024-01-26 03:56:00
+  Salmon  ,2,2024-01-26 03:04:00
+Hummus Plate,1,2024-01-26 05:17:00
+Mashed Potatoes,-1,2024-01-26 04:21:00
+Coca Cola,2,2024-01-26 06:40:00
+  Salmon  ,4,2024-01-26 01:10:00
+Soup of the Day,2,2024-01-26 02:24:00
+  Salmon  ,1,2024-01-25 21:07:00
+  Salmon  ,1,2024-01-26 04:48:00
+Unknown Item 4,3,2024-01-25 22:54:00
+Margherita Pizza,1,2024-01-25 22:02:00
+Tea,2,2024-01-25 22:05:00
+Soup of the Day,1,2024-01-26 00:15:00
+  Salmon  ,1,2024-01-25 22:53:00
+Caesar Salad,3,2024-01-26 05:13:00
+Unknown Item 2,2,2024-01-26 01:11:00
+Apple Pie,-2,2024-01-25 21:50:00
+Garlic Mushrooms,1,2024-01-25 19:12:00
+Chicken Burger,1,2024-01-26 04:28:00
+Chicken Burger,2,2024-01-26 00:51:00
+Unknown Item 9,2,2024-01-26 00:32:00
+Chicken Burger,1,2024-01-25 21:21:00
+Tea,1,2024-01-26 04:46:00
+Unknown Item 14,1,2024-01-26 04:19:00
+Coca Cola,4,2024-01-26 03:09:00
+Unknown Item 10,2,2024-01-26 03:06:00
+Chicken Burger,3,2024-01-26 04:33:00
+Tiramisu,1,2024-01-26 03:08:00
+Caesar Salad,4,2024-01-25 21:02:00
+Caesar Salad,1,2024-01-25 23:45:00
+Soup of the Day,2,2024-01-26 04:07:00
+Cheesecake,3,2024-01-25 18:59:00
+Unknown Item 10,1,2024-01-25 19:54:00
+  Salmon  ,1,2024-01-26 02:05:00
+  Salmon  ,1,2024-01-25 22:56:00
+Chicken Burger,1,2024-01-25 19:33:00
+French Fries,2,invalid_date
+Unknown Item 8,2,2024-01-25 22:36:00
+Soup of the Day,2,2024-01-26 03:40:00
+Margherita Pizza,2,2024-01-26 04:20:00
+Onion Rings,2,2024-01-25 21:18:00
+Chicken Burger,1,2024-01-25 22:20:00
+Unknown Item 10,1,2024-01-26 03:42:00
+Veggie Burger,4,2024-01-25 21:09:00
+Unknown Item 2,1,2024-01-25 21:07:00
+Hummus Plate,2,2024-01-25 18:39:00
+Unknown Item 3,1,2024-01-26 02:06:00
+Apple Pie,2,2024-01-25 21:22:00
+  Salmon  ,2,2024-01-26 01:17:00
+Sparkling Water,1,2024-01-25 21:45:00
+Coca Cola,1,2024-01-26 03:36:00
+Unknown Item 9,2,2024-01-25 21:04:00
+Mashed Potatoes,1,2024-01-25 22:57:00
+Veggie Burger,1,2024-01-25 22:28:00
+  Salmon  ,2,2024-01-25 20:01:00
+Unknown Item 15,1,2024-01-25 23:43:00
+Chicken Burger,3,invalid_date
+Cheesecake,2,2024-01-25 20:27:00
+Hummus Plate,1,2024-01-25 22:45:00
+Apple Pie,2,invalid_date
+Coca Cola,-2,2024-01-26 02:44:00
+Coca Colas,1,2024-01-26 03:39:00
+Onion Rings,1,invalid_date
+Mashed Potatoes,1,2024-01-26 03:45:00
+Unknown Item 19,1,2024-01-26 03:51:00
+Cheesecake,1,2024-01-26 01:59:00
+Old Menu Item,1,2024-01-26 03:29:00
+  Salmon  ,1,2024-01-26 02:05:00
+Unknown Item 14,2,2024-01-26 03:58:00
+Soup of the Day,2,2024-01-26 03:06:00
+  Salmon  ,2,2024-01-25 23:43:00
+  Salmon  ,2,2024-01-26 02:49:00
+  Salmon  ,3,2024-01-25 23:14:00
+Chocolate Cake,2,2024-01-26 05:09:00
+Mashed Potatoess,2,2024-01-26 04:39:00
+Margherita Pizza,1,2024-01-25 22:23:00
+  Salmon  ,3,invalid_date
+Unknown Item 5,1,2024-01-26 04:21:00
+  Salmon  ,1,2024-01-26 03:56:00
+Veggie Burger,2,invalid_date
+Chocolate Cake,1,invalid_date
+Coca Cola,1,2024-01-26 22:29:00
+Unknown Item 16,2,2024-01-27 04:18:00
+Sparkling Water,2,2024-01-27 03:38:00
+Coca Cola,2,2024-01-27 02:32:00
+  Salmon  ,3,2024-01-26 21:52:00
+Soup of the Day,1,2024-01-27 03:06:00
+Sparkling Water,1,2024-01-26 22:41:00
+Sparkling Water,2,2024-01-26 20:19:00
+Mashed Potatoes,1,2024-01-27 01:25:00
+Hummus Plate,2,2024-01-27 02:15:00
+Margherita Pizza,1,2024-01-27 02:35:00
+  Salmon  ,1,2024-01-26 21:30:00
+Margherita Pizza,2,invalid_date
+  Salmon  ,2,invalid_date
+Apple Juice,2,2024-01-27 02:50:00
+Coca Cola,1,2024-01-27 06:36:00
+Tiramisu,1,2024-01-27 03:34:00
+Coca Cola,1,2024-01-27 03:11:00
+Sparkling Water,1,2024-01-27 02:04:00
+  Salmon  ,1,2024-01-27 03:45:00
+Margherita Pizza,1,2024-01-27 02:31:00
+  Salmon  ,2,2024-01-26 21:38:00
+Mashed Potatoes,1,2024-01-26 23:35:00
+  Salmon  ,2,2024-01-26 20:28:00
+French Fries,3,2024-01-26 21:25:00
+Caesar Salad,1,2024-01-26 20:06:00
+Mashed Potatoes,1,2024-01-27 03:38:00
+Sparkling Water,1,2024-01-27 03:24:00
+Garlic Mushrooms,2,2024-01-26 22:41:00
+Unknown Item 19,1,2024-01-27 02:05:00
+Coca Cola,1,2024-01-26 21:08:00
+Apple Juice,2,2024-01-27 04:57:00
+Tea,1,2024-01-27 03:51:00
+Sparkling Water,2,invalid_date
+Unknown Item 19,2,2024-01-27 02:28:00
+Soup of the Day,-2,2024-01-27 01:24:00
+  Salmon  ,1,2024-01-27 02:28:00
+  Salmon  ,3,2024-01-26 21:43:00
+Veggie Burger,2,2024-01-27 04:19:00
+Unknown Item 15,1,2024-01-27 02:58:00
+Soup of the Day,1,2024-01-27 03:58:00
+Unknown Item 17,1,2024-01-27 05:27:00
+Coca Cola,3,2024-01-27 03:58:00
+Unknown Item 17,3,2024-01-26 22:05:00
+Unknown Item 9,2,2024-01-27 02:39:00
+Unknown Item 1,3,2024-01-27 06:25:00
+Unknown Item 1,1,2024-01-27 04:54:00
+Soup of the Day,1,2024-01-26 22:23:00
+Soup of the Day,3,2024-01-27 04:03:00
+Tea,2,2024-01-26 18:35:00
+Garlic Mushrooms,1,2024-01-27 03:22:00
+Veggie Burger,2,2024-01-26 21:18:00
+Caesar Salad,4,2024-01-27 04:15:00
+  Salmon  ,2,2024-01-26 23:37:00
+Soup of the Day,3,2024-01-26 22:20:00
+Tea,2,2024-01-27 03:25:00
+Unknown Item 2,1,2024-01-26 22:34:00
+  Salmon  ,3,2024-01-26 21:11:00
+Unknown Item 16,1,2024-01-26 23:12:00
+Caesar Salad,3,invalid_date
+Chocolate Cake,1,invalid_date
+Mashed Potatoes,2,2024-01-26 23:18:00
+French Fries,1,2024-01-27 07:42:00
+Caesar Salad,1,2024-01-26 21:00:00
+Cheesecake,1,2024-01-26 20:01:00
+Unknown Item 6,4,2024-01-26 21:56:00
+Coca Cola,4,2024-01-27 00:27:00
+Unknown Item 1,1,invalid_date
+Chicken Burger,4,invalid_date
+Tiramisu,3,2024-01-27 03:55:00
+Unknown Item 4,2,2024-01-26 23:50:00
+  Salmon  ,1,invalid_date
+Unknown Item 11,3,2024-01-26 23:11:00
+  Salmon  ,2,2024-01-26 23:27:00
+Coca Cola,3,2024-01-27 01:28:00
+  Salmon  ,3,2024-01-26 22:14:00
+Tea,3,2024-01-26 21:38:00
+  Salmon  ,2,2024-01-26 18:31:00
+Soup of the Day,1,invalid_date
+Unknown Item 14,-1,2024-01-27 03:17:00
+Chicken Burger,1,2024-01-26 23:34:00
+Coca Cola,1,2024-01-27 02:02:00
+Caesar Salad,2,2024-01-27 06:36:00
+Tea,2,2024-01-27 00:23:00
+Tiramisu,3,2024-01-26 21:30:00
+Soup of the Day,1,2024-01-27 05:05:00
+Chocolate Cake,2,2024-01-26 21:46:00
+Soup of the Day,1,2024-01-27 01:54:00
+Unknown Item 16,1,2024-01-27 06:49:00
+Unknown Item 9,1,2024-01-26 22:33:00
+Mashed Potatoes,2,2024-01-26 20:56:00
+Sparkling Water,1,2024-01-27 02:15:00
+  Salmon  ,2,2024-01-26 23:47:00
+Margherita Pizza,1,2024-01-27 02:42:00
+Soup of the Day,3,2024-01-26 20:40:00
+Cheesecake,3,2024-01-27 01:37:00
+  Salmon  ,4,2024-01-26 22:03:00
+Soup of the Day,3,2024-01-27 04:34:00
+Soup of the Day,3,2024-01-27 03:30:00
+Garlic Mushrooms,3,2024-01-26 23:57:00
+Soup of the Day,2,2024-01-26 23:46:00
+Hummus Plate,1,2024-01-26 22:22:00
+  Salmon  ,1,2024-01-27 05:51:00
+  Salmon  ,1,2024-01-26 22:10:00
+Garlic Mushrooms,2,2024-01-26 19:59:00
+Apple Juice,2,2024-01-27 02:19:00
+Chocolate Cake,3,invalid_date
+Soup of the Day,4,invalid_date
+Apple Juice,1,invalid_date
+Unknown Item 0,2,2024-01-27 02:42:00
+Coca Cola,4,2024-01-27 07:51:00
+Chocolate Cake,1,2024-01-27 03:01:00
+Unknown Item 18,-2,2024-01-26 22:05:00
+Mashed Potatoes,1,invalid_date
+Caesar Salad,2,2024-01-27 22:39:00
+Unknown Item 1,1,2024-01-27 22:54:00
+Unknown Item 6,3,2024-01-27 22:47:00
+Soup of the Day,2,2024-01-27 21:11:00
+Margherita Pizza,1,2024-01-28 04:47:00
+Tea,1,2024-01-27 21:28:00
+Tiramisu,1,invalid_date
+Unknown Item 3,4,2024-01-27 22:44:00
+Garlic Mushrooms,2,2024-01-27 21:11:00
+Apple Pie,1,2024-01-28 03:55:00
+  Salmon  ,1,2024-01-27 19:05:00
+Soup of the Day,2,2024-01-28 05:38:00
+French Fries,2,2024-01-28 04:09:00
+Unknown Item 0,2,2024-01-28 04:48:00
+Sparkling Water,1,invalid_date
+Apple Juice,2,2024-01-27 22:42:00
+Caesar Salad,2,2024-01-27 23:40:00
+Margherita Pizza,4,2024-01-27 21:36:00
+Unknown Item 16,3,2024-01-28 03:22:00
+Garlic Mushrooms,2,2024-01-27 20:16:00
+Apple Pie,2,2024-01-28 03:07:00
+Unknown Item 9,1,2024-01-27 20:29:00
+Tea,3,invalid_date
+Sparkling Water,1,2024-01-28 00:48:00
+Caesar Salad,1,2024-01-28 04:14:00
+Unknown Item 13,1,2024-01-27 22:45:00
+Unknown Item 18,3,2024-01-27 22:16:00
+  Salmon  ,1,2024-01-27 21:55:00
+French Fries,1,invalid_date
+Apple Juice,1,2024-01-28 04:28:00
+Veggie Burger,1,2024-01-27 22:20:00
+  Salmon  ,1,2024-01-28 05:43:00
+Sparkling Water,3,2024-01-28 05:06:00
+  Salmon  ,3,2024-01-28 04:40:00
+Hummus Plate,1,2024-01-27 22:54:00
+  Salmon  ,3,2024-01-27 23:58:00
+Soup of the Day,2,2024-01-28 02:17:00
+Tea,1,2024-01-27 22:17:00
+Unknown Item 5,2,2024-01-28 03:16:00
+  Salmon  ,4,2024-01-28 02:25:00
+  Salmon  ,1,2024-01-27 23:43:00
+Soup of the Day,1,2024-01-28 03:46:00
+Hummus Plate,3,2024-01-28 02:49:00
+Caesar Salad,2,2024-01-27 21:21:00
+Soup of the Day,1,2024-01-28 03:11:00
+Unknown Item 6,2,2024-01-27 22:00:00
+Margherita Pizza,2,2024-01-28 02:53:00
+Unknown Item 8,3,2024-01-27 20:26:00
+Unknown Item 2,2,2024-01-27 20:06:00
+Old Menu Item,1,2024-01-28 03:22:00
+Coca Cola,2,2024-01-27 21:18:00
+Chicken Burger,2,2024-01-27 22:02:00
+Chicken Burger,1,2024-01-27 19:05:00
+Veggie Burger,2,invalid_date
+Soup of the Day,3,2024-01-28 02:53:00
+Hummus Plate,1,2024-01-27 21:38:00
+Apple Juice,2,2024-01-28 02:45:00
+Unknown Item 16,1,2024-01-28 05:05:00
+Caesar Salad,1,2024-01-28 04:08:00
+Soup of the Day,1,2024-01-27 22:48:00
+Veggie Burger,1,invalid_date
+Caesar Salad,3,2024-01-28 03:11:00
+Coca Cola,1,2024-01-28 04:44:00
+Unknown Item 8,2,2024-01-27 21:18:00
+Tiramisu,1,2024-01-27 23:59:00
+Hummus Plate,4,2024-01-27 20:29:00
+  Salmon  ,2,2024-01-28 04:17:00
+Sparkling Water,2,2024-01-28 03:44:00
+Unknown Item 4,1,2024-01-28 04:49:00
+Veggie Burger,1,2024-01-28 03:16:00
+Soup of the Day,1,2024-01-27 21:04:00
+Hummus Plate,3,2024-01-27 22:03:00
+Apple Juice,1,2024-01-27 22:21:00
+  Salmon  ,2,2024-01-28 07:16:00
+Soup of the Day,2,2024-01-28 05:16:00
+  Salmon  ,1,2024-01-27 21:04:00
+Unknown Item 3,2,2024-01-28 00:59:00
+Seasonal Special,2,invalid_date
+Chicken Burger,2,2024-01-27 21:31:00
+Unknown Item 4,1,2024-01-27 21:34:00
+Veggie Burger,1,2024-01-28 03:13:00
+  Salmon  ,1,2024-01-28 02:06:00
+Soup of the Day,3,2024-01-28 04:45:00
+French Fries,2,2024-01-27 22:02:00
+Margherita Pizza,1,2024-01-27 20:36:00
+Soup of the Day,3,2024-01-28 03:49:00
+Unknown Item 17,1,invalid_date
+  Salmon  ,3,2024-01-28 00:41:00
+Mashed Potatoes,4,2024-01-28 02:59:00
+Unknown Item 9,3,2024-01-27 19:24:00
+Unknown Item 1,3,2024-01-27 22:44:00
+  Salmon  ,1,2024-01-27 22:25:00
+  Salmon  ,1,2024-01-28 02:32:00
+Chocolate Cake,2,2024-01-28 03:49:00
+  Salmon  ,1,2024-01-28 00:27:00
+Garlic Mushrooms,1,2024-01-27 23:46:00
+Chocolate Cake,2,2024-01-28 03:50:00
+Caesar Salad,1,2024-01-27 20:14:00
+Sparkling Water,3,2024-01-27 18:44:00
+Caesar Salad,3,2024-01-28 03:30:00
+Garlic Mushrooms,3,2024-01-27 21:34:00
+  Salmon  ,2,2024-01-28 04:22:00
+  Salmon  ,3,2024-01-27 22:19:00
+Apple Juice,3,2024-01-27 23:40:00
+Unknown Item 7,2,2024-01-28 07:41:00
+Sparkling Water,1,2024-01-27 20:34:00
+  Salmon  ,3,2024-01-28 04:21:00
+Unknown Item 19,3,2024-01-27 20:29:00
+  Salmon  ,1,2024-01-28 03:18:00
+Coca Cola,1,2024-01-28 02:11:00
+  Salmon  ,2,2024-01-28 02:24:00
+Soup of the Day,1,2024-01-28 02:19:00
+Tea,3,2024-01-28 03:57:00
+Mashed Potatoes,4,2024-01-27 21:44:00
+Veggie Burger,1,2024-01-27 22:05:00
+Caesar Salad,2,2024-01-28 04:28:00
+Coca Cola,1,2024-01-28 03:08:00
+Hummus Plate,2,2024-01-27 19:01:00
+Coca Cola,1,2024-01-28 03:37:00
+  Salmon  ,2,invalid_date
+  Salmon  ,1,2024-01-27 20:34:00
+Apple Juice,1,2024-01-28 02:31:00
+Unknown Item 14,1,2024-01-28 01:53:00
+Cheesecake,1,2024-01-28 03:01:00
+  Salmon  ,2,2024-01-27 19:03:00
+Chicken Burger,1,2024-01-27 22:46:00
+Sparkling Water,2,2024-01-27 19:07:00
+Margherita Pizza,3,2024-01-27 21:41:00
+Tea,3,2024-01-28 02:29:00
+Apple Juice,3,2024-01-28 04:55:00
+Veggie Burger,3,2024-01-28 04:09:00
+Unknown Item 19,1,2024-01-28 21:04:00
+  Salmon  ,1,2024-01-28 19:09:00
+Unknown Item 11,2,2024-01-29 00:01:00
+Unknown Item 2,3,2024-01-28 23:58:00
+Soup of the Day,4,2024-01-29 02:15:00
+Margherita Pizza,1,2024-01-29 03:08:00
+  Salmon  ,1,2024-01-28 18:40:00
+  Salmon  ,1,2024-01-28 20:19:00
+Cheesecake,2,2024-01-29 03:06:00
+Mashed Potatoes,2,2024-01-28 23:10:00
+Tiramisu,1,2024-01-29 04:04:00
+Unknown Item 10,1,2024-01-29 03:06:00
+Soup of the Day,2,2024-01-28 21:38:00
+Chicken Burger,2,2024-01-29 03:14:00
+Unknown Item 18,1,2024-01-28 20:12:00
+Margherita Pizza,3,2024-01-28 23:51:00
+Unknown Item 16,2,invalid_date
+Margherita Pizza,3,2024-01-29 03:20:00
+Veggie Burger,3,2024-01-28 21:43:00
+Margherita Pizza,1,2024-01-29 02:08:00
+Soup of the Day,1,2024-01-28 22:50:00
+Tea,2,2024-01-28 21:02:00
+Apple Pie,1,invalid_date
+Tea,3,2024-01-28 20:17:00
+Sparkling Water,2,2024-01-28 21:26:00
+Cheesecake,3,2024-01-28 21:23:00
+Soup of the Day,1,2024-01-29 01:28:00
+Unknown Item 17,1,2024-01-28 21:37:00
+Garlic Mushrooms,2,2024-01-28 19:06:00
+Seasonal Special,1,2024-01-29 03:40:00
+Mashed Potatoes,2,2024-01-29 02:49:00
+  Salmon  ,3,2024-01-28 21:56:00
+Garlic Mushrooms,1,2024-01-29 00:00:00
+Unknown Item 4,2,invalid_date
+Chicken Burger,1,2024-01-28 20:41:00
+Garlic Mushrooms,1,2024-01-29 02:18:00
+  Salmon  ,4,2024-01-28 23:51:00
+French Fries,4,2024-01-29 03:30:00
+Mashed Potatoes,2,2024-01-29 03:13:00
+Soup of the Day,3,2024-01-28 21:17:00
+Chocolate Cake,2,2024-01-29 00:26:00
+Margherita Pizza,1,2024-01-28 21:11:00
+French Fries,1,invalid_date
+  Salmon  ,3,2024-01-29 02:45:00
+Sparkling Water,1,2024-01-29 00:05:00
+Caesar Salad,2,invalid_date
+Unknown Item 5,2,2024-01-28 22:26:00
+Veggie Burger,2,2024-01-28 18:15:00
+Unknown Item 13,1,2024-01-28 21:33:00
+Tea,1,2024-01-29 06:39:00
+Soup of the Day,1,2024-01-28 22:48:00
+Sparkling Water,2,2024-01-29 06:32:00
+Unknown Item 2,2,2024-01-28 21:49:00
+Margherita Pizza,2,2024-01-29 02:13:00
+Veggie Burger,2,invalid_date
+  Salmon  ,1,2024-01-28 21:09:00
+Sparkling Water,3,2024-01-29 03:58:00
+Tea,2,2024-01-28 23:11:00
+Hummus Plate,1,2024-01-28 21:59:00
+Tea,1,2024-01-28 19:41:00
+Garlic Mushrooms,3,invalid_date
+Apple Pie,3,2024-01-28 23:21:00
+Margherita Pizza,1,2024-01-29 02:56:00
+Soup of the Day,2,2024-01-29 03:02:00
+  Salmon  ,1,2024-01-28 21:03:00
+Chocolate Cake,1,2024-01-29 04:11:00
+Unknown Item 15,2,2024-01-28 21:01:00
+Unknown Item 11,2,2024-01-29 00:07:00
+Coca Cola,2,2024-01-28 20:15:00
+Coca Cola,1,2024-01-29 03:37:00
+Tea,1,2024-01-29 02:26:00
+Unknown Item 0,1,2024-01-28 21:43:00
+Veggie Burger,1,2024-01-29 04:14:00
+Mashed Potatoes,1,2024-01-29 03:20:00
+  Salmon  ,1,2024-01-28 21:15:00
+Unknown Item 18,1,2024-01-29 03:55:00
+Veggie Burger,1,2024-01-28 21:57:00
+  Salmon  ,2,2024-01-28 21:30:00
+Veggie Burger,1,2024-01-29 02:03:00
+Veggie Burger,1,2024-01-29 04:09:00
+Veggie Burger,2,invalid_date
+Soup of the Day,1,2024-01-28 23:24:00
+Chocolate Cake,2,invalid_date
+Apple Pie,1,2024-01-29 03:40:00
+Chocolate Cake,1,2024-01-28 22:17:00
+Hummus Plate,1,2024-01-28 21:08:00
+Veggie Burger,1,2024-01-28 19:36:00
+Tiramisu,2,2024-01-28 20:08:00
+Apple Pie,3,2024-01-28 21:29:00
+  Salmon  ,1,2024-01-28 23:10:00
+Chicken Burger,1,2024-01-29 03:14:00
+Tea,2,2024-01-29 04:38:00
+Veggie Burger,1,invalid_date
+  Salmon  ,3,2024-01-29 02:39:00
+Unknown Item 17,1,2024-01-29 04:36:00
+  Salmon  ,4,2024-01-29 05:54:00
+Veggie Burger,1,2024-01-28 21:26:00
+Unknown Item 0,1,2024-01-29 04:31:00
+Unknown Item 19,3,invalid_date
+Veggie Burger,2,2024-01-29 02:53:00
+Chicken Wings,2,2024-01-28 23:00:00
+Veggie Burger,2,2024-01-29 03:47:00
+Coca Cola,2,2024-01-29 04:15:00
+Caesar Salad,1,2024-01-28 22:37:00
+Soup of the Day,2,2024-01-28 21:59:00
+  Salmon  ,1,2024-01-29 02:09:00
+Soup of the Day,3,2024-01-29 04:57:00
+Tea,4,2024-01-28 18:02:00
+  Salmon  ,1,2024-01-28 19:30:00
+Unknown Item 3,1,invalid_date
+Hummus Plate,1,2024-01-28 19:33:00
+Margherita Pizza,1,2024-01-28 22:51:00
+Unknown Item 14,3,2024-01-29 03:52:00
+Unknown Item 9,1,2024-01-28 20:31:00
+Veggie Burger,1,2024-01-28 21:35:00
+  Salmon  ,3,2024-01-29 03:44:00
+Tea,3,2024-01-29 03:13:00
+Unknown Item 7,2,invalid_date
+Soup of the Day,2,2024-01-28 21:05:00
+Unknown Item 19,2,2024-01-28 18:42:00
+Apple Juice,4,2024-01-28 22:45:00
+Chocolate Cake,2,2024-01-28 23:36:00
+Veggie Burger,2,2024-01-29 03:01:00
+Hummus Plate,1,2024-01-29 06:29:00
+Unknown Item 15,1,2024-01-29 03:55:00
+Caesar Salad,2,2024-01-29 03:11:00
+Tea,3,2024-01-29 03:23:00
+Sparkling Water,3,2024-01-29 02:45:00
+  Salmon  ,4,2024-01-29 02:55:00
+Unknown Item 16,2,2024-01-29 02:24:00
+Margherita Pizza,2,2024-01-29 04:21:00
+Onion Rings,3,2024-01-29 01:18:00
+Unknown Item 0,2,2024-01-28 23:17:00
+Unknown Item 16,1,2024-01-29 03:39:00
+Unknown Item 2,1,2024-01-29 01:50:00
+Veggie Burger,3,2024-01-28 21:43:00
+Veggie Burger,1,2024-01-28 20:56:00
+Caesar Salad,3,2024-01-28 22:59:00
+  Salmon  ,1,2024-01-28 20:58:00
+Unknown Item 11,2,2024-01-29 03:56:00
+Tea,2,2024-01-28 20:24:00
+Apple Pie,2,2024-01-28 22:39:00
+Coca Cola,1,2024-01-28 19:23:00
+Coca Cola,3,2024-01-28 21:35:00
+Hummus Plate,2,2024-01-29 03:35:00
+  Salmon  ,1,2024-01-29 03:13:00
+Unknown Item 15,2,2024-01-28 21:21:00
+French Fries,1,2024-01-28 21:07:00
+Soup of the Day,1,2024-01-29 02:47:00
+Caesar Salad,1,2024-01-29 04:37:00
+Mashed Potatoes,3,2024-01-29 04:44:00
+Tiramisu,2,2024-01-30 03:48:00
+Cheesecake,2,2024-01-29 21:22:00
+Chicken Burger,1,invalid_date
+Chicken Burger,1,2024-01-30 03:17:00
+Soup of the Day,4,2024-01-29 20:23:00
+Margherita Pizza,2,2024-01-29 22:31:00
+Unknown Item 9,3,2024-01-30 00:53:00
+Cheesecake,1,invalid_date
+Caesar Salad,1,2024-01-30 01:52:00
+Apple Juice,3,2024-01-30 01:18:00
+Unknown Item 11,2,2024-01-29 23:23:00
+Garlic Mushrooms,1,2024-01-30 03:44:00
+  Salmon  ,1,2024-01-30 03:56:00
+Unknown Item 5,3,2024-01-29 20:57:00
+Tea,1,2024-01-30 04:05:00
+Caesar Salad,2,2024-01-29 20:57:00
+Margherita Pizza,1,invalid_date
+Sparkling Water,1,invalid_date
+Caesar Salad,4,2024-01-29 21:09:00
+Caesar Salad,1,2024-01-30 00:55:00
+Chicken Burger,2,2024-01-29 21:40:00
+Daily Special,3,2024-01-29 19:26:00
+Cheesecake,1,2024-01-30 05:34:00
+Margherita Pizza,1,2024-01-30 04:30:00
+Apple Juice,2,2024-01-29 22:28:00
+Sparkling Water,1,2024-01-30 03:01:00
+Garlic Mushrooms,1,2024-01-29 22:04:00
+Tiramisu,1,2024-01-29 19:51:00
+Coca Cola,-2,2024-01-29 21:33:00
+Margherita Pizza,2,2024-01-30 02:26:00
+Apple Juice,2,2024-01-30 02:41:00
+Sparkling Water,1,2024-01-30 02:20:00
+Mashed Potatoes,2,invalid_date
+  Salmon  ,4,2024-01-30 03:53:00
+Margherita Pizza,2,2024-01-30 01:29:00
+  Salmon  ,2,2024-01-29 22:08:00
+Sparkling Water,2,2024-01-30 04:19:00
+Soup of the Day,3,2024-01-29 21:16:00
+Sparkling Water,3,2024-01-29 21:23:00
+Margherita Pizza,1,2024-01-30 06:49:00
+Chicken Wings,1,2024-01-30 04:09:00
+Caesar Salad,1,2024-01-29 22:29:00
+Soup of the Day,1,2024-01-30 05:39:00
+  Salmon  ,1,2024-01-30 04:45:00
+Margherita Pizza,3,2024-01-30 01:11:00
+Soup of the Day,1,2024-01-30 06:53:00
+  Salmon  ,2,2024-01-30 03:57:00
+Caesar Salad,2,2024-01-30 02:09:00
+Unknown Item 3,1,2024-01-29 21:07:00
+Apple Juice,3,invalid_date
+Mashed Potatoes,3,2024-01-30 02:28:00
+Caesar Salad,1,2024-01-29 22:11:00
+Apple Juice,1,2024-01-29 21:45:00
+Sparkling Water,1,2024-01-29 19:20:00
+Unknown Item 13,2,2024-01-30 06:09:00
+Soup of the Day,1,2024-01-29 22:34:00
+  Salmon  ,2,2024-01-30 06:34:00
+Hummus Plate,3,2024-01-29 22:58:00
+Coca Cola,1,2024-01-29 19:59:00
+Chicken Burger,3,2024-01-30 00:09:00
+Unknown Item 14,1,invalid_date
+  Salmon  ,3,2024-01-29 22:00:00
+Hummus Plate,1,2024-01-30 05:34:00
+Chicken Wings,2,2024-01-30 06:21:00
+Cheesecake,1,2024-01-30 02:18:00
+Mashed Potatoes,3,2024-01-29 23:18:00
+Sparkling Water,2,2024-01-30 05:48:00
+Veggie Burger,1,2024-01-30 06:36:00
+Margherita Pizza,2,2024-01-30 02:51:00
+Unknown Item 1,1,2024-01-30 02:58:00
+French Fries,2,2024-01-30 04:21:00
+Caesar Salad,3,2024-01-30 03:46:00
+  Salmon  ,1,2024-01-30 00:02:00
+Apple Pie,1,2024-01-29 21:35:00
+Tea,1,2024-01-29 21:01:00
+Unknown Item 0,2,2024-01-29 23:53:00
+Margherita Pizza,1,2024-01-29 21:22:00
+Unknown Item 15,1,2024-01-29 20:03:00
+Tiramisu,1,2024-01-30 02:12:00
+Veggie Burger,1,2024-01-30 02:14:00
+Tea,4,2024-01-30 03:49:00
+Coca Cola,1,2024-01-29 22:01:00
+Margherita Pizza,2,2024-01-29 20:54:00
+Margherita Pizza,2,2024-01-29 23:42:00
+Unknown Item 2,2,2024-01-30 05:32:00
+Sparkling Water,1,2024-01-29 22:31:00
+Soup of the Day,2,2024-01-29 22:38:00
+Unknown Item 15,3,invalid_date
+Chocolate Cake,1,2024-01-30 04:23:00
+Margherita Pizza,1,2024-01-29 23:45:00
+Unknown Item 1,1,2024-01-30 04:23:00
+Tea,1,2024-01-29 22:00:00
+Soup of the Day,1,2024-01-29 22:22:00
+Veggie Burger,2,2024-01-29 22:28:00
+  Salmon  ,1,2024-01-30 04:05:00
+Apple Juice,2,2024-01-29 21:56:00
+Soup of the Day,2,2024-01-29 23:26:00
+  Salmon  ,1,2024-01-30 03:18:00
+Unknown Item 2,2,2024-01-29 21:46:00
+  Salmon  ,1,invalid_date
+  Salmon  ,3,2024-01-30 03:26:00
+Veggie Burger,1,2024-01-29 21:37:00
+Unknown Item 5,2,2024-01-30 02:09:00
+Veggie Burger,3,2024-01-29 21:30:00
+  Salmon  ,-1,2024-01-30 06:33:00
+Soup of the Day,1,2024-01-30 06:04:00
+Apple Juice,2,2024-01-30 04:37:00
+Hummus Plate,1,2024-01-30 03:05:00
+Unknown Item 17,3,invalid_date
+  Salmon  ,4,2024-01-30 04:26:00
+Onion Rings,1,2024-01-29 21:29:00
+Caesar Salad,1,2024-01-30 03:48:00
+Unknown Item 15,1,2024-01-30 04:12:00
+Soup of the Day,1,2024-01-29 21:24:00
+Margherita Pizza,2,2024-01-29 22:31:00
+Veggie Burger,2,2024-01-29 19:52:00
+Unknown Item 15,1,2024-01-29 22:37:00
+Soup of the Day,1,2024-01-29 22:35:00
+  Salmon  ,1,invalid_date
+Chicken Burger,1,2024-01-29 19:00:00
+Unknown Item 16,3,2024-01-29 21:19:00
+Veggie Burger,1,2024-01-30 05:53:00
+Caesar Salad,3,2024-01-30 02:07:00
+Veggie Burger,2,invalid_date
+Soup of the Day,2,2024-01-29 22:11:00
+Sparkling Water,1,2024-01-30 00:44:00
+  Salmon  ,2,2024-01-30 02:01:00
+  Salmon  ,2,2024-01-31 03:31:00
+Apple Juice,2,2024-01-31 07:04:00
+Chocolate Cake,1,2024-01-31 02:23:00
+Soup of the Day,1,invalid_date
+Unknown Item 3,2,2024-01-30 23:16:00
+Margherita Pizza,1,2024-01-31 02:30:00
+Caesar Salad,1,2024-01-31 06:52:00
+Old Menu Item,4,2024-01-30 21:32:00
+  Salmon  ,1,2024-01-31 03:01:00
+  Salmon  ,1,2024-01-31 04:10:00
+Margherita Pizza,1,2024-01-31 02:09:00
+  Salmon  ,-2,2024-01-30 22:56:00
+Veggie Burger,1,2024-01-31 03:22:00
+Apple Juice,2,2024-01-30 21:17:00
+Margherita Pizza,1,2024-01-30 22:40:00
+Apple Juice,1,2024-01-31 04:22:00
+  Salmon  ,2,2024-01-30 19:18:00
+Coca Cola,1,2024-01-31 01:59:00
+Onion Rings,4,2024-01-30 20:12:00
+Garlic Mushrooms,1,2024-01-31 03:11:00
+Unknown Item 13,1,2024-01-31 03:38:00
+Margherita Pizza,1,invalid_date
+Margherita Pizza,1,invalid_date
+Coca Cola,4,2024-01-31 04:43:00
+Coca Cola,3,2024-01-31 03:17:00
+  Salmon  ,1,2024-01-31 03:44:00
+Unknown Item 13,2,2024-01-30 22:34:00
+Chicken Burger,2,2024-01-31 02:52:00
+Tiramisu,1,2024-01-30 21:08:00
+  Salmon  ,1,2024-01-31 00:23:00
+Unknown Item 19,3,2024-01-31 03:26:00
+Soup of the Day,4,2024-01-30 22:58:00
+Hummus Plate,4,invalid_date
+  Salmon  ,2,2024-01-30 21:14:00
+  Salmon  ,2,2024-01-31 04:50:00
+Veggie Burger,1,2024-01-31 04:39:00
+Unknown Item 14,1,2024-01-31 03:33:00
+Soup of the Day,1,invalid_date
+Unknown Item 10,2,2024-01-31 01:48:00
+  Salmon  ,2,2024-01-31 03:26:00
+  Salmon  ,3,2024-01-30 23:04:00
+Tea,3,2024-01-30 21:08:00
+Sparkling Water,3,2024-01-31 04:30:00
+Caesar Salad,4,2024-01-30 22:44:00
+  Salmon  ,1,2024-01-30 22:52:00
+  Salmon  ,2,2024-01-30 23:38:00
+Sparkling Water,2,2024-01-31 00:21:00
+Onion Rings,1,invalid_date
+Daily Special,4,2024-01-30 19:52:00
+Veggie Burger,3,2024-01-30 21:08:00
+Sparkling Water,1,2024-01-31 04:09:00
+Soup of the Day,1,2024-01-31 03:19:00
+Hummus Plate,2,2024-01-30 21:08:00
+Veggie Burger,2,2024-01-31 06:27:00
+Caesar Salad,3,2024-01-31 03:50:00
+Unknown Item 11,1,2024-01-30 21:01:00
+Coca Cola,1,2024-01-31 03:48:00
+Soup of the Day,1,invalid_date
+Veggie Burger,1,2024-01-30 21:50:00
+Margherita Pizza,1,2024-01-31 02:37:00
+Veggie Burger,3,2024-01-30 20:07:00
+Veggie Burger,1,2024-01-31 04:02:00
+Soup of the Day,1,invalid_date
+Tea,1,2024-01-30 18:06:00
+Unknown Item 3,1,2024-01-31 03:58:00
+  Salmon  ,3,invalid_date
+Soup of the Day,2,2024-01-31 04:11:00
+Unknown Item 18,2,2024-01-31 02:01:00
+Unknown Item 6,1,2024-01-30 20:54:00
+Tea,1,2024-01-31 03:17:00
+Unknown Item 3,1,2024-01-31 05:22:00
+Veggie Burger,1,invalid_date
+Margherita Pizza,3,2024-01-31 00:46:00
+Unknown Item 1,1,2024-01-31 02:32:00
+Unknown Item 13,-2,2024-01-31 02:06:00
+Unknown Item 15,1,2024-01-31 03:48:00
+Soup of the Day,2,2024-01-30 18:13:00
+Soup of the Day,3,2024-01-31 03:18:00
+Unknown Item 9,2,2024-01-30 21:48:00
+  Salmon  ,2,2024-01-31 01:46:00
+Mashed Potatoes,4,2024-01-30 20:13:00
+Caesar Salad,2,2024-01-31 04:54:00
+  Salmon  ,1,2024-01-31 03:23:00
+Unknown Item 16,1,2024-01-31 03:11:00
+Caesar Salad,2,2024-01-30 23:06:00
+  Salmon  ,2,2024-01-30 21:22:00
+Hummus Plate,1,2024-01-31 06:27:00
+Margherita Pizza,1,2024-01-30 21:14:00
+Veggie Burger,4,invalid_date
+Margherita Pizza,1,2024-01-31 06:07:00
+Unknown Item 15,1,2024-01-30 23:33:00
+Caesar Salad,1,2024-01-30 21:48:00
+Margherita Pizza,3,2024-01-30 22:18:00
+Soup of the Day,1,2024-01-31 02:02:00
+Tiramisu,2,2024-01-30 20:31:00
+Veggie Burger,1,2024-01-30 21:18:00
+Veggie Burger,2,2024-01-30 23:47:00
+Veggie Burger,3,2024-01-30 22:53:00
+French Fries,1,2024-01-30 23:35:00
+Coca Cola,2,2024-01-30 23:54:00
+Unknown Item 13,1,2024-01-30 23:54:00
+Onion Rings,1,2024-01-30 20:53:00
+  Salmon  ,3,2024-01-31 03:43:00
+Garlic Mushrooms,1,2024-01-30 22:00:00
+  Salmon  ,2,invalid_date
+Margherita Pizza,1,2024-01-31 02:25:00
+Margherita Pizza,1,2024-01-30 23:42:00
+Veggie Burger,1,2024-01-31 03:07:00
+Tea,2,2024-01-30 21:25:00
+  Salmon  ,1,2024-01-31 03:06:00
+Mashed Potatoes,2,2024-01-31 03:57:00
+Veggie Burger,1,2024-01-31 06:04:00
+  Salmon  ,1,invalid_date
+Caesar Salad,2,2024-01-30 22:38:00
+Unknown Item 15,3,2024-01-31 04:25:00
+Coca Cola,1,invalid_date
+Cheesecake,2,2024-01-30 23:31:00
+Veggie Burgers,1,2024-01-30 22:45:00
+Sparkling Water,2,2024-01-31 03:37:00
+Margherita Pizza,3,2024-01-30 22:50:00
+Soup of the Day,3,2024-01-31 03:25:00

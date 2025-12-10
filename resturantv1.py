@@ -21,6 +21,8 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import insights_module
+from difflib import get_close_matches
 
 pd.set_option("display.float_format", lambda x: f"{x:,.2f}")
 
@@ -78,9 +80,11 @@ CONFIG = {
     "high_volume_quantile": 0.5,
     "high_margin_quantile": 0.5,
 
-    # Price elasticity
-    # elasticity = -1.0  => +10% price → -10% volume
-    "elasticity_default": -1.0,
+    # Price elasticity assumption
+    # -1.0 = unit elasticity (1% volume drop per 1% price increase)
+    # -0.3 = inelastic (customers less sensitive to price changes)
+    # This affects all pricing scenario calculations
+    "price_elasticity_assumption": -1.0,
 
     # Scenario definitions
     "scenario_price_increase_premium": 0.08,   # +8% premium
@@ -94,14 +98,15 @@ CONFIG = {
     # Demo / report meta
     "period_label": "Jan–Dec 2024",
     "restaurant_name": "The Heritage Kitchen",
+    "engine_version": "v1.1-phase1",  # Track which analysis version generated this report
 
     # Synthetic staff & bookings
     "n_staff": 12,                  # More realistic staffing
     "n_bookings": 6000,             # ~16 bookings per day average
 
     # Real data file paths (fill when using client mode)
-    "client_menu_path": None,    # e.g. "data/client_menu.xlsx"
-    "client_sales_path": None,   # e.g. "data/client_sales.csv"
+    "client_menu_path": "data/client_menu.csv",
+    "client_sales_path": "data/client_sales.csv",
     "client_waste_path": None,   # e.g. "data/client_waste.csv"
 }
 
@@ -109,7 +114,7 @@ np.random.seed(CONFIG["random_seed"])
 
 # "synthetic" for your example PDF
 # "client" when you have real files + paths set above
-DATA_SOURCE = "synthetic"
+DATA_SOURCE = "client"
 
 # %% [markdown]
 # ## 2. Synthetic Data Generators
@@ -591,12 +596,70 @@ DEFAULT_WASTE_COLUMN_MAP = {
     "Qty": "waste_qty",
 }
 
+# Category normalization mapping (handles common variations)
+CATEGORY_NORMALIZATION_MAP = {
+    "main": "Mains",
+    "mains": "Mains",
+    "main dishes": "Mains",
+    "main dish": "Mains",
+    "entrees": "Mains",
+    "entree": "Mains",
+    "starter": "Starters",
+    "starters": "Starters",
+    "appetizer": "Starters",
+    "appetizers": "Starters",
+    "dessert": "Desserts",
+    "desserts": "Desserts",
+    "sweet": "Desserts",
+    "sweets": "Desserts",
+    "side": "Sides",
+    "sides": "Sides",
+    "side dishes": "Sides",
+    "side dish": "Sides",
+    "drink": "Drinks",
+    "drinks": "Drinks",
+    "beverage": "Drinks",
+    "beverages": "Drinks",
+}
+
+def normalize_category_name(category: str) -> str:
+    """Normalize category names to standard format with typo tolerance."""
+    if pd.isna(category) or not category:
+        return "Uncategorized"
+    
+    # Strip whitespace and lowercase for matching
+    clean = str(category).strip().lower()
+    
+    # Try exact match first
+    if clean in CATEGORY_NORMALIZATION_MAP:
+        return CATEGORY_NORMALIZATION_MAP[clean]
+    
+    # Try fuzzy matching for typos (e.g., "mainss" -> "Mains")
+    from difflib import get_close_matches
+    matches = get_close_matches(clean, CATEGORY_NORMALIZATION_MAP.keys(), n=1, cutoff=0.8)
+    if matches:
+        return CATEGORY_NORMALIZATION_MAP[matches[0]]
+    
+    # If no match, return title-cased original (preserve unique categories)
+    return category.strip().title()
+
 
 def _read_any_table(path: str) -> pd.DataFrame:
+    """Read CSV/Excel with robust encoding handling and error reporting."""
     if path.lower().endswith((".xlsx", ".xls")):
         return pd.read_excel(path)
     else:
-        return pd.read_csv(path)
+        # Try UTF-8 with BOM first (handles Excel exports)
+        try:
+            df = pd.read_csv(path, encoding='utf-8-sig', on_bad_lines='warn')
+            return df
+        except UnicodeDecodeError:
+            # Fallback to latin-1 (handles legacy Windows files)
+            print(f"⚠️  UTF-8 decode failed, trying latin-1 encoding for {path}")
+            df = pd.read_csv(path, encoding='latin-1', on_bad_lines='warn')
+            return df
+        except Exception as e:
+            raise ValueError(f"Failed to read {path}: {str(e)}")
 
 
 def load_client_menu_and_sales(config: dict,
@@ -624,44 +687,145 @@ def load_client_menu_and_sales(config: dict,
     missing_menu = [c for c in REQUIRED_MENU_COLUMNS if c not in menu_df.columns]
     missing_sales = [c for c in REQUIRED_SALES_COLUMNS if c not in sales_df.columns]
     if missing_menu:
-        raise ValueError(f"Menu file missing columns: {missing_menu}")
+        available = list(menu_raw.columns)
+        raise ValueError(
+            f"❌ CRITICAL: Menu file missing required columns: {missing_menu}\n"
+            f"Available columns: {available}\n"
+            f"Please check column names match exactly or add to DEFAULT_MENU_COLUMN_MAP"
+        )
     if missing_sales:
-        raise ValueError(f"Sales file missing columns: {missing_sales}")
+        available = list(sales_raw.columns)
+        raise ValueError(
+            f"❌ CRITICAL: Sales file missing required columns: {missing_sales}\n"
+            f"Available columns: {available}\n"
+            f"Please check column names match exactly or add to DEFAULT_SALES_COLUMN_MAP"
+        )
 
     menu_df = menu_df.copy()
-    menu_df["category"] = menu_df["category"].astype(str).str.strip()
+    
+    # Normalize categories to fix case/typo issues
+    menu_df["category"] = menu_df["category"].apply(normalize_category_name)
     menu_df["item_name"] = menu_df["item_name"].astype(str).str.strip()
+    
+    # Check for empty categories BEFORE proceeding
+    empty_cats = (menu_df["category"] == "Uncategorized").sum()
+    if empty_cats > 0:
+        raise ValueError(
+            f"❌ CRITICAL: {empty_cats} menu items have missing/empty category.\n"
+            f"All items must have a valid category for analysis."
+        )
 
+    # Track original row count for quality reporting
+    original_menu_rows = len(menu_df)
+    
     for col in ["sell_price", "cost_per_unit"]:
+        # Strip all common currency symbols, not just CONFIG currency
         menu_df[col] = (
             menu_df[col]
             .astype(str)
-            .str.replace(CONFIG["currency"], "", regex=False)
+            .str.replace(r"[£$€¥USD GBP EUR]", "", regex=True)
             .str.replace(",", "", regex=False)
+            .str.strip()
         )
+        # Track conversion failures
+        original_vals = menu_df[col].copy()
         menu_df[col] = pd.to_numeric(menu_df[col], errors="coerce")
+        failed_conversions = menu_df[col].isna().sum() - original_vals.isna().sum()
+        if failed_conversions > 0:
+            print(f"⚠️  WARNING: {failed_conversions} rows had invalid {col} values (set to NaN)")
 
+    # Track dropped rows
+    before_drop = len(menu_df)
     menu_df = menu_df.dropna(subset=["sell_price", "cost_per_unit"])
+    dropped_rows = before_drop - len(menu_df)
+    if dropped_rows > 0:
+        pct_dropped = (dropped_rows / original_menu_rows) * 100
+        if pct_dropped > 5:
+            raise ValueError(
+                f"❌ CRITICAL: Dropped {dropped_rows} menu items ({pct_dropped:.1f}%) due to missing price/cost.\n"
+                f"This is too many rows to proceed safely. Please fix source data."
+            )
+        else:
+            print(f"⚠️  WARNING: Dropped {dropped_rows} menu items ({pct_dropped:.1f}%) with missing price/cost")
+    # C1.2 + H1.2: Check for duplicate item names BEFORE assigning IDs
+    duplicates = menu_df[menu_df.duplicated(subset=["item_name"], keep=False)]
+    if len(duplicates) > 0:
+        dup_names = duplicates["item_name"].unique()
+        raise ValueError(
+            f"❌ CRITICAL: {len(dup_names)} duplicate item names found in menu: {list(dup_names)[:5]}\n"
+            f"Each item must have a unique name. Please fix source data or merge duplicate entries."
+        )
+    
     menu_df["item_id"] = range(1, len(menu_df) + 1)
 
+    # C2.1: Division by zero protection for GP calculations
     menu_df["gp_per_unit"] = (menu_df["sell_price"] - menu_df["cost_per_unit"]).round(2)
-    menu_df["gp_pct"] = menu_df["gp_per_unit"] / menu_df["sell_price"]
-    menu_df["cost_pct"] = menu_df["cost_per_unit"] / menu_df["sell_price"]
+    menu_df["gp_pct"] = np.where(
+        menu_df["sell_price"] > 0,
+        menu_df["gp_per_unit"] / menu_df["sell_price"],
+        0.0
+    )
+    menu_df["cost_pct"] = np.where(
+        menu_df["sell_price"] > 0,
+        menu_df["cost_per_unit"] / menu_df["sell_price"],
+        0.0
+    )
 
-    sales_df = sales_df.copy()
-    sales_df["item_name"] = sales_df["item_name"].astype(str).str.strip()
+    # H1.3: Track date parsing failures
+    original_sales_rows = len(sales_df)
     sales_df["order_datetime"] = pd.to_datetime(sales_df["order_datetime"], errors="coerce")
+    unparseable_dates = sales_df["order_datetime"].isna().sum()
+    
+    if unparseable_dates > 0:
+        pct_failed = (unparseable_dates / original_sales_rows) * 100
+        print(f"⚠️  WARNING: {unparseable_dates} rows ({pct_failed:.1f}%) have unparseable dates")
+        if pct_failed > 5:
+            raise ValueError(
+                f"❌ CRITICAL: {pct_failed:.1f}% of dates failed to parse. This is too high to proceed.\n"
+                f"Check date format in sales file. Expected formats: YYYY-MM-DD, DD/MM/YYYY, MM/DD/YYYY"
+            )
+    
     sales_df = sales_df.dropna(subset=["order_datetime"])
 
     sales_df["qty"] = pd.to_numeric(sales_df["qty"], errors="coerce").fillna(0).astype(int)
     sales_df = sales_df[sales_df["qty"] > 0]
 
+    # C2.5 + S9.1: CRITICAL FIX - Use LEFT join to preserve all sales, audit unmatched items
+    before_merge_count = len(sales_df)
     sales_df = sales_df.merge(
         menu_df[["item_id", "item_name"]],
         on="item_name",
-        how="inner"
+        how="left",  # CHANGED FROM INNER - preserves all sales
+        indicator=True  # Track merge quality
     )
-
+    
+    # Audit merge quality
+    unmatched_sales = sales_df[sales_df["_merge"] == "left_only"]
+    if len(unmatched_sales) > 0:
+        pct_unmatched = (len(unmatched_sales) / before_merge_count) * 100
+        unmatched_items = unmatched_sales["item_name"].value_counts().head(10)
+        
+        print(f"⚠️  WARNING: {len(unmatched_sales)} sales rows ({pct_unmatched:.1f}%) not found in menu:")
+        for item, count in unmatched_items.items():
+            print(f"    • {item}: {count} orders")
+        
+        if pct_unmatched > 20:
+            raise ValueError(
+                f"❌ CRITICAL: {pct_unmatched:.1f}% of sales don't match menu items.\n"
+                f"This suggests:  1) Menu file is incomplete, or\n"
+                f"              2) Item names don't match between files (check spelling/case), or\n"
+                f"              3) Sales data includes removed/seasonal items\n"
+                f"Please fix before proceeding."
+            )
+        else:
+            # Create "Unknown" category for unmatched items
+            max_id = menu_df["item_id"].max()
+            unknown_items = unmatched_sales["item_name"].unique()
+            for i, unknown_item in enumerate(unknown_items):
+                sales_df.loc[sales_df["item_name"] == unknown_item, "item_id"] = max_id + i + 1
+            print(f"    → Created temporary IDs for {len(unknown_items)} unknown items")
+    
+    sales_df = sales_df.drop(columns=["_merge"])
     sales_df = sales_df.reset_index(drop=True)
     sales_df["order_line_id"] = range(1, len(sales_df) + 1)
 
@@ -688,12 +852,27 @@ def load_client_waste(config: dict,
     waste_df["item_name"] = waste_df["item_name"].astype(str).str.strip()
     waste_df["waste_qty"] = pd.to_numeric(waste_df["waste_qty"], errors="coerce").fillna(0)
 
+    # C1.7: CRITICAL FIX - Use LEFT join to preserve all waste records, audit unmatched
+    before_merge = len(waste_df)
     waste_df = waste_df.merge(
         menu_df[["item_id", "item_name", "cost_per_unit"]],
         on="item_name",
-        how="inner"
+        how="left",  # CHANGED FROM INNER - preserves all waste records
+        indicator=True
     )
-
+    
+    # Audit merge quality
+    unmatched_waste = waste_df[waste_df["_merge"] == "left_only"]
+    if len(unmatched_waste) > 0:
+        pct_unmatched = (len(unmatched_waste) / before_merge) * 100
+        unmatched_items = unmatched_waste["item_name"].unique()
+        print(f"⚠️  WARNING: {len(unmatched_waste)} waste records ({pct_unmatched:.1f}%) not found in menu:")
+        for item in unmatched_items[:5]:
+            print(f"    • {item}")
+        print("    These waste records will be excluded from analysis (no cost data available)")
+    
+    waste_df = waste_df.drop(columns=["_merge"])
+    waste_df = waste_df.dropna(subset=["item_id", "cost_per_unit"])  # Drop unmatched records
     waste_df["waste_cost"] = waste_df["waste_qty"] * waste_df["cost_per_unit"]
 
     return waste_df[["item_id", "waste_qty", "waste_cost"]]
@@ -906,7 +1085,13 @@ def build_menu_performance(menu_df: pd.DataFrame,
 
     # Waste-adjusted GP
     df["gp_after_waste"] = df["gross_profit"] - df["waste_cost"]
-    df["gp_pct"] = df["gp_per_unit"] / df["sell_price"]
+    
+    # C2.1: Division-by-zero protection
+    df["gp_pct"] = np.where(
+        df["sell_price"] > 0,
+        df["gp_per_unit"] / df["sell_price"],
+        0.0
+    )
     df["gp_pct_after_waste"] = np.where(
         df["revenue"] > 0,
         df["gp_after_waste"] / df["revenue"],
@@ -957,9 +1142,24 @@ def build_menu_performance(menu_df: pd.DataFrame,
 
     df["gp_vs_cat_pct_points"] = (df["gp_pct"] - df["cat_avg_gp_pct"]) * 100
 
+    # C3.1: Size-aware thresholds for menu engineering
+    menu_size = len(df)
+    if menu_size < 30:  # Small restaurant
+        high_volume_quantile = 0.70  # Top 30% (e.g., top 9 of 30 items)
+        high_margin_quantile = 0.70
+        print(f"ℹ️  Small menu ({menu_size} items): Using top 30% thresholds for Stars")
+    elif menu_size < 80:  # Medium restaurant
+        high_volume_quantile = 0.60  # Top 40% (e.g., top 32 of 80 items)
+        high_margin_quantile = 0.60
+        print(f"ℹ️  Medium menu ({menu_size} items): Using top 40% thresholds for Stars")
+    else:  # Large restaurant
+        high_volume_quantile = config.get("high_volume_quantile", 0.50)  # Top 50%
+        high_margin_quantile = config.get("high_margin_quantile", 0.50)
+        print(f"ℹ️  Large menu ({menu_size} items): Using top 50% thresholds for Stars")
+
     # Thresholds
-    vol_threshold = df["units_sold"].quantile(config["high_volume_quantile"])
-    gp_threshold = df["gp_pct"].quantile(config["high_margin_quantile"])
+    vol_threshold = df["units_sold"].quantile(high_volume_quantile)
+    gp_threshold = df["gp_pct"].quantile(high_margin_quantile)
 
     df["is_high_volume"] = df["units_sold"] >= vol_threshold
     df["is_high_margin"] = df["gp_pct"] >= gp_threshold
@@ -1011,10 +1211,14 @@ def build_menu_performance(menu_df: pd.DataFrame,
     summary = {
         "total_revenue": total_rev,
         "total_gp": total_gp,
+        "total_gp_before_waste": total_gp,  # Alias for consistency
         "total_gp_after_waste": total_gp_after_waste,
         "avg_gp_pct": (total_gp / total_rev) if total_rev > 0 else 0.0,
+        "avg_gp_pct_before_waste": (total_gp / total_rev) if total_rev > 0 else 0.0,  # Alias
         "avg_gp_pct_after_waste": (total_gp_after_waste / total_rev) if total_rev > 0 else 0.0,
         "total_waste_cost": total_waste_cost,
+        "total_units_sold": int(df["units_sold"].sum()),
+        "days_of_data": 0,  # Will be filled from diagnostics in insight graph builder
     }
 
     cat_summary = (
@@ -1241,7 +1445,7 @@ def apply_cost_inflation_scenario(perf_df: pd.DataFrame,
 
 
 def run_scenarios(perf_df: pd.DataFrame, config: dict) -> dict:
-    elasticity = config["elasticity_default"]
+    elasticity = config["price_elasticity_assumption"]
     scenarios = {}
 
     premium_filter = (
@@ -2233,6 +2437,107 @@ def build_time_performance(orders_df: pd.DataFrame,
     return time_summary, notes
 
 
+# =============================================================================
+# HELPER FUNCTIONS FOR TABLE FORMATTING (Phase 1 Integration)
+# =============================================================================
+
+def format_category_performance_table(cat_summary_df: pd.DataFrame, config: dict) -> str:
+    """Format category performance as markdown table."""
+    if cat_summary_df.empty:
+        return "No category data available."
+    
+    cat_copy = cat_summary_df.copy()
+    cat_copy["gp_pct"] = cat_copy["gp_pct"] * 100
+    cat_copy["gp_pct_after_waste"] = cat_copy["gp_pct_after_waste"] * 100
+    
+    return to_markdown_table(
+        cat_copy,
+        ["category", "units_sold", "total_revenue", "total_gp",
+         "total_gp_after_waste", "total_waste", "gp_pct", "gp_pct_after_waste"],
+        index=False,
+    )
+
+def format_top_margin_items_table(perf_df: pd.DataFrame, config: dict) -> str:
+    """Format top margin items as markdown table."""
+    if perf_df.empty:
+        return "No performance data available."
+    
+    top_items = perf_df.head(10)
+    cols = ["item_name", "category", "units_sold", "revenue",
+            "gross_profit", "gp_after_waste", "waste_cost",
+            "gp_pct", "gp_pct_after_waste", "menu_engineering_class"]
+    
+    return to_markdown_table(top_items, cols, index=False)
+
+def format_menu_class_table(perf_df: pd.DataFrame, menu_class: str, config: dict) -> str:
+    """Format menu engineering class items as markdown table."""
+    if perf_df.empty:
+        return f"No {menu_class} items found."
+    
+    items = perf_df[perf_df["menu_engineering_class"] == menu_class].head(10)
+    if items.empty:
+        return f"No {menu_class} items found."
+    
+    cols = ["item_name", "category", "units_sold", "revenue",
+            "gross_profit", "gp_after_waste", "waste_cost",
+            "gp_pct", "gp_pct_after_waste"]
+    
+    return to_markdown_table(items, cols, index=False)
+
+def format_top_waste_items_table(perf_df: pd.DataFrame, config: dict) -> str:
+    """Format top waste items as markdown table."""
+    if perf_df.empty:
+        return "No waste data available."
+    
+    top_waste = perf_df.sort_values("waste_cost", ascending=False).head(10)
+    cols = ["item_name", "category", "units_sold", "waste_cost",
+            "gp_after_waste", "gp_pct_after_waste"]
+    
+    return to_markdown_table(top_waste, cols, index=False)
+
+def format_staff_performance_table(staff_perf_df: pd.DataFrame, config: dict) -> str:
+    """Format staff performance as markdown table."""
+    if staff_perf_df.empty:
+        return "No staff data available."
+    
+    return to_markdown_table(
+        staff_perf_df.head(20),
+        ["staff_name", "role", "orders_handled", "units_sold", "revenue", "gp", "revenue_per_hour", "gp_per_hour"],
+        index=False,
+    )
+
+def format_booking_summary_table(booking_summary_df: pd.DataFrame, config: dict) -> str:
+    """Format booking summary as markdown table."""
+    if booking_summary_df.empty:
+        return "No booking data available."
+    
+    return to_markdown_table(
+        booking_summary_df,
+        ["day_of_week", "booking_count", "total_covers", "avg_covers_per_booking", "no_show_rate_pct"],
+        index=False,
+    )
+
+def format_scenario_summaries(scenarios: dict, config: dict) -> str:
+    """Format scenario analysis as readable text block."""
+    currency = config.get("currency", "£")
+    lines = []
+    
+    for scenario_name, scenario_data in scenarios.items():
+        lines.append(f"\n{scenario_name}:")
+        lines.append(f"  {scenario_data.get('label', '')}")
+        # Use correct key names from apply_price_change_scenario and apply_cost_inflation_scenario
+        gp_change = scenario_data.get('delta_gp_after_waste', 0)
+        revenue_change = scenario_data.get('delta_revenue', 0)
+        lines.append(f"  GP Impact: {currency}{gp_change:,.0f}")
+        lines.append(f"  Revenue Impact: {currency}{revenue_change:,.0f}")
+    
+    return "\n".join(lines) if lines else "No scenario data available."
+
+
+# =============================================================================
+# GPT EXPORT BLOCK V1 (Legacy - Keep for Backward Compatibility)
+# =============================================================================
+
 def build_gpt_export_block(perf_df: pd.DataFrame,
                            summary_metrics: dict,
                            cat_summary_df: pd.DataFrame,
@@ -2478,9 +2783,54 @@ def run_full_analysis_v2(config: dict = CONFIG, data_source: str = "synthetic") 
     data_quality_diagnostics, data_quality_notes = build_data_quality_report(
         menu_df, orders_df, waste_df, staff_df, bookings_df
     )
+    
+    # Update summary_metrics with days_of_data from diagnostics
+    if "num_days_covered" in data_quality_diagnostics:
+        summary_metrics["days_of_data"] = data_quality_diagnostics["num_days_covered"]
 
-    # GPT export block
-    gpt_export_block = build_gpt_export_block(
+    # Build formatted tables for GPT export
+    results_dict = {
+        "perf_df": perf_df,
+        "cat_summary_df": cat_summary_df,
+        "summary_metrics": summary_metrics,
+        "data_quality_diagnostics": data_quality_diagnostics,
+        "scenarios": scenarios,  # Add raw scenarios dict with numeric data
+        "config": config,
+        "restaurant_name": config.get("restaurant_name"),
+        "period_label": config.get("period_label"),
+    }
+    
+    # Add formatted tables from old export block (for backward compatibility)
+    results_dict.update({
+        "category_performance_table": format_category_performance_table(cat_summary_df, config),
+        "top_margin_items_table": format_top_margin_items_table(perf_df, config),
+        "menu_stars_table": format_menu_class_table(perf_df, "Star", config),
+        "menu_plowhorses_table": format_menu_class_table(perf_df, "Plowhorse", config),
+        "menu_puzzles_table": format_menu_class_table(perf_df, "Puzzle", config),
+        "menu_dogs_table": format_menu_class_table(perf_df, "Dog", config),
+        "top_waste_items_table": format_top_waste_items_table(perf_df, config),
+        "scenario_summaries": format_scenario_summaries(scenarios, config),
+    })
+    
+    # Add optional tables if data available
+    if not staff_perf_df.empty:
+        results_dict["staff_performance_table"] = format_staff_performance_table(staff_perf_df, config)
+    if not booking_summary_df.empty:
+        results_dict["booking_summary_table"] = format_booking_summary_table(booking_summary_df, config)
+
+    # Build Phase 1 Insight Graph
+    insight_graph = insights_module.build_phase1_insight_graph(results_dict)
+    
+    # Build GPT export block v2 with insights
+    gpt_export_block = insights_module.build_gpt_export_block_v2(
+        meta=config,
+        results=results_dict,
+        insight_graph=insight_graph,
+        charts=None,  # Will be populated after chart generation
+    )
+    
+    # Keep old export block for backward compatibility
+    gpt_export_block_v1 = build_gpt_export_block(
         perf_df=perf_df,
         summary_metrics=summary_metrics,
         cat_summary_df=cat_summary_df,
@@ -2507,10 +2857,13 @@ def run_full_analysis_v2(config: dict = CONFIG, data_source: str = "synthetic") 
         "scenarios": scenarios,
         "opportunities": opportunities,
         "risks": risks,
-        "gpt_export_block": gpt_export_block,
+        "insight_graph": insight_graph,  # Phase 1 intelligence structure
+        "gpt_export_block": gpt_export_block,  # v2 with insights
+        "gpt_export_block_v1": gpt_export_block_v1,  # Legacy format
         "data_quality_diagnostics": data_quality_diagnostics,
         "data_quality_notes": data_quality_notes,
         "validation_result": validation_result,  # Include validation for reference
+        "config": config,  # Include config for reference
     }
 
 
@@ -2530,7 +2883,7 @@ if __name__ == "__main__":
     import json
     import os
 
-    results = run_full_analysis_v2()
+    results = run_full_analysis_v2(data_source=DATA_SOURCE)
     out_dir = "output"
     os.makedirs(out_dir, exist_ok=True)
 
@@ -2544,14 +2897,26 @@ if __name__ == "__main__":
 
     # JSON/text outputs
     with open(os.path.join(out_dir, "summary_metrics.json"), "w") as f:
-        json.dump(results["summary_metrics"], f, indent=2)
+        json.dump(results["summary_metrics"], f, indent=2, default=str)
 
-    with open(os.path.join(out_dir, "gpt_export_block.txt"), "w") as f:
+    with open(os.path.join(out_dir, "gpt_export_block.txt"), "w", encoding="utf-8") as f:
         f.write(results["gpt_export_block"])
+    
+    with open(os.path.join(out_dir, "gpt_export_block_v1.txt"), "w", encoding="utf-8") as f:
+        f.write(results["gpt_export_block_v1"])
     
     # Save validation results
     with open(os.path.join(out_dir, "validation_report.json"), "w") as f:
         json.dump(results["validation_result"], f, indent=2, default=str)
+    
+    # Save insight graph as JSON
+    from dataclasses import asdict
+    insight_graph_dict = asdict(results["insight_graph"])
+    with open(os.path.join(out_dir, "insight_graph.json"), "w", encoding="utf-8") as f:
+        json.dump(insight_graph_dict, f, indent=2)
 
     print(f"Wrote analysis outputs to '{out_dir}/'")
     print(f"  - Validation report: {out_dir}/validation_report.json")
+    print(f"  - Insight graph: {out_dir}/insight_graph.json")
+    print(f"  - GPT export v2: {out_dir}/gpt_export_block.txt")
+    print(f"  - GPT export v1 (legacy): {out_dir}/gpt_export_block_v1.txt")
